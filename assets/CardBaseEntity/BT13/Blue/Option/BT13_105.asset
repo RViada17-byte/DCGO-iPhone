@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT13_105
+  m_EditorClassIdentifier: 
+  CardIndex: 2775
+  cardColors: 01000000
+  PlayCost: 8
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: "\u30D5\u30EB\u30E0\u30FC\u30F3\u30E1\u30C6\u30AA\u30A4\u30F3\u30D1\u30AF\u30C8"
+  CardName_ENG: Full Moon Meteor Impact
+  Form_JPN: []
+  Form_ENG: []
+  Attribute_JPN: []
+  Attribute_ENG: []
+  Type_JPN: []
+  Type_ENG: []
+  CardSpriteName: BT13-105
+  cardKind: 2
+  EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u624B\u672D\u306B\u623B\u3059\u3002\u305D\u306E\u5F8C\u3001\u76F8\u624B\u306E\u624B\u672D4\u679A\u3054\u3068\u306B\u3001\u30E1\u30E2\u30EA\u30FC+1\u3002"
+  EffectDiscription_ENG: '[Main] Return 1 of your opponent''s Digimon to the hand.
+    Then, gain 1 memory for every 4 cards in your opponent''s hand.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u624B\u672D\u306B\u623B\u3059\u3002"
+  SecurityEffectDiscription_ENG: '[Security] Return 1 of your opponent''s Digimon
+    to the hand.'
+  CardEffectClassName: BT13_105
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: BT13-105
+  MaxCountInDeck: 4

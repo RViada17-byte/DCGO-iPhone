@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT11_051
+  m_EditorClassIdentifier: 
+  CardIndex: 2324
+  cardColors: 03000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 3
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: "\u30AA\u30FC\u30AC\u30E2\u30F3"
+  CardName_ENG: Ogremon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u9B3C\u4EBA\u578B"
+  Type_ENG:
+  - Demon
+  CardSpriteName: BT11-051
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: 
+  DP: 7000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT11-051
+  MaxCountInDeck: 4

@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT23_039
+  m_EditorClassIdentifier: 
+  CardIndex: 7371
+  cardColors: 03000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 3
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: 
+  CardName_ENG: Perorimon
+  Form_JPN: []
+  Form_ENG:
+  - Stnd.
+  - Appmon
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Entertainment
+  Type_JPN: []
+  Type_ENG:
+  - Gourmet
+  CardSpriteName: BT23-039
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.2 w/[Appmon]\_trait: Cost 0 \n\n[On Play]
+    Reveal the top 3 cards of your deck. Add 1 card with the [Appmon]\_trait and
+    1 card with the [Game] or [Invincible (App Name)]\_trait among them to the hand.
+    Return the rest to the bottom of the deck."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT23_039
+  DP: 1000
+  rarity: 0
+  OverflowMemory: 0
+  LinkDP: 2000
+  LinkEffect: '[When Linking] You may suspend 1 of your opponent''s Digimon.'
+  LinkRequirement: "[Link] [Appmon]\_trait: Cost 1 "
+  CardID: BT23-039
+  MaxCountInDeck: 4

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT24_097
+  m_EditorClassIdentifier: 
+  CardIndex: 7640
+  cardColors: 06000000
+  PlayCost: 5
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Soul Fear
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - TS
+  CardSpriteName: BT24-097
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "While you have an [TS]\_trait Digimon or Tamer on the field,
+    you can ignore this card's color requirements.\n[Security] Activate this card's
+    [Main] effects.\n[Main] Delete 1 of your opponent's level 6 or higher Digimon.
+    Then, you may link this card to 1 of your Digimon on the field without paying
+    the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT24_097
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 2000
+  LinkEffect: '[When Attacking] [Once Per Turn] Delete 1 of your opponent''s level
+    5 or lower Digimon.'
+  LinkRequirement: "[Link] [TS]\_trait: Cost 3 "
+  CardID: BT24-097
+  MaxCountInDeck: 4

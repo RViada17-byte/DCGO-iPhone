@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT13_098_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4617
+  cardColors: 02000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Richard Sampson
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Tamer
+  CardSpriteName: BT13-098_P0
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 'When an effect trashes this card from the security stack,
+    you may play this card without paying the cost.
+
+    [Start of Your Main Phase]
+    If there''re 6 or fewer total cards in both players'' security stacks, gain 1
+    memory.
+
+    [Main]If there''re 6 or fewer total cards in both players'' security
+    stacks, by suspending this tamer, 1 of your [Kudamon]may digivolve into [Kentaurosmon]
+    in the hand for the digivolution cost, ignoring it''s level.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying the cost.'
+  CardEffectClassName: BT13_098
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT13-098
+  MaxCountInDeck: 4

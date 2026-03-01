@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT5_030
+  m_EditorClassIdentifier: 
+  CardIndex: 977
+  cardColors: 01000000
+  PlayCost: 10
+  EvoCosts:
+  - CardColor: 1
+    Level: 5
+    MemoryCost: 2
+  Level: 6
+  CardName_JPN: "\u30CD\u30D7\u30C8\u30A5\u30FC\u30F3\u30E2\u30F3"
+  CardName_ENG: Neptunemon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u795E\u4EBA\u578B"
+  - "\u30AA\u30EA\u30F3\u30DD\u30B9\u5341\u4E8C\u795E"
+  Type_ENG:
+  - Shaman
+  - Olympos XII
+  CardSpriteName: BT5-030
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u30A2\u30BF\u30C3\u30AF\u3055\u308C\u306A\u3044\u3002"
+  EffectDiscription_ENG: '[Opponent''s Turn] This Digimon can''t be attacked.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT5_030
+  DP: 10000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT5-030
+  MaxCountInDeck: 4

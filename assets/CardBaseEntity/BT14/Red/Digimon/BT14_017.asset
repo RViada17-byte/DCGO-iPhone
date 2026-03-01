@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT14_017
+  m_EditorClassIdentifier: 
+  CardIndex: 2936
+  cardColors: 00000000
+  PlayCost: 11
+  EvoCosts:
+  - CardColor: 0
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: "\u30C7\u30A3\u30CE\u30EC\u30AF\u30B9\u30E2\u30F3"
+  CardName_ENG: Dinorexmon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u6050\u7ADC\u578B"
+  - "X\u6297\u4F53"
+  Type_ENG:
+  - Dinosaur
+  - X Antibody
+  CardSpriteName: BT14-017
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u226A\u9032\u6483\u226B\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\u30E1\u30E2\u30EA\u30FC\u304C\u76F8\u624B\u5074\u306E1\u4EE5\u4E0A\u306E\u9593\u3001DP6000\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u767B\u5834\u3067\u304D\u305A\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092DP+4000\u3002"
+  EffectDiscription_ENG: "[When Digivolving] \uFF1CBlitz\uFF1E [All Turns] While
+    your opponent has 1 or more memory, they can't play Digimon with 6000 DP or less,
+    and this Digimon gets +4000 DP."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT14_017
+  DP: 11000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT14-017
+  MaxCountInDeck: 4

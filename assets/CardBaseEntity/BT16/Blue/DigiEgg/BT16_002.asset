@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT16_002
+  m_EditorClassIdentifier: 
+  CardIndex: 3302
+  cardColors: 01000000
+  PlayCost: -1
+  EvoCosts: []
+  Level: 2
+  CardName_JPN: "\u30C1\u30D3\u30E2\u30F3"
+  CardName_ENG: DemiVeemon
+  Form_JPN:
+  - "\u5E7C\u5E74\u671F"
+  Form_ENG:
+  - In-Training
+  Attribute_JPN:
+  - '-'
+  Attribute_ENG: []
+  Type_JPN:
+  - "\u5E7C\u7ADC\u578B"
+  Type_ENG:
+  - Baby Dragon
+  CardSpriteName: BT16-002
+  cardKind: 3
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 
+  InheritedEffectDiscription_JPN: "\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C2\u8272\u4EE5\u4E0A\u306E\u9593,\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092DP+1000\u3002\r"
+  InheritedEffectDiscription_ENG: '[All Turns] While this Digimon has 2 or more colors,
+    it gets +1000 DP.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT16_002
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: BT16-002
+  MaxCountInDeck: 4

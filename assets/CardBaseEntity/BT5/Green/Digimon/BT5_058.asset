@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT5_058
+  m_EditorClassIdentifier: 
+  CardIndex: 1016
+  cardColors: 03000000
+  PlayCost: 13
+  EvoCosts:
+  - CardColor: 3
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: "\u30A2\u30EB\u30B4\u30E2\u30F3"
+  CardName_ENG: Argomon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u7A81\u7136\u5909\u7570\u578B"
+  Type_ENG:
+  - Mutant
+  CardSpriteName: BT5-058
+  cardKind: 0
+  EffectDiscription_JPN: "\u226A\u5438\u53CE\u9032\u5316-2\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u624B\u672D\u306E\u3053\u306E\u30AB\u30FC\u30C9\u306B\u9032\u5316\u3059\u308B\u3068\u304D\u3001\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u30EC\u30B9\u30C8\u3055\u305B\u308B\u3053\u3068\u3067\u3001\u652F\u6255\u3046\u9032\u5316\u30B3\u30B9\u30C8\u3092-2\u3059\u308B\uFF09\u3010\u9032\u5316\u6642\u3011\u76F8\u624B\u306E\u30C6\u30A4\u30DE\u30FC\u5168\u3066\u3092\u30EC\u30B9\u30C8\u3055\u305B\u308B\u3002\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\u76F8\u624B\u306E\u30C6\u30A4\u30DE\u30FC\u5168\u3066\u306F\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u306A\u3089\u306A\u3044\u3002"
+  EffectDiscription_ENG: "\uFF1CDigisorption -2\uFF1E (When one of your Digimon digivolves
+    into this card from your hand, you may suspend 1 of your Digimon to reduce the
+    memory cost of the digivolution by 2.)[When Digivolving] Suspend all of your
+    opponent's Tamers.[All Turns] Your opponent's Tamers don't unsuspend."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT5_058
+  DP: 11000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT5-058
+  MaxCountInDeck: 4

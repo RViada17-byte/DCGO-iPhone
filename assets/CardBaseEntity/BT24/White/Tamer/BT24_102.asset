@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT24_102
+  m_EditorClassIdentifier: 
+  CardIndex: 7648
+  cardColors: 04000000
+  PlayCost: 5
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Homeros
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Iliad
+  - TS
+  CardSpriteName: BT24-102
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Start of Your Main Phase] Gain 1 memory. Then, if you
+    have 5 or more memory, suspend this Tamer and \uFF1CDraw 1\uFF1E \n[All Turns]
+    All of your [TS]\_trait Digimon get +1000 DP.\n[End of Your Turn] By suspending
+    this Tamer, you may activate 1 [On Play] or [When Digivolving] effect of 1 of
+    your [Olympos XII]\_trait Digimon."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying the cost.'
+  CardEffectClassName: BT24_102
+  DP: 0
+  rarity: 4
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT24-102
+  MaxCountInDeck: 4

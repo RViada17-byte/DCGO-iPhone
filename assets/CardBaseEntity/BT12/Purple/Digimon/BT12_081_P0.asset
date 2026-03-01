@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT12_081_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4529
+  cardColors: 06000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 6
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Astamon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Wizard
+  CardSpriteName: BT12-081_P0
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve][Psychemon]: Cost 5 [Digivolve]yellow, green,
+    or purple Lv.4 w/\uFF1CSave\uFF1E\_in its text: Cost 3 \n\n[When Digivolving]
+    You may play 1 level 4 or lower Digimon card with \uFF1CSave\uFF1E\_in its text
+    from under one of your Tamers without paying the cost. If this Digimon has 4
+    or more digivolution cards, it may digivolve into [Quartzmon] in your hand or
+    from under one of your Tamers and reduce the digivolution cost by 3 instead."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[When Attacking] [Once Per Turn] If this Digimon
+    has \uFF1CSave\uFF1E\_in its text, \uFF1CDraw 1\uFF1E."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT12_081
+  DP: 7000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT12-081
+  MaxCountInDeck: 4

@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT13_005
+  m_EditorClassIdentifier: 
+  CardIndex: 2647
+  cardColors: 05000000
+  PlayCost: -1
+  EvoCosts: []
+  Level: 2
+  CardName_JPN: "\u30C9\u30EA\u30E2\u30F3"
+  CardName_ENG: Dorimon
+  Form_JPN:
+  - "\u5E7C\u5E74\u671F"
+  Form_ENG:
+  - In-Training
+  Attribute_JPN: []
+  Attribute_ENG: []
+  Type_JPN:
+  - "\u30EC\u30C3\u30B5\u30FC\u578B"
+  - "X\u6297\u4F53"
+  Type_ENG:
+  - Lesser
+  - X Antibody
+  CardSpriteName: BT13-005
+  cardKind: 3
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 
+  InheritedEffectDiscription_JPN: "\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u304C4\u679A\u4EE5\u4E0A\u3042\u308B\u306A\u3089\u3001\u226A1\u30C9\u30ED\u30FC\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u304B\u3089\u30AB\u30FC\u30C9\u30921\u679A\u5F15\u304F\uFF09\u3002"
+  InheritedEffectDiscription_ENG: "[When Attacking] If this Digimon has 4 or more
+    digivolution cards, \uFF1CDraw 1\uFF1E. (Draw 1 card from your deck.)"
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT13_005
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: BT13-005
+  MaxCountInDeck: 4

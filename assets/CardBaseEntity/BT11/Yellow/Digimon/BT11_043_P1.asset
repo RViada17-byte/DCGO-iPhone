@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT11_043_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 4403
+  cardColors: 0200000005000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 2
+    Level: 4
+    MemoryCost: 4
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: KingSukamon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Mutant
+  CardSpriteName: BT11-043_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.4 w/[Sukamon]\_in its name: Cost 3 \n\n[On
+    Play] [When Digivolving] If your opponent has 16 or more cards in their trash,
+    or you have 3 or more cards with [Sukamon]\_in their names in your trash, change
+    1 of your opponent's Digimon into a white Digimon with 3000 DP and an original
+    name of [Sukamon] until the end of your opponent's turn.\n[When Attacking] For
+    each other Digimon with [Sukamon]\_in its name in play, this Digimon gains \uFF1CSecurity
+    Attack +1\uFF1Efor the turn."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[All Turns] When this Digimon would be deleted,
+    by deleting 1 other Digimon with [Sukamon]\_in its name, prevent that deletion."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT11_043
+  DP: 6000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT11-043
+  MaxCountInDeck: 4

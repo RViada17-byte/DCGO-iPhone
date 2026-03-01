@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT12_071
+  m_EditorClassIdentifier: 
+  CardIndex: 2487
+  cardColors: 05000000
+  PlayCost: 13
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 5
+  Level: 6
+  CardName_JPN: "\u30A8\u30F3\u30B7\u30A7\u30F3\u30C8\u30EF\u30A4\u30BA\u30E2\u30F3"
+  CardName_ENG: AncientWisemon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u53E4\u4EE3\u7A81\u7136\u5909\u7570\u578B"
+  - "\u5341\u95D8\u58EB"
+  Type_ENG:
+  - Ancient Mutant
+  - Ten Warriors
+  CardSpriteName: BT12-071
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30A2\u30BF\u30C3\u30AF\u3057\u305F\u3068\u304D\u3001\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u30893\u679A\u30AA\u30FC\u30D7\u30F3\u3067\u304D\u308B\u3002\u305D\u306E\u4E2D\u306E\u9ED2\u306E\u767B\u5834\u30B3\u30B9\u30C86\u4EE5\u4E0B\u306E\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3055\u305B\u308B\u3002\u6B8B\u308A\u306F\u7834\u68C4\u3059\u308B\u3002\u3010\u6D88\u6EC5\u6642\u3011\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u7279\u5FB4\u306B\u300C\u30CF\u30A4\u30D6\u30EA\u30C3\u30C9\u4F53\u300D\u3092\u6301\u3064\u9ED2\u306ELv.4\u4EE5\u4E0B\u306E\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002"
+  EffectDiscription_ENG: '[Opponent''s Turn][Once Per Turn] When an opponent''s Digimon
+    attacks, you may reveal the top 3 cards of your deck. Play 1 black card with
+    a play cost of 6 or less among them without paying its cost. Trash the rest.[On
+    Deletion] You may play 1 black level 4 or lower card with a [Hybrid] trait from
+    your hand without paying its cost.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT12_071
+  DP: 13000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT12-071
+  MaxCountInDeck: 4

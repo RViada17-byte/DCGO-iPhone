@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT3_045
+  m_EditorClassIdentifier: 
+  CardIndex: 658
+  cardColors: 03000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 3
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: "\u30AF\u30CD\u30E2\u30F3"
+  CardName_ENG: Kunemon
+  Form_JPN:
+  - "\u6210\u9577\u671F"
+  Form_ENG:
+  - Rookie
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u5E7C\u866B\u578B"
+  Type_ENG:
+  - Larva
+  CardSpriteName: BT3-045
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: 
+  DP: 4000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT3-045
+  MaxCountInDeck: 4

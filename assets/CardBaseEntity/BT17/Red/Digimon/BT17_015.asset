@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT17_015
+  m_EditorClassIdentifier: 
+  CardIndex: 3555
+  cardColors: 00000000
+  PlayCost: 11
+  EvoCosts:
+  - CardColor: 0
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: WarGreymon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Dragonkin
+  CardSpriteName: BT17-015
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.5 w/[Greymon]\_in its name: Cost 3 \n\nWhen
+    this card would be played, if you have a Tamer with [Tai Kamiya]\_in its name,
+    reduce the play cost by 3.\n[On Play] [When Digivolving] Activate 1 of the effects
+    below:\n\u30FBDelete 1 of your opponent's Digimon with 8000 DP or less.\n\u30FB1
+    of your [Gabumon] may digivolve into [MetalGarurumon] in your hand, ignoring
+    its digivolution requirements and without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[When Attacking] [Once Per Turn] If this Digimon
+    has [Omnimon]\_in its name, trash the top card of your opponent's security stack."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT17_015
+  DP: 11000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT17-015
+  MaxCountInDeck: 4

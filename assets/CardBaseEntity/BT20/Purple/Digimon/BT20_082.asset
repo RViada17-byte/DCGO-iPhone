@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT20_082
+  m_EditorClassIdentifier: 
+  CardIndex: 5161
+  cardColors: 0600000005000000
+  PlayCost: 15
+  EvoCosts:
+  - CardColor: 6
+    Level: 6
+    MemoryCost: 5
+  Level: 7
+  CardName_JPN: 
+  CardName_ENG: DeathXmon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Unanalyzable
+  - X Program
+  CardSpriteName: BT20-082
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "\uFF1CSecurity A. +1\uFF1E.\n\uFF1CReboot\uFF1E.\n\uFF1CBlocker\uFF1E
+    \n[All Turns] When this Digimon would leave the battle area by effects, by returning
+    3 cards with [Dex]/[DeathX]\_in their names from your trash to the bottom of
+    the deck, it doesn't leave.\n[End of All Turns] [Once Per Turn] Delete all Digimon
+    with the lowest level."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT20_082
+  DP: 15000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: BT20-082
+  MaxCountInDeck: 4

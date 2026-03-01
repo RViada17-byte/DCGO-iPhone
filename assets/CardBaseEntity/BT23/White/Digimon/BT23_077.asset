@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT23_077
+  m_EditorClassIdentifier: 
+  CardIndex: 7415
+  cardColors: 04000000
+  PlayCost: 4
+  EvoCosts: []
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Sistermon Ciel
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Puppet
+  - CS
+  CardSpriteName: BT23-077
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "\uFF1CBlocker\uFF1E \n[On Play] Delete 1 of your opponent's
+    Digimon with a play cost of 4 or less.\n[All Turns] When this Digimon suspends,
+    \uFF1CDe-Digivolve 1\uFF1E 1 of your opponent's Digimon. "
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT23_077
+  DP: 4000
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT23-077
+  MaxCountInDeck: 4

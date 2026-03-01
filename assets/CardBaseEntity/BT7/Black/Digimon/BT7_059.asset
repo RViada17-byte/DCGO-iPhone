@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT7_059
+  m_EditorClassIdentifier: 
+  CardIndex: 1467
+  cardColors: 05000000
+  PlayCost: 4
+  EvoCosts:
+  - CardColor: 5
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: "\u30C7\u30C3\u30C9\u30EA\u30FC\u30A2\u30C3\u30AF\u30B9\u30E2\u30F3"
+  CardName_ENG: DeadlyAxemon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u9B54\u7363\u578B"
+  Type_ENG:
+  - Dark Animal
+  CardSpriteName: BT7-059
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u30895\u679A\u30AA\u30FC\u30D7\u30F3\u3059\u308B\u3002\u305D\u306E\u4E2D\u306E\u540D\u79F0\u306B\u300C\u30CA\u30A4\u30C8\u30E2\u30F3\u300D\u3092\u542B\u3080\u30AB\u30FC\u30C92\u679A\u307E\u3067\u3092\u624B\u672D\u306B\u52A0\u3048\u308B\u3002\u6B8B\u3063\u305F\u30AB\u30FC\u30C9\u306F\u597D\u304D\u306A\u9806\u756A\u3067\u30C7\u30C3\u30AD\u306E\u4E0B\u306B\u623B\u3059\u3002"
+  EffectDiscription_ENG: '[On Play] Reveal the top 5 cards of your deck. Add up to
+    2 cards with [Knightmon] in their names among them to your hand. Place the remaining
+    cards at the bottom of your deck in any order.'
+  InheritedEffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u540D\u79F0\u306B\u300C\u30CA\u30A4\u30C8\u30E2\u30F3\u300D\u304B\u300C\u30D0\u30B0\u30E9\u30E2\u30F3\u300D\u3092\u542B\u3080\u9593\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306EDP\u3092+2000\u3059\u308B\u3002"
+  InheritedEffectDiscription_ENG: '[Your Turn] While this Digimon has [Knightmon]
+    or [Bagramon] in its name, it gets +2000 DP.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT7_059
+  DP: 3000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT7-059
+  MaxCountInDeck: 4

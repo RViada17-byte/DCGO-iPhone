@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT4_045
+  m_EditorClassIdentifier: 
+  CardIndex: 823
+  cardColors: 02000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 2
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: "\u30E1\u30A4\u30AF\u30E9\u30C3\u30AF\u30E2\u30F3"
+  CardName_ENG: Maycrackmon
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u7363\u4EBA\u578B"
+  Type_ENG:
+  - Beastkin
+  CardSpriteName: BT4-045
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u3011\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u304C3\u679A\u4EE5\u4E0B\u306E\u9593\u3001\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u30C7\u30B8\u30E2\u30F3\u5168\u3066\u306EDP\u3092+4000\u3059\u308B\u3002"
+  EffectDiscription_ENG: '[Opponent''s Turn] While you have 3 or fewer security cards,
+    all of your Security Digimon get +4000 DP.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT4_045
+  DP: 7000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT4-045
+  MaxCountInDeck: 4

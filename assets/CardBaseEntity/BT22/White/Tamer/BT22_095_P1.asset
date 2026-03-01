@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT22_095_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 7119
+  cardColors: 04000000
+  PlayCost: 4
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Akemi Suedou
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - CS
+  CardSpriteName: BT22-095_P1
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Security] Play this card without paying the cost.\n[Your
+    Turn] When any of your Digimon with the [Eater]\_trait are played, by suspending
+    this Tamer, gain 1 memory. Then, if you have 7 or fewer cards in your hand, \uFF1CDraw
+    1\uFF1E \n[Main] Place this Tamer as any of your [Mother Eater]s' bottom digivolution
+    card."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[All Turns] While this Digimon is [Mother Eater],
+    it gains \uFF1CRush\uFF1E , \uFF1CAlliance\uFF1E and \uFF1CScapegoat\uFF1E "
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT22_095
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT22-095
+  MaxCountInDeck: 4

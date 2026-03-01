@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT23_032
+  m_EditorClassIdentifier: 
+  CardIndex: 7364
+  cardColors: 0200000005000000
+  PlayCost: 8
+  EvoCosts:
+  - CardColor: 2
+    Level: 4
+    MemoryCost: 4
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Shakkoumon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Free
+  Type_JPN: []
+  Type_ENG:
+  - Mutant
+  - Hudie
+  - CS
+  - Angel
+  CardSpriteName: BT23-032
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[When Digivolving] Until your opponent's turn ends, give
+    1 of their Digimon \"[Start of Your Main Phase] This Digimon attacks.\" Then,
+    if DNA digivolving, \uFF1CDe-Digivolve 1\uFF1E 1 of your opponent's Digimon.
+    \n[All Turns] [Once Per Turn] When this Digimon would leave the battle area other
+    than by your effects, you may play 1 level 4 or lower yellow, black or [CS]\_trait
+    Digimon card from its digivolution cards without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[All Turns] [Once Per Turn] When this Digimon
+    would leave the battle area other than by your effects, you may play 1 level
+    4 or lower yellow, black or [CS]\_trait Digimon card from its digivolution cards
+    without paying the cost."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT23_032
+  DP: 8000
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT23-032
+  MaxCountInDeck: 4

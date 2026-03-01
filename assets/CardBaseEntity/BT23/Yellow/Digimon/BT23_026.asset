@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT23_026
+  m_EditorClassIdentifier: 
+  CardIndex: 7358
+  cardColors: 0200000003000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 2
+    Level: 2
+    MemoryCost: 1
+  - CardColor: 3
+    Level: 2
+    MemoryCost: 1
+  Level: 3
+  CardName_JPN: 
+  CardName_ENG: Lopmon
+  Form_JPN: []
+  Form_ENG:
+  - Rookie
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Beast
+  - CS
+  CardSpriteName: BT23-026
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] [Kokomon]/Lv.2 w/[CS]\_trait: Cost 0 \n\n[Your
+    Turn] While you have [Makiko Date], this Digimon can digivolve into [Antylamon]
+    in the hand for a digivolution cost of 3, ignoring digivolution requirements."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[All Turns] [Once Per Turn] When any of your other
+    Digimon suspend, 1 of your opponent''s Digimon gets -2000 DP for the turn.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT23_026
+  DP: 1000
+  rarity: 0
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT23-026
+  MaxCountInDeck: 4

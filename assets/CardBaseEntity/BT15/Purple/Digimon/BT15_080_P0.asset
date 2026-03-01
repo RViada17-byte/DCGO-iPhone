@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT15_080_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4755
+  cardColors: 06000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: VenomMyotismon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Dark Animal
+  CardSpriteName: BT15-080_P0
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "\uFF1CBlocker\uFF1E \n[On Play] [When Digivolving] [On
+    Deletion] Delete 1 of your opponent's level 5 or lower Digimon."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT15_080
+  DP: 12000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT15-080
+  MaxCountInDeck: 4

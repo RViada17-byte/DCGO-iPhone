@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT14_014
+  m_EditorClassIdentifier: 
+  CardIndex: 2932
+  cardColors: 00000000
+  PlayCost: 4
+  EvoCosts:
+  - CardColor: 0
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: "\u30E1\u30BF\u30EB\u30B0\u30EC\u30A4\u30E2\u30F3"
+  CardName_ENG: MetalGreymon
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u30B5\u30A4\u30DC\u30FC\u30B0\u578B"
+  Type_ENG:
+  - Cyborg
+  CardSpriteName: BT14-014
+  cardKind: 0
+  EffectDiscription_JPN: "\u540D\u79F0\u306B\u300C\u30B0\u30EC\u30A4\u30E2\u30F3\u300D\u3092\u542B\u3080Lv.4:\u30B3\u30B9\u30C83\uFF3B\u624B\u672D\uFF3D\u3010\u30AB\u30A6\u30F3\u30BF\u30FC\u3011\u226A\u30D6\u30E9\u30B9\u30C8\u9032\u5316\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u3053\u306E\u30AB\u30FC\u30C9\u306B\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u9032\u5316\u3067\u304D\u308B\uFF09\u3010\u767B\u5834\u6642\u3011\u3010\u9032\u5316\u6642\u3011DP6000\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3002"
+  EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Greymon] in name: Cost 3[Hand][Counter]
+    \uFF1CBlast Digivolve\uFF1E (One of your Digimon may digivolve into this card
+    without paying the cost.)[On Play][When Digivolving] Delete 1 of your opponent's
+    Digimon with 6000 DP or less."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT14_014
+  DP: 8000
+  rarity: 3
+  OverflowMemory: 3
+  CardID: BT14-014
+  MaxCountInDeck: 4

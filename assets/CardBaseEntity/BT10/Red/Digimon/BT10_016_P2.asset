@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT10_016_P2
+  m_EditorClassIdentifier: 
+  CardIndex: 4300
+  cardColors: 00000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 0
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Jesmon (X Antibody)
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Holy Warrior
+  - Royal Knight
+  - X Antibody
+  CardSpriteName: BT10-016_P2
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve][Jesmon]: Cost 0 \n\n\uFF1CPiercing\uFF1E \n[When
+    Digivolving] You may play 1 Digimon card with [Sistermon]\_in its name from your
+    hand or trash without paying its memory cost. Then, if [Jesmon] is in this Digimon's
+    digivolution cards or you have a Digimon with [Sistermon]\_in its name in play,
+    until the end of your opponent's turn, all of your Digimon can also attack your
+    opponent's unsuspended Digimon and get +2000 DP."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT10_016
+  DP: 11000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: BT10-016
+  MaxCountInDeck: 4

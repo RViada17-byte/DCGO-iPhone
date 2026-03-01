@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT14_074
+  m_EditorClassIdentifier: 
+  CardIndex: 3002
+  cardColors: 06000000
+  PlayCost: 6
+  EvoCosts:
+  - CardColor: 6
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: "\u30EB\u30AC\u30EB\u30E2\u30F3"
+  CardName_ENG: Loogarmon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u9B54\u7363\u578B"
+  - "X\u6297\u4F53"
+  - SoC
+  Type_ENG:
+  - Dark Animal
+  - X Antibody
+  - SoC
+  CardSpriteName: BT14-074
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\u81EA\u5206\u306E\u624B\u672D\u30921\u679A\u7834\u68C4\u3059\u308B\u3053\u3068\u3067\u3001\u226A1\u30C9\u30ED\u30FC\u226B\u3002\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u306B\u300C\u6C38\u4F4F\u745B\u58EB\u300D\u304C\u3042\u308B\u306A\u3089\u3001\u30E1\u30E2\u30EA\u30FC+1\u3002"
+  EffectDiscription_ENG: "[When Attacking] By trashing 1 card in your hand, \uFF1CDraw
+    1\uFF1E. If [Eiji Nagasumi] is in this Digimon's digivolution cards, gain 1 memory."
+  InheritedEffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u7279\u5FB4\u306B\u300C\u9B54\u7363\u578B\u300D/\u300CSoC\u300D\u3092\u6301\u3064\u81EA\u5206\u306E\u30AB\u30FC\u30C9\u304C\u767B\u5834\u3057\u305F\u3068\u304D\u3001\u30E1\u30E2\u30EA\u30FC+1\u3002"
+  InheritedEffectDiscription_ENG: '[Your Turn][Once Per Turn] When you play a card
+    with the [Dark Animal] or [SoC] trait, gain 1 memory.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT14_074
+  DP: 6000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT14-074
+  MaxCountInDeck: 4

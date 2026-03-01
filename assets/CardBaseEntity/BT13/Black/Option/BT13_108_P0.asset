@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT13_108_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4628
+  cardColors: 05000000
+  PlayCost: 6
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Waltz's End
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Option
+  CardSpriteName: BT13-108_P0
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[Main] Until the end of your opponent''s turn, 1 of your
+    Digimon gains "[Opponent''s Turn] When this Digimon becomes suspended, delete
+    all of your opponent''s Digimon with a play cost less than or equal to this Digimon"
+    and "[Opponent''s Turn] This Digimon isn''t affected by your opponent''s Option
+    cards."'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Delete1 of your opponent''s Digimon
+    with the lowest play cost.'
+  CardEffectClassName: BT13_108
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT13-108
+  MaxCountInDeck: 4

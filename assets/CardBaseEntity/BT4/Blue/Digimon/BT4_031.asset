@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT4_031
+  m_EditorClassIdentifier: 
+  CardIndex: 805
+  cardColors: 01000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 1
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: "\u30DE\u30EA\u30F3\u30AD\u30E1\u30E9\u30E2\u30F3"
+  CardName_ENG: MarinChimairamon
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u5408\u6210\u578B"
+  Type_ENG:
+  - Composite
+  CardSpriteName: BT4-031
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u4ED6\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u624B\u672D\u306B\u623B\u3059\u3053\u3068\u3067\u3001\u9032\u5316\u5143\u3092\u6301\u305F\u306A\u3044\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u624B\u672D\u306B\u623B\u3059\u3002\u305D\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u6301\u3064\u9032\u5316\u5143\u306F\u7834\u68C4\u3059\u308B\u3002"
+  EffectDiscription_ENG: '[On Play] You may return 1 of your other Digimon to its
+    owner''s hand to return 1 of your opponent''s Digimon with no digivolution cards
+    to its owner''s hand. Trash all of the digivolution cards of your Digimon.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT4_031
+  DP: 7000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT4-031
+  MaxCountInDeck: 4

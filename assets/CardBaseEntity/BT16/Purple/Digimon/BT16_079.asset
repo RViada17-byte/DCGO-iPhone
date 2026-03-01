@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT16_079
+  m_EditorClassIdentifier: 
+  CardIndex: 3398
+  cardColors: 0600000003000000
+  PlayCost: 13
+  EvoCosts:
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 5
+  - CardColor: 3
+    Level: 5
+    MemoryCost: 5
+  Level: 6
+  CardName_JPN: "\u30B1\u30EB\u30D3\u30E2\u30F3X\u6297\u4F53"
+  CardName_ENG: Cherubimon (X Antibody)
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u667A\u5929\u4F7F\u578B"
+  - "X\u6297\u4F53"
+  Type_ENG:
+  - Cherub
+  - X Antibody
+  CardSpriteName: BT16-079
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[Digivolve] [Cherubimon]: Cost 2<Alliance> [When Digivolving]
+    [When Attacking] [Once Per Turn] You may play 1 level 4 or lower yellow or green
+    Digimon card from your hand or trash without paying the cost. [End of Your Turn]
+    [Once Per Turn] If [Cherubimon] or [X Antibody] is in this Digimon''s digivolution
+    cards, you may delete 1 of your opponent''s level 4 or lower Digimon. For each
+    of your other Digimon, add 1 to this effect''s choosable levels.'
+  InheritedEffectDiscription_JPN: "-\r"
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT16_079
+  DP: 13000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT16-079
+  MaxCountInDeck: 4

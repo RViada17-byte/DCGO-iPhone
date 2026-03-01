@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT16_051
+  m_EditorClassIdentifier: 
+  CardIndex: 3367
+  cardColors: 0500000006000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 5
+    Level: 2
+    MemoryCost: 1
+  - CardColor: 6
+    Level: 2
+    MemoryCost: 1
+  Level: 3
+  CardName_JPN: "\u30C9\u30EB\u30E2\u30F3"
+  CardName_ENG: Dorumon
+  Form_JPN:
+  - "\u6210\u9577\u671F"
+  Form_ENG:
+  - Rookie
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u7363\u578B"
+  - "X\u6297\u4F53"
+  - SoC
+  Type_ENG:
+  - Beast
+  - X Antibody
+  - SoC
+  CardSpriteName: BT16-051
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[Digivolve] [Dorimon]: Cost 0[Start of Your Main Phase]
+    By placing 1 [Kosuke Kisakata] from your hand as this Digimon''s bottom digivolution
+    card, until the end of your opponent''s turn, this Digimon can''t leave the battle
+    area other than by deletion.'
+  InheritedEffectDiscription_JPN: "\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092DP+1000\u3002\r"
+  InheritedEffectDiscription_ENG: '[All Turns] This Digimon gets +1000 DP.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT16_051
+  DP: 2000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: BT16-051
+  MaxCountInDeck: 4

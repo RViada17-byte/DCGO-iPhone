@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT14_037_P3
+  m_EditorClassIdentifier: 
+  CardIndex: 4653
+  cardColors: 02000000
+  PlayCost: 4
+  EvoCosts:
+  - CardColor: 2
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: MagnaAngemon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Archangel
+  CardSpriteName: BT14-037_P3
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Hand] [Counter] \uFF1CBlast Digivolve\uFF1E \n[On Play]
+    [When Digivolving] If you have 5 or fewer Security cards, \uFF1CRecovery +1 (Deck)\uFF1E.
+    Then, for the turn, 1 of your opponent's Digimon gets -1000 DP for each card
+    in your security stack."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT14_037
+  DP: 8000
+  rarity: 3
+  OverflowMemory: 3
+  CardID: BT14-037
+  MaxCountInDeck: 4

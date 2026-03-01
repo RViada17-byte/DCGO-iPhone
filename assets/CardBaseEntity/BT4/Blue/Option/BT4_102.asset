@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT4_102
+  m_EditorClassIdentifier: 
+  CardIndex: 910
+  cardColors: 01000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: "\u30A2\u30AF\u30A2\u30FB\u30D0\u30A4\u30D1\u30FC"
+  CardName_ENG: Aqua Viper
+  Form_JPN: []
+  Form_ENG: []
+  Attribute_JPN: []
+  Attribute_ENG: []
+  Type_JPN: []
+  Type_ENG: []
+  CardSpriteName: BT4-102
+  cardKind: 2
+  EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u624B\u672D\u306B\u623B\u3059\u3053\u3068\u3067\u3001Lv.4\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u30922\u4F53\u307E\u3067\u3092\u624B\u672D\u306B\u623B\u3059\u3002\u305D\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u6301\u3064\u9032\u5316\u5143\u306F\u7834\u68C4\u3059\u308B\u3002"
+  EffectDiscription_ENG: '[Main] Return 1 of your Digimon to its owner''s hand to
+    return up to 2 of your opponent''s level 4 or lower Digimon to their owners''
+    hands. Trash all of the digivolution cards of those Digimon.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u3053\u306E\u30AB\u30FC\u30C9\u3092\u624B\u672D\u306B\u52A0\u3048\u308B\u3002"
+  SecurityEffectDiscription_ENG: '[Security] Add this card to its owner''s hand.'
+  CardEffectClassName: BT4_102
+  DP: 0
+  rarity: 0
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: BT4-102
+  MaxCountInDeck: 4

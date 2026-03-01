@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT13_040
+  m_EditorClassIdentifier: 
+  CardIndex: 2690
+  cardColors: 0200000001000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 2
+    Level: 3
+    MemoryCost: 4
+  Level: 4
+  CardName_JPN: "\u30DE\u30B0\u30CA\u30E2\u30F3"
+  CardName_ENG: Magnamon
+  Form_JPN:
+  - "\u30A2\u30FC\u30DE\u30FC\u4F53"
+  Form_ENG:
+  - ArmorForm
+  Attribute_JPN:
+  - "\u30D5\u30EA\u30FC"
+  Attribute_ENG:
+  - Free
+  Type_JPN:
+  - "\u8056\u9A0E\u58EB\u578B"
+  - "\u30ED\u30A4\u30E4\u30EB\u30CA\u30A4\u30C4"
+  Type_ENG:
+  - Holy Warrior
+  - Royal Knight
+  CardSpriteName: BT13-040
+  cardKind: 0
+  EffectDiscription_JPN: "\u9032\u5316:\u300C\u30D6\u30A4\u30E2\u30F3\u300D\u304B\u30893\u226A\u30D6\u30ED\u30C3\u30AB\u30FC\u226B\uFF08\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30A2\u30BF\u30C3\u30AF\u3057\u305F\u3068\u304D\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u30EC\u30B9\u30C8\u3055\u305B\u308B\u3053\u3068\u3067\u30A2\u30BF\u30C3\u30AF\u306E\u5BFE\u8C61\u3092\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306B\u3059\u308B\uFF09\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30D0\u30C8\u30EB\u30A8\u30EA\u30A2\u3092\u96E2\u308C\u308B\u3068\u304D\u3001\u226A1\u30C9\u30ED\u30FC\u226B\u3002\u305D\u306E\u5F8C\u3001\u81EA\u5206\u306E\u624B\u672D\u304B\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u304B\u3089\u3001\u300C\u30D6\u30A4\u30E2\u30F3\u300D1\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002"
+  EffectDiscription_ENG: "Digivolve: 3 from [Veemon]\uFF1CBlocker\uFF1E (When an
+    opponent's Digimon attacks, you may suspend this Digimon to force the opponent
+    to attack it instead.) [All Turns] When this Digimon would leave the battle area,
+    \uFF1CDraw 1\uFF1E. Then, you may play 1 [Veemon] from your hand or this Digimon's
+    digivolution cards without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT13_040
+  DP: 7000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT13-040
+  MaxCountInDeck: 4

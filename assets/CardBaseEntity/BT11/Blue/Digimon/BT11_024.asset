@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT11_024
+  m_EditorClassIdentifier: 
+  CardIndex: 2294
+  cardColors: 01000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 1
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: "\u30DA\u30F3\u30E2\u30F3"
+  CardName_ENG: Penguinmon
+  Form_JPN:
+  - "\u6210\u9577\u671F"
+  Form_ENG:
+  - Rookie
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u9CE5\u578B"
+  Type_ENG:
+  - Avian
+  CardSpriteName: BT11-024
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u9752\u306ELv.3\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C9\u304B\u7279\u5FB4\u306B\u300C\u6C34\u68F2\u300D\u3092\u542B\u3080\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u306E\u4E0B\u306B\u7F6E\u304F\u3053\u3068\u3067\u3001\u226A1\u30C9\u30ED\u30FC\u226B\u3002"
+  EffectDiscription_ENG: "[On Play] By placing 1 blue level 3 Digimon card or 1 Digimon
+    card with [Aqua] or [Sea Animal] in one of its traits from your hand under this
+    Digimon as its bottom digivolution card, \uFF1CDraw 1\uFF1E."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT11_024
+  DP: 2000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT11-024
+  MaxCountInDeck: 4

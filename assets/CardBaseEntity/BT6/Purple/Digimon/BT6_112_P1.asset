@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT6_112_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 1258
+  cardColors: 06000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: "\u30D9\u30EB\u30B9\u30BF\u30FC\u30E2\u30F3"
+  CardName_ENG: BeelStarmon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u9B54\u4EBA\u578B"
+  - "\u4E09\u9283\u58EB"
+  Type_ENG:
+  - Wizard
+  - Three Musketeers
+  CardSpriteName: BT6-112_P1
+  cardKind: 0
+  EffectDiscription_JPN: "\u624B\u672D\u306E\u3053\u306E\u30AB\u30FC\u30C9\u3092\u767B\u5834\u3055\u305B\u308B\u3068\u304D\u3001\u652F\u6255\u3046\u767B\u5834\u30B3\u30B9\u30C8\u3092\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u306B\u3042\u308B\u3001\u300C\u4E09\u9283\u58EB\u300D\u3092\u6301\u3064\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C9\u3068\u4F7F\u7528\u30B3\u30B9\u30C87\u306E\u30AA\u30D7\u30B7\u30E7\u30F3\u30AB\u30FC\u30C91\u679A\u3054\u3068\u306B-1\u3059\u308B\u3002\u3010\u767B\u5834\u6642\u3011\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u4F7F\u7528\u30B3\u30B9\u30C87\u306E\u30AA\u30D7\u30B7\u30E7\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u624B\u672D\u306B\u623B\u3059\u3002\u305D\u306E\u5F8C\u3001\u624B\u672D\u304B\u3089\u3001\u4F7F\u7528\u30B3\u30B9\u30C8\uFF17\u306E\u30AA\u30D7\u30B7\u30E7\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u4F7F\u7528\u3059\u308B\u3002"
+  EffectDiscription_ENG: When playing this card from your hand, reduce its play cost
+    by 1 for each [Three Musketeers] Digimon card and Option card with a memory cost
+    of 7 in your trash.[On Play] Return 1 Option card with a memory cost of 7 from
+    your trash to your hand. Then, use 1 Option card with a memory cost of 7 in your
+    hand without paying its memory cost.
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT6_112
+  DP: 11000
+  rarity: 4
+  OverflowMemory: 0
+  CardID: BT6-112
+  MaxCountInDeck: 4

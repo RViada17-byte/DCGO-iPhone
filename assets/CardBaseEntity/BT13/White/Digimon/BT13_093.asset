@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT13_093
+  m_EditorClassIdentifier: 
+  CardIndex: 2757
+  cardColors: 04000000
+  PlayCost: 4
+  EvoCosts: []
+  Level: 4
+  CardName_JPN: "\u30AA\u30E1\u30AB\u30E2\u30F3"
+  CardName_ENG: Omekamon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u30D1\u30DA\u30C3\u30C8\u578B"
+  - "X\u6297\u4F53"
+  Type_ENG:
+  - Puppet
+  - X Antibody
+  CardSpriteName: BT13-093
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u226A1\u30C9\u30ED\u30FC\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u304B\u3089\u30AB\u30FC\u30C9\u30921\u679A\u5F15\u304F\uFF09\u3010\u6D88\u6EC5\u6642\u3011\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u7279\u5FB4\u306B\u300C\u30ED\u30A4\u30E4\u30EB\u30CA\u30A4\u30C4\u300D\u3092\u6301\u3064\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u80B2\u6210\u30A8\u30EA\u30A2\u306E\u81EA\u5206\u306E\u300C\u30A4\u30B0\u30C9\u30E9\u30B7\u30EB_7D6\u300D\u306E\u9032\u5316\u5143\u306E\u4E0B\u306B\u7F6E\u304F\u3002"
+  EffectDiscription_ENG: " [On Play] \uFF1CDraw 1\uFF1E (Draw 1 card from your deck.)
+    [On Deletion] Place 1 Digimon card with the [Royal Knight] trait from your hand
+    as the bottom digivolution card of one of your [King Drasil_7D6] in the breeding
+    area."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT13_093
+  DP: 4000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT13-093
+  MaxCountInDeck: 4

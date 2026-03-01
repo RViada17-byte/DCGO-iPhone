@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT21_088
+  m_EditorClassIdentifier: 
+  CardIndex: 5413
+  cardColors: 0600000000000000
+  PlayCost: 4
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Tagiru Akashi
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Hunter
+  - Hero
+  CardSpriteName: BT21-088
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Start of Your Main Phase] By placing 1 Digimon card with
+    \uFF1CSave\uFF1E\_in its text or the [Hero]\_trait from your hand under this
+    Tamer, \uFF1CDraw 1\uFF1E and gain 1 memory.\n[Your Turn] When any of your Digimon
+    would digivolve into a Digimon card with \uFF1CSave\uFF1E\_in its text or the
+    [Hero]\_trait, by suspending this Tamer and placing 1 card from under your Tamers
+    as any of their bottom digivolution card, reduce the digivolution cost by 1."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying the cost.'
+  CardEffectClassName: BT21_088
+  DP: 0
+  rarity: 3
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  LinkCost: 0
+  CardID: BT21-088
+  MaxCountInDeck: 4

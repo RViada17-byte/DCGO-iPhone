@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT5_076
+  m_EditorClassIdentifier: 
+  CardIndex: 1039
+  cardColors: 06000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 6
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: "\u30D6\u30E9\u30C3\u30AF\u30B0\u30E9\u30A6\u30E2\u30F3"
+  CardName_ENG: BlackGrowlmon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u9B54\u7ADC\u578B"
+  Type_ENG:
+  - Dark Dragon
+  CardSpriteName: BT5-076
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 
+  InheritedEffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u4ED6\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u6D88\u6EC5\u3057\u305F\u3068\u304D\u3001\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u226A\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u30A2\u30BF\u30C3\u30AF+1\u226B\uFF08\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30C1\u30A7\u30C3\u30AF\u3059\u308B\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u306E\u679A\u6570+1\uFF09\u3092\u5F97\u308B\u3002"
+  InheritedEffectDiscription_ENG: "[Your Turn][Once Per Turn] When one of your other
+    Digimon is deleted, this Digimon gains \uFF1CSecurity Attack +1\uFF1E (This Digimon
+    checks 1 additional security card) for the turn."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT5_076
+  DP: 4000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT5-076
+  MaxCountInDeck: 4

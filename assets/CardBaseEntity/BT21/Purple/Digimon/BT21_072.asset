@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT21_072
+  m_EditorClassIdentifier: 
+  CardIndex: 5389
+  cardColors: 0600000000000000
+  PlayCost: 9
+  EvoCosts:
+  - CardColor: 6
+    Level: 4
+    MemoryCost: 4
+  - CardColor: 0
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: 'Arresterdramon: Superior Mode'
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Dragon
+  - Hero
+  CardSpriteName: BT21-072
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.4 w/\uFF1CSave\uFF1E\_in text or w/[Hero]\_trait:
+    Cost 3 \n\n\uFF1CRaid\uFF1E.\n\uFF1CPiercing\uFF1E \n[When Digivolving] This
+    Digimon may attack without suspending.\n[All Turns] This Digimon gets +1000 DP
+    for each of its digivolution cards."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[Your Turn] This Digimon gets +2000 DP.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT21_072
+  DP: 10000
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  LinkCost: 0
+  CardID: BT21-072
+  MaxCountInDeck: 4

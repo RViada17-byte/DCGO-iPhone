@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT12_081
+  m_EditorClassIdentifier: 
+  CardIndex: 2498
+  cardColors: 06000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 6
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: "\u30A2\u30B9\u30BF\u30E2\u30F3"
+  CardName_ENG: Astamon
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u9B54\u4EBA\u578B"
+  Type_ENG:
+  - Wizard
+  CardSpriteName: BT12-081
+  cardKind: 0
+  EffectDiscription_JPN: "\u9032\u5316:\u300C\u30B5\u30A4\u30B1\u30E2\u30F3\u300D\u304B\u30895/\u226A\u30BB\u30FC\u30D6\u226B\u306E\u8A18\u8FF0\u304C\u3042\u308B\u9EC4\u304B\u7DD1\u304B\u7D2B\u306ELv.4\u304B\u30893\u3010\u9032\u5316\u6642\u3011\u81EA\u5206\u306E\u30C6\u30A4\u30DE\u30FC\u306E\u4E0B\u304B\u3089\u226A\u30BB\u30FC\u30D6\u226B\u306E\u8A18\u8FF0\u304C\u3042\u308BLv.4\u4EE5\u4E0B\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u304C4\u679A\u4EE5\u4E0A\u3042\u308B\u3068\u304D\u3001\u4EE3\u308F\u308A\u306B\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u81EA\u5206\u306E\u624B\u672D\u304B\u30C6\u30A4\u30DE\u30FC\u306E\u4E0B\u306E\u300C\u30AF\u30AA\u30FC\u30C4\u30E2\u30F3\u300D\u306B\u3001\u652F\u6255\u3046\u9032\u5316\u30B3\u30B9\u30C8-3\u3057\u3066\u9032\u5316\u3067\u304D\u308B\u3002"
+  EffectDiscription_ENG: "Digivolve: 5 from [Psychemon]/3 from yellow, green, or
+    purple Lv.4 w/\uFF1CSave\uFF1E text [When Digivolving] You may play 1 level 4
+    or lower Digimon card with \uFF1CSave\uFF1E from under one of your Tamers without
+    paying its cost. If there are 4 or more digivolution cards under this Digimon,
+    it can be digivolved into a [Quartzmon] in your hand or under one of your Tamers
+    with the digivolution cost reduced by 3 instead."
+  InheritedEffectDiscription_JPN: "\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306B\u226A\u30BB\u30FC\u30D6\u226B\u306E\u8A18\u8FF0\u304C\u3042\u308B\u3068\u304D\u3001\u226A1\u30C9\u30ED\u30FC\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u304B\u3089\u30AB\u30FC\u30C9\u30921\u679A\u5F15\u304F\uFF09\u3002"
+  InheritedEffectDiscription_ENG: "[When Attacking][Once Per Turn] If this Digimon
+    has \uFF1CSave\uFF1E in its text, \uFF1CDraw 1\uFF1E. (Draw 1 card from your
+    deck.)"
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT12_081
+  DP: 7000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT12-081
+  MaxCountInDeck: 4

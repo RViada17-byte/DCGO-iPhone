@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT24_059
+  m_EditorClassIdentifier: 
+  CardIndex: 7590
+  cardColors: 0500000001000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 4
+  - CardColor: 1
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Sharkmon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Cyborg
+  - Titan
+  - TS
+  - Aquatic
+  CardSpriteName: BT24-059
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Aqua] or [Sea Animal]\_in any trait
+    or w/[TS]\_trait: Cost 3 \n\n[On Play] [When Digivolving] \uFF1CDe-Digivolve
+    1\uFF1E 1 of your opponent's Digimon. \n[On Deletion] Reveal the top 3 cards
+    of your deck. You may play 1 play cost 7 or lower [TS]\_trait card suspended
+    among them without paying the cost. Trash the rest."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[When Attacking] [Once Per Turn] By placing 1
+    of your other Digimon as this Digimon''s bottom digivolution card, it unsuspends.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT24_059
+  DP: 7000
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT24-059
+  MaxCountInDeck: 4

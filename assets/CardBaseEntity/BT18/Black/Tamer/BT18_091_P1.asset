@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT18_091_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 3957
+  cardColors: 0500000002000000
+  PlayCost: 4
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: J.P. Shibayama
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Tamer
+  CardSpriteName: BT18-091_P1
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Security] Play this card without paying the cost.\n[Start
+    of Your Main Phase] By trashing 1 card with the [Hybrid]/[Ten Warriors]\_trait
+    in your hand, \uFF1CDraw 1\uFF1E."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[All Turns] [Once Per Turn] When an attack target
+    is changed, you may play 1 Tamer card with inherited effects from your hand without
+    paying the cost.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT18_091
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT18-091
+  MaxCountInDeck: 4

@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT24_077
+  m_EditorClassIdentifier: 
+  CardIndex: 7610
+  cardColors: 0600000000000000
+  PlayCost: 9
+  EvoCosts:
+  - CardColor: 6
+    Level: 4
+    MemoryCost: 4
+  - CardColor: 0
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Revivemon
+  Form_JPN: []
+  Form_ENG:
+  - Ult.
+  - Appmon
+  Attribute_JPN: []
+  Attribute_ENG:
+  - System
+  Type_JPN: []
+  Type_ENG:
+  - Restoration
+  CardSpriteName: BT24-077
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[App Fusion] [Raidramon] & [Dezipmon]: Cost 0\n\n\uFF1CBlocker\uFF1E
+    \n[When Digivolving] [On Deletion] You may link 1 level 4 or lower Digimon card
+    from your trash or this Digimon's digivolution cards to 1 of your Digimon without
+    paying the cost.\n[On Deletion] You may play 1 level 4 or lower [Appmon]\_trait
+    Digimon card from your trash without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT24_077
+  DP: 9000
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 4000
+  LinkEffect: '[When Linking] Delete 1 of your opponent''s Digimon with the lowest
+    DP.'
+  LinkRequirement: "[Link] [Appmon]\_trait: Cost 3 "
+  CardID: BT24-077
+  MaxCountInDeck: 4

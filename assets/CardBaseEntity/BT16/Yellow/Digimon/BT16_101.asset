@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT16_101
+  m_EditorClassIdentifier: 
+  CardIndex: 3429
+  cardColors: 0200000003000000
+  PlayCost: 11
+  EvoCosts:
+  - CardColor: 2
+    Level: 5
+    MemoryCost: 3
+  - CardColor: 3
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: "\u30E9\u30D4\u30C3\u30C9\u30E2\u30F3X\u6297\u4F53"
+  CardName_ENG: Rapidmon (X Antibody)
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u8056\u9A0E\u58EB\u578B"
+  - "X\u6297\u4F53"
+  Type_ENG:
+  - Holy Warrior
+  - X Antibody
+  CardSpriteName: BT16-101
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] [Rapidmon]: Cost 4<Armor Purge> [When Digivolving]
+    Suspend all of your opponent\u2019s Digimon. Then, this Digimon may attack. [All
+    Turns] While [Rapidmon] or [X Antibody] is in this Digimon's digivolution cards,
+    all of your opponent's suspended Digimon get -4000 DP. [All Turns] [Once Per
+    Turn] When an opponent's Digimon is deleted in battle or by having 0 DP, gain
+    2 memory."
+  InheritedEffectDiscription_JPN: "-\r"
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT16_101
+  DP: 11000
+  rarity: 4
+  OverflowMemory: 0
+  CardID: BT16-101
+  MaxCountInDeck: 4

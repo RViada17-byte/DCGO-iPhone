@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT16_040_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4795
+  cardColors: 0300000006000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 0
+    Level: 2
+    MemoryCost: 1
+  - CardColor: 1
+    Level: 2
+    MemoryCost: 1
+  Level: 3
+  CardName_JPN: 
+  CardName_ENG: Wormmon
+  Form_JPN: []
+  Form_ENG:
+  - Rookie
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Free
+  Type_JPN: []
+  Type_ENG:
+  - Larva
+  CardSpriteName: BT16-040_P0
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve][Minomon]: Cost 0 \n\n[Start of Your Main Phase]
+    [On Play] If it's your turn, 1 of your Digimon may digivolve into a level 4 Digimon
+    card with the [Insectoid]/[Free]\_trait in your trash with the digivolution cost
+    reduced by 1."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[When Attacking] [Once Per Turn] Suspend 1 of
+    your opponent''s Digimon.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT16_040
+  DP: 2000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT16-040
+  MaxCountInDeck: 4

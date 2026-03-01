@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT23_022
+  m_EditorClassIdentifier: 
+  CardIndex: 7354
+  cardColors: 0100000000000000
+  PlayCost: 9
+  EvoCosts:
+  - CardColor: 1
+    Level: 4
+    MemoryCost: 4
+  - CardColor: 0
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Oujamon
+  Form_JPN: []
+  Form_ENG:
+  - Ult.
+  - Appmon
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Game
+  Type_JPN: []
+  Type_ENG:
+  - Battle
+  CardSpriteName: BT23-022
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[App Fusion] [Dosukomon] & [Coachmon]: Cost 0\n\n\uFF1CRaid\uFF1E
+    \n[When Digivolving] [When Attacking] [Once Per Turn] You may link 1 level 4
+    or lower Digimon card from your hand or this Digimon's digivolution cards to
+    this Digimon without paying the cost.\n[All Turns] [Once Per Turn] When this
+    Digimon gets linked, it may unsuspend."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT23_022
+  DP: 9000
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 4000
+  LinkEffect: "\uFF1CSecurity A. +1\uFF1E "
+  LinkRequirement: "[Link] [Appmon]\_trait: Cost 3 "
+  CardID: BT23-022
+  MaxCountInDeck: 4

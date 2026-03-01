@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT6_073
+  m_EditorClassIdentifier: 
+  CardIndex: 1207
+  cardColors: 06000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 6
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: "\u30AE\u30F3\u30AB\u30AF\u30E2\u30F3"
+  CardName_ENG: Ginkakumon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u9B3C\u4EBA\u578B"
+  Type_ENG:
+  - Demon
+  CardSpriteName: BT6-073
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 
+  InheritedEffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u81EA\u5206\u306E\u52B9\u679C\u3067\u81EA\u5206\u306E\u624B\u672D\u3092\u7834\u68C4\u3057\u305F\u3068\u304D\u3001\u30E1\u30E2\u30EA\u30FC\u3092+1\u3059\u308B\u3002"
+  InheritedEffectDiscription_ENG: '[Your Turn][Once Per Turn] When you trash a card
+    in your hand using one of your effects, gain 1 memory.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT6_073
+  DP: 5000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT6-073
+  MaxCountInDeck: 4

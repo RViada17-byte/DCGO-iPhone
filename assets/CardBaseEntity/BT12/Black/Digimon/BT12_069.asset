@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT12_069
+  m_EditorClassIdentifier: 
+  CardIndex: 2484
+  cardColors: 05000000
+  PlayCost: 8
+  EvoCosts:
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 2
+  Level: 5
+  CardName_JPN: "\u30D5\u30C3\u30C8\u30E2\u30F3"
+  CardName_ENG: Footmon
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u30B5\u30A4\u30DC\u30FC\u30B0\u578B"
+  Type_ENG:
+  - Cyborg
+  CardSpriteName: BT12-069
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: 
+  DP: 9000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT12-069
+  MaxCountInDeck: 4

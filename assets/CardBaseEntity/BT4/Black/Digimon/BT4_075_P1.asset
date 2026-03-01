@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT4_075_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 862
+  cardColors: 05000000
+  PlayCost: 13
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: "\u30D6\u30E9\u30B9\u30C8\u30E2\u30F3"
+  CardName_ENG: Blastmon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u9271\u7269\u578B"
+  Type_ENG:
+  - Mineral
+  CardSpriteName: BT4-075_P1
+  cardKind: 0
+  EffectDiscription_JPN: "\u226A\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u30A2\u30BF\u30C3\u30AF+1\u226B\uFF08\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30C1\u30A7\u30C3\u30AF\u3059\u308B\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u306E\u679A\u6570+1\uFF09\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\u76F8\u624B\u306F\u3001\u30A2\u30AF\u30C6\u30A3\u30D6\u72B6\u614B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u9078\u3079\u308B\u3002\u305D\u3046\u3057\u305F\u3068\u304D\u3001\u3053\u306E\u30A2\u30BF\u30C3\u30AF\u306E\u5BFE\u8C61\u3092\u305D\u306E\u30C7\u30B8\u30E2\u30F3\u306B\u3059\u308B\u3002"
+  EffectDiscription_ENG: "\uFF1CSecurity Attack +1\uFF1E (This Digimon checks 1 additional
+    security card.)[When Attacking] Your opponent may choose 1 of their unsuspended
+    Digimon. If they do, switch the target of attack to that Digimon."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT4_075
+  DP: 13000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: BT4-075
+  MaxCountInDeck: 4

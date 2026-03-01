@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT7_013_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 1395
+  cardColors: 00000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 0
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: "\u30E1\u30BF\u30EB\u30B0\u30EC\u30A4\u30E2\u30F3"
+  CardName_ENG: MetalGreymon
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u30B5\u30A4\u30DC\u30FC\u30B0\u578B"
+  Type_ENG:
+  - Cyborg
+  CardSpriteName: BT7-013_P1
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u81EA\u5206\u306E\u30C6\u30A4\u30DE\u30FC\u304C\u3044\u308B\u3068\u304D\u3001\u30E1\u30E2\u30EA\u30FC\u3092+2\u3059\u308B\u3002\u81EA\u5206\u306E\u30C6\u30A4\u30DE\u30FC\u304C\u3044\u306A\u3044\u3068\u304D\u3001\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u8D64\u306E\u30C6\u30A4\u30DE\u30FC\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002"
+  EffectDiscription_ENG: '[On Play] If you have a Tamer in play, gain 2 memory. If
+    you don''t have a Tamer in play, you may play 1 red Tamer card from your hand
+    without paying its memory cost.'
+  InheritedEffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u6D88\u6EC5\u3057\u305F\u3068\u304D\u3001\u30E1\u30E2\u30EA\u30FC\u3092+1\u3059\u308B\u3002"
+  InheritedEffectDiscription_ENG: '[Your Turn][Once Per Turn] When one of your opponent''s
+    Digimon is deleted, gain 1 memory.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT7_013
+  DP: 7000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: BT7-013
+  MaxCountInDeck: 4

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT23_076
+  m_EditorClassIdentifier: 
+  CardIndex: 7414
+  cardColors: 04000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 3
+  CardName_JPN: 
+  CardName_ENG: Sistermon Blanc
+  Form_JPN: []
+  Form_ENG:
+  - Rookie
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Puppet
+  - CS
+  CardSpriteName: BT23-076
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[On Play] Add your top security card to the hand. Then,
+    \uFF1CRecovery +1 (Deck)\uFF1E \n[Your Turn] When this Digimon suspends, 1 of
+    your other Digimon may digivolve into a Digimon card with [Huckmon]\_in its name
+    or the [Royal Knight] or [CS]\_trait in the hand or trash with the digivolution
+    cost reduced by 1."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT23_076
+  DP: 3000
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT23-076
+  MaxCountInDeck: 4

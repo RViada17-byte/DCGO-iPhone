@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT24_008_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 7527
+  cardColors: 00000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 0
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: 
+  CardName_ENG: Elizamon
+  Form_JPN: []
+  Form_ENG:
+  - Rookie
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Reptile
+  - LIBERATOR
+  CardSpriteName: BT24-008_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[On Play] By trashing 1 card with the [Reptile], [Dragonkin]
+    or [LIBERATOR]\_trait from your hand, \uFF1CDraw 2\uFF1E "
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[Your Turn] [Once Per Turn] When your opponent''s
+    security stack is removed from, gain 1 memory.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT24_008
+  DP: 2000
+  rarity: 0
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT24-008
+  MaxCountInDeck: 4

@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT23_075
+  m_EditorClassIdentifier: 
+  CardIndex: 7413
+  cardColors: 04000000
+  PlayCost: 10
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Eater EDEN
+  Form_JPN: []
+  Form_ENG:
+  - Eater
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - CS
+  CardSpriteName: BT23-075
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] [Eater Legion]: Cost 3 \n\n[On Play] [When
+    Digivolving] Return 1 of your opponent's play cost 6 or lower Digimon or Tamers
+    to the bottom of the deck. For each of your [Mother Eater]'s digivolution cards
+    in the breeding area, add 1 to this effect's play cost maximum.\n[All Turns]
+    When this Digimon would leave the battle area other than by your effects, you
+    may play 1 [Eater] Digimon card from your hand without paying the cost.\n[End
+    of Opponent's Turn] [Once Per Turn] Delete 1 of your opponent's lowest play cost
+    Digimon."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT23_075
+  DP: 12000
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT23-075
+  MaxCountInDeck: 4

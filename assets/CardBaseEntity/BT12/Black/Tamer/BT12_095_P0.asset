@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT12_095_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4542
+  cardColors: 05000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Tai Kamiya
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Tamer
+  CardSpriteName: BT12-095_P0
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Start of Your Main Phase] [On Play] 1 of your Digimon
+    with [Agumon]/[Greymon]\_in its name gains +1000 DP and \uFF1CBlocker\uFF1Euntil
+    the end of your opponent's next turn.\n[Your Turn] When one of your Digimon digivolves
+    into a Digimon with [Greymon]/[Omnimon]\_in its name, suspend this Tamer to gain
+    1 memory."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying the cost.'
+  CardEffectClassName: BT12_095
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT12-095
+  MaxCountInDeck: 4

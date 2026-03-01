@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT14_038
+  m_EditorClassIdentifier: 
+  CardIndex: 2961
+  cardColors: 02000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 2
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: "\u30A8\u30C6\u30E2\u30F3"
+  CardName_ENG: Etemon
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u30D1\u30DA\u30C3\u30C8\u578B"
+  Type_ENG:
+  - Puppet
+  CardSpriteName: BT14-038
+  cardKind: 0
+  EffectDiscription_JPN: "\u540D\u79F0\u306B\u300C\u30B9\u30AB\u30E2\u30F3\u300D\u3092\u542B\u3080Lv.4:\u30B3\u30B9\u30C83\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u306B\u540D\u79F0\u306B\u300C\u30B9\u30AB\u30E2\u30F3\u300D\u3092\u542B\u3080\u30AB\u30FC\u30C9\u304C3\u679A\u4EE5\u4E0A\u3042\u308B\u306A\u3089\u3001\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u540D\u79F0\u306B\u300C\u30A8\u30C6\u30E2\u30F3\u300D\u3092\u542B\u3080Lv.6\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002\u3010\u6D88\u6EC5\u6642\u3011\u3053\u306E\u30AB\u30FC\u30C9\u3092\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u306E\u4E0B\u306B\u7F6E\u304F\u3002"
+  EffectDiscription_ENG: '[Digivolve] Lv.4 w/[Sukamon] in name: Cost 3[Security]
+    If you have 3 or more cards with [Sukamon] in their names in your trash, you
+    may play 1 level 6 Digimon card with [Etemon] in its name from your hand without
+    paying the cost.[On Deletion] Place this card at the bottom of your security
+    stack.'
+  InheritedEffectDiscription_JPN: "\u3010\u6D88\u6EC5\u6642\u3011\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u300C\u30A8\u30C6\u30E2\u30F3\u300D1\u679A\u3092\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u306E\u4E0B\u306B\u7F6E\u304F\u3002"
+  InheritedEffectDiscription_ENG: '[On Deletion] Place 1 [Etemon] from your trash
+    at the bottom of your security stack.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT14_038
+  DP: 7000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT14-038
+  MaxCountInDeck: 4

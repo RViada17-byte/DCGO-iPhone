@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT16_022
+  m_EditorClassIdentifier: 
+  CardIndex: 3330
+  cardColors: 0100000002000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 1
+    Level: 3
+    MemoryCost: 3
+  - CardColor: 2
+    Level: 3
+    MemoryCost: 3
+  Level: 4
+  CardName_JPN: "\u30DE\u30F3\u30BF\u30EC\u30A4\u30E2\u30F3"
+  CardName_ENG: Mantaraymon
+  Form_JPN:
+  - "\u30A2\u30FC\u30DE\u30FC\u4F53"
+  Form_ENG:
+  - ArmorForm
+  Attribute_JPN:
+  - "\u30D5\u30EA\u30FC"
+  Attribute_ENG:
+  - Free
+  Type_JPN:
+  - "\u6C34\u68F2\u578B"
+  Type_ENG:
+  - Aquatic
+  CardSpriteName: BT16-022
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[Digivolve] [Patamon]: Cost 2<Armor Purge> [When Attacking]
+    Trash any 1 digivolution card of 1 of your opponent''s Digimon. Then, 1 of their
+    Digimon with no digivolution cards gains <Security A. -1> until the end of their
+    turn.'
+  InheritedEffectDiscription_JPN: "-\r"
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT16_022
+  DP: 5000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT16-022
+  MaxCountInDeck: 4

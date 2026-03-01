@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT11_010
+  m_EditorClassIdentifier: 
+  CardIndex: 2277
+  cardColors: 00000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 0
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: "\u30B0\u30EA\u30BA\u30E2\u30F3"
+  CardName_ENG: Grizzlymon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u7363\u578B"
+  Type_ENG:
+  - Beast
+  CardSpriteName: BT11-010
+  cardKind: 0
+  EffectDiscription_JPN: "\u226A\u7A81\u9032\u226B(\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30A2\u30BF\u30C3\u30AF\u3057\u305F\u3068\u304D\u3001\u30A2\u30BF\u30C3\u30AF\u306E\u5BFE\u8C61\u3092\u6700\u3082DP\u306E\u9AD8\u3044\u30A2\u30AF\u30C6\u30A3\u30D6\u72B6\u614B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306B\u5909\u66F4\u3067\u304D\u308B)"
+  EffectDiscription_ENG: "\uFF1CRaid\uFF1E (When this Digimon attacks, you may switch
+    the target of attack to 1 of your opponent's unsuspended Digimon with the highest
+    DP.)"
+  InheritedEffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011[\u30BF\u30FC\u30F3\u306B1\u56DE]\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u30A2\u30BF\u30C3\u30AF\u306E\u5BFE\u8C61\u304C\u5909\u66F4\u3055\u308C\u305F\u3068\u304D\u3001\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092DP+3000\u3002"
+  InheritedEffectDiscription_ENG: '[Your Turn][Once Per Turn] When this Digimon''s
+    attack target is switched, this Digimon gets +3000 DP for the turn.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT11_010
+  DP: 5000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT11-010
+  MaxCountInDeck: 4

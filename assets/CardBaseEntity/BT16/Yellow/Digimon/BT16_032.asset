@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT16_032
+  m_EditorClassIdentifier: 
+  CardIndex: 3345
+  cardColors: 0200000005000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 2
+    Level: 3
+    MemoryCost: 3
+  - CardColor: 5
+    Level: 3
+    MemoryCost: 3
+  Level: 4
+  CardName_JPN: "\u30B7\u30FC\u30D7\u30E2\u30F3"
+  CardName_ENG: Sheepmon
+  Form_JPN:
+  - "\u30A2\u30FC\u30DE\u30FC\u4F53"
+  Form_ENG:
+  - ArmorForm
+  Attribute_JPN:
+  - "\u30D5\u30EA\u30FC"
+  Attribute_ENG:
+  - Free
+  Type_JPN:
+  - "\u54FA\u4E73\u985E\u578B"
+  Type_ENG:
+  - Mammal
+  CardSpriteName: BT16-032
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[Digivolve] [Armadillomon]: Cost 2<Armor Purge> <Collision>
+    (During this Digimon''s attack, all of your opponent''s Digimon gain <Blocker>,
+    and the opponent blocks if able.) [All Turns] [Once Per Turn] When an attack
+    target is switched, you may end the attack.'
+  InheritedEffectDiscription_JPN: "-\r"
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT16_032
+  DP: 5000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT16-032
+  MaxCountInDeck: 4

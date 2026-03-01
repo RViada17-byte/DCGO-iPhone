@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT3_041
+  m_EditorClassIdentifier: 
+  CardIndex: 653
+  cardColors: 02000000
+  PlayCost: 11
+  EvoCosts:
+  - CardColor: 2
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: "\u30B1\u30EB\u30D3\u30E2\u30F3"
+  CardName_ENG: Cherubimon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u667A\u5929\u4F7F\u578B"
+  - "\u4E09\u5927\u5929\u4F7F"
+  Type_ENG:
+  - Cherub
+  - Three Great Angels
+  CardSpriteName: BT3-041
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u304C3\u679A\u4EE5\u4E0B\u306E\u3068\u304D\u3001\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u9EC4\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u306E\u4E0A\u306B\u88CF\u5411\u304D\u3067\u7F6E\u304F\u3002"
+  EffectDiscription_ENG: '[When Attacking] If you have 3 or fewer security cards,
+    place 1 yellow Digimon card from your trash on top of your security stack face
+    down.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT3_041
+  DP: 11000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT3-041
+  MaxCountInDeck: 4

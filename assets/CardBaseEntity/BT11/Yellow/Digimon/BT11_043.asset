@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT11_043
+  m_EditorClassIdentifier: 
+  CardIndex: 2316
+  cardColors: 0200000005000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 2
+    Level: 4
+    MemoryCost: 4
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: "\u30B9\u30AB\u30E2\u30F3\u5927\u738B"
+  CardName_ENG: KingSukamon
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u7A81\u7136\u5909\u7570\u578B"
+  Type_ENG:
+  - Mutant
+  CardSpriteName: BT11-043
+  cardKind: 0
+  EffectDiscription_JPN: "\u9032\u5316:\u300E\u540D\u79F0\u306B\u300C\u30B9\u30AB\u30E2\u30F3\u300D\u3092\u542B\u3080Lv.4\u300F\u304B\u30893\u3010\u767B\u5834\u6642\u3011\u3010\u9032\u5316\u6642\u3011\u76F8\u624B\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u304C16\u679A\u4EE5\u4E0A\u3042\u308B\u304B\u3001\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u306B\u540D\u79F0\u306B\u300C\u30B9\u30AB\u30E2\u30F3\u300D\u3092\u542B\u3080\u30AB\u30FC\u30C9\u304C3\u679A\u4EE5\u4E0A\u3042\u308B\u3068\u304D\u3001\u6B21\u306E\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u307E\u3067\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u5143\u3005\u306E\u540D\u79F0\u300C\u30B9\u30AB\u30E2\u30F3\u300D\u30FB\u767D\u30FBDP3000\u306B\u5909\u66F4\u3059\u308B\u3002\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u540D\u79F0\u306B\u300C\u30B9\u30AB\u30E2\u30F3\u300D\u3092\u542B\u3080\u4ED6\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3054\u3068\u306B\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u226A\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u30A2\u30BF\u30C3\u30AF+1\u226B\u3092\u5F97\u308B\u3002"
+  EffectDiscription_ENG: "Digivolve: 3 from Lv.4 w/[Sukamon] in name[On Play][When
+    Digivolving] If your opponent has 16 or more cards in their trash, or you have
+    3 or more cards with [Sukamon] in their names in your trash, change 1 of your
+    opponent's Digimon into a white Digimon with 3000 DP and an original name of
+    [Sukamon] until the end of your opponent's turn.[When Attacking] For each other
+    Digimon with [Sukamon] in its name in play, this Digimon gains \uFF1CSecurity
+    Attack +1\uFF1E for the turn."
+  InheritedEffectDiscription_JPN: "\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u6D88\u6EC5\u3059\u308B\u3068\u304D\u3001\u540D\u79F0\u306B\u300C\u30B9\u30AB\u30E2\u30F3\u300D\u3092\u542B\u3080\u4ED6\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3053\u3068\u3067\u3001\u6D88\u6EC5\u3057\u306A\u3044\u3002"
+  InheritedEffectDiscription_ENG: '[All Turns] When this Digimon would be deleted,
+    by deleting 1 other Digimon with [Sukamon] in its name, prevent that deletion.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT11_043
+  DP: 6000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT11-043
+  MaxCountInDeck: 4

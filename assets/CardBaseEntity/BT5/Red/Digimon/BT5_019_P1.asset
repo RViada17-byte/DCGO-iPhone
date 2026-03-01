@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT5_019_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 960
+  cardColors: 00000000
+  PlayCost: 13
+  EvoCosts:
+  - CardColor: 0
+    Level: 5
+    MemoryCost: 4
+  - CardColor: 0
+    Level: 6
+    MemoryCost: 2
+  Level: 6
+  CardName_JPN: "\u30B7\u30E3\u30A6\u30C8\u30E2\u30F3DX"
+  CardName_ENG: Shoutmon DX
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u5408\u6210\u578B"
+  Type_ENG:
+  - Composite
+  CardSpriteName: BT5-019_P1
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u226A\u9032\u6483\u226B\uFF08\u30E1\u30E2\u30EA\u30FC\u304C\u76F8\u624B\u5074\u306E1\u4EE5\u4E0A\u306E\u3068\u304D\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u30A2\u30BF\u30C3\u30AF\u3067\u304D\u308B\uFF09\u3010\u9032\u5316\u6642\u3011\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u8D64\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u306E1\u756A\u4E0A\u306B\u7F6E\u3051\u308B\u3002\u305D\u306E\u5F8C\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u306E\u300C\u30AA\u30E1\u30AC\u30B7\u30E3\u30A6\u30C8\u30E2\u30F3\u300D\u304B\u300C\u30B8\u30FC\u30AF\u30B0\u30EC\u30A4\u30E2\u30F3\u300D1\u679A\u3054\u3068\u306B\u3001DP5000\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3002"
+  EffectDiscription_ENG: "[When Digivolving] \uFF1CBlitz\uFF1E (This Digimon can
+    attack when your opponent has 1 or more memory.)[When Digivolving] You may place
+    1 red Digimon card from your hand at the top of this Digimon's digivolution cards.
+    Then, for each [OmniShoutmon] or [ZeigGreymon] in this Digimon's digivolution
+    cards, delete 1 of your opponent's Digimon with 5000 DP or less."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT5_019
+  DP: 12000
+  rarity: 3
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: BT5-019
+  MaxCountInDeck: 4

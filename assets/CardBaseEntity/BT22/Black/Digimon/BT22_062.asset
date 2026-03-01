@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT22_062
+  m_EditorClassIdentifier: 
+  CardIndex: 7068
+  cardColors: 0500000003000000
+  PlayCost: 8
+  EvoCosts:
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 4
+  - CardColor: 3
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: MetalTyrannomon (X Antibody)
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Cyborg
+  - X Antibody
+  - Dinosaur
+  CardSpriteName: BT22-062
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.5 w/[Tyrannomon]\_in name w/o [X Antibody]\_trait:
+    Cost 1 \n\n\uFF1CCollision\uFF1E \n[When Digivolving] This Digimon gets +4000
+    DP until your opponent's turn ends. Then, if [MetalTyrannomon] or [X Antibody]
+    is in this Digimon's digivolution cards, 1 of your opponent's Digimon can't digivolve
+    until their turn ends."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[End of Opponent''s Turn] [Once Per Turn] You
+    may choose 1 of your opponent''s Digimon. Your opponent attacks with the chosen
+    Digimon.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT22_062
+  DP: 8000
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT22-062
+  MaxCountInDeck: 4

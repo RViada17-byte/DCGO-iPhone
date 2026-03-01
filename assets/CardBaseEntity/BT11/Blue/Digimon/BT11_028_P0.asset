@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT11_028_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4391
+  cardColors: 01000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 1
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: MachGaogamon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Cyborg
+  CardSpriteName: BT11-028_P0
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[When Digivolving] Until the end of your opponent's turn,
+    this Digimon gains \uFF1CBlocker\uFF1Eand gets +2000 DP for every 4 cards in
+    your opponent's hand."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[All Turns] [Once Per Turn] When an effect adds
+    cards to your opponent''s hand, unsuspend this Digimon.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT11_028
+  DP: 7000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT11-028
+  MaxCountInDeck: 4

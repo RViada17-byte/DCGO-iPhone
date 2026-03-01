@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT11_029_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4392
+  cardColors: 01000000
+  PlayCost: 8
+  EvoCosts:
+  - CardColor: 1
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: AeroVeedramon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Holy Dragon
+  CardSpriteName: BT11-029_P0
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[Main] [Once Per Turn] By suspending this Digimon, reveal
+    the top 3 cards of your deck. Add all blue Tamer cards among them to your hand.
+    Place the rest at the bottom of your deck in any order.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[When Attacking] [Once Per Turn] Activate 1 of
+    your [Rina Shinomiya]''s [On Play] effect.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT11_029
+  DP: 8000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT11-029
+  MaxCountInDeck: 4

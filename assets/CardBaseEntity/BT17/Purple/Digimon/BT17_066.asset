@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT17_066
+  m_EditorClassIdentifier: 
+  CardIndex: 3616
+  cardColors: 0600000002000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 6
+    Level: 4
+    MemoryCost: 4
+  - CardColor: 2
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: HippoGryphonmon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Mythical Beast
+  CardSpriteName: BT17-066
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve][Darcmon]: Cost 3 \n\n\uFF1CBlocker\uFF1E \n[When
+    Digivolving] You may play 1 level 3 Purple or Yellow Digimon card from your hand
+    without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "\uFF1CBlocker\uFF1E."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT17_066
+  DP: 7000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT17-066
+  MaxCountInDeck: 4

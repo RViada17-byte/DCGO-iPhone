@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX1_053
+  m_EditorClassIdentifier: 
+  CardIndex: 1351
+  cardColors: 05000000
+  PlayCost: 11
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: "\u30E1\u30BF\u30EB\u30A8\u30C6\u30E2\u30F3"
+  CardName_ENG: MetalEtemon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u30B5\u30A4\u30DC\u30FC\u30B0\u578B"
+  Type_ENG:
+  - Cyborg
+  CardSpriteName: EX1-053-Errata
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u3011\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u306E\u540D\u79F0\u306B\u300C\u30A8\u30C6\u30E2\u30F3\u300D\u3092\u542B\u3080\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3054\u3068\u306B\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306EDP\u3092+1000\u3059\u308B\u3002\u3010\u6D88\u6EC5\u6642\u3011\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u226A\u9000\u53161\u226B\uFF08\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u306B\u91CD\u306D\u3089\u308C\u305F\u30AB\u30FC\u30C9\u3092\u3001\u4E0A\u304B\u30891\u679A\u7834\u68C4\u3059\u308B\u3002\u9032\u5316\u5143\u304C\u306A\u304F\u306A\u308B\u304B\u3001Lv.3\u306E\u30C7\u30B8\u30E2\u30F3\u306B\u306A\u3063\u305F\u3089\u305D\u308C\u4EE5\u4E0A\u7834\u68C4\u3067\u304D\u306A\u3044\uFF09\u3059\u308B\u3002"
+  EffectDiscription_ENG: "[Opponent's Turn] For each Digimon card with [Etemon] in
+    its name in your trash, this Digimon gets +1000 DP. [On Deletion] \uFF1CDe-Digivolve
+    1\uFF1E 1 of your opponent's Digimon. (Trash 1 card from the top of one of your
+    opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon,
+    you can't trash any more cards.)"
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX1_053
+  DP: 10000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: EX1-053
+  MaxCountInDeck: 4

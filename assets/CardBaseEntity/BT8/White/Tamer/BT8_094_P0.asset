@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT8_094_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 6802
+  cardColors: 04000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Digimon Emperor
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Tamer
+  CardSpriteName: BT8-094_P0
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[All Turns] When one of your opponent's level 5 or lower
+    Digimon is deleted, you may suspend this Tamer to \uFF1CDraw 1\uFF1E \n[Opponent's
+    Turn] When one of your opponent's level 3 Digimon is moved from their breeding
+    area to their battle area, gain 2 memory."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying the cost.'
+  CardEffectClassName: BT8_094
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT8-094
+  MaxCountInDeck: 4

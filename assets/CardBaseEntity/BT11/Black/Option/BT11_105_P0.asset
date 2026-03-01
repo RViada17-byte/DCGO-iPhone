@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT11_105_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4441
+  cardColors: 05000000
+  PlayCost: 1
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Fusionize
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Option
+  CardSpriteName: BT11-105_P0
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 'When you would use this card, if you have a [Snatchmon]
+    in play, reduce the cost by 1.
+
+    [Main] By placing 1 [Vemmon]/[Destromon]
+    from your trash under 1 of your Digimon as its bottom digivolution card, you
+    may digivolve 1 of your Digimon into 1 [Destromon]/[Galactimon] from your trash
+    for its digivolution cost.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] You may reveal the top 3 cards of your
+    deck. play 1 [Vemmon] among them without paying the cost. Trash the rest.'
+  CardEffectClassName: BT11_105
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT11-105
+  MaxCountInDeck: 4

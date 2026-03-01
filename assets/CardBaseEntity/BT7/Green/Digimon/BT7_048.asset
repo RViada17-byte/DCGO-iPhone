@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT7_048
+  m_EditorClassIdentifier: 
+  CardIndex: 1454
+  cardColors: 03000000
+  PlayCost: 6
+  EvoCosts:
+  - CardColor: 3
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: "\u30E2\u30CE\u30AF\u30ED\u30E2\u30F3"
+  CardName_ENG: Monochromon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u93A7\u7ADC\u578B"
+  Type_ENG:
+  - Ankylosaur
+  CardSpriteName: BT7-048
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: 
+  DP: 8000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT7-048
+  MaxCountInDeck: 4

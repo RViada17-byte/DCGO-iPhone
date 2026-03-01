@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT23_047_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 7381
+  cardColors: 030000000000000001000000
+  PlayCost: 15
+  EvoCosts:
+  - CardColor: 3
+    Level: 6
+    MemoryCost: 5
+  - CardColor: 0
+    Level: 6
+    MemoryCost: 5
+  - CardColor: 1
+    Level: 6
+    MemoryCost: 5
+  Level: 7
+  CardName_JPN: 
+  CardName_ENG: Examon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Holy Warrior
+  - Royal Knight
+  - CS
+  CardSpriteName: BT23-047_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "\uFF1CPiercing\uFF1E \n\uFF1CSecurity A. +1\uFF1E \n\uFF1CPartition
+    (green Lv.5 & blue Lv.5)\uFF1E \n[On Play] [When Digivolving] Suspend 5 of your
+    opponent's Digimon or Tamers. None of your opponent's Digimon can unsuspend in
+    their next unsuspend phase. Then, this Digimon may attack.\n[Your Turn] [Once
+    Per Turn] When your opponent's security stack is removed from, trash 1 of their
+    Option cards in the battle area. Then, delete 1 of their suspended Digimon or
+    Tamers."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT23_047
+  DP: 15000
+  rarity: 3
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT23-047
+  MaxCountInDeck: 4

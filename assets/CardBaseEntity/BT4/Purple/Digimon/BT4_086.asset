@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT4_086
+  m_EditorClassIdentifier: 
+  CardIndex: 877
+  cardColors: 06000000
+  PlayCost: 9
+  EvoCosts:
+  - CardColor: 6
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: "\u30B1\u30EB\u30D9\u30ED\u30E2\u30F3\uFF1A\u4EBA\u72FC\u30E2\u30FC\u30C9"
+  CardName_ENG: 'Cerberusmon: Werewolf Mode'
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u9B54\u4EBA\u578B"
+  Type_ENG:
+  - Wizard
+  CardSpriteName: BT4-086
+  cardKind: 0
+  EffectDiscription_JPN: "\u226A\u901F\u653B\u226B\uFF08\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u767B\u5834\u3057\u305F\u30BF\u30FC\u30F3\u3067\u3082\u30A2\u30BF\u30C3\u30AF\u3067\u304D\u308B\uFF09\u3010\u767B\u5834\u6642\u3011\u81EA\u5206\u306E\u300C\u30B1\u30EB\u30D9\u30ED\u30E2\u30F3\u300D1\u4F53\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3053\u3068\u3067\u3001\u30E1\u30E2\u30EA\u30FC\u3092+9\u3059\u308B\u3002"
+  EffectDiscription_ENG: "\uFF1CRush\uFF1E (This Digimon can attack the turn it comes
+    into play.)[On Play] You may delete 1 of your [Cerberusmon] to gain 9 memory."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT4_086
+  DP: 9000
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: BT4-086
+  MaxCountInDeck: 4

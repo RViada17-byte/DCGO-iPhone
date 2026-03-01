@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT1_007
+  m_EditorClassIdentifier: 
+  CardIndex: 141
+  cardColors: 03000000
+  PlayCost: -1
+  EvoCosts: []
+  Level: 2
+  CardName_JPN: "\u30BF\u30CD\u30E2\u30F3"
+  CardName_ENG: Tanemon
+  Form_JPN:
+  - "\u5E7C\u5E74\u671F"
+  Form_ENG:
+  - In-Training
+  Attribute_JPN: []
+  Attribute_ENG: []
+  Type_JPN:
+  - "\u7403\u6839\u578B"
+  Type_ENG:
+  - Bulb
+  CardSpriteName: BT1-007
+  cardKind: 3
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 
+  InheritedEffectDiscription_JPN: "\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\u3053\u306E\u30BF\u30FC\u30F3\u306B\u81EA\u5206\u304C\u30C7\u30B8\u30E2\u30F3\u30921\u56DE\u4EE5\u4E0A\u9032\u5316\u3055\u305B\u3066\u3044\u308B\u5834\u5408\u3001\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306EDP\u3092+1000\u3059\u308B\u3002"
+  InheritedEffectDiscription_ENG: "[When Attacking] If you've digivolved this turn\uFF0C
+    this Digimon gets +1000 DP for the turn."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT1_007
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: BT1-007
+  MaxCountInDeck: 4

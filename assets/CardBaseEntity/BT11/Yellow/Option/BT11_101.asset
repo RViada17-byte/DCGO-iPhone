@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT11_101
+  m_EditorClassIdentifier: 
+  CardIndex: 2384
+  cardColors: 02000000
+  PlayCost: 8
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: "\u30DB\u30FC\u30EA\u30FC\u30B5\u30F3\u30B7\u30E3\u30A4\u30F3"
+  CardName_ENG: Holy Sunshine
+  Form_JPN: []
+  Form_ENG: []
+  Attribute_JPN: []
+  Attribute_ENG: []
+  Type_JPN: []
+  Type_ENG: []
+  CardSpriteName: BT11-101
+  cardKind: 2
+  EffectDiscription_JPN: "\u3053\u306E\u30AB\u30FC\u30C9\u3092\u4F7F\u7528\u3059\u308B\u3068\u304D\u3001\u9EC4\u306E\u81EA\u5206\u306E\u30C6\u30A4\u30DE\u30FC\u304C\u3044\u308B\u306A\u3089\u3001\u652F\u6255\u3046\u4F7F\u7528\u30B3\u30B9\u30C8-1\u3002\u3010\u30E1\u30A4\u30F3\u3011\u6B21\u306E\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u307E\u3067\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F33\u4F53\u3092DP-5000\u3057\u3001\u226A\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u30A2\u30BF\u30C3\u30AF-1\u226B\u3092\u4E0E\u3048\u308B\u3002"
+  EffectDiscription_ENG: "When you would use this card, if you have a yellow Tamer
+    in play, reduce the cost by 1.[Main] Until the end of your opponent's turn, 3
+    of your opponent's Digimon get -5000 DP and gain \uFF1CSecurity Attack -1\uFF1E."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u3053\u306E\u30AB\u30FC\u30C9\u306E\u3010\u30E1\u30A4\u30F3\u3011\u52B9\u679C\u3092\u767A\u63EE\u3059\u308B\u3002"
+  SecurityEffectDiscription_ENG: '[Security] Activate this card''s [Main] effect.'
+  CardEffectClassName: BT11_101
+  DP: 0
+  rarity: 0
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: BT11-101
+  MaxCountInDeck: 4

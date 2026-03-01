@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT17_059
+  m_EditorClassIdentifier: 
+  CardIndex: 3608
+  cardColors: 05000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Diaboromon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Unknown
+  Type_JPN: []
+  Type_ENG:
+  - Unidentified
+  CardSpriteName: BT17-059
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[When Digivolving] By placing 1 [Doomsday Clock] from your
+    hand or trash as this Digimon's bottom digivolution card, you may play 2 [Diaboromon]
+    Tokens without paying their costs (Digimon/Cost 14/Lv.6/White/Mega/Unknown/Unidentified/3000
+    DP)\n[Opponent's Turn] [Once Per Turn] When one of your opponent's Digimon attacks,
+    you may switch the attack target to 1 of your Digimon with [Diaboromon]\_in its
+    name."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT17_059
+  DP: 12000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT17-059
+  MaxCountInDeck: 4

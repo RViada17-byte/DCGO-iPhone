@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT17_058
+  m_EditorClassIdentifier: 
+  CardIndex: 3607
+  cardColors: 05000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: GroundLocomon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Machine
+  CardSpriteName: BT17-058
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "\uFF1CPiercing\uFF1E \n[On Play] [When Digivolving] Reveal
+    the top 3 cards of your deck. Place 1 level 5 or lower black Digimon card among
+    them as this Digimon's bottom digivolution card. Trash the rest.\n[End of Attack]
+    [Once Per Turn] You may play 1 level 5 or lower Digimon card with the [Machine]\_trait
+    from this Digimon's digivolution cards without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT17_058
+  DP: 12000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT17-058
+  MaxCountInDeck: 4

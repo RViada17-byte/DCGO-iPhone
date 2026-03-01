@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT24_054
+  m_EditorClassIdentifier: 
+  CardIndex: 7584
+  cardColors: 0500000003000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 5
+    Level: 2
+    MemoryCost: 1
+  - CardColor: 3
+    Level: 2
+    MemoryCost: 1
+  Level: 3
+  CardName_JPN: 
+  CardName_ENG: Ryudamon
+  Form_JPN: []
+  Form_ENG:
+  - Rookie
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Beast
+  - X Antibody
+  - DigiPolice
+  - SEEKERS
+  CardSpriteName: BT24-054
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] [Kyokyomon]/Lv.2 w/[DigiPolice]/[SEEKERS]\_trait:
+    Cost 0 \n\n[Your Turn] When any of your [Shuu Yulin]s are played, this Digimon
+    may digivolve into [Hisyaryumon] in the hand for a digivolution cost of 3, ignoring
+    digivolution requirements."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[All Turns] [Once Per Turn] When this Digimon
+    suspends, suspend 1 of your opponent''s Digimon or Tamers with as high or lower
+    a play cost as this Digimon.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT24_054
+  DP: 1000
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT24-054
+  MaxCountInDeck: 4

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT16_068
+  m_EditorClassIdentifier: 
+  CardIndex: 3386
+  cardColors: 06000000
+  PlayCost: 4
+  EvoCosts:
+  - CardColor: 6
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: "\u30C9\u30FC\u30D9\u30EB\u30E2\u30F3"
+  CardName_ENG: Dobermon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u9B54\u7363\u578B"
+  Type_ENG:
+  - Dark Animal
+  CardSpriteName: BT16-068
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[On Play] [When Digivolving] 1 of your Digimon gains <Blocker>
+    until the end of your opponent''s turn.'
+  InheritedEffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011[\u30BF\u30FC\u30F3\u306B1\u56DE]\u52B9\u679C\u3067\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u767B\u5834\u3057\u305F\u3068\u304D,\u226A1\u30C9\u30ED\u30FC\u226B\u3002\r"
+  InheritedEffectDiscription_ENG: '[Your Turn] [Once Per Turn] When an effect plays
+    one of your Digimon, <Draw 1>.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT16_068
+  DP: 4000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT16-068
+  MaxCountInDeck: 4

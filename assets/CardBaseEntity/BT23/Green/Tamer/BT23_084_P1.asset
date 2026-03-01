@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT23_084_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 7429
+  cardColors: 03000000
+  PlayCost: 4
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Erika Mishima
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Hudie
+  - CS
+  CardSpriteName: BT23-084_P1
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Security] Play this card without paying the cost.\n[Start
+    of Your Main Phase] If you have a Digimon with the [CS]\_trait, gain 1 memory.\n[End
+    of Your Turn] By suspending this Tamer and returning 1 of your Digimon with the
+    [Hudie]\_trait to the hand, you may play 1 level 3 Digimon card with the [CS]\_trait
+    from your hand to your empty breeding area without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[Your Turn] While this Digimon is [Hudiemon],
+    [Eater Legion] or [Eater EDEN], it gains \uFF1CAlliance\uFF1E."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT23_084
+  DP: 0
+  rarity: 3
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT23-084
+  MaxCountInDeck: 4

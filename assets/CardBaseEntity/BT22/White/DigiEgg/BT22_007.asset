@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT22_007
+  m_EditorClassIdentifier: 
+  CardIndex: 6995
+  cardColors: 04000000
+  PlayCost: 20
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Mother Eater
+  Form_JPN: []
+  Form_ENG:
+  - Eater
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - CS
+  CardSpriteName: BT22-007
+  cardKind: 3
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[Breeding] [Start of Your Main Phase] Look at your Digi-Egg
+    deck''s top card. Among them, you may place [Mother Eater]s as this Digimon''s
+    top digivolution cards. Then, if this Digimon has 10 or more digivolution cards,
+    you may play 3 [Mother Eater]s from its digivolution cards without paying the
+    costs.
+
+    [Breeding] [All Turns] All of your [Mother Eater]s in the battle
+    area are treated as having 16000 DP.
+
+    [On Play] Delete 1 of your opponent''s
+    Digimon.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[Breeding] [All Turns] [Once Per Turn] When any
+    of your [Eater]\_trait Digimon would leave the battle area other than by your
+    effects, you may place them as this Digimon's bottom digivolution cards."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT22_007
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT22-007
+  MaxCountInDeck: 4

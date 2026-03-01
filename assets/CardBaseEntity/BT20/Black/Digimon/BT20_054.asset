@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT20_054
+  m_EditorClassIdentifier: 
+  CardIndex: 5133
+  cardColors: 05000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Bulbmon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Machine
+  CardSpriteName: BT20-054
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "\uFF1CBlocker\uFF1E \n[Opponent's Turn] When this Digimon
+    would leave the battle area, you may play 1 play cost 4 or lower Digimon card
+    from this Digimon's digivolution cards without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[Opponent''s Turn] [Once Per Turn] When one of
+    your opponent''s Digimon attacks, you may change the attack target to this Digimon.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT20_054
+  DP: 7000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT20-054
+  MaxCountInDeck: 4

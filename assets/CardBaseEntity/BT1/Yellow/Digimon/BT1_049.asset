@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT1_049
+  m_EditorClassIdentifier: 
+  CardIndex: 206
+  cardColors: 02000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 2
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: "\u30E9\u30D6\u30E9\u30E2\u30F3"
+  CardName_ENG: Labramon
+  Form_JPN:
+  - "\u6210\u9577\u671F"
+  Form_ENG:
+  - Rookie
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u7363\u578B"
+  Type_ENG:
+  - Beast
+  CardSpriteName: BT1-049
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 
+  InheritedEffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u304CDP0\u306B\u306A\u3063\u3066\u6D88\u6EC5\u3057\u305F\u3068\u304D\u3001\u226A1\u30C9\u30ED\u30FC\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u304B\u3089\u30AB\u30FC\u30C9\u30921\u679A\u5F15\u304F\uFF09\u3002"
+  InheritedEffectDiscription_ENG: "[Your Turn] When an opponent's Digimon is deleted
+    by dropping to 0 DP\uFF0C trigger \uFF1CDraw 1\uFF1E (Draw 1 card from your deck)."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT1_049
+  DP: 1000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT1-049
+  MaxCountInDeck: 4

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT14_018_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4643
+  cardColors: 0000000002000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 0
+    Level: 5
+    MemoryCost: 4
+  - CardColor: 2
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Goldramon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Holy Dragon
+  - Four Great Dragons
+  CardSpriteName: BT14-018_P0
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[On Play] [When Digivolving] Play 1 [Amon of Crimson Flame]
+    Token (Digimon / Red / 6000 DP / \uFF1CRush\uFF1E) and 1 [Umon of Blue Thunder]
+    Token (Digimon/Yellow/6000 DP/\uFF1CBlocker\uFF1E)\n[All Turns] When this Digimon
+    would digivolve or leave the Battle Area, delete all of your [Amon of Crimson
+    Flame]s and [Umon of Blue Thunder]s. If you deleted a Digimon with this effect,
+    \uFF1CRecovery +1 (Deck)\uFF1E."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT14_018
+  DP: 12000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT14-018
+  MaxCountInDeck: 4

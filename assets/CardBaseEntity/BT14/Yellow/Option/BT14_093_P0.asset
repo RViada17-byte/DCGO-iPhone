@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT14_093_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4704
+  cardColors: 02000000
+  PlayCost: 1
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Emissary of Hope
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Option
+  CardSpriteName: BT14-093_P0
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Main] Search your security stack. 1 of your Digimon may
+    digivolve in to 1 yellow level 6 or lower Digimon with the [Vaccine]\_trait among
+    them without paying its cost. Then, shuffle your security security. If digivolved
+    by this effect and you have Tamer with [T.K. Takaishi]\_in its name, \uFF1CRecovery
+    +1 (Deck)\uFF1E."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] You may play 1 [Patamon] from your hand
+    or trash without paying the cost. Then, add this card to your hand.'
+  CardEffectClassName: BT14_093
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT14-093
+  MaxCountInDeck: 4

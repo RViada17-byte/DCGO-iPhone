@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT17_094_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 4884
+  cardColors: 0000000001000000
+  PlayCost: 2
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Ancient Guardian Deity
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Ten Warriors
+  CardSpriteName: BT17-094_P1
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "While you have a Tamer or a Digimon with the [Hybrid]\_trait,
+    you may ignore this card's color requirements.\n[Main] You may return 1 Digimon
+    card with the [Hybrid]\_trait or [Ten Warriors]\_trait from your trash to the
+    hand. Then, you may play 1 Digimon card with the [Ten Warriors]\_trait or 1 Tamer
+    card with inherited effects from your hand with the play cost reduced by 4."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] You may play 1 Tamer card with an inherited
+    effect from your hand or trash without paying the cost. Then, add this card to
+    the hand.'
+  CardEffectClassName: BT17_094
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT17-094
+  MaxCountInDeck: 4

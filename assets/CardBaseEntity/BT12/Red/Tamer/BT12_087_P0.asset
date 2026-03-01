@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT12_087_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4534
+  cardColors: 00000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Taiki Kudo
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Hunter
+  - Xros Heart
+  CardSpriteName: BT12-087_P0
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Start of Your Main Phase] By placing 1 of your Digimon
+    cards with \uFF1CSave\uFF1E\_in its text from your hand under this Tamer, \uFF1CDraw
+    1\uFF1E \n[Your Turn] When one of your Digimon would digivolve into a Digimon
+    card with \uFF1CSave\uFF1E\_in its text, by suspending this Tamer and placing
+    1 card from under one of your Tamers as the bottom digivolution card of that
+    Digimon, reduce the digivolution cost by 1."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying the cost.'
+  CardEffectClassName: BT12_087
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT12-087
+  MaxCountInDeck: 4

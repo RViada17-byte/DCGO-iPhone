@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT21_029_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 5339
+  cardColors: 00000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 0
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Medusamon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Dragonkin
+  - LIBERATOR
+  CardSpriteName: BT21-029_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "\uFF1CSecurity A. +1\uFF1E.\n\uFF1CProgress\uFF1E \n[When
+    Digivolving] [End of Attack] [Once Per Turn] You may delete 1 of your opponent's
+    lowest DP Digimon.\n[All Turns] [Once Per Turn] When any of your opponent's Digimon
+    are deleted or their security stack is removed from, they play 1 [Petrification]
+    Token (Digimon/White/3000 DP/[Your Turn] This Digimon can't suspend./[On Deletion]
+    Trash your top security card.)."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT21_029
+  DP: 12000
+  rarity: 3
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  LinkCost: 0
+  CardID: BT21-029
+  MaxCountInDeck: 4

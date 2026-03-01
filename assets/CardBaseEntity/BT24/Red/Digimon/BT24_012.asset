@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT24_012
+  m_EditorClassIdentifier: 
+  CardIndex: 7531
+  cardColors: 00000000
+  PlayCost: 4
+  EvoCosts:
+  - CardColor: 0
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Dimetromon
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Reptile
+  - LIBERATOR
+  CardSpriteName: BT24-012
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "\uFF1CBlocker\uFF1E \n[All Turns] When any of your other
+    Digimon with the [Reptile] or [Dragonkin]\_trait would leave the battle area
+    by your opponent's effects, by returning this Digimon to the hand, they don't
+    leave."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[Your Turn] [Once Per Turn] When your opponent''s
+    security stack is removed from, gain 1 memory.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT24_012
+  DP: 4000
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT24-012
+  MaxCountInDeck: 4

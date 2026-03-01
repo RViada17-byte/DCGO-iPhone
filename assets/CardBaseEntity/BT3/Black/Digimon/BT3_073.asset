@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT3_073
+  m_EditorClassIdentifier: 
+  CardIndex: 700
+  cardColors: 05000000
+  PlayCost: 11
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 4
+  - CardColor: 0
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: "\u30AF\u30FC\u30EC\u30B9\u30AC\u30EB\u30EB\u30E2\u30F3"
+  CardName_ENG: CresGarurumon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u7363\u9A0E\u58EB\u578B"
+  Type_ENG:
+  - Beast Knight
+  CardSpriteName: BT3-073
+  cardKind: 0
+  EffectDiscription_JPN: "\u226A\u518D\u8D77\u52D5\u226B\uFF08\u76F8\u624B\u306E\u30A2\u30AF\u30C6\u30A3\u30D6\u30D5\u30A7\u30A4\u30BA\u306B\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u3059\u308B\uFF09\u3010\u9032\u5316\u6642\u3011\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3054\u3068\u306B\u3001\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u30891\u679A\u30AA\u30FC\u30D7\u30F3\u3059\u308B\u3002\u305D\u306E\u4E2D\u306E\u9ED2\u304B\u8D64\u306ELv.5\u4EE5\u4E0B\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002\u6B8B\u3063\u305F\u30AB\u30FC\u30C9\u306F\u597D\u304D\u306A\u9806\u756A\u3067\u30C7\u30C3\u30AD\u306E\u4E0B\u306B\u623B\u3059\u3002"
+  EffectDiscription_ENG: "\uFF1CReboot\uFF1E (Unsuspend this Digimon during your
+    opponent's unsuspend phase.)[When Digivolving] Reveal 1 card from the top of
+    your deck for each Digimon your opponent has in play. You may play 1 black or
+    red Digimon card with a level of 5 or less among them without paying its memory
+    cost. Place the remaining cards at the bottom of your deck in any order."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT3_073
+  DP: 11000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: BT3-073
+  MaxCountInDeck: 4

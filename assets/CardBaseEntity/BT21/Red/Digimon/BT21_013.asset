@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT21_013
+  m_EditorClassIdentifier: 
+  CardIndex: 5321
+  cardColors: 00000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 0
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Agunimon
+  Form_JPN: []
+  Form_ENG:
+  - Hybrid
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Variable
+  Type_JPN: []
+  Type_ENG:
+  - Wizard
+  - Hero
+  CardSpriteName: BT21-013
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] [BurningGreymon]: Cost 0 \n\n[When Digivolving]
+    You may place 1 [Hybrid]/[Hero]\_trait Digimon card from your hand or trash as
+    this Digimon's bottom digivolution card or under any of your red Tamers with
+    inherited effects.\n[When Attacking] This Digimon may digivolve into a red [Hybrid]/[Hero]\_trait
+    Digimon card in the hand with the digivolution cost reduced by 1."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[Your Turn] This Digimon gets +2000 DP.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT21_013
+  DP: 5000
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  LinkCost: 0
+  CardID: BT21-013
+  MaxCountInDeck: 4

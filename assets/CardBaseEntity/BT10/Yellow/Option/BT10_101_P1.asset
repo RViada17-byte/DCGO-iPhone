@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT10_101_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 4358
+  cardColors: 02000000
+  PlayCost: 8
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: "L\xF3nkh\u0113 Adistakto"
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Option
+  CardSpriteName: BT10-101_P1
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 'While you have a [Pulsemon] or a Digimon with [Pulsemon]
+    in its digivolution cards in play, you may use this card without meeting its
+    color requirements.
+
+    [Main] If you have 3 or more security cards, 1 of your
+    opponent''s Digimon gets -12000 DP for the turn. If you have 3 or fewer security
+    cards, place 1 of your opponent''s Digimon face down on top of their security
+    stack.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Activate this card''s [Main] effect.'
+  CardEffectClassName: BT10_101
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT10-101
+  MaxCountInDeck: 4

@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT17_028
+  m_EditorClassIdentifier: 
+  CardIndex: 3571
+  cardColors: 0100000002000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 1
+    Level: 5
+    MemoryCost: 4
+  - CardColor: 2
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: AncientGarurumon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Ancient Animal
+  - Ten Warriors
+  CardSpriteName: BT17-028
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[On Play] [When Digivolving] Return 1 of your opponent's
+    Digimon with the lowest level to the hand.\n[Your Turn] [Once Per Turn]When an
+    effect adds cards to your or your opponent's hand, your opponent adds the top
+    card of their security stack to the hand.\n[On Deletion] You may return 1 Tamer
+    card and 1 [Hybrid]\_trait Digimon card from your trash to the hand. Then, you
+    may play 1 Tamer card from your hand without paying the cost.\n\n[DigiXros\_-3]
+    [Lobomon] x [KendoGarurumon] "
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT17_028
+  DP: 12000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: BT17-028
+  MaxCountInDeck: 4

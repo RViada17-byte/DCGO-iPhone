@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT14_037
+  m_EditorClassIdentifier: 
+  CardIndex: 2959
+  cardColors: 02000000
+  PlayCost: 4
+  EvoCosts:
+  - CardColor: 2
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: "\u30DB\u30FC\u30EA\u30FC\u30A8\u30F3\u30B8\u30A7\u30E2\u30F3"
+  CardName_ENG: MagnaAngemon
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u5927\u5929\u4F7F\u578B"
+  Type_ENG:
+  - Archangel
+  CardSpriteName: BT14-037
+  cardKind: 0
+  EffectDiscription_JPN: "\uFF3B\u624B\u672D\uFF3D\u3010\u30AB\u30A6\u30F3\u30BF\u30FC\u3011\u226A\u30D6\u30E9\u30B9\u30C8\u9032\u5316\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u3053\u306E\u30AB\u30FC\u30C9\u306B\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u9032\u5316\u3067\u304D\u308B\uFF09\u3010\u767B\u5834\u6642\u3011\u3010\u9032\u5316\u6642\u3011\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u304C5\u679A\u4EE5\u4E0B\u306A\u3089\u3001\u226A\u30EA\u30AB\u30D0\u30EA\u30FC+1\u300A\u30C7\u30C3\u30AD\u300B\u226B\u3002\u305D\u306E\u5F8C\u3001\u30BF\u30FC\u30F3\u7D42\u4E86\u307E\u3067\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A31\u679A\u3054\u3068\u306BDP-1000\u3002"
+  EffectDiscription_ENG: "[Hand][Counter] \uFF1CBlast Digivolve\uFF1E (One of your
+    Digimon may digivolve into this card without paying the cost.) [On Play][When
+    Digivolving] If you have 5 or fewer security cards, \uFF1CRecovery +1 (Deck)\uFF1E.
+    Then, for the turn, 1 of your opponent's Digimon gets -1000 DP for each card
+    in your security stack."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT14_037
+  DP: 8000
+  rarity: 3
+  OverflowMemory: 3
+  CardID: BT14-037
+  MaxCountInDeck: 4

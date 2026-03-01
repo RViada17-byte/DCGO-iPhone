@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT21_024
+  m_EditorClassIdentifier: 
+  CardIndex: 5333
+  cardColors: 00000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 0
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Cyberdramon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Cyborg
+  - Dragonkin
+  CardSpriteName: BT21-024
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[On Play] [When Digivolving] If your opponent has 5 or
+    fewer security cards, they place 1 card from their hand as the bottom security
+    card. Then, trash their top security card.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[Your Turn] This Digimon gets +4000 DP.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT21_024
+  DP: 7000
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  LinkCost: 0
+  CardID: BT21-024
+  MaxCountInDeck: 4

@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT17_030
+  m_EditorClassIdentifier: 
+  CardIndex: 3574
+  cardColors: 0200000003000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 2
+    Level: 2
+    MemoryCost: 1
+  - CardColor: 3
+    Level: 2
+    MemoryCost: 1
+  Level: 3
+  CardName_JPN: 
+  CardName_ENG: Pulsemon
+  Form_JPN: []
+  Form_ENG:
+  - Rookie
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Beastkin
+  - Abadin Electronics
+  CardSpriteName: BT17-030
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve][Bibimon]: Cost 0 \n\n[Start of Your Main Phase]
+    By placing 1 [Leon Alexander] from your hand as this Digimon's bottom digivolution
+    card, if you have 3 or more security cards, gain 1 memory. If you have 2 or fewer
+    security cards, \uFF1CRecovery +1 (Deck)\uFF1E."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[All Turns] While this Digimon has [Pulsemon]\_in
+    its text, it gets +1000 DP."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT17_030
+  DP: 2000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: BT17-030
+  MaxCountInDeck: 4

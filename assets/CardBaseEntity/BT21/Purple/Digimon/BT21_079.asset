@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT21_079
+  m_EditorClassIdentifier: 
+  CardIndex: 5396
+  cardColors: 0600000000000000
+  PlayCost: 13
+  EvoCosts:
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 5
+  - CardColor: 0
+    Level: 5
+    MemoryCost: 5
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Megidramon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Evil Dragon
+  - Four Great Dragons
+  CardSpriteName: BT21-079
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.5 w/[Growlmon]\_in name: Cost 4 \n\n\uFF1CSecurity
+    A. +1\uFF1E \n[End of Attack] [Once Per Turn] Delete all Digimon.\n[On Deletion]
+    You may play 1 play cost 3 or lower Digimon card with [Guilmon]/[Growlmon]\_in
+    its name from your trash without paying the cost. For every 10 total cards in
+    both players' trashes, add 2 to this effect's play cost maximum."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT21_079
+  DP: 13000
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  LinkCost: 0
+  CardID: BT21-079
+  MaxCountInDeck: 4

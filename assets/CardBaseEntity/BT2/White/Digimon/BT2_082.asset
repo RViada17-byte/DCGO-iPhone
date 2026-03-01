@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT2_082
+  m_EditorClassIdentifier: 
+  CardIndex: 516
+  cardColors: 04000000
+  PlayCost: 14
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: "\u30C7\u30A3\u30A2\u30DC\u30ED\u30E2\u30F3"
+  CardName_ENG: Diaboromon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u4E0D\u660E"
+  Attribute_ENG:
+  - Unknown
+  Type_JPN:
+  - "\u7A2E\u65CF\u4E0D\u660E"
+  Type_ENG:
+  - Unidentified
+  CardSpriteName: BT2-082
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\u300C\u30C7\u30A3\u30A2\u30DC\u30ED\u30E2\u30F3\u300D\uFF08\u30C7\u30B8\u30E2\u30F3\u30FB14\u30B3\u30B9\u30C8\u30FBLv.6\u30FB\u767D\u30FB\u7A76\u6975\u4F53\u30FB\u4E0D\u660E\u30FB\u7A2E\u65CF\u4E0D\u660E\u30FBDP3000\uFF09\u306E\u30C8\u30FC\u30AF\u30F31\u4F53\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30D0\u30C8\u30EB\u3067\u6D88\u6EC5\u3059\u308B\u3068\u304D\u3001\u4ED6\u306E\u81EA\u5206\u306E\u300C\u30C7\u30A3\u30A2\u30DC\u30ED\u30E2\u30F3\u300D1\u4F53\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3053\u3068\u3067\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u6D88\u6EC5\u3057\u306A\u3044\u3002"
+  EffectDiscription_ENG: "[When Attacking] You may play 1 [Diaboromon] Token without
+    paying its memory cost. (Diaboromon Tokens are level 6 white Digimon with a memory
+    cost of 14\uFF0C 3000 DP\uFF0C and are Mega form\uFF0C Unidentified type\uFF0C
+    and Unknown attribute.)[All Turns] When this Digimon would be deleted in battle\uFF0C
+    you may delete one of your other [Diaboromon] to prevent this Digimon from being
+    deleted. "
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT2_082
+  DP: 10000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: BT2-082
+  MaxCountInDeck: 4

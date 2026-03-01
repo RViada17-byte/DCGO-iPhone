@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT16_013_P2
+  m_EditorClassIdentifier: 
+  CardIndex: 3321
+  cardColors: 0000000002000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 0
+    Level: 5
+    MemoryCost: 4
+  - CardColor: 2
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: "\u30F4\u30A1\u30EB\u30AD\u30EA\u30E2\u30F3"
+  CardName_ENG: Valkyrimon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30D5\u30EA\u30FC"
+  Attribute_ENG:
+  - Free
+  Type_JPN:
+  - "\u6226\u58EB\u578B"
+  Type_ENG:
+  - Warrior
+  CardSpriteName: BT16-013_P2
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[Digivolve] [Silphymon]: Cost 3[Hand] [Counter] <Blast
+    Digivolve> (One of your Digimon may digivolve into this card without paying the
+    cost.) [On Play] [When Digivolving] All of your opponent''s Digimon get -5000
+    DP for the turn.[All Turns] [Once Per Turn] When a card is removed from a security
+    stack, delete 1 of your opponent''s 8000 DP or lower Digimon. If this effect
+    didn''t delete, this Digimon gains <Security A. +1> until the end of your turn.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT16_013
+  DP: 12000
+  rarity: 3
+  OverflowMemory: 4
+  CardID: BT16-013
+  MaxCountInDeck: 4

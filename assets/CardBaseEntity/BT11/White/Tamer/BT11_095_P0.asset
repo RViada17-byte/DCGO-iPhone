@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT11_095_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4439
+  cardColors: 04000000
+  PlayCost: 4
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Taiki, Kiriha, & Nene
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Xros Heart
+  - Blue Flare
+  - General
+  CardSpriteName: BT11-095_P0
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Start of Your Main Phase] By placing 1 Digimon card with
+    the [Xros Heart]/[Blue Flare]\_trait from your hand under this Tamer, gain 1
+    memory and \uFF1CDraw 1\uFF1E \n[Your Turn] When you would play 1 Digimon card
+    with a DigiXros requirement, by suspending this Tamer, you may place cards from
+    under your Tamers as digivolution cards for a DigiXros."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying the cost.'
+  CardEffectClassName: BT11_095
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT11-095
+  MaxCountInDeck: 4

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT6_093
+  m_EditorClassIdentifier: 
+  CardIndex: 1235
+  cardColors: 00000000
+  PlayCost: 1
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: "\u8F4D\u5263\u6210\u6557"
+  CardName_ENG: Judgement of the Blade
+  Form_JPN: []
+  Form_ENG: []
+  Attribute_JPN: []
+  Attribute_ENG: []
+  Type_JPN: []
+  Type_ENG: []
+  CardSpriteName: BT6-093
+  cardKind: 2
+  EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u540D\u79F0\u306B\u300C\u30CF\u30C3\u30AF\u30E2\u30F3\u300D\u3092\u542B\u3080\u304B\u7279\u5FB4\u306B\u300C\u30ED\u30A4\u30E4\u30EB\u30CA\u30A4\u30C4\u300D\u3092\u6301\u3064\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306F\u3001\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u30A2\u30AF\u30C6\u30A3\u30D6\u72B6\u614B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u306B\u3082\u30A2\u30BF\u30C3\u30AF\u3067\u304D\u308B\u3002"
+  EffectDiscription_ENG: '[Main] 1 of your Digimon with [Huckmon] in its name or
+    [Royal Knight] in its type can attack your opponent''s unsuspended Digimon for
+    the turn.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u81EA\u5206\u306E\u624B\u672D\u304B\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u540D\u79F0\u306B\u300C\u30B7\u30B9\u30BF\u30E2\u30F3\u300D\u3092\u542B\u3080\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002\u305D\u306E\u5F8C\u3001\u3053\u306E\u30AB\u30FC\u30C9\u3092\u624B\u672D\u306B\u52A0\u3048\u308B\u3002"
+  SecurityEffectDiscription_ENG: '[Security] You may play 1 Digimon card with [Sistermon]
+    in its name from your hand or trash without paying its memory cost. Then, add
+    this card to your hand.'
+  CardEffectClassName: BT6_093
+  DP: 0
+  rarity: 0
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: BT6-093
+  MaxCountInDeck: 4

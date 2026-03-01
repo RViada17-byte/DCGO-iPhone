@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT11_077_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4426
+  cardColors: 06000000
+  PlayCost: 4
+  EvoCosts:
+  - CardColor: 6
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: 
+  CardName_ENG: Chikurimon
+  Form_JPN: []
+  Form_ENG:
+  - Rookie
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Mine
+  - Bagra Army
+  CardSpriteName: BT11-077_P0
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[On Play] By deleting this Digimon, reveal the top 5 cards
+    of your deck. Add 1 card with the [Bagra Army]\_trait among them to your hand.
+    Place the rest at the bottom of your deck in any order.\n[On Deletion] \uFF1CSave\uFF1E."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[Opponent''s Turn] When an effect trashes this
+    card from digivolution cards, gain 1 memory.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT11_077
+  DP: 1000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT11-077
+  MaxCountInDeck: 4

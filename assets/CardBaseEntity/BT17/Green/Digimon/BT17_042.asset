@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT17_042
+  m_EditorClassIdentifier: 
+  CardIndex: 3590
+  cardColors: 0300000006000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 3
+    Level: 2
+    MemoryCost: 1
+  - CardColor: 6
+    Level: 2
+    MemoryCost: 1
+  Level: 3
+  CardName_JPN: 
+  CardName_ENG: Argomon
+  Form_JPN: []
+  Form_ENG:
+  - Rookie
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Mutant
+  CardSpriteName: BT17-042
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.2 [Argomon]: Cost 0 \n\n[On Play] Reveal
+    the top 3 cards of your deck. Add 1 [Argomon] and 1 [Rhythm] among them to the
+    hand. Return the rest to the bottom of the deck."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[On Deletion] Gain 1 memory.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT17_042
+  DP: 2000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT17-042
+  MaxCountInDeck: 4

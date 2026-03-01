@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT13_076_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4601
+  cardColors: 0500000002000000
+  PlayCost: 13
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 5
+  - CardColor: 2
+    Level: 5
+    MemoryCost: 5
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: KingEtemon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Puppet
+  CardSpriteName: BT13-076_P0
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.5 w/[Etemon]/[Sukamon]\_in its name: Cost
+    4 \n\n[All Turns] [Once Per Turn] When another Digimon with [Etemon]/[Sukamon]\_in
+    its name is deleted, 1 of your opponent's Digimon gets -3000 DP and \uFF1CSecurity
+    Attack -1\uFF1Euntil the end of your opponent's turn.\n[Opponent's Turn] All
+    of your Digimon with [Etemon]/[Sukamon]\_in their names gain \uFF1CBlocker\uFF1E
+    , and can't be returned to the hand or deck."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT13_076
+  DP: 12000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT13-076
+  MaxCountInDeck: 4

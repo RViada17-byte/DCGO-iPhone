@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT13_056_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4592
+  cardColors: 03000000
+  PlayCost: 11
+  EvoCosts:
+  - CardColor: 3
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Leopardmon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Holy Warrior
+  - Royal Knight
+  CardSpriteName: BT13-056_P0
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[When Digivolving] [Main] [Once Per Turn] You may play
+    1 Digimon card with the [Royal Knight]\_trait or 1 green Digimon card from your
+    hand for its play cost. When played by this effect, reduce the play cost by 4.\n[All
+    Turns] When you play another Digimon, all of your Digimon with the [Royal Knight]\_trait
+    and all your green Digimon gain \uFF1CBlocker\uFF1Euntil the end of your opponent's
+    turn."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT13_056
+  DP: 11000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT13-056
+  MaxCountInDeck: 4

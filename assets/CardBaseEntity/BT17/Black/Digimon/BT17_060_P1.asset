@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT17_060_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 3610
+  cardColors: 0500000004000000
+  PlayCost: 16
+  EvoCosts:
+  - CardColor: 5
+    Level: 6
+    MemoryCost: 7
+  - CardColor: 4
+    Level: 6
+    MemoryCost: 7
+  Level: 7
+  CardName_JPN: 
+  CardName_ENG: Armageddemon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Unknown
+  Type_JPN: []
+  Type_ENG:
+  - Unidentified
+  CardSpriteName: BT17-060_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "When you would play this card from the hand, by placing
+    up to 13 cards with the [Unidentified]\_trait or [Diaboromon]\_in its text from
+    your trash at the bottom of your deck, reduce the cost by 1 for each card.\n\uFF1CRush\uFF1E.\n\uFF1CBlocker\uFF1E.\n\uFF1CReboot\uFF1E
+    \n[On Play] [When Digivolving] Delete any of your opponent's Digimon with a total
+    play cost up to 15.\n[Your Turn] This Digimon can attack your opponent's unsuspended
+    Digimon."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT17_060
+  DP: 15000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: BT17-060
+  MaxCountInDeck: 4

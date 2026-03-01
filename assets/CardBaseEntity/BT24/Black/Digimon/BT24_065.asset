@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT24_065
+  m_EditorClassIdentifier: 
+  CardIndex: 7596
+  cardColors: 05000000
+  PlayCost: 13
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 5
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Diaboromon (X Antibody)
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Unknown
+  Type_JPN: []
+  Type_ENG:
+  - Unidentified
+  - X Antibody
+  CardSpriteName: BT24-065
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] [Diaboromon]: Cost 2 \n\n\uFF1COverclock ([Unidentified]
+    Trait)\uFF1E (At the end of your turn, by deleting 1 of your Tokens or other
+    [Unidentified]\_trait Digimon, this Digimon attacks a player without suspending.)\n\uFF1CBlocker\uFF1E
+    \n[When Digivolving] To 1 of your opponent's Digimon, \uFF1CDe-Digivolve 1\uFF1E
+    for each of your Digimon. Then, delete all of your opponent's Digimon with the
+    highest play cost.\n[All Turns] [Once Per Turn] When any of your Digimon with
+    [Diaboromon]\_in their names would leave the battle area, you may play 1 [Diaboromon]
+    from your hand or this Digimon's digivolution cards without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT24_065
+  DP: 13000
+  rarity: 3
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT24-065
+  MaxCountInDeck: 4

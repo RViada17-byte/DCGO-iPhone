@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT16_093_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4827
+  cardColors: 02000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: The Sparkle of Fate!
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Option
+  CardSpriteName: BT16-093_P0
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "While you have a green Digimon, you may ignore this card's
+    color requirements.\n[Main] 1 of your Digimon with [Gargomon]/[Rapidmon]\_in
+    its name may digivolve into a card with [Rapidmon]\_in its name in your hand
+    ignoring its digivolution requirements and without paying the cost. Until the
+    end of your opponent's turn, their effects can't reduce the DP of the Digimon
+    this effect digivolved."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: "[Security] You may play 1 level 3 Digimon card
+    with [Terriermon]\_in its name from your hand or trash without paying the cost.
+    Then, add this card to the hand."
+  CardEffectClassName: BT16_093
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT16-093
+  MaxCountInDeck: 4

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT20_034
+  m_EditorClassIdentifier: 
+  CardIndex: 5113
+  cardColors: 0200000003000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 6
+    Level: 4
+    MemoryCost: 4
+  - CardColor: 3
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Boutmon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Beastkin
+  - Abadin Electronics
+  - SEEKERS
+  CardSpriteName: BT20-034
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Pulsemon]\_in text or Lv.4 w/[SEEKERS]\_trait:
+    Cost 3 \n\n\uFF1CFortitude\uFF1E \n[All Turns] When Tamer cards are placed in
+    this Digimon's digivolution cards, 1 of your opponent's Digimon can't activate
+    [When Digivolving] effects until the end of their turn."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[All Turns] [Once Per Turn] When this Digimon
+    deletes your opponent''s Digimon in battle, trash their top security card.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT20_034
+  DP: 7000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT20-034
+  MaxCountInDeck: 4

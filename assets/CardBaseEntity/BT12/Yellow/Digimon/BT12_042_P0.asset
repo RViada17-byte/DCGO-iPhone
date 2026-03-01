@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT12_042_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4497
+  cardColors: 0200000000000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 2
+    Level: 4
+    MemoryCost: 4
+  - CardColor: 0
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: RizeGreymon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Cyborg
+  CardSpriteName: BT12-042_P0
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve][GeoGreymon]: Cost 3 \n\n[When Digivolving]
+    If you have a yellow or red Tamer in play, gain 1 memory.\n[All Turns] [Once
+    Per Turn] When one of your Tamers is deleted, place 1 [Marcus Damon] from your
+    trash on top of your security stack face down."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[All Turns] [Once Per Turn] When one of your Tamers
+    is deleted, place 1 [Marcus Damon] from your trash on top of your security stack
+    face down.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT12_042
+  DP: 7000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT12-042
+  MaxCountInDeck: 4

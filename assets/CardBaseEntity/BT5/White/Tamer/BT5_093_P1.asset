@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT5_093_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 1074
+  cardColors: 04000000
+  PlayCost: 4
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: "\u516B\u795E\u592A\u4E00\uFF06\u77F3\u7530\u30E4\u30DE\u30C8"
+  CardName_ENG: Tai Kamiya & Matt Ishida
+  Form_JPN: []
+  Form_ENG: []
+  Attribute_JPN: []
+  Attribute_ENG: []
+  Type_JPN: []
+  Type_ENG: []
+  CardSpriteName: BT5-093_P1
+  cardKind: 1
+  EffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u958B\u59CB\u6642\u3011Lv.6\u4EE5\u4E0A\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u3044\u308B\u3068\u304D\u3001\u30E1\u30E2\u30EA\u30FC\u3092+2\u3059\u308B\u3002\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\u540D\u79F0\u306B\u300C\u30AA\u30E1\u30AC\u30E2\u30F3\u300D\u3092\u542B\u3080\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u5168\u3066\u306F\u226A\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u30A2\u30BF\u30C3\u30AF+1\u226B\uFF08\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30C1\u30A7\u30C3\u30AF\u3059\u308B\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u306E\u679A\u6570+1\uFF09\u3092\u5F97\u308B\u3002"
+  EffectDiscription_ENG: "[Start of Your Turn] If your opponent has a level 6 or
+    higher Digimon in play, gain 2 memory.[Your Turn] All of your Digimon with [Omnimon]
+    in their names gain \uFF1CSecurity Attack +1\uFF1E. (This Digimon checks 1 additional
+    security card.)"
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u3053\u306E\u30AB\u30FC\u30C9\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3055\u305B\u308B\u3002"
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying its memory
+    cost.'
+  CardEffectClassName: BT5_093
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: BT5-093
+  MaxCountInDeck: 4

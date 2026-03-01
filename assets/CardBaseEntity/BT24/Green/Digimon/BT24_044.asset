@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT24_044
+  m_EditorClassIdentifier: 
+  CardIndex: 7572
+  cardColors: 03000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 3
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: 
+  CardName_ENG: Muchomon
+  Form_JPN: []
+  Form_ENG:
+  - Rookie
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Avian
+  CardSpriteName: BT24-044
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[On Play] You may suspend 1 level 6 or lower Digimon. If
+    this effect suspended your Digimon, reveal the top 3 cards of your deck. Add
+    1 [Shoto Kazama] and 1 card with [Avian] or [Bird]\_in any of its traits or the
+    [Vortex Warriors]\_trait among them to the hand. Return the rest to the bottom
+    of the deck."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[All Turns] [Once Per Turn] When this Digimon
+    deletes your opponent''s Digimon in battle, gain 1 memory.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT24_044
+  DP: 1000
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT24-044
+  MaxCountInDeck: 4

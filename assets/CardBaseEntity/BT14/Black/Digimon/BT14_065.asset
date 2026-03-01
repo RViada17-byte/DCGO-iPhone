@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT14_065
+  m_EditorClassIdentifier: 
+  CardIndex: 2991
+  cardColors: 05000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: "\u30D9\u30FC\u30C0\u30E2\u30F3"
+  CardName_ENG: Vademon
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u5B87\u5B99\u4EBA\u578B"
+  Type_ENG:
+  - Alien
+  CardSpriteName: BT14-065
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u3010\u9032\u5316\u6642\u3011\u76F8\u624B\u306E\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u30893\u679A\u30AA\u30FC\u30D7\u30F3\u3059\u308B\u3002\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u3001\u305D\u306E\u4E2D\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3054\u3068\u306B\u226A\u9000\u53161\u226B\u3002\u30AA\u30FC\u30D7\u30F3\u3057\u305F\u30AB\u30FC\u30C9\u306F\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u4E0B\u3060\u3051\u306B\u623B\u3059\u3002"
+  EffectDiscription_ENG: "[On Play][When Digivolving] Your opponent reveals the top
+    3 cards of their deck. \uFF1CDe-Digivolve 1\uFF1E 1 of your opponent's Digimon
+    for each Digimon card among them. Return the revealed cards to the top or bottom
+    of the deck."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT14_065
+  DP: 7000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT14-065
+  MaxCountInDeck: 4

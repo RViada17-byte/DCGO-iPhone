@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT12_022_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 4481
+  cardColors: 01000000
+  PlayCost: 4
+  EvoCosts:
+  - CardColor: 1
+    Level: 3
+    MemoryCost: 2
+  - CardColor: 3
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: ExVeemon
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Free
+  Type_JPN: []
+  Type_ENG:
+  - Mythical Dragon
+  CardSpriteName: BT12-022_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[Your Turn] When this Digimon DNA digivolves into a green
+    Digimon card, gain 1 memory.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[Your Turn] While this Digimon has [Imperialdramon]\_in
+    its name or the [Free]\_trait, it gains \uFF1CJamming\uFF1E."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT12_022
+  DP: 4000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT12-022
+  MaxCountInDeck: 4

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT22_087
+  m_EditorClassIdentifier: 
+  CardIndex: 7101
+  cardColors: 02000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Torajiro Asuka
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - App Driver
+  - Appmon
+  CardSpriteName: BT22-087
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[Start of Your Main Phase] If your opponent has a Digimon,
+    gain 1 memory.
+
+    [Your Turn] When any of your Digimon get linked, by suspending
+    this Tamer, 1 of your opponent''s Digimon gets -2000 DP for the turn. Then, 1
+    of your Digimon may app fuse into a Digimon card in the hand.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying the cost..'
+  CardEffectClassName: BT22_087
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT22-087
+  MaxCountInDeck: 4

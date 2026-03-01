@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT16_010
+  m_EditorClassIdentifier: 
+  CardIndex: 3315
+  cardColors: 0000000006000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 0
+    Level: 4
+    MemoryCost: 4
+  - CardColor: 6
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: "\u30D8\u30EB\u30AC\u30EB\u30E2\u30F3"
+  CardName_ENG: Helloogarmon
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u9B54\u7363\u578B"
+  - "X\u6297\u4F53"
+  - SoC
+  Type_ENG:
+  - Dark Animal
+  - X Antibody
+  - SoC
+  CardSpriteName: BT16-010
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.4 w/[SoC] trait: Cost 3<Retaliation> [End
+    of Opponent\u2019s Turn] By deleting this Digimon, delete 1 of your opponent's
+    Digimon with the lowest DP. [On Deletion] You may play 1 [Loogamon] or [Eiji
+    Nagasumi] from your trash without paying the cost."
+  InheritedEffectDiscription_JPN: "-\r"
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT16_010
+  DP: 8000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT16-010
+  MaxCountInDeck: 4

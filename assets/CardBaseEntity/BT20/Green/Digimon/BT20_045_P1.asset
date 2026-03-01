@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT20_045_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 5215
+  cardColors: 030000000000000001000000
+  PlayCost: 9
+  EvoCosts:
+  - CardColor: 3
+    Level: 6
+    MemoryCost: 5
+  - CardColor: 0
+    Level: 6
+    MemoryCost: 5
+  - CardColor: 1
+    Level: 6
+    MemoryCost: 5
+  Level: 7
+  CardName_JPN: 
+  CardName_ENG: Examon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Holy Warrior
+  - Royal Knight
+  CardSpriteName: BT20-045_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Hand] [Counter] \uFF1CBlast DNA Digivolve ([Breakdramon]
+    + [Slayerdramon])\uFF1E.\n\uFF1CRaid\uFF1E.\n\uFF1CPiercing\uFF1E.\n\uFF1CBlocker\uFF1E.\n\uFF1CEvade\uFF1E
+    \n[When Digivolving] If DNA digivolving, return all of your opponent's Digimon
+    with the highest DP to the bottom of the deck.\n[All Turns] [Once Per Turn] When
+    any Digimon suspend, this Digimon may unsuspend."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT20_045
+  DP: 15000
+  rarity: 3
+  OverflowMemory: 5
+  CardID: BT20-045
+  MaxCountInDeck: 4

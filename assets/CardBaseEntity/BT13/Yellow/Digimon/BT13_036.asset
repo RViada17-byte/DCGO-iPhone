@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT13_036
+  m_EditorClassIdentifier: 
+  CardIndex: 2686
+  cardColors: 02000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 2
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: "\u30EC\u30AA\u30EB\u30E2\u30F3"
+  CardName_ENG: Liollmon
+  Form_JPN:
+  - "\u6210\u9577\u671F"
+  Form_ENG:
+  - Rookie
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u8056\u7363\u578B"
+  Type_ENG:
+  - Holy Beast
+  CardSpriteName: BT13-036
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011[\u30BF\u30FC\u30F3\u306B1\u56DE]\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u304C\u6E1B\u3063\u305F\u3068\u304D\u3001\u30E1\u30E2\u30EA\u30FC+1\u3002"
+  EffectDiscription_ENG: '[Your Turn][Once Per Turn] When a card is removed from
+    your security stack, gain 1 memory.'
+  InheritedEffectDiscription_JPN: "\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u304A\u4E92\u3044\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u5408\u8A08\u304C6\u679A\u4EE5\u4E0B\u306A\u3089\u3001\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092DP-2000\u3002"
+  InheritedEffectDiscription_ENG: "[When Attacking][Once per Turn] If there're 6
+    or fewer total cards in both players' security stacks, 1 of your opponent\u2019s
+    Digimon gets -2000 DP for the turn."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT13_036
+  DP: 1000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT13-036
+  MaxCountInDeck: 4

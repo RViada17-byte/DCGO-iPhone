@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT5_017
+  m_EditorClassIdentifier: 
+  CardIndex: 957
+  cardColors: 00000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 0
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: "\u30B8\u30FC\u30AF\u30B0\u30EC\u30A4\u30E2\u30F3"
+  CardName_ENG: ZeigGreymon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u30B5\u30A4\u30DC\u30FC\u30B0\u578B"
+  Type_ENG:
+  - Cyborg
+  CardSpriteName: BT5-017
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u226A\u9032\u6483\u226B\uFF08\u30E1\u30E2\u30EA\u30FC\u304C\u76F8\u624B\u5074\u306E1\u4EE5\u4E0A\u306E\u3068\u304D\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u30A2\u30BF\u30C3\u30AF\u3067\u304D\u308B\uFF09"
+  EffectDiscription_ENG: "[When Digivolving] \uFF1CBlitz\uFF1E (This Digimon can
+    attack when your opponent has 1 or more memory.)"
+  InheritedEffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u226A\u9032\u6483\u226B\u3067\u30A2\u30BF\u30C3\u30AF\u3059\u308B\u3068\u304D\u3001\u30A2\u30AF\u30C6\u30A3\u30D6\u72B6\u614B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u306B\u3082\u30A2\u30BF\u30C3\u30AF\u3067\u304D\u308B\u3002"
+  InheritedEffectDiscription_ENG: "[Your Turn] When this Digimon attacks with \uFF1CBlitz\uFF1E,
+    it can also attack your opponent's unsuspended Digimon."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT5_017
+  DP: 11000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT5-017
+  MaxCountInDeck: 4

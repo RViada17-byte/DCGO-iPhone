@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT17_039_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4852
+  cardColors: 02000000
+  PlayCost: 11
+  EvoCosts:
+  - CardColor: 2
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: ShineGreymon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Light Dragon
+  CardSpriteName: BT17-039_P0
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[When Digivolving] You may play 1 [Marcus Damon] from your
+    hand without paying the cost.
+
+    [All Turns] [Once Per Turn] When this Digimon
+    would leave the battle area by an opponent''s effect, by returning 1 of your
+    yellow Tamers to the hand, prevent it from leaving.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT17_039
+  DP: 11000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT17-039
+  MaxCountInDeck: 4

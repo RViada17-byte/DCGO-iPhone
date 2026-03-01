@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT13_108
+  m_EditorClassIdentifier: 
+  CardIndex: 2778
+  cardColors: 05000000
+  PlayCost: 6
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: "\u30A8\u30F3\u30C9\u30FB\u30EF\u30EB\u30C4"
+  CardName_ENG: Waltz's End
+  Form_JPN: []
+  Form_ENG: []
+  Attribute_JPN: []
+  Attribute_ENG: []
+  Type_JPN: []
+  Type_ENG: []
+  CardSpriteName: BT13-108
+  cardKind: 2
+  EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u6B21\u306E\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u307E\u3067\u3001\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306F\u300C\u3010\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30EC\u30B9\u30C8\u3057\u305F\u3068\u304D\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u767B\u5834\u30B3\u30B9\u30C8\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u5168\u3066\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3002\u300D\u306E\u52B9\u679C\u3068\u300C\u3010\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u76F8\u624B\u306E\u30AA\u30D7\u30B7\u30E7\u30F3\u30AB\u30FC\u30C9\u306E\u52B9\u679C\u3092\u53D7\u3051\u306A\u3044\u3002\u300D\u306E\u52B9\u679C\u3092\u5F97\u308B\u3002"
+  EffectDiscription_ENG: '[Main] Until the end of your opponent''s turn, 1 of your
+    Digimon gains "[Opponent''s Turn] When this Digimon becomes suspended, delete
+    all of your opponent''s Digimon with a play cost less than or equal to this Digimon''s"
+    and "[Opponent''s Turn] This Digimon isn''t affected by your opponent''s Option
+    cards." '
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u767B\u5834\u30B3\u30B9\u30C8\u304C\u6700\u3082\u4F4E\u3044\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3002"
+  SecurityEffectDiscription_ENG: '[Security] Delete 1 of your opponent''s Digimon
+    with the lowest play cost.'
+  CardEffectClassName: BT13_108
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: BT13-108
+  MaxCountInDeck: 4

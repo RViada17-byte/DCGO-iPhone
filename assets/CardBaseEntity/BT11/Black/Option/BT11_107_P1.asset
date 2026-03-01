@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT11_107_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 4443
+  cardColors: 0500000000000000
+  PlayCost: 7
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Hades Force
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Option
+  CardSpriteName: BT11-107_P1
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "When you would use this card, if you have a Digimon with
+    [X Antibody] in its digivolution cards in play, reduce the cost by 2.\n[Main]
+    Choose any number of your opponent's Digimon and/or Tamers whose combined play
+    costs are less than or equal to the play cost of 1 of your Digimon with [Greymon]\_in
+    its name, and delete all of the chosen cards. Then, 1 of your Digimon with [Greymon]\_in
+    its name may attack a player."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Delete 1 of your opponent''s Digimon
+    with the highest play cost.'
+  CardEffectClassName: BT11_107
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT11-107
+  MaxCountInDeck: 4

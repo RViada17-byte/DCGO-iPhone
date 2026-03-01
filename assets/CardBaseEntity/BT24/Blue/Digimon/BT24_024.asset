@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT24_024
+  m_EditorClassIdentifier: 
+  CardIndex: 7546
+  cardColors: 0100000002000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 1
+    Level: 3
+    MemoryCost: 3
+  - CardColor: 2
+    Level: 3
+    MemoryCost: 3
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Submarimon
+  Form_JPN: []
+  Form_ENG:
+  - Armor Form
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Free
+  Type_JPN: []
+  Type_ENG:
+  - Aquatic
+  - Iliad
+  - TS
+  CardSpriteName: BT24-024
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] [Armadillomon]/Lv.3 w/[TS]\_trait: Cost 2 \n\n\uFF1CArmor
+    Purge\uFF1E \n[When Attacking] [Once Per Turn] You may play 1 Tamer card with
+    the [TS]\_trait from your hand with the play cost reduced by 2."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT24_024
+  DP: 5000
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT24-024
+  MaxCountInDeck: 4

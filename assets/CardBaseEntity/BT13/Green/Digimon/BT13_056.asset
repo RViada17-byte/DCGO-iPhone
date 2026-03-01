@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT13_056
+  m_EditorClassIdentifier: 
+  CardIndex: 2708
+  cardColors: 03000000
+  PlayCost: 11
+  EvoCosts:
+  - CardColor: 3
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: "\u30C9\u30A5\u30D5\u30C8\u30E2\u30F3"
+  CardName_ENG: Leopardmon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u8056\u9A0E\u58EB\u578B"
+  - "\u30ED\u30A4\u30E4\u30EB\u30CA\u30A4\u30C4"
+  Type_ENG:
+  - Holy Warrior
+  - Royal Knight
+  CardSpriteName: BT13-056
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u3010\u30E1\u30A4\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u7279\u5FB4\u306B\u300C\u30ED\u30A4\u30E4\u30EB\u30CA\u30A4\u30C4\u300D\u3092\u6301\u3064\u304B\u7DD1\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u3063\u3066\u767B\u5834\u3067\u304D\u308B\u3002\u3053\u306E\u52B9\u679C\u3067\u767B\u5834\u3059\u308B\u3068\u304D\u3001\u652F\u6255\u3046\u767B\u5834\u30B3\u30B9\u30C8-4\u3002\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\u4ED6\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u767B\u5834\u3057\u305F\u3068\u304D\u3001\u6B21\u306E\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u307E\u3067\u3001\u7279\u5FB4\u306B\u300C\u30ED\u30A4\u30E4\u30EB\u30CA\u30A4\u30C4\u300D\u3092\u6301\u3064\u304B\u7DD1\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u5168\u3066\u306F\u226A\u30D6\u30ED\u30C3\u30AB\u30FC\u226B\u3092\u5F97\u308B\u3002"
+  EffectDiscription_ENG: "[When Digivolving][Main][Once Per Turn] You may play 1
+    green or [Royal Knight] trait Digimon card from your hand for the cost. When
+    it would be played by this effect, reduce the play cost by 4. [All Turns] When
+    you play another Digimon, all of your green and [Royal Knight] trait Digimon
+    gain \uFF1CBlocker\uFF1E until the end of your opponent's turn."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT13_056
+  DP: 11000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT13-056
+  MaxCountInDeck: 4

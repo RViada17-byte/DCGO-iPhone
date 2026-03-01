@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT10_027
+  m_EditorClassIdentifier: 
+  CardIndex: 2065
+  cardColors: 01000000
+  PlayCost: 11
+  EvoCosts:
+  - CardColor: 1
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: "\u30EC\u30AC\u30EC\u30AF\u30B9\u30E2\u30F3"
+  CardName_ENG: Regalecusmon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u6C34\u68F2\u578B"
+  Type_ENG:
+  - Aquatic
+  CardSpriteName: BT10-027
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306E\u9032\u5316\u5143\u3092\u4E0B\u304B\u30892\u679A\u7834\u68C4\u3059\u308B\u3002\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\u9032\u5316\u5143\u3092\u6301\u305F\u306A\u3044\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u3044\u308B\u3068\u304D\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u304B\u3089\u3001Lv.3\u3068Lv.4\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u305A\u3064\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002"
+  EffectDiscription_ENG: '[When Digivolving] Trash 2 digivolution cards from the
+    bottom of 1 of your opponent''s Digimon.[When Attacking] If your opponent has
+    a Digimon with no digivolution cards in play, you may play 1 level 3 Digimon
+    card and 1 level 4 Digimon card from this Digimon''s digivolution cards without
+    paying their memory costs.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT10_027
+  DP: 11000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT10-027
+  MaxCountInDeck: 4

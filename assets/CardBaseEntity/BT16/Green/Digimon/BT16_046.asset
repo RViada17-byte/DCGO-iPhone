@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT16_046
+  m_EditorClassIdentifier: 
+  CardIndex: 3360
+  cardColors: 0300000006000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 3
+    Level: 5
+    MemoryCost: 4
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: "\u30B0\u30E9\u30F3\u30AF\u30EF\u30AC\u30FC\u30E2\u30F3"
+  CardName_ENG: GranKuwagamon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30D5\u30EA\u30FC"
+  Attribute_ENG:
+  - Free
+  Type_JPN:
+  - "\u6606\u866B\u578B"
+  Type_ENG:
+  - Insectoid
+  CardSpriteName: BT16-046
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[Digivolve] [Dinobeemon] or Lv.5 w/[Insectoid] trait: Cost
+    3[Hand] [Counter] <Blast Digivolve> (One of your Digimon may digivolve into this
+    card without paying the cost.) [On Play] [When Digivolving] Suspend 2 of your
+    opponent''s Digimon or Tamers. Cards this effect suspended can''t unsuspend during
+    your opponent''s next unsuspend phase. Then, delete 1 of their suspended Tamers.
+    [Your Turn] [Once Per Turn] When this Digimon becomes suspended, 1 of your Digimon
+    gains <Security A. +1> for the turn.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT16_046
+  DP: 12000
+  rarity: 2
+  OverflowMemory: 4
+  CardID: BT16-046
+  MaxCountInDeck: 4

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT24_091
+  m_EditorClassIdentifier: 
+  CardIndex: 7634
+  cardColors: 01000000
+  PlayCost: 5
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Tidal Stream
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - TS
+  CardSpriteName: BT24-091
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "While you have an [TS]\_trait Digimon or Tamer on the field,
+    you can ignore this card's color requirements.\n[Security] Activate this card's
+    [Main] effects.\n[Main] Return all of your opponent's lowest level Digimon to
+    the hand. If this effect returned, 1 of your [TS]\_trait Digimon unsuspends.
+    Then, you may link this card to 1 of your Digimon on the field without paying
+    the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT24_091
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 2000
+  LinkEffect: '[When Attacking] [Once Per Turn] Return 1 of your opponent''s lowest
+    level Digimon to the hand.'
+  LinkRequirement: "[Link] [TS]\_trait: Cost 3 "
+  CardID: BT24-091
+  MaxCountInDeck: 4

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT10_008_P2
+  m_EditorClassIdentifier: 
+  CardIndex: 4290
+  cardColors: 00000000
+  PlayCost: 4
+  EvoCosts:
+  - CardColor: 0
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: 
+  CardName_ENG: Shoutmon
+  Form_JPN: []
+  Form_ENG:
+  - Rookie
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Mini Dragon
+  - Xros Heart
+  CardSpriteName: BT10-008_P2
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.2 w/[Xros Heart]\_trait: Cost 0 \n\n[On Play]
+    Reveal the top 3 cards of your deck. Add 1 Digimon card and 1 Tamer card\u2015both
+    with the [Xros Heart]\_trait\u2015among them to your hand. Place the rest at
+    the bottom of your deck in any order.\n[On Deletion] \uFF1CSave\uFF1E."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[Your Turn] While this Digimon has [Shoutmon]\_in
+    its name, it gains \uFF1CRush\uFF1E."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT10_008
+  DP: 2000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT10-008
+  MaxCountInDeck: 4

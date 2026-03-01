@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT20_060
+  m_EditorClassIdentifier: 
+  CardIndex: 5139
+  cardColors: 050000000200000000000000
+  PlayCost: 9
+  EvoCosts:
+  - CardColor: 5
+    Level: 6
+    MemoryCost: 6
+  - CardColor: 2
+    Level: 6
+    MemoryCost: 6
+  - CardColor: 0
+    Level: 6
+    MemoryCost: 6
+  Level: 7
+  CardName_JPN: 
+  CardName_ENG: 'Alphamon: Ouryuken'
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - NO DATA
+  - X Antibody
+  - Royal Knight
+  - Chronicle
+  CardSpriteName: BT20-060
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Hand] [Counter] \uFF1CBlast DNA Digivolve ([Alphamon]
+    + [Ouryumon])\uFF1E \n[On Play] [When Digivolving] 1 of your opponent's Digimon
+    gets -15000 DP until the end of their turn. Then, if DNA digivolving, trash your
+    opponent's top security card and \uFF1CRecovery +1 (Deck)\uFF1E \n[All Turns]
+    [Once Per Turn] When security stacks are removed from, gain 3 memory."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT20_060
+  DP: 16000
+  rarity: 3
+  OverflowMemory: 5
+  CardID: BT20-060
+  MaxCountInDeck: 4

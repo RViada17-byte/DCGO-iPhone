@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT10_095
+  m_EditorClassIdentifier: 
+  CardIndex: 2151
+  cardColors: 00000000
+  PlayCost: 2
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: "\u7A7A\u821E\u3046\u52C7\u8005\uFF01"
+  CardName_ENG: Hero of the Skies!
+  Form_JPN: []
+  Form_ENG: []
+  Attribute_JPN: []
+  Attribute_ENG: []
+  Type_JPN:
+  - "\u30AF\u30ED\u30B9\u30CF\u30FC\u30C8"
+  Type_ENG:
+  - Xros Heart
+  CardSpriteName: BT10-095
+  cardKind: 2
+  EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u4EE5\u4E0B\u306E\u52B9\u679C\u304B\u30891\u3064\u3092\u9078\u3093\u3067\u767A\u63EE\u3059\u308B\u3002\u540D\u79F0\u306B\u300C\u30B7\u30E3\u30A6\u30C8\u30E2\u30F3X5\u300D\u3092\u542B\u3080\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u3044\u308B\u3068\u304D\u3001\u4EE3\u308F\u308A\u306B\u4EE5\u4E0B\u306E\u52B9\u679C\u5168\u3066\u3092\u767A\u63EE\u3059\u308B\u3002\u30FB\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u7279\u5FB4\u306B\u300C\u30AF\u30ED\u30B9\u30CF\u30FC\u30C8\u300D\u3092\u6301\u3064\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306F\u226A\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u30A2\u30BF\u30C3\u30AF+1\u226B\u3092\u5F97\u308B\u3002\u30FB\u226A2\u30C9\u30ED\u30FC\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u304B\u3089\u30AB\u30FC\u30C9\u30922\u679A\u5F15\u304F\uFF09\u3002"
+  EffectDiscription_ENG: "[Main] Activate 1 of the effects below. If you have a Digimon
+    with [Shoutmon X5] in its name in play, activate all of the effects below instead.\u30FB1
+    of your Digimon with [Xros Heart] in its traits gains \uFF1CSecurity Attack +1\uFF1E
+    for the turn.\u30FB\uFF1CDraw 2\uFF1E (Draw 2 cards from your deck.)"
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u3053\u306E\u30AB\u30FC\u30C9\u3092\u624B\u672D\u306B\u52A0\u3048\u308B\u3002"
+  SecurityEffectDiscription_ENG: '[Security] Add this card to its owner''s hand.'
+  CardEffectClassName: BT10_095
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: BT10-095
+  MaxCountInDeck: 4

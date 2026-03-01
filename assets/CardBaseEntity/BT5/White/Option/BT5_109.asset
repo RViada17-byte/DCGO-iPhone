@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT5_109
+  m_EditorClassIdentifier: 
+  CardIndex: 1090
+  cardColors: 04000000
+  PlayCost: 0
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: "\u7A76\u6975\u5408\u4F53\u30C7\u30B8\u30E2\u30F3\u3078\u306E\u878D\u5408\uFF01"
+  CardName_ENG: Mega Digimon Fusion!
+  Form_JPN: []
+  Form_ENG: []
+  Attribute_JPN: []
+  Attribute_ENG: []
+  Type_JPN: []
+  Type_ENG: []
+  CardSpriteName: BT5-109
+  cardKind: 2
+  EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u6B21\u306B\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304CLv.6\u304B\u3089Lv.7\u306B\u9032\u5316\u3059\u308B\u3068\u304D\u306B\u652F\u6255\u3046\u9032\u5316\u30B3\u30B9\u30C8\u3092-6\u3059\u308B\u3002\u3053\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u6642\u3001\u3053\u306E\u52B9\u679C\u3067\u9032\u5316\u3057\u305F\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u30C7\u30C3\u30AD\u306E\u4E0B\u306B\u623B\u3059\u3002\u305D\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u6301\u3064\u9032\u5316\u5143\u306F\u7834\u68C4\u3059\u308B\u3002"
+  EffectDiscription_ENG: '[Main] The next time one of your Digimon digivolves from
+    level 6 to level 7 this turn, reduce the memory cost of the digivolution by 6.
+    At the end of the turn, return the Digimon that digivolved with this effect to
+    the bottom of its owner''s deck. Trash all of the digivolution cards of that
+    Digimon.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u3053\u306E\u30AB\u30FC\u30C9\u3092\u624B\u672D\u306B\u52A0\u3048\u308B\u3002"
+  SecurityEffectDiscription_ENG: '[Security] Add this card to its owner''s hand.'
+  CardEffectClassName: BT5_109
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: BT5-109
+  MaxCountInDeck: 4

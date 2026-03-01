@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT22_015_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 7007
+  cardColors: 000000000400000001000000
+  PlayCost: 15
+  EvoCosts:
+  - CardColor: 0
+    Level: 6
+    MemoryCost: 6
+  - CardColor: 1
+    Level: 6
+    MemoryCost: 6
+  Level: 7
+  CardName_JPN: 
+  CardName_ENG: Omnimon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Holy Warrior
+  - Royal Knight
+  - CS
+  CardSpriteName: BT22-015_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "\uFF1CBlocker\uFF1E \n\uFF1CDecode (Red/Black Lv.3)\uFF1E
+    \n\uFF1CDecode (Blue/Yellow Lv.3)\uFF1E \n[On Play] [When Attacking] Delete 1
+    of your opponent's Digimon with the lowest DP.\n[When Digivolving] For every
+    2 same-level cards this Digimon's stack has, return 1 of your opponent's Digimon
+    to the bottom of the deck. Then, this Digimon may attack."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT22_015
+  DP: 15000
+  rarity: 3
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT22-015
+  MaxCountInDeck: 4

@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT12_032
+  m_EditorClassIdentifier: 
+  CardIndex: 2442
+  cardColors: 01000000
+  PlayCost: 13
+  EvoCosts:
+  - CardColor: 1
+    Level: 5
+    MemoryCost: 5
+  Level: 6
+  CardName_JPN: "\u30A8\u30F3\u30B7\u30A7\u30F3\u30C8\u30DE\u30FC\u30E1\u30A4\u30E2\u30F3"
+  CardName_ENG: AncientMermaimon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u53E4\u4EE3\u6C34\u68F2\u7363\u4EBA\u578B"
+  - "\u5341\u95D8\u58EB"
+  Type_ENG:
+  - Ancient Aquabeast
+  - Ten Warriors
+  CardSpriteName: BT12-032
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u9752\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u304B\u3089\u3001\u7279\u5FB4\u306B\u300C\u30CF\u30A4\u30D6\u30EA\u30C3\u30C9\u4F53\u300D\u304B\u300C\u6C34\u68F2\u300D\u3092\u542B\u3080\u9752\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002\u3010\u6D88\u6EC5\u6642\u3011\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u7279\u5FB4\u306B\u300C\u30CF\u30A4\u30D6\u30EA\u30C3\u30C9\u4F53\u300D\u3092\u6301\u3064\u9752\u306ELv.4\u4EE5\u4E0B\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002"
+  EffectDiscription_ENG: '[When Digivolving] You may play 1 blue Digimon card with
+    a [Hybrid], [Aqua], or [Sea Animal] trait from 1 of your blue Digimon''s digivolution
+    cards without paying its cost.[On Deletion] You may play 1 blue level 4 or lower
+    Digimon card with a [Hybrid] trait from your hand without paying its cost.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT12_032
+  DP: 13000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT12-032
+  MaxCountInDeck: 4

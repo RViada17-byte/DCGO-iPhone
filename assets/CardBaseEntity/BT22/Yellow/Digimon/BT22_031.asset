@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT22_031
+  m_EditorClassIdentifier: 
+  CardIndex: 7028
+  cardColors: 0200000005000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 2
+    Level: 3
+    MemoryCost: 3
+  - CardColor: 5
+    Level: 3
+    MemoryCost: 3
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: GoldNumemon
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Mutant
+  - CS
+  CardSpriteName: BT22-031
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Numemon]\_in name or Lv.3 w/[CS]\_trait:
+    Cost 2 \n\n[On Play] [When Digivolving] Give 1 of your opponent's Digimon \uFF1CSecurity
+    A. -2\uFF1E until their turn ends. Then, if this Digimon's stack has 2 or more
+    same-level cards, this Digimon may digivolve into [PlatinumNumemon] in the hand
+    for a digivolution cost of 4, ignoring digivolution requirements."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[Your Turn] [Once Per Turn] When this Digimon
+    would digivolve into a Digimon card with the [CS]\_trait, reduce the digivolution
+    cost by 1."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT22_031
+  DP: 2000
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT22-031
+  MaxCountInDeck: 4

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT23_071
+  m_EditorClassIdentifier: 
+  CardIndex: 7408
+  cardColors: 06000000
+  PlayCost: 14
+  EvoCosts:
+  - CardColor: 6
+    Level: 6
+    MemoryCost: 4
+  Level: 7
+  CardName_JPN: 
+  CardName_ENG: Dullahamon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Ghost
+  - LIBERATOR
+  CardSpriteName: BT23-071
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] While you have [Violet Inboots], [Phantomon]:
+    Cost 6 \n\n\uFF1CPiercing\uFF1E \n\uFF1CSecurity A. +1\uFF1E \n\uFF1CExecute\uFF1E
+    \n[When Digivolving] Delete 1 of your opponent's Digimon with the highest level.
+    If this effect didn't delete, this Digimon gets +5000 DP for the turn.\n[On Deletion]
+    You may play 1 level 6 or lower Digimon card with the [Ghost]\_trait from your
+    trash without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT23_071
+  DP: 14000
+  rarity: 3
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT23-071
+  MaxCountInDeck: 4

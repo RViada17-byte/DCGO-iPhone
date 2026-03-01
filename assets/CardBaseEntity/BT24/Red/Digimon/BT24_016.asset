@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT24_016
+  m_EditorClassIdentifier: 
+  CardIndex: 7536
+  cardColors: 00000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 0
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Lamiamon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Dragonkin
+  - LIBERATOR
+  CardSpriteName: BT24-016
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[Hand] [Main] If you have [Owen Dreadnought], by placing
+    1 [Dimetromon] from your trash as any of your [Elizamon]''s bottom digivolution
+    card, it digivolves into this card for a digivolution cost of 3, ignoring digivolution
+    requirements.
+
+    [When Digivolving] [When Attacking] [Once Per Turn] Your opponent
+    places 1 card from their hand as the bottom security card. Then, trash their
+    top security card.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[All Turns] [Once Per Turn] When your opponent''s
+    security stack is removed from, you may play 1 5000 DP or lower [Reptile] or
+    [Dragonkin] Digimon card from your hand without paying the cost.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT24_016
+  DP: 7000
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT24-016
+  MaxCountInDeck: 4

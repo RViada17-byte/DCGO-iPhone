@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT23_017
+  m_EditorClassIdentifier: 
+  CardIndex: 7349
+  cardColors: 0100000006000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 1
+    Level: 2
+    MemoryCost: 1
+  - CardColor: 6
+    Level: 2
+    MemoryCost: 1
+  Level: 3
+  CardName_JPN: 
+  CardName_ENG: Betamon
+  Form_JPN: []
+  Form_ENG:
+  - Rookie
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Amphibian
+  - Hudie
+  - CS
+  CardSpriteName: BT23-017
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.2 w/[CS]\_trait: Cost 0 \n\n[On Play] By
+    trash 1 card in your hand, you may return 1 non-Digi-Egg card with the [CS]\_trait
+    from your trash to the hand."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[When Attacking] [Once Per Turn] You may play
+    1 play cost 5 or lower Digimon card with the [Hudie]\_trait from your hand without
+    paying the cost. The Digimon this effect played can't digivolve and is deleted
+    at the end of your opponent's turn."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT23_017
+  DP: 1000
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT23-017
+  MaxCountInDeck: 4

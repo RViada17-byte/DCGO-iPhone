@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT12_073
+  m_EditorClassIdentifier: 
+  CardIndex: 2489
+  cardColors: 06000000
+  PlayCost: 4
+  EvoCosts:
+  - CardColor: 6
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: "\u30A4\u30F3\u30D7\u30E2\u30F3X\u6297\u4F53"
+  CardName_ENG: Impmon (X Antibody)
+  Form_JPN:
+  - "\u6210\u9577\u671F"
+  Form_ENG:
+  - Rookie
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u5C0F\u60AA\u9B54\u578B"
+  - "X\u6297\u4F53"
+  Type_ENG:
+  - Evil
+  - X Antibody
+  CardSpriteName: BT12-073
+  cardKind: 0
+  EffectDiscription_JPN: "\u9032\u5316:\u300C\u30A4\u30F3\u30D7\u30E2\u30F3\u300D\u304B\u30890\u3010\u767B\u5834\u6642\u3011\u3010\u9032\u5316\u6642\u3011\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u30AA\u30D7\u30B7\u30E7\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u7834\u68C4\u3059\u308B\u3053\u3068\u3067\u3001\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u7279\u5FB4\u306B\u300C\u5C0F\u60AA\u9B54\u578B\u300D\u304B\u300C\u9B54\u4EBA\u578B\u300D\u304B\u300C\u9B54\u738B\u578B\u300D\u3092\u6301\u3064\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u624B\u672D\u306B\u623B\u305B\u308B\u3002"
+  EffectDiscription_ENG: 'Digivolve: 0 from [Impmon][On Play][When Digivolving] By
+    trashing 1 Option card in your hand, you may return 1 Digimon card with an [Evil],
+    [Wizard], or [Demon Lord] trait from your trash to your hand.'
+  InheritedEffectDiscription_JPN: "\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u30892\u679A\u7834\u68C4\u3059\u308B\u3002"
+  InheritedEffectDiscription_ENG: '[When Attacking][Once Per Turn] Trash the top
+    2 cards of your deck.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT12_073
+  DP: 2000
+  rarity: 0
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: BT12-073
+  MaxCountInDeck: 4

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT8_054
+  m_EditorClassIdentifier: 
+  CardIndex: 1629
+  cardColors: 03000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 3
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: "\u30D4\u30B9\u30C8\u30E2\u30F3"
+  CardName_ENG: Pistmon
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u690D\u7269\u578B"
+  Type_ENG:
+  - Vegetation
+  CardSpriteName: BT8-054
+  cardKind: 0
+  EffectDiscription_JPN: "\u226A\u5438\u53CE\u9032\u5316-2\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u624B\u672D\u306E\u3053\u306E\u30AB\u30FC\u30C9\u306B\u9032\u5316\u3059\u308B\u3068\u304D\u3001\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u30EC\u30B9\u30C8\u3055\u305B\u308B\u3053\u3068\u3067\u3001\u652F\u6255\u3046\u9032\u5316\u30B3\u30B9\u30C8-2\uFF09"
+  EffectDiscription_ENG: "\uFF1CDigisorption -2\uFF1E (When one of your Digimon digivolves
+    into this card from your hand, you may suspend 1 of your Digimon to reduce the
+    memory cost of the digivolution by 2.)"
+  InheritedEffectDiscription_JPN: "\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\u4ED6\u306E\u30EC\u30B9\u30C8\u72B6\u614B\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3054\u3068\u306B\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092DP+1000\u3002"
+  InheritedEffectDiscription_ENG: '[All Turns] This Digimon gets +1000 DP for each
+    of your other suspended Digimon.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT8_054
+  DP: 7000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT8-054
+  MaxCountInDeck: 4

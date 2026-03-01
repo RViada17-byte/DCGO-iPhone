@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT10_066_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4330
+  cardColors: 05000000
+  PlayCost: 8
+  EvoCosts:
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: DarkKnightmon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Dark Knight
+  - Twilight
+  CardSpriteName: BT10-066_P0
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[On Play] \uFF1CDe-Digivolve1\uFF1E 1 of your opponent's
+    Digimon. Then, if DigiXrosing with 2 cards, delete 1 of your opponent's Digimon
+    with a play cost of 5 or less.\n[All Turns] When this Digimon would be deleted,
+    by returning 1 black level 4 or lower Digimon card from this Digimon's digivolution
+    cards to its owner's hand, you may play 1 [SkullKnightmon]/[DeadlyAxemon] from
+    this Digimon's digivolution cards without paying its memory cost.\n\n[DigiXros\_-2]
+    [SkullKnightmon] x [DeadlyAxemon] "
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT10_066
+  DP: 7000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT10-066
+  MaxCountInDeck: 4

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT21_099
+  m_EditorClassIdentifier: 
+  CardIndex: 5426
+  cardColors: 06000000
+  PlayCost: 1
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Xros Up
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Hunter
+  CardSpriteName: BT21-099
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Main] You may place 1 Digimon card with \uFF1CSave\uFF1E\_in
+    its text from your hand or trash under any of your Tamers. Then, 1 of your Digimon
+    may digivolve into a Digimon card with \uFF1CSave\uFF1E\_in its text in the trash."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: "[Security] You may play 1 card with \uFF1CSave\uFF1E\_in
+    its text and a play cost of 5 or less from your hand or trash without paying
+    the cost. Then, add this card to the hand."
+  CardEffectClassName: BT21_099
+  DP: 0
+  rarity: 0
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  LinkCost: 0
+  CardID: BT21-099
+  MaxCountInDeck: 4

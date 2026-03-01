@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT11_087_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4432
+  cardColors: 06000000
+  PlayCost: 11
+  EvoCosts:
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Lilithmon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Demon Lord
+  - Bagra Army
+  CardSpriteName: BT11-087_P0
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[On Play] Trash the top 4 cards of your deck. Then, add
+    up to 2 cards with [Bagra Army]\_in one of their traits from your trash to your
+    hand, and place up to 2 Digimon cards with the [Bagra Army]\_trait from your
+    trash under 1 of your Tamers.\n[Opponent's Turn] When your opponent moves a Digimon
+    from their breeding area, by trashing 1 of this Digimon's digivolution cards,
+    that Digimon gains \"[When Attacking] Lose 3 memory\"\" for the turn.\""
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT11_087
+  DP: 12000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT11-087
+  MaxCountInDeck: 4

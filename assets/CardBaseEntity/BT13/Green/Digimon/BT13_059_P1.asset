@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT13_059_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 2714
+  cardColors: 0300000001000000
+  PlayCost: 14
+  EvoCosts:
+  - CardColor: 3
+    Level: 6
+    MemoryCost: 4
+  - CardColor: 1
+    Level: 6
+    MemoryCost: 4
+  Level: 7
+  CardName_JPN: "\u30A8\u30B0\u30B6\u30E2\u30F3"
+  CardName_ENG: Examon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u8056\u9A0E\u58EB\u578B"
+  - "\u30ED\u30A4\u30E4\u30EB\u30CA\u30A4\u30C4"
+  Type_ENG:
+  - Holy Warrior
+  - Royal Knight
+  CardSpriteName: BT13-059_P1
+  cardKind: 0
+  EffectDiscription_JPN: "\u226A\u30B8\u30E7\u30B0\u30EC\u30B9:\u7DD1Lv.6+\u9752Lv.6\u304B\u30890\u226B\u6307\u5B9A\u306E\u30C7\u30B8\u30E2\u30F32\u4F53\u3092\u91CD\u306D\u3001\u30A2\u30AF\u30C6\u30A3\u30D6\u3067\u9032\u5316\u3059\u308B\u3010\u767B\u5834\u6642\u3011\u3010\u9032\u5316\u6642\u3011\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u30EC\u30B9\u30C8\u3055\u305B\u308B\u3002\u6B21\u306E\u76F8\u624B\u306E\u30A2\u30AF\u30C6\u30A3\u30D6\u30D5\u30A7\u30A4\u30BA\u3067\u306F\u3001\u305D\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u306A\u3089\u306A\u3044\u3002\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30EC\u30B9\u30C8\u3057\u305F\u3068\u304D\u3001\u4EE5\u4E0B\u306E\u52B9\u679C\u304B\u30891\u3064\u3092\u9078\u3093\u3067\u767A\u63EE\u3067\u304D\u308B\u3002\u30FB\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u30EC\u30B9\u30C8\u3055\u305B\u308B\u3002\u30FB\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u3059\u308B\u3002"
+  EffectDiscription_ENG: "Digivolve unsuspended with the 2 specified Digimon stacked
+    on top of each other.[On Play][When Digivolving] Suspend 1 of your opponent's
+    Digimon. That Digimon doesn't unsuspend during your opponent's next unsuspend
+    phase. [All Turns][Once Per Turn] When an opponent's Digimon becomes suspended,
+    you may activate 1 of the effects below. \u30FB Suspend 1 of your opponent's
+    Digimon. \u30FB Unsuspend 1 of your Digimon."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT13_059
+  DP: 14000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT13-059
+  MaxCountInDeck: 4

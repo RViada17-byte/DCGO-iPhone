@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT23_048
+  m_EditorClassIdentifier: 
+  CardIndex: 7382
+  cardColors: 0500000000000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 5
+    Level: 2
+    MemoryCost: 1
+  - CardColor: 0
+    Level: 2
+    MemoryCost: 1
+  Level: 3
+  CardName_JPN: 
+  CardName_ENG: Gotsumon
+  Form_JPN: []
+  Form_ENG:
+  - Rookie
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Rock
+  - Hudie
+  - CS
+  CardSpriteName: BT23-048
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.2 w/[CS]\_trait: Cost 0 \n\n[On Play] Reveal
+    the top 3 cards of your deck. Add 1 card with the [Hudie]\_trait and 1 Tamer
+    card or Option card with the [CS]\_trait among them to the hand. Return the rest
+    to the bottom of the deck."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[When Attacking] [Once Per Turn] You may play
+    1 play cost 5 or lower Digimon card with the [Hudie]\_trait from your hand without
+    paying the cost. The Digimon this effect played can't digivolve and is deleted
+    at the end of your opponent's turn."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT23_048
+  DP: 1000
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT23-048
+  MaxCountInDeck: 4

@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT8_065
+  m_EditorClassIdentifier: 
+  CardIndex: 1644
+  cardColors: 05000000
+  PlayCost: 6
+  EvoCosts:
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: "\u30AD\u30E3\u30C3\u30C1\u30DE\u30E1\u30E2\u30F3"
+  CardName_ENG: CatchMamemon
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u7A81\u7136\u5909\u7570\u578B"
+  Type_ENG:
+  - Mutant
+  CardSpriteName: BT8-065
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u81EA\u5206\u306E\u624B\u672D\u304B\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u540D\u79F0\u306B\u300C\u30DE\u30E1\u30E2\u30F3\u300D\u3092\u542B\u3080\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C94\u679A\u307E\u3067\u3092\u597D\u304D\u306A\u9806\u756A\u3067\u30C7\u30C3\u30AD\u306E\u4E0A\u306B\u623B\u305B\u308B\u3002\u3053\u306E\u52B9\u679C\u30673\u679A\u4EE5\u4E0A\u623B\u3057\u305F\u3068\u304D\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u226A\u9000\u53161\u226B\uFF08\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u306B\u91CD\u306D\u3089\u308C\u305F\u30AB\u30FC\u30C9\u3092\u3001\u4E0A\u304B\u30891\u679A\u7834\u68C4\u3059\u308B\u3002\u9032\u5316\u5143\u304C\u306A\u304F\u306A\u308B\u304B\u3001Lv.3\u306E\u30C7\u30B8\u30E2\u30F3\u306B\u306A\u3063\u305F\u3089\u305D\u308C\u4EE5\u4E0A\u7834\u68C4\u3067\u304D\u306A\u3044\uFF09\u3059\u308B\u3002"
+  EffectDiscription_ENG: "[When Digivolving] You may return up to 4 Digimon cards
+    with [Mamemon] in their names from your hand and/or trash to the top of your
+    deck in any order. If you return 3 or more cards with this effect, \uFF1CDe-Digivolve
+    1\uFF1E 1 of your opponent's Digimon. (Trash 1 card from the top of one of your
+    opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon,
+    you can't trash any more cards.)"
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT8_065
+  DP: 7000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT8-065
+  MaxCountInDeck: 4

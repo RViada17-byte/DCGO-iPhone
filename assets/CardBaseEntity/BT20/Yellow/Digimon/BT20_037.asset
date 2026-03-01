@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT20_037
+  m_EditorClassIdentifier: 
+  CardIndex: 5116
+  cardColors: 0200000003000000
+  PlayCost: 15
+  EvoCosts:
+  - CardColor: 2
+    Level: 6
+    MemoryCost: 5
+  - CardColor: 3
+    Level: 6
+    MemoryCost: 5
+  Level: 7
+  CardName_JPN: 
+  CardName_ENG: 'Chaosmon: Valdur Arm'
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Unique
+  CardSpriteName: BT20-037
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "\uFF1CSecurity A. +1\uFF1E.\n\uFF1CPartition (Yellow Lv.6
+    + Green/Black Lv.6)\uFF1E \n[When Digivolving] For each of this Digimon's level
+    6 digivolution cards, suspend 1 of your opponent's Digimon or Tamers and gain
+    1 memory. Then none of their Digimon or Tamers can activate [On Play] effects
+    or unsuspend until the end of their turn."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT20_037
+  DP: 15000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: BT20-037
+  MaxCountInDeck: 4

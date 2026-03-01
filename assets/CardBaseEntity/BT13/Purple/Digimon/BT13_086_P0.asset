@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT13_086_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4603
+  cardColors: 06000000
+  PlayCost: 9
+  EvoCosts: []
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: 'Gizmon: XT'
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Unknown
+  Type_JPN: []
+  Type_ENG:
+  - Unknown
+  CardSpriteName: BT13-086_P0
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "When you would play this card from your hand, by deleting
+    1 of your level 4 Digimon, reduce the play cost by 6.\n\uFF1CBlocker\uFF1E \n[On
+    Play] Play 1 [Akihiro Kurata] from your trash without paying its cost.\n[All
+    Turns] This Digimon can't digivolve.\n[On Deletion] You may play 1 [ProtoGizmon]
+    from your trash without paying its cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT13_086
+  DP: 9000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT13-086
+  MaxCountInDeck: 4

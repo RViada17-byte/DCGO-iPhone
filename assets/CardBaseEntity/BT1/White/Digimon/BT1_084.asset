@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT1_084
+  m_EditorClassIdentifier: 
+  CardIndex: 263
+  cardColors: 04000000
+  PlayCost: 15
+  EvoCosts:
+  - CardColor: 0
+    Level: 6
+    MemoryCost: 6
+  - CardColor: 1
+    Level: 6
+    MemoryCost: 6
+  Level: 7
+  CardName_JPN: "\u30AA\u30E1\u30AC\u30E2\u30F3"
+  CardName_ENG: Omnimon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u8056\u9A0E\u58EB\u578B"
+  - "\u30ED\u30A4\u30E4\u30EB\u30CA\u30A4\u30C4"
+  Type_ENG:
+  - Holy Warrior
+  - Royal Knight
+  CardSpriteName: BT1-084
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u9078\u3076\u3002\u305D\u306E\u30C7\u30B8\u30E2\u30F3\u3068\u540C\u3058\u540D\u79F0\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u5168\u3066\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3002\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u306ELv.6\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u624B\u672D\u306B\u623B\u3059\u3053\u3068\u3067\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u3059\u308B\u3002"
+  EffectDiscription_ENG: '[When Digivolving] Choose 1 of your opponent''s Digimon.
+    Delete all of your opponent''s Digimon that share a name with it.[When Attacking]
+    You can unsuspend this Digimon by returning 1 of this Digimon''s level 6 digivolution
+    cards to your hand.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT1_084
+  DP: 15000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: BT1-084
+  MaxCountInDeck: 4

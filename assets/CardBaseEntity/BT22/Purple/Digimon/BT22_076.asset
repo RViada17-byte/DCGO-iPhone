@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT22_076
+  m_EditorClassIdentifier: 
+  CardIndex: 7083
+  cardColors: 0600000002000000
+  PlayCost: 13
+  EvoCosts:
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 5
+  - CardColor: 2
+    Level: 5
+    MemoryCost: 5
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: ShinMonzaemon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Puppet
+  - DM
+  - Ver.1
+  CardSpriteName: BT22-076
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.5 w/[DM]\_trait: Cost 5 \n\nWhen any of
+    your Digimon with the [Ver.1]\_trait would digivolve into this card, reduce the
+    digivolution cost by 2.\n\uFF1CSecurity A. +1\uFF1E \n\uFF1CArmor Purge\uFF1E
+    \n[When Digivolving] [When Attacking] [Once Per Turn] By trashing this Digimon's
+    bottom face-down digivolution card, place 1 Digimon with as much or less DP as
+    this Digimon as the top security card."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT22_076
+  DP: 13000
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT22-076
+  MaxCountInDeck: 4

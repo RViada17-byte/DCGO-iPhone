@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT18_102_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 3975
+  cardColors: 04000000
+  PlayCost: 9
+  EvoCosts:
+  - CardColor: 0
+    Level: 6
+    MemoryCost: 6
+  - CardColor: 1
+    Level: 6
+    MemoryCost: 6
+  - CardColor: 2
+    Level: 6
+    MemoryCost: 6
+  - CardColor: 3
+    Level: 6
+    MemoryCost: 6
+  - CardColor: 5
+    Level: 6
+    MemoryCost: 6
+  - CardColor: 6
+    Level: 6
+    MemoryCost: 6
+  - CardColor: 4
+    Level: 6
+    MemoryCost: 6
+  Level: 7
+  CardName_JPN: 
+  CardName_ENG: Susanoomon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  - Hybrid
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Shaman
+  CardSpriteName: BT18-102_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve][Takuya Kanbara]/[Koji Minamoto] w/10 [Hybrid]\_trait
+    cards under it: Cost 6 \n\n[Hand] [Counter] \uFF1CBlast Digivolve\uFF1E \n[When
+    Digivolving] [When Attacking] Delete 1 of your opponent's Digimon with 10000
+    DP or less. For each color in this Digimon's digivolution cards, add 2000 to
+    this DP deletion effect's maximum.\n[When Attacking] By placing up to 5 Tamer
+    cards from this Digimon's digivolution cards as your bottom security cards, trash
+    opponent's top security cards for each card placed by this effect.\n[Rule] Trait:
+    Has the [Hybrid] form."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT18_102
+  DP: 16000
+  rarity: 4
+  OverflowMemory: 5
+  CardID: BT18-102
+  MaxCountInDeck: 4

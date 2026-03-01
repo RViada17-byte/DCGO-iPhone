@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT13_110
+  m_EditorClassIdentifier: 
+  CardIndex: 2780
+  cardColors: 04000000
+  PlayCost: 6
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: "\u7C9B\u6E05\u306E\u30ED\u30A4\u30E4\u30EB\u30CA\u30A4\u30C4"
+  CardName_ENG: Royal Knights of the Purge
+  Form_JPN: []
+  Form_ENG: []
+  Attribute_JPN: []
+  Attribute_ENG: []
+  Type_JPN:
+  - "\u30ED\u30A4\u30E4\u30EB\u30CA\u30A4\u30C4"
+  Type_ENG:
+  - Royal Knight
+  CardSpriteName: BT13-110
+  cardKind: 2
+  EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u226A1\u30C9\u30ED\u30FC\u226B\u3002\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u80B2\u6210\u30A8\u30EA\u30A2\u306E\u81EA\u5206\u306E\u300C\u30A4\u30B0\u30C9\u30E9\u30B7\u30EB_7D6\u300D1\u4F53\u306E\u9032\u5316\u5143\u306E\u4E0B\u306B\u7F6E\u3051\u308B\u3002\u305D\u306E\u5F8C\u3001\u3053\u306E\u30AB\u30FC\u30C9\u3092\u30D0\u30C8\u30EB\u30A8\u30EA\u30A2\u306B\u7F6E\u304F\u3002\u3010\u30E1\u30A4\u30F3\u3011\u226A\u30C7\u30A3\u30EC\u30A4\u226B\uFF08\u7F6E\u3044\u305F\u6B21\u306E\u30BF\u30FC\u30F3\u4EE5\u964D\u306B\u3053\u306E\u30AB\u30FC\u30C9\u3092\u7834\u68C4\u3059\u308B\u3053\u3068\u3067\u3001\u52B9\u679C\u3092\u767A\u63EE\u3059\u308B\uFF09\u30FB\u80B2\u6210\u30A8\u30EA\u30A2\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u306E\u7279\u5FB4\u306B\u300C\u30ED\u30A4\u30E4\u30EB\u30CA\u30A4\u30C4\u300D\u3092\u6301\u3064\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3055\u305B\u308B\u3002\u3053\u306E\u52B9\u679C\u3067\u767B\u5834\u3057\u305F\u30C7\u30B8\u30E2\u30F3\u306E\u3010\u767B\u5834\u6642\u3011\u52B9\u679C\u306F\u767A\u63EE\u305B\u305A\u3001\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u226A\u901F\u653B\u226B\u3092\u5F97\u308B\u3002"
+  EffectDiscription_ENG: "[Main] \uFF1CDraw 1\uFF1E. You may place 1 Digimon card
+    from your hand as the bottom digivolution card of 1 of your [King Drasil_7D6]
+    in the breeding area. Then, place this card in the battle area. [Main] \uFF1CDelay\uFF1E
+    \u30FB Play 1 [Royal Knight] trait card from the digivolution cards of your Digimon
+    in the breeding area without paying the cost. [On Play] effects on Digimon played
+    by this effect don't activate, and they gain \uFF1CRush\uFF1E for the turn."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u3053\u306E\u30AB\u30FC\u30C9\u3092\u30D0\u30C8\u30EB\u30A8\u30EA\u30A2\u306B\u7F6E\u304F\u3002"
+  SecurityEffectDiscription_ENG: '[Security] Place this card in the battle area.'
+  CardEffectClassName: BT13_110
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: BT13-110
+  MaxCountInDeck: 4

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT10_041_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 2080
+  cardColors: 02000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 2
+    Level: 5
+    MemoryCost: 3
+  - CardColor: 2
+    Level: 6
+    MemoryCost: 2
+  Level: 6
+  CardName_JPN: "\u30B5\u30AF\u30E4\u30E2\u30F3:\u5DEB\u5973\u30E2\u30FC\u30C9"
+  CardName_ENG: 'Sakuyamon: Maid Mode'
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u795E\u4EBA\u578B"
+  Type_ENG:
+  - Shaman
+  CardSpriteName: BT10-041_P1
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u540D\u79F0\u306B\u300C\u30D7\u30E9\u30B0\u30A4\u30F3\u300D\u3092\u542B\u3080\u304B\u4F7F\u7528\u30B3\u30B9\u30C85\u4EE5\u4E0B\u306E\u9EC4\u306E\u30AA\u30D7\u30B7\u30E7\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u8272\u6761\u4EF6\u3092\u7121\u8996\u3057\u3066\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002\u3053\u306E\u52B9\u679C\u3067\u4F7F\u7528\u3057\u305F\u30AA\u30D7\u30B7\u30E7\u30F3\u30AB\u30FC\u30C9\u306F\u30C8\u30E9\u30C3\u30B7\u30E5\u306B\u7F6E\u304F\u4EE3\u308F\u308A\u306B\u3001\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u306E\u4E0A\u306B\u88CF\u5411\u304D\u3067\u7F6E\u304F\u3002\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u624B\u672D\u306E\u300C\u30B5\u30AF\u30E4\u30E2\u30F3\u300D\u306B\u9032\u5316\u6761\u4EF6\u3092\u7121\u8996\u3057\u30661\u30B3\u30B9\u30C8\u652F\u6255\u3063\u3066\u9032\u5316\u3067\u304D\u308B\u3002"
+  EffectDiscription_ENG: '[When Digivolving] You may use 1 Option card with [Plug-In]
+    in its name or that''s yellow and has a memory cost of 5 or less from your hand
+    without meeting its color requirements or paying its memory cost. Place the Option
+    card used with this effect on top of your security stack face down instead of
+    placing it in your trash.[When Attacking] This Digimon may digivolve into a [Sakuyamon]
+    in your hand for a cost of 1, ignoring its digivolution requirements.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT10_041
+  DP: 11000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: BT10-041
+  MaxCountInDeck: 4

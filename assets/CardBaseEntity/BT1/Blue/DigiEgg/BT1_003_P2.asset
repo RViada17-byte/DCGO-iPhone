@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT1_003_P2
+  m_EditorClassIdentifier: 
+  CardIndex: 4256
+  cardColors: 01000000
+  PlayCost: -1
+  EvoCosts: []
+  Level: 2
+  CardName_JPN: 
+  CardName_ENG: Upamon
+  Form_JPN: []
+  Form_ENG:
+  - In-Training
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Amphibian
+  CardSpriteName: BT1-003_P2
+  cardKind: 3
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '-'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[When Attacking] [Once Per Turn] If your opponent
+    has a Digimon with no digivolution cards, \uFF1CDraw 1\uFF1E."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT1_003
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: BT1-003
+  MaxCountInDeck: 4

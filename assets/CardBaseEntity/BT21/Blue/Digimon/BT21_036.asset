@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT21_036
+  m_EditorClassIdentifier: 
+  CardIndex: 5347
+  cardColors: 0100000002000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 1
+    Level: 3
+    MemoryCost: 4
+  - CardColor: 2
+    Level: 3
+    MemoryCost: 4
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Magnamon
+  Form_JPN: []
+  Form_ENG:
+  - Armor Form
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Free
+  Type_JPN: []
+  Type_ENG:
+  - Holy Warrior
+  - Royal Knight
+  - Hero
+  CardSpriteName: BT21-036
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] [Veemon]/Lv.3 w/[Hero]\_trait: Cost 3 \n\n\uFF1CBlocker\uFF1E.\n\uFF1CArmor
+    Purge\uFF1E \n[When Digivolving] This Digimon unsuspends. Then, to 1 of your
+    opponent's Digimon give -2000 DP for the turn for each card with the [Armor Form]\_trait
+    in your trash."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT21_036
+  DP: 7000
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  LinkCost: 0
+  CardID: BT21-036
+  MaxCountInDeck: 4

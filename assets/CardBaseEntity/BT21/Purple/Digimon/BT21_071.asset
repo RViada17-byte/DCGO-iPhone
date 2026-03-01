@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT21_071
+  m_EditorClassIdentifier: 
+  CardIndex: 5388
+  cardColors: 06000000
+  PlayCost: 4
+  EvoCosts:
+  - CardColor: 6
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Scopemon
+  Form_JPN: []
+  Form_ENG:
+  - Sup.
+  - Appmon
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Tool
+  Type_JPN: []
+  Type_ENG:
+  - Monitoring
+  CardSpriteName: BT21-071
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.3 w/[Three Musketeers]\_in text: Cost 2
+    \n\n[On Play] [When Digivolving] By placing 1 card with the [Appmon]/[Three Musketeers]\_trait
+    from your hand or trash as 1 of your Digimon's bottom digivolution card, gain
+    1 memory."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT21_071
+  DP: 4000
+  rarity: 0
+  OverflowMemory: 0
+  LinkDP: 3000
+  LinkEffect: "[When Linking] \uFF1CDraw 2\uFF1E and trash 2 cards in your hand."
+  LinkRequirement: "[Link] [Appmon]\_trait: Cost 2 "
+  CardID: BT21-071
+  MaxCountInDeck: 4

@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT6_072
+  m_EditorClassIdentifier: 
+  CardIndex: 1206
+  cardColors: 06000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 6
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: "\u30AA\u30FC\u30AC\u30E2\u30F3"
+  CardName_ENG: Ogremon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u9B3C\u4EBA\u578B"
+  Type_ENG:
+  - Demon
+  CardSpriteName: BT6-072
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u81EA\u5206\u306E\u624B\u672D\u30921\u679A\u7834\u68C4\u3059\u308B\u3053\u3068\u3067\u3001Lv.4\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3002"
+  EffectDiscription_ENG: '[On Play] You may trash 1 card in your hand to delete 1
+    of your opponent''s level 4 or lower Digimon.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT6_072
+  DP: 4000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT6-072
+  MaxCountInDeck: 4

@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT1_073
+  m_EditorClassIdentifier: 
+  CardIndex: 242
+  cardColors: 03000000
+  PlayCost: 6
+  EvoCosts:
+  - CardColor: 3
+    Level: 3
+    MemoryCost: 1
+  Level: 4
+  CardName_JPN: "\u30AB\u30D6\u30C6\u30EA\u30E2\u30F3"
+  CardName_ENG: Kabuterimon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u6606\u866B\u578B"
+  Type_ENG:
+  - Insectoid
+  CardSpriteName: BT1-073
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 
+  InheritedEffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\u30EC\u30B9\u30C8\u72B6\u614B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3054\u3068\u306B\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306EDP\u3092+1000\u3059\u308B\u3002"
+  InheritedEffectDiscription_ENG: '[Your Turn] This Digimon gets +1000 DP for every
+    suspended Digimon your opponent has.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT1_073
+  DP: 5000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT1-073
+  MaxCountInDeck: 4

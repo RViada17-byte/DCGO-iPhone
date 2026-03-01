@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT12_096_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4543
+  cardColors: 06000000
+  PlayCost: 4
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Tagiru Akashi
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Hunter
+  CardSpriteName: BT12-096_P0
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Start of Your Turn] If you have 2 memory or less, set
+    your memory to 3.\n[Your Turn] When one of your Digimon would digivolve into
+    a Digimon with \uFF1CSave\uFF1E\_in its text, by suspending this Tamer and placing
+    1 card from under this Tamer under that Digimon as its bottom digivolution card,
+    reduce the digivolution cost by 1."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying the cost.'
+  CardEffectClassName: BT12_096
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT12-096
+  MaxCountInDeck: 4

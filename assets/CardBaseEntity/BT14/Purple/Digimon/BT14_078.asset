@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT14_078
+  m_EditorClassIdentifier: 
+  CardIndex: 3006
+  cardColors: 06000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 6
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: "\u30D8\u30EB\u30AC\u30EB\u30E2\u30F3"
+  CardName_ENG: Helloogarmon
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u9B54\u7363\u578B"
+  - "X\u6297\u4F53"
+  - SoC
+  Type_ENG:
+  - Dark Animal
+  - X Antibody
+  - SoC
+  CardSpriteName: BT14-078
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u6642\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u6D88\u6EC5\u3055\u305B\u3001\u226A2\u30C9\u30ED\u30FC\u226B\u3002\u305D\u306E\u5F8C\u3001\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u300C\u30EB\u30AC\u30E2\u30F3\u300D1\u679A\u3092\u624B\u672D\u306B\u623B\u305B\u308B\u3002\u3010\u6D88\u6EC5\u6642\u3011\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u7279\u5FB4\u306B\u300C\u9B54\u7363\u578B\u300D/\u300CSoC\u300D\u3092\u6301\u3064\u30AB\u30FC\u30C9\u30923\u679A\u307E\u3067\u7834\u68C4\u3067\u304D\u308B\u3002\u305D\u306E\u5F8C\u3001Lv.3\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3002\u3053\u306E\u52B9\u679C\u3067\u7834\u68C4\u3057\u305F\u30AB\u30FC\u30C91\u679A\u3054\u3068\u306B\u3001\u3053\u306E\u52B9\u679C\u3067\u9078\u3079\u308BLv.+1\u3002"
+  EffectDiscription_ENG: "[End of Your Turn] Delete this Digimon and \uFF1CDraw 2\uFF1E.
+    Then, you may return 1 [Loogamon] from your trash to the hand. [On Deletion]
+    You may trash up to 3 cards with the [Dark Animal] or [SoC] trait in your hand.
+    Then, delete 1 of your opponent's level 3 or lower Digimon. For each card trashed
+    by this effect, add 1 to the level this effect may choose."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT14_078
+  DP: 9000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT14-078
+  MaxCountInDeck: 4

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT17_007
+  m_EditorClassIdentifier: 
+  CardIndex: 3547
+  cardColors: 00000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 0
+    Level: 2
+    MemoryCost: 0
+  - CardColor: 1
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: 
+  CardName_ENG: Agumon
+  Form_JPN: []
+  Form_ENG:
+  - Rookie
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Reptile
+  CardSpriteName: BT17-007
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve][Koromon]: Cost 0 \n\n[Start of Your Main Phase]
+    If you have a Tamer with [Tai Kamiya]\_in its name, return 1 card with [Garurumon]/[Greymon]/[Omnimon]\_in
+    its name from your trash to the hand."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[End of Your Turn] This Digimon and another of
+    your Digimon may DNA digivolve into a Digimon card in the hand.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT17_007
+  DP: 1000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT17-007
+  MaxCountInDeck: 4

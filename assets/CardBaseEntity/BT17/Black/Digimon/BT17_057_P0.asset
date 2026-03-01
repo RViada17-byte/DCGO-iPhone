@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT17_057_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4858
+  cardColors: 05000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Chaosdramon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Machine
+  - SoC
+  CardSpriteName: BT17-057_P0
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.5 w/[SoC]\_trait: Cost 3 \n\nWhile you have
+    a black Tamer, cards from your trash may also be placed for this card's DigiXros.\n[On
+    Play] [When Digivolving] By placing 1 [Cyborg]/[SoC]\_trait card from your trash
+    as this Digimon's bottom digivolution card, delete up to 7 play cost's total
+    worth of your opponent's Digimon.\n[All Turns] When this Digimon would leave
+    the battle area by an opponent's effect, by trashing 2 [Cyborg]/[Machine]/[SoC]\_trait
+    cards in its digivolution cards, prevent it from leaving.\n\n[DigiXros\_-2] [Machinedramon]
+    x 1 Lv.5 Digimon card w/[Cyborg]\_trait"
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT17_057
+  DP: 12000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT17-057
+  MaxCountInDeck: 4

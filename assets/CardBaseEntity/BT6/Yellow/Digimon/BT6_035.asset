@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT6_035
+  m_EditorClassIdentifier: 
+  CardIndex: 1155
+  cardColors: 02000000
+  PlayCost: 4
+  EvoCosts:
+  - CardColor: 2
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: "\u30D0\u30EB\u30AD\u30E2\u30F3"
+  CardName_ENG: Baluchimon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u8056\u7363\u578B"
+  Type_ENG:
+  - Holy Beast
+  CardSpriteName: BT6-035
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u304C3\u679A\u4EE5\u4E0B\u306E\u3068\u304D\u3001\u226A2\u30C9\u30ED\u30FC\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u304B\u3089\u30AB\u30FC\u30C9\u30922\u679A\u5F15\u304F\uFF09\u3002"
+  EffectDiscription_ENG: "[On Play] If you have 3 or fewer security cards, trigger
+    \uFF1CDraw 2\uFF1E. (Draw 2 cards from your deck.)"
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT6_035
+  DP: 5000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT6-035
+  MaxCountInDeck: 4

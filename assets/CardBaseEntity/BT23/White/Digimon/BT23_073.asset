@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT23_073
+  m_EditorClassIdentifier: 
+  CardIndex: 7411
+  cardColors: 04000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Eater Bit
+  Form_JPN: []
+  Form_ENG:
+  - Eater
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Hudie
+  - CS
+  CardSpriteName: BT23-073
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[On Play] Delete 1 of your opponent's level 3 Digimon.\n[All
+    Turns] [Once Per Turn] When any of your other Digimon with the [Eater] or [Hudie]\_trait
+    would leave the battle area, by deleting this Digimon or placing it as the bottom
+    digivolution card of your [Mother Eater] in the breeding area, 1 of those Digimon
+    doesn't leave."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[Breeding] [Your Turn] [Once Per Turn] When any
+    of your Digimon cards with the [Eater]\_trait would be played, you may reduce
+    the play costs by 1."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT23_073
+  DP: 1000
+  rarity: 0
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT23-073
+  MaxCountInDeck: 4

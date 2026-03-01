@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT12_009
+  m_EditorClassIdentifier: 
+  CardIndex: 2408
+  cardColors: 00000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 0
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: "\u30D5\u30EC\u30A4\u30E2\u30F3"
+  CardName_ENG: Flamemon
+  Form_JPN:
+  - "\u30CF\u30A4\u30D6\u30EA\u30C3\u30C9\u4F53"
+  Form_ENG:
+  - Hybrid
+  Attribute_JPN:
+  - "\u30F4\u30A1\u30EA\u30A2\u30D6\u30EB\u7A2E"
+  Attribute_ENG:
+  - Variable
+  Type_JPN:
+  - "\u9B54\u4EBA\u578B"
+  Type_ENG:
+  - Wizard
+  CardSpriteName: BT12-009
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u7279\u5FB4\u306B\u300C\u30CF\u30A4\u30D6\u30EA\u30C3\u30C9\u4F53\u300D\u3092\u6301\u3064\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u7834\u68C4\u3059\u308B\u3053\u3068\u3067\u3001\u226A2\u30C9\u30ED\u30FC\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u304B\u3089\u30AB\u30FC\u30C9\u30922\u679A\u5F15\u304F\uFF09\u3002"
+  EffectDiscription_ENG: "[On Play] By trashing 1 Digimon card with a [Hybrid] trait,
+    \uFF1CDraw 2\uFF1E. (Draw 2 cards from your deck.)"
+  InheritedEffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u7279\u5FB4\u306B\u300C\u30CF\u30A4\u30D6\u30EA\u30C3\u30C9\u4F53\u300D\u304B\u300C\u5341\u95D8\u58EB\u300D\u3092\u6301\u3064\u9593\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092DP+2000\u3002"
+  InheritedEffectDiscription_ENG: '[Your Turn] While this Digimon has a [Hybrid]
+    or [Ten Warriors] trait, it gets +2000 DP.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT12_009
+  DP: 1000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT12-009
+  MaxCountInDeck: 4

@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT16_038
+  m_EditorClassIdentifier: 
+  CardIndex: 3352
+  cardColors: 03000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 3
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: "\u30C6\u30EA\u30A2\u30E2\u30F3X\u6297\u4F53"
+  CardName_ENG: Terriermon (X Antibody)
+  Form_JPN:
+  - "\u6210\u9577\u671F"
+  Form_ENG:
+  - Rookie
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u7363\u578B"
+  - "X\u6297\u4F53"
+  Type_ENG:
+  - Beast
+  - X Antibody
+  CardSpriteName: BT16-038
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[Digivolve] [Gummymon]/[Terriermon]: Cost 0[Your Turn]
+    When this Digimon would digivolve into a card with [Gargomon] or [Rapidmon] in
+    its name, reduce the digivolution cost by 1.'
+  InheritedEffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u540D\u79F0\u306B\u300C\u30AC\u30EB\u30B4\u30E2\u30F3\u300D/\u300C\u30E9\u30D4\u30C3\u30C9\u30E2\u30F3\u300D\u3092\u542B\u3080\u9593,\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u226A\u8CAB\u901A\u226B\u3092\u5F97\u308B\u3002\r"
+  InheritedEffectDiscription_ENG: '[Your Turn] While this Digimon has [Gargomon]
+    or [Rapidmon] in its name, it gains <Piercing>.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT16_038
+  DP: 1000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT16-038
+  MaxCountInDeck: 4

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT6_111_P2
+  m_EditorClassIdentifier: 
+  CardIndex: 6786
+  cardColors: 05000000
+  PlayCost: 13
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Alphamon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Holy Warrior
+  - Royal Knight
+  - X Antibody
+  CardSpriteName: BT6-111_P2
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Security] At the end of the battle, add this card to your
+    hand. Then, if a Digimon with the [Royal Knight]/[X Antibody]\_trait is in play,
+    up to 12 of your opponent's Digimon can't attack players for the turn.\n[When
+    Attacking] You may pay up to 5 memory. If you do, this Digimon gets +1000 DP
+    for the turn for each memory paid.\n[End of Attack] Gain 2 memory."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT6_111
+  DP: 11000
+  rarity: 4
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT6-111
+  MaxCountInDeck: 4

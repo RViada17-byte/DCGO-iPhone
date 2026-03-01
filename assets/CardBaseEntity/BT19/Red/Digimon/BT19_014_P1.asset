@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT19_014_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 6828
+  cardColors: 000000000200000005000000
+  PlayCost: 11
+  EvoCosts: []
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Shoutmon EX6
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Composite
+  - Xros Heart
+  - Blue Flare
+  CardSpriteName: BT19-014_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "\uFF1CAlliance\uFF1E.\n\uFF1CReboot\uFF1E.\n\uFF1CMaterial
+    Save 4\uFF1E \n[On Play] For each color in this Digimon's digivolution cards,
+    all of your opponent's Digimon get -1000 DP for the turn. Then, you may play
+    1 [ShootingStarmon] from under your Tamers without paying the cost.\n[When Attacking]
+    Delete 1 of your opponent's Digimon with as much or less DP as this Digimon.\n\n[DigiXros\_-2]
+    [OmniShoutmon] x [ZeigGreymon] x [AtlurBallistamon] x [JaegerDorulumon] x [RaptorSparrowmon] "
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT19_014
+  DP: 12000
+  rarity: 3
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: BT19-014
+  MaxCountInDeck: 4

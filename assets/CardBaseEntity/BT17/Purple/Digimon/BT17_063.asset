@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT17_063
+  m_EditorClassIdentifier: 
+  CardIndex: 3613
+  cardColors: 0600000002000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 6
+    Level: 3
+    MemoryCost: 3
+  - CardColor: 2
+    Level: 3
+    MemoryCost: 3
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Darcmon
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Angel
+  CardSpriteName: BT17-063
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve][HippoGryphonmon]: Cost 1 \n\n\uFF1CRetaliation\uFF1E
+    \n[When Digivolving] \uFF1CDraw 1\uFF1Eand trash 1 card in your hand. Then, if
+    [HippoGryphonmon] is in this Digimon's digivolution cards, this Digimon may digivolve
+    into [Murmukusmon] in the hand for a digivolution cost of 2, ignoring its digivolution
+    requirements."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "\uFF1CRetaliation\uFF1E."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT17_063
+  DP: 5000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT17-063
+  MaxCountInDeck: 4

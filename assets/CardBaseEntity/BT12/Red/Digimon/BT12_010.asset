@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT12_010
+  m_EditorClassIdentifier: 
+  CardIndex: 2409
+  cardColors: 00000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 0
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: "\u30B0\u30E9\u30A6\u30E2\u30F3"
+  CardName_ENG: Growlmon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u9B54\u7ADC\u578B"
+  Type_ENG:
+  - Dark Dragon
+  CardSpriteName: BT12-010
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u81EA\u5206\u306E\u300C\u677E\u7530\u5553\u4EBA\u300D\u304C\u3044\u306A\u3044\u3068\u304D\u3001\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u300C\u677E\u7530\u5553\u4EBA\u300D1\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002"
+  EffectDiscription_ENG: '[When Digivolving] If you don''t have a [Takato Matsuki]
+    in play, you may play 1 [Takato Matsuki] from your hand without paying its cost.'
+  InheritedEffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u540D\u79F0\u306B\u300C\u30B0\u30E9\u30A6\u30E2\u30F3\u300D\u304B\u300C\u30C7\u30E5\u30FC\u30AF\u30E2\u30F3\u300D\u3092\u542B\u3080\u9593\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092DP+2000\u3002"
+  InheritedEffectDiscription_ENG: '[Your Turn] While this Digimon has [Growlmon]
+    or [Gallantmon] in its name, it gets +2000 DP.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT12_010
+  DP: 5000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT12-010
+  MaxCountInDeck: 4

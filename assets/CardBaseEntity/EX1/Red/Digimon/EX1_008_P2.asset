@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX1_008_P2
+  m_EditorClassIdentifier: 
+  CardIndex: 1276
+  cardColors: 00000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 0
+    Level: 4
+    MemoryCost: 3
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: "\u30E1\u30BF\u30EB\u30B0\u30EC\u30A4\u30E2\u30F3"
+  CardName_ENG: MetalGreymon
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u30B5\u30A4\u30DC\u30FC\u30B0\u578B"
+  Type_ENG:
+  - Cyborg
+  CardSpriteName: EX1-008_P2
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\u30D7\u30EC\u30A4\u30E4\u30FC\u306B\u30A2\u30BF\u30C3\u30AF\u3057\u305F\u3068\u304D\u3001DP4000\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3002"
+  EffectDiscription_ENG: '[When Attacking] When this Digimon attacks a player, delete
+    1 of your opponent''s Digimon with 4000 DP or less.'
+  InheritedEffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u7279\u5FB4\u306B\u300C\u30DE\u30B7\u30FC\u30F3\u578B\u300D\u304B\u300C\u7ADC\u4EBA\u578B\u300D\u3092\u6301\u3064\u9593\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u226A\u8CAB\u901A\u226B\uFF08\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30A2\u30BF\u30C3\u30AF\u3057\u305F\u30D0\u30C8\u30EB\u3067\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u3060\u3051\u3092\u6D88\u6EC5\u3055\u305B\u305F\u3068\u304D\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3092\u30C1\u30A7\u30C3\u30AF\u3059\u308B\uFF09\u3092\u5F97\u308B\u3002"
+  InheritedEffectDiscription_ENG: "[Your Turn] While this Digimon has [Machine] or
+    [Dragonkin] in its traits, it gains \uFF1CPiercing\uFF1E. (When this Digimon
+    attacks and deletes an opponent's Digimon and survives the battle, it performs
+    any security checks it normally would.)"
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX1_008
+  DP: 7000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: EX1-008
+  MaxCountInDeck: 4

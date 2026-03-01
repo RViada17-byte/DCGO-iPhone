@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT22_024
+  m_EditorClassIdentifier: 
+  CardIndex: 7018
+  cardColors: 01000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 1
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: MarineBullmon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Mollusk
+  - LIBERATOR
+  - Aquatic
+  CardSpriteName: BT22-024
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Hand] [Main] If you have [Yao Qinglan], by placing 1 [Shellmon]
+    from your trash as any of your [Sangomon]'s bottom digivolution card, it digivolves
+    into this card for a digivolution cost of 3, ignoring digivolution requirements.\n\uFF1CDecode
+    (Lv.4 w/[Aqua]/[Sea Animal]\_in any trait)\uFF1E (When this Digimon would leave
+    the battle area other than in battle, you may play 1 Level 4 Digimon card with
+    [Aqua] or [Sea Animal]\_in any of its traits from its digivolution cards without
+    paying the cost.)"
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[End of Attack] [Once Per Turn] You may play 1
+    level 4 or lower Digimon card with [Aqua] or [Sea Animal]\_in any of its traits
+    from this Digimon's digivolution cards without paying the cost."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT22_024
+  DP: 7000
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT22-024
+  MaxCountInDeck: 4

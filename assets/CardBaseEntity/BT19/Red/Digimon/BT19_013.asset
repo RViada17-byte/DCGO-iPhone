@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT19_013
+  m_EditorClassIdentifier: 
+  CardIndex: 5016
+  cardColors: 0000000005000000
+  PlayCost: 10
+  EvoCosts: []
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Shoutmon X5
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Composite
+  - Xros Heart
+  CardSpriteName: BT19-013
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[All Turns] When this Digimon would leave the battle area,
+    you may place up to 3 Digimon cards with the [Xros Heart]\_trait from this Digimon's
+    digivolution cards under 1 of your Tamers.\n[On Deletion] You may play 1 play
+    cost 4 or lower Digimon card with the [Xros Heart]\_trait from under your Tamers
+    without paying the cost.\n\n[DigiXros\_-2] [Shoutmon] x [Ballistamon] x [Dorulumon]
+    x [Starmons] x [Sparrowmon] "
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT19_013
+  DP: 10000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT19-013
+  MaxCountInDeck: 4

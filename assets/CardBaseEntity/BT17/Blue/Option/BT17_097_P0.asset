@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT17_097_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4887
+  cardColors: 0100000003000000
+  PlayCost: 2
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Return to the Primogenitor
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Option
+  CardSpriteName: BT17-097_P0
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Main] 1 of your Digimon may digivolve into a level 5 or
+    higher Digimon card with the [Free]\_trait in your hand with the digivolution
+    cost reduced by 4. Then, place this card in the battle area.\n[All Turns] When
+    one of your Digimon with the [Free]\_trait would be deleted other than by one
+    of your effects, \uFF1CDelay\uFF1E.\n\u30FBBy digivolving that Digimon into a
+    Digimon card with [Imperialdramon]\_in its name in your hand without paying the
+    cost, prevent that deletion."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: "[Security] You may play 1 Tamer card with [Davis
+    Motomiya]/[Ken Ichijoji]\_in its name from your hand or trash without paying
+    the cost. Then, place this card in the battle area."
+  CardEffectClassName: BT17_097
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT17-097
+  MaxCountInDeck: 4

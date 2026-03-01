@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT16_076_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4808
+  cardColors: 0600000000000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 6
+    Level: 4
+    MemoryCost: 4
+  - CardColor: 0
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Soloogarmon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Dark Animal
+  - X Antibody
+  - SoC
+  CardSpriteName: BT16-076_P0
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.4 w/[SoC]\_trait: Cost 3 \n\n[When Digivolving]
+    By trashing 2 cards in your hand, delete 1 of your opponent's 6000 DP or lower
+    Digimon. If this effect didn't delete, you may play 1 level 4 or lower [SoC]\_trait
+    Digimon card from your trash without paying the cost.\n[All Turns] When one of
+    your other [SoC]\_trait Digimon is deleted, this Digimon with an [SoC]\_trait
+    Tamer card in its digivolution cards may digivolve into [Fenriloogamon] in the
+    trash without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[End of Attack] [Once Per Turn] If your opponent
+    has 1 or more memory, unsuspend this Digimon.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT16_076
+  DP: 7000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT16-076
+  MaxCountInDeck: 4

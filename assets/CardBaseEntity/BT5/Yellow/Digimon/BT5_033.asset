@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT5_033
+  m_EditorClassIdentifier: 
+  CardIndex: 982
+  cardColors: 02000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 2
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: "\u30AD\u30E5\u30FC\u30C8\u30E2\u30F3"
+  CardName_ENG: Cutemon
+  Form_JPN:
+  - "\u6210\u9577\u671F"
+  Form_ENG:
+  - Rookie
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u5996\u7CBE\u578B"
+  Type_ENG:
+  - Fairy
+  CardSpriteName: BT5-033
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u3011\u76F8\u624B\u306F\u652F\u6255\u3046\u9032\u5316\u30B3\u30B9\u30C8\u3092\u30DE\u30A4\u30CA\u30B9\u3067\u304D\u306A\u3044\u3002"
+  EffectDiscription_ENG: '[Opponent''s Turn] Your opponent can''t reduce digivolution
+    costs.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT5_021
+  DP: 3000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT5-033
+  MaxCountInDeck: 4

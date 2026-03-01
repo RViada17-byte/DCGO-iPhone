@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT16_091_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4825
+  cardColors: 0000000002000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Beastly Storm Dance of Affection
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Option
+  CardSpriteName: BT16-091_P0-Errata
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Main] You may play 1 [Aquilamon]/[Gatomon] from your hand
+    without paying the cost. Then, 2 of your Digimon may DNA digivolve into a Digimon
+    card in your hand. The Digimon this effect DNA digivolved may gain \uFF1CSecurity
+    Attack +1\uFF1Efor the turn and attack a player."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] You may play 1 [Hawkmon]/[Salamon] from
+    your hand or trash without paying the cost. Then, add this card to the hand.'
+  CardEffectClassName: BT16_091
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT16-091
+  MaxCountInDeck: 4

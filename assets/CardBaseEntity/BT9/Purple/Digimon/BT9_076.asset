@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT9_076
+  m_EditorClassIdentifier: 
+  CardIndex: 1870
+  cardColors: 0600000002000000
+  PlayCost: 6
+  EvoCosts:
+  - CardColor: 6
+    Level: 4
+    MemoryCost: 4
+  - CardColor: 2
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: "\u30E1\u30A4\u30AF\u30E9\u30C3\u30AF\u30E2\u30F3\uFF1A\u30F4\u30A3\u30B7\u30E3\u30B9\u30E2\u30FC\u30C9"
+  CardName_ENG: 'Maycrackmon: Vicious Mode'
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u4E0D\u660E"
+  Attribute_ENG:
+  - Unknown
+  Type_JPN:
+  - "\u4E0D\u660E"
+  Type_ENG:
+  - Unknown
+  CardSpriteName: BT9-076
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u3010\u9032\u5316\u6642\u3011\u81EA\u5206\u306E\u624B\u672D\u30921\u679A\u7834\u68C4\u3067\u304D\u308B\u3002\u7834\u68C4\u3057\u305F\u30AB\u30FC\u30C9\u304C\u7D2B\u306A\u3089\u3001Lv.3\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3002\u9EC4\u306A\u3089\u3001\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092DP-3000\u3002"
+  EffectDiscription_ENG: "[On Play][When Digivolving] You may trash 1 card in your
+    hand. If you trash a purple card, delete 1 of your opponent\u2019s level 3 Digimon.
+    If you trash a yellow card, 1 of your opponent\u2019s Digimon gets -3000 DP for
+    the turn."
+  InheritedEffectDiscription_JPN: "\u3010\u6D88\u6EC5\u6642\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C2\u8272\u4EE5\u4E0A\u3060\u3063\u305F\u3068\u304D\u3001\u30E1\u30E2\u30EA\u30FC+2\u3002"
+  InheritedEffectDiscription_ENG: '[On Deletion] If this Digimon has 2 or more colors,
+    gain 2 memory.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT9_076
+  DP: 6000
+  rarity: 0
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: BT9-076
+  MaxCountInDeck: 4

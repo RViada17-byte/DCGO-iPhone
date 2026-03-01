@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT1_089_P2
+  m_EditorClassIdentifier: 
+  CardIndex: 282
+  cardColors: 03000000
+  PlayCost: 4
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: "\u592A\u5200\u5DDD\u30DF\u30DF"
+  CardName_ENG: Mimi Tachikawa
+  Form_JPN: []
+  Form_ENG: []
+  Attribute_JPN: []
+  Attribute_ENG: []
+  Type_JPN: []
+  Type_ENG: []
+  CardSpriteName: BT1-089_P2
+  cardKind: 1
+  EffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u958B\u59CB\u6642\u3011\u30E1\u30E2\u30EA\u30FC\u304C2\u4EE5\u4E0B\u306E\u3068\u304D\u30013\u306B\u3059\u308B\u3002\u3010\u30E1\u30A4\u30F3\u3011\u7DD1\u306ELv.5\u4EE5\u4E0A\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u3044\u308B\u3068\u304D\u3001\u3053\u306E\u30C6\u30A4\u30DE\u30FC\u3092\u30EC\u30B9\u30C8\u3055\u305B\u308B\u3053\u3068\u3067\u3001\u7A7A\u3044\u3066\u3044\u308B\u81EA\u5206\u306E\u80B2\u6210\u30A8\u30EA\u30A2\u306B\u30C7\u30B8\u30BF\u30DE\u30AB\u30FC\u30C91\u679A\u3092\u5B75\u5316\u3055\u305B\u308B\u304B\u3001\u80B2\u6210\u30A8\u30EA\u30A2\u306ELv.3\u4EE5\u4E0A\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u30D0\u30C8\u30EB\u30A8\u30EA\u30A2\u306B\u79FB\u52D5\u3059\u308B\u3002"
+  EffectDiscription_ENG: "[Start of Your Turn] If you have 2 or less memory\uFF0C
+    set your memory to 3.[Main] If you have a level 5 or higher green Digimon in
+    play\uFF0C you can suspend this Tamer to hatch 1 Digi-Egg card to an empty space
+    in your breeding area\uFF0C or move 1 level 3 or higher Digimon from your breeding
+    area to your battle area. "
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u3053\u306E\u30AB\u30FC\u30C9\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3055\u305B\u308B\u3002"
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying its memory
+    cost.'
+  CardEffectClassName: BT1_089
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: BT1-089
+  MaxCountInDeck: 4

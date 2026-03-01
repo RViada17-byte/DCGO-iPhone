@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT17_037
+  m_EditorClassIdentifier: 
+  CardIndex: 3582
+  cardColors: 02000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 2
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: RizeGreymon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Cyborg
+  CardSpriteName: BT17-037
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Your Turn] While you have a suspended Tamer, this Digimon
+    gets +3000 DP and gains \uFF1CPiercing\uFF1E \n[When Digivolving] [When Attacking]
+    By suspending 1 of your yellow Tamers, 1 of your opponent's Digimon gets -3000
+    DP for the turn."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[All Turns] [Once Per Turn] When one of your yellow
+    or red Tamers is deleted, place 1 [Marcus Damon] from your trash on top of your
+    security stack.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT17_037
+  DP: 7000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT17-037
+  MaxCountInDeck: 4

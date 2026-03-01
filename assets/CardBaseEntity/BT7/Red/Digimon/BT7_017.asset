@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT7_017
+  m_EditorClassIdentifier: 
+  CardIndex: 1400
+  cardColors: 00000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 0
+    Level: 5
+    MemoryCost: 4
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: "\u30AB\u30AA\u30B9\u30C9\u30E9\u30E2\u30F3"
+  CardName_ENG: Chaosdramon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u30DE\u30B7\u30FC\u30F3\u578B"
+  Type_ENG:
+  - Machine
+  CardSpriteName: BT7-017
+  cardKind: 0
+  EffectDiscription_JPN: "\u81EA\u5206\u306E\u300C\u30E0\u30B2\u30F3\u30C9\u30E9\u30E2\u30F3\u300D\u306F\u624B\u672D\u306E\u3053\u306E\u30AB\u30FC\u30C9\u306B\u9032\u5316\u6761\u4EF6\u3092\u7121\u8996\u3057\u3066\u9032\u5316\u30B3\u30B9\u30C81\u3067\u9032\u5316\u3067\u304D\u308B\u3002\u3010\u9032\u5316\u6642\u3011\u81EA\u5206\u306E\u624B\u672D\u304B\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u7279\u5FB4\u306B\u300C\u30B5\u30A4\u30DC\u30FC\u30B0\u578B\u300D\u3092\u6301\u3064\u8D64\u304B\u9ED2\u306ELv.5\u306E\u30AB\u30FC\u30C91\u679A\u3092\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u306E\u4E0A\u306B\u7F6E\u304F\u3053\u3068\u3067\u3001\u9032\u5316\u5143\u306E\u7279\u5FB4\u306B\u300C\u30B5\u30A4\u30DC\u30FC\u30B0\u578B\u300D\u3092\u6301\u3064Lv.5\u306E\u30AB\u30FC\u30C91\u679A\u3054\u3068\u306B\u3001DP6000\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3002"
+  EffectDiscription_ENG: Your [Machinedramon] can digivolve into this card in your
+    hand for a memory cost of 1, ignoring this card's digivolution requirements.
+    [When Digivolving] You may place 1 red or black level 5 card with [Cyborg] in
+    its traits from your hand or trash on top of this card's digivolution cards to
+    delete 1 of your opponent's Digimon with 6000 DP or less for each level 5 card
+    with [Cyborg] in its traits in this Digimon's digivolution cards.
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT7_017
+  DP: 12000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT7-017
+  MaxCountInDeck: 4

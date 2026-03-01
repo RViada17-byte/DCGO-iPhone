@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT23_013_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 7345
+  cardColors: 00000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 0
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Jesmon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Holy Warrior
+  - Royal Knight
+  - CS
+  CardSpriteName: BT23-013_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] [SaviorHuckmon]/Lv.5 w/[CS]\_trait: Cost 3\n[Digivolve]
+    While opponent has a 10000 DP or higher Digimon, [Huckmon]: Cost 5 \n\n\uFF1CRush\uFF1E
+    \n\uFF1CAlliance\uFF1E \n[When Digivolving] [When Attacking] You may play 1 [Atho,
+    Ren\xE9 & Por] Token (Digimon/White/6000 DP/\uFF1CReboot\uFF1E \uFF1CBlocker\uFF1E
+    \uFF1CDecoy (Red/Black)\uFF1E) or, from your hand or trash, 1 Digimon card with
+    [Sistermon]\_in its name without paying the cost. This effect can't play cards
+    with the same names as any of your Digimon.\n[Your Turn] [Once Per Turn] When
+    any of your other Digimon are played, this Digimon may attack."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT23_013
+  DP: 12000
+  rarity: 3
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT23-013
+  MaxCountInDeck: 4

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT4_034
+  m_EditorClassIdentifier: 
+  CardIndex: 809
+  cardColors: 01000000
+  PlayCost: 11
+  EvoCosts:
+  - CardColor: 1
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: "\u30EC\u30AC\u30EC\u30AF\u30B9\u30E2\u30F3"
+  CardName_ENG: Regalecusmon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u6C34\u68F2\u578B"
+  Type_ENG:
+  - Aquatic
+  CardSpriteName: BT4-034
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306E\u9032\u5316\u5143\u3092\u3001\u4E0B\u304B\u30891\u679A\u7834\u68C4\u3059\u308B\u3002\u305D\u3046\u3057\u305F\u3068\u304D\u3001\u226A1\u30C9\u30ED\u30FC\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u304B\u3089\u30AB\u30FC\u30C9\u30921\u679A\u5F15\u304F\uFF09\u3057\u3066\u3001\u30E1\u30E2\u30EA\u30FC\u3092+1\u3059\u308B\u3002"
+  EffectDiscription_ENG: "[When Attacking] Trash the bottom digivolution card of
+    1 of your opponent's Digimon. When you do, trigger \uFF1CDraw 1\uFF1E (Draw 1
+    card from your deck) and gain 1 memory."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT4_034
+  DP: 11000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT4-034
+  MaxCountInDeck: 4

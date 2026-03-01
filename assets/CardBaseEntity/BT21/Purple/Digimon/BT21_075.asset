@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT21_075
+  m_EditorClassIdentifier: 
+  CardIndex: 5392
+  cardColors: 0600000000000000
+  PlayCost: 8
+  EvoCosts:
+  - CardColor: 6
+    Level: 4
+    MemoryCost: 4
+  - CardColor: 0
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: SkullGreymon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Undead
+  - ADVENTURE
+  CardSpriteName: BT21-075
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Greymon]\_in name or w/[ADVENTURE]\_trait:
+    Cost 3 \n\n[On Play] [When Digivolving] 1 of your Digimon gains \uFF1CRaid\uFF1E
+    and \uFF1CRetaliation\uFF1E until your opponent's turn ends.\n[On Deletion] You
+    may play 1 [ADVENTURE]\_trait card with a play cost of 4 or less from your trash
+    without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[On Deletion] You may play 1 [ADVENTURE]\_trait
+    card with a play cost of 4 or less from your trash without paying the cost."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT21_075
+  DP: 8000
+  rarity: 0
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  LinkCost: 0
+  CardID: BT21-075
+  MaxCountInDeck: 4

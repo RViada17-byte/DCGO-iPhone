@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT12_025
+  m_EditorClassIdentifier: 
+  CardIndex: 2433
+  cardColors: 01000000
+  PlayCost: 6
+  EvoCosts:
+  - CardColor: 1
+    Level: 3
+    MemoryCost: 3
+  Level: 4
+  CardName_JPN: "\u30AB\u30EB\u30DE\u30FC\u30E9\u30E2\u30F3"
+  CardName_ENG: Calmaramon
+  Form_JPN:
+  - "\u30CF\u30A4\u30D6\u30EA\u30C3\u30C9\u4F53"
+  Form_ENG:
+  - Hybrid
+  Attribute_JPN:
+  - "\u30F4\u30A1\u30EA\u30A2\u30D6\u30EB\u7A2E"
+  Attribute_ENG:
+  - Variable
+  Type_JPN:
+  - "\u6C34\u68F2\u578B"
+  Type_ENG:
+  - Aquatic
+  CardSpriteName: BT12-025
+  cardKind: 0
+  EffectDiscription_JPN: "\u9032\u5316:\u300C\u30E9\u30FC\u30CA\u30E2\u30F3\u300D\u304B\u30891\u624B\u672D\u306E\u3053\u306E\u30AB\u30FC\u30C9\u306F\u3001\u9752\u306E\u81EA\u5206\u306E\u30C6\u30A4\u30DE\u30FC\u3092\u9752\u306ELv.3\u306E\u30C7\u30B8\u30E2\u30F3\u3068\u3057\u3066\u6271\u3044\u9032\u5316\u3067\u304D\u308B\u3002\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\u9752\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u304B\u3089\u3001\u9752\u306ELv.3\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002"
+  EffectDiscription_ENG: 'Digivolve: 1 from [Lanamon] You may digivolve this card
+    from your hand onto one of your blue Tamers as if the Tamer is a level 3 blue
+    Digimon.[When Attacking] You may play 1 blue level 3 Digimon card from one of
+    your blue Digimon''s digivolution cards without paying its cost. '
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT12_025
+  DP: 6000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT12-025
+  MaxCountInDeck: 4

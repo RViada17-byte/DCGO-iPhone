@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT14_081_P3
+  m_EditorClassIdentifier: 
+  CardIndex: 4690
+  cardColors: 06000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Fenriloogamon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Dark Animal
+  - X Antibody
+  - SoC
+  CardSpriteName: BT14-081_P3
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[When Digivolving] You may play 1 level 4 or lower card
+    with the [Dark Animal]/[SoC]\_trait from your trash without paying its cost.
+    If [Eiji Nagasumi] is in this Digimon's digivolution cards, increase the number
+    of Digimon you can play with this effect by 2.\n[When Attacking] [Once Per Turn]
+    By deleting 1 of your opponent's level 3 or lower Digimon, unsuspend this Digimon.
+    For each of your Digimon, add 1 to the level this effect may choose.\n[Your Turn]
+    Your turn end condition is the opponent having 3 or more memory."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT14_081
+  DP: 12000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: BT14-081
+  MaxCountInDeck: 4

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT16_097
+  m_EditorClassIdentifier: 
+  CardIndex: 3425
+  cardColors: 0500000002000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: "\u92FC\u81E8\u306E\u53E4\u4EE3\u5929\u4F7F"
+  CardName_ENG: Advent of the Ancient Steel Angel
+  Form_JPN:
+  - '-'
+  Form_ENG: []
+  Attribute_JPN:
+  - '-'
+  Attribute_ENG: []
+  Type_JPN:
+  - '-'
+  Type_ENG: []
+  CardSpriteName: BT16-097
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[Main] You may play 1 [Ankylomon] or [Angemon] from your
+    hand without paying the cost. Then, 2 of your Digimon may DNA digivolve into
+    a Digimon card in your hand. If this effect DNA digivolved, <Recovery +1 (Deck)>.'
+  InheritedEffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u81EA\u5206\u306E\u624B\u672D/\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089,\u300C\u30A2\u30EB\u30DE\u30B8\u30E2\u30F3\u300D/\u300C\u30D1\u30BF\u30E2\u30F3\u300D1\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002\u305D\u306E\u5F8C,\u3053\u306E\u30AB\u30FC\u30C9\u3092\u624B\u672D\u306B\u52A0\u3048\u308B\u3002\r"
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u81EA\u5206\u306E\u624B\u672D/\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089,\u300C\u30A2\u30EB\u30DE\u30B8\u30E2\u30F3\u300D/\u300C\u30D1\u30BF\u30E2\u30F3\u300D1\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002\u305D\u306E\u5F8C,\u3053\u306E\u30AB\u30FC\u30C9\u3092\u624B\u672D\u306B\u52A0\u3048\u308B\u3002\r"
+  SecurityEffectDiscription_ENG: '[Security] You may play 1 [Armadillomon] or [Patamon]
+    from your hand or trash without paying the cost. Then, add this card to the hand.'
+  CardEffectClassName: BT16_097
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT16-097
+  MaxCountInDeck: 4

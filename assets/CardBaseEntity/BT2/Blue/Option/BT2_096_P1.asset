@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT2_096_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 543
+  cardColors: 01000000
+  PlayCost: 5
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: "\u30B7\u30E3\u30A4\u30CB\u30F3\u30B0V\u30D5\u30A9\u30FC\u30B9"
+  CardName_ENG: The Ray of Victory
+  Form_JPN: []
+  Form_ENG: []
+  Attribute_JPN: []
+  Attribute_ENG: []
+  Type_JPN: []
+  Type_ENG: []
+  CardSpriteName: BT2-096_P1
+  cardKind: 2
+  EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011Lv.5\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u624B\u672D\u306B\u623B\u3059\u3002\u305D\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u6301\u3064\u9032\u5316\u5143\u306F\u7834\u68C4\u3059\u308B\u3002\u305D\u306E\u5F8C\u3001\u9752\u306E\u81EA\u5206\u306E\u30C6\u30A4\u30DE\u30FC\u304C\u3044\u308B\u3068\u304D\u3001\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u3059\u308B\u3002"
+  EffectDiscription_ENG: '[Main] Return 1 of your opponent''s level 5 or lower Digimon
+    to their hand. (Trash all of the digivolution cards of that Digimon.) Then, if
+    you have a blue Tamer in play, unsuspend 1 of your Digimon.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u3053\u306E\u30AB\u30FC\u30C9\u306E\u3010\u30E1\u30A4\u30F3\u3011\u52B9\u679C\u3092\u767A\u63EE\u3059\u308B\u3002"
+  SecurityEffectDiscription_ENG: '[Security] Activate this card''s [Main] effect.'
+  CardEffectClassName: BT2_096
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: BT2-096
+  MaxCountInDeck: 4

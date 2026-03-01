@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT19_064
+  m_EditorClassIdentifier: 
+  CardIndex: 5046
+  cardColors: 05000000
+  PlayCost: 6
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: 'Justimon: Blitz Arm'
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Cyborg
+  CardSpriteName: BT19-064
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve][Justimon: Accel Arm]/[Justimon: Critical Arm]:
+    Cost 1 \n\n[Hand] [Counter] \uFF1CBlast Digivolve\uFF1E \n[On Play] [When Digivolving]
+    This Digimon gains \uFF1CBlocker\uFF1Eand isn't affected by your opponent's Digimon's
+    effects until the end of your opponent's turn.\n[When Digivolving] [When Attacking]
+    [Once Per Turn] By trashing 1 Option card in the battle area, unsuspend this
+    Digimon."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT19_064
+  DP: 11000
+  rarity: 3
+  OverflowMemory: 4
+  CardID: BT19-064
+  MaxCountInDeck: 4

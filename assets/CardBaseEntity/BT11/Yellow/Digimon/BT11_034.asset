@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT11_034
+  m_EditorClassIdentifier: 
+  CardIndex: 2306
+  cardColors: 02000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 2
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: "\u30AD\u30E5\u30FC\u30C8\u30E2\u30F3"
+  CardName_ENG: Cutemon
+  Form_JPN:
+  - "\u6210\u9577\u671F"
+  Form_ENG:
+  - Rookie
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u5996\u7CBE\u578B"
+  - "\u30AF\u30ED\u30B9\u30CF\u30FC\u30C8"
+  Type_ENG:
+  - Fairy
+  - Xros Heart
+  CardSpriteName: BT11-034
+  cardKind: 0
+  EffectDiscription_JPN: "\u9032\u5316:\u300E\u7279\u5FB4\u306B\u300C\u30AF\u30ED\u30B9\u30CF\u30FC\u30C8\u300D\u3092\u6301\u3064Lv.2\u300F\u304B\u30890\u3010\u767B\u5834\u6642\u3011\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u7279\u5FB4\u306B\u300C\u30AF\u30ED\u30B9\u30CF\u30FC\u30C8\u300D\u3092\u6301\u3064\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u81EA\u5206\u306E\u30C6\u30A4\u30DE\u30FC\u306E\u4E0B\u306B\u7F6E\u304F\u3002\u540D\u79F0\u306B\u300C\u30C9\u30EB\u30EB\u30E2\u30F3\u300D\u3092\u542B\u3080\u304B\u9032\u5316\u5143\u306B\u300C\u30C9\u30EB\u30EB\u30E2\u30F3\u300D\u3092\u6301\u3064\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u3044\u308B\u3068\u304D\u3001\u4EE3\u308F\u308A\u306B\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u7279\u5FB4\u306B\u300C\u30AF\u30ED\u30B9\u30CF\u30FC\u30C8\u300D\u3092\u6301\u3064\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C92\u679A\u307E\u3067\u3092\u81EA\u5206\u306E\u30C6\u30A4\u30DE\u30FC1\u4F53\u306E\u4E0B\u306B\u7F6E\u304F\u3002"
+  EffectDiscription_ENG: 'Digivolve: 0 from Lv.2 w/[Xros Heart] in traits[On Play]
+    Place 1 Digimon card with [Xros Heart] in its traits from your trash under 1
+    of your Tamers. If you have a Digimon with [Dorulumon] in its name or with [Dorulumon]
+    in its digivolution cards, place up to 2 Digimon cards with [Xros Heart] in their
+    traits from your trash under 1 of your Tamers instead.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT11_034
+  DP: 1000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT11-034
+  MaxCountInDeck: 4

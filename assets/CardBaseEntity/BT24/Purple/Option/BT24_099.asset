@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT24_099
+  m_EditorClassIdentifier: 
+  CardIndex: 7642
+  cardColors: 06000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Super Hacking
+  Form_JPN: []
+  Form_ENG:
+  - Appmon
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - '-'
+  CardSpriteName: BT24-099
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "While you have an [Appmon]\_trait Digimon or Tamer on the
+    field, you can ignore this card's color requirements.\n[Main] By trashing 1 [Appmon]
+    card from your hand, \uFF1CDraw 2\uFF1E Then, place this card in the battle area.\n[All
+    Turns] When Digimon are deleted, \uFF1CDelay\uFF1E \n\u30FBYou may link 1 [Appmon]
+    Digimon card from your trash to 1 of your Digimon without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Place this card in the battle area.'
+  CardEffectClassName: BT24_099
+  DP: 0
+  rarity: 0
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT24-099
+  MaxCountInDeck: 4

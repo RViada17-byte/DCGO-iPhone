@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT13_074_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4598
+  cardColors: 05000000
+  PlayCost: 11
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: PrinceMamemon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Mutant
+  CardSpriteName: BT13-074_P0
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[On Play] [When Digivolving] Reveal 3 cards from the top
+    of your deck. You may play 1 Digimon card with [Mamemon]\_in its name and a play
+    cost of 10 or less among them without paying its play cost. Trash the rest.\n[All
+    Turns] All of your Digimon with [Mamemon]\_in their names or the [Royal Knight]\_trait
+    gain \uFF1CJamming\uFF1Eand \uFF1CReboot\uFF1E."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT13_074
+  DP: 11000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT13-074
+  MaxCountInDeck: 4

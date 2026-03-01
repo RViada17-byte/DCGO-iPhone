@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT22_058
+  m_EditorClassIdentifier: 
+  CardIndex: 7064
+  cardColors: 05000000
+  PlayCost: 4
+  EvoCosts:
+  - CardColor: 5
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Dreammon
+  Form_JPN: []
+  Form_ENG:
+  - Sup.
+  - Appmon
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Entertainment
+  Type_JPN: []
+  Type_ENG:
+  - Dream
+  CardSpriteName: BT22-058
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[All Turns] [Once Per Turn] When this Digimon gets linked,
+    your opponent''s effects can''t return 1 of your Digimon to hands or decks until
+    their turn ends.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT22_058
+  DP: 4000
+  rarity: 0
+  OverflowMemory: 0
+  LinkDP: 3000
+  LinkEffect: "[When Linking] \uFF1CDe-Digivolve 1\uFF1E 1 of your opponent's Digimon. "
+  LinkRequirement: '-'
+  CardID: BT22-058
+  MaxCountInDeck: 4

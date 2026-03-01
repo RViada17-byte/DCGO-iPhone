@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT19_035
+  m_EditorClassIdentifier: 
+  CardIndex: 5028
+  cardColors: 0200000000000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 2
+    Level: 3
+    MemoryCost: 3
+  - CardColor: 0
+    Level: 3
+    MemoryCost: 3
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: ShootingStarmon
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Super Major
+  - Xros Heart
+  CardSpriteName: BT19-035
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.3 w/[Xros Heart]\_trait: Cost 2 \n\nThis
+    card is also treated as [Starmons] for a DigiXros.\n[All Turns] [Once Per Turn]
+    When any of your [Xros Heart]\_trait Digimon are played, give 1 of your opponent's
+    Digimon \uFF1CSecurity A. -1\uFF1Eand it gets -3000 DP until the end of your
+    opponent's turn.\n[On Deletion] You may place 1 Digimon card with the [Xros Heart]/[Blue
+    Flare]\_trait from your hand or trash under any of your Tamers."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[When Attacking] [Once Per Turn] If this Digimon
+    has the [Xros Heart]\_trait, 1 of your opponent's Digimon gets -2000 DP for the
+    turn."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT19_035
+  DP: 5000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT19-035
+  MaxCountInDeck: 4

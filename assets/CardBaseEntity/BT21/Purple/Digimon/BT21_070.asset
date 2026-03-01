@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT21_070
+  m_EditorClassIdentifier: 
+  CardIndex: 5387
+  cardColors: 06000000
+  PlayCost: 4
+  EvoCosts:
+  - CardColor: 6
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Gossipmon
+  Form_JPN: []
+  Form_ENG:
+  - Sup.
+  - Appmon
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Social
+  Type_JPN: []
+  Type_ENG:
+  - Gossip
+  CardSpriteName: BT21-070
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Security] At the end of the battle, play this card without
+    paying the cost.\n[On Play] [When Digivolving] You may return 1 Digimon card
+    with the [Appmon]\_trait from your trash to the hand."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT21_070
+  DP: 4000
+  rarity: 0
+  OverflowMemory: 0
+  LinkDP: 3000
+  LinkEffect: "[When Linking] You may return 1 Digimon card with the [Appmon]\_trait
+    from your trash to the hand."
+  LinkRequirement: "[Link] [Appmon]\_trait: Cost 2 "
+  CardID: BT21-070
+  MaxCountInDeck: 4

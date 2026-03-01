@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX1_045
+  m_EditorClassIdentifier: 
+  CardIndex: 1337
+  cardColors: 05000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 5
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: "\u30CF\u30B0\u30EB\u30E2\u30F3"
+  CardName_ENG: Hagurumon
+  Form_JPN:
+  - "\u6210\u9577\u671F"
+  Form_ENG:
+  - Rookie
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u30DE\u30B7\u30FC\u30F3\u578B"
+  Type_ENG:
+  - Machine
+  CardSpriteName: EX1-045
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u7279\u5FB4\u306B\u300C\u30DE\u30B7\u30FC\u30F3\u578B\u300D\u304B\u300C\u30B5\u30A4\u30DC\u30FC\u30B0\u578B\u300D\u3092\u6301\u3064\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u7834\u68C4\u3059\u308B\u3053\u3068\u3067\u3001\u226A2\u30C9\u30ED\u30FC\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u304B\u3089\u30AB\u30FC\u30C9\u30922\u679A\u5F15\u304F\uFF09\u3002"
+  EffectDiscription_ENG: "[On Play] You may trash 1 Digimon card with [Machine] or
+    [Cyborg] in its traits in your hand to \uFF1CDraw 2\uFF1E. (Draw 2 cards from
+    your deck.)"
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX1_045
+  DP: 2000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: EX1-045
+  MaxCountInDeck: 4

@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT7_043
+  m_EditorClassIdentifier: 
+  CardIndex: 1442
+  cardColors: 03000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 3
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: "\u30B4\u30C4\u30E2\u30F3"
+  CardName_ENG: Gotsumon
+  Form_JPN:
+  - "\u6210\u9577\u671F"
+  Form_ENG:
+  - Rookie
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u9271\u77F3\u578B"
+  Type_ENG:
+  - Rock
+  CardSpriteName: BT7-043
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u7DD1\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u30AA\u30FC\u30D7\u30F3\u3067\u304D\u308B\u3002\u305D\u3046\u3057\u305F\u3068\u304D\u3001\u305D\u306E\u30AB\u30FC\u30C9\u3092\u30C7\u30C3\u30AD\u306E\u4E0A\u306B\u623B\u3059\u3002"
+  EffectDiscription_ENG: '[On Play] You may reveal 1 green Digimon card from your
+    hand. If you do, place it on top of your deck.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT7_043
+  DP: 3000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT7-043
+  MaxCountInDeck: 4

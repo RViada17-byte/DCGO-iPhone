@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT14_067
+  m_EditorClassIdentifier: 
+  CardIndex: 2993
+  cardColors: 05000000
+  PlayCost: 11
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: "\u30A4\u30FC\u30D0\u30E2\u30F3"
+  CardName_ENG: Ebemon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u30B5\u30A4\u30DC\u30FC\u30B0\u578B"
+  Type_ENG:
+  - Cyborg
+  CardSpriteName: BT14-067
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u3010\u9032\u5316\u6642\u3011\u76F8\u624B\u306E\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u30893\u679A\u30AA\u30FC\u30D7\u30F3\u3059\u308B\u3002\u305D\u306E\u4E2D\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u9078\u3073\u3001\u9078\u3093\u3060\u30AB\u30FC\u30C9\u306E\u767B\u5834\u30B3\u30B9\u30C8\u5408\u8A08\u307E\u3067\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3002\u30AA\u30FC\u30D7\u30F3\u3057\u305F\u30AB\u30FC\u30C9\u306F\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u4E0B\u3060\u3051\u306B\u623B\u3059\u3002"
+  EffectDiscription_ENG: '[On Play][When Digivolving] Your opponent reveals the top
+    3 cards of their deck. Choose 1 Digimon card among them, and delete up to its
+    play cost''s total worth of your opponent''s Digimon. Return the revealed cards
+    to the top or bottom of the deck.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT14_067
+  DP: 11000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT14-067
+  MaxCountInDeck: 4

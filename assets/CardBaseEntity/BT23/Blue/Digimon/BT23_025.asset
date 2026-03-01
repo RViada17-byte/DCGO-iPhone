@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT23_025
+  m_EditorClassIdentifier: 
+  CardIndex: 7357
+  cardColors: 0100000002000000
+  PlayCost: 11
+  EvoCosts:
+  - CardColor: 1
+    Level: 5
+    MemoryCost: 3
+  - CardColor: 2
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: MarineAngemon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Fairy
+  - CS
+  CardSpriteName: BT23-025
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.5 w/[CS]\_trait: Cost 3 \n\n[Hand] [Main]
+    If you have a Digimon or Tamer with the [CS]\_trait, by paying 5 cost, give 3
+    of your opponent's Digimon \uFF1CSecurity A. -1\uFF1E until their turn ends.
+    Then, place this card as the top security card.\n[On Play] [When Digivolving]
+    Return 1 of your opponent's Digimon with the lowest level to the hand."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] At the end of the battle, play this
+    card without paying the cost. At turn end, delete this Digimon.'
+  CardEffectClassName: BT23_025
+  DP: 11000
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT23-025
+  MaxCountInDeck: 4

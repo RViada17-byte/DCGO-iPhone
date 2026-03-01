@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT13_110_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 4631
+  cardColors: 04000000
+  PlayCost: 6
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Royal Knights of the Purge
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Royal Knight
+  CardSpriteName: BT13-110_P1
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Main] \uFF1CDraw 1\uFF1E. You may place 1 Digimon card
+    from your hand under 1 of your [King Drasil_7D6] in the breeding area as its
+    bottom digivolution card. Then, place this card in the battle area.\n[Main] \uFF1CDelay\uFF1E.\n\u30FB
+    Play 1 card with the [Royal Knight]\_trait from the digivolution cards of your
+    Digimon in the breeding area without paying its cost. Any [On Play] effects on
+    Digimon played with this effect don't activate, and they gain \uFF1CRush\uFF1Efor
+    the turn."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Place this card in the battle area.'
+  CardEffectClassName: BT13_110
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT13-110
+  MaxCountInDeck: 4

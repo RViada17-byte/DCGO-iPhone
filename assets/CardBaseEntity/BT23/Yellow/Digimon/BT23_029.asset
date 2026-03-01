@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT23_029
+  m_EditorClassIdentifier: 
+  CardIndex: 7361
+  cardColors: 0200000003000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 2
+    Level: 4
+    MemoryCost: 4
+  - CardColor: 3
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Antylamon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Holy Beast
+  - Deva
+  - CS
+  CardSpriteName: BT23-029
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] [Turuiemon]/[Wendigomon]/Lv.4 w/[CS]\_trait:
+    Cost 3 \n\n\uFF1CAlliance\uFF1E \n[All Turns] [Once Per Turn] When any of your
+    cards with the [Beast], [Beastkin] or [CS]\_trait are played, until your opponent's
+    turn ends, 1 of their Digimon can't activate [When Digivolving] effects."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[All Turns] [Once Per Turn] When any of your other
+    Digimon suspend, 1 of your opponent''s Digimon gets -4000 DP for the turn.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT23_029
+  DP: 7000
+  rarity: 0
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT23-029
+  MaxCountInDeck: 4

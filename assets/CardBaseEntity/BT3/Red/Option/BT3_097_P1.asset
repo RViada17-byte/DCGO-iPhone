@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT3_097_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 6772
+  cardColors: 00000000
+  PlayCost: 1
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: A Delicate Plan
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Option
+  CardSpriteName: BT3-097_P1
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[Main] 1 of your Digimon gains "[Security] effects on Option
+    cards checked by this Digimon don''t activate" for the turn.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Add this card to the hand.'
+  CardEffectClassName: BT3_097
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT3-097
+  MaxCountInDeck: 4

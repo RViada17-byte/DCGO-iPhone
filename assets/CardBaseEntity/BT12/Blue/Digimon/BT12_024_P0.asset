@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT12_024_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4482
+  cardColors: 01000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 1
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Lanamon
+  Form_JPN: []
+  Form_ENG:
+  - Hybrid
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Variable
+  Type_JPN: []
+  Type_ENG:
+  - Fairy
+  CardSpriteName: BT12-024_P0
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve][Calmaramon]: Cost 0 \n\nYou may digivolve this
+    card from your hand onto one of your blue Tamers as if the Tamer is a level 3
+    blue Digimon.\n[When Digivolving] By placing a blue level 3 Digimon card from
+    your hand under 1 of your blue Digimon as its bottom digivolution card, this
+    Digimon gains \uFF1CJamming\uFF1Efor the turn."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT12_024
+  DP: 4000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT12-024
+  MaxCountInDeck: 4

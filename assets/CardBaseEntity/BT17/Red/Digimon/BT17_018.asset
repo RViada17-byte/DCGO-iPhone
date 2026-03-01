@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT17_018
+  m_EditorClassIdentifier: 
+  CardIndex: 3559
+  cardColors: 00000000
+  PlayCost: 8
+  EvoCosts:
+  - CardColor: 0
+    Level: 6
+    MemoryCost: 5
+  Level: 7
+  CardName_JPN: 
+  CardName_ENG: 'Gallantmon: Crimson Mode'
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Holy Warrior
+  CardSpriteName: BT17-018
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.6 w/[Gallantmon]\_in its name: Cost 4 \n\n[Hand]
+    [Counter] \uFF1CBlast Digivolve\uFF1E \n[On Play] [When Digivolving] Choose any
+    number of your opponent's Digimon whose total DP adds up to 15000 or less and
+    delete them.\n[When Attacking] [Once Per Turn] For every 10 cards in both player's
+    trash, trash 1 card from the top of your opponent's security stack."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT17_018
+  DP: 15000
+  rarity: 3
+  OverflowMemory: 5
+  CardID: BT17-018
+  MaxCountInDeck: 4

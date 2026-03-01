@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT16_036
+  m_EditorClassIdentifier: 
+  CardIndex: 3349
+  cardColors: 0200000005000000
+  PlayCost: 15
+  EvoCosts:
+  - CardColor: 2
+    Level: 6
+    MemoryCost: 5
+  - CardColor: 5
+    Level: 6
+    MemoryCost: 5
+  Level: 7
+  CardName_JPN: "\u30AB\u30AA\u30B9\u30E2\u30F3"
+  CardName_ENG: Chaosmon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u7279\u7570\u578B"
+  Type_ENG:
+  - Unique
+  - Boss
+  - D-Brigade
+  CardSpriteName: BT16-036
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[DNA Digivolution] Yellow Lv.6 + black Lv.6: Cost 0 Digivolve
+    unsuspended with the 2 specified Digimon stacked on top of each other.<Barrier>
+    <Blocker> <Partition (yellow Lv.6 & black Lv.6)> (When this Digimon with each
+    of the specified digivolution cards would leave the battle area other than by
+    your effects or a battle, you may play 1 each of the specified cards without
+    paying the costs.)[When Digivolving] <De-Digivolve 3> 1 of your opponent's Digimon.
+    Then, 1 of their Digimon gets -8000 DP for the turn. [End of Opponent\u2019s
+    Turn] Trash the top card of both players' security stacks. (Rule) Trait: Has
+    [Boss] and [D-Brigade]."
+  InheritedEffectDiscription_JPN: "-\r"
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT16_036
+  DP: 15000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: BT16-036
+  MaxCountInDeck: 4

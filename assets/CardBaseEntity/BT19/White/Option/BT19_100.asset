@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT19_100
+  m_EditorClassIdentifier: 
+  CardIndex: 5076
+  cardColors: 04000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: D-Reaper Zone
+  Form_JPN: []
+  Form_ENG:
+  - D-Reaper
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Option
+  CardSpriteName: BT19-100
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Security] [Opponent's Turn] When an opponent's Digimon
+    attacks, if all of your Digimon and Tamers have the [D-Reaper]\_trait, for each
+    of 1 of your [Mother D-Reaper]'s digivolution cards, the attacking Digimon get
+    -1000 DP for the turn.\n[Main] If you have no face-up security cards, by trashing
+    your top security card, place this card face up as your top security card."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: "[Security] You may play 1 [D-Reaper]\_trait card
+    with a play cost equal to or lower than the number of digivolution cards of 1
+    of your [Mother D-Reaper]'s from your hand without paying the cost."
+  CardEffectClassName: BT19_100
+  DP: 0
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT19-100
+  MaxCountInDeck: 4

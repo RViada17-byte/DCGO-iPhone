@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT14_097_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4706
+  cardColors: 0500000002000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Suka's Curse
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Option
+  CardSpriteName: BT14-097_P0
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Main] 1 of your non-white Digimon may digivolve into a
+    Digimon card with [Sukamon]\_in its name in your hand without paying the cost,
+    ignoring its digivolution requirements.\n[Rule] Name: Treated as having [Sukamon]."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Until the end of your turn, change 1
+    of your opponent''s Digimon into being white and having 3000 DP and an original
+    name of [Sukamon]'
+  CardEffectClassName: BT14_097
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT14-097
+  MaxCountInDeck: 4

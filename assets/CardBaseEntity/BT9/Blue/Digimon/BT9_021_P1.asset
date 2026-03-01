@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT9_021_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 1807
+  cardColors: 01000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 1
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: "\u30B8\u30A7\u30EA\u30FC\u30E2\u30F3"
+  CardName_ENG: Jellymon
+  Form_JPN:
+  - "\u6210\u9577\u671F"
+  Form_ENG:
+  - Rookie
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u8EDF\u4F53\u578B"
+  Type_ENG:
+  - Mollusk
+  CardSpriteName: BT9-021_P1
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u9752\u306E\u81EA\u5206\u306E\u30C6\u30A4\u30DE\u30FC\u304C\u767B\u5834\u3057\u305F\u3068\u304D\u3001\u226A1\u30C9\u30ED\u30FC\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u304B\u3089\u30AB\u30FC\u30C9\u30921\u679A\u5F15\u304F\uFF09\u3002"
+  EffectDiscription_ENG: "[Your Turn][Once Per Turn] When you play a blue Tamer,
+    \uFF1CDraw 1\uFF1E. (Draw 1 card from your deck.)"
+  InheritedEffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u81EA\u5206\u306E\u624B\u672D\u304C\u52B9\u679C\u3067\u5897\u3048\u305F\u3068\u304D\u3001Lv.3\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u624B\u672D\u306B\u623B\u3059\u3002"
+  InheritedEffectDiscription_ENG: "[Your Turn][Once Per Turn] When an effect adds
+    a card to your hand, return 1 of your opponent\u2019s level 3 Digimon to its
+    owner\u2019s hand."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT9_021
+  DP: 2000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT9-021
+  MaxCountInDeck: 4

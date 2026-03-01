@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT13_029_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4574
+  cardColors: 01000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 1
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: MachGaogamon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Cyborg
+  CardSpriteName: BT13-029_P0
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[When Attacking] If your opponent has 8 or more cards in
+    their hand, this Digimon''s attack target can''t be switched for the turn.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[All Turns] [Once Per Turn] When an effect adds
+    cards to your opponent''s hand, unsuspend this Digimon.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT13_029
+  DP: 7000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT13-029
+  MaxCountInDeck: 4

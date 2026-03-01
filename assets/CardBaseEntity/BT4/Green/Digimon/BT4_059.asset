@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT4_059
+  m_EditorClassIdentifier: 
+  CardIndex: 839
+  cardColors: 03000000
+  PlayCost: 8
+  EvoCosts:
+  - CardColor: 3
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: "\u30E9\u30A4\u30E9\u30E2\u30F3"
+  CardName_ENG: Lilamon
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u5996\u7CBE\u578B"
+  Type_ENG:
+  - Fairy
+  CardSpriteName: BT4-059
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u226A\u30C7\u30B8\u30D0\u30FC\u30B9\u30C82\u226B\uFF08\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u3092\u3001\u9078\u3093\u30672\u679A\u7834\u68C4\u3059\u308B\u3053\u3068\u3067\u3001\u4EE5\u4E0B\u306E\u52B9\u679C\u3092\u767A\u63EE\u3059\u308B\uFF09\u30FB\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u30EC\u30B9\u30C8\u3055\u305B\u308B\u3002"
+  EffectDiscription_ENG: "[Main] \uFF1CDigi-Burst 2\uFF1E (Trash 2 of this Digimon's
+    digivolution cards to activate the effect below.)\u30FBSuspend 1 of your opponent's
+    Digimon."
+  InheritedEffectDiscription_JPN: "\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\u81EA\u5206\u306E\u30C6\u30A4\u30DE\u30FC\u304C\u3044\u308B\u3068\u304D\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u30EC\u30B9\u30C8\u3055\u305B\u308B\u3002"
+  InheritedEffectDiscription_ENG: '[When Attacking] If you have a Tamer in play,
+    suspend 1 of your opponent''s Digimon.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT4_059
+  DP: 7000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: BT4-059
+  MaxCountInDeck: 4

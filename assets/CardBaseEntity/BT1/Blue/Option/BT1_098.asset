@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT1_098
+  m_EditorClassIdentifier: 
+  CardIndex: 292
+  cardColors: 01000000
+  PlayCost: 2
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: "\u30D6\u30A4\u30D6\u30EC\u30B9\u30A2\u30ED\u30FC"
+  CardName_ENG: V-Nova Blast
+  Form_JPN: []
+  Form_ENG: []
+  Attribute_JPN: []
+  Attribute_ENG: []
+  Type_JPN: []
+  Type_ENG: []
+  CardSpriteName: BT1-098
+  cardKind: 2
+  EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306F\u3001\u226A\u30B8\u30E3\u30DF\u30F3\u30B0\u226B\uFF08\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u30C7\u30B8\u30E2\u30F3\u3068\u306E\u30D0\u30C8\u30EB\u3067\u306F\u6D88\u6EC5\u3057\u306A\u3044\uFF09\u3092\u5F97\u308B\u3002"
+  EffectDiscription_ENG: "[Main] 1 of your Digimon gains \uFF1CJamming\uFF1E (This
+    Digimon can't be deleted in battles against Security Digimon) for the turn."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u3053\u306E\u30AB\u30FC\u30C9\u3092\u624B\u672D\u306B\u52A0\u3048\u308B\u3002"
+  SecurityEffectDiscription_ENG: '[Security] Add this card to its owner''s hand.'
+  CardEffectClassName: BT1_098
+  DP: 0
+  rarity: 0
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: BT1-098
+  MaxCountInDeck: 4

@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT17_095_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4885
+  cardColors: 0000000001000000
+  PlayCost: 2
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Miraculous Mega Knight
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Option
+  CardSpriteName: BT17-095_P0
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Main] You may play 1 [Agumon]/[Gabumon] from your hand
+    or trash without paying the cost. Then, place this card in the battle area.\n[All
+    Turns] When one of your level 6 Digimon with [Greymon]/[Garurumon]\_in its name
+    would leave the battle area outside of a battle, \uFF1CDelay\uFF1E.\n\u30FBThat
+    Digimon and a card in the hand may DNA digivolve into a Digimon card with [Omnimon]\_in
+    its name in the hand."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: "[Security] You may play 1 card with [Tai Kamiya]/[Matt
+    Ishida]\_in its name from your hand or trash without paying the cost. Then, add
+    this card to the hand."
+  CardEffectClassName: BT17_095
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT17-095
+  MaxCountInDeck: 4

@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT5_086_P3
+  m_EditorClassIdentifier: 
+  CardIndex: 1058
+  cardColors: 04000000
+  PlayCost: 15
+  EvoCosts:
+  - CardColor: 0
+    Level: 6
+    MemoryCost: 4
+  - CardColor: 1
+    Level: 6
+    MemoryCost: 4
+  Level: 7
+  CardName_JPN: "\u30AA\u30E1\u30AC\u30E2\u30F3"
+  CardName_ENG: Omnimon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u8056\u9A0E\u58EB\u578B"
+  - "\u30ED\u30A4\u30E4\u30EB\u30CA\u30A4\u30C4"
+  Type_ENG:
+  - Holy Warrior
+  - Royal Knight
+  CardSpriteName: BT5-086_P3
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u226A\u9032\u6483\u226B\uFF08\u30E1\u30E2\u30EA\u30FC\u304C\u76F8\u624B\u5074\u306E1\u4EE5\u4E0A\u306E\u3068\u304D\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u30A2\u30BF\u30C3\u30AF\u3067\u304D\u308B\uFF09\u3010\u9032\u5316\u6642\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u3059\u308B\u3002\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u76F8\u624B\u306E\u52B9\u679C\u3067\u6D88\u6EC5\u3059\u308B\u3068\u304D\u304B\u3001\u76F8\u624B\u306E\u52B9\u679C\u3067\u624B\u672D\u3001\u30C7\u30C3\u30AD\u306B\u623B\u308B\u3068\u304D\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u306ELv.6\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u7834\u68C4\u3059\u308B\u3053\u3068\u3067\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u6D88\u6EC5\u305B\u305A\u3001\u624B\u672D\u3001\u30C7\u30C3\u30AD\u306B\u623B\u3089\u306A\u3044\u3002"
+  EffectDiscription_ENG: "[When Digivolving] \uFF1CBlitz\uFF1E (This Digimon can
+    attack when your opponent has 1 or more memory.)[When Digivolving] Unsuspend
+    this Digimon.[All Turns] If an opponent's effect would delete this Digimon or
+    return it to its owner's hand or deck, you may prevent it from leaving play by
+    trashing a level 6 Digimon card in this card's digivolution cards."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT5_086
+  DP: 14000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: BT5-086
+  MaxCountInDeck: 4

@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT17_017_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 3558
+  cardColors: 0000000006000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 0
+    Level: 5
+    MemoryCost: 4
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: AncientGreymon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Ancient Dragon
+  - Ten Warriors
+  CardSpriteName: BT17-017_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "\uFF1CSecurity Attack +1\uFF1E \n[On Play] [When Digivolving]
+    Delete 1 of your opponent's Digimon with as much or less DP than this Digimon.\n[On
+    Deletion] Return 1 Tamer card and 1 [Hybrid]\_trait Digimon card from your trash
+    to the hand. Then, you may play 1 Tamer card from your hand without paying the
+    cost.\n\n[DigiXros\_-3] [Agunimon] x [BurningGreymon] "
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT17_017
+  DP: 12000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: BT17-017
+  MaxCountInDeck: 4

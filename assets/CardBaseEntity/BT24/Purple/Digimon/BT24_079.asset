@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT24_079
+  m_EditorClassIdentifier: 
+  CardIndex: 7613
+  cardColors: 0600000004000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Hadesmon
+  Form_JPN: []
+  Form_ENG:
+  - God
+  - Appmon
+  Attribute_JPN: []
+  Attribute_ENG:
+  - God
+  Type_JPN: []
+  Type_ENG:
+  - Transmutation
+  CardSpriteName: BT24-079
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[App Fusion] [Revivemon] & [Biomon]: Cost 0\n\n\uFF1COverclock
+    ([Appmon] Trait)\uFF1E (At the end of your turn, by deleting 1 of your Tokens
+    or other [Appmon]\_trait Digimon, this Digimon attacks a player without suspending.)\n\uFF1CLink
+    +1\uFF1E \n[When Digivolving] You may play 1 level 4 or lower [System] or [Life]\_trait
+    Digimon card from your trash without paying the cost. Then, you may link 1 [Appmon]\_trait
+    Digimon card from your hand or this Digimon's digivolution cards to 1 of your
+    Digimon without paying the cost.\n[All Turns] [Once Per Turn] When other Digimon
+    are deleted, you may activate 1 of this Digimon's [When Digivolving] effects."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT24_079
+  DP: 12000
+  rarity: 3
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT24-079
+  MaxCountInDeck: 4

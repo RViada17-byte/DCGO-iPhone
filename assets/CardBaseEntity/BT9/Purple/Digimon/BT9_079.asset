@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT9_079
+  m_EditorClassIdentifier: 
+  CardIndex: 1873
+  cardColors: 06000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: "\u30B0\u30E9\u30F3\u30C9\u30E9\u30AF\u30E2\u30F3"
+  CardName_ENG: GranDracmon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u9B54\u7363\u578B"
+  Type_ENG:
+  - Dark Animal
+  CardSpriteName: BT9-079
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u7D2B\u306ELv.3\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002\u3010\u30A2\u30BF\u30C3\u30AF\u7D42\u4E86\u6642\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u4ED6\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u3001\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u306E\u7279\u5FB4\u306B\u300C\u30A2\u30F3\u30C7\u30C3\u30C9\u578B\u300D\u304B\u300C\u9B54\u7363\u578B\u300D\u3092\u6301\u3064\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u306B\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u9032\u5316\u3067\u304D\u308B\u3002"
+  EffectDiscription_ENG: '[When Digivolving] You may play 1 purple level 3 Digimon
+    card from your trash without paying its memory cost. [End of Attack][Once Per
+    Turn] You may digivolve 1 of your other Digimon into a Digimon card with [Undead]
+    or [Dark Animal] in its traits from your trash without paying its memory cost.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT9_079
+  DP: 12000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT9-079
+  MaxCountInDeck: 4

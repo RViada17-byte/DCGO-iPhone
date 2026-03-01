@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT23_102_P2
+  m_EditorClassIdentifier: 
+  CardIndex: 7460
+  cardColors: 0200000006000000
+  PlayCost: 13
+  EvoCosts:
+  - CardColor: 2
+    Level: 5
+    MemoryCost: 5
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 5
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Mastemon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Angel
+  - CS
+  CardSpriteName: BT23-102_P2
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "\uFF1CBarrier\uFF1E \n\uFF1CPartition ([Angewomon] & [LadyDevimon])\uFF1E
+    \n[When Digivolving] You may play 1 level 5 or lower yellow or purple card from
+    your hand or trash without paying the cost. Then, if this Digimon's stack has
+    2 or more same-level cards, trash the top cards of both players' security stacks
+    so that they have 3 cards left.\n[All Turns] [Once Per Turn] When security stacks
+    are removed from, you may place 1 Digimon as the bottom security card."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT23_102
+  DP: 13000
+  rarity: 4
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT23-102
+  MaxCountInDeck: 4

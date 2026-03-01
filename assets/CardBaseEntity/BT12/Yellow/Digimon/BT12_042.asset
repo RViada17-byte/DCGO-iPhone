@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT12_042
+  m_EditorClassIdentifier: 
+  CardIndex: 2453
+  cardColors: 0200000000000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 2
+    Level: 4
+    MemoryCost: 4
+  - CardColor: 0
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: "\u30E9\u30A4\u30BA\u30B0\u30EC\u30A4\u30E2\u30F3"
+  CardName_ENG: RizeGreymon
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u30B5\u30A4\u30DC\u30FC\u30B0\u578B"
+  Type_ENG:
+  - Cyborg
+  CardSpriteName: BT12-042
+  cardKind: 0
+  EffectDiscription_JPN: "\u9032\u5316:\u300C\u30B8\u30AA\u30B0\u30EC\u30A4\u30E2\u30F3\u300D\u304B\u30893\u3010\u9032\u5316\u6642\u3011\u9EC4\u304B\u8D64\u306E\u81EA\u5206\u306E\u30C6\u30A4\u30DE\u30FC\u304C\u3044\u308B\u3068\u304D\u3001\u30E1\u30E2\u30EA\u30FC\uFF0B1\u3002\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u81EA\u5206\u306E\u30C6\u30A4\u30DE\u30FC\u304C\u6D88\u6EC5\u3057\u305F\u3068\u304D\u3001\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u300C\u5927\u9580\u5927\u300D1\u679A\u3092\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u306E\u4E0A\u306B\u88CF\u5411\u304D\u3067\u7F6E\u304F\u3002"
+  EffectDiscription_ENG: 'Digivolve: 3 from [GeoGreymon][When Digivolving] If you
+    have a yellow or red Tamer in play, gain 1 memory.[All Turns][Once Per Turn]
+    If one of your Tamers is deleted, place 1 [Marcus Damon] from your trash on top
+    of your security stack face down.'
+  InheritedEffectDiscription_JPN: "\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u81EA\u5206\u306E\u30C6\u30A4\u30DE\u30FC\u304C\u6D88\u6EC5\u3057\u305F\u3068\u304D\u3001\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u300C\u5927\u9580\u5927\u300D1\u679A\u3092\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u306E\u4E0A\u306B\u88CF\u5411\u304D\u3067\u7F6E\u304F\u3002"
+  InheritedEffectDiscription_ENG: '[All Turns][Once Per Turn] If one of your Tamers
+    is deleted, place 1 [Marcus Damon] from your trash on top of your security stack
+    face down.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT12_042
+  DP: 7000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT12-042
+  MaxCountInDeck: 4

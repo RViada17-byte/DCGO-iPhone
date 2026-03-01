@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT3_068
+  m_EditorClassIdentifier: 
+  CardIndex: 695
+  cardColors: 05000000
+  PlayCost: 6
+  EvoCosts:
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: "\u30AE\u30ED\u30E2\u30F3"
+  CardName_ENG: Giromon
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u6A5F\u96F7\u578B"
+  Type_ENG:
+  - Mine
+  CardSpriteName: BT3-068
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 
+  InheritedEffectDiscription_JPN: "\u3010\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306EDP\u3092+1000\u3059\u308B\u3002"
+  InheritedEffectDiscription_ENG: '[Opponent''s Turn] This Digimon gets +1000 DP.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT3_066
+  DP: 7000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT3-068
+  MaxCountInDeck: 4

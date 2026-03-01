@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT10_099
+  m_EditorClassIdentifier: 
+  CardIndex: 2155
+  cardColors: 02000000
+  PlayCost: 2
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: "\u30D2\u30FC\u30EA\u30F3\u30B0\u30BB\u30E9\u30D4\u30FC"
+  CardName_ENG: Healing Therapy
+  Form_JPN: []
+  Form_ENG: []
+  Attribute_JPN: []
+  Attribute_ENG: []
+  Type_JPN: []
+  Type_ENG: []
+  CardSpriteName: BT10-099
+  cardKind: 2
+  EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u6B21\u306E\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u307E\u3067\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306B\u226A\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u30A2\u30BF\u30C3\u30AF-1\u226B\uFF08\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30C1\u30A7\u30C3\u30AF\u3059\u308B\u679A\u6570-1\uFF09\u3092\u4E0E\u3048\u308B\u3002\u81EA\u5206\u306E\u300C\u30A6\u30A7\u30CC\u30B9\u30E2\u30F3\u300D\u304C\u3044\u308B\u3068\u304D\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306E\u4EE3\u308F\u308A\u306B\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F33\u4F53\u306B\u4E0E\u3048\u308B\u3002"
+  EffectDiscription_ENG: "[Main] Until the end of your opponent's turn, 1 of your
+    opponent's Digimon gains \uFF1CSecurity Attack -1\uFF1E. (This Digimon checks
+    1 fewer security cards.) If you have a [Venusmon] in play, 3 of your opponent's
+    Digimon gain it instead."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u3053\u306E\u30AB\u30FC\u30C9\u306E\u3010\u30E1\u30A4\u30F3\u3011\u52B9\u679C\u3092\u767A\u63EE\u3059\u308B\u3002"
+  SecurityEffectDiscription_ENG: '[Security] Activate this card''s [Main] effect.'
+  CardEffectClassName: BT10_099
+  DP: 0
+  rarity: 0
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: BT10-099
+  MaxCountInDeck: 4

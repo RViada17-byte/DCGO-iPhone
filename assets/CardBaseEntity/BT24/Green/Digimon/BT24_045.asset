@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT24_045
+  m_EditorClassIdentifier: 
+  CardIndex: 7574
+  cardColors: 0300000006000000
+  PlayCost: 4
+  EvoCosts:
+  - CardColor: 3
+    Level: 3
+    MemoryCost: 3
+  - CardColor: 6
+    Level: 3
+    MemoryCost: 3
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Ogremon
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Demon
+  - Titan
+  - TS
+  CardSpriteName: BT24-045
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.3 w/[Demon]/[TS]\_trait: Cost 2 \n\nWhen
+    this card is trashed from the hand, if you have 5 or fewer cards in your hand,
+    \uFF1CDraw 1\uFF1E \n[On Play] [When Attacking] [Once Per Turn] By trashing 1
+    card in your hand, suspend 1 of your opponent's Digimon. It can't unsuspend in
+    their next unsuspend phase."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[Your Turn] [Once Per Turn] When your hand is
+    trashed from, this [Demon] or [Titan]\_trait Digimon may digivolve into [Titamon]
+    or a [Titan]\_trait Digimon card in the trash with the digivolution cost reduced
+    by 1."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT24_045
+  DP: 4000
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT24-045
+  MaxCountInDeck: 4

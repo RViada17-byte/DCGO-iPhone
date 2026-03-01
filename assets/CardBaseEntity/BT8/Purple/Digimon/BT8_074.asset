@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT8_074
+  m_EditorClassIdentifier: 
+  CardIndex: 1656
+  cardColors: 06000000
+  PlayCost: 4
+  EvoCosts:
+  - CardColor: 6
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: "\u30BD\u30A6\u30EB\u30E2\u30F3"
+  CardName_ENG: Soulmon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u30B4\u30FC\u30B9\u30C8\u578B"
+  Type_ENG:
+  - Ghost
+  CardSpriteName: BT8-074
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 
+  InheritedEffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011[\u30BF\u30FC\u30F3\u306B1\u56DE]\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u304C\u7834\u68C4\u3055\u308C\u305F\u3068\u304D\u3001\u30E1\u30E2\u30EA\u30FC+1\u3002"
+  InheritedEffectDiscription_ENG: '[Your Turn][Once Per Turn] When a card is trashed
+    from your deck, gain 1 memory.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT8_074
+  DP: 4000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT8-074
+  MaxCountInDeck: 4

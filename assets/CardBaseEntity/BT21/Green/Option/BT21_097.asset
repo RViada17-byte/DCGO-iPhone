@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT21_097
+  m_EditorClassIdentifier: 
+  CardIndex: 5424
+  cardColors: 03000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: App Link
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Appmon
+  CardSpriteName: BT21-097
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "While you have a Digimon or Tamer with the [Appmon]\_trait
+    on the field, you can ignore this card's color requirements.\n[Main] Reveal the
+    top 3 cards of your deck. Add 1 card with the [Appmon]/[App Driver]\_trait among
+    them to the hand. Trash the rest. Then, place this card in the battle area.\n[End
+    of Your Turn] \uFF1CDelay\uFF1E.\n\u30FBYou may link 1 card from your hand with
+    1 of your Digimon without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Place this card in the battle area.'
+  CardEffectClassName: BT21_097
+  DP: 0
+  rarity: 0
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  LinkCost: 0
+  CardID: BT21-097
+  MaxCountInDeck: 4

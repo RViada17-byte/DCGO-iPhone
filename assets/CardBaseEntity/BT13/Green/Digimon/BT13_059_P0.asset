@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT13_059_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4594
+  cardColors: 0300000001000000
+  PlayCost: 14
+  EvoCosts:
+  - CardColor: 3
+    Level: 6
+    MemoryCost: 4
+  - CardColor: 1
+    Level: 6
+    MemoryCost: 4
+  Level: 7
+  CardName_JPN: 
+  CardName_ENG: Examon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Holy Warrior
+  - Royal Knight
+  CardSpriteName: BT13-059_P0
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[On Play] [When Digivolving] Suspend 1 of your opponent's
+    Digimon. That Digimon doesn't unsuspend during your opponent's next unsuspend
+    phase.\n[All Turns] [Once Per Turn] When an opponent's Digimon becomes suspended,
+    you may activate 1 of the effects below.\n\u30FB Suspend 1 of your opponent's
+    Digimon.\n\u30FB Unsuspend 1 of your Digimon."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT13_059
+  DP: 14000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT13-059
+  MaxCountInDeck: 4

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT17_025_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4848
+  cardColors: 0100000006000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 1
+    Level: 4
+    MemoryCost: 4
+  - CardColor: 6
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: 'Cerberusmon: Werewolf Mode'
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Wizard
+  - Dark Animal
+  CardSpriteName: BT17-025_P0
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve][Cerberusmon]: Cost 1 \n\n[When Digivolving]
+    You may play 1 level 3 blue or purple Digimon card from your trash or from one
+    of your Digimon's digivolution cards without paying the cost. At the next end
+    of your opponent's turn, return it to the hand.\n[Rule] Trait: Has the [Dark
+    Animal] type."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[All Turns] [Once Per Turn] When an effect plays
+    one of your Digimon, return 1 of your opponent''s level 3 Digimon to the hand.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT17_025
+  DP: 7000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT17-025
+  MaxCountInDeck: 4

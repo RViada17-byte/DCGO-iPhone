@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT13_077_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 2736
+  cardColors: 05000000
+  PlayCost: 13
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 5
+  Level: 6
+  CardName_JPN: "\u30AF\u30EC\u30CB\u30A2\u30E0\u30E2\u30F3"
+  CardName_ENG: Craniamon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u8056\u9A0E\u58EB\u578B"
+  - "\u30ED\u30A4\u30E4\u30EB\u30CA\u30A4\u30C4"
+  Type_ENG:
+  - Holy Warrior
+  - Royal Knight
+  CardSpriteName: BT13-077_P1
+  cardKind: 0
+  EffectDiscription_JPN: "\u226A\u30D6\u30ED\u30C3\u30AB\u30FC\u226B\u3010\u767B\u5834\u6642\u3011\u3010\u9032\u5316\u6642\u3011\u6B21\u306E\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u307E\u3067\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u52B9\u679C\u3092\u53D7\u3051\u306A\u3044\u3002\u3010\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u6642\u3011\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u9078\u3079\u308B\u3002\u76F8\u624B\u306F\u3001\u9078\u3093\u3060\u30C7\u30B8\u30E2\u30F3\u3092\u30A2\u30BF\u30C3\u30AF\u3055\u305B\u308B\u3002"
+  EffectDiscription_ENG: "\uFF1CBlocker\uFF1E [On Play][When Digivolving] Until the
+    end of your opponent's turn, this Digimon isn't affected by the effects of your
+    opponent's Digimon. [End of Opponent\u2019s Turn] Choose 1 of your opponent's
+    Digimon. Your opponent attacks with the chosen Digimon."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT13_077
+  DP: 13000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: BT13-077
+  MaxCountInDeck: 4

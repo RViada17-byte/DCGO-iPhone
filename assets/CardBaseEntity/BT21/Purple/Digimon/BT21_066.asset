@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT21_066
+  m_EditorClassIdentifier: 
+  CardIndex: 5383
+  cardColors: 0600000000000000
+  PlayCost: 6
+  EvoCosts:
+  - CardColor: 6
+    Level: 3
+    MemoryCost: 3
+  - CardColor: 0
+    Level: 3
+    MemoryCost: 3
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Arresterdramon
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Dragon
+  - Hero
+  CardSpriteName: BT21-066
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.3 w/\uFF1CSave\uFF1E\_in text or w/[Hero]\_trait:
+    Cost 2 \n\n[On Play] [When Digivolving] You may play 1 Tamer card with the [Hunter]/[Hero]\_trait
+    from your hand without paying the cost.\n[On Deletion] You may place 1 Digimon
+    card with \uFF1CSave\uFF1E\_in its text or the [Hero]\_trait from your hand or
+    trash under any of your Tamers. Then, \uFF1CSave\uFF1E.\n\n[DigiXros\_-2] 1 Digimon
+    card with \uFF1CSave\uFF1E\_in text"
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[Your Turn] This Digimon gets +2000 DP.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT21_066
+  DP: 6000
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  LinkCost: 0
+  CardID: BT21-066
+  MaxCountInDeck: 4

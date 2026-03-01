@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT11_083_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4429
+  cardColors: 06000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 6
+    Level: 4
+    MemoryCost: 3
+  - CardColor: 2
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: LadyDevimon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Fallen Angel
+  CardSpriteName: BT11-083_P0
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[When Digivolving] You may trash 1 card in your hand. If
+    you do, you may return 1 [Mirei Mikagura]\_trait or 1 card with the [Angel]/[Archangel]/[Fallen
+    Angel]\_trait from your trash to your hand.\n[Your Turn] [Once Per Turn] When
+    you play [Angewomon]/[Mirei Mikagura], gain 1 memory."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[Opponent's Turn] While you have a yellow Digimon
+    in play, all of your Digimon with the [Angel]/[Archangel]/[Fallen Angel]\_trait
+    gain \uFF1CRetaliation\uFF1E."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT11_083
+  DP: 6000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT11-083
+  MaxCountInDeck: 4

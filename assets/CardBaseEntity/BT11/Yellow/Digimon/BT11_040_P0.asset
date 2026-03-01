@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT11_040_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4400
+  cardColors: 0200000005000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 2
+    Level: 3
+    MemoryCost: 2
+  - CardColor: 5
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Sukamon
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Abnormal
+  CardSpriteName: BT11-040_P0
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[On Deletion] Reveal the top 3 cards of your deck. Add
+    1 card with [Chuumon]/[Sukamon]/[Etemon]\_in its name among them to your hand.
+    Trash the rest."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[All Turns] When this Digimon would be deleted,
+    by deleting 1 other Digimon with [Sukamon]\_in its name, prevent that deletion."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT11_040
+  DP: 1000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT11-040
+  MaxCountInDeck: 4

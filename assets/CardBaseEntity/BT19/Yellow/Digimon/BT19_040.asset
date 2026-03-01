@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT19_040
+  m_EditorClassIdentifier: 
+  CardIndex: 5033
+  cardColors: 02000000
+  PlayCost: 11
+  EvoCosts:
+  - CardColor: 2
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Sakuyamon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Shaman
+  CardSpriteName: BT19-040
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve][Sakuyamon: Maid Mode]: Cost 1 \n\n[When Digivolving]
+    \uFF1CDraw 2\uFF1E. Then, you may use 1 single-color Option card with a cost
+    of 5 or less from your hand without paying the cost.\n[Your Turn] [Once Per Turn]
+    When you use an Option card with a cost of 2 or more, play 1 [Pipe Fox] Token
+    (Digimon/Yellow/6000 DP/\uFF1CBlocker\uFF1E)."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT19_040
+  DP: 11000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT19-040
+  MaxCountInDeck: 4

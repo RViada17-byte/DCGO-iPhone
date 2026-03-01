@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT19_025
+  m_EditorClassIdentifier: 
+  CardIndex: 5022
+  cardColors: 0100000005000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 1
+    Level: 4
+    MemoryCost: 4
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: MetalGreymon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Cyborg
+  - Blue Flare
+  CardSpriteName: BT19-025
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "\uFF1CMaterial Save 2\uFF1E \n[On Play] This Digimon gains
+    \uFF1CRush\uFF1Efor the turn.\n[When Attacking] \uFF1CDe-Digivolve1\uFF1E 1 of
+    your opponent's Digimon. Then, this Digimon may digivolve into a Digimon card
+    with the [Blue Flare]\_trait from under your Tamers without paying the cost.\n\n[DigiXros\_-2]
+    Blue [Greymon] x [MailBirdramon]"
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[End of Attack] [Once Per Turn] You may play 1
+    level 4 or lower Digimon card with the [Blue Flare]\_trait from under any of
+    your Tamers without paying\_the\_cost."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT19_025
+  DP: 7000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT19-025
+  MaxCountInDeck: 4

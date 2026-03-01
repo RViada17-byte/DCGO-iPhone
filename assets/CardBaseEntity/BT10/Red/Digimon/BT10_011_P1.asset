@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT10_011_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 2044
+  cardColors: 00000000
+  PlayCost: 8
+  EvoCosts:
+  - CardColor: 0
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: "\u30AB\u30CE\u30FC\u30F4\u30A1\u30A4\u30B9\u30E2\u30F3"
+  CardName_ENG: Canoweissmon
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u5929\u7ADC\u578B"
+  Type_ENG:
+  - Sky Dragon
+  CardSpriteName: BT10-011_P1
+  cardKind: 0
+  EffectDiscription_JPN: "\u9032\u5316:\u300E\u540D\u79F0\u306B\u300C\u30AC\u30F3\u30DE\u30E2\u30F3\u300D\u3092\u542B\u3080Lv.4\u300F\u304B\u30893\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u81EA\u5206\u306E\u30C6\u30A4\u30DE\u30FC\u304C\u30EC\u30B9\u30C8\u3057\u305F\u3068\u304D\u3001\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092DP+2000\u3002\u305D\u306E\u5F8C\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304CDP12000\u4EE5\u4E0A\u306E\u3068\u304D\u3001\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u226A\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u30A2\u30BF\u30C3\u30AF+1\u226B\uFF08\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30C1\u30A7\u30C3\u30AF\u3059\u308B\u679A\u6570+1\uFF09\u3092\u5F97\u308B\u3002\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u306B\u3042\u308B\u540D\u79F0\u306B\u300C\u30AC\u30F3\u30DE\u30E2\u30F3\u300D\u3092\u542B\u3080\u30AB\u30FC\u30C9\u306E\u52B9\u679C\u5168\u3066\u3092\u5F97\u308B\u3002"
+  EffectDiscription_ENG: "Digivolve: 3 from Lv.4 w/[Gammamon] in name[Your Turn][Once
+    Per Turn] When one of your Tamers becomes suspended, this Digimon gets +2000
+    DP for the turn. Then, if this Digimon has 12000 DP or more, it gains \uFF1CSecurity
+    Attack +1\uFF1E for the turn. (This Digimon checks 1 additional security card.)[All
+    Turns] This Digimon gains all effects of cards with [Gammamon] in their names
+    in this Digimon's digivolution cards."
+  InheritedEffectDiscription_JPN: "\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u306B\u3042\u308B\u540D\u79F0\u306B\u300C\u30AC\u30F3\u30DE\u30E2\u30F3\u300D\u3092\u542B\u3080\u30AB\u30FC\u30C9\u306E\u52B9\u679C\u5168\u3066\u3092\u5F97\u308B\u3002"
+  InheritedEffectDiscription_ENG: '[All Turns] This Digimon gains all effects of
+    cards with [Gammamon] in their names in this Digimon''s digivolution cards.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT10_011
+  DP: 8000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT10-011
+  MaxCountInDeck: 4

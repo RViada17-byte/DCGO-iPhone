@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT18_088
+  m_EditorClassIdentifier: 
+  CardIndex: 3953
+  cardColors: 0000000002000000
+  PlayCost: 5
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Takuya Kanbara & Koji Minamoto
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Tamer
+  CardSpriteName: BT18-088
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Security] Play this card without paying the cost.\n[Start
+    of Your Turn] If you have 2 memory or less, set your memory to 3.\n[Start of
+    Your Main Phase] You may place up to 1 [Hybrid]\_trait card with different names
+    from your trash under this Tamer. For each of your other Tamers, add 2 to the
+    maximum number this effect may place.\n[Rule] Name: Also treated as [Takuya Kanbara]/[Koji
+    Minamoto]."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[End of Your Turn] [Once Per Turn] This Digimon
+    with the [Hybrid]/[Ten Warriors]\_trait may attack a player."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT18_088
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT18-088
+  MaxCountInDeck: 4

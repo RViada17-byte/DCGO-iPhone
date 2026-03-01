@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT1_025_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 168
+  cardColors: 00000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 0
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: "\u30A6\u30A9\u30FC\u30B0\u30EC\u30A4\u30E2\u30F3"
+  CardName_ENG: WarGreymon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u7ADC\u4EBA\u578B"
+  Type_ENG:
+  - Dragonkin
+  CardSpriteName: BT1-025_P1
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u226A\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u30A2\u30BF\u30C3\u30AF+1\u226B\uFF08\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30C1\u30A7\u30C3\u30AF\u3059\u308B\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u306E\u679A\u6570+1\uFF09\u3092\u5F97\u308B\u3002\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30C1\u30A7\u30C3\u30AF\u3057\u305F\u30AA\u30D7\u30B7\u30E7\u30F3\u30AB\u30FC\u30C9\u306E\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u52B9\u679C\u306F\u767A\u63EE\u3057\u306A\u3044\u3002"
+  EffectDiscription_ENG: "[When Digivolving] This Digimon gains \uFF1CSecurity Attack
+    +1\uFF1E (This Digimon checks 1 additional security card) for the turn. [Your
+    Turn] This Digimon doesn't activate [Security] skills on Option cards it checks."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT1_025
+  DP: 11000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: BT1-025
+  MaxCountInDeck: 4

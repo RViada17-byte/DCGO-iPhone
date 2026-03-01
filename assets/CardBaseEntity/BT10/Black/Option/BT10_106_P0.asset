@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT10_106_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4363
+  cardColors: 05000000
+  PlayCost: 12
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Justice Kick
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Option
+  CardSpriteName: BT10-106_P0
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "When you would use this card, reduce its cost by 1 for
+    each Tamer you have in play.\n[Main] You may play 1 Digimon card with [Justimon]\_in
+    its name from your hand without paying its memory cost. If you do, delete 1 of
+    your opponent's Digimon with a play cost less than or equal to the Digimon you
+    played."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] You may play 1 black Tamer card from
+    your hand without paying its play cost. Then, add this card to its owner''s hand.'
+  CardEffectClassName: BT10_106
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT10-106
+  MaxCountInDeck: 4

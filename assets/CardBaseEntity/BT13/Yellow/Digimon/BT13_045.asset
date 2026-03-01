@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT13_045
+  m_EditorClassIdentifier: 
+  CardIndex: 2696
+  cardColors: 0200000005000000
+  PlayCost: 13
+  EvoCosts:
+  - CardColor: 2
+    Level: 5
+    MemoryCost: 4
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: "\u30AD\u30F3\u30B0\u30C1\u30A7\u30B9\u30E2\u30F3"
+  CardName_ENG: KingChessmon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u30D1\u30DA\u30C3\u30C8\u578B"
+  Type_ENG:
+  - Puppet
+  CardSpriteName: BT13-045
+  cardKind: 0
+  EffectDiscription_JPN: "\u9032\u5316:\u300E\u540D\u79F0\u306B\u300C\u30C1\u30A7\u30B9\u30E2\u30F3\u300D\u3092\u542B\u3080Lv.5\u300F\u304B\u30893\u624B\u672D\u306E\u3053\u306E\u30AB\u30FC\u30C9\u3092\u767B\u5834\u3055\u305B\u308B\u3068\u304D\u3001\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u306E\u540D\u79F0\u306B\u300C\u30C1\u30A7\u30B9\u30E2\u30F3\u300D\u3092\u542B\u3080\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C9\u304C8\u679A\u4EE5\u4E0A\u306A\u3089\u3001\u652F\u6255\u3046\u767B\u5834\u30B3\u30B9\u30C8-8\u3002\u3010\u767B\u5834\u6642\u3011\u3010\u9032\u5316\u6642\u3011\u4ED6\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3053\u3068\u3067\u3001\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u300C\u30AD\u30F3\u30B0\u30C1\u30A7\u30B9\u30E2\u30F3\u300D\u4EE5\u5916\u306E\u540D\u79F0\u306B\u300C\u30C1\u30A7\u30B9\u30E2\u30F3\u300D\u3092\u542B\u3080\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002"
+  EffectDiscription_ENG: 'Digivolve: 3 from Lv.5 w/[Chessmon] in name When you would
+    play this card from the hand, if you have 8 or more Digimon cards with [Chessmon]
+    in their names in your trash, reduce the play cost by 8. [On Play][When Digivolving]
+    By deleting 1 of your other Digimon, you may play 1 Digimon card with [Chessmon]
+    in its name, other than [KingChessmon], from your hand without paying the cost. '
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT13_045
+  DP: 11000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT13-045
+  MaxCountInDeck: 4

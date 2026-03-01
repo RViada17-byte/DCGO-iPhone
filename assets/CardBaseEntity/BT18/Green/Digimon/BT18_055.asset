@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT18_055
+  m_EditorClassIdentifier: 
+  CardIndex: 3910
+  cardColors: 03000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 3
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: AncientTroymon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Ancient Plant
+  - Ten Warriors
+  CardSpriteName: BT18-055
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[All Turns] [Once Per Turn] When an opponent's Digimon
+    becomes suspended, trash their top security card.\n[All Turns] When this Digimon
+    would leave the battle area, you may return to the hand or play 1 level 4 or
+    lower green Digimon card from this Digimon's digivolution cards without paying
+    the cost.\n\n[DigiXros\_-2] [Arbormon] x [Petaldramon] "
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT18_055
+  DP: 12000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT18-055
+  MaxCountInDeck: 4

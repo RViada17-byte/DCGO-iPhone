@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT4_099_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 907
+  cardColors: 00000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: "\u7ADC\u306E\u529B\u3092\u7D99\u3050\u3082\u306E"
+  CardName_ENG: Heir of Dragons
+  Form_JPN: []
+  Form_ENG: []
+  Attribute_JPN: []
+  Attribute_ENG: []
+  Type_JPN: []
+  Type_ENG: []
+  CardSpriteName: BT4-099_P1
+  cardKind: 2
+  EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u226A2\u30C9\u30ED\u30FC\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u304B\u3089\u30AB\u30FC\u30C9\u30922\u679A\u5F15\u304F\uFF09\u3002\u305D\u306E\u5F8C\u3001\u540D\u79F0\u306B\u300C\u30B0\u30EC\u30A4\u30E2\u30F3\u300D\u304B\u300C\u30C9\u30E9\u30E2\u30F3\u300D\u3092\u542B\u3080\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u3044\u308B\u3068\u304D\u3001DP4000\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3002"
+  EffectDiscription_ENG: "[Main] Trigger \uFF1CDraw 2\uFF1E. (Draw 2 cards from your
+    deck.) Then, if one of your Digimon has [Greymon] or [Dramon] in its name (other
+    than [DoruGreymon], [BurningGreymon], or[DexDoruGreymon]), delete 1 of your opponent's
+    Digimon with 4000 DP or less."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u3053\u306E\u30AB\u30FC\u30C9\u306E\u3010\u30E1\u30A4\u30F3\u3011\u52B9\u679C\u3092\u767A\u63EE\u3059\u308B\u3002"
+  SecurityEffectDiscription_ENG: '[Security] Activate this card''s [Main] effect.'
+  CardEffectClassName: BT4_099
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: BT4-099
+  MaxCountInDeck: 4

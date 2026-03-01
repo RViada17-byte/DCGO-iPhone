@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT12_072_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 4523
+  cardColors: 0500000000000000
+  PlayCost: 13
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 5
+  - CardColor: 0
+    Level: 5
+    MemoryCost: 5
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Chaosdramon (X Antibody)
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Machine
+  - X Antibody
+  CardSpriteName: BT12-072_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve][Machinedramon]/[Chaosdramon]: Cost 2 \n\n[Start
+    of Your Main Phase] Place 1 Digimon card with the [Cyborg]/[Machine]\_trait from
+    your trash under this Digimon as its bottom digivolution card.\n[All Turns] This
+    Digimon gains all effects of [Machinedramon] and [Chaosdramon] cards in this
+    Digimon's digivolution cards.\n[All Turns] [Once Per Turn] When this Digimon
+    would be deleted, trash the top card of your opponent's security stack."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT12_072
+  DP: 13000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: BT12-072
+  MaxCountInDeck: 4

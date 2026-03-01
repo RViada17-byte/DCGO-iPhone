@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT17_046_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4855
+  cardColors: 03000000
+  PlayCost: 6
+  EvoCosts:
+  - CardColor: 3
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Gargomon
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Beastkin
+  CardSpriteName: BT17-046_P0
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[On Deletion] You may play 1 [Terriermon] from your trash
+    without paying the cost.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[All Turns] While this Digimon is suspended, it
+    gets +1000 DP.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT17_046
+  DP: 6000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT17-046
+  MaxCountInDeck: 4

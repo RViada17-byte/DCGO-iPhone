@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT2_030
+  m_EditorClassIdentifier: 
+  CardIndex: 411
+  cardColors: 01000000
+  PlayCost: 11
+  EvoCosts:
+  - CardColor: 1
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: "\u30E1\u30BF\u30EB\u30B7\u30FC\u30C9\u30E9\u30E2\u30F3"
+  CardName_ENG: MetalSeadramon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u30B5\u30A4\u30DC\u30FC\u30B0\u578B"
+  Type_ENG:
+  - Cyborg
+  CardSpriteName: BT2-030
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011Lv.4\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F32\u4F53\u307E\u3067\u3092\u624B\u672D\u306B\u623B\u3059\u3002\u305D\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u6301\u3064\u9032\u5316\u5143\u306F\u7834\u68C4\u3059\u308B\u3002\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u3001\u9032\u5316\u5143\u3092\u6301\u305F\u306A\u3044\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u306B\u306F\u30D6\u30ED\u30C3\u30AF\u3055\u308C\u306A\u3044\u3002"
+  EffectDiscription_ENG: '[On Play] Return up to 2 of your opponent''s level 4 or
+    lower Digimon to their hand. (Trash all of the digivolution cards of those Digimon.)[Your
+    Turn] This Digimon can''t be blocked by your opponent''s Digimon with no digivolution
+    cards.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT2_030
+  DP: 10000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT2-030
+  MaxCountInDeck: 4

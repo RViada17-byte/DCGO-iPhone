@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT14_081_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 3010
+  cardColors: 06000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: "\u30D5\u30A7\u30F3\u30EA\u30EB\u30AC\u30E2\u30F3"
+  CardName_ENG: Fenriloogamon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u9B54\u7363\u578B"
+  - "X\u6297\u4F53"
+  - SoC
+  Type_ENG:
+  - Dark Animal
+  - X Antibody
+  - SoC
+  CardSpriteName: BT14-081_P1
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u7279\u5FB4\u306B\u300C\u9B54\u7363\u578B\u300D/\u300CSoC\u300D\u3092\u6301\u3064Lv.4\u4EE5\u4E0B\u306E\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u306B\u300C\u6C38\u4F4F\u745B\u58EB\u300D\u304C\u3042\u308B\u306A\u3089\u3001\u3053\u306E\u52B9\u679C\u3067\u767B\u5834\u3067\u304D\u308B\u679A\u6570+2\u3002\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3DLv.3\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3053\u3068\u3067\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u3059\u308B\u3002\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3054\u3068\u306B\u3001\u3053\u306E\u52B9\u679C\u3067\u9078\u3079\u308BLv.+1\u3002\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\u30BF\u30FC\u30F3\u7D42\u4E86\u6761\u4EF6\u304C\u3001\u30E1\u30E2\u30EA\u30FC\u304C\u76F8\u624B\u5074\u306E3\u4EE5\u4E0A\u306B\u79FB\u52D5\u3057\u305F\u3068\u304D\u306B\u306A\u308B\u3002"
+  EffectDiscription_ENG: '[When Digivolving] You may play 1 level 4 or lower card
+    with the [Dark Animal] or [SoC] trait from your trash without paying the cost.
+    If [Eiji Nagasumi] is in this Digimon''s digivolution cards, add 2 to the number
+    of cards this effect may play. [When Attacking][Once Per Turn] By deleting 1
+    of your opponent''s level 3 or lower Digimon, unsuspend this Digimon. For each
+    of your Digimon, add 1 to the level this effect may choose. [Your Turn] The turn
+    end condition is the opponent having 3 or more memory.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT14_081
+  DP: 12000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: BT14-081
+  MaxCountInDeck: 4

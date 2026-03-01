@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT24_041
+  m_EditorClassIdentifier: 
+  CardIndex: 7568
+  cardColors: 0200000005000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 2
+    Level: 5
+    MemoryCost: 4
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Minervamon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Shaman
+  - Olympos XII
+  - Iliad
+  - TS
+  CardSpriteName: BT24-041
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.5 w/[Beastkin]/[Dark Dragon]/[TS]: Cost
+    3 \n\nWhen this card would be played, if you have an [Iliad]\_trait Digimon or
+    Tamer, reduce the play cost by 5.\n[On Play] [When Digivolving] [On Deletion]
+    You may play 1 play cost 5 or lower [Iliad]\_trait card from your hand without
+    paying the cost. Then, to 1 of your opponent's Digimon, \uFF1CDe-Digivolve 1\uFF1E
+    for each of your Digimon.\n[Opponent's Turn] All of your [Iliad]\_trait Digimon
+    gain \uFF1CReboot\uFF1E and \uFF1CBlocker\uFF1E "
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT24_041
+  DP: 12000
+  rarity: 3
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT24-041
+  MaxCountInDeck: 4

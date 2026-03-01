@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT10_080_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4338
+  cardColors: 06000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 6
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: SkullBaluchimon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Undead
+  - X Antibody
+  CardSpriteName: BT10-080_P0
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "When this card is trashed from your hand by one of your
+    effects, if it's your turn, you may digivolve 1 of your Digimon into 1 purple
+    Digimon card with the [Undead]/[Dark Animal]\_trait from your trash for its digivolution
+    cost.\n[When Digivolving] If digivolving from the trash, this Digimon gains \"[On
+    Deletion] delete 1 of your opponent's Digimon.\" until the end of your opponent's
+    turn."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT10_080
+  DP: 7000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT10-080
+  MaxCountInDeck: 4

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT14_047
+  m_EditorClassIdentifier: 
+  CardIndex: 2971
+  cardColors: 03000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 3
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: "\u30C9\u30AF\u30B0\u30E2\u30F3"
+  CardName_ENG: Dokugumon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u6606\u866B\u578B"
+  Type_ENG:
+  - Insectoid
+  CardSpriteName: BT14-047
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u3010\u9032\u5316\u6642\u3011\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u30EC\u30B9\u30C8\u3055\u305B\u308B\u3002\u6B21\u306E\u76F8\u624B\u306E\u30A2\u30AF\u30C6\u30A3\u30D6\u30D5\u30A7\u30A4\u30BA\u3067\u306FDP5000\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u5168\u3066\u306F\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u306A\u3089\u306A\u3044\u3002"
+  EffectDiscription_ENG: '[On Play][When Digivolving] Suspend 1 of your opponent''s
+    Digimon. During your opponent''s next unsuspend phase, all of your opponent''s
+    Digimon with 5000 DP or less don''t unsuspend.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT14_047
+  DP: 5000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT14-047
+  MaxCountInDeck: 4

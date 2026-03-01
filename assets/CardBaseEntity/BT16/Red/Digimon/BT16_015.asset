@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT16_015
+  m_EditorClassIdentifier: 
+  CardIndex: 3323
+  cardColors: 00000000
+  PlayCost: 13
+  EvoCosts:
+  - CardColor: 0
+    Level: 5
+    MemoryCost: 5
+  Level: 6
+  CardName_JPN: "\u30DB\u30A6\u30AA\u30A6\u30E2\u30F3X\u6297\u4F53"
+  CardName_ENG: Phoenixmon (X Antibody)
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u8056\u7363\u578B"
+  - "X\u6297\u4F53"
+  Type_ENG:
+  - Holy Beast
+  - X Antibody
+  CardSpriteName: BT16-015
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[Digivolve] [Phoenixmon]: Cost 2[When Digivolving] <Blitz>
+    [Your Turn] While [Phoenixmon] or [X Antibody] is in this Digimon''s digivolution
+    cards, attach [End of Attack] to all of this Digimon''s [On Deletion] effects.
+    [On Deletion] You may play 1 11000 DP or lower red Digimon card with [Avian],
+    [Bird], [Beast], [Animal] or [Sovereign], other than [Sea Animal], in one of
+    its traits from your hand without paying the cost. Delete 1 of your opponent''s
+    Digimon with as much or less DP as the Digimon this effect played.'
+  InheritedEffectDiscription_JPN: "-\r"
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT16_015
+  DP: 13000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT16-015
+  MaxCountInDeck: 4

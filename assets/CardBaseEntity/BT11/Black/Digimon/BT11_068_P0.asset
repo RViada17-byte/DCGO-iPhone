@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT11_068_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4417
+  cardColors: 05000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 3
+  - CardColor: 3
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Mamemon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Mutant
+  CardSpriteName: BT11-068_P0
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[On Play] [When Digivolving] Reveal the top 5 cards of
+    your deck. You mayplay 1 Tamer card with a play cost of 4 or less among them
+    without paying the cost. Place the rest at the top or bottom of your deck in
+    any order.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[Your Turn] [Once Per Turn] When you play another
+    Digimon by an effect, 1 of your Digimon gains \uFF1CBlocker\uFF1Euntil the end
+    of your opponent's turn."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT11_068
+  DP: 6000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT11-068
+  MaxCountInDeck: 4

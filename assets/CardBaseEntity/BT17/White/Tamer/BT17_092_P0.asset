@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT17_092_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4881
+  cardColors: 04000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Menoa Bellucci
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Tamer
+  CardSpriteName: BT17-092_P0
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[On Play] By trashing 1 [Morphomon]/[Eosmon] in your hand,
+    \uFF1CDraw 2\uFF1E \n[All Turns] While you have [Eosmon], all of your opponent's
+    Tamers [On Play] effects don't activate.\n[Opponent's Turn] [Once Per Turn] When
+    one of your [Eosmon] would leave the battle area by an opponent's effect, by
+    deleting 1 of your other [Eosmon], prevent it."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying the cost.'
+  CardEffectClassName: BT17_092
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT17-092
+  MaxCountInDeck: 4

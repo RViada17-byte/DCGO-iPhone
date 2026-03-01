@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT7_093
+  m_EditorClassIdentifier: 
+  CardIndex: 1528
+  cardColors: 00000000
+  PlayCost: 4
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: "\u708E\u9F8D\u6483"
+  CardName_ENG: Firedrake Strike
+  Form_JPN: []
+  Form_ENG: []
+  Attribute_JPN: []
+  Attribute_ENG: []
+  Type_JPN: []
+  Type_ENG: []
+  CardSpriteName: BT7-093
+  cardKind: 2
+  EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u7279\u5FB4\u306B\u300C\u30CF\u30A4\u30D6\u30EA\u30C3\u30C9\u4F53\u300D\u3092\u6301\u3064\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u9078\u3076\u3002\u305D\u306E\u30C7\u30B8\u30E2\u30F3\u306EDP\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3002"
+  EffectDiscription_ENG: '[Main] Choose 1 of your Digimon with [Hybrid] in its traits.
+    Delete 1 of your opponent''s Digimon with DP less than or equal to the chosen
+    Digimon''s DP.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u81EA\u5206\u306E\u624B\u672D\u304B\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u300C\u795E\u539F\u62D3\u4E5F\u300D1\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002"
+  SecurityEffectDiscription_ENG: '[Security] You may play 1 [Takuya Kanbara] from
+    your hand or trash without paying its memory cost.'
+  CardEffectClassName: BT7_093
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: BT7-093
+  MaxCountInDeck: 4

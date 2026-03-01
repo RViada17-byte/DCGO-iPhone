@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT12_011_P2
+  m_EditorClassIdentifier: 
+  CardIndex: 4459
+  cardColors: 00000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 0
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Shoutmon (King Version)
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Mini Dragon
+  - Xros Heart
+  CardSpriteName: BT12-011_P2
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.3 w/\uFF1CSave\uFF1E\_in its text: Cost 2
+    \n\n[On Play] [When Digivolving] You may play 1 [Taiki Kudo]/[Yuu Amano]/[Tagiru
+    Akashi] from your hand without paying its cost.\n[On Deletion] \uFF1CSave\uFF1E.
+    Then, place 1 Digimon card with \uFF1CSave\uFF1E\_in its text from your trash
+    under 1 of your Tamers.\n\n[DigiXros\_-2] 1 Digimon card with \uFF1CSave\uFF1E\_in
+    its text"
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[When Attacking] [Once Per Turn] If this Digimon
+    has \uFF1CSave\uFF1E\_in its text, delete 1 of your opponent's Digimon with 4000
+    DP or less."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT12_011
+  DP: 4000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT12-011
+  MaxCountInDeck: 4

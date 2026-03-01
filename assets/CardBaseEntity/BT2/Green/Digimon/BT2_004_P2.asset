@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT2_004_P2
+  m_EditorClassIdentifier: 
+  CardIndex: 366
+  cardColors: 03000000
+  PlayCost: -1
+  EvoCosts: []
+  Level: 2
+  CardName_JPN: "\u30A2\u30EB\u30B4\u30E2\u30F3"
+  CardName_ENG: Argomon
+  Form_JPN:
+  - "\u5E7C\u5E74\u671F"
+  Form_ENG:
+  - In-Training
+  Attribute_JPN: []
+  Attribute_ENG: []
+  Type_JPN:
+  - "\u7A81\u7136\u5909\u7570\u578B"
+  Type_ENG:
+  - Mutant
+  CardSpriteName: BT2-004_P2
+  cardKind: 3
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 
+  InheritedEffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30A2\u30AF\u30C6\u30A3\u30D6\u30D5\u30A7\u30A4\u30BA\u3067\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u306A\u3063\u305F\u3068\u304D\u3001\u30E1\u30E2\u30EA\u30FC\u3092+1\u3059\u308B\u3002"
+  InheritedEffectDiscription_ENG: '[Your Turn] When this Digimon becomes unsuspended
+    during your unsuspend phase, gain 1 memory.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT2_004
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: BT2-004
+  MaxCountInDeck: 4

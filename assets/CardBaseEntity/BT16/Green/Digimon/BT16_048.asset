@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT16_048
+  m_EditorClassIdentifier: 
+  CardIndex: 3363
+  cardColors: 03000000
+  PlayCost: 14
+  EvoCosts:
+  - CardColor: 3
+    Level: 5
+    MemoryCost: 6
+  Level: 6
+  CardName_JPN: "\u30BF\u30A4\u30E9\u30F3\u30C8\u30AB\u30D6\u30C6\u30EA\u30E2\u30F3"
+  CardName_ENG: TyrantKabuterimon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u6606\u866B\u578B"
+  Type_ENG:
+  - Insectoid
+  CardSpriteName: BT16-048
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[Digivolve] Lv.6 w/[Insectoid] trait and play cost 13 or
+    less: Cost 2[When Digivolving] You may play 1 Digimon card with the [Insectoid]
+    or [Larva] trait from your hand with the play cost reduced by 8. [All Turns]
+    While this Digimon is suspended, it isn''t affected by the effects of your opponent''s
+    Digimon. [End of Your Turn] [Once Per Turn] By suspending 1 of your other Digimon,
+    return 1 of your opponent''s Digimon with as much or less DP as the Digimon this
+    effect suspended to the bottom of the deck.'
+  InheritedEffectDiscription_JPN: "-\r"
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT16_048
+  DP: 14000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: BT16-048
+  MaxCountInDeck: 4

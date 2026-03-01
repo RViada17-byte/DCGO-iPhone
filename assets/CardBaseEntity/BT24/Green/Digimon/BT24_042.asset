@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT24_042
+  m_EditorClassIdentifier: 
+  CardIndex: 7570
+  cardColors: 0300000006000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 3
+    Level: 2
+    MemoryCost: 1
+  - CardColor: 6
+    Level: 2
+    MemoryCost: 1
+  Level: 3
+  CardName_JPN: 
+  CardName_ENG: Goblimon
+  Form_JPN: []
+  Form_ENG:
+  - Rookie
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Demon
+  - Titan
+  - TS
+  CardSpriteName: BT24-042
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] [Tsunomon]/Lv.2 w/[TS]\_trait: Cost 0 \n\n[Your
+    Turn] When this Digimon would digivolve into a Digimon card with the [Demon]
+    or [Titan]\_trait, reduce the digivolution cost by 1."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[Your Turn] [Once Per Turn] When your hand is
+    trashed from, this [Demon] or [Titan]\_trait Digimon may digivolve into [Titamon]
+    or a [Titan]\_trait Digimon card in the trash with the digivolution cost reduced
+    by 1."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT24_042
+  DP: 1000
+  rarity: 0
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT24-042
+  MaxCountInDeck: 4

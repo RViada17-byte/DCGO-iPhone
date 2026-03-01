@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT1_034
+  m_EditorClassIdentifier: 
+  CardIndex: 184
+  cardColors: 01000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 1
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: "\u30A4\u30C3\u30AB\u30AF\u30E2\u30F3"
+  CardName_ENG: Ikkakumon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u6D77\u7363\u578B"
+  Type_ENG:
+  - Sea Beast
+  CardSpriteName: BT1-034
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 
+  InheritedEffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u3001\u9032\u5316\u5143\u3092\u6301\u305F\u306A\u3044\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u306B\u306F\u30D6\u30ED\u30C3\u30AF\u3055\u308C\u306A\u3044\u3002"
+  InheritedEffectDiscription_ENG: '[Your Turn] This Digimon can''t be blocked by
+    your opponent''s Digimon with no digivolution cards.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT1_034
+  DP: 5000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT1-034
+  MaxCountInDeck: 4

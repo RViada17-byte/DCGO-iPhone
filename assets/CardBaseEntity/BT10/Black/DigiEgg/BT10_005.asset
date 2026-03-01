@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT10_005
+  m_EditorClassIdentifier: 
+  CardIndex: 2037
+  cardColors: 05000000
+  PlayCost: -1
+  EvoCosts: []
+  Level: 2
+  CardName_JPN: "\u30E2\u30CB\u30E2\u30F3"
+  CardName_ENG: Monimon
+  Form_JPN:
+  - "\u5E7C\u5E74\u671F"
+  Form_ENG:
+  - In-Training
+  Attribute_JPN: []
+  Attribute_ENG: []
+  Type_JPN:
+  - "\u30D6\u30E9\u30A6\u30F3\u578B"
+  - "\u30C8\u30EF\u30A4\u30E9\u30A4\u30C8"
+  - "\u30AF\u30ED\u30B9\u30CF\u30FC\u30C8"
+  Type_ENG:
+  - CRT
+  - Twilight
+  - Xros Heart
+  CardSpriteName: BT10-005
+  cardKind: 3
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 
+  InheritedEffectDiscription_JPN: "\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u7279\u5FB4\u306B\u300C\u30C8\u30EF\u30A4\u30E9\u30A4\u30C8\u300D\u3092\u6301\u3064\u9593\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092DP+1000\u3002"
+  InheritedEffectDiscription_ENG: '[All Turns] While this Digimon has [Twilight]
+    in its traits, it gets +1000 DP.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT10_005
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: BT10-005
+  MaxCountInDeck: 4

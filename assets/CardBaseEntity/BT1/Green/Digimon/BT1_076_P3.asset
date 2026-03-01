@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT1_076_P3
+  m_EditorClassIdentifier: 
+  CardIndex: 4273
+  cardColors: 03000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 3
+    Level: 4
+    MemoryCost: 2
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: MegaKabuterimon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Insectoid
+  CardSpriteName: BT1-076_P3
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '-'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[When Attacking] If your opponent has has 2 or
+    more suspended Digimon, gain 1 memory.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT1_076
+  DP: 6000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT1-076
+  MaxCountInDeck: 4

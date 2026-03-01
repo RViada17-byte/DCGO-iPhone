@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT11_088_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 2366
+  cardColors: 06000000
+  PlayCost: 14
+  EvoCosts:
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 5
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 5
+  Level: 6
+  CardName_JPN: "\u30D0\u30B0\u30E9\u30E2\u30F3"
+  CardName_ENG: Bagramon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u9B54\u738B\u578B"
+  - "\u30D0\u30B0\u30E9\u8ECD"
+  Type_ENG:
+  - Demon Lord
+  - Bagra Army
+  CardSpriteName: BT11-088_P1
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u3010\u9032\u5316\u6642\u3011\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u304C1\u4F53\u4EE5\u4E0B\u306E\u3068\u304D\u3001\u76F8\u624B\u306E\u624B\u672D\u5168\u3066\u3092\u78BA\u8A8D\u3057\u3001\u305D\u306E\u4E2D\u304B\u30891\u679A\u3092\u7834\u68C4\u3059\u308B\u3002\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u304C2\u4F53\u4EE5\u4E0A\u306E\u3068\u304D\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u4ED6\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306E\u9032\u5316\u5143\u306E\u4E0B\u306B\u7F6E\u304F\u3002\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u9032\u5316\u3057\u305F\u3068\u304D\u304B\u3001\u52B9\u679C\u3067\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u304C\u5897\u3048\u305F\u3068\u304D\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u3092\u3001\u9078\u3093\u30671\u679A\u7834\u68C4\u3059\u308B\u3053\u3068\u3067\u3001\u76F8\u624B\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3092\u4E0A\u304B\u30891\u679A\u7834\u68C4\u3059\u308B\u3002"
+  EffectDiscription_ENG: '[On Play][When Digivolving] If your opponent has 1 or fewer
+    Digimon in play, look at your opponent''s hand and trash 1 card in it. If your
+    opponent has 2 or more Digimon in play, place 1 of your opponent''s Digimon under
+    1 of your opponent''s other Digimon as its bottom digivolution card.[All Turns][Once
+    Per Turn] When an opponent''s Digimon digivolves or an effect adds cards to the
+    digivolution cards of an opponent''s Digimon, by trashing 1 card in this Digimon''s
+    digivolution cards, trash the top card of your opponent''s security stack.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT11_088
+  DP: 13000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: BT11-088
+  MaxCountInDeck: 4

@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT16_052
+  m_EditorClassIdentifier: 
+  CardIndex: 3369
+  cardColors: 05000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 5
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: "\u30CF\u30B0\u30EB\u30E2\u30F3X\u6297\u4F53"
+  CardName_ENG: Hagurumon (X Antibody)
+  Form_JPN:
+  - "\u6210\u9577\u671F"
+  Form_ENG:
+  - Rookie
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u30DE\u30B7\u30FC\u30F3\u578B"
+  - "X\u6297\u4F53"
+  Type_ENG:
+  - Machine
+  - X Antibody
+  CardSpriteName: BT16-052
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[Digivolve] [Hagurumon]: Cost 0[When Digivolving] You may
+    play 1 [KoHagurumon] Token. (Digimon/Black/1000 DP/<Blocker><Decoy (Black)> [Your
+    Turn] This Digimon can''t attack.) '
+  InheritedEffectDiscription_JPN: "\u226A\u30D6\u30ED\u30C3\u30AB\u30FC\u226B\uFF08\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u30D6\u30ED\u30C3\u30AF\u30BF\u30A4\u30DF\u30F3\u30B0\u3067\u30D6\u30ED\u30C3\u30AF\u3067\u304D\u308B\uFF09\r"
+  InheritedEffectDiscription_ENG: <Blocker> (At blocker timing, by suspending this
+    Digimon, it becomes the attack target.)
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT16_052
+  DP: 2000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT16-052
+  MaxCountInDeck: 4

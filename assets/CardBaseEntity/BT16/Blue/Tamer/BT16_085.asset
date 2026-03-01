@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT16_085
+  m_EditorClassIdentifier: 
+  CardIndex: 3409
+  cardColors: 0100000003000000
+  PlayCost: 4
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: "\u672C\u5BAE\u5927\u8F14\uFF06\u4E00\u4E57\u5BFA\u8CE2"
+  CardName_ENG: Davis Motomiya & Ken Ichijoji
+  Form_JPN:
+  - '-'
+  Form_ENG: []
+  Attribute_JPN:
+  - '-'
+  Attribute_ENG: []
+  Type_JPN:
+  - '-'
+  Type_ENG: []
+  CardSpriteName: BT16-085
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Start of Your Main Phase] You may play 1 [Veemon] or [Wormmon]
+    from your hand without paying the cost. At the next end of your opponent\u2019s
+    turn, return it to the hand. [Your Turn] When one of your Digimon digivolves
+    into a blue or green Digimon, by suspending this Tamer, gain 1 memory. If DNA
+    digivolving, trash any 3 digivolution cards under your opponent's Digimon."
+  InheritedEffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u3053\u306E\u30AB\u30FC\u30C9\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3055\u305B\u308B\u3002\r"
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u3053\u306E\u30AB\u30FC\u30C9\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3055\u305B\u308B\u3002\r"
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying the cost.'
+  CardEffectClassName: BT16_085
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT16-085
+  MaxCountInDeck: 4

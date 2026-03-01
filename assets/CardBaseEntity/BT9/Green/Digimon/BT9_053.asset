@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT9_053
+  m_EditorClassIdentifier: 
+  CardIndex: 1841
+  cardColors: 03000000
+  PlayCost: 8
+  EvoCosts:
+  - CardColor: 3
+    Level: 4
+    MemoryCost: 2
+  Level: 5
+  CardName_JPN: "\u30B6\u30DF\u30A8\u30FC\u30EB\u30E2\u30F3"
+  CardName_ENG: Zamielmon
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u9B54\u4EBA\u578B"
+  - "\u30D3\u30C3\u30B0\u30C7\u30B9\u30BF\u30FC\u30BA"
+  Type_ENG:
+  - Wizard
+  - Big Death-Stars
+  CardSpriteName: BT9-053
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: 
+  DP: 9000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT9-053
+  MaxCountInDeck: 4

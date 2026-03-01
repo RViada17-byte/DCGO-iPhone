@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT9_067
+  m_EditorClassIdentifier: 
+  CardIndex: 1859
+  cardColors: 05000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 4
+  - CardColor: 5
+    Level: 6
+    MemoryCost: 2
+  Level: 6
+  CardName_JPN: "\u30E9\u30A4\u30C7\u30F3\u30E2\u30F3"
+  CardName_ENG: Raidenmon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u30DE\u30B7\u30FC\u30F3\u578B"
+  Type_ENG:
+  - Machine
+  CardSpriteName: BT9-067-Errata
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u3010\u9032\u5316\u6642\u3011\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u300C\u30E9\u30A4\u30B8\u30F3\u30E2\u30F3\u300D\u3068\u300C\u30D5\u30A6\u30B8\u30F3\u30E2\u30F3\u300D\u3068\u300C\u30B9\u30A4\u30B8\u30F3\u30E2\u30F3\u300D1\u679A\u305A\u3064\u3092\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u306E\u4E0B\u306B\u597D\u304D\u306A\u9806\u756A\u3067\u7F6E\u304F\u3002\u7F6E\u3044\u305F1\u679A\u3054\u3068\u306B\u30E1\u30E2\u30EA\u30FC+1\u3002\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u306B\u3042\u308B\u3001Lv.6\u306E\u30AB\u30FC\u30C9\u306E\u8272\u306E\u5408\u8A08\u304C3\u8272\u4EE5\u4E0A\u306A\u3089\u3001\u6B21\u306E\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u307E\u3067\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092DP+3000\u30024\u8272\u4EE5\u4E0A\u306A\u3089\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u226A\u9000\u53161\u226B\u3002"
+  EffectDiscription_ENG: "[On Play][When Digivolving] Place 1 [Raijinmon], 1 [Fujinmon],
+    and 1 [Suijinmon] from your trash under this Digimon in any order as its bottom
+    digivolution cards. Gain 1 memory for each card placed.[When Attacking] If the
+    level 6 cards in this Digimon's digivolution cards have 3 or more colors among
+    them, this Digimon gets +3000 DP until the end of your opponent's turn. If they
+    have 4 or more colors, \uFF1CDe-Digivolve 1\uFF1E 1 of your opponent's Digimon."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT9_067
+  DP: 12000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT9-067
+  MaxCountInDeck: 4

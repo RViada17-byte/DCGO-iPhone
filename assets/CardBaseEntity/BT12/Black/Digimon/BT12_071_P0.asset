@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT12_071_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4522
+  cardColors: 05000000
+  PlayCost: 13
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 5
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: AncientWisemon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Ancient Mutant
+  - Ten Warriors
+  CardSpriteName: BT12-071_P0
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Opponent's Turn] [Once Per Turn] When an opponent's Digimon
+    attacks, you may reveal the top 3 cards of your deck. Play 1 black card with
+    a play cost of 6 or less among them without paying its memory cost. Trash the
+    rest.\n[On Deletion] You may play 1 black level 4 or lower card with the [Hybrid]\_trait
+    from your hand without paying its memory cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT12_071
+  DP: 13000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT12-071
+  MaxCountInDeck: 4

@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT23_069
+  m_EditorClassIdentifier: 
+  CardIndex: 7405
+  cardColors: 06000000
+  PlayCost: 11
+  EvoCosts:
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Necromon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Ghost
+  - LIBERATOR
+  CardSpriteName: BT23-069
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "\uFF1CExecute\uFF1E \n[On Play] [On Deletion] You may play
+    1 level 5 or lower Digimon card with the [Ghost]\_trait from your trash without
+    paying the cost.\n[All Turns] When another Digimon attacks, by deleting this
+    Digimon, delete 1 of your opponent's level 6 or lower Digimon. If this effect
+    didn't delete your opponent's Digimon, you may end that attack."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT23_069
+  DP: 11000
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: BT23-069
+  MaxCountInDeck: 4

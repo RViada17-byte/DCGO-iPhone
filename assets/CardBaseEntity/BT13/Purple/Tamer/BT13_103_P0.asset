@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT13_103_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4623
+  cardColors: 06000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Akihiro Kurata
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Tamer
+  CardSpriteName: BT13-103_P0
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Your Turn] When you would play a card with [Belphemon]\_in
+    its name, by deleting 1 of your Digimon with [Gizmon]\_in its name, reduce the
+    play cost by the play cost of the deleted Digimon.\n[End of Opponent's Turn]
+    [Once Per Turn] \uFF1CDraw 1\uFF1Eand trash 1 card in your hand. Then, by placing
+    this Tamer under 1 of your Digimon with [Belphemon]\_in its name as its bottom
+    digivolution card, delete 1 of your opponent's level 6 Digimon."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying the cost.'
+  CardEffectClassName: BT13_103
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT13-103
+  MaxCountInDeck: 4

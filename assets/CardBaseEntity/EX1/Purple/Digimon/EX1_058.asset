@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX1_058
+  m_EditorClassIdentifier: 
+  CardIndex: 1356
+  cardColors: 06000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 6
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: "\u30C7\u30D3\u30E2\u30F3"
+  CardName_ENG: Devimon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u5815\u5929\u4F7F\u578B"
+  Type_ENG:
+  - Fallen Angel
+  CardSpriteName: EX1-058
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 
+  InheritedEffectDiscription_JPN: "\u3010\u6D88\u6EC5\u6642\u3011\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u7D2B\u306ELv.4\u4EE5\u4E0B\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u624B\u672D\u306B\u623B\u3059\u3002"
+  InheritedEffectDiscription_ENG: '[On Deletion] Return 1 purple level 4 or lower
+    Digimon card from your trash to your hand.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX1_058
+  DP: 6000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: EX1-058
+  MaxCountInDeck: 4

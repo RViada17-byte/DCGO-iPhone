@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT12_004
+  m_EditorClassIdentifier: 
+  CardIndex: 2402
+  cardColors: 03000000
+  PlayCost: -1
+  EvoCosts: []
+  Level: 2
+  CardName_JPN: "\u3068\u308A\u304B\u3089\u30DC\u30FC\u30EB\u30E2\u30F3"
+  CardName_ENG: TorikaraBallmon
+  Form_JPN:
+  - "\u5E7C\u5E74\u671F"
+  Form_ENG:
+  - In-Training
+  Attribute_JPN: []
+  Attribute_ENG: []
+  Type_JPN:
+  - "\u98DF\u7269\u578B"
+  Type_ENG:
+  - Food
+  CardSpriteName: BT12-004
+  cardKind: 3
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 
+  InheritedEffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u7DD1\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u767B\u5834\u3057\u305F\u3068\u304D\u3001\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092DP+2000\u3002"
+  InheritedEffectDiscription_ENG: '[Your Turn][Once Per Turn] If you play a green
+    Digimon, this Digimon gets +2000 DP for the turn.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT12_004
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: BT12-004
+  MaxCountInDeck: 4

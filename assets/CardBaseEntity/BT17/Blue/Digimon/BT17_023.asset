@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT17_023
+  m_EditorClassIdentifier: 
+  CardIndex: 3566
+  cardColors: 0100000002000000
+  PlayCost: 6
+  EvoCosts:
+  - CardColor: 1
+    Level: 3
+    MemoryCost: 3
+  - CardColor: 2
+    Level: 3
+    MemoryCost: 3
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: KendoGarurumon
+  Form_JPN: []
+  Form_ENG:
+  - Hybrid
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Variable
+  Type_JPN: []
+  Type_ENG:
+  - Cyborg
+  CardSpriteName: BT17-023
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve][Koji Minamoto]: Cost 2 [Digivolve][Lobomon]:
+    Cost 1 \n\nYou may digivolve this card from your hand onto one of your yellow
+    Tamers as if that card is a level 3 yellow Digimon.\n[When Attacking] \uFF1CDraw
+    1\uFF1E \n[When Attacking] This Digimon may digivolve into a Digimon card with
+    the [Hybrid]\_trait in the hand with the digivolution cost reduced by 1."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[When Attacking] If you have 7 or fewer cards
+    in your hand, \uFF1CDraw 1\uFF1E."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT17_023
+  DP: 6000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT17-023
+  MaxCountInDeck: 4

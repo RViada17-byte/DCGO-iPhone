@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT16_077_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 3396
+  cardColors: 0600000000000000
+  PlayCost: 8
+  EvoCosts:
+  - CardColor: 6
+    Level: 4
+    MemoryCost: 4
+  - CardColor: 0
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: "\u30C7\u30A3\u30CE\u30D3\u30FC\u30E2\u30F3"
+  CardName_ENG: Dinobeemon
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30D5\u30EA\u30FC"
+  Attribute_ENG:
+  - Free
+  Type_JPN:
+  - "\u7A81\u7136\u5909\u7570\u578B"
+  Type_ENG:
+  - Mutant
+  CardSpriteName: BT16-077_P1-Errata
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[DNA Digivolution] Purple Lv.4 + red Lv.4: Cost 0 Digivolve
+    unsuspended with the 2 specified Digimon stacked on top of each other.<Raid>
+    <Partition (purple Lv.4 & red Lv.4)> [When Digivolving] If DNA digivolving, you
+    may play 1 level 5 or lower Digimon card with the [Free] trait from your trash
+    without paying the cost. Then, 1 of your Digimon may gain <Rush> for the turn
+    and attack a player.'
+  InheritedEffectDiscription_JPN: "\u226A\u30D1\u30FC\u30C6\u30A3\u30B7\u30E7\u30F3\u300A\u7D2BLv.4\uFF06\u8D64Lv.4\u300B\u226B\uFF08\u9032\u5316\u5143\u306B\u6307\u5B9A\u306E\u30AB\u30FC\u30C9\u304C1\u679A\u305A\u3064\u3042\u308B\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u81EA\u5206\u306E\u52B9\u679C\u3068\u30D0\u30C8\u30EB\u4EE5\u5916\u3067\u30D0\u30C8\u30EB\u30A8\u30EA\u30A2\u3092\u96E2\u308C\u308B\u3068\u304D,\u6307\u5B9A\u306E\u30AB\u30FC\u30C91\u679A\u305A\u3064\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\uFF09\r"
+  InheritedEffectDiscription_ENG: <Partition (purple Lv.4 & red Lv.4)> (When this
+    Digimon with each of the specified digivolution cards would leave the battle
+    area other than by your effects or a battle, you may play 1 each of the specified
+    cards without paying the costs.)
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT16_077
+  DP: 8000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: BT16-077
+  MaxCountInDeck: 4

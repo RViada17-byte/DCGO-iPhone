@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT17_011
+  m_EditorClassIdentifier: 
+  CardIndex: 3551
+  cardColors: 0000000006000000
+  PlayCost: 6
+  EvoCosts:
+  - CardColor: 0
+    Level: 3
+    MemoryCost: 3
+  - CardColor: 6
+    Level: 3
+    MemoryCost: 3
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Agunimon
+  Form_JPN: []
+  Form_ENG:
+  - Hybrid
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Variable
+  Type_JPN: []
+  Type_ENG:
+  - Wizard
+  CardSpriteName: BT17-011
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve][Takuya Kanbara]: Cost 2 [Digivolve][BurningGreymon]:
+    Cost 1 \n\nYou may digivolve this card from your hand onto one of your red Tamers
+    as if that card is a level 3 red Digimon.\n[When Digivolving] If [BurningGreymon]
+    is in this Digimon's digivolution cards or you have a blue or green Digimon or
+    Tamer, this Digimon may digivolve into [AncientGreymon] in the hand for a digivolution
+    cost of 3, ignoring its digivolution requirements. If digivolved by this effect,
+    delete this Digimon at the end of the turn."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[Your Turn] This Digimon gets +2000 DP.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT17_011
+  DP: 5000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT17-011
+  MaxCountInDeck: 4

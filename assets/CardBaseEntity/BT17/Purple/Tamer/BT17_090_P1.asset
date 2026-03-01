@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT17_090_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 4878
+  cardColors: 06000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Tomonori Ryusenji
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Abadin Electronics
+  CardSpriteName: BT17-090_P1
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Your Turn] When an effect places a Tamer card in one of
+    your Digimon's digivolution cards, by suspending this Tamer, gain 1 memory.\n[End
+    of Opponent's Turn] [Once Per Turn] If this Tamer is suspended, 1 of your Digimon
+    with a Tamer card in its digivolution cards may digivolve into a Digimon card
+    with [Dex]/[DeathX]\_in its name in the trash without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying the cost.'
+  CardEffectClassName: BT17_090
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT17-090
+  MaxCountInDeck: 4

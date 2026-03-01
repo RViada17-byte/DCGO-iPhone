@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT1_106
+  m_EditorClassIdentifier: 
+  CardIndex: 301
+  cardColors: 02000000
+  PlayCost: 5
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: "\u7B2C\u4E00\u66F2\u226A\u30DD\u30EA\u30D5\u30A9\u30CB\u30FC\u226B"
+  CardName_ENG: Symphony No.1 <Polyphony>
+  Form_JPN: []
+  Form_ENG: []
+  Attribute_JPN: []
+  Attribute_ENG: []
+  Type_JPN: []
+  Type_ENG: []
+  CardSpriteName: BT1-106
+  cardKind: 2
+  EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306EDP\u3092-7000\u3059\u308B\u3002"
+  EffectDiscription_ENG: '[Main] 1 of your opponent''s Digimon gets -7000 DP for
+    the turn.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT1_106
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: BT1-106
+  MaxCountInDeck: 4

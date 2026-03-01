@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT6_034
+  m_EditorClassIdentifier: 
+  CardIndex: 1152
+  cardColors: 02000000
+  PlayCost: 4
+  EvoCosts:
+  - CardColor: 2
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: "\u30A6\u30A3\u30B6\u30FC\u30E2\u30F3"
+  CardName_ENG: Wizardmon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u9B54\u4EBA\u578B"
+  Type_ENG:
+  - Wizard
+  CardSpriteName: BT6-034
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 
+  InheritedEffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u304C\u6E1B\u3063\u305F\u3068\u304D\u3001\u30E1\u30E2\u30EA\u30FC\u3092+1\u3059\u308B\u3002"
+  InheritedEffectDiscription_ENG: '[Your Turn][Once Per Turn] When a card is removed
+    from your security stack, gain 1 memory.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT6_034
+  DP: 4000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT6-034
+  MaxCountInDeck: 4
