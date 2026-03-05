@@ -67,6 +67,11 @@ public class EditDeck : MonoBehaviour
     bool _isFromClipboard = false;
     readonly List<CEntity_Base> _filteredPoolCards = new List<CEntity_Base>();
     bool UseIPhoneDeckScroll => Application.platform == RuntimePlatform.IPhonePlayer;
+    Vector2 _createDeckDefaultAnchoredPosition;
+    Vector3 _createDeckDefaultScale;
+    bool _isCreateDeckDefaultLayoutCached;
+    Rect _lastAppliedSafeArea = Rect.zero;
+    Vector2Int _lastAppliedScreenSize = Vector2Int.zero;
 
     private void Start()
     {
@@ -74,9 +79,21 @@ public class EditDeck : MonoBehaviour
         CardPoolScroll.content.GetComponent<GridLayoutGroup>().constraintCount = 5;
 #endif
 
+        CacheCreateDeckLayoutDefaults();
+        ApplyIPhoneCreateDeckLayout(force: true);
         EnsureCardPoolScrollConfiguredForIPhone();
         SetPageUiVisible(!UseIPhoneDeckScroll);
         SubscribeCardPoolScrollEvents();
+    }
+
+    void LateUpdate()
+    {
+        if (!isEditting)
+        {
+            return;
+        }
+
+        ApplyIPhoneCreateDeckLayout();
     }
 
     void OnDestroy()
@@ -117,6 +134,93 @@ public class EditDeck : MonoBehaviour
 
         CardPoolScroll.enabled = true;
         CardPoolScroll.vertical = true;
+    }
+
+    void CacheCreateDeckLayoutDefaults()
+    {
+        if (_isCreateDeckDefaultLayoutCached)
+        {
+            return;
+        }
+
+        if (CreateDeckObject == null)
+        {
+            return;
+        }
+
+        RectTransform createDeckRect = CreateDeckObject.GetComponent<RectTransform>();
+        if (createDeckRect == null)
+        {
+            return;
+        }
+
+        _createDeckDefaultAnchoredPosition = createDeckRect.anchoredPosition;
+        _createDeckDefaultScale = createDeckRect.localScale;
+        _isCreateDeckDefaultLayoutCached = true;
+    }
+
+    void ApplyIPhoneCreateDeckLayout(bool force = false)
+    {
+        if (!UseIPhoneDeckScroll || !Application.isMobilePlatform)
+        {
+            return;
+        }
+
+        if (CreateDeckObject == null)
+        {
+            return;
+        }
+
+        RectTransform createDeckRect = CreateDeckObject.GetComponent<RectTransform>();
+        RectTransform parentRect = createDeckRect != null ? createDeckRect.parent as RectTransform : null;
+        if (createDeckRect == null || parentRect == null)
+        {
+            return;
+        }
+
+        CacheCreateDeckLayoutDefaults();
+        if (!_isCreateDeckDefaultLayoutCached)
+        {
+            return;
+        }
+
+        int screenWidth = Screen.width;
+        int screenHeight = Screen.height;
+        if (screenWidth <= 0 || screenHeight <= 0)
+        {
+            return;
+        }
+
+        Rect safeArea = Screen.safeArea;
+        if (!force &&
+            safeArea == _lastAppliedSafeArea &&
+            _lastAppliedScreenSize.x == screenWidth &&
+            _lastAppliedScreenSize.y == screenHeight)
+        {
+            return;
+        }
+
+        float safeCenterX = safeArea.x + (safeArea.width * 0.5f);
+        float safeCenterY = safeArea.y + (safeArea.height * 0.5f);
+
+        float offsetXNormalized = (safeCenterX / screenWidth) - 0.5f;
+        float offsetYNormalized = (safeCenterY / screenHeight) - 0.5f;
+
+        Vector2 safeAreaCenterOffset = new Vector2(
+            offsetXNormalized * parentRect.rect.width,
+            offsetYNormalized * parentRect.rect.height);
+
+        // Keep iPhone deck editor within the visible safe area.
+        // Never upscale beyond the authored size; only downscale if needed.
+        float safeWidthRatio = safeArea.width / Mathf.Max(1f, screenWidth);
+        float safeHeightRatio = safeArea.height / Mathf.Max(1f, screenHeight);
+        float appliedScaleMultiplier = Mathf.Clamp(Mathf.Min(safeWidthRatio, safeHeightRatio), 0.88f, 1f);
+
+        createDeckRect.anchoredPosition = _createDeckDefaultAnchoredPosition + safeAreaCenterOffset;
+        createDeckRect.localScale = _createDeckDefaultScale * appliedScaleMultiplier;
+
+        _lastAppliedSafeArea = safeArea;
+        _lastAppliedScreenSize = new Vector2Int(screenWidth, screenHeight);
     }
 
     void SetPageUiVisible(bool visible)
@@ -643,6 +747,7 @@ public class EditDeck : MonoBehaviour
         }
 
         CreateDeckObject.SetActive(true);
+        ApplyIPhoneCreateDeckLayout(force: true);
 
         foreach (CardPrefab_CreateDeck _CardPrefab_CreateDeck in _cardPoolPrefabs)
         {
@@ -719,7 +824,16 @@ public class EditDeck : MonoBehaviour
         {
             scroll.content = CardPoolScroll.content;
             scroll.viewport = CardPoolScroll.viewport;
-            scroll.enabled = false;
+
+            // Key: allow drag-to-scroll on iPhone, keep old behavior elsewhere
+            scroll.enabled = UseIPhoneDeckScroll;
+
+            if (UseIPhoneDeckScroll)
+            {
+                scroll.horizontal = false;
+                scroll.vertical = true;
+                scroll.movementType = ScrollRect.MovementType.Clamped;
+            }
         }
 
         configuredPrefab.OnClickAction = () => { StartCoroutine(AddDeckCardCoroutine_OnClick(configuredPrefab)); };
@@ -859,6 +973,14 @@ public class EditDeck : MonoBehaviour
             _scroll.content = DeckScroll.content;
 
             _scroll.viewport = DeckScroll.viewport;
+            _scroll.enabled = UseIPhoneDeckScroll;
+
+            if (UseIPhoneDeckScroll)
+            {
+                _scroll.horizontal = false;
+                _scroll.vertical = true;
+                _scroll.movementType = ScrollRect.MovementType.Clamped;
+            }
         }
 
         _cardPrefab_CreateDeck.SetUpCardPrefab_CreateDeck(cEntity_Base);
@@ -1151,7 +1273,14 @@ public class EditDeck : MonoBehaviour
         {
             foreach (ScrollRect scroll in DeckScroll.content.GetChild(i).GetComponent<CardPrefab_CreateDeck>().scroll)
             {
-                scroll.enabled = true;
+                scroll.enabled = UseIPhoneDeckScroll;
+
+                if (UseIPhoneDeckScroll)
+                {
+                    scroll.horizontal = false;
+                    scroll.vertical = true;
+                    scroll.movementType = ScrollRect.MovementType.Clamped;
+                }
             }
         }
 
@@ -1161,7 +1290,14 @@ public class EditDeck : MonoBehaviour
         {
             foreach (ScrollRect scroll in _cardPoolPrefabs[i].scroll)
             {
-                scroll.enabled = true;
+                scroll.enabled = UseIPhoneDeckScroll;
+
+                if (UseIPhoneDeckScroll)
+                {
+                    scroll.horizontal = false;
+                    scroll.vertical = true;
+                    scroll.movementType = ScrollRect.MovementType.Clamped;
+                }
             }
         }
 

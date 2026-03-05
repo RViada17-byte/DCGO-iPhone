@@ -14,6 +14,7 @@ public sealed class MobileUiPolishRuntime : MonoBehaviour
     static readonly Color32 DeckControlIdleColor = new Color32(30, 49, 74, 238);
     static readonly Color32 DeckControlPressedColor = new Color32(22, 38, 58, 255);
     static readonly Color32 DeckTextColor = new Color32(242, 246, 255, 255);
+    static readonly Vector2 ReferenceResolution = new Vector2(1920f, 1080f);
 
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
     static void Bootstrap()
@@ -80,10 +81,34 @@ public sealed class MobileUiPolishRuntime : MonoBehaviour
 
     static void ApplyUiPolish()
     {
+        ConfigureCanvasScalersForMobile();
         FixTmpShaders();
         ImproveTextReadability();
         ImproveTmpTextReadability();
         ApplyDeckUiThemeIPhone();
+    }
+
+    static void ConfigureCanvasScalersForMobile()
+    {
+        if (!Application.isMobilePlatform)
+        {
+            return;
+        }
+
+        CanvasScaler[] scalers = Object.FindObjectsByType<CanvasScaler>(FindObjectsInactive.Include, FindObjectsSortMode.None);
+        for (int i = 0; i < scalers.Length; i++)
+        {
+            CanvasScaler scaler = scalers[i];
+            if (scaler == null)
+            {
+                continue;
+            }
+
+            scaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
+            scaler.referenceResolution = ReferenceResolution;
+            scaler.screenMatchMode = CanvasScaler.ScreenMatchMode.MatchWidthOrHeight;
+            scaler.matchWidthOrHeight = 1f;
+        }
     }
 
     static void FixTmpShaders()

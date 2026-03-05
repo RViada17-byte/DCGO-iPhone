@@ -6,11 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/ContinuousControllerScene.unity
-    guid: 3c40e7b0dacbcdc48b8af2f0798c208d
-  - enabled: 1
     path: Assets/Scenes/Opening.unity
     guid: 2052019c32fc89249a05dc24915c059b
+  - enabled: 1
+    path: Assets/Scenes/ContinuousControllerScene.unity
+    guid: 3c40e7b0dacbcdc48b8af2f0798c208d
   - enabled: 1
     path: Assets/Scenes/GetCardImage.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
