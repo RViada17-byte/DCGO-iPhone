@@ -65,16 +65,86 @@ public class EditDeck : MonoBehaviour
     List<CEntity_Base> _oldDigitamaDeckCards = new List<CEntity_Base>();
     int _oldKeyCardId = -1;
     bool _isFromClipboard = false;
+    readonly List<CEntity_Base> _filteredPoolCards = new List<CEntity_Base>();
+    bool UseIPhoneDeckScroll => Application.platform == RuntimePlatform.IPhonePlayer;
 
     private void Start()
     {
 #if !UNITY_EDITOR && UNITY_ANDROID
         CardPoolScroll.content.GetComponent<GridLayoutGroup>().constraintCount = 5;
 #endif
+
+        EnsureCardPoolScrollConfiguredForIPhone();
+        SetPageUiVisible(!UseIPhoneDeckScroll);
+        SubscribeCardPoolScrollEvents();
+    }
+
+    void OnDestroy()
+    {
+        if (CardPoolScroll != null)
+        {
+            CardPoolScroll.onValueChanged.RemoveListener(OnCardPoolScrollValueChanged);
+        }
+    }
+
+    void SubscribeCardPoolScrollEvents()
+    {
+        if (CardPoolScroll == null)
+        {
+            return;
+        }
+
+        CardPoolScroll.onValueChanged.RemoveListener(OnCardPoolScrollValueChanged);
+        CardPoolScroll.onValueChanged.AddListener(OnCardPoolScrollValueChanged);
+    }
+
+    void OnCardPoolScrollValueChanged(Vector2 _)
+    {
+        if (!UseIPhoneDeckScroll)
+        {
+            return;
+        }
+
+        RefreshVisiblePoolCards();
+    }
+
+    void EnsureCardPoolScrollConfiguredForIPhone()
+    {
+        if (!UseIPhoneDeckScroll || CardPoolScroll == null)
+        {
+            return;
+        }
+
+        CardPoolScroll.enabled = true;
+        CardPoolScroll.vertical = true;
+    }
+
+    void SetPageUiVisible(bool visible)
+    {
+        if (UpDisplayPageIndexButton != null)
+        {
+            UpDisplayPageIndexButton.gameObject.SetActive(visible);
+        }
+
+        if (DownDisplayPageIndexButton != null)
+        {
+            DownDisplayPageIndexButton.gameObject.SetActive(visible);
+        }
+
+        if (ShowDisplayPageIndexText != null)
+        {
+            ShowDisplayPageIndexText.gameObject.SetActive(visible);
+        }
     }
 
     void CheckButtonEnabled()
     {
+        if (UseIPhoneDeckScroll)
+        {
+            SetPageUiVisible(false);
+            return;
+        }
+
         UpDisplayPageIndexButton.interactable = DisplayPageIndex < _maxDisplayPageIndex;
         UpDisplayPageIndexButton.transform.GetChild(0).gameObject.SetActive(DisplayPageIndex < _maxDisplayPageIndex);
         DownDisplayPageIndexButton.interactable = DisplayPageIndex > 0;
@@ -87,6 +157,11 @@ public class EditDeck : MonoBehaviour
 
     public void UpDisplayPageIndex()
     {
+        if (UseIPhoneDeckScroll)
+        {
+            return;
+        }
+
         ContinuousController.instance.PlaySE(SwitchPageSE);
 
         DisplayPageIndex++;
@@ -103,6 +178,11 @@ public class EditDeck : MonoBehaviour
 
     public void DownDisplayPageIndex()
     {
+        if (UseIPhoneDeckScroll)
+        {
+            return;
+        }
+
         ContinuousController.instance.PlaySE(SwitchPageSE);
 
         DisplayPageIndex--;
@@ -123,6 +203,23 @@ public class EditDeck : MonoBehaviour
 
     IEnumerator SetSprittedCardLists()
     {
+        _filteredPoolCards.Clear();
+
+        foreach (CEntity_Base cEntity_Base in ContinuousController.instance.CardList)
+        {
+            if (MatchCondition(cEntity_Base))
+            {
+                _filteredPoolCards.Add(cEntity_Base);
+            }
+        }
+
+        if (UseIPhoneDeckScroll)
+        {
+            EnsureCardPoolPrefabCapacityForIPhone(_filteredPoolCards.Count);
+            yield return null;
+            yield break;
+        }
+
         SprittedCardLists = new List<List<CEntity_Base>>();
 
         for (int i = 0; i < _maxDisplayPageIndex + 1; i++)
@@ -130,19 +227,9 @@ public class EditDeck : MonoBehaviour
             SprittedCardLists.Add(new List<CEntity_Base>());
         }
 
-        List<CEntity_Base> cEntity_Bases = new List<CEntity_Base>();
-
-        foreach (CEntity_Base cEntity_Base in ContinuousController.instance.CardList)
+        for (int i = 0; i < _filteredPoolCards.Count; i++)
         {
-            if (MatchCondition(cEntity_Base))
-            {
-                cEntity_Bases.Add(cEntity_Base);
-            }
-        }
-
-        for (int i = 0; i < cEntity_Bases.Count; i++)
-        {
-            CEntity_Base cEntity_Base = cEntity_Bases[i];
+            CEntity_Base cEntity_Base = _filteredPoolCards[i];
 
             int Quotient = i / _cardPoolPrefabs.Count;
 
@@ -157,12 +244,34 @@ public class EditDeck : MonoBehaviour
 
     void SetCardData()
     {
+        if (UseIPhoneDeckScroll)
+        {
+            EnsureCardPoolPrefabCapacityForIPhone(_filteredPoolCards.Count);
+
+            for (int i = 0; i < _cardPoolPrefabs.Count; i++)
+            {
+                CardPrefab_CreateDeck poolPrefab = _cardPoolPrefabs[i];
+                bool isVisibleCard = i < _filteredPoolCards.Count;
+
+                if (isVisibleCard)
+                {
+                    ApplyPoolCardData(poolPrefab, _filteredPoolCards[i]);
+                }
+                else
+                {
+                    poolPrefab.isActive = false;
+                }
+            }
+
+            RefreshVisiblePoolCards();
+            return;
+        }
+
         for (int i = 0; i < _cardPoolPrefabs.Count; i++)
         {
             if (i < SprittedCardLists[DisplayPageIndex].Count)
             {
-                _cardPoolPrefabs[i].isActive = true;
-                _cardPoolPrefabs[i].SetUpCardPrefab_CreateDeck(SprittedCardLists[DisplayPageIndex][i]);
+                ApplyPoolCardData(_cardPoolPrefabs[i], SprittedCardLists[DisplayPageIndex][i]);
             }
 
             else
@@ -170,6 +279,20 @@ public class EditDeck : MonoBehaviour
                 _cardPoolPrefabs[i].isActive = false;
             }
         }
+    }
+
+    void ApplyPoolCardData(CardPrefab_CreateDeck poolPrefab, CEntity_Base cEntity_Base)
+    {
+        if (poolPrefab == null)
+        {
+            return;
+        }
+
+        poolPrefab.isActive = true;
+        poolPrefab.SetUpCardPrefab_CreateDeck(cEntity_Base);
+
+        bool unlocked = ProgressionManager.Instance == null || ProgressionManager.Instance.IsCardUnlocked(cEntity_Base.CardID);
+        poolPrefab.SetLocked(!unlocked);
     }
 
     #region Card details display
@@ -208,8 +331,11 @@ public class EditDeck : MonoBehaviour
         }
         #endregion
 
-        //TODO: need to find a better way, this shouldn't happen every 3rd frame, should only happen on changes. MikeB
-        ShowOnlyVisibleObjects();
+        if (!UseIPhoneDeckScroll)
+        {
+            //TODO: need to find a better way, this shouldn't happen every 3rd frame, should only happen on changes. MikeB
+            ShowOnlyVisibleObjects();
+        }
 
         if (EdittingDeckData != null)
         {
@@ -412,6 +538,9 @@ public class EditDeck : MonoBehaviour
             return;
         }
 
+        EnsureCardPoolScrollConfiguredForIPhone();
+        SetPageUiVisible(!UseIPhoneDeckScroll);
+
         _isFromClipboard = isFromClipboard;
 
         Opening.instance.OffYesNoObjects();
@@ -441,6 +570,7 @@ public class EditDeck : MonoBehaviour
         _checkCoverCoroutine = null;
         this._isFromSelectDeck = isFromSelectDeck;
         DisplayPageIndex = 0;
+        _filteredPoolCards.Clear();
         SetCardData();
         CheckButtonEnabled();
         isSearchingObject.Off();
@@ -490,7 +620,12 @@ public class EditDeck : MonoBehaviour
 
         yield return new WaitUntil(() => DeckScroll.viewport.childCount == 1);
 
-        _maxDisplayPageIndex = (ContinuousController.instance.CardList.Length - 1) / _cardPoolPrefabs.Count;
+        int scopedCardCount = ContinuousController.instance.CardList
+            .Where(cEntity_Base => DeckBuilderSetScope.IsAllowedCard(cEntity_Base))
+            .Count();
+        _maxDisplayPageIndex = UseIPhoneDeckScroll
+            ? 0
+            : Mathf.Max(0, (scopedCardCount - 1) / _cardPoolPrefabs.Count);
 
         if (deckData != null)
         {
@@ -520,7 +655,9 @@ public class EditDeck : MonoBehaviour
             }
         }
 
-        filterCardList.Init(() => ContinuousController.instance.StartCoroutine(ShowPoolCard_MatchCondition()));
+        IEnumerable<CEntity_Base> scopedCards = ContinuousController.instance.CardList
+            .Where(cEntity_Base => DeckBuilderSetScope.IsAllowedCard(cEntity_Base));
+        filterCardList.Init(() => ContinuousController.instance.StartCoroutine(ShowPoolCard_MatchCondition()), scopedCards);
 
         DeckNameInputField.onEndEdit.RemoveAllListeners();
         DeckNameInputField.text = EdittingDeckData.DeckName;
@@ -559,13 +696,64 @@ public class EditDeck : MonoBehaviour
 
     public List<CardPrefab_CreateDeck> CardPoolCardPrefabs_CreateDeck = new List<CardPrefab_CreateDeck>();
 
+    void RefreshVisiblePoolCards()
+    {
+        if (!UseIPhoneDeckScroll)
+        {
+            return;
+        }
+
+        ShowOnlyVisibleObjects();
+    }
+
+    void ConfigurePoolCardPrefab(CardPrefab_CreateDeck poolPrefab)
+    {
+        if (poolPrefab == null)
+        {
+            return;
+        }
+
+        CardPrefab_CreateDeck configuredPrefab = poolPrefab;
+
+        foreach (ScrollRect scroll in configuredPrefab.scroll)
+        {
+            scroll.content = CardPoolScroll.content;
+            scroll.viewport = CardPoolScroll.viewport;
+            scroll.enabled = false;
+        }
+
+        configuredPrefab.OnClickAction = () => { StartCoroutine(AddDeckCardCoroutine_OnClick(configuredPrefab)); };
+        configuredPrefab.OnBeginDragAction = (cardPrefab) => { StartCoroutine(OnBeginDrag(cardPrefab)); };
+        configuredPrefab.OnEnterAction = (cardPrefab) => { OnDetailCard(configuredPrefab.cEntity_Base); };
+    }
+
+    void EnsureCardPoolPrefabCapacityForIPhone(int requiredCardCount)
+    {
+        if (!UseIPhoneDeckScroll || CardPoolScroll == null || cardPrefab_CreateDeck == null)
+        {
+            return;
+        }
+
+        while (_cardPoolPrefabs.Count < requiredCardCount)
+        {
+            CardPrefab_CreateDeck newPoolPrefab = Instantiate(cardPrefab_CreateDeck, CardPoolScroll.content);
+            newPoolPrefab.gameObject.SetActive(false);
+            ConfigurePoolCardPrefab(newPoolPrefab);
+            _cardPoolPrefabs.Add(newPoolPrefab);
+            CardPoolCardPrefabs_CreateDeck.Add(newPoolPrefab);
+        }
+    }
+
     #region Initialize the deck editing screen at the start of the game
     public List<CardPrefab_CreateDeck> cardPoolPrefabs_all = new List<CardPrefab_CreateDeck>();
     List<CardPrefab_CreateDeck> _cardPoolPrefabs = new List<CardPrefab_CreateDeck>();
     bool DoneSetUp { get; set; } = false;
     public IEnumerator InitEditDeck()
     {
+        EnsureCardPoolScrollConfiguredForIPhone();
         cardDistribution.Init();
+        CardPoolCardPrefabs_CreateDeck.Clear();
+        _cardPoolPrefabs.Clear();
 
         for (int i = 0; i < CardPoolScroll.content.childCount; i++)
         {
@@ -596,28 +784,7 @@ public class EditDeck : MonoBehaviour
             {
                 CardPrefab_CreateDeck _cardPrefab_CreateDeck = cardPoolPrefabs_all[i];
                 _cardPoolPrefabs.Add(_cardPrefab_CreateDeck);
-                CEntity_Base cEntity_Base = ContinuousController.instance.CardList[i];
-
-                foreach (ScrollRect _scroll in _cardPrefab_CreateDeck.scroll)
-                {
-                    _scroll.content = CardPoolScroll.content;
-
-                    _scroll.viewport = CardPoolScroll.viewport;
-
-                    _scroll.enabled = false;
-                }
-
-                _cardPrefab_CreateDeck.OnClickAction = () =>
-                {
-                    StartCoroutine(AddDeckCardCoroutine_OnClick(_cardPrefab_CreateDeck));
-                };
-
-                _cardPrefab_CreateDeck.OnBeginDragAction = (cardPrefab_CreateDeck) => { StartCoroutine(OnBeginDrag(cardPrefab_CreateDeck)); };
-
-                _cardPrefab_CreateDeck.OnEnterAction = (cardPrefab) =>
-                {
-                    OnDetailCard(_cardPrefab_CreateDeck.cEntity_Base);
-                };
+                ConfigurePoolCardPrefab(_cardPrefab_CreateDeck);
             }
         }
 
@@ -643,6 +810,7 @@ public class EditDeck : MonoBehaviour
             _checkCoverCoroutine = StartCoroutine(CheckCoverIEnumerator());
 
             SetDeckCountText();
+            RefreshVisiblePoolCards();
         }
     }
 
@@ -660,7 +828,7 @@ public class EditDeck : MonoBehaviour
     #region Show deck number text
     public void SetDeckCountText()
     {
-        DeckCountText.text = $"{EdittingDeckData.DeckCards().Count}+{EdittingDeckData.DigitamaDeckCards().Count}/50+5";
+        DeckCountText.text = $"{EdittingDeckData.DeckCards().Count}+{EdittingDeckData.DigitamaDeckCards().Count}/{DeckBuildingRule.MainDeckMax}+{DeckBuildingRule.DigitamaDeckMax}";
 
         if (EdittingDeckData.IsValidDeckData())
         {
@@ -729,6 +897,11 @@ public class EditDeck : MonoBehaviour
             return false;
         }
 
+        if (!DeckBuilderSetScope.IsAllowedCard(cEntity_Base))
+        {
+            return false;
+        }
+
         if (filterCardList == null)
         {
             return true;
@@ -791,7 +964,9 @@ public class EditDeck : MonoBehaviour
         int matchCount = ContinuousController.instance.CardList
             .Where(cEntity_Base => cEntity_Base != null)
             .Count(cEntity_Base => MatchCondition(cEntity_Base));
-        _maxDisplayPageIndex = Mathf.Max(0, (matchCount - 1) / _cardPoolPrefabs.Count);
+        _maxDisplayPageIndex = UseIPhoneDeckScroll
+            ? 0
+            : Mathf.Max(0, (matchCount - 1) / _cardPoolPrefabs.Count);
 
         yield return ContinuousController.instance.StartCoroutine(SetSprittedCardLists());
 
@@ -867,6 +1042,11 @@ public class EditDeck : MonoBehaviour
     {
         if (_cardPrefab_CreateDeck.transform.parent == CardPoolScroll.content)
         {
+            if (_cardPrefab_CreateDeck.IsLocked)
+            {
+                yield break;
+            }
+
             if (!DeckBuildingRule.CanAddCard(_cardPrefab_CreateDeck.cEntity_Base, EdittingDeckData))
             {
                 yield break;
@@ -984,6 +1164,8 @@ public class EditDeck : MonoBehaviour
                 scroll.enabled = true;
             }
         }
+
+        RefreshVisiblePoolCards();
     }
 
     IEnumerator OnEndDragCoroutine(List<DropArea> dropAreas, CardPrefab_CreateDeck _cardPrefab_CreateDeck, Draggable_Card draggable_Card)
@@ -1018,6 +1200,7 @@ public class EditDeck : MonoBehaviour
         DestroyImmediate(draggable_Card.gameObject);
         CanDrag = true;
         DraggingCover.SetActive(false);
+        RefreshVisiblePoolCards();
     }
     #endregion
 
@@ -1026,6 +1209,11 @@ public class EditDeck : MonoBehaviour
     #region Animation to add cards to deck when dropped
     IEnumerator AddDeckCardCoroutine(CardPrefab_CreateDeck _cardPrefab_CreateDeck, Draggable_Card draggable_Card)
     {
+        if (_cardPrefab_CreateDeck.IsLocked)
+        {
+            yield break;
+        }
+
         if (!DeckBuildingRule.CanAddCard(_cardPrefab_CreateDeck.cEntity_Base, EdittingDeckData))
         {
             yield break;
@@ -1155,6 +1343,11 @@ public class EditDeck : MonoBehaviour
     #region Add card to deck animation when right-clicking
     public IEnumerator AddDeckCardCoroutine_OnClick(CardPrefab_CreateDeck _cardPrefab_CreateDeck)
     {
+        if (_cardPrefab_CreateDeck.IsLocked)
+        {
+            yield break;
+        }
+
         if (!DeckBuildingRule.CanAddCard(_cardPrefab_CreateDeck.cEntity_Base, EdittingDeckData))
         {
             yield break;
@@ -1360,4 +1553,3 @@ public class EditDeck : MonoBehaviour
         }
     }
 }
-
