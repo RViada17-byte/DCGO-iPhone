@@ -48,39 +48,87 @@ public class SelectBattleDeck : MonoBehaviour
         return deckInfoPanel.ShowingDeckData;
     }
 
+    private bool DeckContainsLockedCards(DeckData deck)
+    {
+        if (deck == null || ProgressionManager.Instance == null)
+        {
+            return false;
+        }
+
+        ProgressionManager.Instance.LoadOrCreate();
+
+        foreach (CEntity_Base card in deck.AllDeckCards())
+        {
+            if (card == null)
+            {
+                continue;
+            }
+
+            if (!ProgressionManager.Instance.IsCardUnlocked(card.CardID))
+            {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    bool IsDeckSelectable(DeckData deck)
+    {
+        if (deck == null)
+        {
+            return false;
+        }
+
+        if (deck.DeckCardIDs == null)
+        {
+            return false;
+        }
+
+        return deck.IsValidDeckData() && !DeckContainsLockedCards(deck);
+    }
+
+    void RefreshInvalidDeckObject()
+    {
+        if (InvalidDeckObject == null)
+        {
+            return;
+        }
+
+        DeckData deck = GetSelectedDeckData();
+
+        if (deck == null)
+        {
+            InvalidDeckObject.SetActive(false);
+            return;
+        }
+
+        InvalidDeckObject.SetActive(!deck.IsValidDeckData() || DeckContainsLockedCards(deck));
+    }
+
     public void OnClickEditDeckButton()
     {
         Opening.instance.deck.editDeck.EndEditAction = () =>
         {
             SetSelectDeckButton();
-
-            if (deckInfoPanel.ShowingDeckData != null)
-            {
-                InvalidDeckObject.SetActive(!deckInfoPanel.ShowingDeckData.IsValidDeckData());
-            }
+            RefreshInvalidDeckObject();
         };
     }
 
     public void SetSelectDeckButton()
     {
-        SelectDeckButton.interactable = false;
-
-        if (deckInfoPanel.ShowingDeckData != null)
+        if (SelectDeckButton == null)
         {
-            if (deckInfoPanel.ShowingDeckData.DeckCardIDs != null)
-            {
-                if (deckInfoPanel.ShowingDeckData.IsValidDeckData())
-                {
-                    SelectDeckButton.interactable = true;
-                }
-            }
+            return;
         }
+
+        SelectDeckButton.interactable = IsDeckSelectable(GetSelectedDeckData());
     }
 
     bool once = false;
     public void OnClickSelectButton_RandomMatch()
     {
-        if (once || deckInfoPanel.ShowingDeckData == null)
+        if (once || !IsDeckSelectable(GetSelectedDeckData()))
         {
             return;
         }
@@ -94,7 +142,7 @@ public class SelectBattleDeck : MonoBehaviour
 
     public void OnClickSelectButton_BotMatch()
     {
-        if (once || deckInfoPanel.ShowingDeckData == null)
+        if (once || !IsDeckSelectable(GetSelectedDeckData()))
         {
             return;
         }
@@ -106,7 +154,7 @@ public class SelectBattleDeck : MonoBehaviour
 
     public IEnumerator OnClickSelectButton_RoomMatchCoroutine()
     {
-        if (once || deckInfoPanel.ShowingDeckData == null)
+        if (once || !IsDeckSelectable(GetSelectedDeckData()))
         {
             yield break;
         }
@@ -212,11 +260,7 @@ public class SelectBattleDeck : MonoBehaviour
         TitleText.text = string.IsNullOrWhiteSpace(customTitle) ? GetDefaultTitle() : customTitle;
 
         SetSelectDeckButton();
-
-        if (deckInfoPanel.ShowingDeckData != null)
-        {
-            InvalidDeckObject.SetActive(!deckInfoPanel.ShowingDeckData.IsValidDeckData());
-        }
+        RefreshInvalidDeckObject();
     }
 
     public void Close()
@@ -266,11 +310,7 @@ public class SelectBattleDeck : MonoBehaviour
                 deckInfoPanel.SetUpDeckInfoPanel(deckdata);
 
                 SetSelectDeckButton();
-
-                if (deckInfoPanel.ShowingDeckData != null)
-                {
-                    InvalidDeckObject.SetActive(!deckInfoPanel.ShowingDeckData.IsValidDeckData());
-                }
+                RefreshInvalidDeckObject();
 
                 Opening.instance.CreateOnClickEffect();
             };

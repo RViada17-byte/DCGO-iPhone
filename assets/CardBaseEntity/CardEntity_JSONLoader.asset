@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: CardEntity_JSONLoader
   m_EditorClassIdentifier: 
   prevCardIndex: 7816
-  setCardIndex: 7817
+  setCardIndex: 7822
   promoCardIndex: 10449

@@ -251,6 +251,11 @@ public class GManager : MonoBehaviourPun
 #endif
         IsAI = BootstrapConfig.IsOfflineLocal || !PhotonNetwork.IsConnected;
 
+        if (PhotonNetwork.OfflineMode)
+        {
+            IsAI = true;
+        }
+
         if (ContinuousController.instance != null)
         {
             if (ContinuousController.instance.isAI)

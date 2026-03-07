@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4a4df204c321f9c40b0dbfb1baaffb4c
+guid: d758c49fd01fa45c0a2e36224c24a92c
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -10,8 +10,7 @@ TrueTypeFontImporter:
   includeFontData: 1
   fontNames:
   - Jura
-  fallbackFontReferences:
-  - {fileID: 12800000, guid: e00995507c2406448b4c8429136104dd, type: 3}
+  fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

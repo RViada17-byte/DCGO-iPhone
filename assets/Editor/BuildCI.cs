@@ -62,6 +62,15 @@ public static class BuildCI
         string sdk = Environment.GetEnvironmentVariable("DCGO_IOS_SDK");
         bool buildForSimulator = !string.IsNullOrWhiteSpace(sdk) &&
                                  sdk.Trim().Equals("simulator", StringComparison.OrdinalIgnoreCase);
+        string appleTeamId = Environment.GetEnvironmentVariable("DCGO_APPLE_TEAM_ID");
+        if (string.IsNullOrWhiteSpace(appleTeamId))
+        {
+            appleTeamId = "Q2N8478U8C";
+        }
+        else
+        {
+            appleTeamId = appleTeamId.Trim();
+        }
 
         PlayerSettings.SetScriptingBackend(BuildTargetGroup.iOS, ScriptingImplementation.IL2CPP);
         PlayerSettings.SetArchitecture(BuildTargetGroup.iOS, 1); // ARM64
@@ -69,9 +78,11 @@ public static class BuildCI
         PlayerSettings.iOS.sdkVersion = buildForSimulator
             ? iOSSdkVersion.SimulatorSDK
             : iOSSdkVersion.DeviceSDK;
+        PlayerSettings.iOS.appleDeveloperTeamID = appleTeamId;
+        PlayerSettings.iOS.appleEnableAutomaticSigning = true;
         PlayerSettings.stripEngineCode = true;
 
-        Debug.Log($"Configured iOS build SDK={PlayerSettings.iOS.sdkVersion} ARM64 IL2CPP");
+        Debug.Log($"Configured iOS build SDK={PlayerSettings.iOS.sdkVersion} ARM64 IL2CPP team={appleTeamId}");
     }
 
     static void ConfigureScriptingDefines(bool offlineBoot)

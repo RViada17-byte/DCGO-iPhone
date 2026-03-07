@@ -80,6 +80,10 @@ public class CardPrefab_CreateDeck : MonoBehaviour
     public Button AddButton;
     public Button RemoveButton;
 
+    [Header("Lock")]
+    public GameObject LockedOverlay;
+    public bool IsLocked { get; private set; }
+
     public UIShiny uIShiny;
     private void Start()
     {
@@ -91,6 +95,7 @@ public class CardPrefab_CreateDeck : MonoBehaviour
         }
 
         OffAddRemoveButton();
+        SetLocked(IsLocked);
 
         if (CostText != null)
         {
@@ -129,6 +134,11 @@ public class CardPrefab_CreateDeck : MonoBehaviour
 
     public void OnClickAddButton()
     {
+        if (IsLocked)
+        {
+            return;
+        }
+
         OnClickAddButtonAction?.Invoke(this);
     }
 
@@ -136,7 +146,54 @@ public class CardPrefab_CreateDeck : MonoBehaviour
 
     public void OnClickRemoveButton()
     {
+        if (IsLocked)
+        {
+            return;
+        }
+
         OnClickRemoveButtonAction?.Invoke(this);
+    }
+
+    public void SetLocked(bool locked)
+    {
+        IsLocked = locked;
+
+        if (LockedOverlay != null)
+        {
+            LockedOverlay.SetActive(locked);
+        }
+
+        if (CardImage != null)
+        {
+            Color color = CardImage.color;
+            color.a = locked ? 0.55f : 1f;
+            CardImage.color = color;
+        }
+
+        if (locked)
+        {
+            OffAddRemoveButton();
+        }
+
+        if (AddButton != null)
+        {
+            AddButton.interactable = !locked;
+
+            if (AddButton.transform.parent != null)
+            {
+                AddButton.transform.parent.gameObject.SetActive(!locked);
+            }
+        }
+
+        if (RemoveButton != null)
+        {
+            RemoveButton.interactable = !locked;
+
+            if (RemoveButton.transform.parent != null)
+            {
+                RemoveButton.transform.parent.gameObject.SetActive(!locked);
+            }
+        }
     }
 
     public void SetupAddRemoveButton(DeckData deckData)
@@ -144,6 +201,33 @@ public class CardPrefab_CreateDeck : MonoBehaviour
 #if !UNITY_EDITOR && UNITY_ANDROID
         return;
 #endif
+        if (IsLocked)
+        {
+            OffAddRemoveButton();
+
+            if (AddButton != null)
+            {
+                AddButton.interactable = false;
+
+                if (AddButton.transform.parent != null)
+                {
+                    AddButton.transform.parent.gameObject.SetActive(false);
+                }
+            }
+
+            if (RemoveButton != null)
+            {
+                RemoveButton.interactable = false;
+
+                if (RemoveButton.transform.parent != null)
+                {
+                    RemoveButton.transform.parent.gameObject.SetActive(false);
+                }
+            }
+
+            return;
+        }
+
         if (AddRemoveButtonParent != null)
         {
             AddRemoveButtonParent.SetActive(true);
@@ -186,22 +270,54 @@ public class CardPrefab_CreateDeck : MonoBehaviour
 
     public void SetUpCardPrefab_CreateDeck(CEntity_Base _cEntity_Base)
     {
+        if (cEntity_Base != _cEntity_Base)
+        {
+            HideCardImage(false);
+        }
+
         cEntity_Base = _cEntity_Base;
 
         //ShowCardImage();
+    }
+
+    public void HideCardImage(bool deactivateObject = true)
+    {
+        if (CardImage == null)
+        {
+            return;
+        }
+
+        CardImage.sprite = null;
+
+        if (deactivateObject && CardImage.transform.parent != null)
+        {
+            CardImage.transform.parent.gameObject.SetActive(false);
+        }
     }
 
     public async void ShowCardImage()
     {
         if (this.cEntity_Base != null)
         {
+            CEntity_Base requestedCard = cEntity_Base;
             //カード画像
 
-            CardImage.color = new Color(1, 1, 1, 1);
+            CardImage.color = new Color(1, 1, 1, IsLocked ? 0.55f : 1f);
 
-            CardImage.GetComponent<EventTrigger>().enabled = true;
+            EventTrigger eventTrigger = CardImage.GetComponent<EventTrigger>();
+            if (eventTrigger != null)
+            {
+                eventTrigger.enabled = true;
+            }
 
-            CardImage.sprite = await cEntity_Base.GetCardSprite();
+            Sprite sprite = await requestedCard.GetCardSprite();
+
+            if (requestedCard == null || cEntity_Base != requestedCard || CardImage == null)
+            {
+                return;
+            }
+
+            CardImage.sprite = sprite;
 
             if (CostText != null)
             {
@@ -435,17 +551,17 @@ public class CardPrefab_CreateDeck : MonoBehaviour
 
     public void CheckCover(DeckData deckData)
     {
-        SetCover(CanNotAddThisCard(deckData));
+        SetCover(ShouldShowUnavailableCover(deckData));
     }
 
     public bool CanNotAddThisCard(DeckData deckData)
     {
-        if (deckData.DeckCards().Count >= 70)
+        if (deckData.DeckCards().Count >= DeckBuildingRule.MainDeckMax)
         {
             return true;
         }
 
-        if (deckData.DigitamaDeckCards().Count >= 10)
+        if (deckData.DigitamaDeckCards().Count >= DeckBuildingRule.DigitamaDeckMax)
         {
             return true;
         }
@@ -477,8 +593,63 @@ public class CardPrefab_CreateDeck : MonoBehaviour
         return false;
     }
 
+    bool ShouldShowUnavailableCover(DeckData deckData)
+    {
+        if (IsLocked || deckData == null || cEntity_Base == null)
+        {
+            return false;
+        }
+
+        if (cEntity_Base.cardKind == CardKind.DigiEgg)
+        {
+            if (cEntity_Base.SameCardIDCount(deckData.DigitamaDeckCards()) >= cEntity_Base.MaxCountInDeck)
+            {
+                return true;
+            }
+        }
+
+        else
+        {
+            if (cEntity_Base.SameCardIDCount(deckData.DeckCards()) >= cEntity_Base.MaxCountInDeck)
+            {
+                return true;
+            }
+        }
+
+        foreach (CardLimitCount cardLimitCount in ContinuousController.instance.BanList.CardLimitCounts)
+        {
+            if (cEntity_Base.CardID == cardLimitCount.CardID &&
+                cEntity_Base.SameCardIDCount(deckData.AllDeckCards()) >= cardLimitCount.LimitCount)
+            {
+                return true;
+            }
+        }
+
+        foreach (BannedPair bannedPair in ContinuousController.instance.BanList.BannedPairs)
+        {
+            if (cEntity_Base.CardID == bannedPair.CardID_A &&
+                deckData.AllDeckCards().Some(cEntity_Base1 => bannedPair.CardIDs_B.Contains(cEntity_Base1.CardID)))
+            {
+                return true;
+            }
+
+            if (bannedPair.CardIDs_B.Contains(cEntity_Base.CardID) &&
+                deckData.AllDeckCards().Some(cEntity_Base1 => cEntity_Base1.CardID == bannedPair.CardID_A))
+            {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
     public void OnClick()
     {
+        if (IsLocked)
+        {
+            return;
+        }
+
         OnClickAction?.Invoke();
     }
 

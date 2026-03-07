@@ -82,7 +82,10 @@ public class CardObjectController : MonoBehaviour
         if (GManager.instance.IsAI)
         {
             List<DeckData> validDecks = ContinuousController.instance.DeckDatas
-                .Where(deckData => deckData != null && deckData.IsValidDeckData())
+                .Where(deckData =>
+                    deckData != null &&
+                    deckData.IsValidDeckData() &&
+                    DeckBuilderSetScope.IsAllowedDeck(deckData))
                 .ToList();
 
             Debug.Log($"[CardObjectController] AI deck bootstrap -> OfflinePlayerSelector:'{BootstrapConfig.OfflinePlayerDeckSelector}' OfflineOpponentSelector:'{BootstrapConfig.OfflineOpponentDeckSelector}' ValidDecks:{validDecks.Count}");
@@ -91,9 +94,18 @@ public class CardObjectController : MonoBehaviour
                 Debug.Log($"[CardObjectController] Valid deck candidate -> Name:{validDeck.DeckName} ID:{validDeck.DeckID}");
             }
 
+            if (ContinuousController.instance.EnemyDeckData != null &&
+                ContinuousController.instance.EnemyDeckData.IsValidDeckData())
+            {
+                opponentDeckForAI = CloneDeck(ContinuousController.instance.EnemyDeckData);
+                Debug.Log($"[CardObjectController] EnemyDeckData override applied -> {opponentDeckForAI?.DeckName} ({opponentDeckForAI?.DeckID})");
+            }
+
             if (validDecks.Count > 0)
             {
-                if (ContinuousController.instance.BattleDeckData != null && ContinuousController.instance.BattleDeckData.IsValidDeckData())
+                if (ContinuousController.instance.BattleDeckData != null &&
+                    ContinuousController.instance.BattleDeckData.IsValidDeckData() &&
+                    DeckBuilderSetScope.IsAllowedDeck(ContinuousController.instance.BattleDeckData))
                 {
                     playerDeckForAI = CloneDeck(ContinuousController.instance.BattleDeckData);
                 }
@@ -107,9 +119,9 @@ public class CardObjectController : MonoBehaviour
                         configuredPlayerDeck = FindDeckBySelectorAny(BootstrapConfig.OfflinePlayerDeckSelector);
                     }
 
-                    if (configuredPlayerDeck == null)
+                    if (configuredPlayerDeck != null && !DeckBuilderSetScope.IsAllowedDeck(configuredPlayerDeck))
                     {
-                        configuredPlayerDeck = FindDeckBySelectorAny("ST1 Demo");
+                        configuredPlayerDeck = null;
                     }
 
                     if (configuredPlayerDeck == null)
@@ -120,44 +132,46 @@ public class CardObjectController : MonoBehaviour
                     playerDeckForAI = CloneDeck(configuredPlayerDeck);
                 }
 
-                DeckData configuredOpponentDeck = null;
-
-                if (BootstrapConfig.HasOfflineDeckOverrides && !string.IsNullOrWhiteSpace(BootstrapConfig.OfflineOpponentDeckSelector))
-                {
-                    configuredOpponentDeck = FindDeckBySelectorAny(BootstrapConfig.OfflineOpponentDeckSelector);
-                    Debug.Log($"[CardObjectController] Opponent selector '{BootstrapConfig.OfflineOpponentDeckSelector}' resolved to: {configuredOpponentDeck?.DeckName} ({configuredOpponentDeck?.DeckID})");
-                }
-
-                if (configuredOpponentDeck == null)
-                {
-                    configuredOpponentDeck = FindDeckBySelectorAny("ST2 Demo");
-                    Debug.Log($"[CardObjectController] Opponent fallback selector 'ST2 Demo' resolved to: {configuredOpponentDeck?.DeckName} ({configuredOpponentDeck?.DeckID})");
-                }
-
-                if (configuredOpponentDeck != null && IsSameDeck(configuredOpponentDeck, playerDeckForAI))
-                {
-                    Debug.Log($"[CardObjectController] Opponent deck matched player deck by IsSameDeck. Player:{playerDeckForAI?.DeckName} ({playerDeckForAI?.DeckID}) Opponent:{configuredOpponentDeck?.DeckName} ({configuredOpponentDeck?.DeckID})");
-                    configuredOpponentDeck = null;
-                }
-
-                if (configuredOpponentDeck != null)
-                {
-                    opponentDeckForAI = CloneDeck(configuredOpponentDeck);
-                }
-
                 if (opponentDeckForAI == null)
                 {
-                    DeckData distinctDeck = validDecks.FirstOrDefault(deckData => !IsSameDeck(deckData, playerDeckForAI));
-                    if (distinctDeck != null)
-                    {
-                        opponentDeckForAI = CloneDeck(distinctDeck);
-                    }
-                }
+                    DeckData configuredOpponentDeck = null;
 
-                if (opponentDeckForAI == null && validDecks.Count > 0)
-                {
-                    DeckData randomDeck = validDecks[UnityEngine.Random.Range(0, validDecks.Count)];
-                    opponentDeckForAI = CloneDeck(randomDeck);
+                    if (BootstrapConfig.HasOfflineDeckOverrides && !string.IsNullOrWhiteSpace(BootstrapConfig.OfflineOpponentDeckSelector))
+                    {
+                        configuredOpponentDeck = FindDeckBySelectorAny(BootstrapConfig.OfflineOpponentDeckSelector);
+                        Debug.Log($"[CardObjectController] Opponent selector '{BootstrapConfig.OfflineOpponentDeckSelector}' resolved to: {configuredOpponentDeck?.DeckName} ({configuredOpponentDeck?.DeckID})");
+                    }
+
+                    if (configuredOpponentDeck != null && !DeckBuilderSetScope.IsAllowedDeck(configuredOpponentDeck))
+                    {
+                        configuredOpponentDeck = null;
+                    }
+
+                    if (configuredOpponentDeck != null && IsSameDeck(configuredOpponentDeck, playerDeckForAI))
+                    {
+                        Debug.Log($"[CardObjectController] Opponent deck matched player deck by IsSameDeck. Player:{playerDeckForAI?.DeckName} ({playerDeckForAI?.DeckID}) Opponent:{configuredOpponentDeck?.DeckName} ({configuredOpponentDeck?.DeckID})");
+                        configuredOpponentDeck = null;
+                    }
+
+                    if (configuredOpponentDeck != null)
+                    {
+                        opponentDeckForAI = CloneDeck(configuredOpponentDeck);
+                    }
+
+                    if (opponentDeckForAI == null)
+                    {
+                        DeckData distinctDeck = validDecks.FirstOrDefault(deckData => !IsSameDeck(deckData, playerDeckForAI));
+                        if (distinctDeck != null)
+                        {
+                            opponentDeckForAI = CloneDeck(distinctDeck);
+                        }
+                    }
+
+                    if (opponentDeckForAI == null && validDecks.Count > 0)
+                    {
+                        DeckData randomDeck = validDecks[UnityEngine.Random.Range(0, validDecks.Count)];
+                        opponentDeckForAI = CloneDeck(randomDeck);
+                    }
                 }
 
                 if (playerDeckForAI == null)
@@ -180,6 +194,11 @@ public class CardObjectController : MonoBehaviour
 
                 foreach (CEntity_Base cEntity_Base in ContinuousController.instance.CardList)
                 {
+                    if (!DeckBuilderSetScope.IsAllowedCard(cEntity_Base))
+                    {
+                        continue;
+                    }
+
                     if (cEntity_Base.cardKind != CardKind.DigiEgg)
                     {
                         mainDeckCandidates.Add(cEntity_Base);
@@ -209,7 +228,10 @@ public class CardObjectController : MonoBehaviour
 
                 DeckData sampleDeck = new DeckData(DeckData.GetDeckCode("サンプルデッキ", mainDeckCards, digitamaDeckCards, null));
                 playerDeckForAI = CloneDeck(sampleDeck);
-                opponentDeckForAI = CloneDeck(sampleDeck);
+                if (opponentDeckForAI == null)
+                {
+                    opponentDeckForAI = CloneDeck(sampleDeck);
+                }
             }
         }
 

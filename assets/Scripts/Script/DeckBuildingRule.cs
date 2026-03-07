@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class DeckBuildingRule : MonoBehaviour
 {
+    public const int MainDeckMax = 50;
+    public const int DigitamaDeckMax = 5;
+
     public static bool IsValidDeck(DeckData deckData)
     {
         if (ContinuousController.instance != null)
@@ -145,6 +148,11 @@ public class DeckBuildingRule : MonoBehaviour
 
     public static bool CanAddCard(CEntity_Base cEntity_Base, DeckData deckData)
     {
+        if (cEntity_Base == null || deckData == null)
+        {
+            return false;
+        }
+
         if (cEntity_Base.cardKind == CardKind.DigiEgg)
         {
             if (cEntity_Base.SameCardIDCount(deckData.DigitamaDeckCards()) >= cEntity_Base.MaxCountInDeck)
@@ -152,7 +160,7 @@ public class DeckBuildingRule : MonoBehaviour
                 return false;
             }
 
-            if (deckData.DigitamaDeckCards().Count >= 5)
+            if (deckData.DigitamaDeckCards().Count >= DigitamaDeckMax)
             {
                 return false;
             }
@@ -160,6 +168,11 @@ public class DeckBuildingRule : MonoBehaviour
 
         else
         {
+            if (deckData.DeckCards().Count >= MainDeckMax)
+            {
+                return false;
+            }
+
             if (cEntity_Base.SameCardIDCount(deckData.DeckCards()) >= cEntity_Base.MaxCountInDeck)
             {
                 return false;

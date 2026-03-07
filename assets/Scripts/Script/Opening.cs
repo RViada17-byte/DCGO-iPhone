@@ -458,6 +458,8 @@ public class Opening : MonoBehaviour
 
     public IEnumerator Init()
     {
+        OfflineBootstrapper.EnsureOfflineReady();
+
         OpeningBGM.StopPlayBGM();
         yield return StartCoroutine(LoadingObject.StartLoading("Now Loading"));
 
@@ -468,6 +470,8 @@ public class Opening : MonoBehaviour
 
         yield return new WaitWhile(() => ContinuousController.instance == null);
 
+        ProgressionManager.Instance.LoadOrCreate();
+
         // ContinuousController.instance.LoadVolume();
 
         home.OffHome();
@@ -477,16 +481,6 @@ public class Opening : MonoBehaviour
         patchNotesPanel.Init();
 
         yield return StartCoroutine(deck.editDeck.InitEditDeck());
-
-        if (PhotonNetwork.IsConnected)
-        {
-            PhotonNetwork.Disconnect();
-
-            while (PhotonNetwork.IsConnected)
-            {
-                yield return null;
-            }
-        }
 
         yield return new WaitForSeconds(0.1f);
 

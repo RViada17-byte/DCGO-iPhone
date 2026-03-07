@@ -680,12 +680,12 @@ public class DeckData
     public bool IsValidDeckData()
     {
         //The number of cards in the deck is exactly 50.
-        if (DeckCards().Count != 50)
+        if (DeckCards().Count != DeckBuildingRule.MainDeckMax)
         {
             return false;
         }
 
-        if (DigitamaDeckCards().Count > 5)
+        if (DigitamaDeckCards().Count > DeckBuildingRule.DigitamaDeckMax)
         {
             return false;
         }

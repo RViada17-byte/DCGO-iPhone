@@ -61,19 +61,23 @@ public class TurnStateMachine : MonoBehaviourPunCallbacks
             if (BootstrapConfig.HasOfflineDeckOverrides && !string.IsNullOrWhiteSpace(BootstrapConfig.OfflinePlayerDeckSelector))
             {
                 DeckData configuredPlayerDeck = ContinuousController.instance.FindDeckDataBySelector(BootstrapConfig.OfflinePlayerDeckSelector);
-                if (configuredPlayerDeck != null)
+                if (configuredPlayerDeck != null &&
+                    configuredPlayerDeck.IsValidDeckData() &&
+                    DeckBuilderSetScope.IsAllowedDeck(configuredPlayerDeck))
                 {
                     ContinuousController.instance.BattleDeckData = configuredPlayerDeck;
                 }
             }
 
-            if (ContinuousController.instance.BattleDeckData == null || !ContinuousController.instance.BattleDeckData.IsValidDeckData())
+            if (ContinuousController.instance.BattleDeckData == null ||
+                !ContinuousController.instance.BattleDeckData.IsValidDeckData() ||
+                !DeckBuilderSetScope.IsAllowedDeck(ContinuousController.instance.BattleDeckData))
             {
-                DeckData validDeck = ContinuousController.instance.FindDeckDataBySelector("ST1 Demo");
-                if (validDeck == null)
-                {
-                    validDeck = ContinuousController.instance.FirstValidDeckData();
-                }
+                DeckData validDeck = ContinuousController.instance.DeckDatas
+                    .FirstOrDefault(deckData =>
+                        deckData != null &&
+                        deckData.IsValidDeckData() &&
+                        DeckBuilderSetScope.IsAllowedDeck(deckData));
 
                 if (validDeck != null)
                 {

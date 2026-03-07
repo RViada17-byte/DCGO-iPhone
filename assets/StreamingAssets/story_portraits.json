@@ -1,0 +1,200 @@
+{
+  "portraits": [
+    {
+      "id": "adventure_izzy",
+      "displayName": "Izzy",
+      "series": "Adventure",
+      "sourcePageUrl": "https://digimon.fandom.com/wiki/Koushiro_%22Izzy%22_Izumi_(Adventure:)",
+      "sourceImageUrl": "https://static.wikia.nocookie.net/digimon/images/9/9d/Izzy_Izumi_%282020%29_t.gif/revision/latest?cb=20200405155013"
+    },
+    {
+      "id": "adventure_mimi",
+      "displayName": "Mimi",
+      "series": "Adventure",
+      "sourcePageUrl": "https://digimon.fandom.com/wiki/Mimi_Tachikawa_(Adventure:)",
+      "sourceImageUrl": "https://static.wikia.nocookie.net/digimon/images/5/55/Mimi_Tachikawa_%282020%29_t.gif/revision/latest?cb=20251009132246"
+    },
+    {
+      "id": "adventure_joe",
+      "displayName": "Joe",
+      "series": "Adventure",
+      "sourcePageUrl": "https://digimon.fandom.com/wiki/Joe_Kido_(Adventure:)",
+      "sourceImageUrl": "https://static.wikia.nocookie.net/digimon/images/6/67/Joe_Kido_%282020%29_t.gif/revision/latest?cb=20200405155123"
+    },
+    {
+      "id": "adventure_sora",
+      "displayName": "Sora",
+      "series": "Adventure",
+      "sourcePageUrl": "https://digimon.fandom.com/wiki/Sora_Takenouchi_(Adventure:)",
+      "sourceImageUrl": "https://static.wikia.nocookie.net/digimon/images/c/c6/Sora_Takenouchi_%282020%29_t.gif/revision/latest?cb=20200405155057"
+    },
+    {
+      "id": "adventure_tk",
+      "displayName": "T.K.",
+      "series": "Adventure",
+      "sourcePageUrl": "https://digimon.fandom.com/wiki/Takeru_%22T.K.%22_Takaishi_(Adventure:)",
+      "sourceImageUrl": "https://static.wikia.nocookie.net/digimon/images/f/f8/T.K._Takaishi_%282020%29_t.gif/revision/latest?cb=20200405155213"
+    },
+    {
+      "id": "adventure_kari",
+      "displayName": "Kari",
+      "series": "Adventure",
+      "sourcePageUrl": "https://digimon.fandom.com/wiki/Hikari_%22Kari%22_Kamiya_(Adventure:)",
+      "sourceImageUrl": "https://static.wikia.nocookie.net/digimon/images/8/8e/Kari_Kamiya_%282020%29_t.gif/revision/latest?cb=20200405155236"
+    },
+    {
+      "id": "adventure_matt",
+      "displayName": "Matt",
+      "series": "Adventure",
+      "sourcePageUrl": "https://digimon.fandom.com/wiki/Yamato_%22Matt%22_Ishida_(Adventure:)",
+      "sourceImageUrl": "https://static.wikia.nocookie.net/digimon/images/2/27/Matt_Ishida_%282020%29_t.gif/revision/latest?cb=20200405154950"
+    },
+    {
+      "id": "adventure_tai",
+      "displayName": "Tai",
+      "series": "Adventure",
+      "sourcePageUrl": "https://digimon.fandom.com/wiki/Taichi_%22Tai%22_Kamiya_(Adventure:)",
+      "sourceImageUrl": "https://static.wikia.nocookie.net/digimon/images/d/dc/Tai_Kamiya_%282020%29_t.gif/revision/latest?cb=20200405154739"
+    },
+    {
+      "id": "frontier_zoe",
+      "displayName": "Zoe",
+      "series": "Frontier",
+      "sourcePageUrl": "https://digimon.fandom.com/wiki/Zoe_Orimoto",
+      "sourceImageUrl": "https://static.wikia.nocookie.net/digimon/images/1/16/Zoe_Orimoto_t.gif/revision/latest?cb=20170704021903"
+    },
+    {
+      "id": "frontier_jp",
+      "displayName": "JP",
+      "series": "Frontier",
+      "sourcePageUrl": "https://digimon.fandom.com/wiki/J.P._Shibayama",
+      "sourceImageUrl": "https://static.wikia.nocookie.net/digimon/images/e/e6/J.P._Shibayama_t.gif/revision/latest?cb=20111006083728"
+    },
+    {
+      "id": "frontier_tommy",
+      "displayName": "Tommy",
+      "series": "Frontier",
+      "sourcePageUrl": "https://digimon.fandom.com/wiki/Tommy_Himi",
+      "sourceImageUrl": "https://static.wikia.nocookie.net/digimon/images/2/23/Tommy_Himi_t.gif/revision/latest?cb=20170704021845"
+    },
+    {
+      "id": "frontier_koichi",
+      "displayName": "Koichi",
+      "series": "Frontier",
+      "sourcePageUrl": "https://digimon.fandom.com/wiki/Koichi_Kimura",
+      "sourceImageUrl": "https://static.wikia.nocookie.net/digimon/images/0/0a/Koichi_Kimura_t.gif/revision/latest?cb=20111202235810"
+    },
+    {
+      "id": "frontier_koji",
+      "displayName": "Koji",
+      "series": "Frontier",
+      "sourcePageUrl": "https://digimon.fandom.com/wiki/Koji_Minamoto",
+      "sourceImageUrl": "https://static.wikia.nocookie.net/digimon/images/a/a1/Koji_Minamoto_t.gif/revision/latest?cb=20111006083632"
+    },
+    {
+      "id": "frontier_takuya",
+      "displayName": "Takuya",
+      "series": "Frontier",
+      "sourcePageUrl": "https://digimon.fandom.com/wiki/Takuya_Kanbara",
+      "sourceImageUrl": "https://static.wikia.nocookie.net/digimon/images/d/d9/Takuya_Kanbara_t.gif/revision/latest?cb=20121125233711"
+    },
+    {
+      "id": "adventure02_davis",
+      "displayName": "Davis",
+      "series": "Adventure 02",
+      "sourcePageUrl": "https://digimon.fandom.com/wiki/Davis_Motomiya",
+      "sourceImageUrl": "https://static.wikia.nocookie.net/digimon/images/c/c6/Davis_Motomiya_%28Digital_World%29_t.gif/revision/latest?cb=20121125233443"
+    },
+    {
+      "id": "adventure02_yolei",
+      "displayName": "Yolei",
+      "series": "Adventure 02",
+      "sourcePageUrl": "https://digimon.fandom.com/wiki/Yolei_Inoue",
+      "sourceImageUrl": "https://static.wikia.nocookie.net/digimon/images/9/97/Yolei_Inoue_%28Digital_World%29_t.gif/revision/latest?cb=20120105214701"
+    },
+    {
+      "id": "adventure02_cody",
+      "displayName": "Cody",
+      "series": "Adventure 02",
+      "sourcePageUrl": "https://digimon.fandom.com/wiki/Cody_Hida",
+      "sourceImageUrl": "https://static.wikia.nocookie.net/digimon/images/7/74/Cody_Hida_%28Digital_World%29_t.gif/revision/latest?cb=20120105214659"
+    },
+    {
+      "id": "adventure02_hikari",
+      "displayName": "Hikari",
+      "series": "Adventure 02",
+      "sourcePageUrl": "https://digimon.fandom.com/wiki/Kari_Kamiya",
+      "sourceImageUrl": "https://static.wikia.nocookie.net/digimon/images/7/7c/Kari_Kamiya_%2802%29_t.gif/revision/latest?cb=20111231010057"
+    },
+    {
+      "id": "adventure02_tk",
+      "displayName": "TK",
+      "series": "Adventure 02",
+      "sourcePageUrl": "https://digimon.fandom.com/wiki/Takeru_%22T.K.%22_Takaishi",
+      "sourceImageUrl": "https://static.wikia.nocookie.net/digimon/images/1/15/Takeru_%22T.K.%22_Takaishi_%2802%29_t.gif/revision/latest?cb=20111231010052"
+    },
+    {
+      "id": "adventure02_blackwargreymon",
+      "displayName": "BlackWarGreymon",
+      "series": "Adventure 02",
+      "sourcePageUrl": "https://digimon.fandom.com/wiki/BlackWarGreymon",
+      "sourceImageUrl": "https://static.wikia.nocookie.net/digimon/images/4/48/Digimon_Black_Wargreymon.jpg/revision/latest?cb=20090701031650"
+    },
+    {
+      "id": "adventure02_ken",
+      "displayName": "Ken",
+      "series": "Adventure 02",
+      "sourcePageUrl": "https://digimon.fandom.com/wiki/Ken_Ichijouji",
+      "sourceImageUrl": "https://static.wikia.nocookie.net/digimon/images/9/93/Ken_Ichijouji_t.gif/revision/latest?cb=20120105214702"
+    },
+    {
+      "id": "tamers_henry",
+      "displayName": "Henry",
+      "series": "Tamers",
+      "sourcePageUrl": "https://digimon.fandom.com/wiki/Henry_Wong",
+      "sourceImageUrl": "https://static.wikia.nocookie.net/digimon/images/4/4c/Henry_Wong_t.gif/revision/latest?cb=20120106214905"
+    },
+    {
+      "id": "tamers_rika",
+      "displayName": "Rika",
+      "series": "Tamers",
+      "sourcePageUrl": "https://digimon.fandom.com/wiki/Rika_Nonaka",
+      "sourceImageUrl": "https://static.wikia.nocookie.net/digimon/images/7/7a/Rika_Nonaka_t.gif/revision/latest?cb=20091119030403"
+    },
+    {
+      "id": "datasquad_yoshino",
+      "displayName": "Yoshino Fujieda",
+      "series": "Data Squad",
+      "sourcePageUrl": "https://digimon.fandom.com/wiki/Yoshino_%22Yoshi%22_Fujieda",
+      "sourceImageUrl": "https://static.wikia.nocookie.net/digimon/images/9/9c/Yoshino_%22Yoshi%22_Fujieda_t.gif/revision/latest?cb=20120110203029"
+    },
+    {
+      "id": "datasquad_thomas",
+      "displayName": "Thomas Norstein",
+      "series": "Data Squad",
+      "sourcePageUrl": "https://digimon.fandom.com/wiki/Thomas_H._Norstein",
+      "sourceImageUrl": "https://static.wikia.nocookie.net/digimon/images/4/4b/Thomas_H._Norstein_t.gif/revision/latest?cb=20120110203907"
+    },
+    {
+      "id": "datasquad_marcus",
+      "displayName": "Marcus Damon",
+      "series": "Data Squad",
+      "sourcePageUrl": "https://digimon.fandom.com/wiki/Marcus_Damon",
+      "sourceImageUrl": "https://static.wikia.nocookie.net/digimon/images/3/3f/Marcus_Damon_t.gif/revision/latest?cb=20121125233746"
+    },
+    {
+      "id": "tamers_beelzemon",
+      "displayName": "Beelzemon",
+      "series": "Tamers",
+      "sourcePageUrl": "https://digimon.fandom.com/wiki/Beelzemon",
+      "sourceImageUrl": "https://static.wikia.nocookie.net/digimon/images/0/04/Beelzemon_b.jpg/revision/latest?cb=20100226052845"
+    },
+    {
+      "id": "tamers_takato",
+      "displayName": "Takato",
+      "series": "Tamers",
+      "sourcePageUrl": "https://digimon.fandom.com/wiki/Takato_Matsuki",
+      "sourceImageUrl": "https://static.wikia.nocookie.net/digimon/images/b/b8/Takato_Matsuki_t.gif/revision/latest?cb=20121125233622"
+    }
+  ]
+}

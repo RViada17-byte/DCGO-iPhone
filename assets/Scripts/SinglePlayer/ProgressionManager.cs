@@ -5,7 +5,8 @@ using UnityEngine;
 
 public class ProgressionManager : MonoBehaviour
 {
-    private const int NewProfileStartingCurrency = 10000;
+    private const int CurrentSaveVersion = 3;
+    private const int NewProfileStartingCurrency = 1000;
 
     private static ProgressionManager _instance;
     private PlayerProfileData _profile;
@@ -55,7 +56,12 @@ public class ProgressionManager : MonoBehaviour
                     {
                         _profile = loaded;
                         EnsureCollectionsInitialized();
+                        bool migrated = MigrateProfileIfNeeded();
                         _isLoaded = true;
+                        if (migrated)
+                        {
+                            Save();
+                        }
                         return;
                     }
                 }
@@ -68,6 +74,7 @@ public class ProgressionManager : MonoBehaviour
 
         _profile = new PlayerProfileData
         {
+            SaveVersion = CurrentSaveVersion,
             Currency = NewProfileStartingCurrency,
         };
         EnsureCollectionsInitialized();
@@ -79,6 +86,7 @@ public class ProgressionManager : MonoBehaviour
     {
         EnsureLoaded();
         EnsureCollectionsInitialized();
+        _profile.SaveVersion = CurrentSaveVersion;
 
         string directory = Path.GetDirectoryName(SavePath);
         if (!string.IsNullOrEmpty(directory))
@@ -96,7 +104,7 @@ public class ProgressionManager : MonoBehaviour
         return _profile.Currency;
     }
 
-    public void AddCurrency(int amount)
+    public void AddCurrency(int amount, bool saveImmediately = true)
     {
         EnsureLoaded();
         if (amount == 0)
@@ -110,10 +118,13 @@ public class ProgressionManager : MonoBehaviour
             _profile.Currency = 0;
         }
 
-        Save();
+        if (saveImmediately)
+        {
+            Save();
+        }
     }
 
-    public bool TrySpendCurrency(int amount)
+    public bool TrySpendCurrency(int amount, bool saveImmediately = true)
     {
         EnsureLoaded();
 
@@ -133,26 +144,37 @@ public class ProgressionManager : MonoBehaviour
         }
 
         _profile.Currency -= amount;
-        Save();
+        if (saveImmediately)
+        {
+            Save();
+        }
         return true;
     }
 
     public bool IsCardUnlocked(string cardId)
     {
         EnsureLoaded();
-        return ContainsValue(_profile.UnlockedCardIds, cardId);
+        if (ContainsValue(_profile.UnlockedCardIds, cardId))
+        {
+            return true;
+        }
+
+        return TryReloadProfileFromDisk() && ContainsValue(_profile.UnlockedCardIds, cardId);
     }
 
-    public void UnlockCard(string cardId)
+    public void UnlockCard(string cardId, bool saveImmediately = true)
     {
         EnsureLoaded();
         if (TryAddUnique(_profile.UnlockedCardIds, cardId))
         {
-            Save();
+            if (saveImmediately)
+            {
+                Save();
+            }
         }
     }
 
-    public void UnlockCards(IEnumerable<string> cardIds)
+    public void UnlockCards(IEnumerable<string> cardIds, bool saveImmediately = true)
     {
         EnsureLoaded();
         if (cardIds == null)
@@ -168,7 +190,39 @@ public class ProgressionManager : MonoBehaviour
 
         if (changed)
         {
-            Save();
+            if (saveImmediately)
+            {
+                Save();
+            }
+        }
+    }
+
+    public HashSet<string> GetUnlockedCardIdSetSnapshot()
+    {
+        EnsureLoaded();
+        return new HashSet<string>(_profile.UnlockedCardIds ?? new List<string>(), StringComparer.OrdinalIgnoreCase);
+    }
+
+    public bool HasPurchasedProduct(string productId)
+    {
+        EnsureLoaded();
+        if (ContainsValue(_profile.PurchasedProductIds, productId))
+        {
+            return true;
+        }
+
+        return TryReloadProfileFromDisk() && ContainsValue(_profile.PurchasedProductIds, productId);
+    }
+
+    public void MarkProductPurchased(string productId, bool saveImmediately = true)
+    {
+        EnsureLoaded();
+        if (TryAddUnique(_profile.PurchasedProductIds, productId))
+        {
+            if (saveImmediately)
+            {
+                Save();
+            }
         }
     }
 
@@ -178,13 +232,48 @@ public class ProgressionManager : MonoBehaviour
         return ContainsValue(_profile.CompletedStoryNodeIds, nodeId);
     }
 
-    public void MarkStoryCompleted(string nodeId)
+    public bool MarkStoryCompleted(string nodeId, bool saveImmediately = true)
     {
         EnsureLoaded();
         if (TryAddUnique(_profile.CompletedStoryNodeIds, nodeId))
         {
-            Save();
+            if (saveImmediately)
+            {
+                Save();
+            }
+
+            return true;
         }
+
+        return false;
+    }
+
+    public bool HasStoryKey(string keyId)
+    {
+        EnsureLoaded();
+        return ContainsValue(_profile.EarnedStoryKeyIds, keyId);
+    }
+
+    public bool EarnStoryKey(string keyId, bool saveImmediately = true)
+    {
+        EnsureLoaded();
+        if (TryAddUnique(_profile.EarnedStoryKeyIds, keyId))
+        {
+            if (saveImmediately)
+            {
+                Save();
+            }
+
+            return true;
+        }
+
+        return false;
+    }
+
+    public HashSet<string> GetEarnedStoryKeyIdSetSnapshot()
+    {
+        EnsureLoaded();
+        return new HashSet<string>(_profile.EarnedStoryKeyIds ?? new List<string>(), StringComparer.OrdinalIgnoreCase);
     }
 
     public bool IsBoardCompleted(string duelId)
@@ -193,13 +282,20 @@ public class ProgressionManager : MonoBehaviour
         return ContainsValue(_profile.CompletedDuelBoardIds, duelId);
     }
 
-    public void MarkBoardCompleted(string duelId)
+    public bool MarkBoardCompleted(string duelId, bool saveImmediately = true)
     {
         EnsureLoaded();
         if (TryAddUnique(_profile.CompletedDuelBoardIds, duelId))
         {
-            Save();
+            if (saveImmediately)
+            {
+                Save();
+            }
+
+            return true;
         }
+
+        return false;
     }
 
     public bool HasClaimedPromo(string cardId)
@@ -208,19 +304,27 @@ public class ProgressionManager : MonoBehaviour
         return ContainsValue(_profile.ClaimedPromoCardIds, cardId);
     }
 
-    public void MarkPromoClaimed(string cardId)
+    public bool MarkPromoClaimed(string cardId, bool saveImmediately = true)
     {
         EnsureLoaded();
         if (TryAddUnique(_profile.ClaimedPromoCardIds, cardId))
         {
-            Save();
+            if (saveImmediately)
+            {
+                Save();
+            }
+
+            return true;
         }
+
+        return false;
     }
 
     public void ResetProfileForDev()
     {
         _profile = new PlayerProfileData
         {
+            SaveVersion = CurrentSaveVersion,
             Currency = NewProfileStartingCurrency,
         };
         EnsureCollectionsInitialized();
@@ -230,27 +334,51 @@ public class ProgressionManager : MonoBehaviour
 
     private static bool ContainsValue(List<string> values, string value)
     {
-        if (values == null || string.IsNullOrWhiteSpace(value))
+        if (values == null)
         {
             return false;
         }
 
-        return values.Contains(value);
+        string normalized = NormalizeValue(value);
+        if (string.IsNullOrEmpty(normalized))
+        {
+            return false;
+        }
+
+        for (int index = 0; index < values.Count; index++)
+        {
+            if (NormalizeValue(values[index]) == normalized)
+            {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     private static bool TryAddUnique(List<string> values, string value)
     {
-        if (values == null || string.IsNullOrWhiteSpace(value))
+        if (values == null)
         {
             return false;
         }
 
-        if (values.Contains(value))
+        string normalized = NormalizeValue(value);
+        if (string.IsNullOrEmpty(normalized))
         {
             return false;
         }
 
-        values.Add(value);
+        for (int index = 0; index < values.Count; index++)
+        {
+            if (NormalizeValue(values[index]) == normalized)
+            {
+                values[index] = normalized;
+                return false;
+            }
+        }
+
+        values.Add(normalized);
         return true;
     }
 
@@ -264,6 +392,39 @@ public class ProgressionManager : MonoBehaviour
         LoadOrCreate();
     }
 
+    private bool TryReloadProfileFromDisk()
+    {
+        try
+        {
+            if (!File.Exists(SavePath))
+            {
+                return false;
+            }
+
+            string json = File.ReadAllText(SavePath);
+            if (string.IsNullOrWhiteSpace(json))
+            {
+                return false;
+            }
+
+            PlayerProfileData loaded = JsonUtility.FromJson<PlayerProfileData>(json);
+            if (loaded == null)
+            {
+                return false;
+            }
+
+            _profile = loaded;
+            EnsureCollectionsInitialized();
+            _isLoaded = true;
+            return true;
+        }
+        catch (Exception exception)
+        {
+            Debug.LogWarning($"ProgressionManager: Failed to reload profile at {SavePath}. {exception.Message}");
+            return false;
+        }
+    }
+
     private void EnsureCollectionsInitialized()
     {
         if (_profile == null)
@@ -271,10 +432,37 @@ public class ProgressionManager : MonoBehaviour
             _profile = new PlayerProfileData();
         }
 
+        if (_profile.SaveVersion <= 0)
+        {
+            _profile.SaveVersion = 1;
+        }
+
         _profile.UnlockedCardIds ??= new List<string>();
+        _profile.PurchasedProductIds ??= new List<string>();
         _profile.CompletedStoryNodeIds ??= new List<string>();
+        _profile.EarnedStoryKeyIds ??= new List<string>();
         _profile.CompletedDuelBoardIds ??= new List<string>();
         _profile.ClaimedPromoCardIds ??= new List<string>();
+
+        NormalizeValues(_profile.UnlockedCardIds);
+        NormalizeValues(_profile.PurchasedProductIds);
+        NormalizeValues(_profile.CompletedStoryNodeIds);
+        NormalizeValues(_profile.EarnedStoryKeyIds);
+        NormalizeValues(_profile.CompletedDuelBoardIds);
+        NormalizeValues(_profile.ClaimedPromoCardIds);
+    }
+
+    private bool MigrateProfileIfNeeded()
+    {
+        EnsureCollectionsInitialized();
+
+        if (_profile.SaveVersion >= CurrentSaveVersion)
+        {
+            return false;
+        }
+
+        _profile.SaveVersion = CurrentSaveVersion;
+        return true;
     }
 
     private void Awake()
@@ -296,5 +484,48 @@ public class ProgressionManager : MonoBehaviour
         {
             _instance = null;
         }
+    }
+
+    private static void NormalizeValues(List<string> values)
+    {
+        if (values == null)
+        {
+            return;
+        }
+
+        for (int index = values.Count - 1; index >= 0; index--)
+        {
+            string normalized = NormalizeValue(values[index]);
+            if (string.IsNullOrEmpty(normalized))
+            {
+                values.RemoveAt(index);
+                continue;
+            }
+
+            values[index] = normalized;
+        }
+
+        for (int index = values.Count - 1; index >= 0; index--)
+        {
+            string normalized = values[index];
+            for (int innerIndex = index - 1; innerIndex >= 0; innerIndex--)
+            {
+                if (values[innerIndex] == normalized)
+                {
+                    values.RemoveAt(index);
+                    break;
+                }
+            }
+        }
+    }
+
+    private static string NormalizeValue(string value)
+    {
+        if (string.IsNullOrWhiteSpace(value))
+        {
+            return string.Empty;
+        }
+
+        return value.Trim().Replace("_", "-").ToUpperInvariant();
     }
 }

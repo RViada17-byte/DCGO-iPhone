@@ -7,7 +7,7 @@ public static class OfflineBootRuntime
     static void ConfigureOfflineBootMode()
     {
         BootstrapConfig.SetMode(GameMode.OfflineLocal);
-        BootstrapConfig.ConfigureOfflineDuel("ST1 Demo", "ST2 Demo", true);
+        BootstrapConfig.ClearOfflineDuelConfig();
         Debug.Log("[OfflineBootRuntime] Enabled offline local boot mode.");
     }
 #endif

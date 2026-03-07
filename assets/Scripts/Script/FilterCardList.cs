@@ -410,14 +410,11 @@ public class FilterCardList : MonoBehaviour
                     #endregion
 
                     #region card image name
-                    if (cEntity_Base.CardSprite != null)
+                    if (!string.IsNullOrEmpty(cEntity_Base.CardSpriteName))
                     {
-                        if (!string.IsNullOrEmpty(cEntity_Base.CardSprite.name))
+                        if (Convert(cEntity_Base.CardSpriteName).Contains(Convert(text)))
                         {
-                            if (Convert(cEntity_Base.CardSprite.name).Contains(Convert(text)))
-                            {
-                                return true;
-                            }
+                            return true;
                         }
                     }
                     #endregion
@@ -596,8 +593,24 @@ public class FilterCardList : MonoBehaviour
     }
 
     #region initialization
-    public void Init(UnityAction onClickSearchButtonAction)
+    public void Init(UnityAction onClickSearchButtonAction, IEnumerable<CEntity_Base> sourceCards = null)
     {
+        List<CEntity_Base> availableCards = new List<CEntity_Base>();
+
+        if (sourceCards != null)
+        {
+            availableCards = sourceCards
+                .Where(cEntity_Base => cEntity_Base != null)
+                .ToList();
+        }
+
+        else if (ContinuousController.instance != null)
+        {
+            availableCards = ContinuousController.instance.CardList
+                .Where(cEntity_Base => cEntity_Base != null)
+                .ToList();
+        }
+
         #region カード色
         for (int i = 0; i < _cardColorDropdowns.Count; i++)
         {
@@ -636,17 +649,12 @@ public class FilterCardList : MonoBehaviour
 
             costDropdown.AddOptions(new List<Dropdown.OptionData>() { new Dropdown.OptionData("All") });
 
-            if (ContinuousController.instance != null)
+            if (availableCards.Count > 0)
             {
                 List<int> playCosts = new List<int>();
 
-                foreach (CEntity_Base cEntity_Base in ContinuousController.instance.CardList)
+                foreach (CEntity_Base cEntity_Base in availableCards)
                 {
-                    if (cEntity_Base == null)
-                    {
-                        continue;
-                    }
-
                     if (!playCosts.Contains(cEntity_Base.PlayCost))
                     {
                         playCosts.Add(cEntity_Base.PlayCost);
@@ -693,17 +701,12 @@ public class FilterCardList : MonoBehaviour
 
             levelDropdown.AddOptions(new List<Dropdown.OptionData>() { new Dropdown.OptionData("All") });
 
-            if (ContinuousController.instance != null)
+            if (availableCards.Count > 0)
             {
                 List<int> levels = new List<int>();
 
-                foreach (CEntity_Base cEntity_Base in ContinuousController.instance.CardList)
+                foreach (CEntity_Base cEntity_Base in availableCards)
                 {
-                    if (cEntity_Base == null)
-                    {
-                        continue;
-                    }
-
                     if (!levels.Contains(cEntity_Base.Level))
                     {
                         levels.Add(cEntity_Base.Level);
@@ -748,17 +751,12 @@ public class FilterCardList : MonoBehaviour
 
             cardSetDropdown.AddOptions(new List<Dropdown.OptionData>() { new Dropdown.OptionData("All") });
 
-            if (ContinuousController.instance != null)
+            if (availableCards.Count > 0)
             {
                 List<string> setIDs = new List<string>();
 
-                foreach (CEntity_Base cEntity_Base in ContinuousController.instance.CardList)
+                foreach (CEntity_Base cEntity_Base in availableCards)
                 {
-                    if (cEntity_Base == null)
-                    {
-                        continue;
-                    }
-
                     if (!setIDs.Contains(cEntity_Base.SetID))
                     {
                         setIDs.Add(cEntity_Base.SetID);

@@ -42,6 +42,13 @@ public class CEntity_Base : ScriptableObject
     public int MaxCountInDeck = 4;
     public bool HasLoadStarted { get; set; } = false;
     public Sprite CardSprite { get; set; } = null;
+
+    public void ClearLoadedCardImageReference()
+    {
+        CardSprite = null;
+        HasLoadStarted = false;
+    }
+
     public async Task LoadCardImage()
     {
         if (String.IsNullOrEmpty(CardSpriteName))

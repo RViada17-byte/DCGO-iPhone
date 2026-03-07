@@ -57,6 +57,13 @@ public class ContinuousController : MonoBehaviour
         }
     }
     public DeckData LastBattleDeckData { get; private set; } = null;
+    public DeckData EnemyDeckData { get; set; } = null;
+
+    public void ClearBattleDeckSelections()
+    {
+        BattleDeckData = null;
+        EnemyDeckData = null;
+    }
 
     public bool NeedUpdate { get; set; }
 
@@ -123,6 +130,7 @@ public class ContinuousController : MonoBehaviour
     public CardRestriction BanList { get; private set; } = new CardRestriction(new List<CardLimitCount>(), new List<BannedPair>());
     readonly Dictionary<string, CEntity_Base> _offlineRuntimeCards = new Dictionary<string, CEntity_Base>(StringComparer.OrdinalIgnoreCase);
     int _nextOfflineRuntimeCardIndex = -1;
+    Coroutine _lowMemoryCleanupCoroutine;
 
     static readonly OfflineDeckCardSpec[] OfflineSt1EggDeckSpec = new[]
     {
@@ -134,18 +142,18 @@ public class ContinuousController : MonoBehaviour
         new OfflineDeckCardSpec("ST1-02", 4),
         new OfflineDeckCardSpec("ST1-03", 4),
         new OfflineDeckCardSpec("ST1-04", 4),
-        new OfflineDeckCardSpec("ST1-05", 3),
-        new OfflineDeckCardSpec("ST1-06", 3),
-        new OfflineDeckCardSpec("ST1-07", 4),
+        new OfflineDeckCardSpec("ST1-05", 4),
+        new OfflineDeckCardSpec("ST1-06", 4),
+        new OfflineDeckCardSpec("ST1-07", 2),
         new OfflineDeckCardSpec("ST1-08", 4),
         new OfflineDeckCardSpec("ST1-09", 4),
         new OfflineDeckCardSpec("ST1-10", 2),
         new OfflineDeckCardSpec("ST1-11", 4),
         new OfflineDeckCardSpec("ST1-12", 4),
-        new OfflineDeckCardSpec("ST1-13", 3),
-        new OfflineDeckCardSpec("ST1-14", 3),
-        new OfflineDeckCardSpec("ST1-15", 3),
-        new OfflineDeckCardSpec("ST1-16", 1),
+        new OfflineDeckCardSpec("ST1-13", 2),
+        new OfflineDeckCardSpec("ST1-14", 4),
+        new OfflineDeckCardSpec("ST1-15", 2),
+        new OfflineDeckCardSpec("ST1-16", 2),
     };
 
     static readonly OfflineDeckCardSpec[] OfflineSt2EggDeckSpec = new[]
@@ -159,18 +167,17 @@ public class ContinuousController : MonoBehaviour
         new OfflineDeckCardSpec("ST2-03", 4),
         new OfflineDeckCardSpec("ST2-04", 4),
         new OfflineDeckCardSpec("ST2-05", 4),
-        new OfflineDeckCardSpec("ST2-06", 4),
-        // User-provided list had 51 mains (ST2-07 x3). Keep legal 50-card main deck.
-        new OfflineDeckCardSpec("ST2-07", 2),
+        new OfflineDeckCardSpec("ST2-06", 2),
+        new OfflineDeckCardSpec("ST2-07", 4),
         new OfflineDeckCardSpec("ST2-08", 4),
         new OfflineDeckCardSpec("ST2-09", 4),
         new OfflineDeckCardSpec("ST2-10", 2),
-        new OfflineDeckCardSpec("ST2-11", 4),
+        new OfflineDeckCardSpec("ST2-11", 2),
         new OfflineDeckCardSpec("ST2-12", 4),
         new OfflineDeckCardSpec("ST2-13", 4),
         new OfflineDeckCardSpec("ST2-14", 4),
-        new OfflineDeckCardSpec("ST2-15", 1),
-        new OfflineDeckCardSpec("ST2-16", 1),
+        new OfflineDeckCardSpec("ST2-15", 2),
+        new OfflineDeckCardSpec("ST2-16", 2),
     };
 
     struct OfflineDeckCardSpec
@@ -517,6 +524,12 @@ public class ContinuousController : MonoBehaviour
     private void Awake()
     {
         instance = this;
+        Application.lowMemory += HandleLowMemory;
+    }
+
+    void OnDestroy()
+    {
+        Application.lowMemory -= HandleLowMemory;
     }
 
     public async void Init()
@@ -533,6 +546,8 @@ public class ContinuousController : MonoBehaviour
                 .OrderBy(card => card.CardIndex)
                 .ToArray();
         }
+
+        ApplySupportedCardScope();
 
         Sprite reverseCardSprite = await StreamingAssetsUtility.GetSprite("card_back_main");
 
@@ -602,6 +617,51 @@ public class ContinuousController : MonoBehaviour
         }
 
         DontDestroyOnLoad(gameObject);
+    }
+
+    void HandleLowMemory()
+    {
+        Debug.LogWarning("[ContinuousController] Low-memory warning received. Releasing cached card art references.");
+        ReleaseLoadedCardImageReferences();
+
+        if (_lowMemoryCleanupCoroutine == null)
+        {
+            _lowMemoryCleanupCoroutine = StartCoroutine(UnloadUnusedCardAssetsCoroutine());
+        }
+    }
+
+    IEnumerator UnloadUnusedCardAssetsCoroutine()
+    {
+        yield return Resources.UnloadUnusedAssets();
+        _lowMemoryCleanupCoroutine = null;
+    }
+
+    public void ReleaseLoadedCardImageReferences()
+    {
+        if (CardList != null)
+        {
+            foreach (CEntity_Base card in CardList)
+            {
+                card?.ClearLoadedCardImageReference();
+            }
+        }
+    }
+
+    void ApplySupportedCardScope()
+    {
+        if (CardList == null || CardList.Length == 0)
+        {
+            return;
+        }
+
+        List<CEntity_Base> supportedCards = DeckBuilderSetScope.FilterAllowedCards(CardList);
+        CardList = supportedCards.ToArray();
+        SortedCardList = supportedCards
+            .Where(card => card != null)
+            .OrderBy(card => card.CardIndex)
+            .ToArray();
+
+        Debug.Log($"[ContinuousController] Supported card scope applied. Cards in runtime pool: {CardList.Length}");
     }
 
     [Obsolete("This is obsolete, switching to save files")]
@@ -849,104 +909,19 @@ public class ContinuousController : MonoBehaviour
 
     void EnsureOfflineDemoDecks()
     {
-        bool IsUsableDeck(DeckData deckData)
-        {
-            if (deckData == null)
-            {
-                return false;
-            }
-
-            try
-            {
-                return deckData.IsValidDeckData();
-            }
-
-            catch (Exception exception)
-            {
-                Debug.LogWarning($"[ContinuousController] Ignoring invalid deck data during offline bootstrap: {exception.Message}");
-                return false;
-            }
-        }
-
-        if (BootstrapConfig.IsOfflineLocal)
-        {
-            if (DeckDatas == null)
-            {
-                DeckDatas = new List<DeckData>();
-            }
-
-            DeckDatas.RemoveAll(deckData =>
-                deckData != null &&
-                (
-                    string.Equals(deckData.DeckName, "ST1 Demo", StringComparison.OrdinalIgnoreCase) ||
-                    string.Equals(deckData.DeckName, "ST2 Demo", StringComparison.OrdinalIgnoreCase)
-                ));
-
-            DeckData st2OfflineDeck = GenerateManualDeck("ST2 Demo", OfflineSt2MainDeckSpec, OfflineSt2EggDeckSpec);
-            DeckData st1OfflineDeck = GenerateManualDeck("ST1 Demo", OfflineSt1MainDeckSpec, OfflineSt1EggDeckSpec);
-
-            if (st2OfflineDeck != null)
-            {
-                DeckDatas.Insert(0, st2OfflineDeck);
-            }
-
-            if (st1OfflineDeck != null)
-            {
-                DeckDatas.Insert(0, st1OfflineDeck);
-            }
-
-            foreach (DeckData deckData in DeckDatas.Where(deckData =>
-                deckData != null &&
-                (string.Equals(deckData.DeckName, "ST1 Demo", StringComparison.OrdinalIgnoreCase) ||
-                 string.Equals(deckData.DeckName, "ST2 Demo", StringComparison.OrdinalIgnoreCase))))
-            {
-                int mainCount = deckData.DeckCards().Count;
-                int eggCount = deckData.DigitamaDeckCards().Count;
-                bool isValid = deckData.IsValidDeckData();
-                Debug.Log($"[ContinuousController] Offline demo deck status -> Name:{deckData.DeckName} ID:{deckData.DeckID} Main:{mainCount} Eggs:{eggCount} Valid:{isValid}");
-            }
-
-            if (!DeckDatas.Any(IsUsableDeck))
-            {
-                DeckData fallbackDeck = GenerateDemoDeckFromSets("Offline Demo", Array.Empty<string>());
-                if (fallbackDeck != null)
-                {
-                    DeckDatas.Add(fallbackDeck);
-                }
-            }
-
-            return;
-        }
-
-        if (DeckDatas.Any(IsUsableDeck))
+        if (DeckDatas == null)
         {
             return;
         }
 
-        Debug.LogWarning("[ContinuousController] No valid decks found. Generating ST1/ST2 demo decks.");
-        DeckDatas = new List<DeckData>();
-
-        DeckData st1Deck = GenerateManualDeck("ST1 Demo", OfflineSt1MainDeckSpec, OfflineSt1EggDeckSpec);
-        DeckData st2Deck = GenerateManualDeck("ST2 Demo", OfflineSt2MainDeckSpec, OfflineSt2EggDeckSpec);
-
-        if (st1Deck != null)
-        {
-            DeckDatas.Add(st1Deck);
-        }
-
-        if (st2Deck != null)
-        {
-            DeckDatas.Add(st2Deck);
-        }
-
-        if (!DeckDatas.Any(IsUsableDeck))
-        {
-            DeckData fallbackDeck = GenerateDemoDeckFromSets("Offline Demo", Array.Empty<string>());
-            if (fallbackDeck != null)
-            {
-                DeckDatas.Add(fallbackDeck);
-            }
-        }
+        DeckDatas.RemoveAll(deckData =>
+            deckData != null &&
+            (
+                string.Equals(deckData.DeckName, "ST1 Demo", StringComparison.OrdinalIgnoreCase) ||
+                string.Equals(deckData.DeckName, "ST2 Demo", StringComparison.OrdinalIgnoreCase) ||
+                string.Equals(deckData.DeckName, "Offline Demo", StringComparison.OrdinalIgnoreCase) ||
+                (!string.IsNullOrWhiteSpace(deckData.DeckID) && deckData.DeckID.StartsWith("offline-", StringComparison.OrdinalIgnoreCase))
+            ));
     }
 
     DeckData GenerateDemoDeckFromSets(string deckName, IReadOnlyCollection<string> setIds)
@@ -1158,7 +1133,7 @@ public class ContinuousController : MonoBehaviour
         return card != null;
     }
 
-    CEntity_Base FindCardByIdOrSpriteName(string cardId)
+    public CEntity_Base FindCardByIdOrSpriteName(string cardId)
     {
         string normalizedCardId = NormalizeCardCode(cardId);
         return CardList.FirstOrDefault(entity =>
@@ -1466,11 +1441,14 @@ public class ContinuousController : MonoBehaviour
                 deckCards.Add(cEntity_Base);
             }
         }
-        Debug.Log($"Create Deck From File: {name}");
-        DeckData deckData = (new DeckData(DeckData.GetDeckCode(name, deckCards, digitamaDeckCards, null),id)).ModifiedDeckData();
 
-        deckData.KeyCardId = keyID;
+        Debug.Log($"Create Deck From File: {name}");
+
+        DeckData deckData = new DeckData(string.Empty, id);
         deckData.DeckName = name;
+        deckData.DeckCardIDs = deckCards.Select(card => card.CardIndex).ToList();
+        deckData.DigitamaDeckCardIDs = digitamaDeckCards.Select(card => card.CardIndex).ToList();
+        deckData.KeyCardId = keyID >= 0 ? keyID : (deckData.DeckCardIDs.Count > 0 ? deckData.DeckCardIDs[0] : -1);
         deckData.SortValue = index;
 
         DeckDatas.Insert(index, deckData);
@@ -1916,7 +1894,30 @@ public class ContinuousController : MonoBehaviour
 
         bool endedFromAiMatch = isAI;
         bool endedFromRandomMatch = isRandomMatch;
+        GameSessionContext sessionContext = GameSessionContext.Instance;
+        bool returnToStoryMode = endedFromAiMatch &&
+                                 sessionContext != null &&
+                                 sessionContext.Mode == SessionMode.Story &&
+                                 sessionContext.ReturnToStoryModeAfterBattle;
+        bool returnToDuelistBoardMode = endedFromAiMatch &&
+                                        sessionContext != null &&
+                                        sessionContext.Mode == SessionMode.DuelistBoard &&
+                                        sessionContext.ReturnToDuelistBoardAfterBattle;
         GameObject postBattleSelectionTarget = null;
+
+        if (sessionContext != null)
+        {
+            sessionContext.ClearSession();
+            if (!returnToStoryMode)
+            {
+                sessionContext.ClearStoryReturnState();
+            }
+
+            if (!returnToDuelistBoardMode)
+            {
+                sessionContext.ClearDuelistBoardReturnState();
+            }
+        }
 
         isAI = false;
 
@@ -1946,11 +1947,87 @@ public class ContinuousController : MonoBehaviour
             Debug.Log("Unload from Offline AI Match");
             yield return StartCoroutine(Opening.instance.battle.lobbyManager_RandomMatch.CloseLobbyCoroutine());
             Opening.instance.battle.OffBattle();
-            Opening.instance.home.SetUpHome();
 
-            if (Opening.instance.battle.BattleButton != null)
+            if (returnToStoryMode)
             {
-                postBattleSelectionTarget = Opening.instance.battle.BattleButton.gameObject;
+                MainMenuRouter router = Opening.instance.GetComponent<MainMenuRouter>();
+                if (router == null)
+                {
+                    router = FindObjectOfType<MainMenuRouter>();
+                }
+
+                StoryPanel storyPanel = null;
+                if (router != null)
+                {
+                    router.OpenStory();
+                    if (router.storyModeRoot != null)
+                    {
+                        storyPanel = router.storyModeRoot.GetComponent<StoryPanel>();
+                    }
+                }
+
+                if (storyPanel != null)
+                {
+                    postBattleSelectionTarget = storyPanel.GetPreferredSelectionTarget();
+                }
+                else
+                {
+                    if (sessionContext != null)
+                    {
+                        sessionContext.ClearStoryReturnState();
+                    }
+
+                    Opening.instance.home.SetUpHome();
+                    if (Opening.instance.battle.BattleButton != null)
+                    {
+                        postBattleSelectionTarget = Opening.instance.battle.BattleButton.gameObject;
+                    }
+                }
+            }
+            else if (returnToDuelistBoardMode)
+            {
+                MainMenuRouter router = Opening.instance.GetComponent<MainMenuRouter>();
+                if (router == null)
+                {
+                    router = FindObjectOfType<MainMenuRouter>();
+                }
+
+                DuelistBoardPanel duelistBoardPanel = null;
+                if (router != null)
+                {
+                    router.OpenDuelistBoard();
+                    if (router.duelistBoardModeRoot != null)
+                    {
+                        duelistBoardPanel = router.duelistBoardModeRoot.GetComponent<DuelistBoardPanel>();
+                    }
+                }
+
+                if (duelistBoardPanel != null)
+                {
+                    postBattleSelectionTarget = duelistBoardPanel.GetPreferredSelectionTarget();
+                }
+                else
+                {
+                    if (sessionContext != null)
+                    {
+                        sessionContext.ClearDuelistBoardReturnState();
+                    }
+
+                    Opening.instance.home.SetUpHome();
+                    if (Opening.instance.battle.BattleButton != null)
+                    {
+                        postBattleSelectionTarget = Opening.instance.battle.BattleButton.gameObject;
+                    }
+                }
+            }
+            else
+            {
+                Opening.instance.home.SetUpHome();
+
+                if (Opening.instance.battle.BattleButton != null)
+                {
+                    postBattleSelectionTarget = Opening.instance.battle.BattleButton.gameObject;
+                }
             }
         }
 
@@ -2229,6 +2306,11 @@ public class PhotonUtility
     #region Disconnected from Photon
     public static IEnumerator DisconnectCoroutine()
     {
+        if (PhotonNetwork.OfflineMode)
+        {
+            yield break;
+        }
+
         yield return ContinuousController.instance.StartCoroutine(CurrentTransport.Disconnect());
     }
     #endregion
@@ -2236,12 +2318,22 @@ public class PhotonUtility
     #region Connect to Photon server
     public static IEnumerator ConnectToMasterServerCoroutine()
     {
+        if (PhotonNetwork.OfflineMode)
+        {
+            yield break;
+        }
+
         yield return ContinuousController.instance.StartCoroutine(CurrentTransport.ConnectToMasterServer());
     }
     #endregion
     #region Connect to Photon Server and Lobby
     public static IEnumerator ConnectToLobbyCoroutine()
     {
+        if (PhotonNetwork.OfflineMode)
+        {
+            yield break;
+        }
+
         #region Connect to Photon server
         yield return ContinuousController.instance.StartCoroutine(CurrentTransport.ConnectToLobby());
         #endregion

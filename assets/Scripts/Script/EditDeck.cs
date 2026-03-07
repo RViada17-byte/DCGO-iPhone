@@ -66,7 +66,10 @@ public class EditDeck : MonoBehaviour
     int _oldKeyCardId = -1;
     bool _isFromClipboard = false;
     readonly List<CEntity_Base> _filteredPoolCards = new List<CEntity_Base>();
-    bool UseIPhoneDeckScroll => Application.platform == RuntimePlatform.IPhonePlayer;
+    // The unpaged iPhone path instantiated one pool prefab per filtered card,
+    // which is fine on desktop but gets jetsammed on device when opening deck edit.
+    bool UseIPhoneDeckScroll => false;
+    bool UseIPhoneSafeAreaLayout => Application.platform == RuntimePlatform.IPhonePlayer;
     Vector2 _createDeckDefaultAnchoredPosition;
     Vector3 _createDeckDefaultScale;
     bool _isCreateDeckDefaultLayoutCached;
@@ -161,7 +164,7 @@ public class EditDeck : MonoBehaviour
 
     void ApplyIPhoneCreateDeckLayout(bool force = false)
     {
-        if (!UseIPhoneDeckScroll || !Application.isMobilePlatform)
+        if (!UseIPhoneSafeAreaLayout || !Application.isMobilePlatform)
         {
             return;
         }
@@ -364,6 +367,7 @@ public class EditDeck : MonoBehaviour
                 else
                 {
                     poolPrefab.isActive = false;
+                    poolPrefab.HideCardImage();
                 }
             }
 
@@ -381,6 +385,7 @@ public class EditDeck : MonoBehaviour
             else
             {
                 _cardPoolPrefabs[i].isActive = false;
+                _cardPoolPrefabs[i].HideCardImage();
             }
         }
     }
@@ -457,6 +462,7 @@ public class EditDeck : MonoBehaviour
             {
                 if (!cardPrefab_CreateDeck.isActive)
                 {
+                    cardPrefab_CreateDeck.HideCardImage();
                     cardPrefab_CreateDeck.gameObject.SetActive(false);
                 }
 
@@ -466,7 +472,7 @@ public class EditDeck : MonoBehaviour
 
                     if (!((RectTransform)cardPrefab_CreateDeck.transform).IsVisibleFrom(Opening.instance.MainCamera))
                     {
-                        cardPrefab_CreateDeck.CardImage.transform.parent.gameObject.SetActive(false);
+                        cardPrefab_CreateDeck.HideCardImage();
                     }
 
                     else
@@ -567,8 +573,15 @@ public class EditDeck : MonoBehaviour
             }
 
             cardPrefab_CreateDeck.StopAllCoroutines();
+            cardPrefab_CreateDeck.HideCardImage();
 
             cardPrefab_CreateDeck.gameObject.SetActive(false);
+        }
+
+        if (Application.isMobilePlatform)
+        {
+            ContinuousController.instance.ReleaseLoadedCardImageReferences();
+            yield return Resources.UnloadUnusedAssets();
         }
 
         yield return new WaitUntil(() => DeckScroll.content.childCount == 0);
@@ -641,6 +654,8 @@ public class EditDeck : MonoBehaviour
         {
             return;
         }
+
+        ProgressionManager.Instance.LoadOrCreate();
 
         EnsureCardPoolScrollConfiguredForIPhone();
         SetPageUiVisible(!UseIPhoneDeckScroll);

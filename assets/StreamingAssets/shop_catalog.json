@@ -1,0 +1,508 @@
+{
+  "products": [
+    {
+      "id": "st1-structure",
+      "kind": "structureDeck",
+      "title": "Starter Deck Gaia Red [ST-1]",
+      "deckName": "ST1 Gaia Red",
+      "setId": "ST1",
+      "price": 500,
+      "repeatable": false,
+      "prereqStoryNodeIds": [],
+      "structureDeckCards": [
+        { "cardId": "ST1-01", "count": 4 },
+        { "cardId": "ST1-02", "count": 4 },
+        { "cardId": "ST1-03", "count": 4 },
+        { "cardId": "ST1-04", "count": 4 },
+        { "cardId": "ST1-05", "count": 4 },
+        { "cardId": "ST1-06", "count": 4 },
+        { "cardId": "ST1-07", "count": 2 },
+        { "cardId": "ST1-08", "count": 4 },
+        { "cardId": "ST1-09", "count": 4 },
+        { "cardId": "ST1-10", "count": 2 },
+        { "cardId": "ST1-11", "count": 4 },
+        { "cardId": "ST1-12", "count": 4 },
+        { "cardId": "ST1-13", "count": 2 },
+        { "cardId": "ST1-14", "count": 4 },
+        { "cardId": "ST1-15", "count": 2 },
+        { "cardId": "ST1-16", "count": 2 }
+      ]
+    },
+    {
+      "id": "st2-structure",
+      "kind": "structureDeck",
+      "title": "Starter Deck Cocytus Blue [ST-2]",
+      "deckName": "ST2 Cocytus Blue",
+      "setId": "ST2",
+      "price": 500,
+      "repeatable": false,
+      "prereqStoryNodeIds": [],
+      "structureDeckCards": [
+        { "cardId": "ST2-01", "count": 4 },
+        { "cardId": "ST2-02", "count": 4 },
+        { "cardId": "ST2-03", "count": 4 },
+        { "cardId": "ST2-04", "count": 4 },
+        { "cardId": "ST2-05", "count": 4 },
+        { "cardId": "ST2-06", "count": 2 },
+        { "cardId": "ST2-07", "count": 4 },
+        { "cardId": "ST2-08", "count": 4 },
+        { "cardId": "ST2-09", "count": 4 },
+        { "cardId": "ST2-10", "count": 2 },
+        { "cardId": "ST2-11", "count": 2 },
+        { "cardId": "ST2-12", "count": 4 },
+        { "cardId": "ST2-13", "count": 4 },
+        { "cardId": "ST2-14", "count": 4 },
+        { "cardId": "ST2-15", "count": 2 },
+        { "cardId": "ST2-16", "count": 2 }
+      ]
+    },
+    {
+      "id": "st3-structure",
+      "kind": "structureDeck",
+      "title": "Starter Deck Heaven's Yellow [ST-3]",
+      "deckName": "ST3 Heaven's Yellow",
+      "setId": "ST3",
+      "price": 500,
+      "repeatable": false,
+      "prereqStoryNodeIds": [],
+      "structureDeckCards": [
+        { "cardId": "ST3-01", "count": 4 },
+        { "cardId": "ST3-02", "count": 4 },
+        { "cardId": "ST3-03", "count": 4 },
+        { "cardId": "ST3-04", "count": 4 },
+        { "cardId": "ST3-05", "count": 4 },
+        { "cardId": "ST3-06", "count": 4 },
+        { "cardId": "ST3-07", "count": 2 },
+        { "cardId": "ST3-08", "count": 4 },
+        { "cardId": "ST3-09", "count": 4 },
+        { "cardId": "ST3-10", "count": 2 },
+        { "cardId": "ST3-11", "count": 4 },
+        { "cardId": "ST3-12", "count": 4 },
+        { "cardId": "ST3-13", "count": 2 },
+        { "cardId": "ST3-14", "count": 4 },
+        { "cardId": "ST3-15", "count": 2 },
+        { "cardId": "ST3-16", "count": 2 }
+      ]
+    },
+    {
+      "id": "st4-structure",
+      "kind": "structureDeck",
+      "title": "Starter Deck Giga Green [ST-4]",
+      "deckName": "ST4 Giga Green",
+      "setId": "ST4",
+      "price": 500,
+      "repeatable": false,
+      "prereqStoryNodeIds": [],
+      "structureDeckCards": [
+        { "cardId": "ST4-01", "count": 4 },
+        { "cardId": "ST4-02", "count": 4 },
+        { "cardId": "ST4-03", "count": 4 },
+        { "cardId": "ST4-04", "count": 4 },
+        { "cardId": "ST4-05", "count": 4 },
+        { "cardId": "ST4-06", "count": 2 },
+        { "cardId": "ST4-07", "count": 4 },
+        { "cardId": "ST4-08", "count": 4 },
+        { "cardId": "ST4-09", "count": 4 },
+        { "cardId": "ST4-10", "count": 2 },
+        { "cardId": "ST4-11", "count": 2 },
+        { "cardId": "ST4-12", "count": 4 },
+        { "cardId": "ST4-13", "count": 4 },
+        { "cardId": "ST4-14", "count": 4 },
+        { "cardId": "ST4-15", "count": 2 },
+        { "cardId": "ST4-16", "count": 2 }
+      ]
+    },
+    {
+      "id": "st5-structure",
+      "kind": "structureDeck",
+      "title": "Starter Deck Machine Black [ST-5]",
+      "deckName": "ST5 Machine Black",
+      "setId": "ST5",
+      "price": 500,
+      "repeatable": false,
+      "prereqStoryNodeIds": [],
+      "structureDeckCards": [
+        { "cardId": "ST5-01", "count": 4 },
+        { "cardId": "ST5-02", "count": 4 },
+        { "cardId": "ST5-03", "count": 4 },
+        { "cardId": "ST5-04", "count": 4 },
+        { "cardId": "ST5-05", "count": 4 },
+        { "cardId": "ST5-06", "count": 2 },
+        { "cardId": "ST5-07", "count": 4 },
+        { "cardId": "ST5-08", "count": 4 },
+        { "cardId": "ST5-09", "count": 4 },
+        { "cardId": "ST5-10", "count": 2 },
+        { "cardId": "ST5-11", "count": 4 },
+        { "cardId": "ST5-12", "count": 4 },
+        { "cardId": "ST5-13", "count": 2 },
+        { "cardId": "ST5-14", "count": 4 },
+        { "cardId": "ST5-15", "count": 2 },
+        { "cardId": "ST5-16", "count": 2 }
+      ]
+    },
+    {
+      "id": "st6-structure",
+      "kind": "structureDeck",
+      "title": "Starter Deck Venomous Violet [ST-6]",
+      "deckName": "ST6 Venomous Violet",
+      "setId": "ST6",
+      "price": 500,
+      "repeatable": false,
+      "prereqStoryNodeIds": [],
+      "structureDeckCards": [
+        { "cardId": "ST6-01", "count": 4 },
+        { "cardId": "ST6-02", "count": 4 },
+        { "cardId": "ST6-03", "count": 4 },
+        { "cardId": "ST6-04", "count": 4 },
+        { "cardId": "ST6-05", "count": 4 },
+        { "cardId": "ST6-06", "count": 2 },
+        { "cardId": "ST6-07", "count": 4 },
+        { "cardId": "ST6-08", "count": 4 },
+        { "cardId": "ST6-09", "count": 4 },
+        { "cardId": "ST6-10", "count": 2 },
+        { "cardId": "ST6-11", "count": 2 },
+        { "cardId": "ST6-12", "count": 4 },
+        { "cardId": "ST6-13", "count": 4 },
+        { "cardId": "ST6-14", "count": 4 },
+        { "cardId": "ST6-15", "count": 2 },
+        { "cardId": "ST6-16", "count": 2 }
+      ]
+    },
+    {
+      "id": "bt1-pack",
+      "kind": "boosterPack",
+      "title": "Booster Pack New Evolution [BT-1]",
+      "setId": "BT1",
+      "price": 250,
+      "repeatable": true,
+      "prereqStoryNodeIds": [],
+      "packRules": {
+        "cardsPerPack": 12,
+        "guaranteedNewCards": 5,
+        "randomCards": 7
+      }
+    },
+    {
+      "id": "bt2-pack",
+      "kind": "boosterPack",
+      "title": "Booster Pack Ultimate Power [BT-2]",
+      "setId": "BT2",
+      "price": 250,
+      "repeatable": true,
+      "prereqStoryNodeIds": [],
+      "packRules": {
+        "cardsPerPack": 12,
+        "guaranteedNewCards": 5,
+        "randomCards": 7
+      }
+    },
+    {
+      "id": "bt3-pack",
+      "kind": "boosterPack",
+      "title": "Booster Pack Union Impact [BT-3]",
+      "setId": "BT3",
+      "price": 250,
+      "repeatable": true,
+      "prereqStoryNodeIds": [],
+      "packRules": {
+        "cardsPerPack": 12,
+        "guaranteedNewCards": 5,
+        "randomCards": 7
+      }
+    },
+    {
+      "id": "bt4-pack",
+      "kind": "boosterPack",
+      "title": "Booster Pack Great Legend [BT-4]",
+      "setId": "BT4",
+      "price": 250,
+      "repeatable": true,
+      "prereqStoryNodeIds": ["story.act1.adventure.03_joe"],
+      "packRules": {
+        "cardsPerPack": 12,
+        "guaranteedNewCards": 5,
+        "randomCards": 7
+      }
+    },
+    {
+      "id": "bt5-pack",
+      "kind": "boosterPack",
+      "title": "Booster Pack Battle of Omni [BT-5]",
+      "setId": "BT5",
+      "price": 250,
+      "repeatable": true,
+      "prereqStoryNodeIds": ["story.act1.adventure.06_kari"],
+      "packRules": {
+        "cardsPerPack": 12,
+        "guaranteedNewCards": 5,
+        "randomCards": 7
+      }
+    },
+    {
+      "id": "bt6-pack",
+      "kind": "boosterPack",
+      "title": "Booster Pack Double Diamond [BT-6]",
+      "setId": "BT6",
+      "price": 250,
+      "repeatable": true,
+      "prereqStoryNodeIds": ["story.act1.adventure.08_tai"],
+      "packRules": {
+        "cardsPerPack": 12,
+        "guaranteedNewCards": 5,
+        "randomCards": 7
+      }
+    },
+    {
+      "id": "ex1-pack",
+      "kind": "boosterPack",
+      "title": "Booster Pack Classic Collection [EX-1]",
+      "setId": "EX1",
+      "price": 250,
+      "repeatable": true,
+      "prereqStoryNodeIds": ["story.act1.frontier.03_tommy"],
+      "packRules": {
+        "cardsPerPack": 12,
+        "guaranteedNewCards": 5,
+        "randomCards": 7
+      }
+    },
+    {
+      "id": "bt7-pack",
+      "kind": "boosterPack",
+      "title": "Booster Pack Next Adventure [BT-7]",
+      "setId": "BT7",
+      "price": 250,
+      "repeatable": true,
+      "prereqStoryNodeIds": ["story.act1.frontier.06_takuya"],
+      "packRules": {
+        "cardsPerPack": 12,
+        "guaranteedNewCards": 5,
+        "randomCards": 7
+      }
+    },
+    {
+      "id": "st7-set",
+      "kind": "boosterPack",
+      "title": "Starter Set Gallantmon [ST-7]",
+      "setId": "ST7",
+      "price": 500,
+      "repeatable": false,
+      "prereqStoryNodeIds": ["story.act1.frontier.06_takuya"],
+      "packRules": {
+        "cardsPerPack": 27,
+        "guaranteedNewCards": 27,
+        "randomCards": 0
+      }
+    },
+    {
+      "id": "st8-set",
+      "kind": "boosterPack",
+      "title": "Starter Set UlforceVeedramon [ST-8]",
+      "setId": "ST8",
+      "price": 500,
+      "repeatable": false,
+      "prereqStoryNodeIds": ["story.act1.frontier.06_takuya"],
+      "packRules": {
+        "cardsPerPack": 21,
+        "guaranteedNewCards": 21,
+        "randomCards": 0
+      }
+    },
+    {
+      "id": "bt8-pack",
+      "kind": "boosterPack",
+      "title": "Booster Pack New Awakening [BT-8]",
+      "setId": "BT8",
+      "price": 250,
+      "repeatable": true,
+      "prereqStoryNodeIds": ["story.act1.adventure02.03_cody"],
+      "packRules": {
+        "cardsPerPack": 12,
+        "guaranteedNewCards": 5,
+        "randomCards": 7
+      }
+    },
+    {
+      "id": "bt9-pack",
+      "kind": "boosterPack",
+      "title": "Booster Pack X Record [BT-9]",
+      "setId": "BT9",
+      "price": 250,
+      "repeatable": true,
+      "prereqStoryNodeIds": ["story.act1.adventure02.05_tk"],
+      "packRules": {
+        "cardsPerPack": 12,
+        "guaranteedNewCards": 5,
+        "randomCards": 7
+      }
+    },
+    {
+      "id": "bt10-pack",
+      "kind": "boosterPack",
+      "title": "Booster Pack Xros Encounter [BT-10]",
+      "setId": "BT10",
+      "price": 250,
+      "repeatable": true,
+      "prereqStoryNodeIds": ["story.act1.adventure02.07_ken"],
+      "packRules": {
+        "cardsPerPack": 12,
+        "guaranteedNewCards": 5,
+        "randomCards": 7
+      }
+    },
+    {
+      "id": "st9-set",
+      "kind": "boosterPack",
+      "title": "Starter Set Ultimate Ancient Dragon [ST-9]",
+      "setId": "ST9",
+      "price": 500,
+      "repeatable": false,
+      "prereqStoryNodeIds": ["story.act1.adventure02.07_ken"],
+      "packRules": {
+        "cardsPerPack": 33,
+        "guaranteedNewCards": 33,
+        "randomCards": 0
+      }
+    },
+    {
+      "id": "st10-set",
+      "kind": "boosterPack",
+      "title": "Starter Set Parallel World Tactician [ST-10]",
+      "setId": "ST10",
+      "price": 500,
+      "repeatable": false,
+      "prereqStoryNodeIds": ["story.act1.adventure02.07_ken"],
+      "packRules": {
+        "cardsPerPack": 23,
+        "guaranteedNewCards": 23,
+        "randomCards": 0
+      }
+    },
+    {
+      "id": "ex2-pack",
+      "kind": "boosterPack",
+      "title": "Booster Pack Digital Hazard [EX-2]",
+      "setId": "EX2",
+      "price": 250,
+      "repeatable": true,
+      "prereqStoryNodeIds": ["story.act1.tamers.02_rika"],
+      "packRules": {
+        "cardsPerPack": 12,
+        "guaranteedNewCards": 5,
+        "randomCards": 7
+      }
+    },
+    {
+      "id": "ex3-pack",
+      "kind": "boosterPack",
+      "title": "Booster Pack Draconic Roar [EX-3]",
+      "setId": "EX3",
+      "price": 250,
+      "repeatable": true,
+      "prereqStoryNodeIds": ["story.act1.tamers.05_marcus"],
+      "packRules": {
+        "cardsPerPack": 12,
+        "guaranteedNewCards": 5,
+        "randomCards": 7
+      }
+    },
+    {
+      "id": "bt11-pack",
+      "kind": "boosterPack",
+      "title": "Booster Pack Dimensional Phase [BT-11]",
+      "setId": "BT11",
+      "price": 250,
+      "repeatable": true,
+      "prereqStoryNodeIds": ["story.act1.tamers.07_takato"],
+      "packRules": {
+        "cardsPerPack": 12,
+        "guaranteedNewCards": 5,
+        "randomCards": 7
+      }
+    },
+    {
+      "id": "bt12-pack",
+      "kind": "boosterPack",
+      "title": "Booster Pack Across Time [BT-12]",
+      "setId": "BT12",
+      "price": 250,
+      "repeatable": true,
+      "prereqStoryNodeIds": ["story.act1.tamers.07_takato"],
+      "packRules": {
+        "cardsPerPack": 12,
+        "guaranteedNewCards": 5,
+        "randomCards": 7
+      }
+    },
+    {
+      "id": "ex4-pack",
+      "kind": "boosterPack",
+      "title": "Booster Pack Alternative Being [EX-4]",
+      "setId": "EX4",
+      "price": 250,
+      "repeatable": true,
+      "prereqStoryNodeIds": ["story.act1.tamers.07_takato"],
+      "packRules": {
+        "cardsPerPack": 12,
+        "guaranteedNewCards": 5,
+        "randomCards": 7
+      }
+    },
+    {
+      "id": "st12-set",
+      "kind": "boosterPack",
+      "title": "Starter Set Jesmon [ST-12]",
+      "setId": "ST12",
+      "price": 500,
+      "repeatable": false,
+      "prereqStoryNodeIds": ["story.act1.tamers.07_takato"],
+      "packRules": {
+        "cardsPerPack": 21,
+        "guaranteedNewCards": 21,
+        "randomCards": 0
+      }
+    },
+    {
+      "id": "st13-set",
+      "kind": "boosterPack",
+      "title": "Starter Set RagnaLoardmon [ST-13]",
+      "setId": "ST13",
+      "price": 500,
+      "repeatable": false,
+      "prereqStoryNodeIds": ["story.act1.tamers.07_takato"],
+      "packRules": {
+        "cardsPerPack": 19,
+        "guaranteedNewCards": 19,
+        "randomCards": 0
+      }
+    },
+    {
+      "id": "st14-set",
+      "kind": "boosterPack",
+      "title": "Starter Set Beelzemon [ST-14]",
+      "setId": "ST14",
+      "price": 500,
+      "repeatable": false,
+      "prereqStoryNodeIds": ["story.act1.tamers.07_takato"],
+      "packRules": {
+        "cardsPerPack": 26,
+        "guaranteedNewCards": 26,
+        "randomCards": 0
+      }
+    },
+    {
+      "id": "promo-pack",
+      "kind": "boosterPack",
+      "title": "Promo Pack [P]",
+      "setId": "P",
+      "price": 1000,
+      "repeatable": true,
+      "prereqStoryNodeIds": [],
+      "packRules": {
+        "cardsPerPack": 2,
+        "guaranteedNewCards": 1,
+        "randomCards": 1
+      }
+    }
+  ]
+}

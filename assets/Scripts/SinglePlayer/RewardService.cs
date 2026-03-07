@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 public static class RewardService
 {
     private static Player _latestWinner;
@@ -26,7 +28,7 @@ public static class RewardService
         if (playerWon)
         {
             ProgressionManager progressionManager = ProgressionManager.Instance;
-            progressionManager.AddCurrency(session.RewardCurrencyOnWin);
+            progressionManager.AddCurrency(session.RewardCurrencyOnWin, saveImmediately: false);
 
             if (!string.IsNullOrWhiteSpace(session.RewardPromoCardIdOnWin))
             {
@@ -35,18 +37,19 @@ public static class RewardService
 
                 if (shouldGrantPromo)
                 {
-                    progressionManager.UnlockCard(session.RewardPromoCardIdOnWin);
-                    progressionManager.MarkPromoClaimed(session.RewardPromoCardIdOnWin);
+                    progressionManager.UnlockCard(session.RewardPromoCardIdOnWin, saveImmediately: false);
+                    progressionManager.MarkPromoClaimed(session.RewardPromoCardIdOnWin, saveImmediately: false);
                 }
             }
 
             if (session.Mode == SessionMode.Story)
             {
-                progressionManager.MarkStoryCompleted(session.ContentId);
+                bool firstClear = progressionManager.MarkStoryCompleted(session.ContentId, saveImmediately: false);
+                ApplyStoryUnlockGrants(session, progressionManager, firstClear);
             }
             else if (session.Mode == SessionMode.DuelistBoard)
             {
-                progressionManager.MarkBoardCompleted(session.ContentId);
+                progressionManager.MarkBoardCompleted(session.ContentId, saveImmediately: false);
             }
 
             progressionManager.Save();
@@ -77,5 +80,84 @@ public static class RewardService
         }
 
         return null;
+    }
+
+    private static void ApplyStoryUnlockGrants(GameSessionContext session, ProgressionManager progressionManager, bool firstClear)
+    {
+        if (!firstClear || session == null || progressionManager == null)
+        {
+            return;
+        }
+
+        StoryEncounterDef encounter = StoryDatabase.Instance.GetEncounter(session.ContentId);
+        if (encounter != null && !string.IsNullOrWhiteSpace(encounter.postWinSceneId))
+        {
+            session.SetPendingStoryScene(encounter.postWinSceneId);
+        }
+
+        if (encounter?.unlockGrants == null || encounter.unlockGrants.Length == 0)
+        {
+            return;
+        }
+
+        List<string> summaryLines = new List<string>();
+        for (int index = 0; index < encounter.unlockGrants.Length; index++)
+        {
+            StoryUnlockGrantDef grant = encounter.unlockGrants[index];
+            if (grant == null)
+            {
+                continue;
+            }
+
+            string message = BuildGrantMessage(grant);
+            switch (grant.Kind)
+            {
+                case StoryUnlockGrantKind.StoryKey:
+                    if (progressionManager.EarnStoryKey(grant.id, saveImmediately: false) && !string.IsNullOrWhiteSpace(message))
+                    {
+                        summaryLines.Add(message);
+                    }
+                    break;
+
+                case StoryUnlockGrantKind.ShopSet:
+                case StoryUnlockGrantKind.WorldUnlock:
+                    if (!string.IsNullOrWhiteSpace(message))
+                    {
+                        summaryLines.Add(message);
+                    }
+                    break;
+            }
+        }
+
+        session.SetPendingStoryRewardLines(summaryLines);
+    }
+
+    private static string BuildGrantMessage(StoryUnlockGrantDef grant)
+    {
+        if (grant == null)
+        {
+            return string.Empty;
+        }
+
+        if (!string.IsNullOrWhiteSpace(grant.message))
+        {
+            return grant.message.Trim();
+        }
+
+        string title = string.IsNullOrWhiteSpace(grant.title) ? grant.id : grant.title;
+        switch (grant.Kind)
+        {
+            case StoryUnlockGrantKind.ShopSet:
+                return string.IsNullOrWhiteSpace(title) ? string.Empty : $"Shop unlocked: {title}";
+
+            case StoryUnlockGrantKind.StoryKey:
+                return string.IsNullOrWhiteSpace(title) ? string.Empty : $"Key obtained: {title}";
+
+            case StoryUnlockGrantKind.WorldUnlock:
+                return string.IsNullOrWhiteSpace(title) ? string.Empty : $"World unlocked: {title}";
+
+            default:
+                return string.IsNullOrWhiteSpace(title) ? string.Empty : title;
+        }
     }
 }

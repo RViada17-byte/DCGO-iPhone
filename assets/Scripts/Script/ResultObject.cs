@@ -110,5 +110,15 @@ public class ResultObject : MonoBehaviour
         }
 
         PlayLog.OnAddLog?.Invoke(log);
+
+        try
+        {
+            RewardService.SetLatestWinner(Winner);
+            RewardService.GrantWinRewardsIfEligible();
+        }
+        catch (Exception exception)
+        {
+            Debug.LogWarning($"RewardService: Failed to grant win rewards. {exception.Message}");
+        }
     }
 }

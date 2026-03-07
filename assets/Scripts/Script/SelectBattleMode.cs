@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using System.Linq;
@@ -69,29 +68,11 @@ public class SelectBattleMode : MonoBehaviour
 
     public void StartSelectBattleMode()
     {
-        if (!BootstrapConfig.ShowLegacyBattleModeChooser)
-        {
-            ContinuousController.instance.StartCoroutine(StartOfflineFlowCoroutine(() => StartSelectBattleDeck(true)));
-            return;
-        }
-
         List<UnityAction> Commands = new List<UnityAction>()
             {
                 () =>
                 {
-                    //ランダムマッチ
-                    ContinuousController.instance.StartCoroutine(StartOnlineFlowCoroutine(() => StartSelectBattleDeck(false)));
-                },
-
-                () =>
-                {
-                    //ルームマッチ
-                    ContinuousController.instance.StartCoroutine(StartOnlineFlowCoroutine(StartSelectRoomMatch));
-                },
-
-                () =>
-                {
-                    //AI戦
+                    //シングルプレイヤー対戦
                     ContinuousController.instance.StartCoroutine(StartOfflineFlowCoroutine(() => StartSelectBattleDeck(true)));
                 },
             };
@@ -99,16 +80,8 @@ public class SelectBattleMode : MonoBehaviour
         List<string> CommandTexts = new List<string>()
             {
                 LocalizeUtility.GetLocalizedString(
-                    EngMessage:"Random Match",
-                    JpnMessage:"ランダムマッチ"
-                ),
-                LocalizeUtility.GetLocalizedString(
-                    EngMessage:"Room Match",
-                    JpnMessage:"ルームマッチ"
-                ),
-                LocalizeUtility.GetLocalizedString(
-                    EngMessage:"Bot Match",
-                    JpnMessage:"Bot戦"
+                    EngMessage:"Single Player Duel",
+                    JpnMessage:"シングルプレイヤー対戦"
                 ),
             };
 
@@ -120,25 +93,6 @@ public class SelectBattleMode : MonoBehaviour
                     JpnMessage: "対戦モードを選択してください"
                 ),
             true);
-    }
-
-    IEnumerator StartOnlineFlowCoroutine(UnityAction onReady)
-    {
-        if (connecting)
-        {
-            yield break;
-        }
-
-        connecting = true;
-        BootstrapConfig.SetMode(GameMode.Online);
-
-        yield return ContinuousController.instance.StartCoroutine(loadingObject.StartLoading("Connecting"));
-        yield return ContinuousController.instance.StartCoroutine(PhotonUtility.ConnectToLobbyCoroutine());
-        yield return ContinuousController.instance.StartCoroutine(PhotonUtility.DeleteBattleDeckData());
-        yield return ContinuousController.instance.StartCoroutine(loadingObject.EndLoading());
-
-        connecting = false;
-        onReady?.Invoke();
     }
 
     IEnumerator StartOfflineFlowCoroutine(UnityAction onReady)
@@ -153,7 +107,6 @@ public class SelectBattleMode : MonoBehaviour
 
         yield return ContinuousController.instance.StartCoroutine(loadingObject.StartLoading("Preparing Offline Match"));
         yield return ContinuousController.instance.StartCoroutine(MatchTransportFactory.CurrentTransport.ConnectToMasterServer());
-        yield return ContinuousController.instance.StartCoroutine(PhotonUtility.DeleteBattleDeckData());
         yield return ContinuousController.instance.StartCoroutine(loadingObject.EndLoading());
 
         connecting = false;
@@ -174,11 +127,7 @@ public class SelectBattleMode : MonoBehaviour
         ContinuousController.instance.isAI = isAI;
         ContinuousController.instance.isRandomMatch = true;
         BootstrapConfig.SetMode(isAI ? GameMode.OfflineLocal : GameMode.Online);
-
-        if (!BootstrapConfig.AutoStartOfflineDuel)
-        {
-            BootstrapConfig.ClearOfflineDuelConfig();
-        }
+        BootstrapConfig.ClearOfflineDuelConfig();
 
         Opening.instance.battle.selectBattleDeck.Off();
 
@@ -189,45 +138,31 @@ public class SelectBattleMode : MonoBehaviour
 
         else
         {
-            if (BootstrapConfig.AutoStartOfflineDuel)
-            {
-                DeckData playerDeck = null;
-
-                if (!string.IsNullOrWhiteSpace(BootstrapConfig.OfflinePlayerDeckSelector))
-                {
-                    playerDeck = ContinuousController.instance.FindDeckDataBySelector(BootstrapConfig.OfflinePlayerDeckSelector);
-                }
-
-                if (playerDeck == null)
-                {
-                    playerDeck = ContinuousController.instance.FindDeckDataBySelector("ST1 Demo");
-                }
-
-                if (playerDeck == null)
-                {
-                    playerDeck = ContinuousController.instance.FirstValidDeckData();
-                }
-
-                if (playerDeck != null)
-                {
-                    ContinuousController.instance.BattleDeckData = playerDeck;
-                }
-
-                ContinuousController.instance.StartCoroutine(StartBattleCoroutine());
-                return;
-            }
-
             List<DeckData> validDeckDatas = ContinuousController.instance.DeckDatas
-                .Where(deckData => deckData != null && deckData.IsValidDeckData())
+                .Where(deckData =>
+                    deckData != null &&
+                    deckData.IsValidDeckData() &&
+                    DeckBuilderSetScope.IsAllowedDeck(deckData))
                 .ToList();
 
             if (validDeckDatas.Count == 0)
             {
-                DeckData fallbackDeck = ContinuousController.instance.FirstValidDeckData();
-                if (fallbackDeck != null)
+                List<UnityAction> Commands = new List<UnityAction>()
                 {
-                    validDeckDatas.Add(fallbackDeck);
-                }
+                    () => Opening.instance.deck.SetUpDeckMode()
+                };
+
+                List<string> CommandTexts = new List<string>()
+                {
+                    "OK"
+                };
+
+                string message = LocalizeUtility.GetLocalizedString(
+                    EngMessage: "No valid unlocked ST1-ST6/BT1-BT6 decks found.\nBuy a structure deck or build one in Deck Editor first.",
+                    JpnMessage: "ST1-ST6/BT1-BT6の有効なデッキがありません。\n先にショップで購入するか、デッキ編集で作成してください。");
+
+                Opening.instance.SetUpActiveYesNoObject(Commands, CommandTexts, message, false);
+                return;
             }
 
             string playerDeckTitle = LocalizeUtility.GetLocalizedString(
@@ -292,27 +227,7 @@ public class SelectBattleMode : MonoBehaviour
             enterRoom.Close_(false);
             Opening.instance.battle.selectBattleDeck.Off();
 
-            ContinuousController.instance.StartCoroutine(Opening.instance.OpeningBGM.FadeOut(0.1f));
-            yield return ContinuousController.instance.StartCoroutine(Opening.instance.LoadingObject.StartLoading("Now Loading"));
-
-            if (ContinuousController.instance.isAI)
-            {
-                yield return ContinuousController.instance.StartCoroutine(MatchTransportFactory.CurrentTransport.EnsureSoloRoom());
-            }
-
-            foreach (Camera camera in Opening.instance.openingCameras)
-            {
-                camera.gameObject.SetActive(false);
-            }
-
-            Opening.instance.OffYesNoObjects();
-
-            Opening.instance.deck.trialDraw.Close();
-
-            Opening.instance.deck.deckListPanel.Close();
-
-            yield return new WaitForSeconds(0.1f);
-            SceneManager.LoadSceneAsync("BattleScene", LoadSceneMode.Additive);
+            yield return ContinuousController.instance.StartCoroutine(SinglePlayerBattleLoader.LoadBattleSceneAdditiveCoroutine());
         }
     }
 
@@ -348,51 +263,7 @@ public class SelectBattleMode : MonoBehaviour
 
     public void StartSelectRoomMatch()
     {
-        Opening.instance.OffYesNoObjects();
-
-        Opening.instance.deck.trialDraw.Close();
-
-        Opening.instance.deck.deckListPanel.Close();
-
-        Opening.instance.battle.selectBattleDeck.Off();
-        ContinuousController.instance.isAI = false;
-        BootstrapConfig.SetMode(GameMode.Online);
-
-        List<UnityAction> Commands = new List<UnityAction>()
-            {
-                () =>
-                {
-                    //部屋を作る
-                    StartCreateRoom();
-                },
-
-                () =>
-                {
-                    //部屋に入る
-                    StartEnterRoomID();
-                },
-            };
-
-        List<string> CommandTexts = new List<string>()
-            {
-                LocalizeUtility.GetLocalizedString(
-                    EngMessage:"Create Room",
-                    JpnMessage:"ルーム作成"
-                ),
-                LocalizeUtility.GetLocalizedString(
-                    EngMessage:"Join Room",
-                    JpnMessage:"ルームに入る"
-                ),
-            };
-
-        selectRoomMatchWindow.SetUpYesNoObject(
-            Commands,
-            CommandTexts,
-            LocalizeUtility.GetLocalizedString(
-                    EngMessage: "Please choose between creating a room or joining an existing one.",
-                    JpnMessage: "ルームを作成するかルームに入るか\n選択してください"
-                ),
-            true);
+        ContinuousController.instance.StartCoroutine(StartOfflineFlowCoroutine(() => StartSelectBattleDeck(true)));
     }
 
     void StartCreateRoom()

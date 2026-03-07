@@ -82,15 +82,7 @@ public class HomeMode : MonoBehaviour
 
     public IEnumerator SetUpHomeMode_DisconnectCoroutine()
     {
-        if(PhotonNetwork.IsConnected)
-        {
-            yield return ContinuousController.instance.StartCoroutine(loadingObject.StartLoading("Disconnecting"));
-
-            yield return ContinuousController.instance.StartCoroutine(PhotonUtility.DisconnectCoroutine());
-
-            yield return ContinuousController.instance.StartCoroutine(loadingObject.EndLoading());
-        }
-
         SetUpHome();
+        yield break;
     }
 }

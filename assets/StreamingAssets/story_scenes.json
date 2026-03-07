@@ -1,0 +1,1103 @@
+{
+  "scenes": [
+    {
+      "id": "scene.story.act1.adventure.01_izzy.pre",
+      "title": "Izzy Pre-Battle",
+      "speaker": "Izzy",
+      "portraitId": "adventure_izzy",
+      "lines": [
+        {
+          "text": "Welcome to the Adventure Division."
+        },
+        {
+          "text": "Around here, duels decide more than rank. They decide what the world opens next."
+        },
+        {
+          "text": "Beat the Division, clear the Gatekeeper, defeat the Champion, and you earn the Adventure Core Key."
+        },
+        {
+          "text": "I run operations, diagnostics, and matchmaking."
+        },
+        {
+          "text": "Which means before you challenge anyone else, you duel me."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.adventure.01_izzy.post",
+      "title": "Izzy Post-Battle",
+      "speaker": "Izzy",
+      "portraitId": "adventure_izzy",
+      "lines": [
+        {
+          "text": "Good. You adapt quickly."
+        },
+        {
+          "text": "Adventure rewards heart, momentum, and trust in your line."
+        },
+        {
+          "text": "The others will test those in very different ways."
+        },
+        {
+          "text": "Clear them all, and Matt will stop pretending he hasn't been judging you from a distance."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.adventure.02_mimi.pre",
+      "title": "Mimi Pre-Battle",
+      "speaker": "Mimi",
+      "portraitId": "adventure_mimi",
+      "lines": [
+        {
+          "text": "So you passed Izzy's systems check. Nice."
+        },
+        {
+          "text": "Adventure Division has plenty of strong duelists, but not all of them know how to carry themselves."
+        },
+        {
+          "text": "Confidence matters. Presence matters."
+        },
+        {
+          "text": "If you're going to climb, at least do it with style."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.adventure.02_mimi.post",
+      "title": "Mimi Post-Battle",
+      "speaker": "Mimi",
+      "portraitId": "adventure_mimi",
+      "lines": [
+        {
+          "text": "Huh. You're actually good."
+        },
+        {
+          "text": "Annoying, but good."
+        },
+        {
+          "text": "Fine. You can keep climbing."
+        },
+        {
+          "text": "Just don't start acting like one win makes you legendary."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.adventure.03_joe.pre",
+      "title": "Joe Pre-Battle",
+      "speaker": "Joe",
+      "portraitId": "adventure_joe",
+      "lines": [
+        {
+          "text": "Before we begin, I want it clearly stated that I am completely calm."
+        },
+        {
+          "text": "Adventure can make reckless duelists look smarter than they are."
+        },
+        {
+          "text": "I'm here to make sure that doesn't happen to you."
+        },
+        {
+          "text": "If you want to keep climbing, prove you can think when the duel gets uncomfortable."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.adventure.03_joe.post",
+      "title": "Joe Post-Battle",
+      "speaker": "Joe",
+      "portraitId": "adventure_joe",
+      "lines": [
+        {
+          "text": "Right. Well. That was convincing."
+        },
+        {
+          "text": "You stayed composed, which is more than most challengers manage."
+        },
+        {
+          "text": "That means you're either extremely prepared... or a serious problem."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.adventure.04_sora.pre",
+      "title": "Sora Pre-Battle",
+      "speaker": "Sora",
+      "portraitId": "adventure_sora",
+      "lines": [
+        {
+          "text": "Izzy explains the Division. Joe checks whether you can stay disciplined."
+        },
+        {
+          "text": "I care about what happens when the pressure becomes personal."
+        },
+        {
+          "text": "Adventure looks warm from the outside, but that doesn't mean the duels are soft."
+        },
+        {
+          "text": "Let me see what kind of duelist you become when someone looks right through you."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.adventure.04_sora.post",
+      "title": "Sora Post-Battle",
+      "speaker": "Sora",
+      "portraitId": "adventure_sora",
+      "lines": [
+        {
+          "text": "Good. You didn't hide when the duel turned."
+        },
+        {
+          "text": "That matters more than people think."
+        },
+        {
+          "text": "If you keep moving like that, the Division will start taking you seriously."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.adventure.05_tk.pre",
+      "title": "T.K. Pre-Battle",
+      "speaker": "T.K.",
+      "portraitId": "adventure_tk",
+      "lines": [
+        {
+          "text": "Everyone keeps saying you're close to the top of the Division."
+        },
+        {
+          "text": "I don't think anyone should get there just because people expect it."
+        },
+        {
+          "text": "If you're going to challenge Matt and Tai, I want to know you earned it."
+        },
+        {
+          "text": "So please... don't hold back."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.adventure.05_tk.post",
+      "title": "T.K. Post-Battle",
+      "speaker": "T.K.",
+      "portraitId": "adventure_tk",
+      "lines": [
+        {
+          "text": "Okay. Yeah. You earned it."
+        },
+        {
+          "text": "You didn't just win. You understood the duel while it was changing."
+        },
+        {
+          "text": "I think that's why everyone's starting to notice you."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.adventure.06_kari.pre",
+      "title": "Kari Pre-Battle",
+      "speaker": "Kari",
+      "portraitId": "adventure_kari",
+      "lines": [
+        {
+          "text": "The closer you get to the top of the Division, the more the world seems to tighten around you."
+        },
+        {
+          "text": "Maybe that's normal."
+        },
+        {
+          "text": "Maybe that's what happens when the Circuit starts expecting something from you."
+        },
+        {
+          "text": "Either way, let's see how steady you really are."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.adventure.06_kari.post",
+      "title": "Kari Post-Battle",
+      "speaker": "Kari",
+      "portraitId": "adventure_kari",
+      "lines": [
+        {
+          "text": "You're steady. That's rare."
+        },
+        {
+          "text": "Most people get louder when the pressure rises."
+        },
+        {
+          "text": "You got quieter. Stronger."
+        },
+        {
+          "text": "Be careful. Wins like that tend to attract attention."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.adventure.07_matt.pre",
+      "title": "Matt Pre-Battle",
+      "speaker": "Matt",
+      "portraitId": "adventure_matt",
+      "lines": [
+        {
+          "text": "Tai thinks the Division should open for you."
+        },
+        {
+          "text": "I don't. Not yet."
+        },
+        {
+          "text": "Adventure lets a lot of people feel strong before they've actually been tested."
+        },
+        {
+          "text": "I'm the part that decides whether you're real."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.adventure.07_matt.post",
+      "title": "Matt Post-Battle",
+      "speaker": "Matt",
+      "portraitId": "adventure_matt",
+      "lines": [
+        {
+          "text": "Alright. You're real."
+        },
+        {
+          "text": "You recover fast, and you don't waste movement."
+        },
+        {
+          "text": "That's enough for me."
+        },
+        {
+          "text": "Go challenge Tai. He won't make it easy just because you got this far."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.adventure.08_tai.pre",
+      "title": "Tai Pre-Battle",
+      "speaker": "Tai",
+      "portraitId": "adventure_tai",
+      "lines": [
+        {
+          "text": "So you made it. Nice."
+        },
+        {
+          "text": "Adventure Division isn't about being perfect. It's about stepping forward when the road opens."
+        },
+        {
+          "text": "You've beaten everyone who had something to say about you. Now you duel the Champion."
+        },
+        {
+          "text": "Win, and the Adventure Core Key is yours."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.adventure.08_tai.post",
+      "title": "Tai Post-Battle",
+      "speaker": "Tai",
+      "portraitId": "adventure_tai",
+      "lines": [
+        {
+          "text": "That was a Champion-level duel. No question."
+        },
+        {
+          "text": "You didn't just survive the Division. You moved it."
+        },
+        {
+          "text": "Take the Adventure Core Key."
+        },
+        {
+          "text": "And get ready. Once you start collecting Keys, the whole Circuit starts feeling different."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.frontier.01_zoe.pre",
+      "title": "Zoe Pre-Battle",
+      "speaker": "Zoe",
+      "portraitId": "frontier_zoe",
+      "lines": [
+        {
+          "text": "So this is the challenger who cleared Adventure. Cute."
+        },
+        {
+          "text": "Frontier doesn't care about your last Key for more than five seconds."
+        },
+        {
+          "text": "Here, power is something you wear. If you can't carry it, it carries you."
+        },
+        {
+          "text": "Let's find out whether this world fits you... or swallows you."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.frontier.01_zoe.post",
+      "title": "Zoe Post-Battle",
+      "speaker": "Zoe",
+      "portraitId": "frontier_zoe",
+      "lines": [
+        {
+          "text": "Okay. That was honest."
+        },
+        {
+          "text": "You didn't try to impress the duel. You just played it."
+        },
+        {
+          "text": "Frontier respects that."
+        },
+        {
+          "text": "Don't make me say it twice."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.frontier.02_jp.pre",
+      "title": "J.P. Pre-Battle",
+      "speaker": "J.P.",
+      "portraitId": "frontier_jp",
+      "lines": [
+        {
+          "text": "Alright! My turn."
+        },
+        {
+          "text": "Frontier has all this talk about Spirits and destiny and deep emotional truth. Great. Love that."
+        },
+        {
+          "text": "But some of us still believe in hitting hard and seeing who's left standing."
+        },
+        {
+          "text": "Come on. Let's make some noise."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.frontier.02_jp.post",
+      "title": "J.P. Post-Battle",
+      "speaker": "J.P.",
+      "portraitId": "frontier_jp",
+      "lines": [
+        {
+          "text": "Hah. Okay, yeah, you can fight."
+        },
+        {
+          "text": "You stayed cool while I tried to overwhelm you, which I personally find rude."
+        },
+        {
+          "text": "Keep climbing. This world's starting to look at you differently."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.frontier.03_tommy.pre",
+      "title": "Tommy Pre-Battle",
+      "speaker": "Tommy",
+      "portraitId": "frontier_tommy",
+      "lines": [
+        {
+          "text": "People think fear means you should stop."
+        },
+        {
+          "text": "I think it just means the moment matters."
+        },
+        {
+          "text": "Frontier isn't about pretending you're fearless. It's about moving anyway."
+        },
+        {
+          "text": "I'm still learning that. Maybe you are too."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.frontier.03_tommy.post",
+      "title": "Tommy Post-Battle",
+      "speaker": "Tommy",
+      "portraitId": "frontier_tommy",
+      "lines": [
+        {
+          "text": "I lost, but I don't feel smaller."
+        },
+        {
+          "text": "That's new."
+        },
+        {
+          "text": "You duel like someone who feels the danger and keeps going anyway."
+        },
+        {
+          "text": "I think that's real courage."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.frontier.04_koichi.pre",
+      "title": "Koichi Pre-Battle",
+      "speaker": "Koichi",
+      "portraitId": "frontier_koichi",
+      "lines": [
+        {
+          "text": "Light gets all the speeches. Darkness does the work no one wants to admit exists."
+        },
+        {
+          "text": "Frontier understands that better than most worlds."
+        },
+        {
+          "text": "If you want to move forward, you need to know what you look like when the duel stops being comfortable."
+        },
+        {
+          "text": "Let's see whether you sharpen... or crack."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.frontier.04_koichi.post",
+      "title": "Koichi Post-Battle",
+      "speaker": "Koichi",
+      "portraitId": "frontier_koichi",
+      "lines": [
+        {
+          "text": "You held together. Good."
+        },
+        {
+          "text": "This shard feels slightly wrong sometimes. Like it's one step out of phase with itself."
+        },
+        {
+          "text": "If you start noticing that too, don't ignore it."
+        },
+        {
+          "text": "Frontier usually notices first."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.frontier.05_koji.pre",
+      "title": "Koji Pre-Battle",
+      "speaker": "Koji",
+      "portraitId": "frontier_koji",
+      "lines": [
+        {
+          "text": "I've seen enough."
+        },
+        {
+          "text": "Zoe checks your honesty. J.P. checks your nerve. Tommy checks your balance. Koichi checks your depth."
+        },
+        {
+          "text": "I don't check anything. I stop people who aren't ready for Takuya."
+        },
+        {
+          "text": "If you want the Champion, go through me."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.frontier.05_koji.post",
+      "title": "Koji Post-Battle",
+      "speaker": "Koji",
+      "portraitId": "frontier_koji",
+      "lines": [
+        {
+          "text": "Good. You don't waste movement."
+        },
+        {
+          "text": "Most challengers think momentum is strength. It isn't. Control is."
+        },
+        {
+          "text": "Go fight Takuya."
+        },
+        {
+          "text": "And don't expect him to slow down for you."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.frontier.06_takuya.pre",
+      "title": "Takuya Pre-Battle",
+      "speaker": "Takuya",
+      "portraitId": "frontier_takuya",
+      "lines": [
+        {
+          "text": "So you made it to the top of Frontier. Nice."
+        },
+        {
+          "text": "This world keeps asking who you are until you get tired of lying."
+        },
+        {
+          "text": "The others checked whether you belonged here. I'm checking whether you can lead yourself into the next world."
+        },
+        {
+          "text": "Beat me, and the Frontier Core Key is yours."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.frontier.06_takuya.post",
+      "title": "Takuya Post-Battle",
+      "speaker": "Takuya",
+      "portraitId": "frontier_takuya",
+      "lines": [
+        {
+          "text": "That's it. That's a Champion duel."
+        },
+        {
+          "text": "Not flashy just to look flashy. Not brave just to sound brave. Real."
+        },
+        {
+          "text": "Take the Frontier Core Key."
+        },
+        {
+          "text": "And tell Izzy something for me. The road ahead feels crowded."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.adventure02.01_davis.pre",
+      "title": "Davis Pre-Battle",
+      "speaker": "Davis",
+      "portraitId": "adventure02_davis",
+      "lines": [
+        {
+          "text": "Adventure and Frontier, huh? Nice run."
+        },
+        {
+          "text": "But 02 is different. Here, if you wait too long, you lose the moment."
+        },
+        {
+          "text": "You adapt fast, you hit the opening, you keep pressure on."
+        },
+        {
+          "text": "Try to keep up."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.adventure02.01_davis.post",
+      "title": "Davis Post-Battle",
+      "speaker": "Davis",
+      "portraitId": "adventure02_davis",
+      "lines": [
+        {
+          "text": "Okay, yeah, you've got speed."
+        },
+        {
+          "text": "More importantly, you know when to stop thinking about looking cool and just commit."
+        },
+        {
+          "text": "That's good."
+        },
+        {
+          "text": "02 doesn't reward hesitation."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.adventure02.02_yolei.pre",
+      "title": "Yolei Pre-Battle",
+      "speaker": "Yolei",
+      "portraitId": "adventure02_yolei",
+      "lines": [
+        {
+          "text": "Davis likes to act like this whole Division belongs to him. It doesn't."
+        },
+        {
+          "text": "02 is messy, fast, technical, and slightly held together by confidence and luck."
+        },
+        {
+          "text": "Which, for the record, is a great environment for me."
+        },
+        {
+          "text": "Let's see what you do when the duel gets weird."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.adventure02.02_yolei.post",
+      "title": "Yolei Post-Battle",
+      "speaker": "Yolei",
+      "portraitId": "adventure02_yolei",
+      "lines": [
+        {
+          "text": "Hah. You actually handled that well."
+        },
+        {
+          "text": "Most people lose the thread the second the game stops behaving how they planned."
+        },
+        {
+          "text": "You didn't."
+        },
+        {
+          "text": "That makes you dangerous."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.adventure02.03_cody.pre",
+      "title": "Cody Pre-Battle",
+      "speaker": "Cody",
+      "portraitId": "adventure02_cody",
+      "lines": [
+        {
+          "text": "Everyone here likes to talk about speed."
+        },
+        {
+          "text": "Speed matters. So does responsibility."
+        },
+        {
+          "text": "If you're going to keep advancing, prove your decisions stay disciplined when the duel accelerates."
+        },
+        {
+          "text": "That's what I'm here to test."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.adventure02.03_cody.post",
+      "title": "Cody Post-Battle",
+      "speaker": "Cody",
+      "portraitId": "adventure02_cody",
+      "lines": [
+        {
+          "text": "You stayed precise."
+        },
+        {
+          "text": "That's harder than being aggressive, even if people don't like admitting it."
+        },
+        {
+          "text": "If the Circuit keeps pushing you higher, that precision may matter more than your power."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.adventure02.04_hikari.pre",
+      "title": "Hikari Pre-Battle",
+      "speaker": "Hikari",
+      "portraitId": "adventure02_hikari",
+      "lines": [
+        {
+          "text": "This world feels louder than Adventure did."
+        },
+        {
+          "text": "Not noisier. Louder. Like more things are trying to speak at once."
+        },
+        {
+          "text": "02 always stood between different paths. Armor, DNA, old bonds, new choices."
+        },
+        {
+          "text": "If the Circuit is changing, this is where I'd expect it to show first."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.adventure02.04_hikari.post",
+      "title": "Hikari Post-Battle",
+      "speaker": "Hikari",
+      "portraitId": "adventure02_hikari",
+      "lines": [
+        {
+          "text": "You can feel it too, can't you?"
+        },
+        {
+          "text": "The duel ends, but the pressure doesn't."
+        },
+        {
+          "text": "Keep moving."
+        },
+        {
+          "text": "Something in this world is trying to force the next step before we're ready."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.adventure02.05_tk.pre",
+      "title": "T.K. Pre-Battle",
+      "speaker": "T.K.",
+      "portraitId": "adventure02_tk",
+      "lines": [
+        {
+          "text": "You and I already dueled in Adventure."
+        },
+        {
+          "text": "This isn't the same world, and I'm not the same duelist."
+        },
+        {
+          "text": "Hope means something different when people depend on you to make the right choice fast."
+        },
+        {
+          "text": "Let's see if you've grown too."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.adventure02.05_tk.post",
+      "title": "T.K. Post-Battle",
+      "speaker": "T.K.",
+      "portraitId": "adventure02_tk",
+      "lines": [
+        {
+          "text": "You did."
+        },
+        {
+          "text": "You're sharper now, but not colder. That's a hard balance to keep."
+        },
+        {
+          "text": "If you're going to face what's at the top of this Division, hold on to that."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.adventure02.06_blackwargreymon.pre",
+      "title": "BlackWarGreymon Pre-Battle",
+      "speaker": "BlackWarGreymon",
+      "portraitId": "adventure02_blackwargreymon",
+      "lines": [
+        {
+          "text": "You are not one of this world's intended matches."
+        },
+        {
+          "text": "Neither am I."
+        },
+        {
+          "text": "I was called here by something that wanted pressure, conflict, outcome. Not purpose."
+        },
+        {
+          "text": "Duel me. I want to know whether you are choosing this road... or being pushed down it."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.adventure02.06_blackwargreymon.post",
+      "title": "BlackWarGreymon Post-Battle",
+      "speaker": "BlackWarGreymon",
+      "portraitId": "adventure02_blackwargreymon",
+      "lines": [
+        {
+          "text": "Hm. You still believe your victories are your own."
+        },
+        {
+          "text": "Hold on to that for as long as you can."
+        },
+        {
+          "text": "Something in the Circuit is spawning battles before the world has agreed to them."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.adventure02.07_ken.pre",
+      "title": "Ken Pre-Battle",
+      "speaker": "Ken",
+      "portraitId": "adventure02_ken",
+      "lines": [
+        {
+          "text": "Davis charges forward. Yolei improvises. Cody holds the line. T.K. and Hikari keep this world from losing its heart."
+        },
+        {
+          "text": "My role is simpler. I understand what happens when power links things that were never meant to be linked."
+        },
+        {
+          "text": "This Division is built on combination. Trust, timing, consequence."
+        },
+        {
+          "text": "If you want the 02 Core Key, prove you can handle connection without letting it control you."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.adventure02.07_ken.post",
+      "title": "Ken Post-Battle",
+      "speaker": "Ken",
+      "portraitId": "adventure02_ken",
+      "lines": [
+        {
+          "text": "Good. You understand that strength isn't just what you summon. It's what you can bear."
+        },
+        {
+          "text": "Take the 02 Core Key."
+        },
+        {
+          "text": "And listen carefully. The distortions aren't accidents anymore."
+        },
+        {
+          "text": "Something is testing how much these worlds can be made to overlap."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.tamers.01_henry.pre",
+      "title": "Henry Pre-Battle",
+      "speaker": "Henry",
+      "portraitId": "tamers_henry",
+      "lines": [
+        {
+          "text": "Tamers feels different from the other worlds because it is."
+        },
+        {
+          "text": "This shard doesn't just host duels. It reacts to them."
+        },
+        {
+          "text": "If you rush in here the same way you rushed through the others, it'll punish you."
+        },
+        {
+          "text": "So let's find out whether you can think before you swing."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.tamers.01_henry.post",
+      "title": "Henry Post-Battle",
+      "speaker": "Henry",
+      "portraitId": "tamers_henry",
+      "lines": [
+        {
+          "text": "You're controlled. That helps."
+        },
+        {
+          "text": "This world pushes back when people duel carelessly."
+        },
+        {
+          "text": "If things start getting stranger from here, stay calm."
+        },
+        {
+          "text": "Tamers rewards that."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.tamers.02_rika.pre",
+      "title": "Rika Pre-Battle",
+      "speaker": "Rika",
+      "portraitId": "tamers_rika",
+      "lines": [
+        {
+          "text": "So you're the challenger with three Keys. Good for you."
+        },
+        {
+          "text": "That might matter in the other worlds. Here, all that matters is whether you can win when the duel stops being comfortable."
+        },
+        {
+          "text": "Tamers doesn't care about your reputation."
+        },
+        {
+          "text": "It cares whether you can survive being read."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.tamers.02_rika.post",
+      "title": "Rika Post-Battle",
+      "speaker": "Rika",
+      "portraitId": "tamers_rika",
+      "lines": [
+        {
+          "text": "Not bad."
+        },
+        {
+          "text": "You didn't collapse just because the duel started looking back at you."
+        },
+        {
+          "text": "That means you're useful."
+        },
+        {
+          "text": "Around here, useful is better than impressive."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.tamers.03_yoshino.pre",
+      "title": "Yoshino Pre-Battle",
+      "speaker": "Yoshino",
+      "portraitId": "datasquad_yoshino",
+      "lines": [
+        {
+          "text": "Wait. Before we duel, answer me something."
+        },
+        {
+          "text": "What is this place? Why are there Tamers here? Why are there us here?"
+        },
+        {
+          "text": "We were in our own world, and then everything folded. Like the road under us just vanished."
+        },
+        {
+          "text": "If dueling is the only language this place understands, then fine. Let's talk."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.tamers.03_yoshino.post",
+      "title": "Yoshino Post-Battle",
+      "speaker": "Yoshino",
+      "portraitId": "datasquad_yoshino",
+      "lines": [
+        {
+          "text": "Okay... you're not the one who did this."
+        },
+        {
+          "text": "We escaped with a Key. At least, I think we did."
+        },
+        {
+          "text": "We reached this world, and then somehow it was gone."
+        },
+        {
+          "text": "Like something took it the second we arrived."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.tamers.04_thomas.pre",
+      "title": "Thomas Norstein Pre-Battle",
+      "speaker": "Thomas Norstein",
+      "portraitId": "datasquad_thomas",
+      "lines": [
+        {
+          "text": "I've analyzed the terrain, the signal patterns, the transition errors. None of this is coherent."
+        },
+        {
+          "text": "Worlds should not collapse into adjacent shards without catastrophic boundary failure."
+        },
+        {
+          "text": "And yet here we are."
+        },
+        {
+          "text": "If you've been moving through this system willingly, then I need to know exactly what kind of duelist the Circuit has been selecting."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.tamers.04_thomas.post",
+      "title": "Thomas Norstein Post-Battle",
+      "speaker": "Thomas Norstein",
+      "portraitId": "datasquad_thomas",
+      "lines": [
+        {
+          "text": "Your profile matches the data. Skilled, stable, unusually adaptive."
+        },
+        {
+          "text": "Which makes this worse, not better."
+        },
+        {
+          "text": "If a system wanted to study cross-world pressure, you are exactly the kind of challenger it would keep moving upward."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.tamers.05_marcus.pre",
+      "title": "Marcus Damon Pre-Battle",
+      "speaker": "Marcus Damon",
+      "portraitId": "datasquad_marcus",
+      "lines": [
+        {
+          "text": "I don't care how polished this stupid tournament looks. I know what a fight feels like when it's wrong."
+        },
+        {
+          "text": "Our world didn't desync. It got hit. Hard."
+        },
+        {
+          "text": "We got out because we had a Key, and the second we crossed over, it was gone."
+        },
+        {
+          "text": "So yeah, I'm angry. You're standing here. Let's use that."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.tamers.05_marcus.post",
+      "title": "Marcus Damon Post-Battle",
+      "speaker": "Marcus Damon",
+      "portraitId": "datasquad_marcus",
+      "lines": [
+        {
+          "text": "Alright. You're not dead weight."
+        },
+        {
+          "text": "Listen to me. Whatever's behind this doesn't just want winners. It wants pressure. Data. Reactions."
+        },
+        {
+          "text": "If you make it to the top of this world, go back to Izzy."
+        },
+        {
+          "text": "Don't keep walking like this is normal."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.tamers.06_beelzemon.pre",
+      "title": "Beelzemon Pre-Battle",
+      "speaker": "Beelzemon",
+      "portraitId": "tamers_beelzemon",
+      "lines": [
+        {
+          "text": "Tch. So they've been throwing everyone at you, huh?"
+        },
+        {
+          "text": "Good guys. world-hoppers. lost kids from broken shards. Efficient little system."
+        },
+        {
+          "text": "I know what it feels like to be used by something bigger than you and told it was your choice."
+        },
+        {
+          "text": "So duel me. I want to know whether you still believe this road belongs to you."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.tamers.06_beelzemon.post",
+      "title": "Beelzemon Post-Battle",
+      "speaker": "Beelzemon",
+      "portraitId": "tamers_beelzemon",
+      "lines": [
+        {
+          "text": "Heh. Still standing. Good."
+        },
+        {
+          "text": "Then hear this. Something in the Circuit is feeding on escalation."
+        },
+        {
+          "text": "The stronger the duels get, the more stable it becomes."
+        },
+        {
+          "text": "That should scare you."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.tamers.07_takato.pre",
+      "title": "Takato Pre-Battle",
+      "speaker": "Takato",
+      "portraitId": "tamers_takato",
+      "lines": [
+        {
+          "text": "Henry said you were steady. Rika said you were useful. Marcus said you might actually listen."
+        },
+        {
+          "text": "That's a strange set of endorsements, but I'll take it."
+        },
+        {
+          "text": "Tamers doesn't need another loud challenger. It needs someone who can win without losing sight of what the win means."
+        },
+        {
+          "text": "Beat me, and you clear this world. But if you do, don't celebrate too long. Something is seriously wrong."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act1.tamers.07_takato.post",
+      "title": "Takato Post-Battle",
+      "speaker": "Takato",
+      "portraitId": "tamers_takato",
+      "lines": [
+        {
+          "text": "Okay. That decides it."
+        },
+        {
+          "text": "You're strong enough to keep moving, but strong enough isn't the same as safe."
+        },
+        {
+          "text": "Go back to Izzy. Tell him the distortion is real, Data Squad is displaced, and a Key has already been lost."
+        },
+        {
+          "text": "Act like the tournament is dangerous now. Because it is."
+        }
+      ]
+    }
+  ]
+}

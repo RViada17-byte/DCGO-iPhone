@@ -47,15 +47,15 @@ public static class RuntimeModeRootFactory
         }
         else if (root.name == StoryModeRootName)
         {
-            EnsurePlaceholderText(root.transform, "Story mode coming next");
+            EnsureStoryMode(root.transform);
         }
         else if (root.name == DuelistBoardModeRootName)
         {
-            EnsurePlaceholderText(root.transform, "Duelist board coming next");
+            EnsureDuelistBoardMode(root.transform);
         }
         else if (root.name == ShopModeRootName)
         {
-            EnsurePlaceholderText(root.transform, "Shop coming next");
+            EnsureShopMode(root.transform);
         }
 
         root.SetActive(false);
@@ -215,6 +215,81 @@ public static class RuntimeModeRootFactory
         placeholder.resizeTextMinSize = 20;
         placeholder.resizeTextMaxSize = 52;
         placeholder.raycastTarget = false;
+    }
+
+    private static void EnsureShopMode(Transform root)
+    {
+        if (root == null)
+        {
+            return;
+        }
+
+        Transform placeholderTransform = FindChildRecursive(root, PlaceholderTextName);
+        if (placeholderTransform != null)
+        {
+            placeholderTransform.gameObject.SetActive(false);
+        }
+
+        ShopPanel shopPanel = root.GetComponent<ShopPanel>();
+        if (shopPanel == null)
+        {
+            shopPanel = root.gameObject.AddComponent<ShopPanel>();
+        }
+
+        if (shopPanel != null && !shopPanel.enabled)
+        {
+            shopPanel.enabled = true;
+        }
+    }
+
+    private static void EnsureStoryMode(Transform root)
+    {
+        if (root == null)
+        {
+            return;
+        }
+
+        Transform placeholderTransform = FindChildRecursive(root, PlaceholderTextName);
+        if (placeholderTransform != null)
+        {
+            placeholderTransform.gameObject.SetActive(false);
+        }
+
+        StoryPanel storyPanel = root.GetComponent<StoryPanel>();
+        if (storyPanel == null)
+        {
+            storyPanel = root.gameObject.AddComponent<StoryPanel>();
+        }
+
+        if (storyPanel != null && !storyPanel.enabled)
+        {
+            storyPanel.enabled = true;
+        }
+    }
+
+    private static void EnsureDuelistBoardMode(Transform root)
+    {
+        if (root == null)
+        {
+            return;
+        }
+
+        Transform placeholderTransform = FindChildRecursive(root, PlaceholderTextName);
+        if (placeholderTransform != null)
+        {
+            placeholderTransform.gameObject.SetActive(false);
+        }
+
+        DuelistBoardPanel duelistBoardPanel = root.GetComponent<DuelistBoardPanel>();
+        if (duelistBoardPanel == null)
+        {
+            duelistBoardPanel = root.gameObject.AddComponent<DuelistBoardPanel>();
+        }
+
+        if (duelistBoardPanel != null && !duelistBoardPanel.enabled)
+        {
+            duelistBoardPanel.enabled = true;
+        }
     }
 
     private static void EnsureBackButton(Transform root, Scene scene, Opening opening, MainMenuRouter router)
@@ -684,7 +759,11 @@ public static class RuntimeModeRootFactory
     {
         if (_runtimeFont == null)
         {
-            _runtimeFont = Resources.GetBuiltinResource<Font>("Arial.ttf");
+            _runtimeFont = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
+            if (_runtimeFont == null)
+            {
+                _runtimeFont = Resources.GetBuiltinResource<Font>("Arial.ttf");
+            }
         }
 
         return _runtimeFont;
