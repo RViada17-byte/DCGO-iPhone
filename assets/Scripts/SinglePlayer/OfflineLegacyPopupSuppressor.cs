@@ -31,6 +31,11 @@ public static class OfflineLegacyPopupSuppressor
             return;
         }
 
+        if (IsAuthoredOfflineMenu(scene))
+        {
+            return;
+        }
+
         if (!ProcessedSceneHandles.Add(scene.handle))
         {
             return;
@@ -229,5 +234,30 @@ public static class OfflineLegacyPopupSuppressor
 
         names.Reverse();
         return string.Join("/", names);
+    }
+
+    private static bool IsAuthoredOfflineMenu(Scene scene)
+    {
+        if (!scene.IsValid() || !scene.isLoaded)
+        {
+            return false;
+        }
+
+        GameObject[] rootObjects = scene.GetRootGameObjects();
+        for (int index = 0; index < rootObjects.Length; index++)
+        {
+            GameObject rootObject = rootObjects[index];
+            if (rootObject == null)
+            {
+                continue;
+            }
+
+            if (rootObject.GetComponentInChildren<OpeningOfflineMenuMarker>(true) != null)
+            {
+                return true;
+            }
+        }
+
+        return false;
     }
 }

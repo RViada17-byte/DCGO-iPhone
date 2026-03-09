@@ -7,6 +7,45 @@ using UnityEngine.Events;
 
 public class SelectDeck : OffAnimation
 {
+    struct RectTransformState
+    {
+        public Vector2 AnchorMin;
+        public Vector2 AnchorMax;
+        public Vector2 OffsetMin;
+        public Vector2 OffsetMax;
+        public Vector2 AnchoredPosition;
+        public Vector2 SizeDelta;
+        public Vector2 Pivot;
+        public Vector3 LocalScale;
+
+        public static RectTransformState Capture(RectTransform rectTransform)
+        {
+            return new RectTransformState
+            {
+                AnchorMin = rectTransform.anchorMin,
+                AnchorMax = rectTransform.anchorMax,
+                OffsetMin = rectTransform.offsetMin,
+                OffsetMax = rectTransform.offsetMax,
+                AnchoredPosition = rectTransform.anchoredPosition,
+                SizeDelta = rectTransform.sizeDelta,
+                Pivot = rectTransform.pivot,
+                LocalScale = rectTransform.localScale,
+            };
+        }
+
+        public void Restore(RectTransform rectTransform)
+        {
+            rectTransform.anchorMin = AnchorMin;
+            rectTransform.anchorMax = AnchorMax;
+            rectTransform.offsetMin = OffsetMin;
+            rectTransform.offsetMax = OffsetMax;
+            rectTransform.anchoredPosition = AnchoredPosition;
+            rectTransform.sizeDelta = SizeDelta;
+            rectTransform.pivot = Pivot;
+            rectTransform.localScale = LocalScale;
+        }
+    }
+
     [Header("Select Deck Object")]
     public GameObject SelectDeckObject;
 
@@ -23,6 +62,23 @@ public class SelectDeck : OffAnimation
     public Animator anim;
 
     public bool isOpen { get; set; } = false;
+    IPhoneSafeAreaRoot _iPhoneSafeAreaRoot;
+    Image _iPhoneBackdrop;
+    bool _editorPreviewActive;
+    bool _capturedRectState;
+    RectTransformState _selectDeckRectState;
+
+    bool UseIPhoneFullscreenLayout => _editorPreviewActive;
+
+    void LateUpdate()
+    {
+        if (!UseIPhoneFullscreenLayout || SelectDeckObject == null || !SelectDeckObject.activeSelf)
+        {
+            return;
+        }
+
+        ApplyIPhoneFullscreenLayout();
+    }
 
     public void OffSelectDeck()
     {
@@ -67,6 +123,9 @@ public class SelectDeck : OffAnimation
         ContinuousController.instance.StartCoroutine(SetDeckList(true));
 
         SelectDeckObject.SetActive(true);
+        ApplyIPhoneFullscreenLayout(force: true);
+        Opening.instance?.home?.OffHome();
+        Opening.instance?.OffModeButtons();
 
         anim.SetInteger("Open", 1);
         anim.SetInteger("Close", 0);
@@ -119,6 +178,7 @@ public class SelectDeck : OffAnimation
             _deckInfoPrefab.SetUpDeckInfoPrefab(ContinuousController.instance.DeckDatas[i]);
 
             _deckInfoPrefab.transform.localScale = Opening.instance.DeckInfoPrefabStartScale * 1.02f;
+            ConfigureIPhoneTouchTarget(_deckInfoPrefab.gameObject);
 
             _deckInfoPrefab.OnClickAction = (deckdata) =>
             {
@@ -133,6 +193,7 @@ public class SelectDeck : OffAnimation
         for (int i = 0; i < deckInfoPrefabParentScroll.content.childCount; i++)
         {
             deckInfoPrefabParentScroll.content.GetChild(i).transform.localScale = Opening.instance.DeckInfoPrefabStartScale;
+            ConfigureIPhoneTouchTarget(deckInfoPrefabParentScroll.content.GetChild(i).gameObject);
         }
 
         if (ContinuousController.instance.DeckDatas.Count == 0)
@@ -180,6 +241,129 @@ public class SelectDeck : OffAnimation
             yield return new WaitForSeconds(Time.deltaTime);
             deckInfoPrefabParentScroll.verticalNormalizedPosition = 1;
         }
+    }
+
+    void ApplyIPhoneFullscreenLayout(bool force = false)
+    {
+        if (!UseIPhoneFullscreenLayout || SelectDeckObject == null)
+        {
+            RestoreIPhoneFullscreenLayout();
+            return;
+        }
+
+        RectTransform rectTransform = SelectDeckObject.GetComponent<RectTransform>();
+        if (rectTransform == null)
+        {
+            return;
+        }
+
+        CaptureRectState(rectTransform);
+
+        if (Application.platform == RuntimePlatform.IPhonePlayer && _iPhoneSafeAreaRoot == null)
+        {
+            _iPhoneSafeAreaRoot = SelectDeckObject.GetComponent<IPhoneSafeAreaRoot>();
+
+            if (_iPhoneSafeAreaRoot == null)
+            {
+                _iPhoneSafeAreaRoot = SelectDeckObject.AddComponent<IPhoneSafeAreaRoot>();
+            }
+        }
+
+        if (Application.platform == RuntimePlatform.IPhonePlayer)
+        {
+            EnsureIPhoneBackdrop();
+        }
+
+        rectTransform.localScale = Vector3.one;
+        rectTransform.SetAsLastSibling();
+
+        if (force)
+        {
+            LayoutRebuilder.ForceRebuildLayoutImmediate(rectTransform);
+        }
+    }
+
+    void CaptureRectState(RectTransform rectTransform)
+    {
+        if (_capturedRectState)
+        {
+            return;
+        }
+
+        _selectDeckRectState = RectTransformState.Capture(rectTransform);
+        _capturedRectState = true;
+    }
+
+    void RestoreIPhoneFullscreenLayout()
+    {
+        if (!_capturedRectState || SelectDeckObject == null)
+        {
+            return;
+        }
+
+        RectTransform rectTransform = SelectDeckObject.GetComponent<RectTransform>();
+        if (rectTransform == null)
+        {
+            return;
+        }
+
+        _selectDeckRectState.Restore(rectTransform);
+    }
+
+    public void SetEditorPreviewActive(bool active)
+    {
+        _editorPreviewActive = active;
+        ApplyIPhoneFullscreenLayout(force: true);
+    }
+
+    void EnsureIPhoneBackdrop()
+    {
+        if (_iPhoneBackdrop != null || SelectDeckObject == null)
+        {
+            return;
+        }
+
+        Transform existingBackdrop = SelectDeckObject.transform.Find("IPhoneDeckBackdrop");
+        GameObject backdropObject;
+
+        if (existingBackdrop != null)
+        {
+            backdropObject = existingBackdrop.gameObject;
+        }
+
+        else
+        {
+            backdropObject = new GameObject("IPhoneDeckBackdrop", typeof(RectTransform), typeof(Image));
+            backdropObject.transform.SetParent(SelectDeckObject.transform, false);
+            backdropObject.transform.SetSiblingIndex(0);
+        }
+
+        RectTransform backdropRect = backdropObject.GetComponent<RectTransform>();
+        backdropRect.anchorMin = Vector2.zero;
+        backdropRect.anchorMax = Vector2.one;
+        backdropRect.offsetMin = Vector2.zero;
+        backdropRect.offsetMax = Vector2.zero;
+
+        _iPhoneBackdrop = backdropObject.GetComponent<Image>();
+        _iPhoneBackdrop.color = new Color32(6, 10, 18, 255);
+        _iPhoneBackdrop.raycastTarget = false;
+    }
+
+    void ConfigureIPhoneTouchTarget(GameObject gameObject)
+    {
+        if (!UseIPhoneFullscreenLayout || gameObject == null)
+        {
+            return;
+        }
+
+        LayoutElement layoutElement = gameObject.GetComponent<LayoutElement>();
+        if (layoutElement == null)
+        {
+            layoutElement = gameObject.AddComponent<LayoutElement>();
+        }
+
+        layoutElement.minHeight = Mathf.Max(layoutElement.minHeight, 190f);
+        layoutElement.preferredHeight = Mathf.Max(layoutElement.preferredHeight, 190f);
     }
 
     public void OnClickCopyDeckListButton()

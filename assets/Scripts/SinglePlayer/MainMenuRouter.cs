@@ -81,6 +81,19 @@ public class MainMenuRouter : MonoBehaviour
         SetActiveSafe(shopModeRoot, true);
     }
 
+    public void OpenDeck()
+    {
+        Debug.Log($"{nameof(MainMenuRouter)}.{nameof(OpenDeck)}");
+
+        EnsureReferences();
+        HideAllCustomModesInternal();
+        SafeOffBattle();
+        SafeCloseOptionPanel();
+        SafeOffYesNoObjects();
+        SafeOnModeButtons();
+        SafeSetUpDeck();
+    }
+
     public void BackToHome()
     {
         Debug.Log($"{nameof(MainMenuRouter)}.{nameof(BackToHome)}");
@@ -337,6 +350,22 @@ public class MainMenuRouter : MonoBehaviour
         }
 
         home.SetUpHome();
+    }
+
+    private void SafeSetUpDeck()
+    {
+        if (opening == null || opening.deck == null)
+        {
+            return;
+        }
+
+        DeckMode deck = opening.deck;
+        if (deck.selectDeck == null || deck.editDeck == null || deck.trialDraw == null || deck.deckListPanel == null)
+        {
+            return;
+        }
+
+        deck.SetUpDeckMode();
     }
 
     private static void SetActiveSafe(GameObject target, bool isActive)

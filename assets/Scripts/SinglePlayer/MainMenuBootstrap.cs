@@ -95,9 +95,29 @@ public static class MainMenuBootstrap
             return;
         }
 
+        if (IsAuthoredOfflineMenu(scene))
+        {
+            CacheAuthoredReferences(scene, opening, router);
+            return;
+        }
+
         WireCustomRoots(scene, opening, router);
         RepurposeModeButtons(scene, opening, router);
         Debug.Log("[CustomMenu] Ready: WORLD/DECK/SHOP wired, PATCH and REPORT hidden.");
+    }
+
+    private static void CacheAuthoredReferences(Scene scene, Opening opening, MainMenuRouter router)
+    {
+        if (router == null)
+        {
+            return;
+        }
+
+        router.opening = opening;
+        router.worldModeRoot = router.worldModeRoot != null ? router.worldModeRoot : FindGameObjectByName(scene, WorldModeRootName);
+        router.storyModeRoot = router.storyModeRoot != null ? router.storyModeRoot : FindGameObjectByName(scene, StoryModeRootName);
+        router.duelistBoardModeRoot = router.duelistBoardModeRoot != null ? router.duelistBoardModeRoot : FindGameObjectByName(scene, DuelistBoardModeRootName);
+        router.shopModeRoot = router.shopModeRoot != null ? router.shopModeRoot : FindGameObjectByName(scene, ShopModeRootName);
     }
 
     private static void WireCustomRoots(Scene scene, Opening opening, MainMenuRouter router)
@@ -573,6 +593,31 @@ public static class MainMenuBootstrap
         }
 
         return null;
+    }
+
+    private static bool IsAuthoredOfflineMenu(Scene scene)
+    {
+        if (!scene.IsValid() || !scene.isLoaded)
+        {
+            return false;
+        }
+
+        GameObject[] rootObjects = scene.GetRootGameObjects();
+        for (int index = 0; index < rootObjects.Length; index++)
+        {
+            GameObject rootObject = rootObjects[index];
+            if (rootObject == null)
+            {
+                continue;
+            }
+
+            if (rootObject.GetComponentInChildren<OpeningOfflineMenuMarker>(true) != null)
+            {
+                return true;
+            }
+        }
+
+        return false;
     }
 
 }

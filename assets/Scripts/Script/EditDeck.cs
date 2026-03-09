@@ -8,6 +8,110 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 public class EditDeck : MonoBehaviour
 {
+    struct RectTransformState
+    {
+        public Vector2 AnchorMin;
+        public Vector2 AnchorMax;
+        public Vector2 OffsetMin;
+        public Vector2 OffsetMax;
+        public Vector2 AnchoredPosition;
+        public Vector2 SizeDelta;
+        public Vector2 Pivot;
+        public Vector3 LocalScale;
+        public bool ActiveSelf;
+
+        public static RectTransformState Capture(RectTransform rectTransform)
+        {
+            return new RectTransformState
+            {
+                AnchorMin = rectTransform.anchorMin,
+                AnchorMax = rectTransform.anchorMax,
+                OffsetMin = rectTransform.offsetMin,
+                OffsetMax = rectTransform.offsetMax,
+                AnchoredPosition = rectTransform.anchoredPosition,
+                SizeDelta = rectTransform.sizeDelta,
+                Pivot = rectTransform.pivot,
+                LocalScale = rectTransform.localScale,
+                ActiveSelf = rectTransform.gameObject.activeSelf,
+            };
+        }
+
+        public void Restore(RectTransform rectTransform)
+        {
+            rectTransform.anchorMin = AnchorMin;
+            rectTransform.anchorMax = AnchorMax;
+            rectTransform.offsetMin = OffsetMin;
+            rectTransform.offsetMax = OffsetMax;
+            rectTransform.anchoredPosition = AnchoredPosition;
+            rectTransform.sizeDelta = SizeDelta;
+            rectTransform.pivot = Pivot;
+            rectTransform.localScale = LocalScale;
+            rectTransform.gameObject.SetActive(ActiveSelf);
+        }
+    }
+
+    struct GridLayoutState
+    {
+        public GridLayoutGroup.Constraint Constraint;
+        public int ConstraintCount;
+        public Vector2 CellSize;
+        public Vector2 Spacing;
+        public int PaddingLeft;
+        public int PaddingRight;
+        public int PaddingTop;
+        public int PaddingBottom;
+
+        public static GridLayoutState Capture(GridLayoutGroup gridLayoutGroup)
+        {
+            return new GridLayoutState
+            {
+                Constraint = gridLayoutGroup.constraint,
+                ConstraintCount = gridLayoutGroup.constraintCount,
+                CellSize = gridLayoutGroup.cellSize,
+                Spacing = gridLayoutGroup.spacing,
+                PaddingLeft = gridLayoutGroup.padding.left,
+                PaddingRight = gridLayoutGroup.padding.right,
+                PaddingTop = gridLayoutGroup.padding.top,
+                PaddingBottom = gridLayoutGroup.padding.bottom,
+            };
+        }
+
+        public void Restore(GridLayoutGroup gridLayoutGroup)
+        {
+            gridLayoutGroup.constraint = Constraint;
+            gridLayoutGroup.constraintCount = ConstraintCount;
+            gridLayoutGroup.cellSize = CellSize;
+            gridLayoutGroup.spacing = Spacing;
+            gridLayoutGroup.padding = new RectOffset(PaddingLeft, PaddingRight, PaddingTop, PaddingBottom);
+        }
+    }
+
+    struct TransformParentState
+    {
+        public Transform Parent;
+        public int SiblingIndex;
+
+        public static TransformParentState Capture(Transform transform)
+        {
+            return new TransformParentState
+            {
+                Parent = transform.parent,
+                SiblingIndex = transform.GetSiblingIndex(),
+            };
+        }
+
+        public void Restore(Transform transform)
+        {
+            if (transform == null || Parent == null)
+            {
+                return;
+            }
+
+            transform.SetParent(Parent, false);
+            transform.SetSiblingIndex(Mathf.Clamp(SiblingIndex, 0, Parent.childCount - 1));
+        }
+    }
+
     [Header("Deck creation object")]
     public GameObject CreateDeckObject;
 
@@ -66,15 +170,31 @@ public class EditDeck : MonoBehaviour
     int _oldKeyCardId = -1;
     bool _isFromClipboard = false;
     readonly List<CEntity_Base> _filteredPoolCards = new List<CEntity_Base>();
-    // The unpaged iPhone path instantiated one pool prefab per filtered card,
-    // which is fine on desktop but gets jetsammed on device when opening deck edit.
+    // Keep the existing paged collection path as the canonical deck editor flow.
     bool UseIPhoneDeckScroll => false;
-    bool UseIPhoneSafeAreaLayout => Application.platform == RuntimePlatform.IPhonePlayer;
-    Vector2 _createDeckDefaultAnchoredPosition;
-    Vector3 _createDeckDefaultScale;
-    bool _isCreateDeckDefaultLayoutCached;
-    Rect _lastAppliedSafeArea = Rect.zero;
-    Vector2Int _lastAppliedScreenSize = Vector2Int.zero;
+    bool UseIPhoneSafeAreaLayout => _editorPreviewActive;
+    bool UseIPhoneTapPreview => Application.platform == RuntimePlatform.IPhonePlayer && !_editorPreviewActive;
+    IPhoneSafeAreaRoot _iPhoneSafeAreaRoot;
+    Image _iPhoneBackdrop;
+    bool _editorPreviewActive;
+    bool _hasAppliedIPhoneDeckLayout;
+    readonly Dictionary<RectTransform, RectTransformState> _iPhoneLayoutStates = new Dictionary<RectTransform, RectTransformState>();
+    readonly Dictionary<Text, string> _iPhoneTextStates = new Dictionary<Text, string>();
+    bool _detailCardActiveStateCaptured;
+    bool _detailCardWasActive;
+    readonly Dictionary<GridLayoutGroup, GridLayoutState> _iPhoneGridStates = new Dictionary<GridLayoutGroup, GridLayoutState>();
+    readonly Dictionary<Transform, TransformParentState> _iPhoneParentStates = new Dictionary<Transform, TransformParentState>();
+    RectTransform _iPhonePreviewBackdropRect;
+    Button _iPhonePreviewBackdropButton;
+    RectTransform _iPhonePreviewActionBarRect;
+    Button _iPhonePreviewCloseButton;
+    Button _iPhonePreviewAddButton;
+    Button _iPhonePreviewRemoveButton;
+    Text _iPhonePreviewCloseButtonText;
+    Text _iPhonePreviewAddButtonText;
+    Text _iPhonePreviewRemoveButtonText;
+    CardPrefab_CreateDeck _iPhonePreviewSourceCard;
+    bool _iPhonePreviewOpenedFromDeck;
 
     private void Start()
     {
@@ -82,7 +202,7 @@ public class EditDeck : MonoBehaviour
         CardPoolScroll.content.GetComponent<GridLayoutGroup>().constraintCount = 5;
 #endif
 
-        CacheCreateDeckLayoutDefaults();
+        CaptureAuthoredDetailCardState();
         ApplyIPhoneCreateDeckLayout(force: true);
         EnsureCardPoolScrollConfiguredForIPhone();
         SetPageUiVisible(!UseIPhoneDeckScroll);
@@ -139,33 +259,35 @@ public class EditDeck : MonoBehaviour
         CardPoolScroll.vertical = true;
     }
 
-    void CacheCreateDeckLayoutDefaults()
+    void CaptureAuthoredDetailCardState()
     {
-        if (_isCreateDeckDefaultLayoutCached)
+        if (_detailCardActiveStateCaptured || DetailCard == null)
         {
             return;
         }
 
-        if (CreateDeckObject == null)
-        {
-            return;
-        }
+        _detailCardWasActive = DetailCard.gameObject.activeSelf;
+        _detailCardActiveStateCaptured = true;
+    }
 
-        RectTransform createDeckRect = CreateDeckObject.GetComponent<RectTransform>();
-        if (createDeckRect == null)
-        {
-            return;
-        }
-
-        _createDeckDefaultAnchoredPosition = createDeckRect.anchoredPosition;
-        _createDeckDefaultScale = createDeckRect.localScale;
-        _isCreateDeckDefaultLayoutCached = true;
+    bool ShouldPreserveAuthoredDetailCardState()
+    {
+        CaptureAuthoredDetailCardState();
+        bool preserveAuthoredState =
+            Application.platform == RuntimePlatform.IPhonePlayer ||
+            Application.isEditor;
+        return preserveAuthoredState && !UseIPhoneSafeAreaLayout && _detailCardActiveStateCaptured && _detailCardWasActive;
     }
 
     void ApplyIPhoneCreateDeckLayout(bool force = false)
     {
-        if (!UseIPhoneSafeAreaLayout || !Application.isMobilePlatform)
+        if (!UseIPhoneSafeAreaLayout)
         {
+            if (_hasAppliedIPhoneDeckLayout)
+            {
+                RestoreIPhoneDeckLayout();
+            }
+
             return;
         }
 
@@ -181,49 +303,957 @@ public class EditDeck : MonoBehaviour
             return;
         }
 
-        CacheCreateDeckLayoutDefaults();
-        if (!_isCreateDeckDefaultLayoutCached)
+        if (Application.platform == RuntimePlatform.IPhonePlayer && _iPhoneSafeAreaRoot == null)
+        {
+            _iPhoneSafeAreaRoot = CreateDeckObject.GetComponent<IPhoneSafeAreaRoot>();
+
+            if (_iPhoneSafeAreaRoot == null)
+            {
+                _iPhoneSafeAreaRoot = CreateDeckObject.AddComponent<IPhoneSafeAreaRoot>();
+            }
+        }
+
+        CaptureIPhoneLayoutState(createDeckRect);
+
+        if (_editorPreviewActive)
+        {
+            createDeckRect.anchorMin = Vector2.zero;
+            createDeckRect.anchorMax = Vector2.one;
+            createDeckRect.offsetMin = Vector2.zero;
+            createDeckRect.offsetMax = Vector2.zero;
+            createDeckRect.anchoredPosition = Vector2.zero;
+        }
+
+        if (Application.platform == RuntimePlatform.IPhonePlayer || _editorPreviewActive)
+        {
+            EnsureIPhoneBackdrop();
+        }
+
+        if (_iPhoneBackdrop != null)
+        {
+            _iPhoneBackdrop.gameObject.SetActive(true);
+        }
+
+        createDeckRect.localScale = Vector3.one;
+        createDeckRect.SetAsLastSibling();
+        ApplyIPhoneDeckPanelLayout();
+        _hasAppliedIPhoneDeckLayout = true;
+
+        if (force)
+        {
+            LayoutRebuilder.ForceRebuildLayoutImmediate(createDeckRect);
+        }
+    }
+
+    void CaptureIPhoneLayoutState(RectTransform rectTransform)
+    {
+        if (rectTransform == null || _iPhoneLayoutStates.ContainsKey(rectTransform))
         {
             return;
         }
 
-        int screenWidth = Screen.width;
-        int screenHeight = Screen.height;
-        if (screenWidth <= 0 || screenHeight <= 0)
+        _iPhoneLayoutStates.Add(rectTransform, RectTransformState.Capture(rectTransform));
+    }
+
+    void RestoreIPhoneDeckLayout()
+    {
+        if (!_hasAppliedIPhoneDeckLayout)
         {
             return;
         }
 
-        Rect safeArea = Screen.safeArea;
-        if (!force &&
-            safeArea == _lastAppliedSafeArea &&
-            _lastAppliedScreenSize.x == screenWidth &&
-            _lastAppliedScreenSize.y == screenHeight)
+        HideIPhonePreview(force: true);
+
+        foreach (KeyValuePair<GridLayoutGroup, GridLayoutState> pair in _iPhoneGridStates)
+        {
+            if (pair.Key != null)
+            {
+                pair.Value.Restore(pair.Key);
+            }
+        }
+
+        foreach (KeyValuePair<Transform, TransformParentState> pair in _iPhoneParentStates)
+        {
+            if (pair.Key != null)
+            {
+                pair.Value.Restore(pair.Key);
+            }
+        }
+
+        foreach (KeyValuePair<RectTransform, RectTransformState> pair in _iPhoneLayoutStates)
+        {
+            if (pair.Key != null)
+            {
+                pair.Value.Restore(pair.Key);
+            }
+        }
+
+        foreach (KeyValuePair<Text, string> pair in _iPhoneTextStates)
+        {
+            if (pair.Key != null)
+            {
+                pair.Key.text = pair.Value;
+            }
+        }
+
+        if (_detailCardActiveStateCaptured && DetailCard != null)
+        {
+            DetailCard.gameObject.SetActive(_detailCardWasActive);
+        }
+
+        if (_iPhoneBackdrop != null)
+        {
+            _iPhoneBackdrop.gameObject.SetActive(false);
+        }
+
+        _hasAppliedIPhoneDeckLayout = false;
+    }
+
+    void ApplyIPhoneDeckPanelLayout()
+    {
+        RectTransform createDeckRect = CreateDeckObject != null
+            ? CreateDeckObject.GetComponent<RectTransform>()
+            : null;
+        RectTransform deckCardsRoot = CreateDeckObject != null
+            ? CreateDeckObject.transform.Find("DeckCards") as RectTransform
+            : null;
+        RectTransform cardPoolRoot = CreateDeckObject != null
+            ? CreateDeckObject.transform.Find("CardPool") as RectTransform
+            : null;
+        RectTransform distributionRoot = cardDistribution != null
+            ? cardDistribution.transform as RectTransform
+            : null;
+        RectTransform searchRoot = filterCardList != null
+            ? filterCardList.transform as RectTransform
+            : null;
+        RectTransform searchInputRoot = searchRoot != null
+            ? GetDirectChildRect(searchRoot, filterCardList != null ? filterCardList.SearchInputRoot : null)
+            : null;
+        RectTransform cardSetRoot = searchRoot != null
+            ? GetDirectChildRect(searchRoot, filterCardList != null ? filterCardList.CardSetRoot : null)
+            : null;
+        RectTransform searchButtonRoot = searchRoot != null
+            ? FindRectTransformByName(searchRoot, "SearchButton")
+            : null;
+        RectTransform resetButtonRoot = searchRoot != null
+            ? FindRectTransformByName(searchRoot, "ResetButton")
+            : null;
+        RectTransform buttonsRoot = CreateDeckObject != null
+            ? CreateDeckObject.transform.Find("Buttons") as RectTransform
+            : null;
+        RectTransform saveButtonRoot = buttonsRoot != null
+            ? GetDirectChildRect(buttonsRoot, FindRectTransformByName(buttonsRoot, "Save")) ?? FindRectTransformByName(buttonsRoot, "Save")
+            : null;
+        RectTransform quitButtonRoot = buttonsRoot != null
+            ? GetDirectChildRect(buttonsRoot, FindRectTransformByName(buttonsRoot, "Quit")) ?? FindRectTransformByName(buttonsRoot, "Quit")
+            : null;
+        RectTransform clearButtonRoot = buttonsRoot != null
+            ? GetDirectChildRect(buttonsRoot, FindRectTransformByName(buttonsRoot, "Clear")) ?? FindRectTransformByName(buttonsRoot, "Clear")
+            : null;
+        RectTransform testDrawButtonRoot = buttonsRoot != null
+            ? GetDirectChildRect(buttonsRoot, FindRectTransformByName(buttonsRoot, "TestDraw")) ?? FindRectTransformByName(buttonsRoot, "TestDraw")
+            : null;
+        RectTransform setKeyCardButtonRoot = buttonsRoot != null
+            ? GetDirectChildRect(buttonsRoot, FindRectTransformByName(buttonsRoot, "SetKeyCard")) ?? FindRectTransformByName(buttonsRoot, "SetKeyCard")
+            : null;
+        Text quitButtonLabel = FindLabelText(quitButtonRoot);
+
+        CaptureIPhoneLayoutState(createDeckRect);
+        CaptureIPhoneLayoutState(deckCardsRoot);
+        CaptureIPhoneLayoutState(cardPoolRoot);
+        CaptureIPhoneLayoutState(distributionRoot);
+        CaptureIPhoneLayoutState(searchRoot);
+        CaptureIPhoneLayoutState(searchInputRoot);
+        CaptureIPhoneLayoutState(cardSetRoot);
+        CaptureIPhoneLayoutState(searchButtonRoot);
+        CaptureIPhoneLayoutState(resetButtonRoot);
+        CaptureIPhoneLayoutState(buttonsRoot);
+        CaptureIPhoneLayoutState(saveButtonRoot);
+        CaptureIPhoneLayoutState(quitButtonRoot);
+        CaptureIPhoneLayoutState(clearButtonRoot);
+        CaptureIPhoneLayoutState(testDrawButtonRoot);
+        CaptureIPhoneLayoutState(setKeyCardButtonRoot);
+        CaptureIPhoneTextState(quitButtonLabel);
+
+        if (createDeckRect == null)
         {
             return;
         }
 
-        float safeCenterX = safeArea.x + (safeArea.width * 0.5f);
-        float safeCenterY = safeArea.y + (safeArea.height * 0.5f);
+        RectTransform parentRect = createDeckRect.parent as RectTransform;
+        float width = createDeckRect.rect.width > 400f
+            ? createDeckRect.rect.width
+            : parentRect != null ? parentRect.rect.width : Screen.width;
+        float height = createDeckRect.rect.height > 220f
+            ? createDeckRect.rect.height
+            : parentRect != null ? parentRect.rect.height : Screen.height;
+        float layoutT = Mathf.InverseLerp(1334f, 1920f, width);
+        float topInset = Mathf.Lerp(26f, 34f, layoutT);
+        float topRowHeight = Mathf.Lerp(66f, 74f, layoutT);
+        float sideInset = Mathf.Lerp(18f, 26f, layoutT);
+        float minGap = Mathf.Lerp(28f, 40f, layoutT);
+        float buttonsWidth = Mathf.Clamp(width * 0.24f, 260f, 320f);
+        float searchWidth = Mathf.Clamp(
+            width - (sideInset * 2f) - minGap - buttonsWidth,
+            440f,
+            620f);
+        float deckScale = Mathf.Lerp(1.06f, 1.12f, layoutT);
+        float poolScale = Mathf.Lerp(1.04f, 1.09f, layoutT);
+        float summaryScale = Mathf.Lerp(1.10f, 1.16f, layoutT);
+        float contentTop = topInset + topRowHeight + Mathf.Lerp(22f, 30f, layoutT);
 
-        float offsetXNormalized = (safeCenterX / screenWidth) - 0.5f;
-        float offsetYNormalized = (safeCenterY / screenHeight) - 0.5f;
+        if (deckCardsRoot != null)
+        {
+            SetAnchoredRootTransform(
+                deckCardsRoot,
+                new Vector2(0.5f, 0.5f),
+                new Vector2(-width * 0.12f, -height * 0.055f),
+                new Vector3(deckScale, deckScale, 1f));
+        }
 
-        Vector2 safeAreaCenterOffset = new Vector2(
-            offsetXNormalized * parentRect.rect.width,
-            offsetYNormalized * parentRect.rect.height);
+        if (cardPoolRoot != null)
+        {
+            SetAnchoredRootTransform(
+                cardPoolRoot,
+                new Vector2(0.5f, 0.5f),
+                new Vector2(width * 0.38f, -height * 0.02f),
+                new Vector3(poolScale, poolScale, 1f));
+        }
 
-        // Keep iPhone deck editor within the visible safe area.
-        // Never upscale beyond the authored size; only downscale if needed.
-        float safeWidthRatio = safeArea.width / Mathf.Max(1f, screenWidth);
-        float safeHeightRatio = safeArea.height / Mathf.Max(1f, screenHeight);
-        float appliedScaleMultiplier = Mathf.Clamp(Mathf.Min(safeWidthRatio, safeHeightRatio), 0.88f, 1f);
+        if (distributionRoot != null)
+        {
+            distributionRoot.anchorMin = new Vector2(0.5f, 1f);
+            distributionRoot.anchorMax = new Vector2(0.5f, 1f);
+            distributionRoot.pivot = new Vector2(0.5f, 1f);
+            distributionRoot.anchoredPosition = new Vector2(-width * 0.18f, -contentTop);
+            distributionRoot.localScale = new Vector3(summaryScale, summaryScale, 1f);
+        }
 
-        createDeckRect.anchoredPosition = _createDeckDefaultAnchoredPosition + safeAreaCenterOffset;
-        createDeckRect.localScale = _createDeckDefaultScale * appliedScaleMultiplier;
+        if (buttonsRoot != null)
+        {
+            SetTopLeftBox(buttonsRoot, sideInset, topInset, buttonsWidth, topRowHeight);
+        }
 
-        _lastAppliedSafeArea = safeArea;
-        _lastAppliedScreenSize = new Vector2Int(screenWidth, screenHeight);
+        if (searchRoot != null)
+        {
+            SetTopRightBox(searchRoot, sideInset, topInset, searchWidth, topRowHeight);
+        }
+
+        LayoutIPhoneActionButtons(
+            buttonsRoot,
+            saveButtonRoot,
+            clearButtonRoot,
+            quitButtonRoot,
+            testDrawButtonRoot,
+            setKeyCardButtonRoot,
+            buttonsWidth,
+            topRowHeight);
+        LayoutIPhoneCollectionControls(
+            searchRoot,
+            searchInputRoot,
+            cardSetRoot,
+            searchButtonRoot,
+            resetButtonRoot,
+            searchWidth,
+            topRowHeight);
+        SetButtonLabel(quitButtonRoot, LocalizeUtility.GetLocalizedString("Back", "戻る"));
+
+        if (searchRoot != null)
+        {
+            searchRoot.SetAsLastSibling();
+        }
+
+        if (buttonsRoot != null)
+        {
+            buttonsRoot.SetAsLastSibling();
+        }
+    }
+
+    void CaptureIPhoneGridState(GridLayoutGroup gridLayoutGroup)
+    {
+        if (gridLayoutGroup == null || _iPhoneGridStates.ContainsKey(gridLayoutGroup))
+        {
+            return;
+        }
+
+        _iPhoneGridStates.Add(gridLayoutGroup, GridLayoutState.Capture(gridLayoutGroup));
+    }
+
+    void CaptureIPhoneParentState(Transform transform)
+    {
+        if (transform == null || _iPhoneParentStates.ContainsKey(transform))
+        {
+            return;
+        }
+
+        _iPhoneParentStates.Add(transform, TransformParentState.Capture(transform));
+    }
+
+    static void SetAnchoredRootTransform(RectTransform rectTransform, Vector2 anchor, Vector2 anchoredPosition, Vector3 localScale)
+    {
+        if (rectTransform == null)
+        {
+            return;
+        }
+
+        rectTransform.anchorMin = anchor;
+        rectTransform.anchorMax = anchor;
+        rectTransform.pivot = new Vector2(0.5f, 0.5f);
+        rectTransform.anchoredPosition = anchoredPosition;
+        rectTransform.localScale = localScale;
+    }
+
+    static void StretchRect(RectTransform rectTransform, float leftInset, float topInset, float rightInset, float bottomInset)
+    {
+        if (rectTransform == null)
+        {
+            return;
+        }
+
+        rectTransform.anchorMin = Vector2.zero;
+        rectTransform.anchorMax = Vector2.one;
+        rectTransform.offsetMin = new Vector2(leftInset, bottomInset);
+        rectTransform.offsetMax = new Vector2(-rightInset, -topInset);
+        rectTransform.localScale = Vector3.one;
+    }
+
+    static void SetTopLeftBox(RectTransform rectTransform, float left, float top, float width, float height)
+    {
+        if (rectTransform == null)
+        {
+            return;
+        }
+
+        rectTransform.anchorMin = new Vector2(0f, 1f);
+        rectTransform.anchorMax = new Vector2(0f, 1f);
+        rectTransform.pivot = new Vector2(0f, 1f);
+        rectTransform.sizeDelta = new Vector2(width, height);
+        rectTransform.anchoredPosition = new Vector2(left, -top);
+        rectTransform.localScale = Vector3.one;
+    }
+
+    static void SetTopRightBox(RectTransform rectTransform, float right, float top, float width, float height)
+    {
+        if (rectTransform == null)
+        {
+            return;
+        }
+
+        rectTransform.anchorMin = new Vector2(1f, 1f);
+        rectTransform.anchorMax = new Vector2(1f, 1f);
+        rectTransform.pivot = new Vector2(1f, 1f);
+        rectTransform.sizeDelta = new Vector2(width, height);
+        rectTransform.anchoredPosition = new Vector2(-right, -top);
+        rectTransform.localScale = Vector3.one;
+    }
+
+    static void SetChildBox(RectTransform rectTransform, float x, float y, float width, float height, Vector2 pivot)
+    {
+        if (rectTransform == null)
+        {
+            return;
+        }
+
+        rectTransform.anchorMin = new Vector2(0f, 0.5f);
+        rectTransform.anchorMax = new Vector2(0f, 0.5f);
+        rectTransform.pivot = pivot;
+        rectTransform.sizeDelta = new Vector2(width, height);
+        rectTransform.anchoredPosition = new Vector2(x, y);
+        rectTransform.localScale = Vector3.one;
+    }
+
+    static RectTransform FindRectTransformByName(Transform root, string name)
+    {
+        if (root == null || string.IsNullOrEmpty(name))
+        {
+            return null;
+        }
+
+        Transform[] descendants = root.GetComponentsInChildren<Transform>(true);
+
+        for (int i = 0; i < descendants.Length; i++)
+        {
+            if (descendants[i].name == name)
+            {
+                return descendants[i] as RectTransform;
+            }
+        }
+
+        return null;
+    }
+
+    static RectTransform GetDirectChildRect(Transform root, Transform descendant)
+    {
+        if (root == null || descendant == null)
+        {
+            return null;
+        }
+
+        Transform current = descendant;
+
+        while (current != null && current.parent != root)
+        {
+            current = current.parent;
+        }
+
+        return current as RectTransform;
+    }
+
+    void CaptureIPhoneTextState(Text text)
+    {
+        if (text == null || _iPhoneTextStates.ContainsKey(text))
+        {
+            return;
+        }
+
+        _iPhoneTextStates.Add(text, text.text);
+    }
+
+    static Text FindLabelText(RectTransform root)
+    {
+        if (root == null)
+        {
+            return null;
+        }
+
+        Text[] texts = root.GetComponentsInChildren<Text>(true);
+
+        for (int i = 0; i < texts.Length; i++)
+        {
+            if (texts[i] != null && !string.IsNullOrEmpty(texts[i].text))
+            {
+                return texts[i];
+            }
+        }
+
+        return root.GetComponentInChildren<Text>(true);
+    }
+
+    static void SetButtonLabel(RectTransform root, string label)
+    {
+        Text text = FindLabelText(root);
+
+        if (text != null)
+        {
+            text.text = label;
+        }
+    }
+
+    Vector3 GetIPhoneScaledLocalScale(RectTransform rectTransform, float multiplier)
+    {
+        if (rectTransform != null && _iPhoneLayoutStates.TryGetValue(rectTransform, out RectTransformState state))
+        {
+            return state.LocalScale * multiplier;
+        }
+
+        return new Vector3(multiplier, multiplier, 1f);
+    }
+
+    void LayoutIPhoneDeckHeader(
+        RectTransform deckBarRoot,
+        RectTransform deckNameRoot,
+        RectTransform deckCountRoot,
+        float deckColumnWidth,
+        float deckBarHeight)
+    {
+        if (deckBarRoot == null)
+        {
+            return;
+        }
+
+        float innerPadding = 10f;
+        float availableWidth = Mathf.Max(120f, deckColumnWidth - (innerPadding * 2f));
+        float deckNameWidth = Mathf.Clamp(availableWidth * 0.46f, 140f, 260f);
+        float deckNameHeight = Mathf.Clamp(deckBarHeight - 18f, 28f, 40f);
+        float countWidth = Mathf.Clamp(availableWidth * 0.26f, 110f, 168f);
+
+        if (deckNameRoot != null)
+        {
+            SetChildBox(deckNameRoot, innerPadding + (deckNameWidth * 0.5f), 0f, deckNameWidth, deckNameHeight, new Vector2(0.5f, 0.5f));
+            deckNameRoot.localScale = new Vector3(0.8f, 0.8f, 1f);
+        }
+
+        if (deckCountRoot != null)
+        {
+            SetChildBox(deckCountRoot, availableWidth - (countWidth * 0.5f) + innerPadding, 0f, countWidth, deckNameHeight, new Vector2(0.5f, 0.5f));
+            deckCountRoot.localScale = new Vector3(1.18f, 1.18f, 1f);
+        }
+    }
+
+    void LayoutIPhoneCollectionControls(
+        RectTransform searchRoot,
+        RectTransform searchInputRoot,
+        RectTransform cardSetRoot,
+        RectTransform searchButtonRoot,
+        RectTransform resetButtonRoot,
+        float searchWidth,
+        float topRowHeight)
+    {
+        if (searchRoot == null)
+        {
+            return;
+        }
+
+        if (resetButtonRoot != null)
+        {
+            resetButtonRoot.gameObject.SetActive(false);
+        }
+
+        float horizontalPadding = 8f;
+        float gap = 8f;
+        float elementHeight = Mathf.Clamp(topRowHeight - 14f, 42f, 54f);
+        float searchButtonWidth = Mathf.Clamp(searchWidth * 0.18f, 102f, 124f);
+        float cardSetWidth = Mathf.Clamp(searchWidth * 0.24f, 122f, 150f);
+        float searchInputWidth = Mathf.Max(196f, searchWidth - (horizontalPadding * 2f) - (gap * 2f) - cardSetWidth - searchButtonWidth);
+        float cursorX = horizontalPadding;
+
+        if (searchInputRoot != null)
+        {
+            SetChildBox(searchInputRoot, cursorX + (searchInputWidth * 0.5f), 0f, searchInputWidth, elementHeight, new Vector2(0.5f, 0.5f));
+            searchInputRoot.localScale = GetIPhoneScaledLocalScale(searchInputRoot, 1.04f);
+            cursorX += searchInputWidth + gap;
+        }
+
+        if (cardSetRoot != null)
+        {
+            SetChildBox(cardSetRoot, cursorX + (cardSetWidth * 0.5f), 0f, cardSetWidth, elementHeight, new Vector2(0.5f, 0.5f));
+            cardSetRoot.localScale = GetIPhoneScaledLocalScale(cardSetRoot, 0.98f);
+            cursorX += cardSetWidth + gap;
+        }
+
+        if (searchButtonRoot != null)
+        {
+            SetChildBox(searchButtonRoot, cursorX + (searchButtonWidth * 0.5f), 0f, searchButtonWidth, elementHeight, new Vector2(0.5f, 0.5f));
+            searchButtonRoot.localScale = GetIPhoneScaledLocalScale(searchButtonRoot, 0.82f);
+        }
+    }
+
+    void LayoutIPhoneActionButtons(
+        RectTransform buttonsRoot,
+        RectTransform saveButtonRoot,
+        RectTransform clearButtonRoot,
+        RectTransform quitButtonRoot,
+        RectTransform testDrawButtonRoot,
+        RectTransform setKeyCardButtonRoot,
+        float buttonsWidth,
+        float topRowHeight)
+    {
+        if (buttonsRoot == null)
+        {
+            return;
+        }
+
+        if (clearButtonRoot != null)
+        {
+            clearButtonRoot.gameObject.SetActive(false);
+        }
+
+        if (testDrawButtonRoot != null)
+        {
+            testDrawButtonRoot.gameObject.SetActive(false);
+        }
+
+        if (setKeyCardButtonRoot != null)
+        {
+            setKeyCardButtonRoot.gameObject.SetActive(false);
+        }
+
+        List<RectTransform> visibleButtons = new List<RectTransform>();
+
+        if (quitButtonRoot != null)
+        {
+            visibleButtons.Add(quitButtonRoot);
+        }
+
+        if (saveButtonRoot != null)
+        {
+            visibleButtons.Add(saveButtonRoot);
+        }
+
+        float gap = 12f;
+        float horizontalPadding = 8f;
+        float buttonWidth = visibleButtons.Count > 0
+            ? (buttonsWidth - (horizontalPadding * 2f) - (gap * (visibleButtons.Count - 1))) / visibleButtons.Count
+            : 0f;
+        float buttonHeight = Mathf.Clamp(topRowHeight - 14f, 42f, 54f);
+        float cursorX = horizontalPadding;
+
+        for (int i = 0; i < visibleButtons.Count; i++)
+        {
+            SetChildBox(visibleButtons[i], cursorX + (buttonWidth * 0.5f), 0f, buttonWidth, buttonHeight, new Vector2(0.5f, 0.5f));
+            visibleButtons[i].localScale = GetIPhoneScaledLocalScale(visibleButtons[i], 0.82f);
+            cursorX += buttonWidth + gap;
+        }
+    }
+
+    void LayoutIPhoneCollectionPager(
+        RectTransform upButtonRoot,
+        RectTransform downButtonRoot,
+        RectTransform pageTextRoot,
+        RectTransform footerRoot,
+        float footerHeight)
+    {
+        if (footerRoot == null)
+        {
+            return;
+        }
+
+        float buttonWidth = 62f;
+        float textWidth = 76f;
+        float gap = 10f;
+        float centerX = footerRoot.rect.width * 0.5f;
+
+        if (downButtonRoot != null)
+        {
+            downButtonRoot.SetParent(footerRoot, true);
+            SetChildBox(downButtonRoot, centerX - (textWidth * 0.5f) - gap - (buttonWidth * 0.5f), 0f, buttonWidth, footerHeight - 6f, new Vector2(0.5f, 0.5f));
+        }
+
+        if (pageTextRoot != null)
+        {
+            pageTextRoot.SetParent(footerRoot, true);
+            SetChildBox(pageTextRoot, centerX, 0f, textWidth, footerHeight - 8f, new Vector2(0.5f, 0.5f));
+            pageTextRoot.localScale = Vector3.one;
+        }
+
+        if (upButtonRoot != null)
+        {
+            upButtonRoot.SetParent(footerRoot, true);
+            SetChildBox(upButtonRoot, centerX + (textWidth * 0.5f) + gap + (buttonWidth * 0.5f), 0f, buttonWidth, footerHeight - 6f, new Vector2(0.5f, 0.5f));
+        }
+    }
+
+    void ApplyIPhoneGridSizing(
+        GridLayoutGroup deckGridLayout,
+        GridLayoutGroup poolGridLayout,
+        float deckColumnWidth,
+        float collectionColumnWidth)
+    {
+        if (deckGridLayout != null)
+        {
+            float availableDeckWidth = Mathf.Max(220f, deckColumnWidth - 26f);
+            float cellWidth = Mathf.Floor((availableDeckWidth - (8f * 3f)) / 4f);
+            float cellHeight = Mathf.Round(cellWidth * 1.4f);
+            deckGridLayout.constraint = GridLayoutGroup.Constraint.FixedColumnCount;
+            deckGridLayout.constraintCount = 4;
+            deckGridLayout.spacing = new Vector2(8f, 10f);
+            deckGridLayout.padding = new RectOffset(8, 8, 8, 8);
+            deckGridLayout.cellSize = new Vector2(cellWidth, cellHeight);
+        }
+
+        if (poolGridLayout != null)
+        {
+            float availableCollectionWidth = Mathf.Max(160f, collectionColumnWidth - 18f);
+            float cellWidth = Mathf.Floor((availableCollectionWidth - (8f * 2f)) / 3f);
+            float cellHeight = Mathf.Round(cellWidth * 1.4f);
+            poolGridLayout.constraint = GridLayoutGroup.Constraint.FixedColumnCount;
+            poolGridLayout.constraintCount = 3;
+            poolGridLayout.spacing = new Vector2(8f, 10f);
+            poolGridLayout.padding = new RectOffset(6, 6, 8, 8);
+            poolGridLayout.cellSize = new Vector2(cellWidth, cellHeight);
+        }
+    }
+
+    void ApplyIPhoneDetailCardLayout(RectTransform detailCardRoot, RectTransform createDeckRect)
+    {
+        if (detailCardRoot == null || createDeckRect == null)
+        {
+            return;
+        }
+
+        EnsureIPhonePreviewUi();
+        _iPhonePreviewBackdropRect.gameObject.SetActive(true);
+        _iPhonePreviewBackdropRect.SetAsLastSibling();
+
+        float width = createDeckRect.rect.width > 0f ? createDeckRect.rect.width : Screen.width;
+        float height = createDeckRect.rect.height > 0f ? createDeckRect.rect.height : Screen.height;
+        float maxWidth = Mathf.Clamp(width * 0.48f, 260f, 376f);
+        float maxHeight = Mathf.Clamp(height * 0.9f, 280f, 520f);
+        Vector2 originalSize = _iPhoneLayoutStates.ContainsKey(detailCardRoot)
+            ? _iPhoneLayoutStates[detailCardRoot].SizeDelta
+            : detailCardRoot.sizeDelta;
+        float scaleX = originalSize.x > 0f ? maxWidth / originalSize.x : 1f;
+        float scaleY = originalSize.y > 0f ? maxHeight / originalSize.y : 1f;
+        float uniformScale = Mathf.Clamp(Mathf.Min(scaleX, scaleY), 0.58f, 1f);
+
+        detailCardRoot.anchorMin = new Vector2(0.5f, 0.5f);
+        detailCardRoot.anchorMax = new Vector2(0.5f, 0.5f);
+        detailCardRoot.pivot = new Vector2(0.5f, 0.5f);
+        detailCardRoot.anchoredPosition = new Vector2(0f, 12f);
+        detailCardRoot.localScale = new Vector3(uniformScale, uniformScale, 1f);
+        detailCardRoot.gameObject.SetActive(true);
+        detailCardRoot.SetAsLastSibling();
+
+        if (_iPhonePreviewActionBarRect != null)
+        {
+            _iPhonePreviewActionBarRect.gameObject.SetActive(true);
+            _iPhonePreviewActionBarRect.anchorMin = new Vector2(0.5f, 0f);
+            _iPhonePreviewActionBarRect.anchorMax = new Vector2(0.5f, 0f);
+            _iPhonePreviewActionBarRect.pivot = new Vector2(0.5f, 0f);
+            _iPhonePreviewActionBarRect.sizeDelta = new Vector2(Mathf.Min(maxWidth + 16f, width - 24f), 58f);
+            _iPhonePreviewActionBarRect.anchoredPosition = new Vector2(0f, 10f);
+            _iPhonePreviewActionBarRect.SetAsLastSibling();
+            LayoutIPhonePreviewButtons();
+        }
+    }
+
+    void EnsureIPhonePreviewUi()
+    {
+        if (CreateDeckObject == null)
+        {
+            return;
+        }
+
+        if (_iPhonePreviewBackdropRect == null)
+        {
+            GameObject backdropObject = new GameObject("IPhonePreviewBackdrop", typeof(RectTransform), typeof(Image), typeof(Button));
+            backdropObject.transform.SetParent(CreateDeckObject.transform, false);
+            _iPhonePreviewBackdropRect = backdropObject.GetComponent<RectTransform>();
+            _iPhonePreviewBackdropRect.anchorMin = Vector2.zero;
+            _iPhonePreviewBackdropRect.anchorMax = Vector2.one;
+            _iPhonePreviewBackdropRect.offsetMin = Vector2.zero;
+            _iPhonePreviewBackdropRect.offsetMax = Vector2.zero;
+            Image backdropImage = backdropObject.GetComponent<Image>();
+            backdropImage.color = new Color32(4, 8, 14, 224);
+            _iPhonePreviewBackdropButton = backdropObject.GetComponent<Button>();
+            _iPhonePreviewBackdropButton.targetGraphic = backdropImage;
+            _iPhonePreviewBackdropButton.onClick.AddListener(() => HideIPhonePreview(force: true));
+            backdropObject.SetActive(false);
+        }
+
+        if (_iPhonePreviewActionBarRect == null)
+        {
+            GameObject actionBarObject = new GameObject("IPhonePreviewActionBar", typeof(RectTransform), typeof(Image));
+            actionBarObject.transform.SetParent(CreateDeckObject.transform, false);
+            _iPhonePreviewActionBarRect = actionBarObject.GetComponent<RectTransform>();
+            Image actionBarImage = actionBarObject.GetComponent<Image>();
+            actionBarImage.color = new Color32(10, 28, 38, 240);
+
+            _iPhonePreviewAddButton = CreateIPhonePreviewButton(
+                _iPhonePreviewActionBarRect,
+                "Add",
+                LocalizeUtility.GetLocalizedString("Add", "追加"),
+                out _iPhonePreviewAddButtonText);
+            _iPhonePreviewRemoveButton = CreateIPhonePreviewButton(
+                _iPhonePreviewActionBarRect,
+                "Remove",
+                LocalizeUtility.GetLocalizedString("Remove", "除去"),
+                out _iPhonePreviewRemoveButtonText);
+            _iPhonePreviewCloseButton = CreateIPhonePreviewButton(
+                _iPhonePreviewActionBarRect,
+                "Close",
+                LocalizeUtility.GetLocalizedString("Close", "閉じる"),
+                out _iPhonePreviewCloseButtonText);
+
+            _iPhonePreviewAddButton.onClick.AddListener(OnClickIPhonePreviewAdd);
+            _iPhonePreviewRemoveButton.onClick.AddListener(OnClickIPhonePreviewRemove);
+            _iPhonePreviewCloseButton.onClick.AddListener(() => HideIPhonePreview(force: true));
+            actionBarObject.SetActive(false);
+        }
+
+        RefreshIPhonePreviewButtonLabels();
+    }
+
+    Button CreateIPhonePreviewButton(RectTransform parent, string name, string label, out Text labelText)
+    {
+        GameObject buttonObject = new GameObject(name, typeof(RectTransform), typeof(Image), typeof(Button));
+        buttonObject.transform.SetParent(parent, false);
+        Image buttonImage = buttonObject.GetComponent<Image>();
+        buttonImage.color = new Color32(28, 100, 130, 255);
+        Button button = buttonObject.GetComponent<Button>();
+        button.targetGraphic = buttonImage;
+
+        GameObject labelObject = new GameObject("Label", typeof(RectTransform), typeof(Text));
+        labelObject.transform.SetParent(buttonObject.transform, false);
+        RectTransform labelRect = labelObject.GetComponent<RectTransform>();
+        labelRect.anchorMin = Vector2.zero;
+        labelRect.anchorMax = Vector2.one;
+        labelRect.offsetMin = Vector2.zero;
+        labelRect.offsetMax = Vector2.zero;
+
+        labelText = labelObject.GetComponent<Text>();
+        labelText.font = Resources.GetBuiltinResource<Font>("Arial.ttf");
+        labelText.fontSize = 18;
+        labelText.alignment = TextAnchor.MiddleCenter;
+        labelText.color = Color.white;
+        labelText.text = label;
+
+        return button;
+    }
+
+    void RefreshIPhonePreviewButtonLabels()
+    {
+        if (_iPhonePreviewAddButtonText != null)
+        {
+            _iPhonePreviewAddButtonText.text = LocalizeUtility.GetLocalizedString("Add", "追加");
+        }
+
+        if (_iPhonePreviewRemoveButtonText != null)
+        {
+            _iPhonePreviewRemoveButtonText.text = LocalizeUtility.GetLocalizedString("Remove", "除去");
+        }
+
+        if (_iPhonePreviewCloseButtonText != null)
+        {
+            _iPhonePreviewCloseButtonText.text = LocalizeUtility.GetLocalizedString("Close", "閉じる");
+        }
+    }
+
+    void LayoutIPhonePreviewButtons()
+    {
+        if (_iPhonePreviewActionBarRect == null)
+        {
+            return;
+        }
+
+        List<Button> visibleButtons = new List<Button>();
+
+        if (_iPhonePreviewAddButton != null && _iPhonePreviewAddButton.gameObject.activeSelf)
+        {
+            visibleButtons.Add(_iPhonePreviewAddButton);
+        }
+
+        if (_iPhonePreviewRemoveButton != null && _iPhonePreviewRemoveButton.gameObject.activeSelf)
+        {
+            visibleButtons.Add(_iPhonePreviewRemoveButton);
+        }
+
+        if (_iPhonePreviewCloseButton != null && _iPhonePreviewCloseButton.gameObject.activeSelf)
+        {
+            visibleButtons.Add(_iPhonePreviewCloseButton);
+        }
+
+        float totalWidth = _iPhonePreviewActionBarRect.rect.width > 0f
+            ? _iPhonePreviewActionBarRect.rect.width
+            : _iPhonePreviewActionBarRect.sizeDelta.x;
+        float gap = 10f;
+        float padding = 10f;
+        float buttonWidth = visibleButtons.Count > 0
+            ? (totalWidth - (padding * 2f) - (gap * (visibleButtons.Count - 1))) / visibleButtons.Count
+            : 0f;
+        float cursorX = padding;
+
+        for (int i = 0; i < visibleButtons.Count; i++)
+        {
+            RectTransform buttonRect = visibleButtons[i].transform as RectTransform;
+            SetChildBox(buttonRect, cursorX + (buttonWidth * 0.5f), 0f, buttonWidth, 42f, new Vector2(0.5f, 0.5f));
+            cursorX += buttonWidth + gap;
+        }
+    }
+
+    void OpenIPhonePreview(CardPrefab_CreateDeck sourceCard, bool openedFromDeck)
+    {
+        if (sourceCard == null || sourceCard.cEntity_Base == null || DetailCard == null || isDragging)
+        {
+            return;
+        }
+
+        EnsureIPhonePreviewUi();
+        _iPhonePreviewSourceCard = sourceCard;
+        _iPhonePreviewOpenedFromDeck = openedFromDeck;
+        RefreshIPhonePreviewActions();
+        DetailCard.SetUpDetailCard(sourceCard.cEntity_Base);
+
+        RectTransform detailCardRoot = DetailCard.transform as RectTransform;
+        RectTransform createDeckRect = CreateDeckObject != null
+            ? CreateDeckObject.GetComponent<RectTransform>()
+            : null;
+        ApplyIPhoneDetailCardLayout(detailCardRoot, createDeckRect);
+    }
+
+    void RefreshIPhonePreviewActions()
+    {
+        EnsureIPhonePreviewUi();
+        RefreshIPhonePreviewButtonLabels();
+
+        bool hasSource = _iPhonePreviewSourceCard != null && _iPhonePreviewSourceCard.cEntity_Base != null;
+        bool canAdd = hasSource &&
+            !_iPhonePreviewSourceCard.IsLocked &&
+            EdittingDeckData != null &&
+            DeckBuildingRule.CanAddCard(_iPhonePreviewSourceCard.cEntity_Base, EdittingDeckData);
+        bool canRemove = hasSource &&
+            _iPhonePreviewOpenedFromDeck &&
+            EdittingDeckData != null &&
+            EdittingDeckData.AllDeckCards().Any(cardData => cardData.CardID == _iPhonePreviewSourceCard.cEntity_Base.CardID);
+
+        if (_iPhonePreviewBackdropRect != null)
+        {
+            _iPhonePreviewBackdropRect.gameObject.SetActive(hasSource);
+        }
+
+        if (_iPhonePreviewActionBarRect != null)
+        {
+            _iPhonePreviewActionBarRect.gameObject.SetActive(hasSource);
+        }
+
+        if (_iPhonePreviewAddButton != null)
+        {
+            _iPhonePreviewAddButton.gameObject.SetActive(hasSource);
+            _iPhonePreviewAddButton.interactable = canAdd;
+        }
+
+        if (_iPhonePreviewRemoveButton != null)
+        {
+            _iPhonePreviewRemoveButton.gameObject.SetActive(_iPhonePreviewOpenedFromDeck);
+            _iPhonePreviewRemoveButton.interactable = canRemove;
+        }
+
+        if (_iPhonePreviewCloseButton != null)
+        {
+            _iPhonePreviewCloseButton.gameObject.SetActive(hasSource);
+        }
+
+        LayoutIPhonePreviewButtons();
+    }
+
+    void HideIPhonePreview(bool force = false)
+    {
+        _iPhonePreviewSourceCard = null;
+        _iPhonePreviewOpenedFromDeck = false;
+
+        if (_iPhonePreviewBackdropRect != null)
+        {
+            _iPhonePreviewBackdropRect.gameObject.SetActive(false);
+        }
+
+        if (_iPhonePreviewActionBarRect != null)
+        {
+            _iPhonePreviewActionBarRect.gameObject.SetActive(false);
+        }
+
+        if (DetailCard != null && !ShouldPreserveAuthoredDetailCardState())
+        {
+            DetailCard.OffDetailCard();
+
+            if (UseIPhoneSafeAreaLayout)
+            {
+                DetailCard.gameObject.SetActive(force ? false : DetailCard.gameObject.activeSelf && !UseIPhoneSafeAreaLayout);
+            }
+        }
+    }
+
+    void OnClickIPhonePreviewAdd()
+    {
+        if (_iPhonePreviewSourceCard == null)
+        {
+            return;
+        }
+
+        CardPrefab_CreateDeck sourceCard = _iPhonePreviewSourceCard;
+        HideIPhonePreview(force: true);
+        StartCoroutine(AddDeckCardCoroutine_OnClick(sourceCard));
+    }
+
+    void OnClickIPhonePreviewRemove()
+    {
+        if (_iPhonePreviewSourceCard == null)
+        {
+            return;
+        }
+
+        CardPrefab_CreateDeck sourceCard = _iPhonePreviewSourceCard;
+        HideIPhonePreview(force: true);
+        StartCoroutine(RemoveDeckCardCoroutine_OnClick(sourceCard));
     }
 
     void SetPageUiVisible(bool visible)
@@ -407,12 +1437,24 @@ public class EditDeck : MonoBehaviour
     #region Card details display
     public void OffDetailCard()
     {
+        HideIPhonePreview(force: true);
+
+        if (DetailCard == null || ShouldPreserveAuthoredDetailCardState())
+        {
+            return;
+        }
+
         DetailCard.OffDetailCard();
     }
 
     public void OnDetailCard(CEntity_Base cEntity_Base)
     {
         if (isDragging)
+        {
+            return;
+        }
+
+        if (UseIPhoneSafeAreaLayout)
         {
             return;
         }
@@ -511,9 +1553,12 @@ public class EditDeck : MonoBehaviour
     public IEnumerator CloseCreateDeckCoroutine(bool Canceled)
     {
         isEditting = false;
+        HideIPhonePreview(force: true);
         yield return ContinuousController.instance.StartCoroutine(LoadingObjec.StartLoading("Now Loading"));
 
         Opening.instance.OffYesNoObjects();
+        Opening.instance.home.OffHome();
+        Opening.instance.OffModeButtons();
 
         Opening.instance.deck.trialDraw.Close();
 
@@ -763,6 +1808,8 @@ public class EditDeck : MonoBehaviour
 
         CreateDeckObject.SetActive(true);
         ApplyIPhoneCreateDeckLayout(force: true);
+        Opening.instance.home.OffHome();
+        Opening.instance.OffModeButtons();
 
         foreach (CardPrefab_CreateDeck _CardPrefab_CreateDeck in _cardPoolPrefabs)
         {
@@ -802,6 +1849,46 @@ public class EditDeck : MonoBehaviour
 
         yield return StartCoroutine(LoadingObjec.EndLoading());
         isEditting = true;
+    }
+
+    void EnsureIPhoneBackdrop()
+    {
+        if (!UseIPhoneSafeAreaLayout || _iPhoneBackdrop != null || CreateDeckObject == null)
+        {
+            return;
+        }
+
+        Transform existingBackdrop = CreateDeckObject.transform.Find("IPhoneDeckBackdrop");
+        GameObject backdropObject;
+
+        if (existingBackdrop != null)
+        {
+            backdropObject = existingBackdrop.gameObject;
+        }
+
+        else
+        {
+            backdropObject = new GameObject("IPhoneDeckBackdrop", typeof(RectTransform), typeof(Image));
+            backdropObject.transform.SetParent(CreateDeckObject.transform, false);
+            backdropObject.transform.SetSiblingIndex(0);
+        }
+
+        RectTransform backdropRect = backdropObject.GetComponent<RectTransform>();
+        backdropRect.anchorMin = Vector2.zero;
+        backdropRect.anchorMax = Vector2.one;
+        backdropRect.offsetMin = Vector2.zero;
+        backdropRect.offsetMax = Vector2.zero;
+
+        _iPhoneBackdrop = backdropObject.GetComponent<Image>();
+        _iPhoneBackdrop.color = new Color32(6, 10, 18, 255);
+        _iPhoneBackdrop.raycastTarget = false;
+        _iPhoneBackdrop.gameObject.SetActive(true);
+    }
+
+    public void SetEditorPreviewActive(bool active)
+    {
+        _editorPreviewActive = active;
+        ApplyIPhoneCreateDeckLayout(force: true);
     }
 
     public void OnEndEdit(string text)
@@ -851,9 +1938,31 @@ public class EditDeck : MonoBehaviour
             }
         }
 
-        configuredPrefab.OnClickAction = () => { StartCoroutine(AddDeckCardCoroutine_OnClick(configuredPrefab)); };
+        configuredPrefab.OnClickAction = () =>
+        {
+            if (UseIPhoneSafeAreaLayout)
+            {
+                OpenIPhonePreview(configuredPrefab, openedFromDeck: false);
+                return;
+            }
+
+            if (UseIPhoneTapPreview)
+            {
+                OnDetailCard(configuredPrefab.cEntity_Base);
+                configuredPrefab.SetupAddRemoveButton(EdittingDeckData);
+                return;
+            }
+
+            StartCoroutine(AddDeckCardCoroutine_OnClick(configuredPrefab));
+        };
         configuredPrefab.OnBeginDragAction = (cardPrefab) => { StartCoroutine(OnBeginDrag(cardPrefab)); };
-        configuredPrefab.OnEnterAction = (cardPrefab) => { OnDetailCard(configuredPrefab.cEntity_Base); };
+        configuredPrefab.OnEnterAction = (cardPrefab) =>
+        {
+            if (!UseIPhoneSafeAreaLayout)
+            {
+                OnDetailCard(configuredPrefab.cEntity_Base);
+            }
+        };
     }
 
     void EnsureCardPoolPrefabCapacityForIPhone(int requiredCardCount)
@@ -1003,6 +2112,19 @@ public class EditDeck : MonoBehaviour
 
         _cardPrefab_CreateDeck.OnClickAction = () =>
         {
+            if (UseIPhoneSafeAreaLayout)
+            {
+                OpenIPhonePreview(_cardPrefab_CreateDeck, openedFromDeck: true);
+                return;
+            }
+
+            if (UseIPhoneTapPreview)
+            {
+                OnDetailCard(cEntity_Base);
+                _cardPrefab_CreateDeck.SetupAddRemoveButton(EdittingDeckData);
+                return;
+            }
+
             StartCoroutine(RemoveDeckCardCoroutine_OnClick(_cardPrefab_CreateDeck));
         };
 
@@ -1010,8 +2132,11 @@ public class EditDeck : MonoBehaviour
 
         _cardPrefab_CreateDeck.OnEnterAction = (cardPrefab) =>
         {
-            OnDetailCard(cEntity_Base);
-            cardPrefab.SetupAddRemoveButton(EdittingDeckData);
+            if (!UseIPhoneSafeAreaLayout)
+            {
+                OnDetailCard(cEntity_Base);
+                cardPrefab.SetupAddRemoveButton(EdittingDeckData);
+            }
         };
 
         _cardPrefab_CreateDeck.OnExitAction = (cardPrefab) =>
@@ -1019,7 +2144,9 @@ public class EditDeck : MonoBehaviour
             cardPrefab.OffAddRemoveButton();
         };
 
-        _cardPrefab_CreateDeck.Parent.localScale = new Vector3(0.76f, 0.76f, 0.76f);
+        _cardPrefab_CreateDeck.Parent.localScale = UseIPhoneSafeAreaLayout
+            ? new Vector3(0.96f, 0.96f, 0.96f)
+            : new Vector3(0.76f, 0.76f, 0.76f);
 
         _cardPrefab_CreateDeck.OnClickAddButtonAction = (cardPrefab) => StartCoroutine(AddDeckCardCoroutine_OnClick(cardPrefab));
         _cardPrefab_CreateDeck.OnClickRemoveButtonAction = (cardPrefab) => StartCoroutine(RemoveDeckCardCoroutine_OnClick(cardPrefab));
