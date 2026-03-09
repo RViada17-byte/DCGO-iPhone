@@ -224,6 +224,22 @@ public class GManager : MonoBehaviourPun
         }
     }
 
+    public bool UsesGreedyAIControl
+    {
+        get
+        {
+            return AIConfig != null && AIConfig.UsesAuthoritativeGreedy && GreedyShadowBrain != null;
+        }
+    }
+
+    public IAIBrain ActiveAIBrain
+    {
+        get
+        {
+            return UsesGreedyAIControl ? GreedyShadowBrain : LegacyAIBrain;
+        }
+    }
+
     public int CardIndex { get; set; } = 0;
 
     public bool ActivateShortcuts = false;
@@ -282,7 +298,7 @@ public class GManager : MonoBehaviourPun
 
         AIConfig = global::AIConfig.CreateDefault(IsAI, BootstrapConfig.IsOfflineLocal);
         LegacyAIBrain = new LegacyAIBrain();
-        GreedyShadowBrain = AIConfig.IsShadowEnabled ? new GreedyShadowBrain() : null;
+        GreedyShadowBrain = AIConfig.IsShadowEnabled || AIConfig.EngineVersion == AIEngineVersion.GreedyShadow ? new GreedyShadowBrain() : null;
 
         turnStateMachine = gameObject.AddComponent<TurnStateMachine>();
 

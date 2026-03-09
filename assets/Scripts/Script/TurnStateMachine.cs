@@ -40,6 +40,7 @@ public class TurnStateMachine : MonoBehaviourPunCallbacks
     class AIShadowDecisionContext
     {
         public AISnapshot Snapshot;
+        public AIChosenAction LegacyAction;
         public AIChosenAction GreedyAction;
         public string FailureReason;
         public float EvaluationElapsedMs;
@@ -511,7 +512,25 @@ public class TurnStateMachine : MonoBehaviourPunCallbacks
                 {
                     AISnapshot snapshot = AISnapshotBuilder.Build(gameContext, player, AIChosenAction.AIDecisionType.Mulligan, TurnCount);
                     AIChosenAction legacyAction = AILegacyActionAdapter.Normalize(GManager.instance.LegacyAIBrain.DecideMulligan(snapshot));
-                    bool doRedraw = legacyAction.ActionKind == AIChosenAction.AIActionKind.Mulligan;
+                    AIChosenAction selectedAction = legacyAction;
+
+                    if (GManager.instance.UsesGreedyAIControl)
+                    {
+                        try
+                        {
+                            AIChosenAction greedyAction = GManager.instance.GreedyShadowBrain.DecideMulligan(snapshot);
+                            if (greedyAction != null)
+                            {
+                                selectedAction = greedyAction;
+                            }
+                        }
+                        catch
+                        {
+                            selectedAction = legacyAction;
+                        }
+                    }
+
+                    bool doRedraw = selectedAction.ActionKind == AIChosenAction.AIActionKind.Mulligan;
 
                     TryLogShadowMulligan(snapshot, legacyAction);
                     SetRedraw(doRedraw);
@@ -740,7 +759,7 @@ public class TurnStateMachine : MonoBehaviourPunCallbacks
     AIShadowDecisionContext BuildMainPhaseShadowDecision(Player player)
     {
         AISnapshot snapshot = AISnapshotBuilder.Build(gameContext, player, AIChosenAction.AIDecisionType.MainPhase, TurnCount);
-        if (!ShouldRunAIShadow(snapshot) || snapshot.StateKey == _lastShadowMainStateKey)
+        if (!ShouldRunAIShadow(snapshot))
         {
             return null;
         }
@@ -755,7 +774,16 @@ public class TurnStateMachine : MonoBehaviourPunCallbacks
         try
         {
             List<AIMainPhaseCandidate> candidates = AIMainPhaseCandidateBuilder.Build(gameContext, player);
-            context.GreedyAction = GManager.instance.GreedyShadowBrain.DecideMainPhase(snapshot, candidates);
+            context.LegacyAction = AILegacyActionAdapter.Normalize(GManager.instance.LegacyAIBrain.DecideMainPhase(snapshot, candidates));
+
+            if (GManager.instance.GreedyShadowBrain != null)
+            {
+                context.GreedyAction = GManager.instance.GreedyShadowBrain.DecideMainPhase(snapshot, candidates);
+            }
+            else
+            {
+                context.FailureReason = "greedy brain is unavailable";
+            }
         }
         catch (Exception exception)
         {
@@ -770,9 +798,9 @@ public class TurnStateMachine : MonoBehaviourPunCallbacks
         return context;
     }
 
-    void FinishMainPhaseShadowDecision(AIShadowDecisionContext context, AIChosenAction legacyAction)
+    void FinishMainPhaseShadowDecision(AIShadowDecisionContext context)
     {
-        if (context == null || context.Snapshot == null || legacyAction == null)
+        if (context == null || context.Snapshot == null || context.LegacyAction == null || context.Snapshot.StateKey == _lastShadowMainStateKey)
         {
             return;
         }
@@ -782,11 +810,78 @@ public class TurnStateMachine : MonoBehaviourPunCallbacks
         RecordAndLogShadowEntry(BuildShadowTraceEntry(
             AIChosenAction.AIDecisionType.MainPhase,
             context.Snapshot,
-            legacyAction,
+            context.LegacyAction,
             context.GreedyAction,
             context.EvaluationElapsedMs,
             AITurnGoal.ValueSetup,
             context.FailureReason));
+    }
+
+    bool TryApplyMainPhaseAction(AIChosenAction action, out bool requestedEndTurn)
+    {
+        requestedEndTurn = false;
+
+        if (action == null)
+        {
+            return false;
+        }
+
+        switch (action.ActionKind)
+        {
+            case AIChosenAction.AIActionKind.EndTurn:
+                requestedEndTurn = true;
+                return true;
+
+            case AIChosenAction.AIActionKind.AttackSecurity:
+            case AIChosenAction.AIActionKind.AttackDigimon:
+                if (action.SourcePermanentIndex < 0 || action.SourcePermanentIndex >= gameContext.TurnPlayer.GetFieldPermanents().Count)
+                {
+                    return false;
+                }
+
+                if (action.ActionKind == AIChosenAction.AIActionKind.AttackDigimon
+                    && (action.AttackTargetPermanentIndex < 0 || action.AttackTargetPermanentIndex >= gameContext.NonTurnPlayer.GetFieldPermanents().Count))
+                {
+                    return false;
+                }
+
+                SetAttackingPermaent(action.SourcePermanentIndex, action.ActionKind == AIChosenAction.AIActionKind.AttackDigimon ? action.AttackTargetPermanentIndex : -1);
+                return AttackingPermanent != null;
+
+            case AIChosenAction.AIActionKind.Play:
+            case AIChosenAction.AIActionKind.Digivolve:
+            case AIChosenAction.AIActionKind.Jogress:
+            case AIChosenAction.AIActionKind.Burst:
+            case AIChosenAction.AIActionKind.AppFusion:
+                if (action.CardIndex < 0 || action.CardIndex >= gameContext.ActiveCardList.Count)
+                {
+                    return false;
+                }
+
+                SetPlayCard(action.CardIndex, action.TargetFrameID, action.JogressEvoRootsFrameIDs, action.BurstTamerFrameID, action.AppFusionFrameIDs);
+                return PlayCard != null;
+
+            case AIChosenAction.AIActionKind.UseFieldEffect:
+                if (action.SourcePermanentIndex < 0 || action.SourcePermanentIndex >= gameContext.TurnPlayer.GetFieldPermanents().Count || action.SkillIndex < 0)
+                {
+                    return false;
+                }
+
+                SetActSkill(action.SourcePermanentIndex, action.SkillIndex);
+                return UseCardEffect != null;
+
+            case AIChosenAction.AIActionKind.UseHandEffect:
+            case AIChosenAction.AIActionKind.UseTrashEffect:
+                if (action.CardIndex < 0 || action.CardIndex >= gameContext.ActiveCardList.Count || action.SkillIndex < 0)
+                {
+                    return false;
+                }
+
+                SetActCardSkill(action.CardIndex, action.SkillIndex);
+                return UseCardEffect != null;
+        }
+
+        return false;
     }
 
     AIChosenAction BuildActualMainPhaseActionFromLiveState()
@@ -1063,7 +1158,25 @@ public class TurnStateMachine : MonoBehaviourPunCallbacks
                 {
                     AISnapshot snapshot = AISnapshotBuilder.Build(gameContext, gameContext.TurnPlayer, AIChosenAction.AIDecisionType.Breeding, TurnCount);
                     AIChosenAction legacyAction = AILegacyActionAdapter.Normalize(GManager.instance.LegacyAIBrain.DecideBreeding(snapshot));
-                    bool doAction = legacyAction.ActionKind == AIChosenAction.AIActionKind.Hatch || legacyAction.ActionKind == AIChosenAction.AIActionKind.MoveOut;
+                    AIChosenAction selectedAction = legacyAction;
+
+                    if (GManager.instance.UsesGreedyAIControl)
+                    {
+                        try
+                        {
+                            AIChosenAction greedyAction = GManager.instance.GreedyShadowBrain.DecideBreeding(snapshot);
+                            if (greedyAction != null)
+                            {
+                                selectedAction = greedyAction;
+                            }
+                        }
+                        catch
+                        {
+                            selectedAction = legacyAction;
+                        }
+                    }
+
+                    bool doAction = selectedAction.ActionKind == AIChosenAction.AIActionKind.Hatch || selectedAction.ActionKind == AIChosenAction.AIActionKind.MoveOut;
 
                     TryLogShadowBreeding(snapshot, legacyAction);
                     SetBreedingPhase(doAction);
@@ -1277,8 +1390,19 @@ public class TurnStateMachine : MonoBehaviourPunCallbacks
                 if (GManager.instance.IsAI && !gameContext.TurnPlayer.isYou)
                 {
                     AIShadowDecisionContext shadowDecision = BuildMainPhaseShadowDecision(gameContext.TurnPlayer);
+                    bool greedyApplied = false;
 
-                    if (RandomUtility.IsSucceedProbability(0.99f))
+                    if (GManager.instance.UsesGreedyAIControl)
+                    {
+                        greedyApplied = TryApplyMainPhaseAction(shadowDecision != null ? shadowDecision.GreedyAction : null, out _);
+
+                        if (!greedyApplied && shadowDecision != null && string.IsNullOrEmpty(shadowDecision.FailureReason))
+                        {
+                            shadowDecision.FailureReason = "failed to apply greedy main-phase action";
+                        }
+                    }
+
+                    if (!greedyApplied && RandomUtility.IsSucceedProbability(0.99f))
                     {
                         if (gameContext.TurnPlayer.GetFieldPermanents().Count((permanent) => permanent.CanAttack(null)) > 0)
                         {
@@ -1438,7 +1562,12 @@ public class TurnStateMachine : MonoBehaviourPunCallbacks
                         yield return ContinuousController.instance.StartCoroutine(GManager.instance.autoProcessing.EndTurnProcess());
                     }
 
-                    FinishMainPhaseShadowDecision(shadowDecision, BuildActualMainPhaseActionFromLiveState());
+                    if (shadowDecision != null && shadowDecision.LegacyAction == null)
+                    {
+                        shadowDecision.LegacyAction = BuildActualMainPhaseActionFromLiveState();
+                    }
+
+                    FinishMainPhaseShadowDecision(shadowDecision);
                 }
                 #endregion
 
