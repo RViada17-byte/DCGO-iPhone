@@ -31,6 +31,19 @@ public class TurnStateMachine : MonoBehaviourPunCallbacks
     //Turn Count
     public int TurnCount { get; set; } = 0;
     public bool isSecurityCehck { get; set; } = false;
+    string _lastShadowMulliganStateKey = "";
+    string _lastShadowBreedingStateKey = "";
+    string _lastShadowMainStateKey = "";
+    AIShadowMatchStats _shadowMatchStats = null;
+    bool _shadowSummaryLogged = false;
+
+    class AIShadowDecisionContext
+    {
+        public AISnapshot Snapshot;
+        public AIChosenAction GreedyAction;
+        public string FailureReason;
+        public float EvaluationElapsedMs;
+    }
 
     #region Initialization
 
@@ -93,6 +106,14 @@ public class TurnStateMachine : MonoBehaviourPunCallbacks
         #region gameContextの設定
         gameContext = new GameContext(GManager.instance.You, GManager.instance.Opponent);
         #endregion
+
+        _lastShadowMulliganStateKey = "";
+        _lastShadowBreedingStateKey = "";
+        _lastShadowMainStateKey = "";
+        _shadowSummaryLogged = false;
+        _shadowMatchStats = GManager.instance != null && GManager.instance.IsAIShadowEnabled && BootstrapConfig.IsOfflineLocal
+            ? new AIShadowMatchStats()
+            : null;
 
         #region プレイヤー名設定
 
@@ -488,13 +509,11 @@ public class TurnStateMachine : MonoBehaviourPunCallbacks
                 #region AI
                 if (GManager.instance.IsAI)
                 {
-                    bool doRedraw = false;
+                    AISnapshot snapshot = AISnapshotBuilder.Build(gameContext, player, AIChosenAction.AIDecisionType.Mulligan, TurnCount);
+                    AIChosenAction legacyAction = AILegacyActionAdapter.Normalize(GManager.instance.LegacyAIBrain.DecideMulligan(snapshot));
+                    bool doRedraw = legacyAction.ActionKind == AIChosenAction.AIActionKind.Mulligan;
 
-                    if (player.HandCards.Count((cardSource) => cardSource.IsDigimon && cardSource.Level == 3) == 0)
-                    {
-                        doRedraw = true;
-                    }
-
+                    TryLogShadowMulligan(snapshot, legacyAction);
                     SetRedraw(doRedraw);
                 }
                 #endregion
@@ -573,6 +592,215 @@ public class TurnStateMachine : MonoBehaviourPunCallbacks
     {
         _isRedraw = isRedraw;
         _endSelect = true;
+    }
+
+    bool ShouldRunAIShadow(AISnapshot snapshot)
+    {
+        return snapshot != null
+            && !snapshot.Self.IsYou
+            && GManager.instance != null
+            && GManager.instance.IsAIShadowEnabled
+            && BootstrapConfig.IsOfflineLocal;
+    }
+
+    AITraceEntry BuildShadowTraceEntry(
+        AIChosenAction.AIDecisionType decisionType,
+        AISnapshot snapshot,
+        AIChosenAction legacyAction,
+        AIChosenAction greedyAction,
+        float evaluationElapsedMs,
+        AITurnGoal fallbackGoal,
+        string failureReason = "")
+    {
+        AITraceEntry entry = new AITraceEntry
+        {
+            DecisionType = decisionType,
+            StateKey = snapshot != null ? snapshot.StateKey : "",
+            SnapshotSummary = snapshot != null ? snapshot.SummaryText() : "",
+            Goal = greedyAction != null ? greedyAction.Goal : fallbackGoal,
+            GoalReason = greedyAction != null ? greedyAction.GoalReason : "",
+            LegacyAction = legacyAction,
+            GreedyAction = greedyAction,
+            Mismatch = !AIActionFingerprint.AreEquivalent(
+                legacyAction != null ? legacyAction.Fingerprint : null,
+                greedyAction != null ? greedyAction.Fingerprint : null),
+            EvaluationElapsedMs = evaluationElapsedMs,
+            FailureReason = failureReason,
+        };
+
+        if (greedyAction == null && string.IsNullOrEmpty(entry.FailureReason))
+        {
+            entry.FailureReason = "shadow brain returned no action";
+        }
+
+        entry.Unsupported = greedyAction == null || !string.IsNullOrEmpty(entry.FailureReason);
+        entry.Unresolved = greedyAction != null && greedyAction.DownstreamResolutionNotControlled;
+
+        return entry;
+    }
+
+    void RecordAndLogShadowEntry(AITraceEntry entry)
+    {
+        if (entry == null)
+        {
+            return;
+        }
+
+        _shadowMatchStats?.Record(entry);
+        AITraceLogger.Log(entry);
+    }
+
+    void TryLogShadowSummary()
+    {
+        if (_shadowSummaryLogged
+            || _shadowMatchStats == null
+            || GManager.instance == null
+            || !GManager.instance.IsAIShadowEnabled
+            || !BootstrapConfig.IsOfflineLocal)
+        {
+            return;
+        }
+
+        _shadowSummaryLogged = true;
+        AITraceLogger.LogSummary(_shadowMatchStats);
+    }
+
+    void TryLogShadowMulligan(AISnapshot snapshot, AIChosenAction legacyAction)
+    {
+        if (!ShouldRunAIShadow(snapshot) || legacyAction == null || snapshot.StateKey == _lastShadowMulliganStateKey)
+        {
+            return;
+        }
+
+        _lastShadowMulliganStateKey = snapshot.StateKey;
+
+        AIChosenAction greedyAction = null;
+        string failureReason = "";
+        System.Diagnostics.Stopwatch stopwatch = System.Diagnostics.Stopwatch.StartNew();
+
+        try
+        {
+            greedyAction = GManager.instance.GreedyShadowBrain.DecideMulligan(snapshot);
+        }
+        catch (Exception exception)
+        {
+            failureReason = exception.Message;
+        }
+        finally
+        {
+            stopwatch.Stop();
+        }
+
+        RecordAndLogShadowEntry(BuildShadowTraceEntry(
+            AIChosenAction.AIDecisionType.Mulligan,
+            snapshot,
+            legacyAction,
+            greedyAction,
+            (float)stopwatch.Elapsed.TotalMilliseconds,
+            AITurnGoal.ValueSetup,
+            failureReason));
+    }
+
+    void TryLogShadowBreeding(AISnapshot snapshot, AIChosenAction legacyAction)
+    {
+        if (!ShouldRunAIShadow(snapshot) || legacyAction == null || snapshot.StateKey == _lastShadowBreedingStateKey)
+        {
+            return;
+        }
+
+        _lastShadowBreedingStateKey = snapshot.StateKey;
+
+        AIChosenAction greedyAction = null;
+        string failureReason = "";
+        System.Diagnostics.Stopwatch stopwatch = System.Diagnostics.Stopwatch.StartNew();
+
+        try
+        {
+            greedyAction = GManager.instance.GreedyShadowBrain.DecideBreeding(snapshot);
+        }
+        catch (Exception exception)
+        {
+            failureReason = exception.Message;
+        }
+        finally
+        {
+            stopwatch.Stop();
+        }
+
+        RecordAndLogShadowEntry(BuildShadowTraceEntry(
+            AIChosenAction.AIDecisionType.Breeding,
+            snapshot,
+            legacyAction,
+            greedyAction,
+            (float)stopwatch.Elapsed.TotalMilliseconds,
+            AITurnGoal.BuildStack,
+            failureReason));
+    }
+
+    AIShadowDecisionContext BuildMainPhaseShadowDecision(Player player)
+    {
+        AISnapshot snapshot = AISnapshotBuilder.Build(gameContext, player, AIChosenAction.AIDecisionType.MainPhase, TurnCount);
+        if (!ShouldRunAIShadow(snapshot) || snapshot.StateKey == _lastShadowMainStateKey)
+        {
+            return null;
+        }
+
+        AIShadowDecisionContext context = new AIShadowDecisionContext
+        {
+            Snapshot = snapshot,
+        };
+
+        System.Diagnostics.Stopwatch stopwatch = System.Diagnostics.Stopwatch.StartNew();
+
+        try
+        {
+            List<AIMainPhaseCandidate> candidates = AIMainPhaseCandidateBuilder.Build(gameContext, player);
+            context.GreedyAction = GManager.instance.GreedyShadowBrain.DecideMainPhase(snapshot, candidates);
+        }
+        catch (Exception exception)
+        {
+            context.FailureReason = exception.Message;
+        }
+        finally
+        {
+            stopwatch.Stop();
+            context.EvaluationElapsedMs = (float)stopwatch.Elapsed.TotalMilliseconds;
+        }
+
+        return context;
+    }
+
+    void FinishMainPhaseShadowDecision(AIShadowDecisionContext context, AIChosenAction legacyAction)
+    {
+        if (context == null || context.Snapshot == null || legacyAction == null)
+        {
+            return;
+        }
+
+        _lastShadowMainStateKey = context.Snapshot.StateKey;
+
+        RecordAndLogShadowEntry(BuildShadowTraceEntry(
+            AIChosenAction.AIDecisionType.MainPhase,
+            context.Snapshot,
+            legacyAction,
+            context.GreedyAction,
+            context.EvaluationElapsedMs,
+            AITurnGoal.ValueSetup,
+            context.FailureReason));
+    }
+
+    AIChosenAction BuildActualMainPhaseActionFromLiveState()
+    {
+        return AILegacyActionAdapter.FromMainPhaseLiveState(
+            gameContext,
+            PlayCard,
+            TargetFrameID,
+            JogressEvoRootsFrameIDs,
+            BurstTamerFrameID,
+            AppFusionFrameIDs,
+            UseCardEffect,
+            AttackingPermanent,
+            DefendingPermanent);
     }
     #endregion
 
@@ -833,14 +1061,12 @@ public class TurnStateMachine : MonoBehaviourPunCallbacks
                 #region AI
                 if (GManager.instance.IsAI)
                 {
-                    bool doHatch = RandomUtility.IsSucceedProbability(0.85f);
+                    AISnapshot snapshot = AISnapshotBuilder.Build(gameContext, gameContext.TurnPlayer, AIChosenAction.AIDecisionType.Breeding, TurnCount);
+                    AIChosenAction legacyAction = AILegacyActionAdapter.Normalize(GManager.instance.LegacyAIBrain.DecideBreeding(snapshot));
+                    bool doAction = legacyAction.ActionKind == AIChosenAction.AIActionKind.Hatch || legacyAction.ActionKind == AIChosenAction.AIActionKind.MoveOut;
 
-                    if (gameContext.TurnPlayer.CanHatch)
-                    {
-                        doHatch = true;
-                    }
-
-                    SetBreedingPhase(doHatch);
+                    TryLogShadowBreeding(snapshot, legacyAction);
+                    SetBreedingPhase(doAction);
                 }
                 #endregion
             }
@@ -1050,6 +1276,8 @@ public class TurnStateMachine : MonoBehaviourPunCallbacks
                 #region AIモード
                 if (GManager.instance.IsAI && !gameContext.TurnPlayer.isYou)
                 {
+                    AIShadowDecisionContext shadowDecision = BuildMainPhaseShadowDecision(gameContext.TurnPlayer);
+
                     if (RandomUtility.IsSucceedProbability(0.99f))
                     {
                         if (gameContext.TurnPlayer.GetFieldPermanents().Count((permanent) => permanent.CanAttack(null)) > 0)
@@ -1209,6 +1437,8 @@ public class TurnStateMachine : MonoBehaviourPunCallbacks
                     {
                         yield return ContinuousController.instance.StartCoroutine(GManager.instance.autoProcessing.EndTurnProcess());
                     }
+
+                    FinishMainPhaseShadowDecision(shadowDecision, BuildActualMainPhaseActionFromLiveState());
                 }
                 #endregion
 
@@ -3405,6 +3635,8 @@ public class TurnStateMachine : MonoBehaviourPunCallbacks
 
     public void EndGame(Player Winner, bool Surrendered, string effectName = "")
     {
+        TryLogShadowSummary();
+
         foreach (GameObject gb in GManager.instance.CloseWhenEndingGameObjects)
         {
             if (gb != null)
