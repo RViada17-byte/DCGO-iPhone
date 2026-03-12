@@ -1,3 +1,51 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:5794f4f4a072ab2de77a3be1bc3590cf6657fbbf990c49bf044ff680afea14a9
-size-not-lfs 1555
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX2_016
+  m_EditorClassIdentifier: 
+  CardIndex: 1942
+  cardColors: 01000000
+  PlayCost: 6
+  EvoCosts:
+  - CardColor: 1
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: "\u30B4\u30EA\u30E2\u30F3"
+  CardName_ENG: Gorillamon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u7363\u4EBA\u578B"
+  Type_ENG:
+  - Beastkin
+  CardSpriteName: EX2-016
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u9752\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306E\u9032\u5316\u5143\u304B\u3089\u3001Lv.3\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002"
+  EffectDiscription_ENG: '[On Play] You may play 1 level 3 Digimon card from 1 of
+    your blue Digimon''s digivolution cards without paying its memory cost.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX2_016
+  DP: 5000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: EX2-016
+  MaxCountInDeck: 4

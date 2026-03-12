@@ -1,3 +1,55 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:7c0f23f4046370ea99ad90249de847a765a385a8b35b58a718058b6301fe2a9a
-size-not-lfs 1536
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX7_014_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 3702
+  cardColors: 00000000
+  PlayCost: 13
+  EvoCosts:
+  - CardColor: 0
+    Level: 5
+    MemoryCost: 5
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 5
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Volcanicdramon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Earth Dragon
+  CardSpriteName: EX7-014_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[On Play] [When Attacking] Delete 1 of your opponent's
+    Digimon with the lowest DP.\n[When Digivolving] Your opponent can't play or move
+    Digimon with 6000 DP or less until the end of their turn.\n[All Turns] [Once
+    Per Turn] When this Digimon would leave battle area other than by one of your
+    effects, you may play 1 Digimon card with the [Machine Dragon]/[Sky Dragon]\_trait
+    from your hand without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX7_014
+  DP: 13000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: EX7-014
+  MaxCountInDeck: 4

@@ -1,3 +1,49 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:af4470b54e30a16c43b58143df07ad614dac2e355de083ab42a7ba7184d595d8
-size-not-lfs 1124
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX7_003
+  m_EditorClassIdentifier: 
+  CardIndex: 3681
+  cardColors: 02000000
+  PlayCost: -1
+  EvoCosts: []
+  Level: 2
+  CardName_JPN: 
+  CardName_ENG: Kyaromon
+  Form_JPN: []
+  Form_ENG:
+  - In-Training
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Lesser
+  - LIBERATOR
+  CardSpriteName: EX7-003
+  cardKind: 3
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '-'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[Your Turn] All of your opponent''s security Digimon
+    get -2000 DP.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX7_003
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: EX7-003
+  MaxCountInDeck: 4

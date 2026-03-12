@@ -1,3 +1,47 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:530ed39ceac8fa20f8e318f0c397a49e242e4deff7383e41602352a3877d79c5
-size-not-lfs 1294
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST19_14
+  m_EditorClassIdentifier: 
+  CardIndex: 3846
+  cardColors: 02000000
+  PlayCost: 4
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Arisa Kinosaki
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - LIBERATOR
+  CardSpriteName: ST19-14
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Start of Your Turn] If you have 2 memory or less, set
+    your memory to 3.\n[Your Turn] When an effects plays one of your Tokens or a
+    Digimon with the [Puppet]\_trait, by suspending this Tamer, that Digimon gains
+    \uFF1CRush\uFF1Efor the turn."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying the cost.'
+  CardEffectClassName: ST19_14
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  CardID: ST19-14
+  MaxCountInDeck: 4

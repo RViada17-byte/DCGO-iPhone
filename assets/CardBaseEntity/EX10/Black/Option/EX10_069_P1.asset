@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:fb4732a4901b29fd491450e0d9b38cae6b74299a6ae1d1bd1daa0013ac7f3af0
-size-not-lfs 1531
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX10_069_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 7326
+  cardColors: 05000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: 'Unique Emblem: Gravel Hearts'
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - LIBERATOR
+  CardSpriteName: EX10-069_P1
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Main] You may play 1 [Sunarizamon] or [Close] from your
+    hand or trash without paying the cost. Then, place this card in the battle area.\n[Your
+    Turn] When any of your [Close]s suspend, \uFF1CDelay\uFF1E \n\u30FB1 of your
+    [Mineral] or [Rock]\_trait Digimon may digivolve into a Digimon card with the
+    [Mineral]\_trait and [LIBERATOR]\_trait in the hand with the digivolution cost
+    reduced by 3."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Activate this card''s [Main] effects.'
+  CardEffectClassName: EX10_069
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX10-069
+  MaxCountInDeck: 4

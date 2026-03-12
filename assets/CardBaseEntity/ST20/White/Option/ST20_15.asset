@@ -1,3 +1,53 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:d1bb5b0e7482a558c5f03373c7741a9021c713f08f6430cc68176f7b9608f001
-size-not-lfs 1392
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST20_15
+  m_EditorClassIdentifier: 
+  CardIndex: 5278
+  cardColors: 04000000
+  PlayCost: 2
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Island of Adventure
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - ADVENTURE
+  CardSpriteName: ST20-15
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 'While you have no face-up [Island of Adventure] security
+    cards, you can ignore this card''s color requirements.
+
+    [Security] [All Turns]
+    All of your level 3 or higher Digimon get +2000 DP.
+
+    [Main] Add your top
+    security card to the hand. Then, place this card face up as the top security
+    card.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] You may play 1 Tamer card from your
+    hand without paying the cost.'
+  CardEffectClassName: ST20_15
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  CardID: ST20-15
+  MaxCountInDeck: 4

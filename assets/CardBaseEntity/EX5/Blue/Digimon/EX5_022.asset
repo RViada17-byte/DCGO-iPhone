@@ -1,3 +1,54 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:f1875421d69c1b447daa3f147f6f8f71d36902d7c822e17ef809b028377e7044
-size-not-lfs 2857
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX5_022
+  m_EditorClassIdentifier: 
+  CardIndex: 3061
+  cardColors: 01000000
+  PlayCost: 7
+  EvoCosts: []
+  Level: 5
+  CardName_JPN: "\u30DF\u30D2\u30E9\u30E2\u30F3"
+  CardName_ENG: Mihiramon
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u8056\u7363\u578B"
+  - "\u30C7\u30FC\u30F4\u30A1"
+  Type_ENG:
+  - Holy Beast
+  - Deva
+  CardSpriteName: EX5-022
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u226A1\u30C9\u30ED\u30FC\u226B\u3002\u305D\u306E\u5F8C\u3001\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u81EA\u5206\u306E\u30D0\u30C8\u30EB\u30A8\u30EA\u30A2\u3068\u30C8\u30E9\u30C3\u30B7\u30E5\u306B\u540C\u3058\u540D\u79F0\u306E\u30AB\u30FC\u30C9\u304C\u306A\u3044\u3001\u7279\u5FB4\u306B\u300C\u30C7\u30FC\u30F4\u30A1\u300D\u3092\u6301\u3064\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u3001\u7A7A\u3044\u3066\u3044\u308B\u81EA\u5206\u306E\u80B2\u6210\u30A8\u30EA\u30A2\u306B\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B\uFF11\u56DE\uFF3D\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u767B\u5834\u3057\u305F\u3068\u304D\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306E\u9032\u5316\u5143\u3092\u4E0A\u304B\u30891\u679A\u7834\u68C4\u3059\u308B\u3002"
+  EffectDiscription_ENG: "[On Play] \uFF1CDraw 1\uFF1E (Draw 1 card from your deck).
+    Then, you may play 1 [Deva]\_trait Digimon card without the same name as the
+    cards in your battle area or trash from your hand to an empty space in your breeding
+    area without paying the cost.[Your Turn] [Once Per Turn] When one of your Digimon
+    is played, trash the top digivolution card of 1 of your opponent's Digimon."
+  InheritedEffectDiscription_JPN: "\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u7279\u5FB4\u306B\u300C\u56DB\u8056\u7363\u300D/\u300C\u795E\u7363\u578B\u300D\u3092\u6301\u3064\u306A\u3089\u3001\u30E1\u30E2\u30EA\u30FC+1\u3002"
+  InheritedEffectDiscription_ENG: "[When Attacking] [Once Per Turn] If this Digimon
+    has the [Four Sovereigns]/[God Beast]\_trait, gain 1 memory."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX5_022
+  DP: 7000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: EX5-022
+  MaxCountInDeck: 4

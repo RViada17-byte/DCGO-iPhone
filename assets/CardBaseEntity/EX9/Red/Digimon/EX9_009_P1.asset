@@ -1,3 +1,55 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:1a5272cc5dcdea3cfb916a5a66bdc1d3194f8ef54a9bda42ae0fdb454980f5e1
-size-not-lfs 1457
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX9_009_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 6849
+  cardColors: 00000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 0
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Greymon
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Dinosaur
+  - DM
+  - Ver.1
+  CardSpriteName: EX9-009_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.3 w/[DM]\_trait: Cost 2 \n\n\uFF1CTraining\uFF1E
+    \n[When Attacking] [Once Per Turn] By placing your deck's top card face down
+    as this Digimon's bottom digivolution card, this Digimon gets +1000 DP for each
+    of its face-down digivolution cards until your opponent's turn ends."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[Your Turn] This Digimon gets +2000 DP.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX9_009
+  DP: 5000
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX9-009
+  MaxCountInDeck: 4

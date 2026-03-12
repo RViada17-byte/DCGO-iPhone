@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:bdcc5eb538ca3ecd4438d42b869a52e042d8bd36b5cca5313360eafb8b38e6ed
-size-not-lfs 1974
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX2_031
+  m_EditorClassIdentifier: 
+  CardIndex: 1967
+  cardColors: 05000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 5
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: "\u30AC\u30FC\u30C9\u30ED\u30E2\u30F3"
+  CardName_ENG: Guardromon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u30DE\u30B7\u30FC\u30F3\u578B"
+  Type_ENG:
+  - Machine
+  CardSpriteName: EX2-031
+  cardKind: 0
+  EffectDiscription_JPN: "\u226A\u30D6\u30ED\u30C3\u30AB\u30FC\u226B\uFF08\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30A2\u30BF\u30C3\u30AF\u3057\u305F\u3068\u304D\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30A2\u30AF\u30C6\u30A3\u30D6\u72B6\u614B\u306A\u3089\u30EC\u30B9\u30C8\u3055\u305B\u308B\u3053\u3068\u3067\u30A2\u30BF\u30C3\u30AF\u306E\u5BFE\u8C61\u3092\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306B\u3059\u308B\uFF09\u3010\u767B\u5834\u6642\u3011\u6B21\u306E\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u6642\u307E\u3067\u3001\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092DP+3000\u3002"
+  EffectDiscription_ENG: "\uFF1CBlocker\uFF1E (When an opponent's Digimon attacks,
+    you may suspend this Digimon to force the opponent to attack it instead.)[On
+    Play] 1 of your Digimon gets +3000 DP until the end of your opponent's turn."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX2_031
+  DP: 4000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: EX2-031
+  MaxCountInDeck: 4

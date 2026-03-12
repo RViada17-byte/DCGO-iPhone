@@ -1,3 +1,60 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:fc6ee7a96e342b29d75179aefea3fde6733f759b8510e23583c1f409791b5832
-size-not-lfs 1571
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX11_053
+  m_EditorClassIdentifier: 
+  CardIndex: 7767
+  cardColors: 04000000
+  PlayCost: 5
+  EvoCosts: []
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Omekamon
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Puppet
+  - X Antibody
+  - LIBERATOR
+  CardSpriteName: EX11-053
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[On Play] By placing 1 [Royal Knight] trait Digimon card
+    from your hand as the bottom digivolution card of any of your [King Drasil_7D6]s
+    on the field, <Draw 1>.
+
+    [On Deletion] If you have 1 of fewer security cards,
+    you may 1 play [Omnimon (X Antibody) from your hand or under your [King Drasil_7D6]s
+    on the field without paying the cost. Then, place this card as the played Digimon''s
+    bottom digivolution card.
+
+    
+
+    [Rule] Name: Also treated as [X Antibody].'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX11_053
+  DP: 5000
+  rarity: 3
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX11-053
+  MaxCountInDeck: 4

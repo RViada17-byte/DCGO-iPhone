@@ -1,3 +1,55 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:825c589f308b89a63d472b972e4c581e493d90fd1bc8f129cdfae12ec522f936
-size-not-lfs 1503
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX11_029
+  m_EditorClassIdentifier: 
+  CardIndex: 7716
+  cardColors: 03000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 3
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Turbomon
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Beast
+  - LIBERATOR
+  CardSpriteName: EX11-029
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] [Maquinamon]: Cost 2 \n\n[On Play] [When Digivolving]
+    You may link 1 [Maquinamon] from your hand or this Digimon's digivolution cards
+    to 1 of your Digimon without paying the cost.\n[Your Turn] [Once Per Turn] When
+    this Digimon gets linked, if you have 1 or fewer Tamers, you may play 1 [Unchained]
+    from your hand or trash without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "\uFF1CPiercing\uFF1E "
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX11_029
+  DP: 5000
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX11-029
+  MaxCountInDeck: 4

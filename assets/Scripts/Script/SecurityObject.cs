@@ -65,6 +65,10 @@ public class SecurityObject : MonoBehaviour
 
                 _securityIconImage.color = player.isYou ? YouSecurityColor : OpponentSecurityColor;
             }
+
+#if UNITY_EDITOR || DEVELOPMENT_BUILD
+            BattleSecurityVisualLogger.LogSpecificImage(_securityIconImage, "SecurityObject.Start");
+#endif
         }
 
         ConfigureSecurityTextStyle();

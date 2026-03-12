@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:f2deb0f8b06f12028627aa99abb6b78b3cd0a1c7f4f6b4faaf7ec491c1e31589
-size-not-lfs 1758
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX2_040
+  m_EditorClassIdentifier: 
+  CardIndex: 1981
+  cardColors: 06000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 6
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: "\u30C7\u30D3\u30C9\u30E9\u30E2\u30F3"
+  CardName_ENG: Devidramon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u90AA\u7ADC\u578B"
+  Type_ENG:
+  - Evil Dragon
+  CardSpriteName: EX2-040
+  cardKind: 0
+  EffectDiscription_JPN: "\u226A\u9053\u9023\u308C\u226B\uFF08\u30D0\u30C8\u30EB\u3067\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3060\u3051\u304C\u6D88\u6EC5\u3057\u305F\u3068\u304D\u3001\u30D0\u30C8\u30EB\u3057\u305F\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u6D88\u6EC5\u3055\u305B\u308B\uFF09"
+  EffectDiscription_ENG: "\uFF1CRetaliation\uFF1E (When this Digimon is deleted after
+    losing a battle, delete the Digimon it was battling.)"
+  InheritedEffectDiscription_JPN: "\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u30892\u679A\u7834\u68C4\u3067\u304D\u308B\u3002"
+  InheritedEffectDiscription_ENG: '[When Attacking] You may trash the top 2 cards
+    of your deck.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX2_040
+  DP: 4000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: EX2-040
+  MaxCountInDeck: 4

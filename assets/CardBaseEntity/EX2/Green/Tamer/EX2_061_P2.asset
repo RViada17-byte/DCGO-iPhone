@@ -1,3 +1,53 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:c6fefbafbc3b922232a76f402e0dad9dfe4741eff8fbfaf02e61fceb8528d3cc
-size-not-lfs 1304
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX2_061_P2
+  m_EditorClassIdentifier: 
+  CardIndex: 3293
+  cardColors: 03000000
+  PlayCost: 4
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: "\u674E\u5065\u826F"
+  CardName_ENG: Henry Wong
+  Form_JPN:
+  - '-'
+  Form_ENG:
+  - '-'
+  Attribute_JPN:
+  - '-'
+  Attribute_ENG:
+  - '-'
+  Type_JPN:
+  - '-'
+  Type_ENG:
+  - '-'
+  CardSpriteName: EX2-061_P2
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Start of Your Turn] If you have 2 memory or less, set
+    your memory to 3.[Your Turn] When you attack with a Digimon with [Gargomon] or
+    [Rapidmon] in its name, you may suspend this Tamer to suspend 1 of your opponent's
+    Digimon.\r"
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX2_061
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: EX2-061
+  MaxCountInDeck: 4

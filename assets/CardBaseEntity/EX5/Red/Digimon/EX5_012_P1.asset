@@ -1,3 +1,55 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:ef4736a4f9bdd196aa294c2d3bb697de8f2bd38a0396e89f0214f0595effd7f7
-size-not-lfs 1517
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX5_012_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 4206
+  cardColors: 00000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 0
+    Level: 4
+    MemoryCost: 3
+  - CardColor: 1
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Flaremon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Beastkin
+  - Light Fang
+  CardSpriteName: EX5-012_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.4 w/[Light Fang]/[Night Claw]\_trait: Cost
+    3 \n\nWhen this card would be played or digivolved into, if you have a Digimon
+    with 3 or more digivolution cards and the [Light Fang]/[Night Claw]/[Galaxy]\_trait,
+    reduce the play or digivolution cost by 2.\n[On Play] [When Digivolving] Delete
+    1 of your opponent's Digimon with 5000 DP or less."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[Your Turn] This Digimon gets +2000 DP.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX5_012
+  DP: 7000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: EX5-012
+  MaxCountInDeck: 4

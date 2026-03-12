@@ -1,3 +1,56 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:239dc51276a87bce95f32d4b190b3aee6d4e16d4784fb436c0e09116e3facc08
-size-not-lfs 2092
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX3_004
+  m_EditorClassIdentifier: 
+  CardIndex: 2174
+  cardColors: 00000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 0
+    Level: 2
+    MemoryCost: 0
+  - CardColor: 6
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: "\u30D6\u30A4\u30E2\u30F3"
+  CardName_ENG: Veemon
+  Form_JPN:
+  - "\u6210\u9577\u671F"
+  Form_ENG:
+  - Rookie
+  Attribute_JPN:
+  - "\u30D5\u30EA\u30FC"
+  Attribute_ENG:
+  - Free
+  Type_JPN:
+  - "\u5C0F\u7ADC\u578B"
+  Type_ENG:
+  - Mini Dragon
+  CardSpriteName: EX3-004
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u540D\u79F0\u306B\u300C\u30A4\u30F3\u30DA\u30EA\u30A2\u30EB\u30C9\u30E9\u30E2\u30F3\u300D\u3092\u542B\u3080\u304B\u7279\u5FB4\u306B\u300C\u30D5\u30EA\u30FC\u300D\u3092\u6301\u3064\u30AB\u30FC\u30C91\u679A\u3092\u7834\u68C4\u3059\u308B\u3053\u3068\u3067\u3001\u226A2\u30C9\u30ED\u30FC\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u304B\u3089\u30AB\u30FC\u30C9\u30922\u679A\u5F15\u304F\uFF09\u3002"
+  EffectDiscription_ENG: "[On Play] You may trash 1 card with [Imperialdramon] in
+    its name or [Free] in its traits from your hand to \uFF1CDraw 2\uFF1E. (Draw
+    2 cards from your deck.)"
+  InheritedEffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\u7D2B\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u3044\u308B\u9593\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092DP+2000\u3002"
+  InheritedEffectDiscription_ENG: '[Your Turn] While you have a purple Digimon in
+    play, this Digimon gets +2000 DP.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX3_004
+  DP: 1000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: EX3-004
+  MaxCountInDeck: 4

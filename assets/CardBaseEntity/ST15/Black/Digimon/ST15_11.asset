@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:2ac57fed4b030355bac06b6cd5e7fe85b39c162360050b1714809fefac8307cd
-size-not-lfs 1838
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST15_11
+  m_EditorClassIdentifier: 
+  CardIndex: 2840
+  cardColors: 05000000
+  PlayCost: 8
+  EvoCosts:
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: "\u30E1\u30BF\u30EB\u30B0\u30EC\u30A4\u30E2\u30F3"
+  CardName_ENG: MetalGreymon
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u30B5\u30A4\u30DC\u30FC\u30B0\u578B"
+  Type_ENG:
+  - Cyborg
+  CardSpriteName: ST15-11
+  cardKind: 0
+  EffectDiscription_JPN: "\u540D\u79F0\u306B\u300C\u30B0\u30EC\u30A4\u30E2\u30F3\u300D\u3092\u542B\u3080Lv.4:\u30B3\u30B9\u30C83\u226A\u30D6\u30ED\u30C3\u30AB\u30FC\u226B\uFF08\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u30D6\u30ED\u30C3\u30AF\u30BF\u30A4\u30DF\u30F3\u30B0\u3067\u30D6\u30ED\u30C3\u30AF\u3067\u304D\u308B\uFF09"
+  EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Greymon] in name: Cost 3\uFF1CBlocker\uFF1E
+    (At blocker timing, by suspending this Digimon, it becomes the attack target.)"
+  InheritedEffectDiscription_JPN: "\u226AS\u30A2\u30BF\u30C3\u30AF+1\u226B(\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30C1\u30A7\u30C3\u30AF\u3059\u308B\u679A\u6570+1)"
+  InheritedEffectDiscription_ENG: "\uFF1CS Attack +1\uFF1E (This Digimon checks 1
+    additional card.)"
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: ST15_11
+  DP: 8000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: ST15-11
+  MaxCountInDeck: 4

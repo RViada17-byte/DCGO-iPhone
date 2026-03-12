@@ -1,3 +1,60 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:8a4c7556ed8d8ee34504d2535333a83375b7c5157b42c0ba8cec0eacc36310fd
-size-not-lfs 2691
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX3_073
+  m_EditorClassIdentifier: 
+  CardIndex: 2264
+  cardColors: 0600000000000000
+  PlayCost: 13
+  EvoCosts:
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 5
+  - CardColor: 0
+    Level: 5
+    MemoryCost: 5
+  Level: 6
+  CardName_JPN: "\u30A4\u30F3\u30DA\u30EA\u30A2\u30EB\u30C9\u30E9\u30E2\u30F3:\u30D5\u30A1\u30A4\u30BF\u30FC\u30E2\u30FC\u30C9"
+  CardName_ENG: 'Imperialdramon: Fighter Mode'
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u53E4\u4EE3\u7ADC\u4EBA\u578B"
+  Type_ENG:
+  - Ancient Dragonkin
+  CardSpriteName: EX3-073
+  cardKind: 0
+  EffectDiscription_JPN: "\u9032\u5316:\u300E\u540D\u79F0\u306B\u300C\u30C9\u30E9\u30B4\u30F3\u30E2\u30FC\u30C9\u300D\u3092\u542B\u3080\u300F\u304B\u30892\u226A\u8CAB\u901A\u226B\u3010\u9032\u5316\u6642\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u304B\u3089\u3001\u300C\u30A4\u30F3\u30DA\u30EA\u30A2\u30EB\u30C9\u30E9\u30E2\u30F3\uFF1A\u30C9\u30E9\u30B4\u30F3\u30E2\u30FC\u30C9\u300D1\u679A\u3092\u30C7\u30C3\u30AD\u306E\u4E0B\u306B\u623B\u3059\u3053\u3068\u3067\u3001\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u76F8\u624B\u306E\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u52B9\u679C\u5168\u3066\u306F\u767A\u63EE\u3057\u306A\u3044\u3002\u3010\u6D88\u6EC5\u6642\u3011\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u300C\u30EF\u30FC\u30E0\u30E2\u30F3\u300D\u3068\u300C\u30D6\u30A4\u30E2\u30F3\u300D1\u679A\u305A\u3064\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002"
+  EffectDiscription_ENG: "Digivolve: 2 if name contains [Dragon Mode]\uFF1CPiercing\uFF1E[When
+    Digivolving] By returning 1 [Imperialdramon: Dragon Mode] from this Digimon's
+    digivolution cards to the bottom of its owner's deck, none of your opponent's
+    [Security] effects can activate for the turn.[On Deletion] You may play 1 [Wormmon]
+    and 1 [Veemon] from your trash without paying the costs."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX3_073
+  DP: 13000
+  rarity: 4
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: EX3-073
+  MaxCountInDeck: 4

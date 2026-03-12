@@ -1,3 +1,55 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:e8bbbeac41c2d4b72463400b00f3a9d2639d9a897076cb3bf786f0ca126859fa
-size-not-lfs 1542
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_139
+  m_EditorClassIdentifier: 
+  CardIndex: 10293
+  cardColors: 0200000003000000
+  PlayCost: 6
+  EvoCosts:
+  - CardColor: 2
+    Level: 3
+    MemoryCost: 3
+  - CardColor: 3
+    Level: 3
+    MemoryCost: 3
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Leomon (X Antibody)
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Beastkin
+  - X Antibody
+  CardSpriteName: P-139
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve][Leomon]: Cost 0 \n\n[On Play] [When Digivolving]
+    1 of your opponent's Digimon gets -3000 DP for the turn.\n[All Turns] While [Leomon]/[X
+    Antibody] is in this Digimon\u2019s digivolution cards, this Digimon gains \uFF1CBlocker\uFF1Eand
+    \uFF1CFortitude\uFF1E (When this Digimon with digivolution cards is deleted,
+    play this card without paying the cost)."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[On Deletion] \uFF1CRecovery +1 (Deck)\uFF1E."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: P_139
+  DP: 6000
+  rarity: 5
+  OverflowMemory: 0
+  CardID: P-139
+  MaxCountInDeck: 4

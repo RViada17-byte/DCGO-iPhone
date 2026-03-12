@@ -1,3 +1,53 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:d4d88325172245cbe3e714916076fe5541295aab28653c1c45ec2a8311ae1750
-size-not-lfs 1533
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX10_070_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 7327
+  cardColors: 05000000
+  PlayCost: 2
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: God Grade Unleashed
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Appmon
+  - Leviathan
+  CardSpriteName: EX10-070_P1
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "While you have a Digimon or Tamer with the [Appmon]\_trait
+    on the field, you can ignore this card's color requirements.\n[Main] \uFF1CDraw
+    1\uFF1E Then, place this card in the battle area.\n[All Turns] When effects trash
+    any of your Digimon's link cards, \uFF1CDelay\uFF1E \n\u30FBYou may link 1 Digimon
+    card with the [Appmon]\_trait from your trash to 1 of those Digimon without paying
+    the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Place this card in the battle area.'
+  CardEffectClassName: EX10_070
+  DP: 0
+  rarity: 0
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX10-070
+  MaxCountInDeck: 4

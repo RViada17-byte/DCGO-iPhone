@@ -1,3 +1,65 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:4fe29d6dfd407be2ba540910bf4d7660dd688a873b93d5db280798c244e3e551
-size-not-lfs 1964
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX6_062
+  m_EditorClassIdentifier: 
+  CardIndex: 3525
+  cardColors: 04000000
+  PlayCost: 16
+  EvoCosts:
+  - CardColor: 2
+    Level: 6
+    MemoryCost: 7
+  - CardColor: 3
+    Level: 6
+    MemoryCost: 7
+  - CardColor: 5
+    Level: 6
+    MemoryCost: 7
+  - CardColor: 6
+    Level: 6
+    MemoryCost: 7
+  Level: 7
+  CardName_JPN: 
+  CardName_ENG: UltimateChaosmon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Unknown
+  Type_JPN: []
+  Type_ENG:
+  - Unique
+  CardSpriteName: EX6-062
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "\uFF1CPartition (Yellow/Black Lv.6 + Green/Purple Lv.6)\uFF1E
+    (When this Digimon with each of the specified digivolution cards would leave
+    the battle area other than by your own effects or by battle, you may play 1 each
+    of the specified cards without paying the costs)\n[When Digivolving] If DNA digivolving,
+    you may place up to 2 level 6 cards from your trash as this Digimon's bottom
+    digivolution cards. Then, for each level 6 card in this Digimon's digivolution
+    cards, return 1 of your opponent's Digimon to the bottom of the deck.\n[Your
+    Turn] While this Digimon has 4 or more level 6 cards in its digivolution cards,
+    it gains \uFF1CSecurity Attack +3\uFF1E (This Digimon checks 3 additional security
+    cards) and \uFF1CPiercing\uFF1E."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX6_062
+  DP: 16000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: EX6-062
+  MaxCountInDeck: 4

@@ -1,3 +1,51 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:40ef5ab8c11d1b1f5a1d7c8a89111cd5775fa8a34314b7a487b95000c5994994
-size-not-lfs 1418
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_147_P2
+  m_EditorClassIdentifier: 
+  CardIndex: 10307
+  cardColors: 02000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 2
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: 
+  CardName_ENG: Pal
+  Form_JPN: []
+  Form_ENG:
+  - Rookie
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Beastkin
+  CardSpriteName: P-147_P2
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve][Bibimon]: Cost 0 \n\n[When Attacking] [Once
+    Per Turn] By placing 1 level 4 card with [Pulsemon]\_in its text from your hand
+    as this Digimon's bottom digivolution card, activate 1 of the placed card's [When
+    Digivolving] as an effect of this Digimon.\n[Your Turn] While you have a Tamer,
+    this Digimon gets +3000 DP.\n[Rule] Name: Also treated as [Pulsemon]."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: P_147
+  DP: 2000
+  rarity: 5
+  OverflowMemory: 0
+  CardID: P-147
+  MaxCountInDeck: 4

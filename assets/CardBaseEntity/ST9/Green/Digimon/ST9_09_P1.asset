@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:2497c88902a80ba69c9672abac864f27f79a6fb88d07cb2499dba1eb57730400
-size-not-lfs 1276
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST9_09_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 5002
+  cardColors: 03000000
+  PlayCost: 4
+  EvoCosts:
+  - CardColor: 3
+    Level: 3
+    MemoryCost: 2
+  - CardColor: 1
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Stingmon
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Free
+  Type_JPN: []
+  Type_ENG:
+  - Insectoid
+  CardSpriteName: ST9-09_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: When you would play this card from your hand, if you have
+    a blue Digimon in play, reduce its play cost by 1.
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[When Attacking] If you have a blue Digimon in
+    play, \uFF1CDraw 1\uFF1E."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: ST9_09
+  DP: 4000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: ST9-09
+  MaxCountInDeck: 4

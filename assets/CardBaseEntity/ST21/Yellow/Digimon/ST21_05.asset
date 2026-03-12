@@ -1,3 +1,51 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:f32205d447d35e0a328711579813fd12378ff0622e96b9bf7b3d88e26cb59982
-size-not-lfs 1347
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST21_05
+  m_EditorClassIdentifier: 
+  CardIndex: 5283
+  cardColors: 02000000
+  PlayCost: 4
+  EvoCosts:
+  - CardColor: 2
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Angemon
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Angel
+  - ADVENTURE
+  CardSpriteName: ST21-05
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.3 w/[ADVENTURE]\_trait: Cost 2 \n\n[When
+    Digivolving] If you have 1 or fewer Tamers, you may play 1 Tamer card with the
+    [ADVENTURE]\_trait from your hand without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[When Attacking] [Once Per Turn] 1 of your opponent''s
+    Digimon gets -2000 DP for the turn.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: ST21_05
+  DP: 4000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: ST21-05
+  MaxCountInDeck: 4

@@ -1,3 +1,56 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:4a4be2c94e0d91e7cf86c0719420b0243e84b241c4302c771d25fa616b688cb8
-size-not-lfs 1544
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX10_038
+  m_EditorClassIdentifier: 
+  CardIndex: 7202
+  cardColors: 06000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 6
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: 
+  CardName_ENG: Copipemon
+  Form_JPN: []
+  Form_ENG:
+  - Stnd.
+  - Appmon
+  Attribute_JPN: []
+  Attribute_ENG:
+  - System
+  Type_JPN: []
+  Type_ENG:
+  - Copy & Paste
+  - Leviathan
+  CardSpriteName: EX10-038
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.2 w/[Appmon]\_trait: Cost 0 \n\n[On Play]
+    Reveal the top 3 cards of your deck. Add 1 card with the [Appmon]\_trait and
+    1 card with the [Leviathan]\_trait among them to the hand. Return the rest to
+    the bottom of the deck."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX10_038
+  DP: 1000
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 2000
+  LinkEffect: "[When Attacking] By trashing 1 of this Digimon's link cards, you may
+    return 1 [Appmon]\_trait Digimon card from your trash to the hand."
+  LinkRequirement: "[Link] [Appmon]\_trait: Cost 1 "
+  CardID: EX10-038
+  MaxCountInDeck: 4

@@ -1,3 +1,61 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:3439da084f60a67ee7f020d666bdb1713d920c7a15dbbcc807e5b34c9d9e9900
-size-not-lfs 1715
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX9_043_P2
+  m_EditorClassIdentifier: 
+  CardIndex: 6919
+  cardColors: 0300000005000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 3
+    Level: 4
+    MemoryCost: 4
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: MetalTyrannomon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Cyborg
+  - DM
+  - Ver.5
+  CardSpriteName: EX9-043_P2
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Tyrannomon]\_in name or w/[DM]\_trait:
+    Cost 3 \n\nWhen this card would be played, by trashing 1 [Cyborg] or [Ver.5]\_trait
+    card from your hand, reduce the play cost by 2.\n[On Play] [When Digivolving]
+    By placing 1 Digimon card from your trash face down as this Digimon's bottom
+    digivolution card, to 1 of your opponent's Digimon, \uFF1CDe-Digivolve 1\uFF1E
+    for each of this Digimon's face-down digivolution cards. Then, delete 1 of your
+    opponent's 3000 DP or lower Digimon."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "\uFF1CPiercing\uFF1E."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX9_043
+  DP: 7000
+  rarity: 3
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX9-043
+  MaxCountInDeck: 4

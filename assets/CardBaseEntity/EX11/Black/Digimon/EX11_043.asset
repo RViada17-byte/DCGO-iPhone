@@ -1,3 +1,60 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:124fd2a9de84e0cef8b65b3e617ca01534504f1130c9686995d51b7ededaebf3
-size-not-lfs 1707
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX11_043
+  m_EditorClassIdentifier: 
+  CardIndex: 7745
+  cardColors: 0500000001000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 4
+  - CardColor: 1
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Invisimon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Cyborg
+  - LIBERATOR
+  CardSpriteName: EX11-043
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.5 w/[Cyborg]/[Machine]\_trait: Cost 3 \n\n[Security]
+    [End of Opponent's Turn] Play this card without paying the cost.\n[On Play] [When
+    Digivolving] Flip your opponent's top face-down security card face up and return
+    1 of their lowest play cost Digimon to the bottom of the deck. Then, this Digimon
+    gains \uFF1CSecurity A. +1\uFF1E until your turn ends.\n[Your Turn] When any
+    of your Digimon check face-up security cards, you may place this Digimon's top
+    stacked card face up as the bottom security card."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX11_043
+  DP: 12000
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX11-043
+  MaxCountInDeck: 4

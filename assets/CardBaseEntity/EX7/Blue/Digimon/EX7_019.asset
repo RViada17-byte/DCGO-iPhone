@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:a52d2429e80ac62a94b4dba1a9008be12596d5fae402f309a3a83fba37e521d6
-size-not-lfs 1335
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX7_019
+  m_EditorClassIdentifier: 
+  CardIndex: 3711
+  cardColors: 01000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 1
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Sorcermon
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Wizard
+  - Witchelny
+  - Ice-Snow
+  CardSpriteName: EX7-019
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "\uFF1CBlocker\uFF1E \n[On Play] If your opponent has no
+    Digimon with digivolution cards, unsuspend 1 of your Digimon.\n[Rule] Trait:
+    Has the [Ice-Snow] type."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[When Attacking] [Once Per Turn] Trash the top
+    digivolution card of 1 of your opponent''s Digimon.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX7_019
+  DP: 5000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: EX7-019
+  MaxCountInDeck: 4

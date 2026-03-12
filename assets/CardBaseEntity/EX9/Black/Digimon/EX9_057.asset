@@ -1,3 +1,57 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:10bf6a8e700a5dea31e4c37583e3755d18ac1b5f0e4f4ad191f9f78406485d54
-size-not-lfs 1749
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX9_057
+  m_EditorClassIdentifier: 
+  CardIndex: 6941
+  cardColors: 05000000
+  PlayCost: 15
+  EvoCosts:
+  - CardColor: 5
+    Level: 6
+    MemoryCost: 5
+  Level: 7
+  CardName_JPN: 
+  CardName_ENG: Abbadomon Core
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Unknown
+  Type_JPN: []
+  Type_ENG:
+  - Unidentified
+  CardSpriteName: EX9-057
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] [Abbadomon]: Cost 4 \n\n[Breeding] [Opponent's
+    Turn] When one of your opponent's Digimon attacks, by returning 4 [Negamon] from
+    your trash or your Digimon's digivolution cards to the bottom of the Digi-Egg
+    deck, this Digimon moves to the battle area.\n\uFF1CCollision\uFF1E.\n\uFF1CPiercing\uFF1E.\n\uFF1CSecurity
+    A. +1\uFF1E.\n\uFF1CReboot\uFF1E.\n\uFF1CBlocker\uFF1E \n[When Moving] [When
+    Digivolving] [When Attacking] By placing 3 level 6 or lower Digimon cards with
+    [Negamon]\_in their texts from your trash as this Digimon's top digivolution
+    cards, delete all of your opponent's lowest level Digimon."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX9_057
+  DP: 15000
+  rarity: 3
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX9-057
+  MaxCountInDeck: 4

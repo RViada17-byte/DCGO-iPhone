@@ -1,3 +1,54 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:b9ddcb47e5ec5f25500caea46e4ed4e878c9f5846f5292ee59832db89f4c2443
-size-not-lfs 1405
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX10_016_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 7283
+  cardColors: 03000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 3
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: 
+  CardName_ENG: Mirrormon
+  Form_JPN: []
+  Form_ENG:
+  - Stnd.
+  - Appmon
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Tool
+  Type_JPN: []
+  Type_ENG:
+  - Mirror
+  CardSpriteName: EX10-016_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.2 w/[Appmon]\_trait: Cost 0 \n\n[Your Turn]
+    [Once Per Turn] When this Digimon gets linked, you may suspend 1 of your opponent's
+    Digimon."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX10_016
+  DP: 1000
+  rarity: 0
+  OverflowMemory: 0
+  LinkDP: 2000
+  LinkEffect: '[When Attacking] By trashing 1 of this Digimon''s link cards, suspend
+    2 of your opponent''s Digimon.'
+  LinkRequirement: "[Link] [Appmon]\_trait: Cost 1 "
+  CardID: EX10-016
+  MaxCountInDeck: 4

@@ -1,3 +1,56 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:d5764388429a1ebf59381ad2de816dbedcf4ab21c88be65391b269903706b068
-size-not-lfs 1372
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX11_015_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 7686
+  cardColors: 0100000002000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 1
+    Level: 3
+    MemoryCost: 3
+  - CardColor: 2
+    Level: 3
+    MemoryCost: 3
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Frigimon
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Ice-Snow
+  - LIBERATOR
+  CardSpriteName: EX11-015_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.3 w/[Ice-Snow]\_trait: Cost 2 \n\n[When
+    Digivolving] If you have 1 or fewer Tamers, you may play 1 [Suzune Kazuki] from
+    your hand without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "\uFF1CJamming\uFF1E "
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX11_015
+  DP: 6000
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX11-015
+  MaxCountInDeck: 4

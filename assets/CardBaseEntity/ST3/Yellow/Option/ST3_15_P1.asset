@@ -1,3 +1,46 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:f84e4d01438a0d0529d37b45fa761a7abe4149cfcec6e7b2e140fe28993dba6f
-size-not-lfs 1185
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST3_15_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 4982
+  cardColors: 02000000
+  PlayCost: 2
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Holy Flame
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Option
+  CardSpriteName: ST3-15_P1
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Main] 1 of your opponent's Digimon gains \uFF1CSecurity
+    Attack -3\uFF1Euntil the end of their turn."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: "[Security] All of your opponent's Digimon gain
+    \uFF1CSecurity Attack -1\uFF1Efor the turn."
+  CardEffectClassName: ST3_15
+  DP: 0
+  rarity: 0
+  OverflowMemory: 0
+  CardID: ST3-15
+  MaxCountInDeck: 4

@@ -1,3 +1,56 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:93bf2a81640712eaa1d618c758f1e8fa83dee814ab84b82661da49696f0bd0b9
-size-not-lfs 1514
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX11_051
+  m_EditorClassIdentifier: 
+  CardIndex: 7762
+  cardColors: 06000000
+  PlayCost: 11
+  EvoCosts:
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Necromon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Ghost
+  - LIBERATOR
+  CardSpriteName: EX11-051
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "\uFF1CPiercing\uFF1E \n\uFF1CExecute\uFF1E \n[On Play]
+    [When Digivolving] [On Deletion] delete 1 of your opponent's Digimon with the
+    lowest level. Then, you may play 1 level 4 or lower [Ghost]\_trait Digimon card
+    from your trash without paying the cost.\n[On Deletion] 1 of your [Ghost]\_trait
+    Digimon may digivolve into a [Ghost]\_trait Digimon card in the hand without
+    paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX11_051
+  DP: 12000
+  rarity: 3
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX11-051
+  MaxCountInDeck: 4

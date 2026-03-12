@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:92dce9ebc6c35448cb8a33468d4668bd53659abfede5e29bb4088b28c11cdafc
-size-not-lfs 1714
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST4_11
+  m_EditorClassIdentifier: 
+  CardIndex: 126
+  cardColors: 03000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 3
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: "\u30A2\u30C8\u30E9\u30FC\u30AB\u30D6\u30C6\u30EA\u30E2\u30F3"
+  CardName_ENG: MegaKabuterimon
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u6606\u866B\u578B"
+  Type_ENG:
+  - Insectoid
+  CardSpriteName: ST4-11
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 
+  InheritedEffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011[\u30BF\u30FC\u30F3\u306B1\u56DE]\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30D0\u30C8\u30EB\u3067\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u3060\u3051\u3092\u6D88\u6EC5\u3055\u305B\u305F\u3068\u304D\u3001\u76F8\u624B\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3092\u4E0A\u304B\u30891\u679A\u7834\u68C4\u3059\u308B\u3002"
+  InheritedEffectDiscription_ENG: '[Your Turn][Once Per Turn] When this Digimon deletes
+    an opponent''s Digimon in battle and survives, trash the top card of your opponent''s
+    security stack.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: ST4_11
+  DP: 7000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: ST4-11
+  MaxCountInDeck: 4

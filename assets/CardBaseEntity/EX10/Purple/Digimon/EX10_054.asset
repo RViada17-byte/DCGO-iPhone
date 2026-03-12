@@ -1,3 +1,57 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:6d51d38220c7f103b4a3f9ee2486c8e80f721d25712bfa5d25ad2b365e055fa0
-size-not-lfs 1530
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX10_054
+  m_EditorClassIdentifier: 
+  CardIndex: 7231
+  cardColors: 0600000003000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 4
+  - CardColor: 3
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: VenomMyotismon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Dark Animal
+  CardSpriteName: EX10-054
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Trash] [Main] By deleting 1 of your level 5 Digimon with
+    [Myotismon]\_in its text, play this card with the play cost reduced by 7.\n[On
+    Play] [When Digivolving] You may suspend 2 of your opponent's Digimon or Tamers.
+    Then, 2 of their Digimon or Tamers can't unsuspend until their turn ends.\n[On
+    Deletion] Delete 1 of your opponent's suspended Digimon."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX10_054
+  DP: 12000
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX10-054
+  MaxCountInDeck: 4

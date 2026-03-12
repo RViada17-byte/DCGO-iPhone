@@ -1,3 +1,59 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:66e369b79a94e2f29818055982a76c59641a72abc71eb304eb6ef83eed83d860
-size-not-lfs 2668
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX5_020
+  m_EditorClassIdentifier: 
+  CardIndex: 3059
+  cardColors: 01000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 1
+    Level: 4
+    MemoryCost: 3
+  - CardColor: 0
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: "\u30AF\u30EC\u30B7\u30A7\u30E2\u30F3"
+  CardName_ENG: Crescemon
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u9B54\u4EBA\u578B"
+  - "\u30CA\u30A4\u30C8\u30AF\u30ED\u30A6"
+  Type_ENG:
+  - Wizard
+  - Night Claw
+  CardSpriteName: EX5-020
+  cardKind: 0
+  EffectDiscription_JPN: "\u7279\u5FB4\u306B\u300C\u30CA\u30A4\u30C8\u30AF\u30ED\u30A6\u300D/\u300C\u30E9\u30A4\u30C8\u30D5\u30A1\u30F3\u30B0\u300D\u3092\u6301\u3064Lv.4:\u30B3\u30B9\u30C83\u3053\u306E\u30AB\u30FC\u30C9\u3092\u767B\u5834\u3055\u305B\u308B\u3068\u304D\u304B\u3001\u3053\u306E\u30AB\u30FC\u30C9\u306B\u9032\u5316\u3059\u308B\u3068\u304D\u3001\u9032\u5316\u5143\u30923\u679A\u4EE5\u4E0A\u6301\u3061\u3001\u7279\u5FB4\u306B\u300C\u30CA\u30A4\u30C8\u30AF\u30ED\u30A6\u300D/\u300C\u30E9\u30A4\u30C8\u30D5\u30A1\u30F3\u30B0\u300D/\u300C\u9280\u6CB3\u578B\u300D\u3092\u6301\u3064\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u3044\u308B\u306A\u3089\u3001\u652F\u6255\u3046\u767B\u5834/\u9032\u5316\u30B3\u30B9\u30C8-2\u3002\u3010\u767B\u5834\u6642\u3011\u3010\u9032\u5316\u6642\u3011\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u307E\u3067\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306F\u30EC\u30B9\u30C8\u3067\u304D\u306A\u3044\u3002"
+  EffectDiscription_ENG: "When this card would be played or digivolved into, if you
+    have a Digimon with 3 or more digivolution cards and the [Night Claw]/[Light
+    Fang]/[Galaxy]\_trait, reduce the play or digivolution cost by 2.[On Play] [When
+    Digivolving] 1 of your opponent's Digimon can't suspend until the end of your
+    opponent's turn."
+  InheritedEffectDiscription_JPN: "\u3010\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092DP+2000\u3002"
+  InheritedEffectDiscription_ENG: '[Opponent''s Turn] This Digimon gets +2000 DP.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX5_020
+  DP: 7000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: EX5-020
+  MaxCountInDeck: 4

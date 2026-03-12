@@ -1,3 +1,49 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:80cc718c80ca59258a1ae55f2cbcc1619f09c136ae95eaa0f780fe2ae8dfab14
-size-not-lfs 1433
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_175
+  m_EditorClassIdentifier: 
+  CardIndex: 5188
+  cardColors: 04000000
+  PlayCost: 4
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Hina Kurihara
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Tamer
+  CardSpriteName: P-175
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Start of Your Turn] If you have 2 or less memory, set
+    it to 3.\n[Your Turn] When any of your Digimon with the [Rock Dragon]/[Machine
+    Dragon]\_trait are played, by suspending this Tamer, 1 of your level 4 or higher
+    Digimon may digivolve into a Digimon card with the [Rock Dragon]/[Earth Dragon]/[Machine
+    Dragon]/[Sky Dragon]\_trait in the hand with the digivolution cost reduced by
+    2."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying the cost.'
+  CardEffectClassName: P_175
+  DP: 0
+  rarity: 5
+  OverflowMemory: 0
+  CardID: P-175
+  MaxCountInDeck: 4

@@ -1,3 +1,49 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:825097d6a0cc80cfe00d4ad554e5d0376fc50899b834f8556cff60586d0ccaa7
-size-not-lfs 1213
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT20_068_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 5228
+  cardColors: 06000000
+  PlayCost: 4
+  EvoCosts:
+  - CardColor: 6
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Bakemon
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Ghost
+  - LIBERATOR
+  CardSpriteName: BT20-068_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[When Digivolving] If you have 1 or fewer Tamers, you may
+    play 1 [Violet Inboots] from your hand without paying the cost.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[On Deletion] Gain 1 memory.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT20_068
+  DP: 4000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT20-068
+  MaxCountInDeck: 4

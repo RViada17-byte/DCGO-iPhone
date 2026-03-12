@@ -1,3 +1,53 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:75363b52a7653061142871ecbe3e9a54509136111279391bde941f323bf4e002
-size-not-lfs 1450
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX7_046_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 3764
+  cardColors: 05000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 3
+  - CardColor: 0
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Jazarichmon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Machine Dragon
+  CardSpriteName: EX7-046_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[On Play] \uFF1CDe-Digivolve1\uFF1E 1 of your opponent's
+    Digimon (Trash the top card. You can't trash past level 3 cards)\n[When Digivolving]
+    If your opponent doesn't have a level 5 or higher Digimon, gain 1 memory."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[Opponent''s Turn] [Once Per Turn] When an opponent''s
+    Digimon attacks, you may change the attack target to this Digimon.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX7_046
+  DP: 7000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: EX7-046
+  MaxCountInDeck: 4

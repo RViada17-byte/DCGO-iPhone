@@ -1,3 +1,56 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:f95009b66c0a5bc94b914756a210a5f30915b7623ed0ce5fabc51dbd44674f62
-size-not-lfs 1623
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_141
+  m_EditorClassIdentifier: 
+  CardIndex: 10295
+  cardColors: 0500000003000000
+  PlayCost: 6
+  EvoCosts:
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 4
+  - CardColor: 3
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: MameTyramon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Mutant
+  - X Antibody
+  CardSpriteName: P-141
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.4 w/[Mamemon]/[Tyrannomon]\_in its name:
+    Cost 3 \n\n\uFF1CCollision\uFF1E (During this Digimon's attack, all of your opponent's
+    Digimon gain \uFF1CBlocker\uFF1E, and must block if possible).\n\uFF1CBlocker\uFF1E
+    \n[All Turns] [Once Per Turn] When an opponent's Digimon becomes suspended, you
+    may unsuspended this Digimon.\n[Rule] Name: Treated as having [Mamemon]/[Tyrannomon]."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[All Turns] [Once Per Turn] When an opponent''s
+    Digimon becomes suspended, you may unsuspended this Digimon.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: P_141
+  DP: 6000
+  rarity: 5
+  OverflowMemory: 0
+  CardID: P-141
+  MaxCountInDeck: 4

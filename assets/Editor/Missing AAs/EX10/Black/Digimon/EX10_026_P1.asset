@@ -1,3 +1,57 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:24d7b5c6d0846eae2518de60b297e0feeea5be5ae77e1e3e6d0d78c8be5fa211
-size-not-lfs 1432
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX10_026_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 7180
+  cardColors: 0500000006000000
+  PlayCost: 4
+  EvoCosts:
+  - CardColor: 5
+    Level: 3
+    MemoryCost: 3
+  - CardColor: 6
+    Level: 3
+    MemoryCost: 3
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: SkullKnightmon
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Undead
+  - Bagra Army
+  - Twilight
+  CardSpriteName: EX10-026_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.3 w/[Knightmon]\_in text: Cost 2 \n\n[On
+    Play] [When Digivolving] By trashing 1 card in your hand, delete 1 of your opponent's
+    Digimon with a play cost of 4 or less.\n[On Deletion] \uFF1CSave\uFF1E "
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "\uFF1CBlocker\uFF1E "
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX10_026
+  DP: 4000
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX10-026
+  MaxCountInDeck: 4

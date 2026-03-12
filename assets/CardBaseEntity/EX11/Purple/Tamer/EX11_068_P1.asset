@@ -1,3 +1,51 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:2b9342286421f8142eb51c8688d4bbaa73cdbd5104cd4dc933f380e552787a2f
-size-not-lfs 1464
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX11_068_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 7792
+  cardColors: 06000000
+  PlayCost: 4
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Violet Inboots
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - LIBERATOR
+  CardSpriteName: EX11-068_P1
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Start of Your Turn] If you have 2 or less memory, set
+    it to 3.\n[Your Turn] When one of your [Ghost]\_trait Digimon attacks, by suspending
+    this Tamer, \uFF1CDraw 1\uFF1E and trash 1 card in your hand. If attacking by
+    \uFF1CExecute\uFF1E, it may digivolve into a [Ghost]\_trait Digimon card in the
+    hand with the digivolution cost reduced by 2."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying the cost.'
+  CardEffectClassName: EX11_068
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX11-068
+  MaxCountInDeck: 4

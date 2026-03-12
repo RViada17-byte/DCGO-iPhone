@@ -1,3 +1,53 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:ab0a4f2ee4e4ff7f7f898c4ec84f8dd9feeb1caf9ddca1264d3f38c425eae49c
-size-not-lfs 1412
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_118_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 10413
+  cardColors: 03000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 3
+    Level: 2
+    MemoryCost: 0
+  - CardColor: 1
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: 
+  CardName_ENG: Wormmon
+  Form_JPN: []
+  Form_ENG:
+  - Rookie
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Free
+  Type_JPN: []
+  Type_ENG:
+  - Larva
+  CardSpriteName: P-118_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[On Play] Reveal the top 3 cards of your deck. Add 1 green
+    or blue card with 2 or more colors and 1 Tamer card with [Ken Ichijoji]\_in its
+    name among them to the hand. Return the rest to the bottom of the deck."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[End of Your Turn] This Digimon and another of
+    your Digimon may DNA digivolve into a Digimon card in the hand.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: P_118
+  DP: 1000
+  rarity: 5
+  OverflowMemory: 0
+  CardID: P-118
+  MaxCountInDeck: 4

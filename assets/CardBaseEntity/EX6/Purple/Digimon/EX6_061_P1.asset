@@ -1,3 +1,59 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:acf8032068a48ef17511794555f4199e98d2a3265fbb2755c87e552ece08b96a
-size-not-lfs 1809
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX6_061_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 3521
+  cardColors: 0600000001000000
+  PlayCost: 13
+  EvoCosts:
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 5
+  - CardColor: 1
+    Level: 5
+    MemoryCost: 5
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Leviamon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Demon Lord
+  - Seven Great Demon Lords
+  CardSpriteName: EX6-061_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[All Turns] [Once Per Turn] When an opponent's Digimon
+    or one of your Digimon with the [Seven Great Demon Lords]\_trait is played, by
+    trashing 1 card in your hand, return the bottom 3 digivolution cards of 1 of
+    your opponent's Digimon to the bottom of the deck. Then, if your opponent has
+    as many or fewer total Digimon and Tamers as you, delete 1 of your opponent's
+    Digimon with no digivolution cards.\n[All Turns] When this Digimon would leave
+    the battle area other than in battle, place 1 card with the [Seven Great Demon
+    Lords]\_trait from your trash as the bottom digivolution card of one of your
+    [Gate of Deadly Sins] in your breeding area."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX6_061
+  DP: 13000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: EX6-061
+  MaxCountInDeck: 4

@@ -1,3 +1,56 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:329dfd0b6ad86a127e536cad50eac4c2eef4ad70fa871ab1d0fc115aaa7a578f
-size-not-lfs 1644
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX5_054_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 4232
+  cardColors: 0500000002000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 4
+  - CardColor: 2
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: MetalEtemon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Cyborg
+  CardSpriteName: EX5-054_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.5 w/[Etemon]/[Sukamon]\_in its name: Cost
+    3 \n\n[On Play] [When Digivolving] Delete 1 of your opponent's play cost 3 or
+    lower Digimon or Tamers. For each card with [Etemon]/[Sukamon]\_in its name in
+    your trash, add 1 to the maximum play cost this effect can choose.\n[Opponent's
+    Turn] [Once Per Turn] When an opponent's Digimon attacks, by placing 1 card with
+    [Etemon]/[Sukamon]\_in its name from your hand on top of your security stack,
+    you may switch the target of attack to this Digimon or the player."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX5_054
+  DP: 12000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: EX5-054
+  MaxCountInDeck: 4

@@ -1,3 +1,57 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:f89f7d082082782e4bf734749acbf70c0b036b35fb90df202e43be5b2abc47f3
-size-not-lfs 2483
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX5_045
+  m_EditorClassIdentifier: 
+  CardIndex: 3084
+  cardColors: 0500000002000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 5
+    Level: 2
+    MemoryCost: 1
+  - CardColor: 2
+    Level: 2
+    MemoryCost: 1
+  Level: 3
+  CardName_JPN: "\u30C1\u30E5\u30FC\u30E2\u30F3"
+  CardName_ENG: Chuumon
+  Form_JPN:
+  - "\u6210\u9577\u671F"
+  Form_ENG:
+  - Rookie
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u7363\u578B"
+  Type_ENG:
+  - Beast
+  CardSpriteName: EX5-045
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u306A\u3089\u3001\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u30893\u679A\u30AA\u30FC\u30D7\u30F3\u3059\u308B\u3002\u305D\u306E\u4E2D\u306E\u540D\u79F0\u306B\u300C\u30B9\u30AB\u30E2\u30F3\u300D\u3092\u542B\u3080\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002\u6B8B\u308A\u306F\u7834\u68C4\u3059\u308B\u3002"
+  EffectDiscription_ENG: "[On Play] If it's your opponent's turn, reveal the top
+    3 cards of your deck. You may play 1 Digimon card with [Sukamon]\_in its name
+    among them without paying the cost. Trash the rest."
+  InheritedEffectDiscription_JPN: "\u3010\u6D88\u6EC5\u6642\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u540D\u79F0\u306B\u300C\u30B9\u30AB\u30E2\u30F3\u300D/\u300C\u30A8\u30C6\u30E2\u30F3\u300D\u3092\u542B\u3093\u3067\u3044\u305F\u306A\u3089\u3001\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u300C\u30C1\u30E5\u30FC\u30E2\u30F3\u300D1\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u30EC\u30B9\u30C8\u72B6\u614B\u3067\u767B\u5834\u3067\u304D\u308B\u3002"
+  InheritedEffectDiscription_ENG: "[On Deletion] If this Digimon had [Sukamon]/[Etemon]\_in
+    its name, you may play 1 [Chuumon] from your trash suspended without paying the
+    cost."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX5_045
+  DP: 1000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: EX5-045
+  MaxCountInDeck: 4

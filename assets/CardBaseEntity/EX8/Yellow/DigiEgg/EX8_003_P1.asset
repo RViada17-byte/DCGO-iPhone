@@ -1,3 +1,48 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:a87ae3277288a0250f49cd35e7b8bcf955e2da1fbd26b97d3aba0d09d2e5c343
-size-not-lfs 1168
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX8_003_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 4054
+  cardColors: 02000000
+  PlayCost: -1
+  EvoCosts: []
+  Level: 2
+  CardName_JPN: 
+  CardName_ENG: Kokomon
+  Form_JPN: []
+  Form_ENG:
+  - In-Training
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Lesser
+  CardSpriteName: EX8-003_P1
+  cardKind: 3
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '-'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[When Attacking] [Once Per Turn] If you have another
+    Digimon, 1 of your opponent''s Digimon gets -2000 DP for the turn.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX8_003
+  DP: 0
+  rarity: 0
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: EX8-003
+  MaxCountInDeck: 4

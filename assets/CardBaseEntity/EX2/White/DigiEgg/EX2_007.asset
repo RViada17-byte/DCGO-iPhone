@@ -1,3 +1,54 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:5d006d00f1ab50e50eaf8d7b082aabc4748559d9f81514e66e6ef37de445378a
-size-not-lfs 2803
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX2_007
+  m_EditorClassIdentifier: 
+  CardIndex: 1924
+  cardColors: 04000000
+  PlayCost: -1
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: "\u30DE\u30B6\u30FC\u30C7\u30FB\u30EA\u30FC\u30D1\u30FC"
+  CardName_ENG: Mother D-Reaper
+  Form_JPN:
+  - "\u30C7\u30FB\u30EA\u30FC\u30D1\u30FC"
+  Form_ENG:
+  - D-Reaper
+  Attribute_JPN: []
+  Attribute_ENG: []
+  Type_JPN:
+  - "\u80FD\u529B\u7D71\u5408\u30BF\u30A4\u30D7"
+  Type_ENG:
+  - Ability Synthesis Agent
+  CardSpriteName: EX2-007
+  cardKind: 3
+  EffectDiscription_JPN: "\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u30A2\u30BF\u30C3\u30AF\u3067\u304D\u305A\u3001\u76F8\u624B\u306E\u52B9\u679C\u3092\u53D7\u3051\u306A\u3044\u3002\u3010\u30E1\u30A4\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u4ED6\u306E\u81EA\u5206\u306E\u300C\u30DE\u30B6\u30FC\u30C7\u30FB\u30EA\u30FC\u30D1\u30FC\u300D\u304C\u3044\u306A\u3044\u3068\u304D\u3001\u81EA\u5206\u306E\u300CADR-02=\u30B5\u30FC\u30C1\u30E3\u30FC\u300D1\u4F53\u304B\u624B\u672D\u306E\u300CADR-02=\u30B5\u30FC\u30C1\u30E3\u30FC\u300D1\u679A\u3092\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u306E1\u756A\u4E0B\u306B\u7F6E\u304F\u3002\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u624B\u672D\u306E\u7279\u5FB4\u306B\u300C\u30C7\u30FB\u30EA\u30FC\u30D1\u30FC\u300D\u3092\u6301\u3064\u30AB\u30FC\u30C9\u3092\u767B\u5834\u3055\u305B\u308B\u3068\u304D\u3001\u652F\u6255\u3046\u767B\u5834\u30B3\u30B9\u30C8\u3092\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u51431\u679A\u3054\u3068\u306B-1\u3067\u304D\u308B\u3002"
+  EffectDiscription_ENG: '[All Turns] This Digimon can''t attack and isn''t affected
+    by your opponent''s effects.[Main][Once Per Turn] If you don''t have another
+    [Mother D-Reaper] in play, place 1 of your [ADR-02 Searcher]s from in play or
+    from your hand under this Digimon as its bottom digivolution card.[Your Turn][Once
+    Per Turn] When you would play a card with [D-Reaper] in its traits from your
+    hand, you may reduce its play cost by 1 for each of this Digimon''s digivolution
+    cards.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX2_007
+  DP: 15000
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: EX2-007
+  MaxCountInDeck: 4

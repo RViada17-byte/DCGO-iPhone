@@ -1,3 +1,53 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:25e1c748daaf6329f75146ffc04e780a2c8b7a13ddb53d42203b61b4116deb29
-size-not-lfs 1349
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX7_039
+  m_EditorClassIdentifier: 
+  CardIndex: 3750
+  cardColors: 05000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 5
+    Level: 2
+    MemoryCost: 0
+  - CardColor: 0
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: 
+  CardName_ENG: Jazamon
+  Form_JPN: []
+  Form_ENG:
+  - Rookie
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Bird Dragon
+  - Machine Dragon
+  CardSpriteName: EX7-039
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Start of Your Main Phase] By trashing 1 card with the
+    [Rock Dragon]/[Earth Dragon]\_trait from your hand, \uFF1CDraw 1\uFF1Eand gain
+    1 memory.\n[Rule] Trait: Has the [Machine Dragon] type."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[Opponent''s Turn] This Digimon gets +2000 DP.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX7_039
+  DP: 1000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: EX7-039
+  MaxCountInDeck: 4

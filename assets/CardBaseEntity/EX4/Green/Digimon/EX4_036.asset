@@ -1,3 +1,59 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:b9fcebb61e6ee570e9f3927a83097c56facaccc8060c434a7cbf81bc54bbf15f
-size-not-lfs 3316
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX4_036
+  m_EditorClassIdentifier: 
+  CardIndex: 2587
+  cardColors: 0300000005000000
+  PlayCost: 8
+  EvoCosts:
+  - CardColor: 3
+    Level: 4
+    MemoryCost: 4
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: "\u30D6\u30E9\u30C3\u30AF\u30E9\u30D4\u30C3\u30C9\u30E2\u30F3"
+  CardName_ENG: BlackRapidmon
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u30B5\u30A4\u30DC\u30FC\u30B0\u578B"
+  Type_ENG:
+  - Cyborg
+  CardSpriteName: EX4-036
+  cardKind: 0
+  EffectDiscription_JPN: "\u9032\u5316:\u300E\u540D\u79F0\u306B\u300C\u30AC\u30EB\u30B4\u30E2\u30F3\u300D\u3092\u542B\u3080\u304B\u7DD1\u3092\u542B\u30802\u8272\u306ELv.4\u300F\u304B\u30893\u226A\u9023\u643A\u226B(\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30A2\u30BF\u30C3\u30AF\u3057\u305F\u3068\u304D\u3001\u4ED6\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u30EC\u30B9\u30C8\u3055\u305B\u308B\u3053\u3068\u3067\u3001\u3053\u306E\u30A2\u30BF\u30C3\u30AF\u306E\u9593\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306B\u30EC\u30B9\u30C8\u3055\u305B\u305F\u30C7\u30B8\u30E2\u30F3\u306EDP\u3092\u30D7\u30E9\u30B9\u3057\u3001\u226A\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u30A2\u30BF\u30C3\u30AF+1\u226B\u3092\u5F97\u308B)\u3010\u30A2\u30BF\u30C3\u30AF\u7D42\u4E86\u6642\u3011\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u226A\u9000\u53161\u226B\uFF08\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u306B\u91CD\u306D\u3089\u308C\u305F\u30AB\u30FC\u30C9\u3092\u3001\u4E0A\u304B\u30891\u679A\u7834\u68C4\u3059\u308B\u3002\u9032\u5316\u5143\u304C\u306A\u304F\u306A\u308B\u304B\u3001Lv.3\u306E\u30C7\u30B8\u30E2\u30F3\u306B\u306A\u3063\u305F\u3089\u305D\u308C\u4EE5\u4E0A\u7834\u68C4\u3067\u304D\u306A\u3044\uFF09\u3002"
+  EffectDiscription_ENG: 'Digivolve: 3 from Lv.4 w/[Gargomon] in name or 2-color
+    w/green (When this Digimon attacks, by suspending 1 of your other Digimon, this
+    Digimon adds the suspended Digimon''s DP and gains  for the attack.) [End of
+    Attack]  (Trash 1 card from the top of 1 of your opponent''s Digimon. Stop trashing
+    when you would trash a level 3 card or the Digimon''s last card) 1 of your opponent''s
+    Digimon.'
+  InheritedEffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u4ED6\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u52B9\u679C\u3067\u30EC\u30B9\u30C8\u3057\u305F\u3068\u304D\u3001\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u226A\u8CAB\u901A\u226B\u3092\u5F97\u308B\u3002"
+  InheritedEffectDiscription_ENG: '[Your Turn][Once Per Turn] When an effect suspends
+    another Digimon, this Digimon gains  for the turn.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX4_036
+  DP: 8000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: EX4-036
+  MaxCountInDeck: 4

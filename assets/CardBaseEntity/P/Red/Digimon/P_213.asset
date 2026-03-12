@@ -1,3 +1,60 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:9aa1b95ee34bb9fa8d7d3ebd92262e38d6688161f8aab9e8c60aea6a43f9f25d
-size-not-lfs 1735
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_213
+  m_EditorClassIdentifier: 
+  CardIndex: 7506
+  cardColors: 00000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 0
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Aegiochusmon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Shaman
+  - Iliad
+  - TS
+  - Dragonkin
+  CardSpriteName: P-213
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] [Aegiomon]: Cost 3 \n\n\uFF1CRaid\uFF1E \n\uFF1CDecode
+    ([Aegiomon])\uFF1E (When this Digimon would leave the battle area other than
+    in battle, you may play 1 [Aegiomon] from its digivolution cards without paying
+    the cost.)\n[When Digivolving] If you have 3 or fewer security cards, this Digimon
+    gains \uFF1CRush\uFF1E and +3000 DP until your opponent's turn ends. Then, this
+    Digimon may attack."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "\uFF1CDecode ([Aegiomon])\uFF1E (When this Digimon
+    would leave the battle area other than in battle, you may play 1 [Aegiomon] from
+    its digivolution cards without paying the cost.))"
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: P_213
+  DP: 7000
+  rarity: 5
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: P-213
+  MaxCountInDeck: 4

@@ -212,6 +212,17 @@ public class GManager : MonoBehaviourPun
     public static GManager instance = null;
 
     public bool IsAI { get; private set; } = false;
+    public AIConfig AIConfig { get; private set; } = null;
+    public IAIBrain LegacyAIBrain { get; private set; } = null;
+    public IAIBrain GreedyShadowBrain { get; private set; } = null;
+
+    public bool IsAIShadowEnabled
+    {
+        get
+        {
+            return AIConfig != null && AIConfig.IsShadowEnabled;
+        }
+    }
 
     public int CardIndex { get; set; } = 0;
 
@@ -268,6 +279,10 @@ public class GManager : MonoBehaviourPun
         {
             isAuto = false;
         }
+
+        AIConfig = global::AIConfig.CreateDefault(IsAI, BootstrapConfig.IsOfflineLocal);
+        LegacyAIBrain = new LegacyAIBrain();
+        GreedyShadowBrain = AIConfig.IsShadowEnabled ? new GreedyShadowBrain() : null;
 
         turnStateMachine = gameObject.AddComponent<TurnStateMachine>();
 

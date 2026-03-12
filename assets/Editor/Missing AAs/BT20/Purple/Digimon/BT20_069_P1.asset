@@ -1,3 +1,53 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:c690e06512f6e83c100791cec1d5a24690eb4561df003eee120a34e475cbf7dc
-size-not-lfs 1387
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT20_069_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 5229
+  cardColors: 0600000000000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 6
+    Level: 3
+    MemoryCost: 3
+  - CardColor: 0
+    Level: 3
+    MemoryCost: 3
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Punkmon
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Dark Dragon
+  - LIBERATOR
+  CardSpriteName: BT20-069_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.3 w/[Evil]\_trait: Cost 2 \n\n[On Play]
+    [When Digivolving] Trash 1 card in your hand. Then, until the end of your opponent's
+    turn, 1 of your Digimon gains \uFF1CBlocker\uFF1E and \uFF1CRetaliation\uFF1E."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[Your Turn] This Digimon gets +2000 DP.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT20_069
+  DP: 5000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: BT20-069
+  MaxCountInDeck: 4

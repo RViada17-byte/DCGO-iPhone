@@ -1,3 +1,51 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:52cffc01c5b3d70cc8ff574f911113e06d120807192e959108ed13a726d4893b
-size-not-lfs 1720
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_026
+  m_EditorClassIdentifier: 
+  CardIndex: 6051
+  cardColors: 05000000
+  PlayCost: 11
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: "\u30D6\u30E9\u30C3\u30AF\u30A6\u30A9\u30FC\u30B0\u30EC\u30A4\u30E2\u30F3"
+  CardName_ENG: BlackWarGreymon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u7ADC\u4EBA\u578B"
+  Type_ENG:
+  - Dragonkin
+  CardSpriteName: P-026
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u226A\u30C7\u30B8\u30D0\u30FC\u30B9\u30C82\u226B\uFF08\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u3092\u3001\u9078\u3093\u30672\u679A\u7834\u68C4\u3059\u308B\u3053\u3068\u3067\u4EE5\u4E0B\u306E\u52B9\u679C\u3092\u767A\u63EE\u3059\u308B\uFF09\u30FB\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u3059\u308B\u3002"
+  EffectDiscription_ENG: "[Main] \uFF1CDigi-Burst 2\uFF1E (Trash 2 of this Digimon's
+    digivolution cards to activate the effect below.)\u30FBUnsuspend this Digimon."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: P_026
+  DP: 11000
+  rarity: 5
+  OverflowMemory: 0
+  CardID: P-026
+  MaxCountInDeck: 4

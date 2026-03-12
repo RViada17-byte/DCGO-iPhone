@@ -1,3 +1,60 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:0ca57d5c90d5a89af5108c447732d73ce9c45c7bc8a2642e7c569a634e6cbfb6
-size-not-lfs 1649
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX10_050_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 7225
+  cardColors: 0600000005000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 6
+    Level: 4
+    MemoryCost: 4
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Baalmon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Free
+  Type_JPN: []
+  Type_ENG:
+  - Wizard
+  - Bagra Army
+  CardSpriteName: EX10-050_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Wizard]\_trait: Cost 3 \n\n[On Play]
+    [When Digivolving] Trash the top 3 cards of your deck. Then, if you have 5 or
+    more cards in your trash, this Digimon gains \uFF1CReboot\uFF1E and \uFF1CBlocker\uFF1E
+    until your opponent's turn ends.\n[On Deletion] If you have 10 or more cards
+    in your trash, you may play 1 [Beelzemon] from your trash without paying the
+    cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[All Turns] For every 10 cards in your trash,
+    this Digimon gets +1000 DP.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX10_050
+  DP: 7000
+  rarity: 0
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX10-050
+  MaxCountInDeck: 4

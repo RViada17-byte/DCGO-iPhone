@@ -1,3 +1,49 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:b76aaa7fa4ca2bf4a2a25fd857523f281d2e9b30c285047284dbf53788c9f715
-size-not-lfs 1165
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX8_021_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 4088
+  cardColors: 01000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 1
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Seadramon
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Aquatic
+  - DS
+  CardSpriteName: EX8-021_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.3 w/[DS]\_trait: Cost 2 \n\n[When Attacking]
+    [Once Per Turn] Gain 1 memory."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "\uFF1CJamming\uFF1E."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX8_021
+  DP: 5000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: EX8-021
+  MaxCountInDeck: 4

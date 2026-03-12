@@ -1,3 +1,55 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:96ee1810213c2b15815dee75c84103d4b25dd395c72139ebfde3d28e8bfc931d
-size-not-lfs 1516
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX5_041_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 4228
+  cardColors: 0300000006000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 3
+    Level: 5
+    MemoryCost: 4
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Ebonwumon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Holy Beast
+  - Four Sovereigns
+  CardSpriteName: EX5-041_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.5 w/[Deva]\_trait: Cost 3 \n\n[Hand] [Counter]
+    \uFF1CBlast Digivolve\uFF1E \n[On Play] [When Digivolving] For each of your Digimon
+    with the [Deva]/[Four Sovereigns]\_trait, suspend 1 of your opponent's Digimon.
+    Then, during your opponent's next unsuspend phase, all of their Digimon can't
+    unsuspend.\n[On Deletion] Delete 1 of your opponent's suspended Digimon."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX5_041
+  DP: 12000
+  rarity: 2
+  OverflowMemory: 4
+  CardID: EX5-041
+  MaxCountInDeck: 4

@@ -1,3 +1,57 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:9514039c20333f3ac3382f6dfc958383d832425a691d23a6edde5acc0e74eee0
-size-not-lfs 1554
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX9_029
+  m_EditorClassIdentifier: 
+  CardIndex: 6890
+  cardColors: 02000000
+  PlayCost: 4
+  EvoCosts:
+  - CardColor: 2
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Unimon
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Mythical Beast
+  - DM
+  - Ver.3
+  CardSpriteName: EX9-029
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.3 w/[DM]\_trait: Cost 2 \n\n\uFF1CTraining\uFF1E
+    \n[When Digivolving] [When Attacking] [Once Per Turn] By placing 1 card in your
+    hand face down as this Digimon's bottom digivolution card, if you have as many
+    or fewer security cards as this Digimon has face-down digivolution cards, \uFF1CRecovery
+    +1 (Deck)\uFF1E."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[When Attacking] [Once Per Turn] 1 of your opponent''s
+    Digimon gets -2000 DP for the turn.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX9_029
+  DP: 4000
+  rarity: 0
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX9-029
+  MaxCountInDeck: 4

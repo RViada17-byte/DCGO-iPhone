@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,10 +8,14 @@ public class ShopPanel : MonoBehaviour
 {
     private const string RuntimeRootName = "ShopRuntimeBody";
     private const string StructureDeckSectionName = "StructureDeckRows";
+    private const string StarterSetSectionName = "StarterSetRows";
     private const string PackSectionName = "PackRows";
     private const string ResultsTextName = "ResultsText";
     private const string InfoTextName = "InfoText";
     private const string CurrencyTextName = "CurrencyText";
+    private const string ResultsDialogRootName = "PurchaseResultsDialog";
+    private const string ResultsDialogTitleName = "PurchaseResultsDialogTitle";
+    private const string ResultsDialogBodyName = "PurchaseResultsDialogBody";
     private const int MaxResultHistoryLines = 64;
 
     [Header("Runtime UI Refs")]
@@ -20,11 +25,21 @@ public class ShopPanel : MonoBehaviour
     [SerializeField] private RectTransform StructureDeckSection;
     [SerializeField] private RectTransform PackSection;
     [SerializeField] private ScrollRect ProductScrollRect;
+    private RectTransform StarterSetSection;
+    private GameObject ResultsDialogRoot;
+    private Text ResultsDialogTitleText;
+    private Text ResultsDialogBodyText;
+    private ScrollRect ResultsDialogScrollRect;
 
     private readonly List<ShopRowRefs> _rows = new List<ShopRowRefs>();
     private readonly List<string> _resultHistory = new List<string>();
     private bool _runtimeUiBuilt;
     private static Font _runtimeFont;
+
+    public ShopPurchaseResult LastPurchaseResult { get; private set; }
+    public bool IsPurchaseResultsDialogOpen => ResultsDialogRoot != null && ResultsDialogRoot.activeSelf;
+    public string ActiveResultsDialogTitle => ResultsDialogTitleText != null ? ResultsDialogTitleText.text : string.Empty;
+    public string ActiveResultsDialogBody => ResultsDialogBodyText != null ? ResultsDialogBodyText.text : string.Empty;
 
     private void OnEnable()
     {
@@ -32,6 +47,8 @@ public class ShopPanel : MonoBehaviour
         ShopCatalogDatabase.Instance.Reload();
         ShopService.ReconcilePurchasedStructureDecks();
         EnsureRuntimeUi();
+        LastPurchaseResult = null;
+        HidePurchaseResultsDialog();
         RebuildProductRows();
         RefreshCurrency();
         RefreshProductStates();
@@ -49,6 +66,14 @@ public class ShopPanel : MonoBehaviour
         CurrencyText.text = "$ " + ProgressionManager.Instance.GetCurrency();
     }
 
+    public void RefreshView()
+    {
+        RefreshCurrency();
+        RefreshProductStates();
+        RefreshInfoText();
+        RefreshResultsText();
+    }
+
     private void EnsureRuntimeUi()
     {
         if (_runtimeUiBuilt &&
@@ -56,8 +81,13 @@ public class ShopPanel : MonoBehaviour
             InfoText != null &&
             LastOpenResultsText != null &&
             StructureDeckSection != null &&
+            StarterSetSection != null &&
             PackSection != null &&
-            ProductScrollRect != null)
+            ProductScrollRect != null &&
+            ResultsDialogRoot != null &&
+            ResultsDialogTitleText != null &&
+            ResultsDialogBodyText != null &&
+            ResultsDialogScrollRect != null)
         {
             return;
         }
@@ -121,7 +151,6 @@ public class ShopPanel : MonoBehaviour
         }
 
         ProductScrollRect = scrollRect;
-
         scrollRect.horizontal = false;
         scrollRect.vertical = true;
         scrollRect.scrollSensitivity = 24f;
@@ -185,6 +214,9 @@ public class ShopPanel : MonoBehaviour
         CreateSectionHeader(content, "Structure Decks");
         StructureDeckSection = CreateSectionContainer(content, StructureDeckSectionName);
 
+        CreateSectionHeader(content, "Starter Sets");
+        StarterSetSection = CreateSectionContainer(content, StarterSetSectionName);
+
         CreateSectionHeader(content, "Booster Packs");
         PackSection = CreateSectionContainer(content, PackSectionName);
 
@@ -217,36 +249,220 @@ public class ShopPanel : MonoBehaviour
         LastOpenResultsText.horizontalOverflow = HorizontalWrapMode.Wrap;
         LastOpenResultsText.verticalOverflow = VerticalWrapMode.Overflow;
 
+        BuildResultsDialog(runtimeRoot);
         _runtimeUiBuilt = true;
+    }
+
+    private void BuildResultsDialog(RectTransform runtimeRoot)
+    {
+        RectTransform dialogRoot = FindOrCreateRectTransform(runtimeRoot, ResultsDialogRootName);
+        dialogRoot.anchorMin = Vector2.zero;
+        dialogRoot.anchorMax = Vector2.one;
+        dialogRoot.offsetMin = Vector2.zero;
+        dialogRoot.offsetMax = Vector2.zero;
+        dialogRoot.SetAsLastSibling();
+        ResultsDialogRoot = dialogRoot.gameObject;
+
+        Image overlay = dialogRoot.GetComponent<Image>();
+        if (overlay == null)
+        {
+            overlay = dialogRoot.gameObject.AddComponent<Image>();
+        }
+
+        overlay.color = new Color(0.02f, 0.03f, 0.06f, 0.88f);
+        overlay.raycastTarget = true;
+
+        RectTransform dialogFrame = FindOrCreateRectTransform(dialogRoot, "DialogFrame");
+        dialogFrame.anchorMin = new Vector2(0.14f, 0.12f);
+        dialogFrame.anchorMax = new Vector2(0.86f, 0.88f);
+        dialogFrame.offsetMin = Vector2.zero;
+        dialogFrame.offsetMax = Vector2.zero;
+
+        Image dialogFrameBackground = dialogFrame.GetComponent<Image>();
+        if (dialogFrameBackground == null)
+        {
+            dialogFrameBackground = dialogFrame.gameObject.AddComponent<Image>();
+        }
+
+        dialogFrameBackground.color = new Color(0.08f, 0.1f, 0.15f, 0.98f);
+        dialogFrameBackground.raycastTarget = true;
+
+        ResultsDialogTitleText = FindOrCreateText(dialogFrame, ResultsDialogTitleName, 28, TextAnchor.MiddleLeft, FontStyle.Bold);
+        RectTransform titleRect = ResultsDialogTitleText.rectTransform;
+        titleRect.anchorMin = new Vector2(0f, 1f);
+        titleRect.anchorMax = new Vector2(1f, 1f);
+        titleRect.pivot = new Vector2(0.5f, 1f);
+        titleRect.offsetMin = new Vector2(28f, -64f);
+        titleRect.offsetMax = new Vector2(-28f, -16f);
+
+        RectTransform scrollRoot = FindOrCreateRectTransform(dialogFrame, "DialogScrollRoot");
+        scrollRoot.anchorMin = new Vector2(0f, 0f);
+        scrollRoot.anchorMax = new Vector2(1f, 1f);
+        scrollRoot.offsetMin = new Vector2(28f, 92f);
+        scrollRoot.offsetMax = new Vector2(-28f, -92f);
+
+        Image scrollRootBackground = scrollRoot.GetComponent<Image>();
+        if (scrollRootBackground == null)
+        {
+            scrollRootBackground = scrollRoot.gameObject.AddComponent<Image>();
+        }
+
+        scrollRootBackground.color = new Color(0.11f, 0.13f, 0.19f, 0.96f);
+        scrollRootBackground.raycastTarget = true;
+
+        ScrollRect dialogScrollRect = scrollRoot.GetComponent<ScrollRect>();
+        if (dialogScrollRect == null)
+        {
+            dialogScrollRect = scrollRoot.gameObject.AddComponent<ScrollRect>();
+        }
+
+        dialogScrollRect.horizontal = false;
+        dialogScrollRect.vertical = true;
+        dialogScrollRect.scrollSensitivity = 24f;
+        ResultsDialogScrollRect = dialogScrollRect;
+
+        RectTransform viewport = FindOrCreateRectTransform(scrollRoot, "Viewport");
+        viewport.anchorMin = Vector2.zero;
+        viewport.anchorMax = Vector2.one;
+        viewport.offsetMin = new Vector2(12f, 12f);
+        viewport.offsetMax = new Vector2(-12f, -12f);
+
+        Image viewportImage = viewport.GetComponent<Image>();
+        if (viewportImage == null)
+        {
+            viewportImage = viewport.gameObject.AddComponent<Image>();
+        }
+
+        viewportImage.color = new Color(1f, 1f, 1f, 0.01f);
+        viewportImage.raycastTarget = true;
+
+        Mask viewportMask = viewport.GetComponent<Mask>();
+        if (viewportMask == null)
+        {
+            viewportMask = viewport.gameObject.AddComponent<Mask>();
+        }
+
+        viewportMask.showMaskGraphic = false;
+
+        RectTransform content = FindOrCreateRectTransform(viewport, "Content");
+        content.anchorMin = new Vector2(0f, 1f);
+        content.anchorMax = new Vector2(1f, 1f);
+        content.pivot = new Vector2(0.5f, 1f);
+        content.anchoredPosition = Vector2.zero;
+        content.sizeDelta = new Vector2(0f, 0f);
+
+        VerticalLayoutGroup contentLayout = content.GetComponent<VerticalLayoutGroup>();
+        if (contentLayout == null)
+        {
+            contentLayout = content.gameObject.AddComponent<VerticalLayoutGroup>();
+        }
+
+        contentLayout.padding = new RectOffset(0, 0, 0, 0);
+        contentLayout.spacing = 8f;
+        contentLayout.childAlignment = TextAnchor.UpperLeft;
+        contentLayout.childControlWidth = true;
+        contentLayout.childControlHeight = true;
+        contentLayout.childForceExpandWidth = true;
+        contentLayout.childForceExpandHeight = false;
+
+        ContentSizeFitter dialogContentFitter = content.GetComponent<ContentSizeFitter>();
+        if (dialogContentFitter == null)
+        {
+            dialogContentFitter = content.gameObject.AddComponent<ContentSizeFitter>();
+        }
+
+        dialogContentFitter.horizontalFit = ContentSizeFitter.FitMode.Unconstrained;
+        dialogContentFitter.verticalFit = ContentSizeFitter.FitMode.PreferredSize;
+
+        dialogScrollRect.viewport = viewport;
+        dialogScrollRect.content = content;
+
+        ResultsDialogBodyText = FindOrCreateText(content, ResultsDialogBodyName, 20, TextAnchor.UpperLeft, FontStyle.Normal);
+        ResultsDialogBodyText.horizontalOverflow = HorizontalWrapMode.Wrap;
+        ResultsDialogBodyText.verticalOverflow = VerticalWrapMode.Overflow;
+        LayoutElement bodyLayout = ResultsDialogBodyText.GetComponent<LayoutElement>();
+        if (bodyLayout == null)
+        {
+            bodyLayout = ResultsDialogBodyText.gameObject.AddComponent<LayoutElement>();
+        }
+
+        bodyLayout.minHeight = 0f;
+
+        Button closeButton = CreateButton(dialogFrame, "CloseButton", "Close");
+        RectTransform closeRect = closeButton.GetComponent<RectTransform>();
+        closeRect.anchorMin = new Vector2(0.5f, 0f);
+        closeRect.anchorMax = new Vector2(0.5f, 0f);
+        closeRect.pivot = new Vector2(0.5f, 0f);
+        closeRect.anchoredPosition = new Vector2(0f, 28f);
+        closeRect.sizeDelta = new Vector2(220f, 52f);
+        closeButton.onClick.RemoveAllListeners();
+        closeButton.onClick.AddListener(HidePurchaseResultsDialog);
+
+        ResultsDialogRoot.SetActive(false);
     }
 
     private void RebuildProductRows()
     {
-        if (StructureDeckSection == null || PackSection == null)
+        if (StructureDeckSection == null || StarterSetSection == null || PackSection == null)
         {
             return;
         }
 
         ClearChildren(StructureDeckSection);
+        ClearChildren(StarterSetSection);
         ClearChildren(PackSection);
         _rows.Clear();
 
         IReadOnlyList<ShopProductDef> products = ShopCatalogDatabase.Instance.Products;
-        for (int index = 0; index < products.Count; index++)
+        AddRowsForGroup(products, StructureDeckSection, ShopProductDisplayGroup.StructureDecks);
+        AddRowsForGroup(products, StarterSetSection, ShopProductDisplayGroup.StarterSets);
+        AddRowsForGroup(products, PackSection, ShopProductDisplayGroup.BoosterPacks, promoLast: true);
+    }
+
+    private void AddRowsForGroup(
+        IReadOnlyList<ShopProductDef> products,
+        RectTransform parent,
+        ShopProductDisplayGroup group,
+        bool promoLast = false)
+    {
+        if (products == null || parent == null)
         {
-            ShopProductDef product = products[index];
-            if (product == null)
+            return;
+        }
+
+        if (!promoLast)
+        {
+            for (int index = 0; index < products.Count; index++)
             {
-                continue;
+                ShopProductDef product = products[index];
+                if (product != null && product.DisplayGroup == group)
+                {
+                    _rows.Add(CreateProductRow(parent, product));
+                }
             }
 
-            RectTransform parent = product.IsStructureDeck ? StructureDeckSection : PackSection;
-            if (parent == null)
-            {
-                continue;
-            }
+            return;
+        }
 
-            _rows.Add(CreateProductRow(parent, product));
+        for (int pass = 0; pass < 2; pass++)
+        {
+            bool promoPass = pass == 1;
+            for (int index = 0; index < products.Count; index++)
+            {
+                ShopProductDef product = products[index];
+                if (product == null || product.DisplayGroup != group)
+                {
+                    continue;
+                }
+
+                bool isPromo = IsPromoProduct(product);
+                if (promoPass != isPromo)
+                {
+                    continue;
+                }
+
+                _rows.Add(CreateProductRow(parent, product));
+            }
         }
     }
 
@@ -268,17 +484,18 @@ public class ShopPanel : MonoBehaviour
             bool afford = currency >= row.Product.price;
 
             row.StatusText.text = BuildStatusLabel(row.Product, locked, purchased, unlockedCardIds);
-
             row.PriceText.text = "$ " + row.Product.price;
 
+            bool singlePurchaseProduct = ShopService.IsSinglePurchaseProduct(row.Product);
             string buttonLabel = row.Product.IsPack
-                ? (row.Product.repeatable ? "Buy Pack" : "Unlock Set")
+                ? (singlePurchaseProduct ? "Unlock Set" : "Buy Pack")
                 : "Buy Deck";
+
             if (locked)
             {
                 buttonLabel = "Locked";
             }
-            else if (purchased && !row.Product.repeatable)
+            else if (purchased && singlePurchaseProduct)
             {
                 buttonLabel = "Owned";
             }
@@ -288,7 +505,7 @@ public class ShopPanel : MonoBehaviour
             }
 
             row.ButtonLabel.text = buttonLabel;
-            row.BuyButton.interactable = !locked && (!purchased || row.Product.repeatable) && afford;
+            row.BuyButton.interactable = !locked && (!purchased || !singlePurchaseProduct) && afford;
 
             Image background = row.BuyButton.GetComponent<Image>();
             if (background != null)
@@ -319,7 +536,7 @@ public class ShopPanel : MonoBehaviour
             return;
         }
 
-        InfoText.text = "Structure decks unlock premade decks for $500. BT and EX packs cost $250 for 12 cards, one-time ST set unlocks grant their full card pool in a single purchase, and Promo Packs cost $1000 for 2 promo cards with 1 guaranteed new promo if available.";
+        InfoText.text = "Structure decks unlock premade decks for $500. Starter Sets unlock their full card pool in one purchase, BT and EX packs cost $250 for 12 cards, and Promo Packs cost $1000 for 2 promo cards with 1 guaranteed new promo if available.";
     }
 
     private void RefreshResultsText()
@@ -346,11 +563,21 @@ public class ShopPanel : MonoBehaviour
         }
 
         ShopPurchaseResult result = ShopService.Purchase(product);
+        LastPurchaseResult = result;
         AppendPurchaseResult(result);
         RefreshCurrency();
         RefreshProductStates();
         RefreshInfoText();
         ScrollResultsIntoView();
+
+        if (result != null && result.Succeeded)
+        {
+            ShowPurchaseResultsDialog(result);
+        }
+        else
+        {
+            HidePurchaseResultsDialog();
+        }
     }
 
     private void AppendPurchaseResult(ShopPurchaseResult result)
@@ -392,6 +619,115 @@ public class ShopPanel : MonoBehaviour
         RefreshResultsText();
     }
 
+    private void ShowPurchaseResultsDialog(ShopPurchaseResult result)
+    {
+        if (result == null || ResultsDialogRoot == null || ResultsDialogTitleText == null || ResultsDialogBodyText == null)
+        {
+            return;
+        }
+
+        ResultsDialogTitleText.text = string.IsNullOrWhiteSpace(result.DialogTitle)
+            ? "Purchase Results"
+            : result.DialogTitle.Trim();
+        ResultsDialogBodyText.text = BuildResultsDialogBody(result);
+
+        ResultsDialogRoot.SetActive(true);
+        ResultsDialogRoot.transform.SetAsLastSibling();
+
+        if (ResultsDialogScrollRect != null)
+        {
+            Canvas.ForceUpdateCanvases();
+            ResultsDialogScrollRect.verticalNormalizedPosition = 1f;
+        }
+    }
+
+    private void HidePurchaseResultsDialog()
+    {
+        if (ResultsDialogRoot != null)
+        {
+            ResultsDialogRoot.SetActive(false);
+        }
+    }
+
+    private string BuildResultsDialogBody(ShopPurchaseResult result)
+    {
+        List<string> lines = new List<string>();
+
+        string deckReadyLine = ExtractDeckReadyLine(result);
+        if (!string.IsNullOrWhiteSpace(deckReadyLine))
+        {
+            lines.Add(deckReadyLine);
+        }
+
+        if (!string.IsNullOrWhiteSpace(result.SummaryLine))
+        {
+            if (lines.Count > 0)
+            {
+                lines.Add(string.Empty);
+            }
+
+            lines.Add(result.SummaryLine);
+        }
+
+        if (result.CardResults != null && result.CardResults.Count > 0)
+        {
+            if (lines.Count > 0)
+            {
+                lines.Add(string.Empty);
+            }
+
+            for (int index = 0; index < result.CardResults.Count; index++)
+            {
+                ShopPurchaseCardResult cardResult = result.CardResults[index];
+                if (cardResult == null)
+                {
+                    continue;
+                }
+
+                lines.Add(FormatDialogCardLine(cardResult));
+            }
+        }
+
+        if (lines.Count == 0)
+        {
+            lines.Add(result.Message);
+        }
+
+        return string.Join("\n", lines);
+    }
+
+    private static string ExtractDeckReadyLine(ShopPurchaseResult result)
+    {
+        if (result?.Lines == null)
+        {
+            return string.Empty;
+        }
+
+        for (int index = 0; index < result.Lines.Count; index++)
+        {
+            string line = result.Lines[index];
+            if (!string.IsNullOrWhiteSpace(line) &&
+                line.StartsWith("DECK READY:", StringComparison.OrdinalIgnoreCase))
+            {
+                return line;
+            }
+        }
+
+        return string.Empty;
+    }
+
+    private static string FormatDialogCardLine(ShopPurchaseCardResult cardResult)
+    {
+        if (cardResult == null)
+        {
+            return string.Empty;
+        }
+
+        string ownershipLabel = cardResult.IsNew ? "NEW" : "OWNED";
+        string countLabel = cardResult.Count > 1 ? $"{cardResult.Count}x " : string.Empty;
+        return $"{ownershipLabel}  {countLabel}{cardResult.CardId} - {cardResult.CardName}";
+    }
+
     private ShopRowRefs CreateProductRow(RectTransform parent, ShopProductDef product)
     {
         RectTransform rowRoot = new GameObject(product.id + "_Row", typeof(RectTransform), typeof(Image), typeof(HorizontalLayoutGroup), typeof(LayoutElement)).GetComponent<RectTransform>();
@@ -420,11 +756,11 @@ public class ShopPanel : MonoBehaviour
         titleText.horizontalOverflow = HorizontalWrapMode.Overflow;
         titleText.verticalOverflow = VerticalWrapMode.Truncate;
 
-        Text statusText = CreateRowText(rowRoot, "Status", "", 18, TextAnchor.MiddleCenter, FontStyle.Bold);
+        Text statusText = CreateRowText(rowRoot, "Status", string.Empty, 18, TextAnchor.MiddleCenter, FontStyle.Bold);
         LayoutElement statusLayout = statusText.gameObject.AddComponent<LayoutElement>();
         statusLayout.preferredWidth = 150f;
 
-        Text priceText = CreateRowText(rowRoot, "Price", "", 18, TextAnchor.MiddleRight, FontStyle.Bold);
+        Text priceText = CreateRowText(rowRoot, "Price", string.Empty, 18, TextAnchor.MiddleRight, FontStyle.Bold);
         LayoutElement priceLayout = priceText.gameObject.AddComponent<LayoutElement>();
         priceLayout.preferredWidth = 90f;
 
@@ -475,7 +811,7 @@ public class ShopPanel : MonoBehaviour
 
     private static void CreateSectionHeader(RectTransform parent, string label)
     {
-        Text header = FindOrCreateText(parent, label.Replace(" ", "") + "Header", 28, TextAnchor.MiddleLeft, FontStyle.Bold);
+        Text header = FindOrCreateText(parent, label.Replace(" ", string.Empty) + "Header", 28, TextAnchor.MiddleLeft, FontStyle.Bold);
         header.text = label;
         LayoutElement layout = header.GetComponent<LayoutElement>();
         if (layout == null)
@@ -598,7 +934,7 @@ public class ShopPanel : MonoBehaviour
 
         if (product != null && product.IsPack)
         {
-            if (!product.repeatable && purchased)
+            if (ShopService.IsSinglePurchaseProduct(product) && purchased)
             {
                 return "OWNED";
             }
@@ -611,6 +947,23 @@ public class ShopPanel : MonoBehaviour
         }
 
         return purchased ? "OWNED" : "AVAILABLE";
+    }
+
+    private static bool IsPromoProduct(ShopProductDef product)
+    {
+        if (product == null)
+        {
+            return false;
+        }
+
+        if (!string.IsNullOrWhiteSpace(product.setId) &&
+            string.Equals(product.setId.Trim(), "P", StringComparison.OrdinalIgnoreCase))
+        {
+            return true;
+        }
+
+        return !string.IsNullOrWhiteSpace(product.id) &&
+            product.id.IndexOf("promo", StringComparison.OrdinalIgnoreCase) >= 0;
     }
 
     private static void ClearChildren(Transform parent)

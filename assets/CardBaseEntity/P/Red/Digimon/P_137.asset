@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:add9ff6e0cad8f39eb3df3e2a51a4fcc0b4dbe38998986ad62ac6eeab9f615f5
-size-not-lfs 1323
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_137
+  m_EditorClassIdentifier: 
+  CardIndex: 10291
+  cardColors: 0000000001000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 0
+    Level: 3
+    MemoryCost: 3
+  - CardColor: 1
+    Level: 3
+    MemoryCost: 3
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Flamedramon
+  Form_JPN: []
+  Form_ENG:
+  - Armor Form
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Free
+  Type_JPN: []
+  Type_ENG:
+  - Dragonkin
+  CardSpriteName: P-137
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve][Veemon]: Cost 2 \n\n\uFF1CArmor Purge\uFF1E.\n\uFF1CRaid\uFF1E
+    \n[Your Turn] [Once Per Turn] When this Digimon's attack target is switched,
+    your opponent adds the top card of their security stack to the hand."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: P_137
+  DP: 5000
+  rarity: 5
+  OverflowMemory: 0
+  CardID: P-137
+  MaxCountInDeck: 4

@@ -1,3 +1,53 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:afd703ae726e964f43a30c3759f09f3e4fe90e8c23e366de4ad7fdf37817e9ad
-size-not-lfs 2095
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_090
+  m_EditorClassIdentifier: 
+  CardIndex: 6136
+  cardColors: 03000000
+  PlayCost: 11
+  EvoCosts:
+  - CardColor: 3
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: "\u30C7\u30A3\u30EB\u30D3\u30C3\u30C8\u30E2\u30F3"
+  CardName_ENG: Diarbbitmon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u7363\u9A0E\u58EB\u578B"
+  Type_ENG:
+  - Beast Knight
+  CardSpriteName: P-090
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F32\u4F53\u3092\u30EC\u30B9\u30C8\u3055\u305B\u308B\u3002\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30D0\u30C8\u30EB\u3067\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u3060\u3051\u3092\u6D88\u6EC5\u3055\u305B\u305F\u3068\u304D\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u306B\u300C\u30A2\u30F3\u30B4\u30E9\u30E2\u30F3\u300D\u304C\u3042\u308B\u306A\u3089\u3001\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u3059\u308B\u3002"
+  EffectDiscription_ENG: '[When Digivolving] Suspend 2 of your opponent''s Digimon.[All
+    Turns] [Once Per Turn] When one of your Digimon deletes an opponent''s Digimon
+    in battle and survives, if [Angoramon] is in this Digimon''s digivolution cards,
+    unsuspend 1 of your Digimon.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: P_090
+  DP: 11000
+  rarity: 5
+  OverflowMemory: 0
+  CardID: P-090
+  MaxCountInDeck: 4

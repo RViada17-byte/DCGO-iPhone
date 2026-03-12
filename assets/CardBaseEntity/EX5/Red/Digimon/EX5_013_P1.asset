@@ -1,3 +1,55 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:94ec244846e528610cef06ed0d5e3177654e1d085868e72d47938e52c1bb85b4
-size-not-lfs 1472
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX5_013_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 4209
+  cardColors: 0000000006000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 0
+    Level: 5
+    MemoryCost: 4
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Zhuqiaomon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Holy Bird
+  - Four Sovereigns
+  CardSpriteName: EX5-013_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.5 w/[Deva]\_trait: Cost 3 \n\n[Hand] [Counter]
+    \uFF1CBlast Digivolve\uFF1E \n[When Digivolving] [When Attacking] [Once Per Turn]
+    By deleting 1 Digimon with the [Deva]\_trait or 6000 DP or less, this Digimon
+    gains \uFF1CSecurity Attack +1\uFF1Efor the turn.\n[On Deletion] Delete 1 of
+    your opponent's highest DP Digimon."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX5_013
+  DP: 12000
+  rarity: 2
+  OverflowMemory: 4
+  CardID: EX5-013
+  MaxCountInDeck: 4

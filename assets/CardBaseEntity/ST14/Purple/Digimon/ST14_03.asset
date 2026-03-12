@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:218084f5fd53cdc76524ac79b241e14e8f8e0f4736ac8dbc7bf9b0597d9bb861
-size-not-lfs 1697
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST14_03
+  m_EditorClassIdentifier: 
+  CardIndex: 2819
+  cardColors: 06000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 6
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: "\u30AD\u30E3\u30F3\u30C9\u30E2\u30F3"
+  CardName_ENG: Candlemon
+  Form_JPN:
+  - "\u6210\u9577\u671F"
+  Form_ENG:
+  - Rookie
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u706B\u708E\u578B"
+  Type_ENG:
+  - Flame
+  CardSpriteName: ST14-03
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u30892\u679A\u7834\u68C4\u3059\u308B\u3002\u3010\u6D88\u6EC5\u6642\u3011\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u304C10\u679A\u4EE5\u4E0A\u306E\u3068\u304D\u3001\u226A1\u30C9\u30ED\u30FC\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u304B\u3089\u30AB\u30FC\u30C9\u30921\u679A\u5F15\u304F\uFF09\u3002"
+  EffectDiscription_ENG: "[On Play] Trash the top 2 cards of your deck.[On Deletion]
+    If you have 10 or more cards in your trash, \uFF1CDraw 1\uFF1E. (Draw 1 card
+    from your deck.)"
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: ST14_03
+  DP: 1000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: ST14-03
+  MaxCountInDeck: 4

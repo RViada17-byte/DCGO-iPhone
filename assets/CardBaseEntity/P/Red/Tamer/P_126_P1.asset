@@ -1,3 +1,47 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:328271d994ce31509c2ee443da2ff2b4e0ef56637fec5a5cfedc95875f1f6f2b
-size-not-lfs 1346
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_126_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 10422
+  cardColors: 00000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Yolei Inoue
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Tamer
+  CardSpriteName: P-126_P1
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Start of Your Main Phase] If you have a Digimon with the
+    [Free]\_trait, gain 1 memory.\n[On Play] Activate 1 of the following effects:\n\u30FBYou
+    may play 1 [Hawkmon] from your hand without paying the cost.\n\u30FB1 of your
+    Digimon may digivolve into [Aquilamon] in the hand without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying the cost.'
+  CardEffectClassName: P_126
+  DP: 0
+  rarity: 5
+  OverflowMemory: 0
+  CardID: P-126
+  MaxCountInDeck: 4

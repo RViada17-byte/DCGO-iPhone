@@ -1,3 +1,46 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:0b56eed22f88c539983e49399406cfb3cc90a91b8777b9f7a47a3007588ab15a
-size-not-lfs 1228
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST17_12_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4971
+  cardColors: 03000000
+  PlayCost: 8
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Giant Missile
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Option
+  CardSpriteName: ST17-12_P0
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[Main] Suspend 1 of your opponent''s Digimon. Then, return
+    1 of their suspended Digimon to the bottom of the deck. 1 of their Digimon can''t
+    unsuspend until the end of their turn.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Activate this card''s [Main] effect.'
+  CardEffectClassName: ST17_12
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  CardID: ST17-12
+  MaxCountInDeck: 4

@@ -1,3 +1,55 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:f6d258bd2a32b82f2fa8c2fe8e0c759144540fe53a7e28d083eadf73a59c8521
-size-not-lfs 2641
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX4_058_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 2616
+  cardColors: 06000000
+  PlayCost: 11
+  EvoCosts:
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: "\u30EC\u30A4\u30F4\u30E2\u30F3"
+  CardName_ENG: Ravemon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u30B5\u30A4\u30DC\u30FC\u30B0\u578B"
+  Type_ENG:
+  - Cyborg
+  CardSpriteName: EX4-058_P1
+  cardKind: 0
+  EffectDiscription_JPN: "\u226A\u30B8\u30E3\u30DF\u30F3\u30B0\u226B\u3010\u30A2\u30BF\u30C3\u30AF\u7D42\u4E86\u6642\u3011\u7279\u5FB4\u306B\u300C\u9CE5\u300D\u3092\u542B\u3080\u30AB\u30FC\u30C9\u3092\u9032\u5316\u5143\u306B\u6301\u3064\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3053\u3068\u3067\u3001\u6B21\u306E\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u6642\u3001\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u300C\u30EC\u30A4\u30F4\u30E2\u30F3\u300D1\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3055\u305B\u308B\u3002\u3010\u6D88\u6EC5\u6642\u3011\u76F8\u624B\u306E\u624B\u672D\u304C8\u679A\u4EE5\u4E0A\u306A\u3089\u3001\u76F8\u624B\u306F\u76F8\u624B\u306E\u624B\u672D\u30921\u679A\u7834\u68C4\u3059\u308B\u3002\u305D\u306E\u5F8C\u3001\u76F8\u624B\u306E\u624B\u672D\u304C7\u679A\u4EE5\u4E0B\u306A\u3089\u3001\u76F8\u624B\u306F\u76F8\u624B\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3092\u4E0A\u304B\u30891\u679A\u624B\u672D\u306B\u52A0\u3048\u308B\u3002"
+  EffectDiscription_ENG: ' [End of Attack] By deleting this Digimon that has a digivolution
+    card with [Bird] or [Avian] in one of its traits, at the end of your opponent''s
+    turn, play 1 [Ravemon] from your trash without paying the cost.[On Deletion]
+    If your opponent has 8 or more cards in their hand, they trash 1 card in their
+    hand. Then, if your opponent has 7 or fewer cards in their hand, they add the
+    top card of their security stack to their hand.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX4_058
+  DP: 11000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: EX4-058
+  MaxCountInDeck: 4

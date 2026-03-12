@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:a38d1b1cb0fafcf9d4fa13df38a559234550832db594c7ec9934b174c69f26a4
-size-not-lfs 1560
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_230
+  m_EditorClassIdentifier: 
+  CardIndex: 7808
+  cardColors: 03000000
+  PlayCost: 2
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: 'Unique Emblem: Honeycomb Commander'
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - LIBERATOR
+  CardSpriteName: P-230
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Main] Reveal the top 3 cards of your deck. Add 1 card
+    with [Royal Base]\_in its text and 1 [LIBERATOR]\_trait card among them to the
+    hand. Return the rest to the bottom of the deck. Then, place this card in the
+    battle area.\n[Your Turn] When any of your [Winr]s are played, \uFF1CDelay\uFF1E
+    \n\u30FB1 of your Digimon may digivolve into a level 6 or lower [LIBERATOR]\_trait
+    card in the hand with the digivolution cost reduced by 3."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Activate this card''s [Main] effects.'
+  CardEffectClassName: P_230
+  DP: 0
+  rarity: 5
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: P-230
+  MaxCountInDeck: 4

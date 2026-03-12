@@ -1,3 +1,48 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:c36f8443fd650e2933996e3126d63a187d0542626303e11e872968499e86c741
-size-not-lfs 1187
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_027_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 10347
+  cardColors: 06000000
+  PlayCost: 11
+  EvoCosts:
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: MetalGarurumon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Cyborg
+  CardSpriteName: P-027_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Main] \uFF1CDigi-Burst 2\uFF1E.\n\u30FBUse a purple Option
+    card with a memory cost of 7 or less in your hand without paying its memory cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: P_027
+  DP: 11000
+  rarity: 5
+  OverflowMemory: 0
+  CardID: P-027
+  MaxCountInDeck: 4

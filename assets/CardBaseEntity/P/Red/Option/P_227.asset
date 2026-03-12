@@ -1,3 +1,53 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:1c58cd66753bd0e7cd1a595f733a6f86617af11d283c9a7057fe548ac0971910
-size-not-lfs 1615
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_227
+  m_EditorClassIdentifier: 
+  CardIndex: 7805
+  cardColors: 00000000
+  PlayCost: 2
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: 'Unique Emblem: Primal Impact'
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - LIBERATOR
+  CardSpriteName: P-227
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Main] Reveal the top 3 cards of your deck. Add 1 Digimon
+    card with [Tyrannomon]\_in its name or the [Reptile] or [Dinosaur]\_trait and
+    1 [LIBERATOR]\_trait card among them to the hand. Return the rest to the bottom
+    of the deck. Then, place this card in the battle area.\n[Your Turn] When any
+    of your [Ryutaro Williams] are played, \uFF1CDelay\uFF1E \n\u30FB1 of your Digimon
+    may digivolve into a level 6 or lower [LIBERATOR]\_trait card in the hand with
+    the digivolution cost reduced by 3."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Activate this card''s [Main] effects.'
+  CardEffectClassName: P_227
+  DP: 0
+  rarity: 5
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: P-227
+  MaxCountInDeck: 4

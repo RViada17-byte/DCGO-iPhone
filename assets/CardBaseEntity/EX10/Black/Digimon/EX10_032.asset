@@ -1,3 +1,58 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:52cc0e9cce942413593d6c407beff3bc6960a5b026760562e403bb815bd5ed3c
-size-not-lfs 1774
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX10_032
+  m_EditorClassIdentifier: 
+  CardIndex: 7192
+  cardColors: 05000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Proganomon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Mineral
+  - LIBERATOR
+  CardSpriteName: EX10-032
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Hand] [Main] If you have [Close], by placing 1 [Landramon]
+    from your trash as any of your [Sunarizamon]'s bottom digivolution card, it digivolves
+    into this card for a digivolution cost of 3, ignoring digivolution requirements.\n[On
+    Play] [When Digivolving] [When Attacking] By trashing any 1 [Mineral] or [Rock]\_trait
+    card from your Digimon's digivolution cards, 1 of your such Digimon gains \uFF1CCollision\uFF1E
+    , \uFF1CPiercing\uFF1E and +3000 DP until your opponent's turn ends."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "When effects trash this card from a [Mineral]
+    or [Rock]\_trait Digimon's digivolution cards, \uFF1CDe-Digivolve 1\uFF1E 1 of
+    your opponent's Digimon. "
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX10_032
+  DP: 7000
+  rarity: 0
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX10-032
+  MaxCountInDeck: 4

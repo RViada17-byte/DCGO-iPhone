@@ -1,3 +1,54 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:49813a11aa5f78ef0a741254d18c851abf5e0ba3c2c22f27f3c5791f541a59e7
-size-not-lfs 1557
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX10_064_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 7321
+  cardColors: 0600000005000000
+  PlayCost: 4
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Yuu Amano & Nene Amano
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - General
+  - Bagra Army
+  - Twilight
+  CardSpriteName: EX10-064_P1
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Start of Your Main Phase] By placing 1 [Bagra Army] or
+    [Twilight]\_trait Digimon card from your hand or trash under this Tamer, \uFF1CDraw
+    1\uFF1E \n[All Turns] When any of your [Bagra Army] or [Twilight]\_trait Digimon
+    cards with DigiXros requirements would be played, by suspending this Tamer, 1
+    card from under your Tamers and 1 card in your trash can also be placed for their
+    DigiXros."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying the cost.'
+  CardEffectClassName: EX10_064
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX10-064
+  MaxCountInDeck: 4

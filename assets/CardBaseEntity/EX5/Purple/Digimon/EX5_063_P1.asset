@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:621af9e75555de4cb5ed91a80264ee295f9a18cb21ca22ab20fb085d960569d7
-size-not-lfs 1421
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX5_063_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 4235
+  cardColors: 06000000
+  PlayCost: 13
+  EvoCosts:
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 5
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Leviamon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Demon Lord
+  - Seven Great Demon Lords
+  CardSpriteName: EX5-063_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "\uFF1CSecurity Attack +1\uFF1E \n[On Play] [When Digivolving]
+    If your opponent has as many or more total Digimon and Tamers as you, delete
+    1 of your opponent's highest level Digimon. Then, delete 1 of your opponent's
+    lowest level Digimon.\n[All Turns] When an opponent's Digimon is deleted, gain
+    1 memory for each Digimon deleted."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX5_063
+  DP: 13000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: EX5-063
+  MaxCountInDeck: 4

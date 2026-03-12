@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:f27ce408a69a131582ace7cb6593ae4add085e335045edb35c47d2461376685f
-size-not-lfs 2236
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX2_037
+  m_EditorClassIdentifier: 
+  CardIndex: 1975
+  cardColors: 05000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: "\u30B4\u30AF\u30E2\u30F3"
+  CardName_ENG: Reapermon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u30B5\u30A4\u30DC\u30FC\u30B0\u578B"
+  Type_ENG:
+  - Cyborg
+  CardSpriteName: EX2-037
+  cardKind: 0
+  EffectDiscription_JPN: "\u226A\u518D\u8D77\u52D5\u226B\uFF08\u76F8\u624B\u306E\u30A2\u30AF\u30C6\u30A3\u30D6\u30D5\u30A7\u30A4\u30BA\u306B\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u3059\u308B\uFF09\u3010\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u306A\u3063\u305F\u3068\u304D\u3001\u305D\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u226A\u9000\u53161\u226B\uFF08\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u306B\u91CD\u306D\u3089\u308C\u305F\u30AB\u30FC\u30C9\u3092\u3001\u4E0A\u304B\u30891\u679A\u7834\u68C4\u3059\u308B\u3002\u9032\u5316\u5143\u304C\u306A\u304F\u306A\u308B\u304B\u3001Lv.3\u306E\u30C7\u30B8\u30E2\u30F3\u306B\u306A\u3063\u305F\u3089\u305D\u308C\u4EE5\u4E0A\u7834\u68C4\u3067\u304D\u306A\u3044\uFF09\u3059\u308B\u3002"
+  EffectDiscription_ENG: "\uFF1CReboot\uFF1E (Unsuspend this Digimon during your
+    opponent's unsuspend phase.)[Opponent's Turn][Once Per Turn] When an opponent's
+    Digimon becomes unsuspended, <De-Digivolve 1> that Digimon."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX2_037
+  DP: 11000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: EX2-037
+  MaxCountInDeck: 4

@@ -1,3 +1,50 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:c7cd6c29d7243c9e5a743353ee75acf6253dfafcf66c0f18009babd6540bbb5d
-size-not-lfs 1125
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST13_07
+  m_EditorClassIdentifier: 
+  CardIndex: 2807
+  cardColors: 05000000
+  PlayCost: 2
+  EvoCosts:
+  - CardColor: 5
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: "\u30B3\u30C6\u30E2\u30F3"
+  CardName_ENG: Kotemon
+  Form_JPN:
+  - "\u6210\u9577\u671F"
+  Form_ENG:
+  - Rookie
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u722C\u866B\u985E\u578B"
+  Type_ENG:
+  - Reptile
+  CardSpriteName: ST13-07
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: 
+  DP: 3000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: ST13-07
+  MaxCountInDeck: 4

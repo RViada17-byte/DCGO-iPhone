@@ -1,3 +1,57 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:53b4514004329a37fe8ca7fc701205e045dab891c60d1ebbf5e09c3b7e667181
-size-not-lfs 1463
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX10_043_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 7306
+  cardColors: 06000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 6
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Sakusimon
+  Form_JPN: []
+  Form_ENG:
+  - Sup.
+  - Appmon
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Game
+  Type_JPN: []
+  Type_ENG:
+  - Simulation
+  - Leviathan
+  CardSpriteName: EX10-043_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[On Play] [When Digivolving] Delete 1 of your opponent''s
+    level 3 Digimon.
+
+    [All Turns] [Once Per Turn] When effects trash any of this
+    Digimon''s link cards, gain 1 memory.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX10_043
+  DP: 5000
+  rarity: 0
+  OverflowMemory: 0
+  LinkDP: 3000
+  LinkEffect: '[When Attacking] By trashing 1 of this Digimon''s link cards, delete
+    1 of your opponent''s level 4 or lower Digimon.'
+  LinkRequirement: "[Link] [Appmon]\_trait: Cost 2 "
+  CardID: EX10-043
+  MaxCountInDeck: 4

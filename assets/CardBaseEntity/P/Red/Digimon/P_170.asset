@@ -1,3 +1,56 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:7be60c9a912079909b746423d9a842fa5815ff9311d9535eb90e171f0e55dc97
-size-not-lfs 1578
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_170
+  m_EditorClassIdentifier: 
+  CardIndex: 5183
+  cardColors: 0000000006000000
+  PlayCost: 13
+  EvoCosts:
+  - CardColor: 0
+    Level: 5
+    MemoryCost: 5
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 5
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: AvengeKidmon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Dragonkin
+  - Three Musketeers
+  CardSpriteName: P-170
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.5 w/[Three Musketeers]\_in text: Cost 4
+    \n\nWhen this card would be played, by returning 3 cards with [Three Musketeers]\_in
+    their texts from your trash to the bottom of the deck, reduce this card's play
+    cost by 6.\n\uFF1CRaid\uFF1E.\n\uFF1CBlocker\uFF1E.\n\uFF1CRetaliation\uFF1E
+    \n[On Deletion] You may play 1 [Three Musketeers]\_trait Digimon card with a
+    play cost of 12 or less from your hand or trash without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: P_170
+  DP: 13000
+  rarity: 5
+  OverflowMemory: 0
+  CardID: P-170
+  MaxCountInDeck: 4

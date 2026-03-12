@@ -1,3 +1,57 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:1cc29872ab0ea3a07129d4c7aaac57251beb453b0deae8de86c6bb2319dbc778
-size-not-lfs 2367
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX4_050
+  m_EditorClassIdentifier: 
+  CardIndex: 2604
+  cardColors: 0500000002000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 4
+  - CardColor: 2
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: "\u30D6\u30E9\u30C3\u30AF\u30BB\u30E9\u30D5\u30A3\u30E2\u30F3"
+  CardName_ENG: ShadowSeraphimon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u71BE\u5929\u4F7F\u578B"
+  Type_ENG:
+  - Seraph
+  CardSpriteName: EX4-050
+  cardKind: 0
+  EffectDiscription_JPN: "\u9032\u5316:\u300C\u30BB\u30E9\u30D5\u30A3\u30E2\u30F3\u300D\u304B\u3089\uFF11\u3010\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u3011\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u304C\u6E1B\u3063\u305F\u3068\u304D\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u226A\u9000\u53161\u226B\u3002\u3010\u6D88\u6EC5\u6642\u3011\u226A\u30EA\u30AB\u30D0\u30EA\u30FC+1\u300A\u30C7\u30C3\u30AD\u300B\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u30891\u679A\u3092\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u306E\u4E0A\u306B\u7F6E\u304F\uFF09\u3002\u305D\u306E\u5F8C\u3001\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A31\u679A\u3054\u3068\u306B\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092DP-4000\u3002"
+  EffectDiscription_ENG: "Digivolve: 1 from [Seraphimon][Opponent's Turn] When a
+    card is removed from your security stack,  1 of your opponent's Digimon.[On Deletion]
+    . (Place the top card of your deck on top of your security stack.) Then, 1 of
+    your opponent\u2019s Digimon gets -4000 DP for the turn for each card in your
+    security stack. "
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX4_050
+  DP: 12000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: EX4-050
+  MaxCountInDeck: 4

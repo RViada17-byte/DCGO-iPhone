@@ -1,3 +1,51 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:464b8c6d6869153eb4402ec991372c22695ea534e8647de84bafdd579eaa79ca
-size-not-lfs 1346
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX6_014
+  m_EditorClassIdentifier: 
+  CardIndex: 3454
+  cardColors: 01000000
+  PlayCost: 8
+  EvoCosts:
+  - CardColor: 1
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Huankunmon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Aquatic
+  CardSpriteName: EX6-014
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[On Play] [When Digivolving] You may play 1 level 3 blue
+    Digimon card from one of your blue Digimon''s digivolution cards without paying
+    the cost.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[When Attacking] [Once Per Turn] By placing 1
+    of your other blue Digimon as this Digimon''s bottom digivolution card, unsuspend
+    this Digimon.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX6_014
+  DP: 7000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: EX6-014
+  MaxCountInDeck: 4

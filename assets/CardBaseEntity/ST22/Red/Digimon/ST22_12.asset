@@ -1,3 +1,58 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:f695d1c57a5ba0e9c44e14121fa92b5d4f6583be57e46bf6b5d8cd781f1a5e6d
-size-not-lfs 1591
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST22_12
+  m_EditorClassIdentifier: 
+  CardIndex: 7503
+  cardColors: 0000000001000000
+  PlayCost: 6
+  EvoCosts:
+  - CardColor: 0
+    Level: 3
+    MemoryCost: 3
+  - CardColor: 1
+    Level: 3
+    MemoryCost: 3
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: DoGatchmon
+  Form_JPN: []
+  Form_ENG:
+  - Sup.
+  - Appmon
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Social
+  Type_JPN: []
+  Type_ENG:
+  - Super Search
+  CardSpriteName: ST22-12
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[App Fusion] [Gatchmon] & [Navimon]\_& [Tweetmon]: Cost
+    0\n\n\uFF1CRaid\uFF1E \n[When Attacking] [Once Per Turn] You may link 1 Digimon
+    card with the [Social], [Navi] or [Tool]\_trait from your hand or this Digimon's
+    digivolution cards to this Digimon with the link cost reduced by 2."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: ST22_12
+  DP: 6000
+  rarity: 3
+  OverflowMemory: 0
+  LinkDP: 3000
+  LinkEffect: '[When Linking] Return 1 of your opponent''s 5000 DP or lower Digimon
+    to the bottom of the deck.'
+  LinkRequirement: "[Link] [Appmon]\_trait: Cost 2 "
+  CardID: ST22-12
+  MaxCountInDeck: 4

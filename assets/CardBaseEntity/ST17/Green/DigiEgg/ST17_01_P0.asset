@@ -1,3 +1,48 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:b346fd1e9b279fa8a96f404ab004eee7c093248d96556ff42d562f0e365dda4c
-size-not-lfs 1129
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST17_01_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4960
+  cardColors: 03000000
+  PlayCost: -1
+  EvoCosts: []
+  Level: 2
+  CardName_JPN: 
+  CardName_ENG: Gummymon
+  Form_JPN: []
+  Form_ENG:
+  - In-Training
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Lesser
+  CardSpriteName: ST17-01_P0
+  cardKind: 3
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '-'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[When Attacking] [Once Per Turn] If you have a
+    green Tamer, \uFF1CDraw 1\uFF1E."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: ST17_01
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: ST17-01
+  MaxCountInDeck: 4

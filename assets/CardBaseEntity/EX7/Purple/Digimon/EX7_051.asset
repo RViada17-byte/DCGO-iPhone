@@ -1,3 +1,50 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:d303c921a2cef7cf42fee11bd0a1f143aa28b328ce2d03b5a29540c4b7d4b771
-size-not-lfs 1313
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX7_051
+  m_EditorClassIdentifier: 
+  CardIndex: 3771
+  cardColors: 06000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 6
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: 
+  CardName_ENG: Sparrowmon
+  Form_JPN: []
+  Form_ENG:
+  - Rookie
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Avian
+  CardSpriteName: EX7-051
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.2 w/[Three Musketeers]\_in its text: Cost
+    0 \n\n[Start of Your Main Phase] By placing 1 Option card with the [Three Musketeers]\_trait
+    from your hand or trash as 1 of your Digimon's bottom digivolution card, \uFF1CDraw
+    1\uFF1E."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "\uFF1CRetaliation\uFF1E."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX7_051
+  DP: 1000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: EX7-051
+  MaxCountInDeck: 4

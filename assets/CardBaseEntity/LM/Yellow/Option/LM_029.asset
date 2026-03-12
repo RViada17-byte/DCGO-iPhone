@@ -1,3 +1,51 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:b61be91a49a68c7b595e57f532ce6e155ddc19aaebe8818d8c48702459962c1c
-size-not-lfs 1603
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: LM_029
+  m_EditorClassIdentifier: 
+  CardIndex: 4039
+  cardColors: 02000000
+  PlayCost: 2
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Yellow Scramble
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Option
+  CardSpriteName: LM-029
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Main] 1 of your yellow Digimon may digivolve into a yellow
+    Digimon card in the hand with the digivolution cost reduced by 3. Then, place
+    this card in the battle area.\n[Start of Your Turn] If your opponent has a Digimon,
+    \uFF1CDelay\uFF1E \n\u30FB Return 1 yellow Digimon card from your trash to the
+    top of the deck. Then, if you don't have a Digimon, you may play 1 yellow Digimon
+    card with 2000 DP or less from your trash without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] You may play 1 yellow Digimon card with
+    2000 DP or less from your trash without paying the cost. Then, add this card
+    to the hand.'
+  CardEffectClassName: LM_029
+  DP: 0
+  rarity: 5
+  OverflowMemory: 0
+  CardID: LM-029
+  MaxCountInDeck: 4

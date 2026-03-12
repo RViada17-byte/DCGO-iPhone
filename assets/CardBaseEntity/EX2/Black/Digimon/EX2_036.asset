@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:a9ec2ce6343ef499e086c7109907f78afa2a0fcdd6d6f7af4ef87b08e694fa5a
-size-not-lfs 1889
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX2_036
+  m_EditorClassIdentifier: 
+  CardIndex: 1974
+  cardColors: 05000000
+  PlayCost: 11
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: "\u30B0\u30E9\u30F3\u30C9\u30ED\u30B3\u30E2\u30F3"
+  CardName_ENG: GroundLocomon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u30DE\u30B7\u30FC\u30F3\u578B"
+  Type_ENG:
+  - Machine
+  CardSpriteName: EX2-036
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u306B\u30A2\u30BF\u30C3\u30AF\u3067\u304D\u306A\u3044\u3002\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u306E\u7279\u5FB4\u306B\u300C\u30B5\u30A4\u30DC\u30FC\u30B0\u578B\u300D\u304B\u300C\u30DE\u30B7\u30FC\u30F3\u578B\u300D\u3092\u6301\u3064\u30AB\u30FC\u30C91\u679A\u3054\u3068\u306B\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092DP+1000\u3002"
+  EffectDiscription_ENG: '[Your Turn] This Digimon can''t attack your opponent''s
+    Digimon.[All Turns] For each card in your trash with [Cyborg] or [Machine] in
+    its traits, this Digimon gets +1000 DP.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX2_036
+  DP: 11000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: EX2-036
+  MaxCountInDeck: 4

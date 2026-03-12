@@ -1,3 +1,57 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:554b7c8eb73ed7c235b6f8fb2b7af92bd6936730a97c65201786678d5f7b4faf
-size-not-lfs 2139
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_099
+  m_EditorClassIdentifier: 
+  CardIndex: 6145
+  cardColors: 0200000005000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 2
+    Level: 4
+    MemoryCost: 4
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: "\u30A8\u30C6\u30E2\u30F3"
+  CardName_ENG: Etemon
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u30D1\u30DA\u30C3\u30C8\u578B"
+  Type_ENG:
+  - Puppet
+  CardSpriteName: P-099
+  cardKind: 0
+  EffectDiscription_JPN: "\u300E\u540D\u79F0\u306B\u300C\u30B9\u30AB\u30E2\u30F3\u300D\u3092\u542B\u3080Lv.4\u300F\u304B\u30893\u3010\u767B\u5834\u6642\u3011\u3010\u9032\u5316\u6642\u3011\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u226A\u9000\u53161\u226B\u3002"
+  EffectDiscription_ENG: "[On Play] [When Digivolving] \uFF1CDe-Digivolve  1\uFF1E
+    on 1 of your opponent's Digimon (Trash up to 1 card from the top of one of your
+    opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon,
+    you can't trash any more cards)."
+  InheritedEffectDiscription_JPN: "\u3010\u6D88\u6EC5\u6642\u3011\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u9EC4\u304B\u9ED2\u306E\u767B\u5834\u30B3\u30B9\u30C83\u4EE5\u4E0B\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002"
+  InheritedEffectDiscription_ENG: '[On Deletion] You may play 1 yellow or black Digimon
+    card with a play cost of 3 or less from your hand without paying the cost.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: P_099
+  DP: 7000
+  rarity: 5
+  OverflowMemory: 0
+  CardID: P-099
+  MaxCountInDeck: 4

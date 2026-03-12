@@ -1,3 +1,57 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:fb311d7e41b8635b7c25e206c8d74adba6671c108211c1a7a5e78753dc0656b1
-size-not-lfs 1654
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX10_049_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 7311
+  cardColors: 06000000
+  PlayCost: 8
+  EvoCosts:
+  - CardColor: 6
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: SkullSatamon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Undead
+  - Fallen Angel
+  CardSpriteName: EX10-049_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "\uFF1CBlocker\uFF1E \n[When Digivolving] [On Deletion]
+    If your opponent has 10 or fewer cards in their trash, trash the top 3 cards
+    of both players' decks. Then, delete 1 of your opponent's level 3 or lower Digimon.
+    If your opponent has 10 or more cards in their trash, add 2 to this effect's
+    level maximum."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[When Attacking] [Once Per Turn] This Digimon
+    gains \uFF1CSecurity A. +1\uFF1E for the turn. If your opponent has 10 or fewer
+    cards in their trash, instead trash the top 2 cards of both players' decks."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX10_049
+  DP: 8000
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX10-049
+  MaxCountInDeck: 4

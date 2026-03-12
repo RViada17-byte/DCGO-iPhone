@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:ea5feb51f2c8a0597afb2eb566c8e13e45cb9fb3cdbd36eb86f96a2bb07072ad
-size-not-lfs 1319
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST9_06_P2
+  m_EditorClassIdentifier: 
+  CardIndex: 5000
+  cardColors: 0100000003000000
+  PlayCost: 13
+  EvoCosts:
+  - CardColor: 1
+    Level: 5
+    MemoryCost: 4
+  - CardColor: 3
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: 'Imperialdramon: Dragon Mode'
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Free
+  Type_JPN: []
+  Type_ENG:
+  - Ancient Dragon
+  CardSpriteName: ST9-06_P2
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[When Digivolving] You may play 1 level 4 or lower blue
+    Digimon card and/or 1 level 4 or lower green Digimon card from this Digimon''s
+    digivolution cards without paying their memory costs.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: ST9_06
+  DP: 12000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: ST9-06
+  MaxCountInDeck: 4

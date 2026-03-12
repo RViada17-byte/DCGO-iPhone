@@ -1,3 +1,47 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:bbb5847546a7c93e554c7d138b1ee051ff8fd4e434a2af292aadeb700fc22f03
-size-not-lfs 1340
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: LM_033
+  m_EditorClassIdentifier: 
+  CardIndex: 4043
+  cardColors: 00000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Garnet Memory Boost!
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Option
+  CardSpriteName: LM-033
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "This card may also have its color requirements met by black.\n[Main]
+    Reveal the top 3 cards of your deck. Add 1 red or black Digimon card among them
+    to the hand. Return the rest to the bottom of deck. Then, place this card in
+    the battle area.\n[Main] \uFF1CDelay\uFF1E \n\u30FBGain 2 memory."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Place this card in the battle area.'
+  CardEffectClassName: LM_033
+  DP: 0
+  rarity: 5
+  OverflowMemory: 0
+  CardID: LM-033
+  MaxCountInDeck: 4

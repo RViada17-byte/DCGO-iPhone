@@ -1,3 +1,60 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:0d4382b60f109a18fa2a85b55179ef54ee5565763a509fe93a24edefc3527f13
-size-not-lfs 1737
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX10_030_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 7188
+  cardColors: 0500000002000000
+  PlayCost: 8
+  EvoCosts:
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 4
+  - CardColor: 2
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Cometmon
+  Form_JPN: []
+  Form_ENG:
+  - Ult.
+  - Appmon
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Navi
+  Type_JPN: []
+  Type_ENG:
+  - Astronomy
+  - Leviathan
+  CardSpriteName: EX10-030_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[App Fusion] [Warpmon] & [Weatherdramon]: Cost 0\n\n\uFF1CCollision\uFF1E
+    \n[On Play] [When Digivolving] You may link 1 level 4 or lower Digimon card from
+    your hand or this Digimon's digivolution cards to this Digimon without paying
+    the cost.\n[All Turns] [Once Per Turn] When effects trash any of this Digimon's
+    link cards, 1 of your opponent's Digimon gets -8000 DP for the turn."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[All Turns] [Once Per Turn] When this Digimon
+    would leave the battle area, by trashing 1 of its link cards, it doesn''t leave.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX10_030
+  DP: 8000
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: "[Link] [Appmon]\_trait: Cost 3 "
+  CardID: EX10-030
+  MaxCountInDeck: 4

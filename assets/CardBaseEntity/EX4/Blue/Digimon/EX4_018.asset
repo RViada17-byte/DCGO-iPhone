@@ -1,3 +1,59 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:d43911c9d25e6d015e5f3d691eac0caa74a79dd5b5f41fb5b1d38db0849f34dd
-size-not-lfs 2346
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX4_018
+  m_EditorClassIdentifier: 
+  CardIndex: 2564
+  cardColors: 01000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 1
+    Level: 3
+    MemoryCost: 3
+  - CardColor: 5
+    Level: 3
+    MemoryCost: 3
+  Level: 4
+  CardName_JPN: "\u30E1\u30A4\u30EB\u30D0\u30FC\u30C9\u30E9\u30E2\u30F3"
+  CardName_ENG: MailBirdramon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u30DE\u30B7\u30FC\u30F3\u578B"
+  - "\u30D6\u30EB\u30FC\u30D5\u30EC\u30A2"
+  Type_ENG:
+  - Machine
+  - BlueFlare
+  CardSpriteName: EX4-018
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u6B21\u306E\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u307E\u3067\u3001\u6700\u3082Lv.\u306E\u4F4E\u3044\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306B\u300C\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\u30E1\u30E2\u30EA\u30FC-2\u3002\u300D\u306E\u52B9\u679C\u3092\u4E0E\u3048\u308B\u3002\u3010\u6D88\u6EC5\u6642\u3011\u226A\u30BB\u30FC\u30D6\u226B\uFF08\u3053\u306E\u30AB\u30FC\u30C9\u3092\u81EA\u5206\u306E\u30C6\u30A4\u30DE\u30FC\u306E\u4E0B\u306B\u7F6E\u3051\u308B\uFF09"
+  EffectDiscription_ENG: "[On Play] 1 of your opponent\u2019s Digimon with the lowest
+    level gains \"[When Attacking] Lose 2 memory\" until the end of your opponent's
+    turn.[On Deletion] \uFF1CSave\uFF1E (You may place this card under one of your
+    Tamers.)"
+  InheritedEffectDiscription_JPN: "\u226A\u30B8\u30E3\u30DF\u30F3\u30B0\u226B\uFF08\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u30C7\u30B8\u30E2\u30F3\u3068\u306E\u30D0\u30C8\u30EB\u3067\u306F\u6D88\u6EC5\u3057\u306A\u3044\uFF09"
+  InheritedEffectDiscription_ENG: ' (This Digimon can''t be deleted in battles against
+    Security Digimon.)'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX4_018
+  DP: 5000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: EX4-018
+  MaxCountInDeck: 4

@@ -1,3 +1,48 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:c99f7c3ba9e6399c994d7243c43699f3e63a54bba89dec41ae252fa35405cc01
-size-not-lfs 3275
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX5_072
+  m_EditorClassIdentifier: 
+  CardIndex: 3111
+  cardColors: 04000000
+  PlayCost: 12
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: "\u8056\u7363\u592A\u6975\u9663"
+  CardName_ENG: Holy Beasts Great Cardinal Positions
+  Form_JPN: []
+  Form_ENG: []
+  Attribute_JPN: []
+  Attribute_ENG: []
+  Type_JPN:
+  - "\u56DB\u8056\u7363"
+  Type_ENG:
+  - Four Sovereigns
+  CardSpriteName: EX5-072
+  cardKind: 2
+  EffectDiscription_JPN: "\u7279\u5FB4\u306B\u300C\u30C7\u30FC\u30F4\u30A1\u300D/\u300C\u56DB\u8056\u7363\u300D\u3092\u6301\u3064\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u3044\u308B\u9593\u3001\u3053\u306E\u30AB\u30FC\u30C9\u306F\u8272\u6761\u4EF6\u3092\u7121\u8996\u3067\u304D\u308B\u3002\u3053\u306E\u30AB\u30FC\u30C9\u3092\u4F7F\u7528\u3059\u308B\u3068\u304D\u3001\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u306E\u7279\u5FB4\u306B\u300C\u30C7\u30FC\u30F4\u30A1\u300D/\u300C\u56DB\u8056\u7363\u300D\u3092\u6301\u3064\u3001\u540D\u79F0\u306E\u7570\u306A\u308B\u30AB\u30FC\u30C91\u679A\u3054\u3068\u306B\u3001\u652F\u6255\u3046\u4F7F\u7528\u30B3\u30B9\u30C8-1\u3002\u3010\u30E1\u30A4\u30F3\u3011\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u540D\u79F0\u306B\u300C\u30D5\u30A1\u30F3\u30ED\u30F3\u30E2\u30F3\u300D\u3092\u542B\u3080\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002"
+  EffectDiscription_ENG: "While you have a Digimon with the [Deva]/[Four Sovereigns]\_trait,
+    you may ignore this card's color requirements.When this card would be used, reduce
+    the cost by 1 for each [Deva]/[Four Sovereigns]\_trait card with a different
+    name in your trash.[Main] You may play 1 Digimon card with [Fanglongmon]\_in
+    its name from your hand without paying the play cost."
+  InheritedEffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u540D\u79F0\u306B\u300C\u30D5\u30A1\u30F3\u30ED\u30F3\u30E2\u30F3\u300D\u3092\u542B\u3080\u30AB\u30FC\u30C91\u679A\u3092\u624B\u672D\u306B\u623B\u3059\u3002\u305D\u306E\u5F8C\u3001\u3053\u306E\u30AB\u30FC\u30C9\u3092\u624B\u672D\u306B\u52A0\u3048\u308B\u3002"
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u540D\u79F0\u306B\u300C\u30D5\u30A1\u30F3\u30ED\u30F3\u30E2\u30F3\u300D\u3092\u542B\u3080\u30AB\u30FC\u30C91\u679A\u3092\u624B\u672D\u306B\u623B\u3059\u3002\u305D\u306E\u5F8C\u3001\u3053\u306E\u30AB\u30FC\u30C9\u3092\u624B\u672D\u306B\u52A0\u3048\u308B\u3002"
+  SecurityEffectDiscription_ENG: "[Security] Return 1 card with [Fanglongmon]\_in
+    its name from your trash to the hand. Then, add this card to the hand."
+  CardEffectClassName: EX5_072
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  CardID: EX5-072
+  MaxCountInDeck: 4

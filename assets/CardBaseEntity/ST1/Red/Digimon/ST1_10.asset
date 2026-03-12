@@ -1,3 +1,50 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:594d83e07e8bf278c68312d0ddfa31c2b3a0a34c8228fa8732a034e2f9ae5e58
-size-not-lfs 1141
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST1_10
+  m_EditorClassIdentifier: 
+  CardIndex: 26
+  cardColors: 00000000
+  PlayCost: 10
+  EvoCosts:
+  - CardColor: 0
+    Level: 5
+    MemoryCost: 2
+  Level: 6
+  CardName_JPN: "\u30DB\u30A6\u30AA\u30A6\u30E2\u30F3"
+  CardName_ENG: Phoenixmon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u8056\u7363\u578B"
+  Type_ENG:
+  - Holy Beast
+  CardSpriteName: ST1-10
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: 
+  DP: 12000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: ST1-10
+  MaxCountInDeck: 4

@@ -1,3 +1,60 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:39460ee4aa7bb997fbd7c8fc8ed955a56be21d1f84b5ec2ad06318c9e4e56b7b
-size-not-lfs 1691
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX11_017
+  m_EditorClassIdentifier: 
+  CardIndex: 7689
+  cardColors: 0100000002000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 1
+    Level: 5
+    MemoryCost: 4
+  - CardColor: 2
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Skadimon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Ice-Snow
+  - LIBERATOR
+  CardSpriteName: EX11-017
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.5 w/[Ice-Snow]\_trait: Cost 3 \n\n\uFF1CIceclad\uFF1E
+    \n\uFF1CBarrier\uFF1E \n[On Play] [When Digivolving] [When Attacking] [Once Per
+    Turn] You may play 1 [Suzune Kazuki] or level 4 or lower [Ice-Snow]\_trait Digimon
+    card from your hand without paying the cost.\n[All Turns] [Once Per Turn] When
+    other Digimon are played or digivolve, trash any 3 digivolution cards from your
+    opponent's Digimon. Then, 1 of their Digimon with no digivolution cards can't
+    suspend until their turn ends."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX11_017
+  DP: 12000
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX11-017
+  MaxCountInDeck: 4

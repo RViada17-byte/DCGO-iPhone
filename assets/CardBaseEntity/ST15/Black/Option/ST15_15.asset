@@ -1,3 +1,47 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:53ce89899723841b710ffb7ed1102ff26ac3152c2c9649b44b1fef0000e33173
-size-not-lfs 2439
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST15_15
+  m_EditorClassIdentifier: 
+  CardIndex: 2844
+  cardColors: 05000000
+  PlayCost: 4
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: "\u52C7\u6C17\u306E\u524D\u9032"
+  CardName_ENG: Breakthrough of Courage
+  Form_JPN: []
+  Form_ENG: []
+  Attribute_JPN: []
+  Attribute_ENG: []
+  Type_JPN: []
+  Type_ENG: []
+  CardSpriteName: ST15-15
+  cardKind: 2
+  EffectDiscription_JPN: "\u540D\u79F0\u306B\u300C\u516B\u795E\u592A\u4E00\u300D\u3092\u542B\u3080\u81EA\u5206\u306E\u30C6\u30A4\u30DE\u30FC\u304C\u3044\u308B\u9593\u3001\u3053\u306E\u30AB\u30FC\u30C9\u306F\u8272\u6761\u4EF6\u3092\u7121\u8996\u3067\u304D\u308B\u3002\u3010\u30E1\u30A4\u30F3\u3011\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u3059\u308B\u3002\u305D\u306E\u5F8C\u3001\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u307E\u3067\u3001\u540D\u79F0\u306B\u300C\u30B0\u30EC\u30A4\u30E2\u30F3\u300D\u3092\u542B\u3080\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306F\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u52B9\u679C\u3092\u53D7\u3051\u306A\u3044\u3002"
+  EffectDiscription_ENG: While you have a Tamer with [Tai Kamiya] in its name, you
+    may use this card without meeting its color requirements. [Main] Unsuspend 1
+    of your Digimon. Then, 1 of your Digimon with [Greymon] in its name isn't affected
+    by the effects of your opponent's Digimon until the end of your opponent's turn.
+  InheritedEffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u3053\u306E\u30AB\u30FC\u30C9\u306E\u3010\u30E1\u30A4\u30F3\u3011\u52B9\u679C\u3092\u767A\u63EE\u3059\u308B\u3002"
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u3053\u306E\u30AB\u30FC\u30C9\u306E\u3010\u30E1\u30A4\u30F3\u3011\u52B9\u679C\u3092\u767A\u63EE\u3059\u308B\u3002"
+  SecurityEffectDiscription_ENG: '[Security] Activate this card''s [Main] effect.'
+  CardEffectClassName: ST15_15
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: ST15-15
+  MaxCountInDeck: 4

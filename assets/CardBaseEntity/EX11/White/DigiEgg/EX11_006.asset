@@ -1,3 +1,50 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:7bb2d44e5914942a9d346180f1cd3a25d77ea83ceb614541c4d49cbe847a51e4
-size-not-lfs 1255
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX11_006
+  m_EditorClassIdentifier: 
+  CardIndex: 7667
+  cardColors: 04000000
+  PlayCost: -1
+  EvoCosts: []
+  Level: 2
+  CardName_JPN: 
+  CardName_ENG: Flickmon
+  Form_JPN: []
+  Form_ENG:
+  - Appmon
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Tool
+  Type_JPN: []
+  Type_ENG:
+  - Flick
+  - LIBERATOR
+  CardSpriteName: EX11-006
+  cardKind: 3
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '-'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[When Attacking] [Once Per Turn] This Digimon
+    linked with [Maquinamon] may digivolve into a Digimon card with [Maquinamon]\_in
+    its text in the hand with the digivolution cost reduced by 2."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX11_006
+  DP: 0
+  rarity: 0
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX11-006
+  MaxCountInDeck: 4

@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:903008fbd3b3a17d3223629896e8a82b29fcbdb2339ab25685251f84a4f2a20f
-size-not-lfs 1853
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX2_043_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 1986
+  cardColors: 06000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: "\u30AC\u30EB\u30D5\u30E2\u30F3"
+  CardName_ENG: Gulfmon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u9B54\u7363\u578B"
+  Type_ENG:
+  - Dark Animal
+  CardSpriteName: EX2-043_P1
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u304A\u4E92\u3044\u306F\u305D\u308C\u305E\u308C\u624B\u672D\u304C5\u679A\u306B\u306A\u308B\u3088\u3046\u306B\u7834\u68C4\u3059\u308B\u3002\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u81EA\u5206\u306E\u52B9\u679C\u3067\u81EA\u5206\u306E\u624B\u672D\u3092\u7834\u68C4\u3057\u305F\u3068\u304D\u3001\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u3067\u304D\u308B\u3002"
+  EffectDiscription_ENG: '[When Digivolving] All players trash cards in their hand
+    until they have 5 cards left.[Your Turn][Once Per Turn] When one of your effects
+    trashes a card in your hand, you may unsuspend 1 of your Digimon.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX2_043
+  DP: 12000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: EX2-043
+  MaxCountInDeck: 4

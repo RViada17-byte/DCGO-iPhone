@@ -1,3 +1,55 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:298bffdbcaac00de53d0d0605b87bc66186b0dfa2f6259f014d86c0ec67edeac
-size-not-lfs 1904
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX4_023
+  m_EditorClassIdentifier: 
+  CardIndex: 2571
+  cardColors: 02000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 2
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: "\u30A2\u30B0\u30E2\u30F3\u535A\u58EB"
+  CardName_ENG: Agumon Expert
+  Form_JPN:
+  - "\u6210\u9577\u671F"
+  Form_ENG:
+  - Rookie
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u6050\u7ADC\u578B"
+  Type_ENG:
+  - Dinosaur
+  CardSpriteName: EX4-023
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u767B\u5834\u3057\u305F\u3068\u304D\u3001\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u305D\u306E\u30C7\u30B8\u30E2\u30F3\u3068\u540C\u3058Lv.\u306E\u30AB\u30FC\u30C91\u679A\u3092\u30AA\u30FC\u30D7\u30F3\u3059\u308B\u3053\u3068\u3067\u3001\u305D\u306E\u30AB\u30FC\u30C9\u3092\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u306E\u4E0A\u306B\u88CF\u5411\u304D\u3067\u7F6E\u304F\u3002"
+  EffectDiscription_ENG: '[Opponent''s Turn][Once Per Turn] When an opponent plays
+    a Digimon, by revealing 1 card of the same level in your hand, place that card
+    on top of your security stack face down.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX4_023
+  DP: 1000
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: EX4-023
+  MaxCountInDeck: 4

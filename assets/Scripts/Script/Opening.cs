@@ -177,6 +177,11 @@ public class Opening : MonoBehaviour
             return;
         }
 
+        if (deck != null && deck.IsIPhoneDeckBuilderActive)
+        {
+            return;
+        }
+
         //bool isRay = false;
 
         List<RaycastResult> results = new List<RaycastResult>();
@@ -486,10 +491,18 @@ public class Opening : MonoBehaviour
 
         VerText.text = $"Ver{ContinuousController.instance.GameVerString}";
 
-        deck.SetUpDeckMode();
+        MainMenuRouter router = GetComponent<MainMenuRouter>();
+        if (router != null)
+        {
+            router.HideAllCustomModes();
+        }
 
-        deck.OffDeck();
-        title.SetUpTitle();
+        if (title != null)
+        {
+            title.OffTitle();
+        }
+
+        home.SetUpHome();
 
         LoadCardImages();
 

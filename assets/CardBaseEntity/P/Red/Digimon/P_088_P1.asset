@@ -1,3 +1,51 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:25be45a60677cc93915c139a19a4a5f5d512f721c8d6a0fee7356b84c8764206
-size-not-lfs 1371
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_088_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 10394
+  cardColors: 00000000
+  PlayCost: 11
+  EvoCosts:
+  - CardColor: 0
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Siriusmon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Light Dragon
+  CardSpriteName: P-088_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[When Digivolving] By placing 1 card with [Gammamon]\_in
+    its name from your hand as this Digimon's bottom digivolution card, this Digimon
+    gets +2000 DP for the turn.\n[When Attacking] Delete 1 of your opponent's Digimon
+    with 6000 DP or less. If this Digimon has 12000 DP or more, Delete 2 such Digimon
+    instead."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: P_088
+  DP: 11000
+  rarity: 5
+  OverflowMemory: 0
+  CardID: P-088
+  MaxCountInDeck: 4

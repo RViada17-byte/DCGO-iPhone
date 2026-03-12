@@ -1,3 +1,50 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:41b94bc4a33e806f31df16c40eae565e4dfa83e8b321b1b4ed77ef4b55bbe91e
-size-not-lfs 1333
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST16_11_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 4954
+  cardColors: 06000000
+  PlayCost: 8
+  EvoCosts:
+  - CardColor: 6
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: WereGarurumon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Beastkin
+  CardSpriteName: ST16-11_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.4 w/[Garurumon]\_in its name: Cost 3 \n\n[When
+    Attacking] [Once Per Turn] By trashing 1 card from your hand, unsuspend this
+    Digimon."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[When Attacking] [Once Per Turn] By trashing 1
+    card from your hand, delete 1 of your opponent''s level 4 or lower Digimon.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: ST16_11
+  DP: 8000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: ST16-11
+  MaxCountInDeck: 4

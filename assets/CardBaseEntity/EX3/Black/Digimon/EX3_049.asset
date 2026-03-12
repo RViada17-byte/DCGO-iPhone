@@ -1,3 +1,55 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:cc28877d4aa87cfa56e1e4b45cd8c98597b3784592e4e084fdfa6cee5534b095
-size-not-lfs 2308
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX3_049
+  m_EditorClassIdentifier: 
+  CardIndex: 2233
+  cardColors: 05000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 5
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: "\u30B7\u30FC\u30EB\u30BA\u30C9\u30E9\u30E2\u30F3"
+  CardName_ENG: Sealsdramon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u30B5\u30A4\u30DC\u30FC\u30B0\u578B"
+  - "D-\u30D6\u30EA\u30AC\u30FC\u30C9"
+  Type_ENG:
+  - Cyborg
+  - D-Brigade
+  CardSpriteName: EX3-049
+  cardKind: 0
+  EffectDiscription_JPN: "\u226A\u30B8\u30E3\u30DF\u30F3\u30B0\u226B\uFF08\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u30C7\u30B8\u30E2\u30F3\u3068\u306E\u30D0\u30C8\u30EB\u3067\u306F\u6D88\u6EC5\u3057\u306A\u3044\uFF09"
+  EffectDiscription_ENG: "\uFF1CJamming\uFF1E (This Digimon can't be deleted in battles
+    against Security Digimon.)"
+  InheritedEffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u7279\u5FB4\u306B\u300CD-\u30D6\u30EA\u30AC\u30FC\u30C9\u300D\u3092\u6301\u3064\u4ED6\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u767B\u5834\u3057\u305F\u3068\u304D\u3001\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u305D\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u226A\u901F\u653B\u226B\uFF08\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u767B\u5834\u3057\u305F\u30BF\u30FC\u30F3\u3067\u3082\u30A2\u30BF\u30C3\u30AF\u3067\u304D\u308B\uFF09\u3092\u5F97\u308B\u3002"
+  InheritedEffectDiscription_ENG: "[Your Turn][Once Per Turn] When you play another
+    Digimon with [D-Brigade] in its traits, it gains \uFF1CRush\uFF1E for the turn.
+    (This Digimon may attack the turn it was played.)"
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX3_049
+  DP: 4000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: EX3-049
+  MaxCountInDeck: 4

@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:e4ce25a7cab3bdefa8a62d81c1af0b837f48ded46da975a53aa76ddda8dd5f14
-size-not-lfs 1795
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX5_002
+  m_EditorClassIdentifier: 
+  CardIndex: 3041
+  cardColors: 01000000
+  PlayCost: -1
+  EvoCosts: []
+  Level: 2
+  CardName_JPN: "\u30E0\u30F3\u30E2\u30F3"
+  CardName_ENG: Moonmon
+  Form_JPN:
+  - "\u5E7C\u5E74\u671F"
+  Form_ENG:
+  - In-Training
+  Attribute_JPN: []
+  Attribute_ENG: []
+  Type_JPN:
+  - "\u30EC\u30C3\u30B5\u30FC\u578B"
+  - "\u30CA\u30A4\u30C8\u30AF\u30ED\u30A6"
+  Type_ENG:
+  - Lesser
+  - Night Claw
+  CardSpriteName: EX5-002
+  cardKind: 3
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 
+  InheritedEffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u7279\u5FB4\u306B\u300C\u30CA\u30A4\u30C8\u30AF\u30ED\u30A6\u300D/\u300C\u30E9\u30A4\u30C8\u30D5\u30A1\u30F3\u30B0\u300D\u3092\u6301\u3064\u81EA\u5206\u306E\u30C6\u30A4\u30DE\u30FC\u304C\u767B\u5834\u3057\u305F\u3068\u304D\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u624B\u672D\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C9\u306B\u9032\u5316\u3067\u304D\u308B\u3002"
+  InheritedEffectDiscription_ENG: "[Your Turn] [Once Per Turn] When you play a tamer
+    with the [Night Claw]/[Light Fang]\_trait, this Digimon may digivolve into a
+    Digimon card in your hand."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX5_002
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: EX5-002
+  MaxCountInDeck: 4

@@ -4,11 +4,21 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using UnityEngine;
 
+public class ShopPurchaseCardResult
+{
+    public string CardId;
+    public string CardName;
+    public int Count = 1;
+    public bool IsNew;
+}
+
 public class ShopPurchaseResult
 {
     public bool Succeeded;
     public string Message;
     public string SummaryLine;
+    [NonSerialized] public string DialogTitle;
+    public List<ShopPurchaseCardResult> CardResults = new List<ShopPurchaseCardResult>();
     public List<string> Lines = new List<string>();
 }
 
@@ -21,6 +31,8 @@ public class PackPullResult
 public static class ShopService
 {
     private static readonly Regex ParallelSuffixRegex = new Regex(@"([_-])P\d+$", RegexOptions.IgnoreCase | RegexOptions.Compiled);
+    private const string PackResultsDialogTitle = "Pack Open Results";
+    private const string DeckResultsDialogTitle = "Deck Purchase Results";
 
     public static bool IsProductUnlocked(ShopProductDef product)
     {
@@ -48,9 +60,32 @@ public static class ShopService
 
     public static bool IsProductPurchased(ShopProductDef product)
     {
-        return product != null &&
-               !product.repeatable &&
-               ProgressionManager.Instance.HasPurchasedProduct(product.id);
+        return IsNonRepeatableProductOwned(product);
+    }
+
+    public static bool IsSinglePurchaseProduct(ShopProductDef product)
+    {
+        if (product == null)
+        {
+            return false;
+        }
+
+        return !product.repeatable || product.IsStructureDeck;
+    }
+
+    public static bool IsNonRepeatableProductOwned(ShopProductDef product)
+    {
+        if (!IsSinglePurchaseProduct(product))
+        {
+            return false;
+        }
+
+        if (ProgressionManager.Instance.HasPurchasedProduct(product.id))
+        {
+            return true;
+        }
+
+        return HasLegacyStructureDeckOwnership(product);
     }
 
     public static bool CanPurchase(ShopProductDef product, out string reason)
@@ -123,19 +158,37 @@ public static class ShopService
             return;
         }
 
+        bool saveProfile = false;
         IReadOnlyList<ShopProductDef> products = ShopCatalogDatabase.Instance.Products;
         for (int index = 0; index < products.Count; index++)
         {
             ShopProductDef product = products[index];
-            if (product == null || !product.IsStructureDeck || !IsProductPurchased(product))
+            if (product == null || !product.IsStructureDeck)
             {
                 continue;
+            }
+
+            bool owned = IsNonRepeatableProductOwned(product);
+            if (!owned)
+            {
+                continue;
+            }
+
+            if (!ProgressionManager.Instance.HasPurchasedProduct(product.id))
+            {
+                ProgressionManager.Instance.MarkProductPurchased(product.id, saveImmediately: false);
+                saveProfile = true;
             }
 
             if (TryBuildStructureDeck(product, out DeckData deckData, out _, out _) && deckData != null)
             {
                 EnsureStructureDeckExists(controller, deckData);
             }
+        }
+
+        if (saveProfile)
+        {
+            ProgressionManager.Instance.Save();
         }
     }
 
@@ -159,6 +212,7 @@ public static class ShopService
         ShopPurchaseResult result = Success(product.repeatable
             ? $"Opened {GetProductTitle(product)}."
             : $"Unlocked {GetProductTitle(product)}.");
+        result.DialogTitle = PackResultsDialogTitle;
 
         for (int index = 0; index < pulls.Count; index++)
         {
@@ -172,24 +226,18 @@ public static class ShopService
             if (pull.WasNew)
             {
                 newlyUnlockedCards.Add(pull.Card);
-                continue;
+            }
+            else
+            {
+                ownedPullCount++;
             }
 
-            ownedPullCount++;
+            ShopPurchaseCardResult cardResult = BuildCardResult(pull.Card, 1, pull.WasNew);
+            result.CardResults.Add(cardResult);
+            result.Lines.Add(BuildHistoryCardLine(cardResult));
         }
 
         result.SummaryLine = BuildUnlockSummary(newlyUnlockedCards, ownedPullCount);
-
-        for (int index = 0; index < newlyUnlockedCards.Count; index++)
-        {
-            CEntity_Base card = newlyUnlockedCards[index];
-            result.Lines.Add($"NEW: {card.CardID}, {GetCardDisplayName(card)}");
-        }
-
-        if (ownedPullCount > 0)
-        {
-            result.Lines.Add($"OWNED PULLS: {ownedPullCount}");
-        }
 
         ProgressionManager.Instance.UnlockCards(unlockedCardIds, saveImmediately: false);
         if (!product.repeatable)
@@ -223,7 +271,9 @@ public static class ShopService
         List<CEntity_Base> newlyUnlockedCards = new List<CEntity_Base>();
         int alreadyOwnedCount = 0;
         ShopPurchaseResult result = Success($"Purchased {GetProductTitle(product)}.");
+        result.DialogTitle = DeckResultsDialogTitle;
         result.Lines.Add($"DECK READY: {deckData.DeckName}");
+        Dictionary<string, bool> wasNewById = new Dictionary<string, bool>(StringComparer.OrdinalIgnoreCase);
 
         for (int index = 0; index < uniqueCards.Count; index++)
         {
@@ -235,27 +285,19 @@ public static class ShopService
 
             bool wasNew = !ProgressionManager.Instance.IsCardUnlocked(card.CardID);
             unlockedCardIds.Add(card.CardID);
+            wasNewById[card.CardID] = wasNew;
             if (wasNew)
             {
                 newlyUnlockedCards.Add(card);
-                continue;
             }
-
-            alreadyOwnedCount++;
+            else
+            {
+                alreadyOwnedCount++;
+            }
         }
 
         result.SummaryLine = BuildUnlockSummary(newlyUnlockedCards, alreadyOwnedCount);
-
-        for (int index = 0; index < newlyUnlockedCards.Count; index++)
-        {
-            CEntity_Base card = newlyUnlockedCards[index];
-            result.Lines.Add($"NEW: {card.CardID}, {GetCardDisplayName(card)}");
-        }
-
-        if (alreadyOwnedCount > 0)
-        {
-            result.Lines.Add($"ALREADY OWNED: {alreadyOwnedCount}");
-        }
+        AddStructureDeckCardResults(result, product, wasNewById);
 
         ProgressionManager.Instance.UnlockCards(unlockedCardIds, saveImmediately: false);
         ProgressionManager.Instance.MarkProductPurchased(product.id, saveImmediately: false);
@@ -457,6 +499,51 @@ public static class ShopService
         controller.SaveDeckData(existingDeck);
     }
 
+    private static void AddStructureDeckCardResults(
+        ShopPurchaseResult result,
+        ShopProductDef product,
+        IReadOnlyDictionary<string, bool> wasNewById)
+    {
+        if (result == null || product?.structureDeckCards == null || product.structureDeckCards.Length == 0)
+        {
+            return;
+        }
+
+        Dictionary<string, ShopPurchaseCardResult> resultsByCardId = new Dictionary<string, ShopPurchaseCardResult>(StringComparer.OrdinalIgnoreCase);
+        for (int index = 0; index < product.structureDeckCards.Length; index++)
+        {
+            StructureDeckCardDef cardDef = product.structureDeckCards[index];
+            if (cardDef == null || string.IsNullOrWhiteSpace(cardDef.cardId) || cardDef.count <= 0)
+            {
+                continue;
+            }
+
+            CEntity_Base card = ResolveCard(cardDef.cardId);
+            if (card == null)
+            {
+                continue;
+            }
+
+            if (!resultsByCardId.TryGetValue(card.CardID, out ShopPurchaseCardResult cardResult))
+            {
+                bool isNew = wasNewById != null &&
+                    wasNewById.TryGetValue(card.CardID, out bool trackedIsNew) &&
+                    trackedIsNew;
+
+                cardResult = BuildCardResult(card, 0, isNew);
+                resultsByCardId.Add(card.CardID, cardResult);
+                result.CardResults.Add(cardResult);
+            }
+
+            cardResult.Count += cardDef.count;
+        }
+
+        for (int index = 0; index < result.CardResults.Count; index++)
+        {
+            result.Lines.Add(BuildHistoryCardLine(result.CardResults[index]));
+        }
+    }
+
     private static CEntity_Base ResolveCard(string cardId)
     {
         ContinuousController controller = ContinuousController.instance;
@@ -525,6 +612,54 @@ public static class ShopService
         }
 
         return card?.CardID ?? "Unknown Card";
+    }
+
+    private static bool HasLegacyStructureDeckOwnership(ShopProductDef product)
+    {
+        if (product == null || !product.IsStructureDeck)
+        {
+            return false;
+        }
+
+        string deckId = BuildStructureDeckId(product.id);
+        if (string.IsNullOrWhiteSpace(deckId))
+        {
+            return false;
+        }
+
+        ContinuousController controller = ContinuousController.instance;
+        if (controller?.DeckDatas == null)
+        {
+            return false;
+        }
+
+        return controller.DeckDatas.Any(deckData =>
+            deckData != null &&
+            !string.IsNullOrWhiteSpace(deckData.DeckID) &&
+            string.Equals(deckData.DeckID, deckId, StringComparison.OrdinalIgnoreCase));
+    }
+
+    private static ShopPurchaseCardResult BuildCardResult(CEntity_Base card, int count, bool isNew)
+    {
+        return new ShopPurchaseCardResult
+        {
+            CardId = card?.CardID ?? string.Empty,
+            CardName = GetCardDisplayName(card),
+            Count = Mathf.Max(0, count),
+            IsNew = isNew,
+        };
+    }
+
+    private static string BuildHistoryCardLine(ShopPurchaseCardResult cardResult)
+    {
+        if (cardResult == null)
+        {
+            return string.Empty;
+        }
+
+        string prefix = cardResult.IsNew ? "NEW" : "OWNED";
+        string countLabel = cardResult.Count > 1 ? $"{cardResult.Count}x " : string.Empty;
+        return $"{prefix}: {countLabel}{cardResult.CardId}, {cardResult.CardName}";
     }
 
     private static string BuildUnlockSummary(List<CEntity_Base> newlyUnlockedCards, int ownedOrDuplicateCount)

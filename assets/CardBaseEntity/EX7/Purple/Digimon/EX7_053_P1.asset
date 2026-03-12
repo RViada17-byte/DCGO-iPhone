@@ -1,3 +1,49 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:7f58256f8b1fe4b7c09b7d8c1b32c56ec32dd1d99cb8e37f5af93ee010dfd9c7
-size-not-lfs 1248
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX7_053_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 3775
+  cardColors: 06000000
+  PlayCost: 4
+  EvoCosts:
+  - CardColor: 6
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: 'Eyesmon: Scatter Mode'
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Dark Dragon
+  CardSpriteName: EX7-053_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[On Play] Trash 1 card in your hand. Then, you may return
+    1 Digimon card with the [Evil]/[Dark Dragon]/[Evil Dragon]\_trait from your trash
+    to the hand."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "\uFF1CRetaliation\uFF1E."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX7_053
+  DP: 4000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: EX7-053
+  MaxCountInDeck: 4

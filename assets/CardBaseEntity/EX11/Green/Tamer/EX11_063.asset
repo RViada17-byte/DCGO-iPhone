@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:14a628c3c77a7fb9c266ed40e6b300b7e892122f5e2ab1c707e291dc825ad504
-size-not-lfs 1512
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX11_063
+  m_EditorClassIdentifier: 
+  CardIndex: 7783
+  cardColors: 0300000005000000
+  PlayCost: 5
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Winr
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - LIBERATOR
+  CardSpriteName: EX11-063
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Start of Your Turn] If you have 2 or less memory, set
+    it to 3.\n[On Play] Add your top face-down security card to the hand. Then, you
+    may place 1 [Royal Base]\_trait Digimon card from your hand face up as the bottom
+    security card.\n[End of Your Turn] By suspending this Tamer, 1 of your [Royal
+    Base]\_trait Digimon gains \uFF1CCollision\uFF1E and \uFF1CPiercing\uFF1E for
+    the turn, and attacks."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying the cost.'
+  CardEffectClassName: EX11_063
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX11-063
+  MaxCountInDeck: 4

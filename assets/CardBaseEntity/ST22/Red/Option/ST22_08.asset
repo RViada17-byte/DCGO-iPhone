@@ -1,3 +1,55 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:4351e9bd2087891d8cf6088eda6ab16c8f4adefa0f61af4fd68e00d084af72d3
-size-not-lfs 1502
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST22_08
+  m_EditorClassIdentifier: 
+  CardIndex: 7499
+  cardColors: 00000000
+  PlayCost: 4
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Offensive Plug-In V
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Plug-In
+  CardSpriteName: ST22-08
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 'While you have a Tamer, you can ignore this card''s color
+    requirements.
+
+    [Security] Delete 1 of your opponent''s Digimon with the lowest
+    DP. Then, add this card to the hand.
+
+    [Main] You may link this card to 1
+    of your Digimon without paying the cost. Then, delete 1 of your opponent''s Digimon
+    with as much or less DP as 1 of your Digimon.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: ST22_08
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 2000
+  LinkEffect: '[End of Your Turn] [Once Per Turn] This Digimon may attack.'
+  LinkRequirement: '[Link] Lv.3 or higher: Cost 2 '
+  CardID: ST22-08
+  MaxCountInDeck: 4

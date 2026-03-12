@@ -1,3 +1,56 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:098fde355b7db37b0b2563ece079dc07115498c371b7a194570a58ad14fc918b
-size-not-lfs 1646
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX6_029_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 3476
+  cardColors: 0200000006000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 2
+    Level: 5
+    MemoryCost: 4
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Mastemon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Angel
+  CardSpriteName: EX6-029_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Hand] [Counter] \uFF1CBlast DNA Digivolve ([Angewomon]
+    + [LadyDevimon])\uFF1E (1 of your specified Digimon and 1 specified card in hand
+    may DNA digivolve into this card.)\n[On Play] [When Digivolving] You may play
+    1 level 5 or lower Digimon card with the [Angel]/[Archangel]/[Fallen Angel]\_trait
+    from your hand or trash without paying the cost. Then, if DNA digivolving, place
+    1 other Digimon at the bottom of its owner's security stack, and trash cards
+    from the top of your opponent's security stack until it has 4 left."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX6_029
+  DP: 12000
+  rarity: 3
+  OverflowMemory: 4
+  CardID: EX6-029
+  MaxCountInDeck: 4

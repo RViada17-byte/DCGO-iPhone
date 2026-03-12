@@ -1,3 +1,56 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:fa67f165d88266786bec7bdddc231ad137213ec2c4fca7a0506179d165403bd9
-size-not-lfs 1608
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX7_049_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 3769
+  cardColors: 05000000
+  PlayCost: 13
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 5
+  - CardColor: 0
+    Level: 5
+    MemoryCost: 5
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Metallicdramon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Sky Dragon
+  CardSpriteName: EX7-049_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[On Play] [When Attacking] \uFF1CDe-Digivolve4\uFF1E 1
+    of your opponent's Digimon (Trash up to 4 cards from the top. You can't trash
+    past level 3 cards)\n[When Digivolving] None of your opponent's level 4 or lower
+    Digimon can digivolve until the end of their turn.\n[All Turns] [Once Per Turn]
+    When this Digimon would leave battle area other than by one of your effects,
+    you may play 1 Digimon card with the [Rock Dragon]/[Earth Dragon]\_trait from
+    your trash without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX7_049
+  DP: 13000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: EX7-049
+  MaxCountInDeck: 4

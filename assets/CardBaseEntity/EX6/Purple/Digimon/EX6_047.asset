@@ -1,3 +1,51 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:388e07e645495abd64b446bbc62b9fa9413c647f7b51cde73b03bb3b60282213
-size-not-lfs 1390
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX6_047
+  m_EditorClassIdentifier: 
+  CardIndex: 3500
+  cardColors: 06000000
+  PlayCost: 4
+  EvoCosts:
+  - CardColor: 6
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Boogiemon
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Wizard
+  CardSpriteName: EX6-047
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[On Play] Reveal the top 3 cards of your deck. Add 1 card
+    with the [Fallen Angel]/[Demon Lord]\_trait and 1 purple Option card among them
+    to the hand. Return the rest to the bottom of the deck. If you added cards, trash
+    1 card in your hand."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[All Turns] While your opponent has 6 or fewer
+    cards in their hand, this Digimon gets +1000 DP.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX6_047
+  DP: 4000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: EX6-047
+  MaxCountInDeck: 4

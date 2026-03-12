@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:71702905a0500c2b400bbfbcf4d3d29fca482dd404132cfb66ac173b52c0aae4
-size-not-lfs 1482
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX6_039
+  m_EditorClassIdentifier: 
+  CardIndex: 3491
+  cardColors: 05000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 5
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Kurisarimon
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Unknown
+  Type_JPN: []
+  Type_ENG:
+  - Unidentified
+  CardSpriteName: EX6-039
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "When this card would be played from the hand, by deleting
+    1 of your Digimon with the [Unidentified]\_trait, reduce the play cost by 3.\n[On
+    Play] [When Digivolving] Delete 1 of your opponent's Digimon with a play cost
+    of 3 or less."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[On Deletion] If this Digimon had the [Unidentified]\_trait,
+    you may play 1 [Diaboromon] Token without paying the cost (Digimon/Cost 14/Lv.6/White/Mega/Unknown/Unidentified/3000
+    DP)."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX6_039
+  DP: 5000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: EX6-039
+  MaxCountInDeck: 4

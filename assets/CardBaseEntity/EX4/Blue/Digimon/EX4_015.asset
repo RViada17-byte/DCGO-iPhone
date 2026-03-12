@@ -1,3 +1,51 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:33a08c031047c2c3a95a7eefa63ddb2b4e31c1228fc98bff1543db18c983e782
-size-not-lfs 1647
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX4_015
+  m_EditorClassIdentifier: 
+  CardIndex: 2561
+  cardColors: 01000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 1
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: "\u30AC\u30AA\u30E2\u30F3"
+  CardName_ENG: Gaomon
+  Form_JPN:
+  - "\u6210\u9577\u671F"
+  Form_ENG:
+  - Rookie
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u7363\u578B"
+  Type_ENG:
+  - Beast
+  CardSpriteName: EX4-015
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u304A\u4E92\u3044\u306F\u3001\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u3089\u30AB\u30FC\u30C9\u30921\u679A\u5F15\u304F\u3002"
+  EffectDiscription_ENG: '[On Play] Both players draw the top card of their decks.'
+  InheritedEffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u76F8\u624B\u306E\u624B\u672D\u304C\u52B9\u679C\u3067\u5897\u3048\u305F\u3068\u304D\u3001\u30E1\u30E2\u30EA\u30FC\uFF0B1\u3002"
+  InheritedEffectDiscription_ENG: '[Your Turn][Once Per Turn] When an effect adds
+    cards to your opponent''s hand, gain 1 memory.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX4_015
+  DP: 1000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: EX4-015
+  MaxCountInDeck: 4

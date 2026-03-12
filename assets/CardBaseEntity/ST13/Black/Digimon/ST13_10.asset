@@ -1,3 +1,50 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:747790a13ca9ce93824fcc4ec4000d969dec45be68f54010e39668b98c2f96b4
-size-not-lfs 1143
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST13_10
+  m_EditorClassIdentifier: 
+  CardIndex: 2810
+  cardColors: 05000000
+  PlayCost: 4
+  EvoCosts:
+  - CardColor: 5
+    Level: 3
+    MemoryCost: 1
+  Level: 4
+  CardName_JPN: "\u30B0\u30E9\u30C7\u30A3\u30E2\u30F3"
+  CardName_ENG: Gladimon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u6226\u58EB\u578B"
+  Type_ENG:
+  - Warrior
+  CardSpriteName: ST13-10
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: 
+  DP: 4000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: ST13-10
+  MaxCountInDeck: 4

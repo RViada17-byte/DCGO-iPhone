@@ -1,3 +1,54 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:c6404b4386d126e15e0a7151b3054fb2ab208a6d249ff61012099d93da701e98
-size-not-lfs 2399
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: RB1_010_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 2873
+  cardColors: 00000000
+  PlayCost: 11
+  EvoCosts:
+  - CardColor: 0
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: "\u30B7\u30EA\u30A6\u30B9\u30E2\u30F3"
+  CardName_ENG: Siriusmon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u5149\u7ADC\u578B"
+  Type_ENG:
+  - Light Dragon
+  CardSpriteName: RB1-010_P1
+  cardKind: 0
+  EffectDiscription_JPN: "\u300E\u300C\u30AC\u30F3\u30DE\u30E2\u30F3\u300D\u306E\u8A18\u8FF0\u304C\u3042\u308BLv.5\u300F\u304B\u30893\u3010\u9032\u5316\u6642\u3011\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u300C\u30AC\u30F3\u30DE\u30E2\u30F3\u300D\u306E\u8A18\u8FF0\u304C\u3042\u308B\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u306E\u4E0B\u306B\u7F6E\u304F\u3053\u3068\u3067\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306EDP\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3002\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011[\u30BF\u30FC\u30F3\u306B1\u56DE]\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u6D88\u6EC5\u3057\u305F\u3068\u304D\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u3067\u304D\u308B\u3002"
+  EffectDiscription_ENG: "Digivolve: 3 from Lv.5 w/[Gammamon] in text[When Digivolving]
+    By placing 1 Digimon card with [Gammamon] in its text from your hand as this
+    Digimon's bottom digivolution card, delete 1 of your opponent's Digimon with
+    DP less than or equal to this Digimon's DP.[Your Turn][Once Per Turn] When an
+    opponent\u2019s Digimon is deleted, you may unsuspend this Digimon."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: RB1_010
+  DP: 11000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: RB1-010
+  MaxCountInDeck: 4

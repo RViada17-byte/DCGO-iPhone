@@ -1,3 +1,61 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:931020f37111e71eeb26ee40f2c10024a8d6c90563779e22b6a80dc5e869b3af
-size-not-lfs 1789
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX10_019_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 7284
+  cardColors: 0300000006000000
+  PlayCost: 8
+  EvoCosts:
+  - CardColor: 3
+    Level: 4
+    MemoryCost: 4
+  - CardColor: 6
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Warudamon
+  Form_JPN: []
+  Form_ENG:
+  - Ult.
+  - Appmon
+  Attribute_JPN: []
+  Attribute_ENG:
+  - System
+  Type_JPN: []
+  Type_ENG:
+  - Strategy
+  - Leviathan
+  CardSpriteName: EX10-019_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[App Fusion] [Mienumon] & [Sakusimon]: Cost 0\n\n\uFF1CFortitude\uFF1E
+    \n[On Play] [When Digivolving] You may link 1 level 4 or lower Digimon card from
+    your trash or this Digimon's digivolution cards to this Digimon without paying
+    the cost.\n[All Turns] [Once Per Turn] When this Digimon gets linked, you may
+    suspend 1 of your opponent's Digimon or Tamers. It can't unsuspend in their next
+    unsuspend phase."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX10_019
+  DP: 8000
+  rarity: 3
+  OverflowMemory: 0
+  LinkDP: 4000
+  LinkEffect: '[All Turns] When any of your opponent''s Digimon suspend, by trashing
+    1 of this Digimon''s link cards, trash your opponent''s top security card.'
+  LinkRequirement: "[Link] [Appmon]\_trait: Cost 3 "
+  CardID: EX10-019
+  MaxCountInDeck: 4

@@ -1,3 +1,54 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:25f05ce2d80e4d2414c8871ea79da963cd0d3b848338cf560a89188b70189d94
-size-not-lfs 1506
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX11_071
+  m_EditorClassIdentifier: 
+  CardIndex: 7797
+  cardColors: 04000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Cool Boy
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - LIBERATOR
+  CardSpriteName: EX11-071
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[On Play] Reveal the top 3 cards of your deck. Add 1 [Omekamon]
+    or [Omnimon (X Antibody)] and 1 [Royal Knight] or [LIBERATOR] trait card among
+    them to the hand. Return the rest to the bottom of the deck.
+
+    [Main] By
+    returning this Tamer to the bottom of the deck, you may play 1 play cost 4 or
+    higher [Royal Knight] or [LIBERATOR] trait card from your hand with the play
+    cost reduced by 2.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying the cost.'
+  CardEffectClassName: EX11_071
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX11-071
+  MaxCountInDeck: 4

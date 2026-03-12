@@ -1,3 +1,57 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:802b3f9a17cac465d4162395b0f8c175d4caa33315196e0fb960dbd0c89917c0
-size-not-lfs 2530
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX4_008
+  m_EditorClassIdentifier: 
+  CardIndex: 2551
+  cardColors: 0000000006000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 0
+    Level: 3
+    MemoryCost: 3
+  - CardColor: 6
+    Level: 3
+    MemoryCost: 3
+  Level: 4
+  CardName_JPN: "\u30D6\u30E9\u30C3\u30AF\u30B0\u30E9\u30A6\u30E2\u30F3"
+  CardName_ENG: BlackGrowlmon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u9B54\u7ADC\u578B"
+  Type_ENG:
+  - Dark Dragon
+  CardSpriteName: EX4-008
+  cardKind: 0
+  EffectDiscription_JPN: "\u9032\u5316:\u300E\u540D\u79F0\u306B\u300C\u30AE\u30EB\u30E2\u30F3\u300D\u3092\u542B\u3080Lv.3\u300F\u304B\u30892\u3010\u9032\u5316\u6642\u3011\u304A\u4E92\u3044\u306E\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u30892\u679A\u7834\u68C4\u3059\u308B\u3002\u305D\u306E\u5F8C\u3001\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u300C\u30AE\u30EB\u30E2\u30F3\u300D\u304B\u540D\u79F0\u306B\u300C\u30B0\u30E9\u30A6\u30E2\u30F3\u300D\u304B\u300C\u30C7\u30E5\u30FC\u30AF\u30E2\u30F3\u300D\u3092\u542B\u3080\u30AB\u30FC\u30C91\u679A\u3092\u624B\u672D\u306B\u623B\u305B\u308B\u3002"
+  EffectDiscription_ENG: 'Digivolve: 2 from Lv.3 w/[Guilmon] in name[When Digivolving]
+    Trash the top 2 cards of both players'' decks. Then, you may return 1 [Guilmon]
+    or 1 card with [Growlmon] or [Gallantmon] in its name from your trash to your
+    hand.'
+  InheritedEffectDiscription_JPN: "\u3010\u6D88\u6EC5\u6642\u3011\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u300C\u30AE\u30EB\u30E2\u30F3\u300D\u304B\u540D\u79F0\u306B\u300C\u30B0\u30E9\u30A6\u30E2\u30F3\u300D\u304B\u300C\u30C7\u30E5\u30FC\u30AF\u30E2\u30F3\u300D\u3092\u542B\u3080\u30AB\u30FC\u30C91\u679A\u3092\u624B\u672D\u306B\u623B\u305B\u308B\u3002"
+  InheritedEffectDiscription_ENG: '[On Deletion] You may return 1 [Guilmon] or 1
+    card with [Growlmon] or [Gallantmon] in its name from your trash to your hand.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX4_008
+  DP: 5000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: EX4-008
+  MaxCountInDeck: 4

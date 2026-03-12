@@ -1,3 +1,49 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:e141f1ea9f323d69123a399e6d1a138ebece004db5b4642e77200a8f99b1a28a
-size-not-lfs 1486
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX6_064
+  m_EditorClassIdentifier: 
+  CardIndex: 3529
+  cardColors: 0200000003000000
+  PlayCost: 4
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Shu-Chong Wong
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Tamer
+  CardSpriteName: EX6-064
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[On Play] Reveal the top 3 cards of your deck. Add 1 card
+    with the [Beast]/[Beastkin]/[Holy Beast]/[Cherub]\_trait among them to the hand.
+    Return the rest to the bottom of the deck.\n[Your Turn] When an effect suspends
+    one of your Digimon, by suspending this Tamer, 1 of your Digimon may digivolve
+    into a Digimon card with the [Beastkin]/[Holy Beast]/[Cherub]\_trait in your
+    hand with the digivolution cost reduced by 2."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying the cost.'
+  CardEffectClassName: EX6_064
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  CardID: EX6-064
+  MaxCountInDeck: 4

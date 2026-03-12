@@ -1,3 +1,51 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:270bfe7c1ebe591ae0c20fe2cb4ee9ddf271c8121158038d2a39cad53c4db1ce
-size-not-lfs 1405
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_225
+  m_EditorClassIdentifier: 
+  CardIndex: 7656
+  cardColors: 04000000
+  PlayCost: 2
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: DigiLab
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - CS
+  CardSpriteName: P-225
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "While you have [CS]\_trait Digimon or Tamer, you can ignore
+    this card's color requirements.\n[Main] \uFF1CDraw 1\uFF1E Then, place this card
+    in the battle area.\n[Main] \uFF1CDelay\uFF1E \n\u30FBBy placing the top stacked
+    card of any of your level 4 or higher [CS] Digimon as its bottom digivolution
+    card, gain 2 memory."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Place this card in the battle area.'
+  CardEffectClassName: P_225
+  DP: 0
+  rarity: 5
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: P-225
+  MaxCountInDeck: 4

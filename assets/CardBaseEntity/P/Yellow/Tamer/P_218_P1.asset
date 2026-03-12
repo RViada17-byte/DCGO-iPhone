@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:4a31ade96f7702b22d1c8832fdbcb4b0f346bcbb67cf0cbe3394210b78b079fe
-size-not-lfs 1458
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_218_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 7516
+  cardColors: 02000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Torajiro Asuka
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - App Driver
+  - Appmon
+  CardSpriteName: P-218_P1
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[On Play] Reveal the top 3 cards of your deck. Add 1 [Entertainment]\_trait
+    card and 1 [Awakening], [Tool] or [Navi]\_trait card among them to the hand.
+    Return the rest to the bottom of the deck.\n[Your Turn] When any of your Digimon
+    get linked to a [Entertainment], [Tool] or [Navi]\_trait card, by suspending
+    this Tamer, gain 1 memory."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying the cost.'
+  CardEffectClassName: P_218
+  DP: 0
+  rarity: 5
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: P-218
+  MaxCountInDeck: 4

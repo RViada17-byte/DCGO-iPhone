@@ -1,3 +1,48 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:e003a666e931c5d298cd0de3de5e83cd527216cee3289e36412ca58a63ac8388
-size-not-lfs 1397
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST16_15_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4958
+  cardColors: 06000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Lament of Friendship
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Option
+  CardSpriteName: ST16-15_P0
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "While you have a Tamer with [Matt Ishida]\_in its name,
+    you may use this card without meeting its color requirements.\n[Main] Return
+    1 Digimon card from your trash to your hand. Then, 1 of your Digimon with [Garurumon]\_in
+    its name gains \"[On Deletion] Play this card without paying its cost\" until
+    the end of your opponent's turn."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Activate this card''s [Main] effect.'
+  CardEffectClassName: ST16_15
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  CardID: ST16-15
+  MaxCountInDeck: 4

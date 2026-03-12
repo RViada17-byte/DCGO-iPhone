@@ -1,3 +1,51 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:1c8f604c8e9cb9ec7a19efe56db5dfbc29f014ee6ebe6bfa8a182161840b8cf7
-size-not-lfs 1345
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX8_048
+  m_EditorClassIdentifier: 
+  CardIndex: 4142
+  cardColors: 05000000
+  PlayCost: 4
+  EvoCosts:
+  - CardColor: 5
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Landramon
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Mineral
+  - LIBERATOR
+  CardSpriteName: EX8-048
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[When Digivolving] If you have 1 or fewer Tamers, you may
+    play 1 [Close] from your hand without paying the cost.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "When this card is trashed from the digivolution
+    cards of a Digimon with the [Mineral]/[Rock]\_trait, delete 1 of your opponent's
+    Digimon with a play cost of 4 or less."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX8_048
+  DP: 4000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: EX8-048
+  MaxCountInDeck: 4

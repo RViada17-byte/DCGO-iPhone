@@ -1,3 +1,62 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:87bc5b7d671d6732e948bbc720f38c196d36298f13706d5196d980bab29f3fea
-size-not-lfs 1787
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX9_018
+  m_EditorClassIdentifier: 
+  CardIndex: 6867
+  cardColors: 0100000005000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 1
+    Level: 4
+    MemoryCost: 4
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: MetalMamemon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Cyborg
+  - DM
+  - Ver.2
+  CardSpriteName: EX9-018
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] [Mamemon]: Cost 1\n[Digivolve] Lv.4 w/[DM]\_trait:
+    Cost 3 \n\nWhen this card would be played, by trashing 1 [Cyborg] or [Ver.2]\_trait
+    card from your hand, reduce the play cost by 2.\n[On Play] [When Digivolving]
+    By placing 1 Digimon card from your trash face down as this Digimon's bottom
+    digivolution card, from 1 of your opponent's Digimon, trash any 1 digivolution
+    card for each of this Digimon's face-down digivolution cards. Then, return 1
+    of their Digimon with no digivolution cards to the bottom of the deck."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[End of Your Turn] [Once Per Turn] 1 of your Digimon
+    unsuspends.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX9_018
+  DP: 7000
+  rarity: 3
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX9-018
+  MaxCountInDeck: 4

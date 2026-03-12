@@ -820,6 +820,129 @@ public class FilterCardList : MonoBehaviour
         SearchInputField.text = "";
     }
 
+    public void SetSearchText(string text)
+    {
+        if (SearchInputField == null)
+        {
+            return;
+        }
+
+        SearchInputField.text = text ?? "";
+    }
+
+    public void SetCardKindFilter(CardKind? cardKind)
+    {
+        if (cardKindDropdown == null)
+        {
+            return;
+        }
+
+        switch (cardKind)
+        {
+            case null:
+                cardKindDropdown.value = 0;
+                break;
+            case CardKind.Digimon:
+                cardKindDropdown.value = 1;
+                break;
+            case CardKind.DigiEgg:
+                cardKindDropdown.value = 2;
+                break;
+            case CardKind.Tamer:
+                cardKindDropdown.value = 3;
+                break;
+            case CardKind.Option:
+                cardKindDropdown.value = 4;
+                break;
+            default:
+                cardKindDropdown.value = 0;
+                break;
+        }
+    }
+
+    public void SetSingleColorFilter(CardColor? cardColor)
+    {
+        if (_cardColorDropdowns == null || _cardColorDropdowns.Count == 0)
+        {
+            return;
+        }
+
+        for (int i = 0; i < _cardColorDropdowns.Count; i++)
+        {
+            Dropdown dropdown = _cardColorDropdowns[i];
+
+            if (dropdown == null)
+            {
+                continue;
+            }
+
+            if (i == 0)
+            {
+                dropdown.value = cardColor.HasValue ? ((int)cardColor.Value + 1) : 0;
+            }
+
+            else
+            {
+                dropdown.value = 0;
+            }
+        }
+    }
+
+    public RectTransform SearchInputRoot
+    {
+        get
+        {
+            return SearchInputField != null ? SearchInputField.transform as RectTransform : null;
+        }
+    }
+
+    public RectTransform CardSetRoot
+    {
+        get
+        {
+            return cardSetDropdown != null ? cardSetDropdown.transform as RectTransform : null;
+        }
+    }
+
+    public void SetIPhoneVisibleFiltersOnly(bool active)
+    {
+        SetControlGroupVisible(costDropdown, !active);
+        SetControlGroupVisible(levelDropdown, !active);
+        SetControlGroupVisible(rarityDropdown, !active);
+        SetControlGroupVisible(cardKindDropdown, !active);
+        SetControlGroupVisible(onlyInheritedEffectToggle, !active);
+        SetControlGroupVisible(onlySecurityEffectToggle, !active);
+        SetControlGroupVisible(showParallelToggle, !active);
+
+        if (_cardColorDropdowns != null)
+        {
+            foreach (Dropdown colorDropdown in _cardColorDropdowns)
+            {
+                SetControlGroupVisible(colorDropdown, !active);
+            }
+        }
+
+        SetControlGroupVisible(SearchInputField, true);
+        SetControlGroupVisible(cardSetDropdown, true);
+    }
+
+    static void SetControlGroupVisible(Component component, bool visible)
+    {
+        if (component == null)
+        {
+            return;
+        }
+
+        Transform target = component.transform;
+
+        if (component is Dropdown && target.parent != null)
+        {
+            target = target.parent;
+        }
+
+        target.gameObject.SetActive(visible);
+    }
+
     public void OnEndEditSearchInputfield(string text)
     {
         if (!string.IsNullOrEmpty(text))

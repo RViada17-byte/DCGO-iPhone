@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:fbe98fdbcaffeebe11cc2acf0b42c2d93d761c1b0202a26cfc452152eced372f
-size-not-lfs 1485
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: LM_025
+  m_EditorClassIdentifier: 
+  CardIndex: 4035
+  cardColors: 05000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Cyberdramon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Cyborg
+  CardSpriteName: LM-025
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Hand] [Counter] \uFF1CBlast Digivolve\uFF1E \n[On Play]
+    [When Digivolving] Reveal the top 5 cards of your deck. You may play 1 black
+    Tamer card with a play cost of 4 or less among without paying the cost. Return
+    the rest to the top or bottom of the deck. Then, if you have a Tamer, \uFF1CDe-Digivolve1\uFF1E
+    1 of your opponent's Digimon."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[When Attacking] [Once Per Turn] \uFF1CDe-Digivolve1\uFF1E
+    1 of your opponent's Digimon."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: LM_025
+  DP: 8000
+  rarity: 5
+  OverflowMemory: 3
+  CardID: LM-025
+  MaxCountInDeck: 4

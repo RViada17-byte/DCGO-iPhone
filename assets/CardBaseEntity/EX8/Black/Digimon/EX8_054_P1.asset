@@ -1,3 +1,53 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:df790461ad134f48e16a05697221d8d7ca50fcc5c41f883d27c6b4bf2a5e407c
-size-not-lfs 1547
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX8_054_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 4153
+  cardColors: 05000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Justimon (X Antibody)
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Cyborg
+  - X Antibody
+  CardSpriteName: EX8-054_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.6 w/[Justimon]\_in its name w/o [X Antibody]\_trait:
+    Cost 1 \n\n\uFF1CRush\uFF1E.\n\uFF1CPiercing\uFF1E.\n\uFF1CSecurity Attack +1\uFF1E
+    \n[When Attacking] [Once Per Turn] Activate 1 [When Digivolving] effect of 1
+    Digimon card with [Justimon]\_in its name in this Digimon's digivolution cards
+    as if was this Digimon's effect.\n[End of Your Turn] [Once Per Turn] If your
+    opponent has an unsuspended Digimon, this Digimon may attack a player."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX8_054
+  DP: 12000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: EX8-054
+  MaxCountInDeck: 4

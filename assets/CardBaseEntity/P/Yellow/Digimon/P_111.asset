@@ -1,3 +1,56 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:7f7b55761ccab273b5bef77c3633e392cb844860db2427f7034dbf35321c5d49
-size-not-lfs 2181
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_111
+  m_EditorClassIdentifier: 
+  CardIndex: 6157
+  cardColors: 0200000005000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 2
+    Level: 4
+    MemoryCost: 4
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: "\u30CA\u30A4\u30C8\u30E2\u30F3"
+  CardName_ENG: Knightmon
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u6226\u58EB\u578B"
+  Type_ENG:
+  - Warrior
+  CardSpriteName: P-111
+  cardKind: 0
+  EffectDiscription_JPN: "\u226A\u30D6\u30ED\u30C3\u30AB\u30FC\u226B\u3010\u767B\u5834\u6642\u3011\u3010\u9032\u5316\u6642\u3011\u30BF\u30FC\u30F3\u7D42\u4E86\u307E\u3067\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3054\u3068\u306BDP-3000\u3002"
+  EffectDiscription_ENG: "\uFF1CBlocker\uFF1E [On Play][When Digivolving] 1 of your
+    opponent's Digimon gets -3000 DP for the turn for each of your Digimon."
+  InheritedEffectDiscription_JPN: "\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u4ED6\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30A2\u30BF\u30C3\u30AF\u3057\u305F\u3068\u304D\u3001\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u9EC4/\u9ED2\u306ELv.3\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002"
+  InheritedEffectDiscription_ENG: '[All Turns][Once Per Turn] When another Digimon
+    attacks, you may play 1 yellow or black level 3 Digimon card from your hand without
+    paying the cost.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: P_111
+  DP: 7000
+  rarity: 5
+  OverflowMemory: 0
+  CardID: P-111
+  MaxCountInDeck: 4

@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:e19397b95cac805af7480f4c3ccaf35e1122ec35d107c12496d3d8323d3990b9
-size-not-lfs 1452
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: LM_021
+  m_EditorClassIdentifier: 
+  CardIndex: 4031
+  cardColors: 00000000
+  PlayCost: 8
+  EvoCosts:
+  - CardColor: 0
+    Level: 6
+    MemoryCost: 3
+  Level: 7
+  CardName_JPN: 
+  CardName_ENG: Agumon - Bond of Bravery
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Unknown
+  Type_JPN: []
+  Type_ENG:
+  - Unknown
+  CardSpriteName: LM-021
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve][Agumon] while you have 2 or fewer security
+    cards: Cost 3 \n\n[Hand] [Counter] \uFF1CBlast Digivolve\uFF1E \n[On Play] [When
+    Digivolving] Delete any number of your opponent\u2019s Digimon whose total DP
+    adds up to equal or less than this Digimon\u2019s DP.\n[When Attacking] [Once
+    Per Turn] If you have a Tamer, trash the top card of your opponent\u2019s security
+    stack."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: LM_021
+  DP: 14000
+  rarity: 5
+  OverflowMemory: 5
+  CardID: LM-021
+  MaxCountInDeck: 4

@@ -1,3 +1,53 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:f7da9486801622c70b6cdad7db8ead9bb337376264a9123d328ea21c98a90ad8
-size-not-lfs 1408
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX10_029_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 7294
+  cardColors: 05000000
+  PlayCost: 4
+  EvoCosts:
+  - CardColor: 5
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Warpmon
+  Form_JPN: []
+  Form_ENG:
+  - Sup.
+  - Appmon
+  Attribute_JPN: []
+  Attribute_ENG:
+  - System
+  Type_JPN: []
+  Type_ENG:
+  - Transmission
+  CardSpriteName: EX10-029_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Security] At the end of the battle, play this card without
+    paying the cost.\n\uFF1CBlocker\uFF1E "
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX10_029
+  DP: 4000
+  rarity: 0
+  OverflowMemory: 0
+  LinkDP: 3000
+  LinkEffect: "[When Linking] By trashing 1 of this Digimon's link cards, \uFF1CDe-Digivolve\uFF1E
+    effects don't affect 1 of your Digimon until your opponent's turn ends."
+  LinkRequirement: "[Link] [Appmon]\_trait: Cost 2 "
+  CardID: EX10-029
+  MaxCountInDeck: 4

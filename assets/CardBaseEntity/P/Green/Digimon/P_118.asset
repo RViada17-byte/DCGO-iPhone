@@ -1,3 +1,57 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:ef57a0f18e20a670ca802e6a73c1161295e367f2229fa5c725a92a97783c161d
-size-not-lfs 2358
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_118
+  m_EditorClassIdentifier: 
+  CardIndex: 6164
+  cardColors: 03000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 3
+    Level: 2
+    MemoryCost: 0
+  - CardColor: 1
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: "\u30EF\u30FC\u30E0\u30E2\u30F3"
+  CardName_ENG: Wormmon
+  Form_JPN:
+  - "\u6210\u9577\u671F"
+  Form_ENG:
+  - Rookie
+  Attribute_JPN:
+  - "\u30D5\u30EA\u30FC"
+  Attribute_ENG:
+  - Free
+  Type_JPN:
+  - "\u5E7C\u866B\u578B"
+  Type_ENG:
+  - Larva
+  CardSpriteName: P-118
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u30893\u679A\u30AA\u30FC\u30D7\u30F3\u3059\u308B\u3002\u305D\u306E\u4E2D\u306E\u7DD1/\u9752\u3092\u542B\u30802\u8272\u4EE5\u4E0A\u306E\u30AB\u30FC\u30C9\u3068\u540D\u79F0\u306B\u300C\u4E00\u4E57\u5BFA\u8CE2\u300D\u3092\u542B\u3080\u30C6\u30A4\u30DE\u30FC\u30AB\u30FC\u30C91\u679A\u305A\u3064\u3092\u624B\u672D\u306B\u52A0\u3048\u308B\u3002\u6B8B\u308A\u306F\u30C7\u30C3\u30AD\u306E\u4E0B\u306B\u623B\u3059\u3002"
+  EffectDiscription_ENG: "[On Play] Reveal the top 3 cards of your deck. Add 1 green
+    or blue card with 2 or more colors and 1 Tamer card with [Ken Ichijoji]\_in its
+    name among them to the hand. Return the rest to the bottom of the deck."
+  InheritedEffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u6642\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3068\u4ED6\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u3067\u3001\u624B\u672D\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C9\u306B\u30B8\u30E7\u30B0\u30EC\u30B9\u9032\u5316\u3067\u304D\u308B\u3002"
+  InheritedEffectDiscription_ENG: '[End of Your Turn] You may DNA digivolve this
+    Digimon and one of your other Digimon in play into a Digimon card in your hand
+    by paying its DNA digivolve cost.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: P_118
+  DP: 1000
+  rarity: 5
+  OverflowMemory: 0
+  CardID: P-118
+  MaxCountInDeck: 4

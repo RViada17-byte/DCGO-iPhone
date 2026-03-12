@@ -1,3 +1,49 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:fbb46967f1fbfcfb97a0d1dffd2fcf3b42ca11a780af765eccda204d8c4ea11c
-size-not-lfs 1443
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_180_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 5304
+  cardColors: 00000000
+  PlayCost: 6
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Bind Red Trigger
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Three Musketeers
+  CardSpriteName: P-180_P1
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "When effects trash this card from digivolution cards, delete
+    1 of your opponent's 7000 DP or lower Digimon.While you have a [Three Musketeers]\_trait
+    Digimon, you can ignore this card's color requirements.\n[Main] Trash your opponent's
+    top security card. Then, place this card as the bottom digivolution card of 1
+    of your [Three Musketeers]\_trait Digimon."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Delete 1 of your opponent''s Digimon
+    with the highest DP.'
+  CardEffectClassName: P_180
+  DP: 0
+  rarity: 5
+  OverflowMemory: 0
+  CardID: P-180
+  MaxCountInDeck: 4

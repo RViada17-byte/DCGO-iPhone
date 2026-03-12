@@ -1,3 +1,51 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:edc2c6d5fe57b8e063c925797c9ee899fe637ce4e2752a3cd463ecf29aba9bcf
-size-not-lfs 3165
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX4_066
+  m_EditorClassIdentifier: 
+  CardIndex: 2630
+  cardColors: 0100000000000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: "\u91FF\u306E\u7363\u5203\u3068\u8D6B\u304D\u7ADC\u5F3E"
+  CardName_ENG: Adze Beast Blade and Shining Dragon Bullet
+  Form_JPN: []
+  Form_ENG: []
+  Attribute_JPN: []
+  Attribute_ENG: []
+  Type_JPN: []
+  Type_ENG: []
+  CardSpriteName: EX4-066
+  cardKind: 2
+  EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u4EE5\u4E0B\u306E\u52B9\u679C\u304B\u30891\u3064\u3092\u767A\u63EE\u3059\u308B\u3002\u30FB\u81EA\u5206\u306E\u300C\u30AF\u30FC\u30EC\u30B9\u30AC\u30EB\u30EB\u30E2\u30F3\u300D\u304C\u3044\u308B\u306A\u3089\u3001\u81EA\u5206\u306E\u300C\u30A2\u30B0\u30E2\u30F3\u300D\u304B\u300C\u30B0\u30EC\u30A4\u30E2\u30F3\u300D1\u4F53\u3092\u624B\u672D\u306E\u300C\u30D6\u30EA\u30C3\u30C4\u30B0\u30EC\u30A4\u30E2\u30F3\u300D\u306B\u9032\u5316\u6761\u4EF6\u3092\u7121\u8996\u3057\u3066\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u9032\u5316\u3067\u304D\u308B\u3002\u30FB\u81EA\u5206\u306E\u300C\u30D6\u30EA\u30C3\u30C4\u30B0\u30EC\u30A4\u30E2\u30F3\u300D\u304C\u3044\u308B\u306A\u3089\u3001\u81EA\u5206\u306E\u300C\u30AC\u30D6\u30E2\u30F3\u300D\u304B\u300C\u30AC\u30EB\u30EB\u30E2\u30F3\u300D1\u4F53\u3092\u624B\u672D\u306E\u300C\u30AF\u30FC\u30EC\u30B9\u30AC\u30EB\u30EB\u30E2\u30F3\u300D\u306B\u9032\u5316\u6761\u4EF6\u3092\u7121\u8996\u3057\u3066\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u9032\u5316\u3067\u304D\u308B\u3002"
+  EffectDiscription_ENG: "[Main] Activate 1 of the effects below. \u30FBIf you have
+    [CresGarurumon] in play, 1 of your [Agumon] or [Greymon] may digivolve into [BlitzGreymon]
+    in your hand, ignoring digivolution requirements and without paying the cost.
+    \u30FBIf you have [BlitzGreymon] in play, 1 of your [Gabumon] or [Garurumon]
+    may digivolve into [CresGarurumon] in your hand, ignoring digivolution requirements
+    and without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u81EA\u5206\u306E\u624B\u672D\u304B\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u300C\u30AC\u30D6\u30E2\u30F3\u300D\u304B\u300C\u30A2\u30B0\u30E2\u30F3\u300D1\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002\u305D\u306E\u5F8C\u3001\u3053\u306E\u30AB\u30FC\u30C9\u3092\u624B\u672D\u306B\u52A0\u3048\u308B\u3002"
+  SecurityEffectDiscription_ENG: '[Security] You may play 1 [Gabumon] or [Agumon]
+    from your hand or trash without paying the cost. Then, add this card to your
+    hand.'
+  CardEffectClassName: EX4_066
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: EX4-066
+  MaxCountInDeck: 4

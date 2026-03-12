@@ -1,3 +1,61 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:71bde488b1ba05e98b21997ec8834b55e347379cde25b09e3d4048877612e016
-size-not-lfs 1634
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_220
+  m_EditorClassIdentifier: 
+  CardIndex: 7651
+  cardColors: 0000000005000000
+  PlayCost: 14
+  EvoCosts:
+  - CardColor: 0
+    Level: 6
+    MemoryCost: 4
+  - CardColor: 5
+    Level: 6
+    MemoryCost: 4
+  Level: 7
+  CardName_JPN: 
+  CardName_ENG: Millenniummon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Composite
+  - DM
+  - Ver.3
+  - Ver.5
+  CardSpriteName: P-220
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "\uFF1CReboot\uFF1E \n\uFF1CBlocker\uFF1E \n[On Play] [When
+    Digivolving] \uFF1CDe-Digivolve 2\uFF1E 1 of your opponent's Digimon. Then, you
+    may delete 1 Digimon.\n[On Deletion] By returning 3 [Composite], [Wicked God]
+    or [DM] cards from your trash to the bottom of the deck, you may play 2 level
+    6 or lower [Composite], [Ver.3] or [Ver.5] Digimon cards from your trash without
+    paying the costs. This effect can't play cards of the same level."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: P_220
+  DP: 14000
+  rarity: 5
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: P-220
+  MaxCountInDeck: 4

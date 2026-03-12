@@ -1,3 +1,53 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:1bcf00eabda4abc8becf1c15b872b9dbb645da4323a57fbebe4484065b6c77ed
-size-not-lfs 1430
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX7_035
+  m_EditorClassIdentifier: 
+  CardIndex: 3741
+  cardColors: 03000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 3
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Triceramon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Ceratopsian
+  - NSp
+  - Dinosaur
+  CardSpriteName: EX7-035
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.4 w/[NSp]\_trait: Cost 3 \n\n[On Play] [When
+    Digivolving] Suspend 1 of your opponent's Digimon. That Digimon can't unsuspend
+    until the end of their turn.\n[Rule] Trait: Has the [Dinosaur] type."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[All Turns] [Once Per Turn] When this Digimon
+    deletes an opponent''s Digimon in battle, trash the top card of your opponent''s
+    security stack.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX7_035
+  DP: 7000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: EX7-035
+  MaxCountInDeck: 4

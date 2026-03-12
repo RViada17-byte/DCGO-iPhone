@@ -1,3 +1,57 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:1f9f36c847aec8cbc6d64949bfd6740270e1d72932d4d60acb86cde7f4b288b3
-size-not-lfs 1544
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX8_026_P2
+  m_EditorClassIdentifier: 
+  CardIndex: 4098
+  cardColors: 0100000005000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 1
+    Level: 5
+    MemoryCost: 4
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: MetalSeadramon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Cyborg
+  - DS
+  - Aquatic
+  CardSpriteName: EX8-026_P2
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.5 w/[DS]\_trait: Cost 3 \n\n[Hand] [Counter]
+    \uFF1CBlast Digivolve\uFF1E \n[On Play] [When Digivolving] \uFF1CDe-Digivolve1\uFF1E
+    1 of your opponent's Digimon. Then, return 1 of your opponent's Digimon with
+    a play cost of 7 or less to the bottom of the deck.\n[All Turns] While you have
+    1 or more memory, none of your opponent's Digimon can suspend.\n[Rule] Trait:
+    Has the [Aquatic] type."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX8_026
+  DP: 12000
+  rarity: 3
+  OverflowMemory: 4
+  CardID: EX8-026
+  MaxCountInDeck: 4

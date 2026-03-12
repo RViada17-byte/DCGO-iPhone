@@ -1,3 +1,47 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:306ee45640f6e9cea7ea368ba3f0bbc99e2cc22513db80400fedc36bb790dc21
-size-not-lfs 1348
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_129_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 10430
+  cardColors: 02000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: T.K. Takaishi
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Tamer
+  CardSpriteName: P-129_P1
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Start of Your Main Phase] If you have more security cards
+    than your opponent, gain 1 memory.\n[On Play] Activate 1 of the effects below:\n\u30FBYou
+    may play 1 [Patamon] from your hand without paying the cost.\n\u30FB1 of your
+    Digimon may digivolve into [Angemon] in the hand without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying the cost.'
+  CardEffectClassName: P_129
+  DP: 0
+  rarity: 5
+  OverflowMemory: 0
+  CardID: P-129
+  MaxCountInDeck: 4

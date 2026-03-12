@@ -1,3 +1,62 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:4710a27bf1de006e3f47c63618bfa4d4ca4227dceac8b4ee59d3e6a620d88093
-size-not-lfs 1769
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX11_050_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 7761
+  cardColors: 0600000000000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 6
+    Level: 4
+    MemoryCost: 4
+  - CardColor: 0
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Loudmon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Cyborg
+  - LIBERATOR
+  - Dark Dragon
+  CardSpriteName: EX11-050_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Dark Dragon]/[Evil Dragon]\_trait:
+    Cost 3 \n\n[On Play] [When Digivolving] Trash 2 cards in your hand. Then, delete
+    1 of your opponent\u2019s Digimon with as much or less DP as 1 of your [Dark
+    Dragon] or [Evil Dragon]\_trait Digimon.\n[All Turns] While you have 4 or fewer
+    cards in your hand, all of your [Dark Dragon] or [Evil Dragon]\_trait Digimon
+    gain \uFF1CScapegoat\uFF1E "
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[Your Turn] While you have 4 or fewer cards in
+    your hand, all of your Digimon with the [Dark Dragon] or [Evil Dragon]\_trait
+    gain \uFF1CSecurity A. +1\uFF1E "
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX11_050
+  DP: 7000
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX11-050
+  MaxCountInDeck: 4

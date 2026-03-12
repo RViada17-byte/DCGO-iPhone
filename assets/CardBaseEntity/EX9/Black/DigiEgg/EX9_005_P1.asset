@@ -1,3 +1,54 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:45ae8c66ea91afc0fedbe19d3ffa15806e61c4c0b4c983e8475a56252abd489d
-size-not-lfs 1638
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX9_005_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 6840
+  cardColors: 05000000
+  PlayCost: -1
+  EvoCosts: []
+  Level: 2
+  CardName_JPN: 
+  CardName_ENG: Negamon
+  Form_JPN: []
+  Form_ENG:
+  - In-Training
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Unknown
+  CardSpriteName: EX9-005_P1
+  cardKind: 3
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Breeding] [Main] [Once Per Turn] You may play 1 Digimon
+    card with [Negamon]\_in its text from your hand with the play cost reduced by
+    2. For each [Negamon] in your trash or your Digimon's digivolution cards, further
+    reduce it by 1. Then, place this Digimon as the played Digimon's bottom digivolution
+    card.\n[Breeding] [All Turns] This Digimon can't digivolve and effects can't
+    delete or trash it."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[Opponent's Turn] [Once Per Turn] When one of
+    your opponent's Digimon attacks, you may change the attack target to 1 of your
+    Digimon with [Negamon]\_in its text."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX9_005
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX9-005
+  MaxCountInDeck: 4

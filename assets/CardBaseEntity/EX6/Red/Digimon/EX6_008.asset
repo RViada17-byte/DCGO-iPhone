@@ -1,3 +1,53 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:b2e98899eeac6ccdefb76421e77b092ffa43a572fc939d68cf9a41dae505215b
-size-not-lfs 1528
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX6_008
+  m_EditorClassIdentifier: 
+  CardIndex: 3446
+  cardColors: 00000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 0
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: ZubaEagermon
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Weapon
+  - Legend-Arms
+  CardSpriteName: EX6-008
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.3 w/[Legend-Arms]\_trait: Cost 2 \n\n[Hand]
+    [Main] By paying 1 cost and placing this card as the bottom digivolution card
+    of 1 of your Digimon that's level 4 or has the [Legend-Arms]\_trait, that Digimon
+    gets +4000 DP for the turn.\n[Your Turn] [Once Per Turn] When an effect places
+    a digivolution card under this Digimon, this Digimon gains \uFF1CRaid\uFF1Eand
+    \uFF1CPiercing\uFF1Efor the turn."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[Your Turn] This Digimon gets +2000 DP.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX6_008
+  DP: 4000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: EX6-008
+  MaxCountInDeck: 4

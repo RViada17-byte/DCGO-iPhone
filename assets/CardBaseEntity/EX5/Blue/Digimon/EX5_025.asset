@@ -1,3 +1,63 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:cfd6df45143136c207c3ef3de89c8dac3addbcfe0364a7fccc60c36bedc7e0ea
-size-not-lfs 2926
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX5_025
+  m_EditorClassIdentifier: 
+  CardIndex: 3064
+  cardColors: 01000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 1
+    Level: 5
+    MemoryCost: 4
+  - CardColor: 0
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: "\u30C7\u30A3\u30A2\u30CA\u30E2\u30F3"
+  CardName_ENG: Dianamon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u795E\u4EBA\u578B"
+  - "\u30AA\u30EA\u30F3\u30DD\u30B9\u5341\u4E8C\u795E"
+  - "\u30CA\u30A4\u30C8\u30AF\u30ED\u30A6"
+  Type_ENG:
+  - Shaman
+  - Olympos XII
+  - Night Claw
+  CardSpriteName: EX5-025
+  cardKind: 0
+  EffectDiscription_JPN: "\u7279\u5FB4\u306B\u300C\u30CA\u30A4\u30C8\u30AF\u30ED\u30A6\u300D/\u300C\u30E9\u30A4\u30C8\u30D5\u30A1\u30F3\u30B0\u300D\u3092\u6301\u3064Lv.5:\u30B3\u30B9\u30C84\u226A\u30D6\u30ED\u30C3\u30AB\u30FC\u226B\u3010\u9032\u5316\u6642\u3011\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306E\u9032\u5316\u5143\u3092\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u51431\u679A\u3054\u3068\u306B\u3001\u9078\u3093\u30671\u679A\u7834\u68C4\u3059\u308B\u3002\u305D\u306E\u5F8C\u3001\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u307E\u3067\u3001\u9032\u5316\u5143\u3092\u6301\u305F\u306A\u3044\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u5168\u3066\u306F\u30EC\u30B9\u30C8\u3067\u304D\u306A\u3044\u3002\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u304C\u7834\u68C4\u3055\u308C\u305F\u3068\u304D\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u3059\u308B\u3002"
+  EffectDiscription_ENG: "\uFF1CBlocker\uFF1E (At blocker timing, by suspending this
+    Digimon, it becomes the attack target).[When Digivolving] [When Attacking] [Once
+    Per Turn] For each of this Digimon's digivolution cards, trash any 1 digivolution
+    card from 1 of your opponent's Digimon. Then, until the end of your opponent's
+    turn, all of their Digimon with no digivolution cards can't suspend.[All Turns]
+    [Once Per Turn] When an opponent's Digimon's digivolution card is trashed, unsuspend
+    this Digimon."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX5_025
+  DP: 12000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: EX5-025
+  MaxCountInDeck: 4

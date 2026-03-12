@@ -1,3 +1,56 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:58cd0ed1cf1336cedceea42decb505e016c0db1f8c74b96533354eb597d55020
-size-not-lfs 1622
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX3_023_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 6824
+  cardColors: 01000000
+  PlayCost: 11
+  EvoCosts:
+  - CardColor: 1
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Plesiomon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Plesiosaur
+  CardSpriteName: EX3-023_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[When Digivolving] You may play 1 blue level 3 Digimon
+    card or 1 level 4 or lower Digimon card with [Aqua]/[Sea Animal]\_in any of its
+    traits from one of your blue Digimon's digivolution cards without paying the
+    cost. Then, you may place 1 blue Digimon card from your hand under this Digimon
+    as its bottom digivolution card."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[All Turns] [Once Per Turn] When you play a Digimon
+    from digivolution cards, you may return 1 of your opponent''s Digimon of the
+    same level to the bottom of its owner''s deck.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX3_023
+  DP: 11000
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX3-023
+  MaxCountInDeck: 4

@@ -1,3 +1,53 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:e5c88cda57dcc7462b4a630334a0202a7ef6fcc465fdccff913d406d0cd5d49c
-size-not-lfs 1501
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX5_042_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 4229
+  cardColors: 03000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 3
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Merukimon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Shaman
+  - Olympos XII
+  CardSpriteName: EX5-042_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "\uFF1CFortitude\uFF1E (When this Digimon with digivolution
+    cards is deleted, play this card without paying the cost)\n[On Play] [When Digivolving]
+    Reveal the top card of your deck. If that card is a level 5 or lower Digimon
+    card with \uFF1CFortitude\uFF1E, play it without paying the cost. Add the rest
+    to the hand.\n[Your Turn] All your Digimon with \uFF1CFortitude\uFF1E and no
+    digivolution cards gain \uFF1CRush\uFF1E."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX5_042
+  DP: 12000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: EX5-042
+  MaxCountInDeck: 4

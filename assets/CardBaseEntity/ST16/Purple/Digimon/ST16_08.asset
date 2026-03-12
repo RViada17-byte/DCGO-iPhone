@@ -1,3 +1,54 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:4355d4f1868e46ee5a8e6f4de64d9bf3b2e31a1f9aad84a1d8fe5a7ef0352ab7
-size-not-lfs 2634
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST16_08
+  m_EditorClassIdentifier: 
+  CardIndex: 2853
+  cardColors: 06000000
+  PlayCost: 6
+  EvoCosts:
+  - CardColor: 6
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: "\u30AC\u30EB\u30EB\u30E2\u30F3"
+  CardName_ENG: Garurumon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u7363\u578B"
+  Type_ENG:
+  - Beast
+  CardSpriteName: ST16-08
+  cardKind: 0
+  EffectDiscription_JPN: "\u540D\u79F0\u306B\u300C\u30AC\u30D6\u30E2\u30F3\u300D\u3092\u542B\u3080Lv.3:\u30B3\u30B9\u30C82\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u81EA\u5206\u306E\u624B\u672D\u304B\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u300C\u30AC\u30D6\u30E2\u30F3\u300D\u304B\u540D\u79F0\u306B\u300C\u77F3\u7530\u30E4\u30DE\u30C8\u300D\u3092\u542B\u3080\u30C6\u30A4\u30DE\u30FC\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002\u3010\u9032\u5316\u6642\u3011\u226A1\u30C9\u30ED\u30FC\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u304B\u3089\u30AB\u30FC\u30C9\u30921\u679A\u5F15\u304F\uFF09\u3002\u305D\u306E\u5F8C\u3001\u81EA\u5206\u306E\u624B\u672D\u30921\u679A\u7834\u68C4\u3059\u308B\u3002"
+  EffectDiscription_ENG: "[Digivolve] Lv.3 w/[Gabumon] in name: Cost 2[Security]
+    You may play 1 [Gabumon] or 1 Tamer card with [Matt Ishida] in its name from
+    your hand or trash without paying the cost. [When Digivolving] \uFF1CDraw 1\uFF1E.
+    (Draw 1 card from your deck.) Then, trash 1 card in your hand."
+  InheritedEffectDiscription_JPN: "\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u226A1\u30C9\u30ED\u30FC\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u304B\u3089\u30AB\u30FC\u30C9\u30921\u679A\u5F15\u304F\uFF09\u3002\u305D\u306E\u5F8C\u3001\u81EA\u5206\u306E\u624B\u672D\u30921\u679A\u7834\u68C4\u3059\u308B\u3002"
+  InheritedEffectDiscription_ENG: "[When Attacking][Once Per Turn] \uFF1CDraw 1\uFF1E.
+    (Draw 1 card from your deck.) Then, trash 1 card in your hand."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: ST16_08
+  DP: 5000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: ST16-08
+  MaxCountInDeck: 4

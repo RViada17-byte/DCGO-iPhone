@@ -1,3 +1,55 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:504d83ce517eeae665c0fd8752388b9fb3034fbc5eb176c4020e6a16677a7d03
-size-not-lfs 1671
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX5_043_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 4230
+  cardColors: 03000000
+  PlayCost: 13
+  EvoCosts:
+  - CardColor: 3
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Leopardmon (X Antibody)
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Holy Warrior
+  - Royal Knight
+  - X Antibody
+  CardSpriteName: EX5-043_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.6 w/[Leopardmon]\_in its name w/o [X Antibody]\_trait:
+    Cost 1 \n\n[When Digivolving] [Main] [Once Per Turn] You may play 1 green Digimon
+    card from your hand with the play cost reduced by 4. If a card with [Leopardmon]\_in
+    its name or [X Antibody] is in this Digimon's digivolution cards, further reduce
+    it by 3.\n[Your Turn] [Once Per Turn] When one of your Digimon is played, you
+    may return 1 of your opponent\u2019s 5000 DP or lower Digimon to the hand. For
+    each of your other Digimon, add 3000 to the maximum DP this effect can choose."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX5_043
+  DP: 12000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: EX5-043
+  MaxCountInDeck: 4

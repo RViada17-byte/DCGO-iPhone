@@ -1,3 +1,67 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:8077452d1218c2f0b0b5ba0ce45650e5a8a9f7be9b4a7d3490059222f5ad3f6f
-size-not-lfs 1496
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_123_P3
+  m_EditorClassIdentifier: 
+  CardIndex: 10424
+  cardColors: 04000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 0
+    Level: 2
+    MemoryCost: 0
+  - CardColor: 1
+    Level: 2
+    MemoryCost: 0
+  - CardColor: 2
+    Level: 2
+    MemoryCost: 0
+  - CardColor: 3
+    Level: 2
+    MemoryCost: 0
+  - CardColor: 5
+    Level: 2
+    MemoryCost: 0
+  - CardColor: 6
+    Level: 2
+    MemoryCost: 0
+  - CardColor: 4
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: 
+  CardName_ENG: Ukkomon
+  Form_JPN: []
+  Form_ENG:
+  - Rookie
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Free
+  Type_JPN: []
+  Type_ENG:
+  - Ancient Fairy
+  CardSpriteName: P-123_P3
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[Your Turn] [Once Per Turn] When one of your Digimon moves
+    from the breeding area to the battle area. You may hatch in your breeding area.
+    Then, gain 1 memory.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: P_123
+  DP: 2000
+  rarity: 5
+  OverflowMemory: 0
+  CardID: P-123
+  MaxCountInDeck: 1

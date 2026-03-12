@@ -15,21 +15,12 @@ public sealed class MobileUiPolishRuntime : MonoBehaviour
     static readonly Color32 DeckControlPressedColor = new Color32(22, 38, 58, 255);
     static readonly Color32 DeckTextColor = new Color32(242, 246, 255, 255);
     static readonly Vector2 ReferenceResolution = new Vector2(1920f, 1080f);
+    const float MinimumTouchTargetSize = 72f;
 
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
     static void Bootstrap()
     {
-        if (!Application.isMobilePlatform || _bootstrapped)
-        {
-            return;
-        }
-
-        _bootstrapped = true;
-        FixTmpShaders();
-        GameObject runtimeObject = new GameObject(nameof(MobileUiPolishRuntime));
-        DontDestroyOnLoad(runtimeObject);
-        runtimeObject.hideFlags = HideFlags.HideAndDontSave;
-        runtimeObject.AddComponent<MobileUiPolishRuntime>();
+        // Disabled while real visual references are being restored.
     }
 
     void Awake()
@@ -263,7 +254,16 @@ public sealed class MobileUiPolishRuntime : MonoBehaviour
             return;
         }
 
-        List<Transform> deckRoots = GetDeckUiRoots();
+        ApplyDeckUiThemeToRoots(GetDeckUiRoots());
+    }
+
+    public static void ApplyDeckUiThemePreview(params GameObject[] previewRoots)
+    {
+        // Disabled while real visual references are being restored.
+    }
+
+    static void ApplyDeckUiThemeToRoots(List<Transform> deckRoots)
+    {
         for (int i = 0; i < deckRoots.Count; i++)
         {
             Transform root = deckRoots[i];
@@ -369,6 +369,8 @@ public sealed class MobileUiPolishRuntime : MonoBehaviour
                 targetImage.color = DeckControlIdleColor;
             }
 
+            EnsureMinimumTouchTarget(selectable);
+
             if (selectable is Dropdown dropdown)
             {
                 StyleDropdown(dropdown);
@@ -382,6 +384,66 @@ public sealed class MobileUiPolishRuntime : MonoBehaviour
                 StyleToggle(toggle);
             }
         }
+    }
+
+    static void EnsureMinimumTouchTarget(Selectable selectable)
+    {
+        if (selectable == null)
+        {
+            return;
+        }
+
+        if (IsUnderEditDeck(selectable.transform))
+        {
+            return;
+        }
+
+        RectTransform rectTransform = selectable.transform as RectTransform;
+        if (rectTransform == null)
+        {
+            return;
+        }
+
+        bool parentUsesLayout = rectTransform.parent != null && rectTransform.parent.GetComponent<LayoutGroup>() != null;
+        if (parentUsesLayout)
+        {
+            LayoutElement layoutElement = selectable.GetComponent<LayoutElement>();
+            if (layoutElement == null)
+            {
+                layoutElement = selectable.gameObject.AddComponent<LayoutElement>();
+            }
+
+            layoutElement.minWidth = Mathf.Max(layoutElement.minWidth, MinimumTouchTargetSize);
+            layoutElement.minHeight = Mathf.Max(layoutElement.minHeight, MinimumTouchTargetSize);
+            return;
+        }
+
+        if (rectTransform.rect.width < MinimumTouchTargetSize)
+        {
+            rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, MinimumTouchTargetSize);
+        }
+
+        if (rectTransform.rect.height < MinimumTouchTargetSize)
+        {
+            rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, MinimumTouchTargetSize);
+        }
+    }
+
+    static bool IsUnderEditDeck(Transform transform)
+    {
+        Transform current = transform;
+
+        while (current != null)
+        {
+            if (current.name == "EditDeck")
+            {
+                return true;
+            }
+
+            current = current.parent;
+        }
+
+        return false;
     }
 
     static void StyleDropdown(Dropdown dropdown)

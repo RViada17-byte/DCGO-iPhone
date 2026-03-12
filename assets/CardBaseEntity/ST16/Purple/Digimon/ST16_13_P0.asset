@@ -1,3 +1,50 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:ad65dd1ca2c4cce8c88350e0fe69376a09aca5a80e2ee47f33df6a90c60cb81c
-size-not-lfs 1313
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST16_13_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4956
+  cardColors: 06000000
+  PlayCost: 11
+  EvoCosts:
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: SkullMammothmon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Undead
+  CardSpriteName: ST16-13_P0
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[When Digivolving] \uFF1CDraw 1\uFF1E. Then, trash 1 card
+    from your hand.\n[All Turns] [Once Per Turn] When a card is trashed from your
+    hand by your effect, you may play 1 level 4 or lower purple Digimon card from
+    your trash without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: ST16_13
+  DP: 12000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: ST16-13
+  MaxCountInDeck: 4

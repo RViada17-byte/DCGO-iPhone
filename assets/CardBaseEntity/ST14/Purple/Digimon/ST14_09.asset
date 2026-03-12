@@ -1,3 +1,57 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:f0776a9089798ae41cf1aaf546f616890dd65ceabba512b7b3d40b2c546e1834
-size-not-lfs 2673
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST14_09
+  m_EditorClassIdentifier: 
+  CardIndex: 2826
+  cardColors: 06000000
+  PlayCost: 13
+  EvoCosts:
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: "\u30D9\u30EB\u30B9\u30BF\u30FC\u30E2\u30F3"
+  CardName_ENG: BeelStarmon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u9B54\u4EBA\u578B"
+  - "\u4E09\u9283\u58EB"
+  Type_ENG:
+  - Wizard
+  - Three Musketeers
+  CardSpriteName: ST14-09
+  cardKind: 0
+  EffectDiscription_JPN: "\u624B\u672D\u306E\u3053\u306E\u30AB\u30FC\u30C9\u3092\u767B\u5834\u3055\u305B\u308B\u3068\u304D\u3001\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E510\u679A\u3054\u3068\u306B\u652F\u6255\u3046\u767B\u5834\u30B3\u30B9\u30C8-4\u3002\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u304C\u7834\u68C4\u3055\u308C\u305F\u3068\u304D\u3001\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u300C\u30A4\u30F3\u30D7\u30E2\u30F3\u300D1\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u3053\u306E\u52B9\u679C\u3067\u767B\u5834\u3057\u305F\u30C7\u30B8\u30E2\u30F3\u306F\u226A\u901F\u653B\u226B\u3092\u5F97\u308B\u3002\u3010\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u3011\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30A2\u30BF\u30C3\u30AF\u3057\u305F\u3068\u304D\u3001\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u30891\u679A\u7834\u68C4\u3059\u308B\u3002"
+  EffectDiscription_ENG: "When you would play this card from your hand, reduce the
+    play cost by 4 for every 10 cards in your trash.[All Turns][Once Per Turn] When
+    a card is trashed from your deck, you may play 1 [Impmon] from your trash without
+    paying the cost. The Digimon played by this effect gains \uFF1CRush\uFF1E for
+    the turn.[Opponent's Turn] When an opponent's Digimon attacks, trash the top
+    card of your deck."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: ST14_09
+  DP: 11000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: ST14-09
+  MaxCountInDeck: 4

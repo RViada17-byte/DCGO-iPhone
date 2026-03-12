@@ -1,3 +1,61 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:94f97513383e07081c20bae2f7c541a31ffde1b1e1a3dcbb5823e165b6fca4b6
-size-not-lfs 1787
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX11_052_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 7766
+  cardColors: 0600000000000000
+  PlayCost: 13
+  EvoCosts:
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 5
+  - CardColor: 0
+    Level: 5
+    MemoryCost: 5
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: HeavyMetaldramon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Evil Dragon
+  - LIBERATOR
+  CardSpriteName: EX11-052_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.5 w/[Dark Dragon]/[Evil Dragon]\_trait:
+    Cost 3 \n\n[On Play] [When Digivolving] [End of Attack] Trash 2 cards in your
+    hand and delete 1 of your opponent's unsuspended Digimon. Then, if you have 4
+    or fewer cards in your hand, you may play 1 level 5 or lower [Evil], [Dark Dragon]
+    or [Evil Dragon]\_trait Digimon card from your trash without paying the cost.\n[All
+    Turns] [Once Per Turn] When any of your [Dark Dragon] or [Evil Dragon]\_trait
+    Digimon would leave the battle area, if you have 4 or fewer cards in your hand,
+    trash your opponent's top security card."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX11_052
+  DP: 13000
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX11-052
+  MaxCountInDeck: 4

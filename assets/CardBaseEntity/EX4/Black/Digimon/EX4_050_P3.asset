@@ -1,3 +1,54 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:3d06b3c3148289b37bcdf6c5ff542f3e72466ca314ad23bb689ca48e00443eaf
-size-not-lfs 1433
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX4_050_P3
+  m_EditorClassIdentifier: 
+  CardIndex: 4250
+  cardColors: 0500000002000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 4
+  - CardColor: 2
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: ShadowSeraphimon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Seraph
+  CardSpriteName: EX4-050_P3
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve][Seraphimon]: Cost 1 \n\n[Opponent's Turn] When
+    a card is removed from your security stack, \uFF1CDe-Digivolve1\uFF1E 1 of your
+    opponent's Digimon \n[On Deletion] \uFF1CRecovery +1 (Deck)\uFF1E. Then, 1 of
+    your opponent\u2019s Digimon gets -4000 DP for the turn for each card in your
+    security stack."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX4_050
+  DP: 12000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: EX4-050
+  MaxCountInDeck: 4

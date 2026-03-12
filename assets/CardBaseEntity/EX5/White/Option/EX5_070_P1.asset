@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:ae270a4c79611bf7cd59b457df27f03637e17cbe9e670d487f0af186ef164209
-size-not-lfs 1666
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX5_070_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 4236
+  cardColors: 04000000
+  PlayCost: 0
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: X Antibody Proto Form
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - X Antibody
+  CardSpriteName: EX5-070_P1
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "While you have a Digimon, you may ignore this card's color
+    requirements.\n[Security] Add this card to the hand.\n[Main] 1 of your Digimon
+    without [X Antibody] in its digivolution cards may digivolve into a Digimon card
+    with the [X Antibody]\_trait in your hand with the digivolution cost reduced
+    by 1. If it did, place this card as its bottom digivolution card.\n[Rule] Name:
+    Also treated as [X Antibody]."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[All Turns] When this Digimon would leave the
+    battle area other than by one of your effects, from this Digimon''s digivolution
+    cards, return 1 Digimon card to the hand and place 1 [X Antibody] on top of your
+    security stack.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX5_070
+  DP: 0
+  rarity: 3
+  OverflowMemory: 0
+  CardID: EX5-070
+  MaxCountInDeck: 4

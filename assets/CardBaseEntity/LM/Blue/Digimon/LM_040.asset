@@ -1,3 +1,58 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:2e42e20db30199f0e3897571333d019bce84447d906ea9e4e1063d845c065e9b
-size-not-lfs 1531
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: LM_040
+  m_EditorClassIdentifier: 
+  CardIndex: 5441
+  cardColors: 0100000002000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 1
+    Level: 5
+    MemoryCost: 4
+  - CardColor: 2
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Vikemon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Free
+  Type_JPN: []
+  Type_ENG:
+  - Beastkin
+  - Sea Beast
+  CardSpriteName: LM-040
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] [Shakkoumon]/[Zudomon]: Cost 3 \n\n\uFF1CIceclad\uFF1E
+    \n[When Digivolving] Trash any 4 digivolution cards from your opponent's Digimon.\n[When
+    Attacking] [Once Per Turn] If your opponent has no Digimon with as many or more
+    digivolution cards as this Digimon, it unsuspends. Then, all of your opponent's
+    Security Digimon get -6000 DP for the turn."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: LM_040
+  DP: 12000
+  rarity: 5
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: LM-040
+  MaxCountInDeck: 4

@@ -1,3 +1,58 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:c254e6f2acb9d6fcf55d675488812a61f62b41c70466f792efe6ac5ff98d92f3
-size-not-lfs 1722
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX11_045
+  m_EditorClassIdentifier: 
+  CardIndex: 7750
+  cardColors: 05000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Metatromon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Machine
+  - LIBERATOR
+  CardSpriteName: EX11-045
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.5 w/[Maquinamon]\_in text: Cost 3 \n\n\uFF1CBlocker\uFF1E
+    \n[On Play] [When Digivolving] [When Attacking] [Once Per Turn] \uFF1CDe-Digivolve
+    2\uFF1E 1 of your opponent's Digimon. Then, 1 of their Digimon or Tamers can't
+    digivolve until their turn ends.\n[End of Your Turn] [Once Per Turn] 1 of your
+    other Digimon may digivolve into a green Digimon card with [Maquinamon]\_in its
+    text in the hand without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[All Turns] [Once Per Turn] When effects add to
+    this Digimon''s digivolution cards, delete 1 of your opponent''s Digimon with
+    the lowest play cost.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX11_045
+  DP: 12000
+  rarity: 3
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX11-045
+  MaxCountInDeck: 4

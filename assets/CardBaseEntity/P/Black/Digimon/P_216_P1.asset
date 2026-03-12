@@ -1,3 +1,54 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:226104f085554acef49a539368c8978199bbe0cf4202eb94ac405a8461bf29fc
-size-not-lfs 1513
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_216_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 7512
+  cardColors: 05000000
+  PlayCost: 6
+  EvoCosts:
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: WaruMonzaemon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Puppet
+  CardSpriteName: P-216_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "\uFF1CBlocker\uFF1E \n[On Play] You may play 1 [Dark Masters]\_trait
+    Digimon card from your hand without paying the cost. The Digimon this effect
+    played can't digivolve and is deleted at turn end.\n[On Deletion] You may play
+    1 face-up [Dark Masters]\_trait Digimon card from your security stack without
+    paying the cost. At the end of your turn, delete the Digimon this effect played."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "\uFF1CBlocker\uFF1E "
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: P_216
+  DP: 6000
+  rarity: 5
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: P-216
+  MaxCountInDeck: 4

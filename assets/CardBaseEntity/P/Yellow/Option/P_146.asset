@@ -1,3 +1,51 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:aae795043810325276dfe12b6163f70e87a67646dfce4f9221b9a5dbf0231b31
-size-not-lfs 1639
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_146
+  m_EditorClassIdentifier: 
+  CardIndex: 10303
+  cardColors: 02000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Recharge Plug-In Q
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Option
+  CardSpriteName: P-146
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "While you have a Tamer, you may ignore this card's color
+    requirements.\n[Security] 1 of your opponent's Digimon gains \uFF1CSecurity Attack
+    -1\uFF1Efor the turn.\n[Main] Place this card as 1 of your non-white Digimon's
+    bottom digivolution card."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[All Turns] When this Digimon would be deleted
+    by battle, by placing 1 [Reload Plug-In Q] from this Digimon''s digivolution
+    cards at the bottom of your security stack, prevent that deletion.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[All Turns] When this Digimon would be deleted
+    by battle, by placing 1 [Recharge Plug-In Q] from this Digimon''s digivolution
+    cards at the bottom of your security stack, prevent that deletion.'
+  CardEffectClassName: P_146
+  DP: 0
+  rarity: 5
+  OverflowMemory: 0
+  CardID: P-146
+  MaxCountInDeck: 4

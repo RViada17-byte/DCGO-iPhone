@@ -1,3 +1,48 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:aff0d971992bcdc43c07a7b978a235376a6f5c53fdd561b5c80c6f916dafc435
-size-not-lfs 1399
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX8_065_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 4176
+  cardColors: 00000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Ryutaro Williams
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - LIBERATOR
+  CardSpriteName: EX8-065_P1
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Start of Your Main Phase] If your opponent has a Digimon,
+    gain 1 memory.\n[Your Turn] When one of your Digimon with [Tyrannomon]\_in its
+    name attacks, by suspending this Tamer, that Digimon may digivolve into a Digimon
+    card with [Tyrannomon]\_in its name or the [Dinosaur]\_trait in the hand with
+    the digivolution cost reduced by 1."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying the cost.'
+  CardEffectClassName: EX8_065
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  CardID: EX8-065
+  MaxCountInDeck: 4

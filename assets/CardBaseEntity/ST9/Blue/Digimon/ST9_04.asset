@@ -1,3 +1,55 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:943a5d33e81944ed969f3898a68ce869bfed37484c48389bf8cec17a63b9284e
-size-not-lfs 1929
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST9_04
+  m_EditorClassIdentifier: 
+  CardIndex: 1734
+  cardColors: 01000000
+  PlayCost: 4
+  EvoCosts:
+  - CardColor: 1
+    Level: 3
+    MemoryCost: 2
+  - CardColor: 3
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: "\u30A8\u30AF\u30B9\u30D6\u30A4\u30E2\u30F3"
+  CardName_ENG: ExVeemon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30D5\u30EA\u30FC"
+  Attribute_ENG:
+  - Free
+  Type_JPN:
+  - "\u5E7B\u7ADC\u578B"
+  Type_ENG:
+  - Mythical Dragon
+  CardSpriteName: ST9-04
+  cardKind: 0
+  EffectDiscription_JPN: "\u624B\u672D\u306E\u3053\u306E\u30AB\u30FC\u30C9\u3092\u767B\u5834\u3055\u305B\u308B\u3068\u304D\u3001\u7DD1\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u3044\u308B\u306A\u3089\u3001\u652F\u6255\u3046\u767B\u5834\u30B3\u30B9\u30C8\u3092-1\u3059\u308B\u3002"
+  EffectDiscription_ENG: When you would play this card from your hand, if you have
+    a green Digimon in play, reduce its play cost by 1.
+  InheritedEffectDiscription_JPN: "\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\u7DD1\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u3044\u308B\u3068\u304D\u3001\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306EDP\u3092+1000\u3059\u308B\u3002"
+  InheritedEffectDiscription_ENG: '[When Attacking] If you have a green Digimon in
+    play, this Digimon gets +1000 DP for the turn.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: ST9_04
+  DP: 4000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: ST9-04
+  MaxCountInDeck: 4

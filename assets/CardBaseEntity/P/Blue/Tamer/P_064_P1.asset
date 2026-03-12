@@ -1,3 +1,46 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:35c2179da3cc3f457ad0991127e5c821c3f3783c14012d4cce1944b194004ac4
-size-not-lfs 1221
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_064_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 10369
+  cardColors: 01000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Kiyoshiro Higashimitarai
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Tamer
+  CardSpriteName: P-064_P1
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Your Turn] When one of your Digimon with [Jellymon] in
+    its digivolution cards attacks, by suspending this Tamer , that Digimon gains
+    \uFF1CJamming\uFF1Efor the turn."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying the cost.'
+  CardEffectClassName: P_064
+  DP: 0
+  rarity: 5
+  OverflowMemory: 0
+  CardID: P-064
+  MaxCountInDeck: 4

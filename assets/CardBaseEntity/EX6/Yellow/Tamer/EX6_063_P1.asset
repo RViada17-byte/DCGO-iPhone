@@ -1,3 +1,47 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:9fb221c320ee6e588564b74309a4e5bae64ffe64e758c016b947efb90ed6fca8
-size-not-lfs 1361
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX6_063_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 3528
+  cardColors: 02000000
+  PlayCost: 4
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: T.K. Takaishi & Kari Kamiya
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Tamer
+  CardSpriteName: EX6-063_P1
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Start of Your Main Phase] [On Play] 1 of your yellow Digimon
+    gains \uFF1CBarrier\uFF1Euntil the end of your opponent's turn.\n[Your Turn]
+    When one of your Digimon is played or digivolves, if it has the [Angel]/[Archangel]/[Three
+    Great Angels]\_trait, by suspending this Tamer, gain 1 memory."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying the cost.'
+  CardEffectClassName: EX6_063
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  CardID: EX6-063
+  MaxCountInDeck: 4

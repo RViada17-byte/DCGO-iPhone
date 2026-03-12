@@ -1,3 +1,55 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:338bc38bf98a6fd3e2d6f2a514d46093f69f3c304fdd5a7e94935b12d55dc1b1
-size-not-lfs 1527
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST18_12
+  m_EditorClassIdentifier: 
+  CardIndex: 3829
+  cardColors: 03000000
+  PlayCost: 11
+  EvoCosts:
+  - CardColor: 3
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Zephagamon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Magic Knight
+  - Vortex Warriors
+  - LIBERATOR
+  - Bird Dragon
+  CardSpriteName: ST18-12
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "\uFF1CVortex\uFF1E (At the end of your turn, this Digimon
+    may attack an opponent's Digimon. With this effect, it can attack the turn it
+    was played)\n[When Digivolving] Suspend 1 Digimon. Then, unsuspend 1 Digimon.\n[All
+    Turns] [Once Per Turn] When a Digimon is unsuspended, this Digimon is unaffected
+    by your opponent's Digimon's effects, and gets +3000 DP for the turn.\n[Rule]
+    Trait: Has the [Bird Dragon] type."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: ST18_12
+  DP: 11000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: ST18-12
+  MaxCountInDeck: 4

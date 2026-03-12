@@ -1,3 +1,53 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:9a9ee0f06ee8420326bc3ea918e391fa981f09b1f4c5fa843c76c8ccc51c5db0
-size-not-lfs 1988
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_025
+  m_EditorClassIdentifier: 
+  CardIndex: 6050
+  cardColors: 03000000
+  PlayCost: 11
+  EvoCosts:
+  - CardColor: 3
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: "\u30B0\u30E9\u30F3\u30AF\u30EF\u30AC\u30FC\u30E2\u30F3"
+  CardName_ENG: GranKuwagamon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30D5\u30EA\u30FC"
+  Attribute_ENG:
+  - Free
+  Type_JPN:
+  - "\u6606\u866B\u578B"
+  Type_ENG:
+  - Insectoid
+  CardSpriteName: P-025
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u226A\u30C7\u30B8\u30D0\u30FC\u30B9\u30C82\u226B\uFF08\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u3092\u3001\u9078\u3093\u30672\u679A\u7834\u68C4\u3059\u308B\u3053\u3068\u3067\u4EE5\u4E0B\u306E\u52B9\u679C\u3092\u767A\u63EE\u3059\u308B\uFF09\u30FB\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306F\u226A\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u30A2\u30BF\u30C3\u30AF+1\u226B(\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30C1\u30A7\u30C3\u30AF\u3059\u308B\u679A\u6570+1)\u3092\u5F97\u308B\u3002"
+  EffectDiscription_ENG: "[Main] \uFF1CDigi-Burst 2\uFF1E (Trash 2 of this Digimon's
+    digivolution cards to activate the effect below.)\u30FB1 of your Digimon gains
+    \uFF1CSecurity Attack +1\uFF1E (This Digimon checks 1 additional security card)
+    for the turn."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: P_025
+  DP: 11000
+  rarity: 5
+  OverflowMemory: 0
+  CardID: P-025
+  MaxCountInDeck: 4

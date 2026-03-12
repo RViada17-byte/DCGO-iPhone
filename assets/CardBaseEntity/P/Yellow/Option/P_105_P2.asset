@@ -1,3 +1,49 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:a935bfbd070d8e95c76121711a6b22c740c42ec7152ce4b97b8895b47ebe675f
-size-not-lfs 1436
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_105_P2
+  m_EditorClassIdentifier: 
+  CardIndex: 10325
+  cardColors: 02000000
+  PlayCost: 2
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Physical Training
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Option
+  CardSpriteName: P-105_P2
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Main] Reveal the top 2 cards of your deck. Add 1 yellow
+    card among them to your hand. Place the rest at the bottom of your deck in any
+    order. Then, place this card into your battle area.\n[Main] \uFF1CDelay\uFF1E
+    \n\u30FB1 of your Digimon may digivolve into a yellow Digimon card in your hand
+    for its digivolution cost. When it would digivolve by this effect, reduce the
+    cost by 2."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Place this card in the battle area.'
+  CardEffectClassName: P_105
+  DP: 0
+  rarity: 5
+  OverflowMemory: 0
+  CardID: P-105
+  MaxCountInDeck: 4

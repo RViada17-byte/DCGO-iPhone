@@ -1,3 +1,59 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:fa944b87f73361788b43539eebb45911e0a86ef1e74216fedef8971dc85fd4e6
-size-not-lfs 1591
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX9_033_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 6898
+  cardColors: 0200000006000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 2
+    Level: 5
+    MemoryCost: 4
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Kaguyamon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Puppet
+  - LIBERATOR
+  CardSpriteName: EX9-033_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.5 w/[Puppet]\_trait: Cost 3 \n\n[All Turns]
+    All of your Tokens and [Puppet]\_trait Digimon gain \uFF1CAlliance\uFF1E and
+    \uFF1CBlocker\uFF1E \n[All Turns] [Once Per Turn] When other Digimon are deleted,
+    delete 1 of your opponent's lowest level Digimon.\n[End of Your Turn] [Once Per
+    Turn] You may play 1 level 4 or lower [Puppet]\_trait Digimon card from your
+    trash without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX9_033
+  DP: 12000
+  rarity: 3
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX9-033
+  MaxCountInDeck: 4

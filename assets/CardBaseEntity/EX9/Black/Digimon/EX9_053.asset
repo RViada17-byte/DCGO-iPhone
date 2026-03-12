@@ -1,3 +1,57 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:804d932573bd7879453621f830cdc0f9a1a4bc08e90ab00a78c0955c47d29d2a
-size-not-lfs 1578
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX9_053
+  m_EditorClassIdentifier: 
+  CardIndex: 6937
+  cardColors: 05000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Mamemon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Mutant
+  - DM
+  - Ver.1
+  CardSpriteName: EX9-053
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.4 w/[DM]\_trait: Cost 3 \n\n\uFF1CCollision\uFF1E
+    \n[On Play] [When Digivolving] Reveal the top 3 cards of your deck. you may play
+    1 play cost 4 or lower [DM]\_trait card among them without paying the cost. For
+    each of this Digimon's face-down digivolution cards, add 1 to this effect's play
+    cost maximum. Return the rest to the bottom of the deck."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[When Attacking] [Once Per Turn] \uFF1CDe-Digivolve
+    1\uFF1E 1 of your opponent's Digimon."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX9_053
+  DP: 7000
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX9-053
+  MaxCountInDeck: 4

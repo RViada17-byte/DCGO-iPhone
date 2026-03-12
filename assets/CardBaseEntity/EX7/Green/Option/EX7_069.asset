@@ -1,3 +1,45 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:82966b9f939837c0f953b343c3bfc0f9944933553e65ae17c995113048982e2d
-size-not-lfs 1158
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX7_069
+  m_EditorClassIdentifier: 
+  CardIndex: 3806
+  cardColors: 03000000
+  PlayCost: 2
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Wind Slicer
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - LIBERATOR
+  CardSpriteName: EX7-069
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[Main] You may suspend 1 level 6 or lower Digimon. If this
+    effect suspended your Digimon, unsuspend 1 of your Digimon.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Activate this card''s [Main] effect.'
+  CardEffectClassName: EX7_069
+  DP: 0
+  rarity: 0
+  OverflowMemory: 0
+  CardID: EX7-069
+  MaxCountInDeck: 4

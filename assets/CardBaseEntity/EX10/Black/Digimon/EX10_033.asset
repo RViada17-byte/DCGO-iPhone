@@ -1,3 +1,56 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:79920c03c959585fc13278b7bad9d242fd7c8acf612ee32e320a57bab6aaa0b1
-size-not-lfs 1567
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX10_033
+  m_EditorClassIdentifier: 
+  CardIndex: 7194
+  cardColors: 05000000
+  PlayCost: 11
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Pyramidimon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Mineral
+  - LIBERATOR
+  CardSpriteName: EX10-033
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "\uFF1CFragment (3)\uFF1E \n[When Digivolving] [When Attacking]
+    [Once Per Turn] You may place up to 3 [Mineral] or [Rock]\_trait cards from your
+    trash as this Digimon's bottom digivolution cards.\n[When Digivolving] [When
+    Attacking] By trashing up to 3 [Mineral] or [Rock]\_trait cards from any of your
+    Digimon's digivolution cards, to 1 of your opponent's Digimon, reduce the play
+    cost by 2 until their turn ends for each card trashed."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX10_033
+  DP: 11000
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX10-033
+  MaxCountInDeck: 4

@@ -1,3 +1,53 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:4cf99e4f8ab2eefbdf5c57c300afb5fcc17d763085728b0ca4eb44aea96a13d4
-size-not-lfs 1552
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX5_074_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 4239
+  cardColors: 02000000
+  PlayCost: 15
+  EvoCosts:
+  - CardColor: 2
+    Level: 6
+    MemoryCost: 6
+  Level: 7
+  CardName_JPN: 
+  CardName_ENG: Fanglongmon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - NO DATA
+  Type_JPN: []
+  Type_ENG:
+  - God Beast
+  CardSpriteName: EX5-074_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.6 w/[Four Sovereigns]\_trait: Cost 4 \n\n[On
+    Play] [When Attacking] By returning up to 4 cards with the [Deva]/[Four Sovereigns]\_trait
+    from your trash to the bottom of the deck, for each one, all your opponent's
+    Digimon get -4000 DP for the turn.\n[When Attacking] For each of your Digimon
+    with the [Four Sovereigns]\_trait, trash the top card of your opponent's security
+    stack.\n[All Turns] This Digimon isn't affected by the effects of your opponent's
+    Digimon."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX5_074
+  DP: 15000
+  rarity: 4
+  OverflowMemory: 0
+  CardID: EX5-074
+  MaxCountInDeck: 4

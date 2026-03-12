@@ -1,3 +1,58 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:3f85b6037042bd5ce0a8616cf6744a789fea4dd68a67163b8673ffcfb30a6d24
-size-not-lfs 2631
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX4_030
+  m_EditorClassIdentifier: 
+  CardIndex: 2579
+  cardColors: 0200000001000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 2
+    Level: 5
+    MemoryCost: 3
+  - CardColor: 1
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: "\u30AF\u30BA\u30CF\u30E2\u30F3"
+  CardName_ENG: Kuzuhamon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u795E\u4EBA\u578B"
+  Type_ENG:
+  - Shaman
+  CardSpriteName: EX4-030
+  cardKind: 0
+  EffectDiscription_JPN: "\u3053\u306E\u30AB\u30FC\u30C9/\u30C7\u30B8\u30E2\u30F3\u306F\u540D\u79F0\u306B\u300C\u30B5\u30AF\u30E4\u30E2\u30F3\u300D\u3092\u542B\u3080\u3082\u306E\u3068\u3057\u3066\u3082\u6271\u3046\u3002\u3010\u9032\u5316\u6642\u3011\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u4F7F\u7528\u30B3\u30B9\u30C85\u4EE5\u4E0B\u306E\u30AA\u30D7\u30B7\u30E7\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u81EA\u5206\u304C\u4F7F\u7528\u30B3\u30B9\u30C82\u4EE5\u4E0A\u306E\u30AA\u30D7\u30B7\u30E7\u30F3\u30AB\u30FC\u30C9\u3092\u4F7F\u7528\u3057\u305F\u3068\u304D\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u304B\u3089\u300C\u30BF\u30AA\u30E2\u30F3\u300D\u304B\u9EC4\u304B\u9752\u306ELv.4\u4EE5\u4E0B\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002"
+  EffectDiscription_ENG: This card/Digimon is also treated as having [Sakuyamon]
+    in its name. [When Digivolving] You may use an Option card with a cost of 5 or
+    less in your hand without paying the cost. [Your Turn][Once Per Turn] When you
+    use an Option card with a cost of 2 or more, you may play 1 [Taomon] or 1 level
+    4 or lower yellow or blue Digimon card from this Digimon's digivolution cards
+    without paying the cost.
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX4_030
+  DP: 11000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: EX4-030
+  MaxCountInDeck: 4

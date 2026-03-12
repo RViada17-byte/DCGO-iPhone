@@ -1,3 +1,76 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:a99b2b2a9eeac80166e30f24d23bc46ffcf48bd399163eae758c447c519c7a75
-size-not-lfs 1945
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX9_074
+  m_EditorClassIdentifier: 
+  CardIndex: 6975
+  cardColors: 04000000
+  PlayCost: 10
+  EvoCosts:
+  - CardColor: 0
+    Level: 4
+    MemoryCost: 5
+  - CardColor: 1
+    Level: 4
+    MemoryCost: 5
+  - CardColor: 2
+    Level: 4
+    MemoryCost: 5
+  - CardColor: 3
+    Level: 4
+    MemoryCost: 5
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 5
+  - CardColor: 6
+    Level: 4
+    MemoryCost: 5
+  - CardColor: 4
+    Level: 4
+    MemoryCost: 5
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Kimeramon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Composite
+  - DM
+  - Ver.3
+  CardSpriteName: EX9-074
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "\uFF1CRush\uFF1E.\n\uFF1CSecurity A. +1\uFF1E \n[On Play]
+    [When Digivolving] You may place 1 level 4 or lower [DM]\_trait Digimon card
+    from your trash as this Digimon's top digivolution card. Then, delete 1 of your
+    opponent's Digimon with the same color as any of this Digimon's digivolution
+    cards. If this Digimon has 6 or more colors in its digivolution cards, instead
+    delete 1 of each of your opponent's Digimon with different colors.\n[All Turns]
+    This Digimon gets +1000 DP for each color in its digivolution cards."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX9_074
+  DP: 10000
+  rarity: 4
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX9-074
+  MaxCountInDeck: 4

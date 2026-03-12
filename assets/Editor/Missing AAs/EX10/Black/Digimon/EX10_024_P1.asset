@@ -1,3 +1,53 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:77ddfadb54d1d77d2a58859f03bb931fc611b986d4d1e8a548bb696079aa779f
-size-not-lfs 1394
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX10_024_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 7176
+  cardColors: 05000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 5
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: 
+  CardName_ENG: Kabemon
+  Form_JPN: []
+  Form_ENG:
+  - Stnd.
+  - Appmon
+  Attribute_JPN: []
+  Attribute_ENG:
+  - System
+  Type_JPN: []
+  Type_ENG:
+  - Wallpaper
+  CardSpriteName: EX10-024_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.2 w/[Appmon]\_trait: Cost 0 \n\n[Security]
+    At the end of the battle, play this card without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX10_024
+  DP: 1000
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 2000
+  LinkEffect: "[When Attacking] By trashing 1 of this Digimon's link cards, \uFF1CDe-Digivolve
+    1\uFF1E 1 of your opponent's Digimon. "
+  LinkRequirement: "[Link] [Appmon]\_trait: Cost 1 "
+  CardID: EX10-024
+  MaxCountInDeck: 4

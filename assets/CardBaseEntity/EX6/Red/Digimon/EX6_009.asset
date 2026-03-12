@@ -1,3 +1,54 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:4773d382ffceced97a26b2a4b6ddb31f773dba94b2c970cc1f1cbf9f193ad487
-size-not-lfs 1640
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX6_009
+  m_EditorClassIdentifier: 
+  CardIndex: 3447
+  cardColors: 00000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 0
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Duramon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Weapon
+  - Legend-Arms
+  CardSpriteName: EX6-009
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.4 w/[Legend-Arms]\_trait: Cost 3 \n\n[Hand]
+    [Main] By paying 2 cost and placing this card as the bottom digivolution card
+    of 1 of your Digimon that's level 5 or has the [Legend-Arms]\_trait, that Digimon
+    gains \uFF1CSecurity Attack +1\uFF1Efor the turn.\n[Your Turn] [Once Per Turn]
+    When an effect places a digivolution card under this Digimon, this Digimon gains
+    \uFF1CRaid\uFF1Eand \uFF1CPiercing\uFF1Efor the turn."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[Your Turn] [Once Per Turn] When this Digimon''s
+    attack target is switched, trash the top card of your opponent''s security stack.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX6_009
+  DP: 7000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: EX6-009
+  MaxCountInDeck: 4

@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:d70a95d96207d6ba0db5f5c1a809c58568358ab69ae2f581bc545cb5b849b6f3
-size-not-lfs 1494
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX11_059_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 7777
+  cardColors: 0200000006000000
+  PlayCost: 4
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Reina Oumi
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - NSo
+  - LIBERATOR
+  CardSpriteName: EX11-059_P1
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Start of Your Main Phase] [On Play] By trashing 1 [NSo]\_trait
+    card from your hand, \uFF1CDraw 1\uFF1E and gain 1 memory.\n[All Turns] When
+    any of your [NSo]\_trait Digimon are deleted, by suspending this Tamer, 1 of
+    your [NSo]\_trait Digimon and 1 [NSo]\_trait Digimon card in the trash may DNA
+    digivolve into a Digimon card with the [NSo]\_trait in the hand."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying the cost.'
+  CardEffectClassName: EX11_059
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX11-059
+  MaxCountInDeck: 4

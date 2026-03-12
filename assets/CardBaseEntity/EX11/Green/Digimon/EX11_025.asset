@@ -1,3 +1,60 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:392e69567ca9c7062669f49300e84150e04c94d77c6e99cb9659a9a3c36904b1
-size-not-lfs 1581
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX11_025
+  m_EditorClassIdentifier: 
+  CardIndex: 7707
+  cardColors: 0300000005000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 3
+    Level: 2
+    MemoryCost: 1
+  - CardColor: 5
+    Level: 2
+    MemoryCost: 1
+  Level: 3
+  CardName_JPN: 
+  CardName_ENG: FunBeemon
+  Form_JPN: []
+  Form_ENG:
+  - Rookie
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Insectoid
+  - X Antibody
+  - Royal Base
+  - LIBERATOR
+  CardSpriteName: EX11-025
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.2 w/[Royal Base]\_trait: Cost 0 \n\n[Security]
+    [Opponent's Turn] All of your [Royal Base]\_trait Digimon gain \uFF1CReboot\uFF1E
+    \n[Start of Your Main Phase] Add your top face-down security card to the hand.
+    Then, you may place 1 [Royal Base]\_trait Digimon card from your hand face up
+    as the bottom security card."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[All Turns] This Digimon gets +1000 DP.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX11_025
+  DP: 1000
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX11-025
+  MaxCountInDeck: 4

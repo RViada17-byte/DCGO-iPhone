@@ -1,3 +1,53 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:5c9890cb05e5ccd87142673c205c5d63bdde19d296ccdbfefe01a7d3319bd428
-size-not-lfs 1595
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST22_07
+  m_EditorClassIdentifier: 
+  CardIndex: 7498
+  cardColors: 02000000
+  PlayCost: 4
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Rika Nonaka
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - '-'
+  CardSpriteName: ST22-07
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Start of Your Main Phase] [On Play] By placing 1 Option
+    card with the [Onmy\u014Djutsu] or [Plug-In]\_trait from your hand under this
+    Tamer, \uFF1CDraw 1\uFF1E and gain 1 memory.\n[Your Turn] When one of your Digimon
+    with [Renamon], [Kyubimon], [Taomon] or [Sakuyamon]\_in its name attacks, by
+    suspending this Tamer, you may use 1 [Onmy\u014Djutsu] or [Plug-In]\_trait Option
+    card with as high or lower a use cost as that Digimon's level from under this
+    Tamer without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying the cost.'
+  CardEffectClassName: ST22_07
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: ST22-07
+  MaxCountInDeck: 4

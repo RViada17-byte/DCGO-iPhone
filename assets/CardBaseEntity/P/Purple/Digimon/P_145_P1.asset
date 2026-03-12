@@ -1,3 +1,51 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:abc624e47bc270544993087d80d8ac7e48b8a9147a67fc9a9c2a7667f70c6af9
-size-not-lfs 1387
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_145_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 10302
+  cardColors: 06000000
+  PlayCost: 8
+  EvoCosts:
+  - CardColor: 6
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Myotismon (X Antibody)
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Undead
+  - X Antibody
+  CardSpriteName: P-145_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve][Myotismon]: Cost 0 \n\n[On Play] [When Digivolving]
+    Delete 1 of your opponent's level 4 or lower Digimon.\n[On Deletion] If [Myotismon]/[X
+    Antibody] is in this Digimon's digivolution cards, you may play 1 level 6 Digimon
+    card with [Myotismon]\_in its name from your trash without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: P_145
+  DP: 8000
+  rarity: 5
+  OverflowMemory: 0
+  CardID: P-145
+  MaxCountInDeck: 4

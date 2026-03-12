@@ -1,3 +1,54 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:2e4020e349a98caaa6e08d07d8617e9a25edc76514b600f2f6787f7a3473e04a
-size-not-lfs 1466
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX10_048
+  m_EditorClassIdentifier: 
+  CardIndex: 7221
+  cardColors: 06000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 6
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Myotismon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Undead
+  CardSpriteName: EX10-048
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "When this card would be played, by deleting 1 of your Digimon
+    with [Myotismon]\_in its text, reduce the play cost by 4.\n[On Play] [On Deletion]
+    Until your opponent's turn ends, 1 of your purple Digimon gains \uFF1CBlocker\uFF1E
+    and \uFF1CRetaliation\uFF1E "
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[On Deletion] You may play 1 purple Tamer card
+    from your trash suspended without paying the cost.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX10_048
+  DP: 7000
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX10-048
+  MaxCountInDeck: 4

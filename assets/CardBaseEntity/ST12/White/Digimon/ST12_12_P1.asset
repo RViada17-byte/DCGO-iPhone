@@ -1,3 +1,48 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:9524e7115553a82d81db6b38752dcf05e5da0e65c846203523fadbf4472b60ea
-size-not-lfs 1381
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST12_12_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 4906
+  cardColors: 04000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 3
+  CardName_JPN: 
+  CardName_ENG: Sistermon Blanc
+  Form_JPN: []
+  Form_ENG:
+  - Rookie
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Puppet
+  CardSpriteName: ST12-12_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[On Play] By trashing 1 card in your hand, \uFF1CDraw 2\uFF1E
+    \n[All Turns] While you have a Digimon in play with [Huckmon]\_in its name or
+    [Royal Knight]\_trait, this Digimon gains \uFF1CDecoy (Red/Black)\uFF1E(When
+    your other Red/Black Digimon would be deleted by an opponent's effect, you may
+    delete this Digimon to prevent 1 of those Digimon's deletion)."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: ST12_12
+  DP: 3000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: ST12-12
+  MaxCountInDeck: 4

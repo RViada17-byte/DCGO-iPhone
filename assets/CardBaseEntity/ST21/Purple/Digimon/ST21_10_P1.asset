@@ -1,3 +1,55 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:177f67bf43534cb77841bb7c232d8790fd1d7837dd4a04ffa9afeeccf8ef6efd
-size-not-lfs 1493
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST21_10_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 5289
+  cardColors: 06000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 6
+    Level: 2
+    MemoryCost: 0
+  - CardColor: 1
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: 
+  CardName_ENG: Gabumon
+  Form_JPN: []
+  Form_ENG:
+  - Rookie
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Reptile
+  - ADVENTURE
+  CardSpriteName: ST21-10_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.2 w/[ADVENTURE]\_trait: Cost 0 \n\n[Your
+    Turn] While your opponent has a Digimon with 10000 DP or more, or your Tamers
+    have 3 or more total colors, this Digimon can digivolve into [MetalGarurumon]
+    in the hand for a digivolution cost of 4, ignoring digivolution requirements."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[When Attacking] [Once Per Turn] \uFF1CDraw 1\uFF1E.
+    Then, trash 1 card in your hand."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: ST21_10
+  DP: 1000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: ST21-10
+  MaxCountInDeck: 4

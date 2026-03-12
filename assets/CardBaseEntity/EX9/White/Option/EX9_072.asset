@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:a3c589ddaf7694e1a2c621578a196defe0e29807d4c7088e9020d0a765268533
-size-not-lfs 1491
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX9_072
+  m_EditorClassIdentifier: 
+  CardIndex: 6970
+  cardColors: 04000000
+  PlayCost: 2
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: File Island
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - DM
+  CardSpriteName: EX9-072
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "While you have no face-up security cards, you can ignore
+    this card's color requirements.\n[Security] [All Turns] All of your [DM]\_trait
+    Digimon get +1000 DP for each of their face-down digivolution cards.\n[Main]
+    Add your bottom security card to the hand. Then, place this card face up as the
+    bottom security card."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: "[Security] You may play 1 play cost 5 or lower
+    card with the [DM]\_trait from your hand or trash without paying the cost."
+  CardEffectClassName: EX9_072
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX9-072
+  MaxCountInDeck: 4

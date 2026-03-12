@@ -1,3 +1,55 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:4f3bc8e1b09af104b518172b30959c1f01f46003b9541f0dccf9eb2f83c17d82
-size-not-lfs 2689
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX5_058
+  m_EditorClassIdentifier: 
+  CardIndex: 3097
+  cardColors: 06000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 6
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: "\u30AA\u30AF\u30BF\u30E2\u30F3"
+  CardName_ENG: Octomon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u8EDF\u4F53\u578B"
+  Type_ENG:
+  - Mollusk
+  CardSpriteName: EX5-058
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u3010\u9032\u5316\u6642\u3011\u300C\u30D5\u30B8\u30C4\u30E2\u30F3\u300D\uFF08\u30C7\u30B8\u30E2\u30F3\u30FB\u7D2B\u30FBDP3000\u30FB\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u306A\u3089\u306A\u3044\u3002\u3010\u6D88\u6EC5\u6642\u3011\u81EA\u5206\u306E\u624B\u672D\u30921\u679A\u7834\u68C4\u3059\u308B\u3002\uFF09\u306E\u30C8\u30FC\u30AF\u30F31\u4F53\u3092\u3001\u304A\u4E92\u3044\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u5408\u8A08\u304C\u30014\u4F53\u4EE5\u4E0A\u306A\u3089\u81EA\u5206\u306E\u30D0\u30C8\u30EB\u30A8\u30EA\u30A2\u306B\u30EC\u30B9\u30C8\u72B6\u614B\u3067\u767B\u5834\u3055\u305B\u308B\u30023\u4F53\u4EE5\u4E0B\u306A\u3089\u76F8\u624B\u306E\u30D0\u30C8\u30EB\u30A8\u30EA\u30A2\u306B\u30EC\u30B9\u30C8\u72B6\u614B\u3067\u767B\u5834\u3055\u305B\u308B\u3002"
+  EffectDiscription_ENG: '[On Play] [When Digivolving] If there are 4 or more total
+    Digimon, play 1 [Fujitsumon] Token (Digimon/Purple/3000 DP/[All Turns] This Digimon
+    doesn''t unsuspend./[On Deletion] Trash 1 card in your hand.) suspended to your
+    battle area. If there are 3 or fewer, play it suspended to your opponent''s battle
+    area.'
+  InheritedEffectDiscription_JPN: "\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u52B9\u679C\u3067\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u767B\u5834\u3057\u305F\u3068\u304D\u3001\u30E1\u30E2\u30EA\u30FC+1\u3002"
+  InheritedEffectDiscription_ENG: '[All Turns] [Once Per Turn] When an effect plays
+    an opponent''s Digimon, gain 1 memory.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX5_058
+  DP: 5000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: EX5-058
+  MaxCountInDeck: 4

@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:02b215f8518a26b644abb53a77290c5388b65df8c12c98ee8ccdb2507a8813e8
-size-not-lfs 1318
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_178
+  m_EditorClassIdentifier: 
+  CardIndex: 5299
+  cardColors: 0000000002000000
+  PlayCost: 6
+  EvoCosts:
+  - CardColor: 0
+    Level: 3
+    MemoryCost: 3
+  - CardColor: 2
+    Level: 3
+    MemoryCost: 3
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Sagittarimon
+  Form_JPN: []
+  Form_ENG:
+  - Armor Form
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Free
+  Type_JPN: []
+  Type_ENG:
+  - Mythical Beast
+  CardSpriteName: P-178
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] [Veemon]: Cost 2 \n\n\uFF1CArmor Purge\uFF1E
+    \n[When Digivolving] 1 of your opponent's Digimon gets -3000 DP for the turn.\n[When
+    Attacking] Delete 1 of your opponent's Digimon with 4000 DP or less."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: P_178
+  DP: 6000
+  rarity: 5
+  OverflowMemory: 0
+  CardID: P-178
+  MaxCountInDeck: 4

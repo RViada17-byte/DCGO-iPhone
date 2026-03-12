@@ -1,3 +1,56 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:095687e210ee7fb9dcbd587e8f53378c060a4e54e53754078b912d964a8ed438
-size-not-lfs 1583
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX6_058
+  m_EditorClassIdentifier: 
+  CardIndex: 3514
+  cardColors: 0600000000000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 4
+  - CardColor: 0
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Creepymon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Demon Lord
+  - Seven Great Demon Lords
+  CardSpriteName: EX6-058
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "\uFF1CBlocker\uFF1E \n[On Play] [When Digivolving] Delete
+    1 of your opponent's Digimon with the lowest DP. For each level of the Digimon
+    deleted by this effect, trash the top card of your deck.\n[All Turns] When this
+    Digimon would leave the battle area other than in battle, place 1 card with the
+    [Seven Great Demon Lords]\_trait from your trash as the bottom digivolution card
+    of one of your [Gate of Deadly Sins] in your breeding area."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX6_058
+  DP: 12000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: EX6-058
+  MaxCountInDeck: 4

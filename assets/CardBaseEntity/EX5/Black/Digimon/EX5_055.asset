@@ -1,3 +1,61 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:9632f7dc4e5a378a78579beb5e768ef5a0c84421267fb4f2af9285c017ec71e8
-size-not-lfs 2984
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX5_055
+  m_EditorClassIdentifier: 
+  CardIndex: 3094
+  cardColors: 0500000003000000
+  PlayCost: 13
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 5
+  - CardColor: 3
+    Level: 5
+    MemoryCost: 5
+  Level: 6
+  CardName_JPN: "\u30D8\u30F4\u30A3\u30FC\u30EC\u30AA\u30E2\u30F3"
+  CardName_ENG: HeavyLeomon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u30DE\u30B7\u30FC\u30F3\u578B"
+  Type_ENG:
+  - Machine
+  CardSpriteName: EX5-055
+  cardKind: 0
+  EffectDiscription_JPN: "\u540D\u79F0\u306B\u300C\u30EC\u30AA\u30E2\u30F3\u300D\u3092\u542B\u3080Lv.5:\u30B3\u30B9\u30C84\u226A\u4E0D\u5C48\u226B(\u9032\u5316\u5143\u3092\u6301\u3064\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u6D88\u6EC5\u3057\u305F\u3068\u304D\u3001\u3053\u306E\u30AB\u30FC\u30C9\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3055\u305B\u308B)\u3010\u9032\u5316\u6642\u3011\u3010\u6D88\u6EC5\u6642\u3011\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u226A\u9000\u53161\u226B\u3002\u305D\u306E\u5F8C\u3001DP6000\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u30C7\u30C3\u30AD\u306E\u4E0B\u306B\u623B\u3059\u3002\u3010\u30A2\u30BF\u30C3\u30AF\u7D42\u4E86\u6642\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3DDP4000\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u30C7\u30C3\u30AD\u306E\u4E0B\u306B\u623B\u3059\u3002\u3053\u306E\u52B9\u679C\u3067\u623B\u3089\u306A\u304B\u3063\u305F\u306A\u3089\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u3059\u308B\u3002"
+  EffectDiscription_ENG: "[Digivolve] Lv.5 w/[Leomon] in name: Cost 4\uFF1CFortitude\uFF1E
+    (When this Digimon with digivolution cards is deleted, play this card without
+    paying the cost).[When Digivolving] [On Deletion] \uFF1CDe-Digivolve  1\uFF1E
+    on 1 of your opponent's Digimon (Trash up to 1 card from the top of one of your
+    opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon,
+    you can't trash any more cards). Then, return 1 of their 6000 DP or lower Digimon
+    to the bottom of the deck.[End of Attack] [Once Per Turn] Return 1 of your opponent's
+    4000 DP or lower Digimon to the bottom of the deck. If you didn't, unsuspend
+    this Digimon."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX5_055
+  DP: 13000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: EX5-055
+  MaxCountInDeck: 4

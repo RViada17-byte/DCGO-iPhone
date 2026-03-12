@@ -1851,6 +1851,10 @@ public class Effects : MonoBehaviour
             yield break;
         }
 
+#if UNITY_EDITOR || DEVELOPMENT_BUILD
+        BattleSecurityVisualLogger.LogSecurityBreakPath(player, player.securityObject.securityBreakGlass, BlueEvolutionEffect);
+#endif
+
         if (BootstrapConfig.IsOfflineLocal)
         {
             player.securityObject.securityBreakGlass.IsBlueGlass = false;

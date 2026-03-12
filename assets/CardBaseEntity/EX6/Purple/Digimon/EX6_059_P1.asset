@@ -1,3 +1,54 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:4b1f0ba7eac924b806e6032111d2a76370b6258a85b7d395fd44a2a9ca91f051
-size-not-lfs 1587
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX6_059_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 3517
+  cardColors: 06000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Barbamon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Demon Lord
+  - Seven Great Demon Lords
+  CardSpriteName: EX6-059_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "\uFF1CScapegoat\uFF1E (When this Digimon would be deleted
+    other than by your effects, by deleting 1 of your other Digimon, prevent that
+    deletion)\n[On Play] [When Digivolving] Trash 1 card in your opponent's hand
+    without looking.\n[All Turns] [Once Per Turn] When a card is trashed from your
+    opponent's hand, you may play 1 purple card with a play cost 10 or less from
+    your trash without paying the cost. For each card in your opponent's hand, reduce
+    this effect's play cost maximum by 1."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX6_059
+  DP: 12000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: EX6-059
+  MaxCountInDeck: 4

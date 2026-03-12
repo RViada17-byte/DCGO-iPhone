@@ -1,3 +1,49 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:7bf70d6a4cbb365c597dac87d0d49b2e12d4311e9e0f55b37954cb28d85bfb10
-size-not-lfs 2923
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_104
+  m_EditorClassIdentifier: 
+  CardIndex: 6150
+  cardColors: 01000000
+  PlayCost: 2
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: "\u30E1\u30F3\u30BF\u30EB\u30FB\u30C8\u30EC\u30FC\u30CB\u30F3\u30B0"
+  CardName_ENG: Mental Training
+  Form_JPN: []
+  Form_ENG: []
+  Attribute_JPN: []
+  Attribute_ENG: []
+  Type_JPN: []
+  Type_ENG: []
+  CardSpriteName: P-104
+  cardKind: 2
+  EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u30892\u679A\u30AA\u30FC\u30D7\u30F3\u3059\u308B\u3002\u305D\u306E\u4E2D\u306E\u9752\u306E\u30AB\u30FC\u30C91\u679A\u3092\u624B\u672D\u306B\u52A0\u3048\u308B\u3002\u6B8B\u308A\u306F\u597D\u304D\u306A\u9806\u756A\u3067\u30C7\u30C3\u30AD\u306E\u4E0B\u306B\u623B\u3059\u3002\u305D\u306E\u5F8C\u3001\u3053\u306E\u30AB\u30FC\u30C9\u3092\u30D0\u30C8\u30EB\u30A8\u30EA\u30A2\u306B\u7F6E\u304F\u3002\u3010\u30E1\u30A4\u30F3\u3011\u226A\u30C7\u30A3\u30EC\u30A4\u226B\uFF08\u7F6E\u3044\u305F\u6B21\u306E\u30BF\u30FC\u30F3\u4EE5\u964D\u306B\u3053\u306E\u30AB\u30FC\u30C9\u3092\u7834\u68C4\u3059\u308B\u3053\u3068\u3067\u3001\u52B9\u679C\u3092\u767A\u63EE\u3059\u308B\uFF09\u30FB\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u624B\u672D\u306E\u9752\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C9\u306B\u9032\u5316\u30B3\u30B9\u30C8\u3092\u652F\u6255\u3063\u3066\u9032\u5316\u3067\u304D\u308B\u3002\u3053\u306E\u52B9\u679C\u3067\u9032\u5316\u3059\u308B\u3068\u304D\u3001\u652F\u6255\u3046\u9032\u5316\u30B3\u30B9\u30C8-2\u3002"
+  EffectDiscription_ENG: "[Main] Reveal the top 2 cards of your deck. Add 1 blue
+    card among them to your hand. Place the rest at the bottom of your deck in any
+    order. Then, place this card into your battle area.\n[Main] \uFF1CDelay\uFF1E
+    \n\u30FB1 of your Digimon may digivolve into a blue Digimon card in your hand
+    for its digivolution cost. When it would digivolve by this effect, reduce the
+    cost by 2."
+  InheritedEffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u3053\u306E\u30AB\u30FC\u30C9\u3092\u30D0\u30C8\u30EB\u30A8\u30EA\u30A2\u306B\u7F6E\u304F\u3002"
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u3053\u306E\u30AB\u30FC\u30C9\u3092\u30D0\u30C8\u30EB\u30A8\u30EA\u30A2\u306B\u7F6E\u304F\u3002"
+  SecurityEffectDiscription_ENG: '[Security] Place this card in the battle area.'
+  CardEffectClassName: P_104
+  DP: 0
+  rarity: 5
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: P-104
+  MaxCountInDeck: 4

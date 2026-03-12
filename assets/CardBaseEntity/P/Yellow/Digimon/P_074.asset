@@ -1,3 +1,54 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:9e3cf043a791a43d918a4511fa305566c212e3ace78b23e80ddd41693849b960
-size-not-lfs 2303
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_074
+  m_EditorClassIdentifier: 
+  CardIndex: 6116
+  cardColors: 02000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 2
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: "\u30D0\u30A6\u30C8\u30E2\u30F3"
+  CardName_ENG: Boutmon
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Beastkin
+  Type_JPN:
+  - "\u7363\u4EBA\u578B"
+  Type_ENG:
+  - Vaccine
+  CardSpriteName: P-074
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u7279\u5FB4\u306B\u300C\u795E\u4EBA\u578B\u300D\u304B\u300C\u9B54\u4EBA\u578B\u300D\u3092\u6301\u3064\u30AB\u30FC\u30C9\u306B\u9032\u5316\u3059\u308B\u3068\u304D\u3001\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u30923\u679A\u307E\u3067\u7834\u68C4\u3067\u304D\u308B\u3002\u3053\u306E\u52B9\u679C\u3067\u7834\u68C4\u3057\u305F\u30BB\u30AD\u30E5\u30EA\u30C6\u30A31\u679A\u3054\u3068\u306B\u3001\u652F\u6255\u3046\u9032\u5316\u30B3\u30B9\u30C8-1\u3002"
+  EffectDiscription_ENG: '[Your Turn] When this Digimon would digivolve into a card
+    with [Shaman] or [Wizard] in its traits, you may trash up to 3 of your security
+    cards. For each security card trashed with this effect, reduce the digivolution
+    cost by 1.'
+  InheritedEffectDiscription_JPN: "\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u304C3\u679A\u306E\u3068\u304D\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u3059\u308B\u3002"
+  InheritedEffectDiscription_ENG: '[When Attacking][Once Per Turn] If you have exactly
+    3 security cards, unsuspend this Digimon.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: P_074
+  DP: 7000
+  rarity: 5
+  OverflowMemory: 0
+  CardID: P-074
+  MaxCountInDeck: 4

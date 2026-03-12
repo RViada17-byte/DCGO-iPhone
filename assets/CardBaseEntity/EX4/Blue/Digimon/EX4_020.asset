@@ -1,3 +1,61 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:931f1909080dfdfe9655fb0252aee378bb03271faf3a43c3f9ce8709f3b75089
-size-not-lfs 3321
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX4_020
+  m_EditorClassIdentifier: 
+  CardIndex: 2566
+  cardColors: 01000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 1
+    Level: 4
+    MemoryCost: 4
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: "\u30E1\u30BF\u30EB\u30B0\u30EC\u30A4\u30E2\u30F3"
+  CardName_ENG: MetalGreymon
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u30B5\u30A4\u30DC\u30FC\u30B0\u578B"
+  - "\u30D6\u30EB\u30FC\u30D5\u30EC\u30A2"
+  Type_ENG:
+  - Cyborg
+  - BlueFlare
+  CardSpriteName: EX4-020
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u226A\u901F\u653B\u226B\uFF08\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u767B\u5834\u3057\u305F\u30BF\u30FC\u30F3\u3067\u3082\u30A2\u30BF\u30C3\u30AF\u3067\u304D\u308B\uFF09\u3092\u5F97\u308B\u3002\u30C7\u30B8\u30AF\u30ED\u30B9\u3057\u3066\u3044\u305F\u306A\u3089\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306E\u9032\u5316\u5143\u3092\u3001\u9078\u3093\u30672\u679A\u307E\u3067\u7834\u68C4\u3059\u308B\u3002\u226A\u30DE\u30C6\u30EA\u30A2\u30EB\u30BB\u30FC\u30D62\u226B\uFF08\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u6D88\u6EC5\u3059\u308B\u3068\u304D\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u30C7\u30B8\u30AF\u30ED\u30B9\u6761\u4EF6\u306B\u3042\u308B\u9032\u5316\u5143\u306E\u30AB\u30FC\u30C92\u679A\u3092\u81EA\u5206\u306E\u30C6\u30A4\u30DE\u30FC1\u4F53\u306E\u4E0B\u306B\u7F6E\u3051\u308B\uFF09\u30C7\u30B8\u30AF\u30ED\u30B9-2:\u9752\u306E\u300C\u30B0\u30EC\u30A4\u30E2\u30F3\u300D\xD7\u300C\u30E1\u30A4\u30EB\u30D0\u30FC\u30C9\u30E9\u30E2\u30F3\u300D"
+  EffectDiscription_ENG: '[On Play] This Digimon gains  for the turn. (This Digimon
+    may attack the turn it was played.) If DigiXrosing, trash up to 2 digivolution
+    cards of 1 of your opponent''s Digimon.   (When this Digimon would be deleted,
+    you may place 2 cards in this Digimon''s DigiXros conditions from this Digimon''s
+    digivolution cards under 1 of your Tamers.)'
+  InheritedEffectDiscription_JPN: "\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u300C\u30B0\u30EC\u30A4\u30CA\u30A4\u30C4\u30E2\u30F3\u300D\u306A\u3089\u3001\u9032\u5316\u5143\u304C3\u679A\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306F\u6B21\u306E\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u307E\u3067\u30A2\u30BF\u30C3\u30AF\u3067\u304D\u306A\u3044\u3002"
+  InheritedEffectDiscription_ENG: '[When Attacking] If this Digimon is [GreyKnightsmon],
+    1 of your opponent''s Digimon with 3 or fewer digivolution cards can''t attack
+    until the end of your opponent''s turn.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX4_020
+  DP: 7000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: EX4-020
+  MaxCountInDeck: 4

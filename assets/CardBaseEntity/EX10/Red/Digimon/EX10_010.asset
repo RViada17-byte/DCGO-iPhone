@@ -1,3 +1,57 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:897cfe8691b619884019b30c68ec8247c75865e46050a945f3fff0846775a5c3
-size-not-lfs 1533
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX10_010
+  m_EditorClassIdentifier: 
+  CardIndex: 7149
+  cardColors: 0000000005000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 0
+    Level: 5
+    MemoryCost: 4
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: BlackWarGreymon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Dragonkin
+  CardSpriteName: EX10-010
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Hand] [Counter] \uFF1CBlast Digivolve\uFF1E \n\uFF1CRaid\uFF1E
+    \n\uFF1CReboot\uFF1E \n\uFF1CBlocker\uFF1E \n[On Play] [When Digivolving] Delete
+    1 of your opponent's play cost 7 or lower Digimon or Tamers.\n[All Turns] While
+    your opponent has a Digimon with 13000 DP or more, your opponent's Digimon's
+    effects don't affect this Digimon, and it gets +3000 DP."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX10_010
+  DP: 12000
+  rarity: 3
+  OverflowMemory: 4
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX10-010
+  MaxCountInDeck: 4

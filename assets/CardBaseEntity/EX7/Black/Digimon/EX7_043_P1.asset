@@ -1,3 +1,50 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:3c50a4b547a38baf13cfcc0e6d7de70a8177dd5eb64346260a453376957b9082
-size-not-lfs 1380
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX7_043_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 3758
+  cardColors: 05000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 5
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Tankmon
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Cyborg
+  CardSpriteName: EX7-043_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.3 w/[Three Musketeers]\_in its text: Cost
+    2 \n\n[On Play] [When Digivolving] By returning 3 cards with the [Three Musketeers]\_trait
+    from your hand or trash to the top of the deck, \uFF1CDe-Digivolve1\uFF1E 1 of
+    your opponent's Digimon (Trash the top card. You can't trash past level 3 cards)."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "\uFF1CReboot\uFF1E."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX7_043
+  DP: 5000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: EX7-043
+  MaxCountInDeck: 4

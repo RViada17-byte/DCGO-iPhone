@@ -1,3 +1,47 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:6e97f7fc01a30b3daeab28c73c58704ef39e508c9213c8aa91cb9f42aa8be6c2
-size-not-lfs 1318
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST20_12
+  m_EditorClassIdentifier: 
+  CardIndex: 5275
+  cardColors: 0000000002000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Sora Takenouchi & Kari Kamiya
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - ADVENTURE
+  CardSpriteName: ST20-12
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Start of Your Main Phase] If you have a Digimon with the
+    [ADVENTURE]\_trait, gain 1 memory.\n[Your Turn] When any Digimon cards with the
+    [ADVENTURE]\_trait would be played from your hand, by suspending this Tamer,
+    reduce the play cost by 1."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying the cost.'
+  CardEffectClassName: ST20_12
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  CardID: ST20-12
+  MaxCountInDeck: 4

@@ -1,3 +1,56 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:889559291c950fdfa35ff733362dc641f6f0630ca35548b92a1ce328245b2108
-size-not-lfs 1863
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX6_006
+  m_EditorClassIdentifier: 
+  CardIndex: 3444
+  cardColors: 06000000
+  PlayCost: -1
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Gate of Deadly Sins
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Digi-Egg
+  CardSpriteName: EX6-006
+  cardKind: 3
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Breeding] [Start of Your Main Phase] Place the top card
+    of your Digi-Egg deck as this Digimon\u2019s bottom digivolution card and delete
+    all of your Digimon. If this effect deleted, place 1 card with the [Seven Great
+    Demon Lords]\_trait from your trash as this Digimon\u2019s bottom digivolution
+    card.\n[Breeding][End of Opponent's Turn] By deleting this Digimon with 7 or
+    more cards with different names in its digivolution cards, you may play 1 [Ogudomon]
+    from your trash without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[Breeding] [Your Turn] [Once Per Turn] When one
+    of your Digimon with the [Seven Great Demon Lords]\_trait would be played, you
+    may reduce the play cost by 3. If this Digimon has 5 or more cards with different
+    names in its digivolution cards, you may reduce the play cost by 4 instead."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX6_006
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: EX6-006
+  MaxCountInDeck: 4

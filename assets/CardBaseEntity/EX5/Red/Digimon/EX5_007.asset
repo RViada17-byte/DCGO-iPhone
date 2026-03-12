@@ -1,3 +1,58 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:701358c60c3fc073572c1c7dcea48d7ba8c5104c03cb6ac0f31e811a3693a2b9
-size-not-lfs 2527
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX5_007
+  m_EditorClassIdentifier: 
+  CardIndex: 3046
+  cardColors: 00000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 0
+    Level: 2
+    MemoryCost: 0
+  - CardColor: 1
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: "\u30B3\u30ED\u30CA\u30E2\u30F3"
+  CardName_ENG: Coronamon
+  Form_JPN:
+  - "\u6210\u9577\u671F"
+  Form_ENG:
+  - Rookie
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u7363\u578B"
+  - "\u30E9\u30A4\u30C8\u30D5\u30A1\u30F3\u30B0"
+  Type_ENG:
+  - Beast
+  - Light Fang
+  CardSpriteName: EX5-007
+  cardKind: 0
+  EffectDiscription_JPN: "\u7279\u5FB4\u306B\u300C\u30E9\u30A4\u30C8\u30D5\u30A1\u30F3\u30B0\u300D/\u300C\u30CA\u30A4\u30C8\u30AF\u30ED\u30A6\u300D\u3092\u6301\u3064Lv.2:\u30B3\u30B9\u30C80\u3010\u81EA\u5206\u306E\u30E1\u30A4\u30F3\u30D5\u30A7\u30A4\u30BA\u958B\u59CB\u6642\u3011\u7279\u5FB4\u306B\u300C\u30E9\u30A4\u30C8\u30D5\u30A1\u30F3\u30B0\u300D/\u300C\u30CA\u30A4\u30C8\u30AF\u30ED\u30A6\u300D\u3092\u6301\u3064\u81EA\u5206\u306E\u30C6\u30A4\u30DE\u30FC\u304C\u3044\u308B\u306A\u3089\u3001\u30E1\u30E2\u30EA\u30FC+1\u3002"
+  EffectDiscription_ENG: "[Start of Your Main Phase] If you have a Tamer with the
+    [Light Fang]/[Night Claw]\_trait, gain 1 memory."
+  InheritedEffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u7279\u5FB4\u306B\u300C\u30E9\u30A4\u30C8\u30D5\u30A1\u30F3\u30B0\u300D/\u300C\u30CA\u30A4\u30C8\u30AF\u30ED\u30A6\u300D\u3092\u6301\u3064\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306B\u91CD\u306D\u3089\u308C\u3066\u3044\u308B\u30AB\u30FC\u30C9\u3092\u4E0A\u304B\u30891\u679A\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u306E\u4E0B\u306B\u7F6E\u304F\u3053\u3068\u3067\u3001\u30E1\u30E2\u30EA\u30FC+2\u3002"
+  InheritedEffectDiscription_ENG: "[Main] [Once Per Turn] By placing the top card
+    of this Digimon with the [Light Fang]/[Night Claw]\_trait as this Digimon's bottom
+    digivolution card, gain 2 memory."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX5_007
+  DP: 1000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: EX5-007
+  MaxCountInDeck: 4

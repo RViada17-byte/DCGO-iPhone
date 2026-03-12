@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:0c553236f1bdb817a5181d700beb5dd8459e0d87fa88f0bb0c58ab8a71e247b1
-size-not-lfs 1566
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_016_P4
+  m_EditorClassIdentifier: 
+  CardIndex: 6040
+  cardColors: 05000000
+  PlayCost: 11
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: "\u30C7\u30A3\u30A2\u30DC\u30ED\u30E2\u30F3"
+  CardName_ENG: Diaboromon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u4E0D\u660E"
+  Attribute_ENG:
+  - Unknown
+  Type_JPN:
+  - "\u7A2E\u65CF\u4E0D\u660E"
+  Type_ENG:
+  - Unidentified
+  CardSpriteName: P-016_P4
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\u81EA\u5206\u306E\u300C\u30C7\u30A3\u30A2\u30DC\u30ED\u30E2\u30F3\u300D1\u4F53\u3054\u3068\u306B\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u226AS\u30A2\u30BF\u30C3\u30AF+1\u226B\u3092\u5F97\u308B\u3002"
+  EffectDiscription_ENG: "[Your Turn] For each [Diaboromon] you have in play, this
+    Digimon gets \uFF1CSecurity Attack +1\uFF1E. (This Digimon checks 1 additional
+    security card.)"
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: P_016
+  DP: 11000
+  rarity: 5
+  OverflowMemory: 0
+  CardID: P-016
+  MaxCountInDeck: 4

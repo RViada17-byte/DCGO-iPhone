@@ -1,3 +1,53 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:1ea1d794d62b1cce0177c64e89d021cd4ed0f4c3c1d7d052a949c4a88c1c2df1
-size-not-lfs 1543
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST22_10
+  m_EditorClassIdentifier: 
+  CardIndex: 7501
+  cardColors: 02000000
+  PlayCost: 6
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Amethyst Mandala
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - "Onmy\u014Djutsu"
+  CardSpriteName: ST22-10
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "When effects trash this card from the security stack, activate
+    its [Security] effects.\n[Security] [All Turns] When any of your Digimon with
+    [Renamon], [Kyubimon], [Taomon] or [Sakuyamon]\_in their names would leave the
+    battle area other than by battle, by trashing this card, 1 of those Digimon doesn't
+    leave.\n[Main] \uFF1CDraw 1\uFF1E Then, place this card face up as the bottom
+    security card."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] 1 of your opponent''s Digimon gets -9000
+    DP for the turn.'
+  CardEffectClassName: ST22_10
+  DP: 0
+  rarity: 3
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: ST22-10
+  MaxCountInDeck: 4

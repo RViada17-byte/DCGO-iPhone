@@ -1,3 +1,49 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:8b86c1c1664594918393205d70ad2d574d36f2d172a15459d507f0c51186fe8f
-size-not-lfs 1278
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST18_05
+  m_EditorClassIdentifier: 
+  CardIndex: 3822
+  cardColors: 03000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 3
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: 
+  CardName_ENG: Muchomon
+  Form_JPN: []
+  Form_ENG:
+  - Rookie
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Avian
+  CardSpriteName: ST18-05
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[All Turns] [Once Per Turn] When this Digimon is suspended
+    by an effect, 1 of your Digimon with [Bird]\_in one of its traits or with the
+    [Vortex Warriors]\_trait gets +3000 DP until then end of your opponent's turn."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "\uFF1CPiercing\uFF1E."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: ST18_05
+  DP: 1000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: ST18-05
+  MaxCountInDeck: 4

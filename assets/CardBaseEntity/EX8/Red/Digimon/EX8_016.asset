@@ -1,3 +1,57 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:72934f72a9034c7bd237404ade4d8bd6a1617e42ed86762537e637bc2a6cc7a3
-size-not-lfs 1630
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX8_016
+  m_EditorClassIdentifier: 
+  CardIndex: 4078
+  cardColors: 0000000003000000
+  PlayCost: 13
+  EvoCosts:
+  - CardColor: 0
+    Level: 5
+    MemoryCost: 5
+  - CardColor: 3
+    Level: 5
+    MemoryCost: 5
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Dinomon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Dinosaur
+  - LIBERATOR
+  CardSpriteName: EX8-016
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.5 w/[Tyrannomon]\_in its name: Cost 4 [Digivolve]Lv.5
+    w/[Dinosaur]\_trait: Cost 4 \n\n\uFF1CSecurity Attack +1\uFF1E.\n\uFF1CFortitude\uFF1E
+    (When this Digimon with digivolution cards is deleted, play this card without
+    paying the cost)\n[On Play] [When Digivolving] You may suspend 1 Digimon. Then,
+    delete 1 of your opponent's suspended Digimon with the lowest DP.\n[Opponent's
+    Turn] While this Digimon is suspended, all of your opponent's Digimon can only
+    attack suspended Digimon."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX8_016
+  DP: 13000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: EX8-016
+  MaxCountInDeck: 4

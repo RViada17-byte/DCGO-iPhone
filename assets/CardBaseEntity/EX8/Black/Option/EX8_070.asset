@@ -1,3 +1,49 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:182107c942f6afbc708cabcbdeabb005b44b712bce4d5a11a3ae5786b1411707
-size-not-lfs 1394
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX8_070
+  m_EditorClassIdentifier: 
+  CardIndex: 4185
+  cardColors: 05000000
+  PlayCost: 2
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Zofr Kabus
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - LIBERATOR
+  CardSpriteName: EX8-070
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Main] By trashing any 1 digivolution card of 1 of your
+    Digimon with the [Mineral]/[Rock]\_trait, until the end of your opponent's turn,
+    that Digimon gains \uFF1CCollision\uFF1E , \uFF1CPiercing\uFF1E , \uFF1CReboot\uFF1E
+    , and your opponent's effects can't return it to hands or decks, and it gets
+    +3000 DP."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: "[Security] Delete 1 of your opponent\u2019s Digimon
+    with the lowest play cost."
+  CardEffectClassName: EX8_070
+  DP: 0
+  rarity: 0
+  OverflowMemory: 0
+  CardID: EX8-070
+  MaxCountInDeck: 4

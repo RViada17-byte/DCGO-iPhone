@@ -1,3 +1,49 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:60d7c651eb0b61cff557ac0a5834765cd636012527b2e740ef7cdfc3b374ade6
-size-not-lfs 1515
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX7_071
+  m_EditorClassIdentifier: 
+  CardIndex: 3810
+  cardColors: 06000000
+  PlayCost: 6
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Hurricane Screw Shot
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Three Musketeers
+  CardSpriteName: EX7-071
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "When an effect trashes this card from your Digimon's digivolution
+    cards, gain 1 memory.While you have a Digimon with the [Three Musketeers]\_trait,
+    you may ignore this card's color requirements.\n[Main] Delete 1 of your opponent's
+    level 3 Digimon, level 4 Digimon, and level 5 Digimon. Then, place this card
+    as the bottom digivolution card of 1 of your Digimon with the [Three Musketeers]\_trait."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Delete 1 of your opponent''s level 3
+    Digimon, level 4 Digimon, and level 5 Digimon.'
+  CardEffectClassName: EX7_071
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  CardID: EX7-071
+  MaxCountInDeck: 4

@@ -1,3 +1,57 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:4d5ad0be9d254eda530d6bd39bde14eb6445ca770081f490cb34699f1eaf61e3
-size-not-lfs 1516
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: LM_039
+  m_EditorClassIdentifier: 
+  CardIndex: 5440
+  cardColors: 0000000001000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 0
+    Level: 5
+    MemoryCost: 4
+  - CardColor: 1
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Valkyrimon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Free
+  Type_JPN: []
+  Type_ENG:
+  - Warrior
+  CardSpriteName: LM-039
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] [Silphymon]: Cost 3 \n\n[When Digivolving]
+    \uFF1CBlitz\uFF1E \n[When Digivolving] [When Attacking] [Once Per Turn] Return
+    1 of your opponent's Digimon with 8000 DP or less to the bottom of the deck.
+    If this effect didn't return, this Digimon gains \uFF1CSecurity A. +1\uFF1E for
+    the turn.\n[Your Turn] This Digimon's attack target can't change."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: LM_039
+  DP: 12000
+  rarity: 5
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: LM-039
+  MaxCountInDeck: 4

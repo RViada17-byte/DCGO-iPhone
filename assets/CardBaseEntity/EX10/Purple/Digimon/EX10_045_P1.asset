@@ -1,3 +1,59 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:807fe4f1ff8481f46a5431e8af487d569c62812eaeadb00a66a32f5ee33e9023
-size-not-lfs 1711
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX10_045_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 7308
+  cardColors: 0600000005000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 6
+    Level: 3
+    MemoryCost: 3
+  - CardColor: 5
+    Level: 3
+    MemoryCost: 3
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Tuwarmon
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Mutant
+  - Bagra Army
+  CardSpriteName: EX10-045_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] [Damemon]: Cost 1 \n\n\uFF1CRush\uFF1E \n\uFF1CCollision\uFF1E
+    \n[On Play] [When Digivolving] [When Attacking] [Once Per Turn] By trashing any
+    1 digivolution card of your [Bagra Army]\_trait Digimon, 1 of your [Bagra Army]\_trait
+    Digimon gains \uFF1CBlocker\uFF1E and \uFF1CRetaliation\uFF1E until your opponent's
+    turn ends.\n[On Deletion] \uFF1CSave\uFF1E \n\n[DigiXros\_-2] [Damemon] x [ChuuChuumon] "
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "When effects trash this card from a [Bagra Army]\_trait
+    Digimon's digivolution cards, \uFF1CDraw 1\uFF1E "
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX10_045
+  DP: 7000
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX10-045
+  MaxCountInDeck: 4

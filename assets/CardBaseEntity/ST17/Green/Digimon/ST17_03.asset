@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:ee3693f95ad4297c8fa82ef7c4cfff0594eba6640984814861ba3c455e1b916f
-size-not-lfs 1502
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST17_03
+  m_EditorClassIdentifier: 
+  CardIndex: 3270
+  cardColors: 03000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 3
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: "\u30ED\u30C3\u30D7\u30E2\u30F3"
+  CardName_ENG: Lopmon
+  Form_JPN:
+  - "\u6210\u9577\u671F"
+  Form_ENG:
+  - Rookie
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u7363\u578B"
+  Type_ENG:
+  - Beast
+  CardSpriteName: ST17-03
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] [Kokomon]: Cost 0[Main] [Once Per Turn] 1 of
+    your Digimon gains <Alliance> for the turn.\r"
+  InheritedEffectDiscription_JPN: "\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30EC\u30B9\u30C8\u72B6\u614B\u306E\u9593,\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092DP+1000\u3002"
+  InheritedEffectDiscription_ENG: "[All Turns] While this Digimon is suspended, it
+    gets +1000 DP.\r"
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: "-\r"
+  CardEffectClassName: ST17_03
+  DP: 1000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: ST17-03
+  MaxCountInDeck: 4

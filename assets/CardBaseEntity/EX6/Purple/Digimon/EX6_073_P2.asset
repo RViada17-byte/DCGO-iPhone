@@ -1,3 +1,55 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:bd6c005b2878207f8098356aacd1a9ca82b26ec84b3dba4560fe352ab767cd4d
-size-not-lfs 1775
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX6_073_P2
+  m_EditorClassIdentifier: 
+  CardIndex: 3524
+  cardColors: 06000000
+  PlayCost: 16
+  EvoCosts:
+  - CardColor: 6
+    Level: 6
+    MemoryCost: 7
+  Level: 7
+  CardName_JPN: 
+  CardName_ENG: Ogudomon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Avatar
+  CardSpriteName: EX6-073_P2
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.5 or higher w/[Seven Great Demon Lords]\_trait:
+    Cost 6 \n\n[When Digivolving] [When Attacking] You may place up to 7 cards with
+    different names and the [Seven Great Demon Lords]\_trait from your trash as this
+    Digimon's bottom digivolution cards. If you placed 4 or more cards with this
+    effect, delete 1 of your opponent's Digimon or Tamers.\n[When Attacking] By returning
+    7 cards with different names and the [Seven Great Demon Lords]\_trait from this
+    Digimon's digivolution cards to the bottom of the deck, delete 7 of your opponent's
+    Digimon or Tamers. Then, trash the top 7 cards of your opponent's security stack.
+    For each card deleted by this effect, reduce the cards trashed by 1."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX6_073
+  DP: 16000
+  rarity: 4
+  OverflowMemory: 0
+  CardID: EX6-073
+  MaxCountInDeck: 4

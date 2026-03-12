@@ -1,3 +1,58 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:5d511bfa2575e1f11bea535615b9306b2646cd90f3f94e4d8b2cdae33947b662
-size-not-lfs 2196
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX5_047
+  m_EditorClassIdentifier: 
+  CardIndex: 3086
+  cardColors: 0500000003000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 5
+    Level: 3
+    MemoryCost: 3
+  - CardColor: 3
+    Level: 3
+    MemoryCost: 3
+  Level: 4
+  CardName_JPN: "\u30EC\u30AA\u30E2\u30F3"
+  CardName_ENG: Leomon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u7363\u4EBA\u578B"
+  Type_ENG:
+  - Beastkin
+  CardSpriteName: EX5-047
+  cardKind: 0
+  EffectDiscription_JPN: "\u300C\u30A8\u30EC\u30AD\u30E2\u30F3\u300D/\u300C\u30EC\u30AA\u30EB\u30E2\u30F3\u300D:\u30B3\u30B9\u30C82\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u81EA\u5206\u306E\u624B\u672D\u306E\u540D\u79F0\u306B\u300C\u30EC\u30AA\u30E2\u30F3\u300D\u3092\u542B\u3080\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C9\u306B\u652F\u6255\u3046\u9032\u5316\u30B3\u30B9\u30C8-1\u3067\u9032\u5316\u3067\u304D\u308B\u3002"
+  EffectDiscription_ENG: "Digivolve: 2 from [Liollmon] or [Elecmon][When Attacking]
+    This Digimon may digivolve into a Digimon card with [Leomon]\_in its name in
+    your hand with the digivolution cost reduced by 1."
+  InheritedEffectDiscription_JPN: "\u3010\u6D88\u6EC5\u6642\u3011\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u226A\u9000\u53161\u226B\u3002"
+  InheritedEffectDiscription_ENG: "[On Deletion] \uFF1CDe-Digivolve  1\uFF1E on 1
+    of your opponent's Digimon (Trash up to 1 card from the top of one of your opponent's
+    Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't
+    trash any more cards)."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX5_047
+  DP: 5000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: EX5-047
+  MaxCountInDeck: 4

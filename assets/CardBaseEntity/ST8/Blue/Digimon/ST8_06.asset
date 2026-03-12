@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:68f485b7b8728880b16434a233379588b378185d1dee21d213c820556387189a
-size-not-lfs 1684
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST8_06
+  m_EditorClassIdentifier: 
+  CardIndex: 1720
+  cardColors: 01000000
+  PlayCost: 6
+  EvoCosts:
+  - CardColor: 1
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: "\u30B3\u30A2\u30C9\u30E9\u30E2\u30F3"
+  CardName_ENG: Coredramon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u7ADC\u578B"
+  Type_ENG:
+  - Dragon
+  CardSpriteName: ST8-06
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u30D0\u30C8\u30EB\u7D42\u4E86\u6642\u3001\u3053\u306E\u30AB\u30FC\u30C9\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3055\u305B\u308B\u3002\u3010\u767B\u5834\u6642\u3011\u226A2\u30C9\u30ED\u30FC\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u304B\u3089\u30AB\u30FC\u30C9\u30922\u679A\u5F15\u304F\uFF09"
+  EffectDiscription_ENG: "[Security] At the end of the battle, play this card without
+    paying its memory cost.[On Play] Trigger \uFF1CDraw 2\uFF1E. (Draw 2 cards from
+    your deck.)"
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: ST8_06
+  DP: 5000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: ST8-06
+  MaxCountInDeck: 4

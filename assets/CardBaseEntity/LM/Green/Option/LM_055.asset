@@ -1,3 +1,55 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:028e3647a7702248d681246f1f04c0efd79cab7de049df12606b30b7b9867aec
-size-not-lfs 1747
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: LM_055
+  m_EditorClassIdentifier: 
+  CardIndex: 7815
+  cardColors: 0300000000000000
+  PlayCost: 2
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Sprint Dash Training
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - '-'
+  CardSpriteName: LM-055
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "While you have don't have [Sprint Dash Training] in the
+    battle area, you can ignore this card's color requirements.\n[Main] Reveal the
+    top 2 cards of your deck. Add 1 green or red card among them to the hand. Return
+    the rest to the bottom of deck. Then, place this card in the battle area.\n[Main]
+    \uFF1CDelay\uFF1E \n\u30FB1 of your Digimon may digivolve into a green or red
+    Digimon card in your hand for its digivolution cost. When it would digivolve
+    by this effect, reduce the cost by 2."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Reveal the top 2 cards of your deck.
+    Add 1 green or red card among them to the hand. Return the rest to the bottom
+    of deck. Then, place this card in the battle area.'
+  CardEffectClassName: LM_055
+  DP: 0
+  rarity: 5
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: LM-055
+  MaxCountInDeck: 4

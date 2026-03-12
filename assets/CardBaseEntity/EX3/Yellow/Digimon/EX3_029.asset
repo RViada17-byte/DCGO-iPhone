@@ -1,3 +1,53 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:251d25375dc8bc2f7600288718a30462527ae4e98b83d9ed506cc88d0e36de22
-size-not-lfs 2144
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX3_029
+  m_EditorClassIdentifier: 
+  CardIndex: 2207
+  cardColors: 02000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 2
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: "\u30A8\u30A2\u30C9\u30E9\u30E2\u30F3"
+  CardName_ENG: Airdramon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u5E7B\u7363\u578B"
+  Type_ENG:
+  - Mythical Beast
+  CardSpriteName: EX3-029
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u306E\u5185\u5BB9\u3092\u5168\u3066\u78BA\u8A8D\u3057\u3066\u3001\u305D\u306E\u4E2D\u306E1\u679A\u3092\u30AA\u30FC\u30D7\u30F3\u3057\u624B\u672D\u306B\u52A0\u3048\u308B\u3002\u305D\u306E\u30AB\u30FC\u30C9\u304C\u9EC4\u306E\u30AB\u30FC\u30C9\u306E\u3068\u304D\u3001\u226A\u30EA\u30AB\u30D0\u30EA\u30FC+1\u300A\u30C7\u30C3\u30AD\u300B\u226B\uFF08\u81EA\u5206\u306F\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u3089\u30AB\u30FC\u30C9\u30921\u679A\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u306E\u4E0A\u306B\u7F6E\u304F\uFF09\u3002\u305D\u306E\u5F8C\u3001\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3092\u30B7\u30E3\u30C3\u30D5\u30EB\u3059\u308B\u3002"
+  EffectDiscription_ENG: "[On Play] Search your security stack, reveal 1 card from
+    it, and add it to your hand. If it's a yellow card, \uFF1CRecovery +1 (Deck)\uFF1E.
+    (Place the top card of your deck on top of your security stack.) Then, shuffle
+    your security stack."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX3_029
+  DP: 5000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: EX3-029
+  MaxCountInDeck: 4

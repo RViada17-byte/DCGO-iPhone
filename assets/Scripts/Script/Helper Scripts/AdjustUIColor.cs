@@ -16,7 +16,6 @@ public class AdjustUIColor : MonoBehaviour
 
     private void Start()
     {
-        if (_image.sprite == null)
-            _image.color = Color.gray;
+        // Keep serialized visuals authoritative. This component no longer masks missing sprites.
     }
 }

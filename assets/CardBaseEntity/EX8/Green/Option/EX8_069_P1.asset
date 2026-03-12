@@ -1,3 +1,48 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:e45bad44d9e9b7fcf32602ec2e4cf29a1872fed2a84b7f47f4b1bc6822e3001f
-size-not-lfs 1402
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX8_069_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 4184
+  cardColors: 03000000
+  PlayCost: 2
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Nature Spirits
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - NSp
+  CardSpriteName: EX8-069_P1
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "While you have no face-up security cards, you may ignore
+    this card's color requirements.\n[Security] [All Turns] All of your [NSp]\_trait
+    Digimon gain \uFF1CAlliance\uFF1E \n[Main] Add your bottom security card to the
+    hand. Then, place this card face up as the bottom security card."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: "[Security] You may play 1 level 5 or lower Digimon
+    with the [NSp]\_trait from your hand without paying the cost."
+  CardEffectClassName: EX8_069
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  CardID: EX8-069
+  MaxCountInDeck: 4

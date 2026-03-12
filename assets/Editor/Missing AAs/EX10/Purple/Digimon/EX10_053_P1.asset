@@ -1,3 +1,59 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:aa736835ee3fb621af82926da76a523ccc160575b81bb84ded6c3944164307bc
-size-not-lfs 1752
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX10_053_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 7230
+  cardColors: 0600000000000000
+  PlayCost: 10
+  EvoCosts:
+  - CardColor: 6
+    Level: 4
+    MemoryCost: 5
+  - CardColor: 0
+    Level: 4
+    MemoryCost: 5
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Regulusmon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Evil Dragon
+  CardSpriteName: EX10-053_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Gammamon]\_in name: Cost 5 \n\n\uFF1CRush\uFF1E
+    \n\uFF1CBlocker\uFF1E \n[On Play] [When Digivolving] You may place up to 5 differently
+    named Digimon cards with [Gammamon]\_in their names from your trash as this Digimon's
+    bottom digivolution cards. Then, delete 1 of your opponent's Digimon with as
+    much or less DP as this Digimon.\n[End of Your Turn] [Once Per Turn] If this
+    Digimon has 5 or more digivolution cards, it may attack without suspending."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[Your Turn] [Once Per Turn] When any of your opponent''s
+    Digimon are deleted, gain 1 memory.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX10_053
+  DP: 10000
+  rarity: 3
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX10-053
+  MaxCountInDeck: 4

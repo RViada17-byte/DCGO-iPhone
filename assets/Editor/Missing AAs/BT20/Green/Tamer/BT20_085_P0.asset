@@ -1,3 +1,50 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:8f282bcd50c557937679688286894087b30bda766b5c5accb121b9fa60a25b9f
-size-not-lfs 1559
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT20_085_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 5241
+  cardColors: 03000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Shoto Kazama
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - LIBERATOR
+  CardSpriteName: BT20-085_P0
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Start of Your Main Phase] By returning this Tamer to the
+    bottom of the deck, you may play 1 [Shoto Kazama] from your hand without paying
+    the cost. Then, if you don't have a Digimon, you may play 1 level 3 Digimon card
+    with [Avian]/[Bird]\_in any of its traits from your trash without paying the
+    cost.\n[End of Your Turn] By suspending this Tamer, suspend 1 of your opponent's
+    Digimon and, until the end of their turn, 1 of your Digimon with the [Vortex
+    Warriors]\_trait gets +2000 DP."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying the cost.'
+  CardEffectClassName: BT20_085
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  CardID: BT20-085
+  MaxCountInDeck: 4

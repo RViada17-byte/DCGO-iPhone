@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:42c152bbacb67e67177e6560ba8e0e5002a8b630d2457a12768491e8cfb1eb81
-size-not-lfs 1490
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_179_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 5302
+  cardColors: 05000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: 'Justimon: Critical Arm'
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Cyborg
+  CardSpriteName: P-179_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] [Justimon: Blitz Arm]/[Justimon: Accel Arm]:
+    Cost 1 \n\n[When Digivolving] By placing 1 Option card with the [Device]\_trait
+    from your hand or trash into the battle area, this Digimon gets +3000 DP until
+    your opponent's turn ends.\n[When Digivolving] [When Attacking] [Once Per Turn]
+    By trashing 1 of your Option cards in the battle area, delete 1 of your opponent's
+    Digimon with a play cost of 9 or less."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: P_179
+  DP: 12000
+  rarity: 5
+  OverflowMemory: 0
+  CardID: P-179
+  MaxCountInDeck: 4

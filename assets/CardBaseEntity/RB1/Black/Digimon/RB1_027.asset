@@ -1,3 +1,55 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:ed9757412d2667d0834f0f4704ffaa042752ffd92192e72f2b35c4e21be68e94
-size-not-lfs 2503
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: RB1_027
+  m_EditorClassIdentifier: 
+  CardIndex: 2896
+  cardColors: 05000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 5
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: "\u30DB\u30D0\u30FC\u30A8\u30B9\u30D4\u30E2\u30F3"
+  CardName_ENG: HoverEspimon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u30B5\u30A4\u30DC\u30FC\u30B0\u578B"
+  Type_ENG:
+  - Cyborg
+  CardSpriteName: RB1-027
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u3010\u9032\u5316\u6642\u3011\u76F8\u624B\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3092\u4E0A\u304B\u30891\u679A\u30AA\u30FC\u30D7\u30F3\u3059\u308B\u3002\u305D\u306E\u30AB\u30FC\u30C9\u304C\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C9\u306A\u3089\u3001\u30E1\u30E2\u30EA\u30FC+1\u3002\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C9\u4EE5\u5916\u306A\u3089\u3001\u226A1\u30C9\u30ED\u30FC\u226B\u3002\u30AA\u30FC\u30D7\u30F3\u3057\u305F\u30AB\u30FC\u30C9\u306F\u76F8\u624B\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u306E\u4E0A\u304B\u4E0B\u306B\u88CF\u5411\u304D\u3067\u623B\u3059\u3002\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\u30C6\u30A4\u30DE\u30FC\u304C\u3044\u308B\u9593\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u226A\u30D6\u30ED\u30C3\u30AB\u30FC\u226B\u3092\u5F97\u3066\u3001\u76F8\u624B\u306E\u52B9\u679C\u3067\u306F\u6D88\u6EC5\u3057\u306A\u3044\u3002"
+  EffectDiscription_ENG: "[On Play][When Digivolving] Reveal the top card of your
+    opponent's security stack. If that card is a Digimon card, gain 1 memory. If
+    it's a non-Digimon card, \uFF1CDraw 1\uFF1E. Place the revealed card at the top
+    or bottom of your opponent\u2019s security stack face down.[All Turns] While
+    there's a Tamer, this Digimon gains \uFF1CBlocker\uFF1E and can't be deleted
+    by your opponent's effects."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: RB1_027
+  DP: 5000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: RB1-027
+  MaxCountInDeck: 4

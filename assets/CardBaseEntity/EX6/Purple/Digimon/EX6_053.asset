@@ -1,3 +1,56 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:6e8a02a68458142f3202b949ac1cae510248e84fcefae98725c931b65b716fca
-size-not-lfs 1606
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX6_053
+  m_EditorClassIdentifier: 
+  CardIndex: 3506
+  cardColors: 06000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 6
+    Level: 4
+    MemoryCost: 3
+  - CardColor: 2
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: LadyDevimon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Fallen Angel
+  CardSpriteName: EX6-053
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "\uFF1CRetaliation\uFF1E \n[On Play] [When Digivolving]
+    If you have a [Mirei Mikagura], delete 1 of your opponent's level 4 or lower
+    Digimon. If you don't have a [Mirei Mikagura], you may play 1 [Mirei Mikagura]
+    from your trash without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[All Turns] While this Digimon has the [Angel]/[Seven
+    Great Demon Lords]\_trait, it gains \uFF1CScapegoat\uFF1E (When this Digimon
+    would be deleted other than by your effects, by deleting 1 of your other Digimon,
+    prevent that deletion)."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX6_053
+  DP: 6000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: EX6-053
+  MaxCountInDeck: 4

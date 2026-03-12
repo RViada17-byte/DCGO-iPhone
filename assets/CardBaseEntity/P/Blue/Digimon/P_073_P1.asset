@@ -1,3 +1,51 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:aa1af141dd205460fa4cda9928612d6ad4321a61b55095636b45bd0a7cfda87e
-size-not-lfs 1485
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_073_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 10383
+  cardColors: 01000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 1
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: 'WereGarurumon: Sagittarius Mode'
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Beastkin
+  CardSpriteName: P-073_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve][WereGarurumon]: Cost 0 \n\n[When Digivolving]
+    If you have a Tamer in play, return 2 of your opponent's level 3 Digimon to their
+    owner's hand.\n[Rule] Name: Also treated as [WereGarurumon]."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[All Turns] When this Digimon has [Garurumon]/[Omnimon]\_in
+    its name and would be deleted in battle, you may trash 2 cards of the same level
+    in this Digimon's digivolution cards to prevent that deletion."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: P_073
+  DP: 7000
+  rarity: 5
+  OverflowMemory: 0
+  CardID: P-073
+  MaxCountInDeck: 4

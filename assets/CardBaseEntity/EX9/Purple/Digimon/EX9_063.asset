@@ -1,3 +1,58 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:7bc995153452c11921424e32fc23042fa024449d12aa790067cdb563d6b93553
-size-not-lfs 1626
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX9_063
+  m_EditorClassIdentifier: 
+  CardIndex: 6952
+  cardColors: 06000000
+  PlayCost: 8
+  EvoCosts:
+  - CardColor: 6
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Digitamamon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Perfect
+  - DM
+  - Ver.4
+  CardSpriteName: EX9-063
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] [Nanimon]: Cost 3\n[Digivolve] Lv.4 w/[DM]\_trait:
+    Cost 4 \n\nWhen any of your [Ver.4]\_trait Digimon would digivolve into this
+    card, for each of their face-down digivolution cards, reduce the digivolution
+    cost by 1.\n\uFF1CScapegoat\uFF1E \n[When Digivolving] [When Attacking] [Once
+    Per Turn] By trashing this Digimon's bottom face-down digivolution card, you
+    may play 1 play cost 4 or lower [DM]\_trait Digimon card from your trash without
+    paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "\uFF1CAlliance\uFF1E."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX9_063
+  DP: 8000
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX9-063
+  MaxCountInDeck: 4

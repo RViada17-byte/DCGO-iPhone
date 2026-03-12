@@ -1,3 +1,44 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:bf46a8e79d0bd3eb6b3be1bc72509f0a40dcf8e1460b2e00513f7f13681b10cf
-size-not-lfs 1291
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST2_13_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 67
+  cardColors: 01000000
+  PlayCost: 0
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: "\u30CF\u30F3\u30DE\u30FC\u30B9\u30D1\u30FC\u30AF"
+  CardName_ENG: Hammer Spark
+  Form_JPN: []
+  Form_ENG: []
+  Attribute_JPN: []
+  Attribute_ENG: []
+  Type_JPN: []
+  Type_ENG: []
+  CardSpriteName: ST2-13_P1
+  cardKind: 2
+  EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u30E1\u30E2\u30EA\u30FC\u3092+1\u3059\u308B\u3002"
+  EffectDiscription_ENG: '[Main] Gain 1 memory.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u30E1\u30E2\u30EA\u30FC\u3092+2\u3059\u308B\u3002"
+  SecurityEffectDiscription_ENG: '[Security] Gain 2 memory.'
+  CardEffectClassName: ST2_13
+  DP: 0
+  rarity: 0
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: ST2-13
+  MaxCountInDeck: 4

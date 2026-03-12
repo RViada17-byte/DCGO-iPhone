@@ -1,3 +1,58 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:52c1fffea2b15da07829fec634134382516af319d40549c9598bd1d6a16ef261
-size-not-lfs 1692
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX6_011
+  m_EditorClassIdentifier: 
+  CardIndex: 3449
+  cardColors: 0000000005000000
+  PlayCost: 9
+  EvoCosts:
+  - CardColor: 0
+    Level: 6
+    MemoryCost: 5
+  - CardColor: 5
+    Level: 6
+    MemoryCost: 5
+  Level: 7
+  CardName_JPN: 
+  CardName_ENG: RagnaLoardmon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Unique
+  - Legend-Arms
+  CardSpriteName: EX6-011
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Hand] [Counter] \uFF1CBlast DNA Digivolve ([Durandamon]
+    + [BryweLudramon])\uFF1E (1 of your specified Digimon and 1 specified card in
+    hand may DNA digivolve into this card.)\n\uFF1CRaid\uFF1E.\n\uFF1CReboot\uFF1E
+    \n[On Play] [When Digivolving] Trash the top card of your opponent's security
+    stack and Digimon isn't affected by your opponent's effects until the end of
+    their turn. Then, if DNA digivolving, \uFF1CDe-Digivolve1\uFF1E all of your opponent's
+    Digimon (Trash the top card. You can't trash past level 3 cards) and delete 1
+    of their Digimon."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX6_011
+  DP: 15000
+  rarity: 3
+  OverflowMemory: 5
+  CardID: EX6-011
+  MaxCountInDeck: 4

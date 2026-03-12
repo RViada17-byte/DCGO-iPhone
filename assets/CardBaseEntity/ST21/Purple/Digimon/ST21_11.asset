@@ -1,3 +1,56 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:12606ec4ea0b9c61d53a5da53bc446c5b79fdc664a36b8b06683f48a59b48284
-size-not-lfs 1531
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST21_11
+  m_EditorClassIdentifier: 
+  CardIndex: 5290
+  cardColors: 0600000001000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 4
+  - CardColor: 1
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: MetalGarurumon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Cyborg
+  - ADVENTURE
+  CardSpriteName: ST21-11
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.5 w/[ADVENTURE]\_trait: Cost 3 \n\n[Hand]
+    [Counter] \uFF1CBlast Digivolve\uFF1E \n[On Play] [When Digivolving] Return 1
+    of your opponent's level 4 or lower Digimon to the bottom of the deck. For every
+    2 colors your Tamers have, add 1 to this effect's level maximum.\n[When Attacking]
+    [Once Per Turn] You may play 1 level 4 or lower Digimon card from your trash
+    without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: ST21_11
+  DP: 12000
+  rarity: 3
+  OverflowMemory: 4
+  CardID: ST21-11
+  MaxCountInDeck: 4

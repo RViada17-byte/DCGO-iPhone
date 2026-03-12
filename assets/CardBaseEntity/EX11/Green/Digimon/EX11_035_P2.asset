@@ -1,3 +1,58 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:ef5421bf3992f24dad7048f82f80add526102c4e00e2c69b53c98fcbb343bebf
-size-not-lfs 1588
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX11_035_P2
+  m_EditorClassIdentifier: 
+  CardIndex: 7730
+  cardColors: 03000000
+  PlayCost: 11
+  EvoCosts:
+  - CardColor: 3
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Zephagamon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Magic Knight
+  - Vortex Warriors
+  - LIBERATOR
+  - Bird Dragon
+  CardSpriteName: EX11-035_P2
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "\uFF1CPiercing\uFF1E \n\uFF1CVortex\uFF1E \n\uFF1CBlocker\uFF1E
+    \n[When Digivolving] You may unsuspend 1 Digimon. Then, you may suspend 1 Digimon.\n[All
+    Turns] [Once Per Turn] When any of your Digimon suspend, you may play 1 3000
+    DP or lower green Digimon card with [Avian] or [Bird]\_in any of its traits from
+    your hand without paying the cost. For each suspended Digimon, add 2000 to this
+    effect's DP maximum."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX11_035
+  DP: 12000
+  rarity: 3
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX11-035
+  MaxCountInDeck: 4

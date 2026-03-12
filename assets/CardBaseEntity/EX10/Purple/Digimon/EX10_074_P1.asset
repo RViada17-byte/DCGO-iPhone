@@ -1,3 +1,61 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:aad08db1cbdaa99bbea63510b9176d7383113f8524f812b6adf2454087ef1d99
-size-not-lfs 1771
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX10_074_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 7331
+  cardColors: 0600000005000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 4
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Beelzemon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Demon Lord
+  - Seven Great Demon Lords
+  CardSpriteName: EX10-074_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] While you have 20 or more cards in trash, Lv.3
+    w/[Impmon]\_in name: Cost 4 \n\n[Hand] [Counter] \uFF1CBlast Digivolve\uFF1E
+    \n[On Play] [When Digivolving] [When Attacking] Trash the top 2 cards of your
+    deck. Then, delete 1 of your opponent's play cost 6 or lower Digimon. For every
+    10 cards in your trash, add 3 to the play cost maximum.\n[On Play] [When Digivolving]
+    If you have 10 or more cards in your trash, by returning 2 non-Digi-Egg cards
+    from your trash to the top of the deck, \uFF1CDe-Digivolve 2\uFF1E 1 of your
+    opponent's Digimon. "
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX10_074
+  DP: 12000
+  rarity: 4
+  OverflowMemory: 4
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX10-074
+  MaxCountInDeck: 4

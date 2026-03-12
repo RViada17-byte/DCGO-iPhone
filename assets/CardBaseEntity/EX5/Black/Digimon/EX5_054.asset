@@ -1,3 +1,58 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:ac304c649182aa70294103ee1c8f5438ed4f952d2af1539186381f9c9a4945bf
-size-not-lfs 3031
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX5_054
+  m_EditorClassIdentifier: 
+  CardIndex: 3093
+  cardColors: 0500000002000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 4
+  - CardColor: 2
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: "\u30E1\u30BF\u30EB\u30A8\u30C6\u30E2\u30F3"
+  CardName_ENG: MetalEtemon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u30B5\u30A4\u30DC\u30FC\u30B0\u578B"
+  Type_ENG:
+  - Cyborg
+  CardSpriteName: EX5-054
+  cardKind: 0
+  EffectDiscription_JPN: "\u540D\u79F0\u306B\u300C\u30A8\u30C6\u30E2\u30F3\u300D/\u300C\u30B9\u30AB\u30E2\u30F3\u300D\u3092\u542B\u3080Lv.5:\u30B3\u30B9\u30C83\u3010\u767B\u5834\u6642\u3011\u3010\u9032\u5316\u6642\u3011\u767B\u5834\u30B3\u30B9\u30C83\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3/\u30C6\u30A4\u30DE\u30FC1\u4F53\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3002\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u306E\u540D\u79F0\u306B\u300C\u30A8\u30C6\u30E2\u30F3\u300D/\u300C\u30B9\u30AB\u30E2\u30F3\u300D\u3092\u542B\u3080\u30AB\u30FC\u30C91\u679A\u3054\u3068\u306B\u3001\u3053\u306E\u52B9\u679C\u3067\u9078\u3079\u308B\u767B\u5834\u30B3\u30B9\u30C8\u306E\u4E0A\u9650+1\u3002\u3010\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30A2\u30BF\u30C3\u30AF\u3057\u305F\u3068\u304D\u3001\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u540D\u79F0\u306B\u300C\u30A8\u30C6\u30E2\u30F3\u300D/\u300C\u30B9\u30AB\u30E2\u30F3\u300D\u3092\u542B\u3080\u30AB\u30FC\u30C91\u679A\u3092\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u306E\u4E0A\u306B\u7F6E\u304F\u3053\u3068\u3067\u3001\u30A2\u30BF\u30C3\u30AF\u306E\u5BFE\u8C61\u3092\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304B\u30D7\u30EC\u30A4\u30E4\u30FC\u306B\u5909\u66F4\u3067\u304D\u308B\u3002"
+  EffectDiscription_ENG: "[On Play] [When Digivolving] Delete 1 of your opponent's
+    play cost 3 or lower Digimon or Tamers. For each card with [Etemon]/[Sukamon]\_in
+    its name in your trash, add 1 to the maximum play cost this effect can choose.[Opponent's
+    Turn] [Once Per Turn] When an opponent's Digimon attacks, by placing 1 card with
+    [Etemon]/[Sukamon]\_in its name from your hand on top of your security stack,
+    you may switch the target of attack to this Digimon or the player."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX5_054
+  DP: 12000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: EX5-054
+  MaxCountInDeck: 4

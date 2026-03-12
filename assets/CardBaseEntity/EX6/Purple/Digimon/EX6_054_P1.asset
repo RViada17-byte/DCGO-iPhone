@@ -1,3 +1,58 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:2b7bf20e45860abe82e99f90505574047035704312a9f29d2520866dc8f8da52
-size-not-lfs 1724
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX6_054_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 3508
+  cardColors: 0600000002000000
+  PlayCost: 13
+  EvoCosts:
+  - CardColor: 6
+    Level: 4
+    MemoryCost: 8
+  - CardColor: 2
+    Level: 4
+    MemoryCost: 8
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: 'Lucemon: Chaos Mode'
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Demon Lord
+  - Seven Great Demon Lords
+  CardSpriteName: EX6-054_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve][Lucemon]: Cost 6 \n\n[On Play] [When Digivolving]
+    Your opponent may delete 1 of their Digimon or Tamers. If this effect didn't
+    delete, trash the top card of your opponent's security stack and \uFF1CRecovery
+    +1 (Deck)\uFF1E \n[All Turns] When this Digimon would leave the battle area,
+    by returning 1 [Lucemon]from this Digimon's digivolution cards or from your trash
+    to the bottom of the deck, you may play 1 [Lucemon: Satan Mode] or level 6 Digimon
+    card with the [Seven Great Demon Lords]\_trait from your trash without paying
+    the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX6_054
+  DP: 13000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: EX6-054
+  MaxCountInDeck: 4

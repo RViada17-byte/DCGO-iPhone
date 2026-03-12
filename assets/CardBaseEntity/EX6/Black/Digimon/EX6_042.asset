@@ -1,3 +1,56 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:52e41837c4318d62a4e78ead6e6cfd8c00839ab9cbba997c07708c1b35977d0d
-size-not-lfs 1807
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX6_042
+  m_EditorClassIdentifier: 
+  CardIndex: 3494
+  cardColors: 05000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: RaijiLudomon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Armor
+  - Legend-Arms
+  CardSpriteName: EX6-042
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.4 w/[Legend-Arms]\_trait: Cost 3 \n\n[Hand]
+    [Main] By paying 2 cost and placing this card as the bottom digivolution card
+    of 1 of your Digimon that's level 5 or has the [Legend-Arms]\_trait, 1 of your
+    opponent's Digimon gains \"[Start of Your Main Phase] This Digimon attacks.\",
+    until the end of your opponent's turn.\n[Your Turn] [Once Per Turn] When an effect
+    places a digivolution card under this Digimon, this Digimon gains \uFF1CBlocker\uFF1Eand
+    \uFF1CReboot\uFF1Euntil the end of your opponent's turn."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[All Turns] [Once Per Turn] When this Digimon
+    would be deleted other than by one of your effects, by trashing 1 card with the[Legend-Arms]\_trait
+    from this Digimon's digivolution cards, prevent it."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX6_042
+  DP: 7000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: EX6-042
+  MaxCountInDeck: 4

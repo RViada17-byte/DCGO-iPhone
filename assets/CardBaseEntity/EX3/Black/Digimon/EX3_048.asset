@@ -1,3 +1,57 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:2a9fb10001fe500561d865c6a60f7f3ea8263bfe980b5fdd95f8f9d0c5b6a09c
-size-not-lfs 2422
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX3_048
+  m_EditorClassIdentifier: 
+  CardIndex: 2232
+  cardColors: 05000000
+  PlayCost: 4
+  EvoCosts:
+  - CardColor: 5
+    Level: 3
+    MemoryCost: 2
+  - CardColor: 0
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: "\u30B8\u30E3\u30B6\u30FC\u30C9\u30E2\u30F3"
+  CardName_ENG: Jazardmon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u6A5F\u7ADC\u578B"
+  Type_ENG:
+  - Machine Dragon
+  CardSpriteName: EX3-048
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u30894\u679A\u30AA\u30FC\u30D7\u30F3\u3059\u308B\u3002\u305D\u306E\u4E2D\u306E\u7279\u5FB4\u306B\u300C\u5CA9\u7ADC\u578B\u300D\u304B\u300C\u5730\u7ADC\u578B\u300D\u304B\u300C\u9CE5\u7ADC\u578B\u300D\u304B\u300C\u6A5F\u7ADC\u578B\u300D\u304B\u300C\u5929\u7ADC\u578B\u300D\u3092\u6301\u3064\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C9\u3068\u300C\u6817\u539F\u30D2\u30CA\u300D1\u679A\u305A\u3064\u3092\u624B\u672D\u306B\u52A0\u3048\u308B\u3002\u6B8B\u308A\u306F\u597D\u304D\u306A\u9806\u756A\u3067\u30C7\u30C3\u30AD\u306E\u4E0B\u306B\u623B\u3059\u3002"
+  EffectDiscription_ENG: '[On Play] Reveal the top 4 cards of your deck. Add 1 Digimon
+    card with [Rock Dragon], [Earth Dragon], [Bird Dragon], [Machine Dragon], or
+    [Sky Dragon] in its traits and 1 [Hina Kurihara] among them to your hand. Place
+    the rest at the bottom of your deck in any order.'
+  InheritedEffectDiscription_JPN: "\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u3010\u767B\u5834\u6642\u3011\u52B9\u679C\u3092\u6301\u3064\u9593\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092DP+1000\u3002"
+  InheritedEffectDiscription_ENG: '[All Turns] While this Digimon has an [On Play]
+    effect, it gets +1000 DP.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX3_048
+  DP: 4000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: EX3-048
+  MaxCountInDeck: 4

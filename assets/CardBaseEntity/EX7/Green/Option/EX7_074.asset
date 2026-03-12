@@ -1,3 +1,50 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:b92256a883d8e2f2cbbd934db325fe2bc08eda891e2919cb5e518c7ab289f7e4
-size-not-lfs 1573
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX7_074
+  m_EditorClassIdentifier: 
+  CardIndex: 3816
+  cardColors: 030000000200000006000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Vortex Resonance
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - LIBERATOR
+  CardSpriteName: EX7-074
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "If you have a Digimon or Tamer with the [LIBERATOR]\_trait,
+    you may ignore this card's color requirements.\n[Main] Reveal the top 3 cards
+    of your deck. Add 1 card with the [LIBERATOR]\_trait among them to the hand.
+    Return the rest to the bottom of the deck. Then, 1 of your Digimon may digivolve
+    into a Digimon card in your hand with the digivolution cost reduced by 4."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: "[Security] You may play 1 card with the [LIBERATOR]\_trait
+    with a play cost of 4 or less from your hand or trash without paying the cost.
+    Then, add this card to the hand."
+  CardEffectClassName: EX7_074
+  DP: 0
+  rarity: 4
+  OverflowMemory: 0
+  CardID: EX7-074
+  MaxCountInDeck: 4

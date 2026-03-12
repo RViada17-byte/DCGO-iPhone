@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:e4dafb954ff56ad7c5e06b8a1e289617c66f1b4eabdff28af2c4153f066912cd
-size-not-lfs 1952
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST15_10
+  m_EditorClassIdentifier: 
+  CardIndex: 2839
+  cardColors: 05000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: "\u30A2\u30F3\u30C9\u30ED\u30E2\u30F3"
+  CardName_ENG: Andromon
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u30B5\u30A4\u30DC\u30FC\u30B0\u578B"
+  Type_ENG:
+  - Cyborg
+  CardSpriteName: ST15-10
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u226A\u9000\u53161\u226B\uFF08\u91CD\u306D\u3089\u308C\u3066\u3044\u308B\u30AB\u30FC\u30C9\u3092\u4E0A\u304B\u30891\u679A\u7834\u68C4\u3059\u308B\u3002Lv.3\u306E\u30AB\u30FC\u30C9\u4EE5\u964D\u306F\u7834\u68C4\u3067\u304D\u306A\u3044\uFF09\u3002"
+  EffectDiscription_ENG: "[When Digivolving] \uFF1CDe-Digivolve 1\uFF1E 1 of your
+    opponent's Digimon. (Trash the top card. You can't trash past level 3 cards.)"
+  InheritedEffectDiscription_JPN: "\u226A\u518D\u8D77\u52D5\u226B\uFF08\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u76F8\u624B\u306E\u30A2\u30AF\u30C6\u30A3\u30D6\u30D5\u30A7\u30A4\u30BA\u3067\u3082\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u306A\u308B\uFF09"
+  InheritedEffectDiscription_ENG: "\uFF1CReboot\uFF1E (This Digimon also unsuspends
+    during your opponent's unsuspend phase.)"
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: ST15_10
+  DP: 7000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: ST15-10
+  MaxCountInDeck: 4

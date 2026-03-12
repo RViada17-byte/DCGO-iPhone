@@ -1,3 +1,54 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:fb8d1fcfd58c979e8d0227e52b98d2bcb9c7babc15b14a49c2b045b7bed6bb1d
-size-not-lfs 1578
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX8_052
+  m_EditorClassIdentifier: 
+  CardIndex: 4149
+  cardColors: 05000000
+  PlayCost: 9
+  EvoCosts:
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Cyberdramon (X Antibody)
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Cyborg
+  - X Antibody
+  CardSpriteName: EX8-052
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve][Cyberdramon]: Cost 0 \n\n[When Digivolving]
+    If [Cyberdramon]/[X Antibody] is in this Digimon's digivolution cards, you may
+    place 1 Option card with the [Device]\_trait from your hand or trash in the battle
+    area.\n[When Digivolving] By trashing 1 of your Option cards in the battle area,
+    \uFF1CDe-Digivolve2\uFF1E 1 of your opponent's Digimon."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[When Attacking] [Once Per Turn] By trashing 1
+    of your Option cards in the battle area, trash your opponent''s top security
+    card.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX8_052
+  DP: 9000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: EX8-052
+  MaxCountInDeck: 4

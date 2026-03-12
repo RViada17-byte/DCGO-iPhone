@@ -1,3 +1,53 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:0c40e2902e1f430ef104fb257b3473e83f4bd173ab453734202b0480492b71d5
-size-not-lfs 1961
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_066
+  m_EditorClassIdentifier: 
+  CardIndex: 6108
+  cardColors: 00000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 0
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: "\u30CF\u30C3\u30AF\u30E2\u30F3"
+  CardName_ENG: Huckmon
+  Form_JPN:
+  - "\u6210\u9577\u671F"
+  Form_ENG:
+  - Rookie
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u5C0F\u7ADC\u578B"
+  Type_ENG:
+  - Mini Dragon
+  CardSpriteName: P-066
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u30D0\u30C8\u30EB\u7D42\u4E86\u6642\u3001DP4000\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3002\u3053\u306E\u52B9\u679C\u3067\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u6D88\u6EC5\u3057\u306A\u304B\u3063\u305F\u3068\u304D\u3001\u226A1\u30C9\u30ED\u30FC\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u304B\u3089\u30AB\u30FC\u30C9\u30921\u679A\u5F15\u304F\uFF09\u3002\u305D\u306E\u5F8C\u3001\u3053\u306E\u30AB\u30FC\u30C9\u3092\u624B\u672D\u306B\u52A0\u3048\u308B\u3002"
+  EffectDiscription_ENG: "[Security] At the end of the battle, delete 1 of your opponent's
+    Digimon with 4000 DP or less. If no Digimon was deleted by this effect, \uFF1CDraw
+    1\uFF1E. (Draw 1 card from your deck.) Then, add this card to its owner\u2019s
+    hand."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: P_066
+  DP: 2000
+  rarity: 5
+  OverflowMemory: 0
+  CardID: P-066
+  MaxCountInDeck: 4

@@ -1,3 +1,50 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:d70c88e77d6390266399d4797e656bef2a0f4776a2bca6a9390ec92d9001783c
-size-not-lfs 3210
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX5_065
+  m_EditorClassIdentifier: 
+  CardIndex: 3104
+  cardColors: 01000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: "\u30B5\u30E8\uFF06\u30B3\u30A6"
+  CardName_ENG: Sayo & Koh
+  Form_JPN: []
+  Form_ENG: []
+  Attribute_JPN: []
+  Attribute_ENG: []
+  Type_JPN:
+  - "\u30CA\u30A4\u30C8\u30AF\u30ED\u30A6"
+  Type_ENG:
+  - Night Claw
+  CardSpriteName: EX5-065
+  cardKind: 1
+  EffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u306B\u91CD\u306D\u3089\u308C\u3066\u3044\u308B\u30AB\u30FC\u30C9\u304C\u52B9\u679C\u3067\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u306B\u7F6E\u304B\u308C\u305F\u3068\u304D\u3001\u3053\u306E\u30C6\u30A4\u30DE\u30FC\u3092\u30EC\u30B9\u30C8\u3055\u305B\u308B\u3053\u3068\u3067\u3001\u30E1\u30E2\u30EA\u30FC+1\u3002\u3010\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u958B\u59CB\u6642\u3011\u7279\u5FB4\u306B\u300C\u30CA\u30A4\u30C8\u30AF\u30ED\u30A6\u300D/\u300C\u30E9\u30A4\u30C8\u30D5\u30A1\u30F3\u30B0\u300D\u3092\u6301\u3064\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u304B\u3089\u3001\u305D\u306E\u30C7\u30B8\u30E2\u30F3\u3068\u540C\u3058Lv.\u306E\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3055\u305B\u308B\u3053\u3068\u3067\u3001\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F32\u4F53\u3067\u624B\u672D\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C9\u306B\u30B8\u30E7\u30B0\u30EC\u30B9\u9032\u5316\u3067\u304D\u308B\u3002\u3053\u306E\u52B9\u679C\u3067\u767B\u5834\u3057\u305F\u30C7\u30B8\u30E2\u30F3\u306F\u30BF\u30FC\u30F3\u7D42\u4E86\u6642\u306B\u624B\u672D\u306B\u623B\u308B\u3002"
+  EffectDiscription_ENG: "[Your Turn] When an effect places the top card of one of
+    your Digimon in a Digimon's digivolution cards, by suspending this Tamer, gain
+    1 memory.[Start of Opponent's Turn] By playing 1 card with the same level as
+    one of your [Night Claw]/[Light Fang]\_trait Digimon from that Digimon's digivolution
+    cards withotu paying the cost, 2 of your Digimon may DNA Digivolve into a Digimon
+    card in your hand. At the end of the turn, return the Digimon played by this
+    effect to hand."
+  InheritedEffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u3053\u306E\u30AB\u30FC\u30C9\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3055\u305B\u308B\u3002"
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u3053\u306E\u30AB\u30FC\u30C9\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3055\u305B\u308B\u3002"
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying its memory
+    cost.'
+  CardEffectClassName: EX5_065
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  CardID: EX5-065
+  MaxCountInDeck: 4

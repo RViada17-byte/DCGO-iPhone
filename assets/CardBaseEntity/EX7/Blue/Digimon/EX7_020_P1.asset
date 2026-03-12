@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:b668f9ce4677d1eba80c0f0665e15f87a41c1c74d50e50911874b6212d5cd5f0
-size-not-lfs 1463
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX7_020_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 3714
+  cardColors: 01000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 1
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Paledramon
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Dragon
+  - Ice-Snow
+  CardSpriteName: EX7-020_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[When Digivolving] Trash the bottom 2 digivolution card
+    of 1 of your opponent's Digimon. Then, if your opponent has no Digimon with digivolution
+    cards, this Digimon gains \uFF1CJamming\uFF1Eand \uFF1CBlocker\uFF1Euntil the
+    end of your opponent's turn.\n[Rule] Trait: Has the [Ice-Snow] type."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[When Attacking] [Once Per Turn] Trash the top
+    digivolution card of 1 of your opponent''s Digimon.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX7_020
+  DP: 5000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: EX7-020
+  MaxCountInDeck: 4

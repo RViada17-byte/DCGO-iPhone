@@ -1,3 +1,51 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:5a2db9d6dcbe36380774c330a0f157cc50371369d16955964896be7b45a7a831
-size-not-lfs 1233
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX4_002_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 3295
+  cardColors: 03000000
+  PlayCost: -1
+  EvoCosts: []
+  Level: 2
+  CardName_JPN: "\u30C1\u30E7\u30B3\u30E2\u30F3"
+  CardName_ENG: Kokomon
+  Form_JPN:
+  - "\u5E7C\u5E74\u671F"
+  Form_ENG:
+  - In-Training
+  Attribute_JPN:
+  - '-'
+  Attribute_ENG:
+  - '-'
+  Type_JPN:
+  - "\u30EC\u30C3\u30B5\u30FC\u578B"
+  Type_ENG:
+  - Lesser
+  CardSpriteName: EX4-002_P1
+  cardKind: 3
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "-\r"
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[Your Turn] [Once Per Turn] When an effect suspends
+    one of your Digimon, \uFF1CDraw 1\uFF1E."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX4_002
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: EX4-002
+  MaxCountInDeck: 4

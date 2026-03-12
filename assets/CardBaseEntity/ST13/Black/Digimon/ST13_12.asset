@@ -1,3 +1,53 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:8f1f20229611ef2002ad5d0f79296c628982f7e3c0839b779fb6d2fbb6198728
-size-not-lfs 1185
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST13_12
+  m_EditorClassIdentifier: 
+  CardIndex: 2812
+  cardColors: 0500000000000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 3
+  - CardColor: 0
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: "\u30CA\u30A4\u30C8\u30E2\u30F3"
+  CardName_ENG: Knightmon
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u6226\u58EB\u578B"
+  Type_ENG:
+  - Warrior
+  CardSpriteName: ST13-12
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: 
+  DP: 7000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: ST13-12
+  MaxCountInDeck: 4

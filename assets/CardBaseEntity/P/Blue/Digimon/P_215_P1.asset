@@ -1,3 +1,59 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:b3a0a7c1731d7ff8b1a21e16dc0e297d7df40f8bca58f5c459ea6798ded0aaed
-size-not-lfs 1631
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_215_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 7510
+  cardColors: 0100000005000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 1
+    Level: 3
+    MemoryCost: 3
+  - CardColor: 5
+    Level: 3
+    MemoryCost: 3
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Icemon
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Ice-Snow
+  - Mineral
+  CardSpriteName: P-215_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.3 w/[Ice-Snow]/[Mineral]/[Rock]: Cost 2
+    \n\n[When Moving] [On Play] [When Digivolving] By placing 1 level 4 or lower
+    [Ice-Snow], [Mineral] or [Rock]\_trait card from your hand or trash as this Digimon's
+    bottom digivolution card, until your opponent\u2019s turn ends, their effects
+    can't return 1 or your [Ice-Snow], [Mineral] or [Rock]\_trait Digimon to hands
+    or decks or affect it with \uFF1CDe-Digivolve\uFF1E effects."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "\uFF1CBlocker\uFF1E "
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: P_215
+  DP: 6000
+  rarity: 5
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: P-215
+  MaxCountInDeck: 4

@@ -1,3 +1,56 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:05b48ee102ae8ddc0e78fad190aa2dc06cf3fd5384f809cae76784c2ab8889a3
-size-not-lfs 1885
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX6_031_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 3481
+  cardColors: 02000000
+  PlayCost: 15
+  EvoCosts:
+  - CardColor: 2
+    Level: 6
+    MemoryCost: 4
+  Level: 7
+  CardName_JPN: 
+  CardName_ENG: Shakamon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - "Tath\u0101gata"
+  CardSpriteName: EX6-031_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve][Sanzomon]/[Gokuumon]/[Sagomon]/[Cho-Hakkaimon]:
+    Cost 6 \n\n[On Play] [When Digivolving] All Digimon gain \uFF1CSecurity Attack
+    -1\uFF1Euntil the end of your opponent's turn.\n[All Turns] When this Digimon
+    would be deleted or returned to the hand or deck, you may play 1 [Sanzomon] and
+    1 [Gokuumon]/[Sagomon]/[Cho-Hakkaimon] from its digivolution cards without paying
+    the cost.\n[Your Turn] Change \uFF1CSecurity Attack -\uFF1E (This Digimon checksfewer
+    security cards) to \uFF1CSecurity Attack +\uFF1E (This Digimon checksadditional
+    security cards) on all of your Digimon.\n[End of Opponent's Turn] [Once Per Turn]
+    You may place 1 Digimon with \uFF1CSecurity Attack\uFF1E on top of its owner's
+    security stack.\n\n[DigiXros\_-2] [Sanzomon] x [Gokuumon] x [Sagomon] x [Cho-Hakkaimon] "
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX6_031
+  DP: 15000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: EX6-031
+  MaxCountInDeck: 4

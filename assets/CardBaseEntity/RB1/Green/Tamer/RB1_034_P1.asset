@@ -1,3 +1,48 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:a8021c02494a8f1fb1b4b686bfdf7dae6120955954ac0a0954727e316464ebdb
-size-not-lfs 2292
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: RB1_034_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 2908
+  cardColors: 03000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: "\u6708\u591C\u91CE\u7460\u7483"
+  CardName_ENG: Ruli Tsukiyono
+  Form_JPN: []
+  Form_ENG: []
+  Attribute_JPN: []
+  Attribute_ENG: []
+  Type_JPN: []
+  Type_ENG: []
+  CardSpriteName: RB1-034_P1
+  cardKind: 1
+  EffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u7279\u5FB4\u306B\u300C\u7363\u300D\u3092\u542B\u3080\u7DD1\u306E\u30AB\u30FC\u30C9\u306B\u9032\u5316\u3059\u308B\u3068\u304D\u3001\u3053\u306E\u30C6\u30A4\u30DE\u30FC\u3092\u30EC\u30B9\u30C8\u3055\u305B\u308B\u3053\u3068\u3067\u3001\u652F\u6255\u3046\u9032\u5316\u30B3\u30B9\u30C8-1\u3002\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u6642\u3011[\u30BF\u30FC\u30F3\u306B1\u56DE]\u300C\u30A2\u30F3\u30B4\u30E9\u30E2\u30F3\u300D\u306E\u8A18\u8FF0\u304C\u3042\u308B\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u3067\u304D\u308B\u3002"
+  EffectDiscription_ENG: '[Your Turn] When one of your Digimon digivolves into a
+    green card with [Beast], [Animal] or [Sovereign], other than [Sea Animal], in
+    one of its traits, by suspending this Tamer, reduce the digivolution cost by
+    1.[End of Your Turn][Once Per Turn] You may unsuspend 1 of your Digimon with
+    [Angoramon] in its text.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u3053\u306E\u30AB\u30FC\u30C9\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3055\u305B\u308B\u3002"
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying the cost.'
+  CardEffectClassName: RB1_034
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: RB1-034
+  MaxCountInDeck: 4

@@ -1,3 +1,55 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:03f87c52ae1c94faa851b281c4e2bc1dad981fbd082ca2bdd4198e91b846e153
-size-not-lfs 1493
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX8_025_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 4094
+  cardColors: 0100000005000000
+  PlayCost: 8
+  EvoCosts:
+  - CardColor: 1
+    Level: 4
+    MemoryCost: 4
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Whamon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Sea Animal
+  - DS
+  CardSpriteName: EX8-025_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[On Play] [When Digivolving] You may place 1 Digimon card
+    with the [DS]\_trait from your trash as this Digimon's bottom digivolution card.\n[End
+    of Attack] [Once Per Turn] You may play 1 [DS]\_trait Digimon card with a play
+    cost of 5 or less from this Digimon's digivolution cards without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[Your Turn] This Digimon''s attack target can''t
+    be switched.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX8_025
+  DP: 8000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: EX8-025
+  MaxCountInDeck: 4

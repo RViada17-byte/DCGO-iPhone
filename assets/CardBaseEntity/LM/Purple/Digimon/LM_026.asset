@@ -1,3 +1,57 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:e101cd3caa9ca401d69090c780f76810a658a734a28d7b5d8d70138b78908e9e
-size-not-lfs 1680
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: LM_026
+  m_EditorClassIdentifier: 
+  CardIndex: 4036
+  cardColors: 0600000000000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 4
+  - CardColor: 0
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Megidramon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Evil Dragon
+  - Four Great Dragons
+  CardSpriteName: LM-026
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.5 w/[Growlmon]\_in its name: Cost 3 \n\n[Hand]
+    [Counter] \uFF1CBlast Digivolve\uFF1E \n[On Play] [When Digivolving] Delete 1
+    of your opponent's 11000 DP or lower Digimon.\n[All Turns] When this Digimon
+    would leave the battle area, by playing 1 [Guilmon] from this Digimon's digivolution
+    cards or from your trash, place this Digimon as that Digimon's bottom digivolution
+    card.\n[Rule] Name: Also treated as [ChaosGallantmon]."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[All Turns] Add 5000 to the maximum DP you can
+    choose with this Digimon''s DP-based deletion effects.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: LM_026
+  DP: 12000
+  rarity: 5
+  OverflowMemory: 4
+  CardID: LM-026
+  MaxCountInDeck: 4

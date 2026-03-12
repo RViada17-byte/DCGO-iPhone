@@ -1,3 +1,51 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:83c1707463660efad26a72460911234531424288d7cc8c394eff4e29d3a42bc8
-size-not-lfs 1585
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: LM_027
+  m_EditorClassIdentifier: 
+  CardIndex: 4037
+  cardColors: 00000000
+  PlayCost: 2
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Red Scramble
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Option
+  CardSpriteName: LM-027
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Main] 1 of your red Digimon may digivolve into a red Digimon
+    card in the hand with the digivolution cost reduced by 3. Then, place this card
+    in the battle area.\n[Start of Your Turn] If your opponent has a Digimon, \uFF1CDelay\uFF1E
+    \n\u30FB Return 1 red Digimon card from your trash to the top of the deck. Then,
+    if you don't have a Digimon, you may play 1 red Digimon card with 2000 DP or
+    less from your trash without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] You may play 1 red Digimon card with
+    2000 DP or less from your trash without paying the cost. Then, add this card
+    to the hand.'
+  CardEffectClassName: LM_027
+  DP: 0
+  rarity: 5
+  OverflowMemory: 0
+  CardID: LM-027
+  MaxCountInDeck: 4

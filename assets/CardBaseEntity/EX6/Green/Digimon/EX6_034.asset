@@ -1,3 +1,55 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:7781d69e4aab01e782fbc45cd18a1904dab1edd05eae8f5acd8bb46466ae9bee
-size-not-lfs 1487
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX6_034
+  m_EditorClassIdentifier: 
+  CardIndex: 3484
+  cardColors: 0300000002000000
+  PlayCost: 8
+  EvoCosts:
+  - CardColor: 3
+    Level: 4
+    MemoryCost: 4
+  - CardColor: 2
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Antylamon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Holy Beast
+  - Deva
+  CardSpriteName: EX6-034
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve][Turuiemon]/[Wendigomon]: Cost 3 \n\n\uFF1CAlliance\uFF1E
+    \n[When Digivolving] You may play 1 level 3 green or yellow Digimon card from
+    your hand without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[End of Attack] [Once Per Turn] By returning 1
+    of your other suspended Digimon to the hand, you may play 1 level 3 card with
+    the [Beast]\_trait from your hand without paying the cost."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX6_034
+  DP: 8000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: EX6-034
+  MaxCountInDeck: 4

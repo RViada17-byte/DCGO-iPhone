@@ -1,3 +1,56 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:80c0d027eeedd26e3719f013b3725b92457e15167051154feb45b08ad37559a3
-size-not-lfs 1615
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX5_055_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 4233
+  cardColors: 0500000003000000
+  PlayCost: 13
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 5
+  - CardColor: 3
+    Level: 5
+    MemoryCost: 5
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: HeavyLeomon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Machine
+  CardSpriteName: EX5-055_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.5 w/[Leomon]\_in its name: Cost 4 \n\n\uFF1CFortitude\uFF1E
+    (When this Digimon with digivolution cards is deleted, play this card without
+    paying the cost)\n[When Digivolving] [On Deletion] \uFF1CDe-Digivolve1\uFF1E
+    1 of your opponent's Digimon. Then, return 1 of their 6000 DP or lower Digimon
+    to the bottom of the deck.\n[End of Attack] [Once Per Turn] Return 1 of your
+    opponent's 4000 DP or lower Digimon to the bottom of the deck. If you didn't,
+    unsuspend this Digimon."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX5_055
+  DP: 13000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: EX5-055
+  MaxCountInDeck: 4

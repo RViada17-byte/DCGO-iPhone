@@ -1,3 +1,51 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:6283058e6e0f665c3a79435fdbc4101bf01c3d4cfa57c64eaaf78c1d9b562b36
-size-not-lfs 1494
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST4_06
+  m_EditorClassIdentifier: 
+  CardIndex: 115
+  cardColors: 03000000
+  PlayCost: 4
+  EvoCosts:
+  - CardColor: 3
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: "\u30C8\u30B2\u30E2\u30F3"
+  CardName_ENG: Togemon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u690D\u7269\u578B"
+  Type_ENG:
+  - Vegetation
+  CardSpriteName: ST4-06
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 
+  InheritedEffectDiscription_JPN: "\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u306B\u30A2\u30BF\u30C3\u30AF\u3057\u305F\u3068\u304D\u3001\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306EDP\u3092+2000\u3059\u308B\u3002"
+  InheritedEffectDiscription_ENG: '[When Attacking] If you attack an opponent''s
+    Digimon, this Digimon gets +2000 DP for the turn.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: ST4_04
+  DP: 4000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: ST4-06
+  MaxCountInDeck: 4

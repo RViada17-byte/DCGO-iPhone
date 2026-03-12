@@ -1,3 +1,58 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:15c61fa4a082eab74958724c71439adaafd99f9a835ae65ad2eb3b8942dc0ddd
-size-not-lfs 1662
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX9_031
+  m_EditorClassIdentifier: 
+  CardIndex: 6895
+  cardColors: 02000000
+  PlayCost: 8
+  EvoCosts:
+  - CardColor: 2
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Etemon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Puppet
+  - DM
+  - Ver.3
+  CardSpriteName: EX9-031
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] [Sukamon]: Cost 3\n[Digivolve] Lv.4 w/[DM]\_trait:
+    Cost 4 \n\nWhen any of your [Ver.3]\_trait Digimon would digivolve into this
+    card, for each of their face-down digivolution cards, reduce the digivolution
+    cost by 1.\n\uFF1CSecurity A. +1\uFF1E \n[When Digivolving] [When Attacking]
+    [Once Per Turn] By trashing this Digimon's bottom face-down digivolution card,
+    \uFF1CRecovery +1 (Deck)\uFF1E."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[All Turns] [Once Per Turn] When your security
+    stack is removed from, 1 of your opponent''s Digimon gets -4000 DP for the turn.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX9_031
+  DP: 8000
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX9-031
+  MaxCountInDeck: 4

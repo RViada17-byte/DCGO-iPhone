@@ -1,3 +1,48 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:6db7dcc10459bb478a10187c57a8fc36bcb7c6169ca0db0fee04f34f1fd64c67
-size-not-lfs 1401
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_181
+  m_EditorClassIdentifier: 
+  CardIndex: 5305
+  cardColors: 0300000005000000
+  PlayCost: 2
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Royal Base
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Royal Base
+  CardSpriteName: P-181
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Security] [Your Turn] [Once Per Turn] When any of your
+    Digimon would digivolve into a Digimon card with the [Royal Base]\_trait, reduce
+    the digivolution cost by 1.\n[Main] Add your top security card to the hand. Then,
+    place this card face up as your bottom security card."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: "[Security] You may play 1 level 5 or lower Digimon
+    card with the [Royal Base]\_trait from your hand without paying the cost."
+  CardEffectClassName: P_181
+  DP: 0
+  rarity: 5
+  OverflowMemory: 0
+  CardID: P-181
+  MaxCountInDeck: 4

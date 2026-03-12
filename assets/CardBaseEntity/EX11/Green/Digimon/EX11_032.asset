@@ -1,3 +1,59 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:c51d47427c68f9f1dc61e2ce288e7762966d92dbfe7f8bb721965559293c20e5
-size-not-lfs 1762
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX11_032
+  m_EditorClassIdentifier: 
+  CardIndex: 7722
+  cardColors: 03000000
+  PlayCost: 8
+  EvoCosts:
+  - CardColor: 3
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: GrandGalemon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Bird Dragon
+  - Vortex Warriors
+  - LIBERATOR
+  CardSpriteName: EX11-032
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Hand] [Main] If you have [Shoto Kazama], by placing 1
+    [Galemon] from your trash as any of your [Pteromon]'s bottom digivolution card,
+    it digivolves into this card for a digivolution cost of 3, ignoring digivolution
+    requirements.\n[When Digivolving] You may suspend 1 Digimon. Then, you may play
+    1 3000 DP or lower green Digimon card with [Avian] or [Bird]\_in any of its traits
+    from your hand without paying the cost. For each suspended Digimon, add 1000
+    to this effect's DP maximum."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[Your Turn] [Once Per Turn] When this Digimon
+    wins a battle, this [Vortex Warriors]\_trait Digimon may unsuspend."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX11_032
+  DP: 8000
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX11-032
+  MaxCountInDeck: 4

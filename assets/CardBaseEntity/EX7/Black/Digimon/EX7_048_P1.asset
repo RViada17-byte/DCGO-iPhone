@@ -1,3 +1,54 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:63b236aab656d4ff33a50776c8bc251a042098c772681bad402123fa9aa13889
-size-not-lfs 1584
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX7_048_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 3767
+  cardColors: 05000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Gundramon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Machine
+  - Three Musketeers
+  CardSpriteName: EX7-048_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.5 w/[Three Musketeers]\_in its text: Cost
+    4 \n\n\uFF1CBlocker\uFF1E \n[On Play] [When Digivolving] Reveal the top 6 cards
+    of your deck. You may use 1 Option card with the [Three Musketeers]\_trait among
+    them without paying the cost. Return the rest to the top or bottom of the deck.\n[All
+    Turns] When your Digimon with the [Three Musketeers]\_trait would leave the battle
+    area other than by your effects, by trashing 1 Option card in this Digimon's
+    digivolution cards, prevent it."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX7_048
+  DP: 12000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: EX7-048
+  MaxCountInDeck: 4

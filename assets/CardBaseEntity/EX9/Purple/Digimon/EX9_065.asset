@@ -1,3 +1,59 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:73c5c965b8c6289c615929683a70bede04fe250eebca961d8526267eb236fd1f
-size-not-lfs 1519
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX9_065
+  m_EditorClassIdentifier: 
+  CardIndex: 6956
+  cardColors: 0600000003000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 4
+  - CardColor: 3
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Titamon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Shaman
+  - DM
+  - Ver.4
+  CardSpriteName: EX9-065
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.5 w/[DM]\_trait: Cost 3 \n\n[Hand] [Counter]
+    \uFF1CBlast Digivolve\uFF1E.\n\uFF1CScapegoat\uFF1E \n[On Play] [When Digivolving]
+    You may play 1 level 4 or lower [DM]\_trait Digimon card from your trash without
+    paying the cost.\n[All Turns] All of your [Ver.4]\_trait Digimon gain \uFF1CBlocker\uFF1E
+    and \uFF1CRetaliation\uFF1E."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX9_065
+  DP: 12000
+  rarity: 2
+  OverflowMemory: 4
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX9-065
+  MaxCountInDeck: 4

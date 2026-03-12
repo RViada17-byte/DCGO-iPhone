@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:eaf33b13db5742975650f9d8fba41cd72a94d4dd99bb8a0d012a050f950b5dbd
-size-not-lfs 1733
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX3_017
+  m_EditorClassIdentifier: 
+  CardIndex: 2191
+  cardColors: 01000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 1
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: "\u30A8\u30D3\u30C9\u30E9\u30E2\u30F3"
+  CardName_ENG: Ebidramon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u6C34\u68F2\u578B"
+  Type_ENG:
+  - Aquatic
+  CardSpriteName: EX3-017
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u6B21\u306E\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u307E\u3067\u3001\u9752\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306F\u226A\u30D6\u30ED\u30C3\u30AB\u30FC\u226B\u3092\u5F97\u308B\u3002\u9032\u5316\u5143\u304B\u3089\u767B\u5834\u3057\u3066\u3044\u305F\u3068\u304D\u3001\u305D\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u3059\u308B\u3002"
+  EffectDiscription_ENG: "[On Play] 1 of your blue Digimon gains \uFF1CBlocker\uFF1E
+    until the end of your opponent's turn. When played from digivolution cards, unsuspend
+    that Digimon."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX3_017
+  DP: 5000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: EX3-017
+  MaxCountInDeck: 4

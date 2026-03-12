@@ -1,3 +1,51 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:ba7bc37d2fdc00344a516f247c403aa5814a52a33b2028d4f7df03cd1d4b8434
-size-not-lfs 1513
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST16_04
+  m_EditorClassIdentifier: 
+  CardIndex: 2849
+  cardColors: 06000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 6
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: "\u30D0\u30AF\u30E2\u30F3"
+  CardName_ENG: Tapirmon
+  Form_JPN:
+  - "\u6210\u9577\u671F"
+  Form_ENG:
+  - Rookie
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u8056\u7363\u578B"
+  Type_ENG:
+  - Holy Beast
+  CardSpriteName: ST16-04
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 
+  InheritedEffectDiscription_JPN: "\u226A\u9053\u9023\u308C\u226B\uFF08\u30D0\u30C8\u30EB\u3067\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3060\u3051\u304C\u6D88\u6EC5\u3057\u305F\u3068\u304D\u3001\u30D0\u30C8\u30EB\u3057\u305F\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u6D88\u6EC5\u3055\u305B\u308B\uFF09"
+  InheritedEffectDiscription_ENG: "\uFF1CRetaliation\uFF1E (When this Digimon is
+    deleted in battle, delete the Digimon it battled.)"
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: BT3_080
+  DP: 2000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: ST16-04
+  MaxCountInDeck: 4

@@ -1,3 +1,61 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:e794719b0509dd4c55247bfff14f834623407f148c045cf134a82ea61e9c297a
-size-not-lfs 1688
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX9_011
+  m_EditorClassIdentifier: 
+  CardIndex: 6852
+  cardColors: 0000000005000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 0
+    Level: 4
+    MemoryCost: 4
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 4
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: MetalGreymon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Cyborg
+  - DM
+  - Ver.1
+  CardSpriteName: EX9-011
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Greymon]\_in name or w/[DM]\_trait:
+    Cost 3 \n\nWhen this card would be played, by trashing 1 [Cyborg] or [Ver.1]\_trait
+    card from your hand, reduce the play cost by 2.\n[On Play] [When Digivolving]
+    By placing 1 Digimon card from your trash face down as this Digimon's bottom
+    digivolution card, delete up to 5000 DP total worth of your opponent's Digimon.
+    For each of this Digimon's face-down digivolution cards, add 2000 to this effect's
+    DP maximum."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "\uFF1CSecurity A. +1\uFF1E."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX9_011
+  DP: 7000
+  rarity: 3
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX9-011
+  MaxCountInDeck: 4

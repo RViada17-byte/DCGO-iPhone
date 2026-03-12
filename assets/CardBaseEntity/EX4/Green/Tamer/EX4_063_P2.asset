@@ -1,3 +1,51 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:d4e25f4ac6832b6f9c06b84d958a3801a0fa48a860407f7be9c00a7c7fd8b916
-size-not-lfs 1501
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX4_063_P2
+  m_EditorClassIdentifier: 
+  CardIndex: 4253
+  cardColors: 0300000002000000
+  PlayCost: 4
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Henry Wong & Shu-Chong Wong
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Tamer
+  CardSpriteName: EX4-063_P2
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[Start of Your Main Phase] If you have 1 or fewer Digimon
+    in play, you may play 1 [Terriermon]/[Lopmon] from your hand without paying the
+    cost. Digimon played by this effect can''t digivolve and are deleted at the end
+    of your opponent''s turn.
+
+    [Your Turn] When one of your Digimon with [Terriermon]/[Lopmon]
+    in its digivolution cards would digivolve, by suspending this Tamer, reduce the
+    digivolution cost by 1.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying the cost.'
+  CardEffectClassName: EX4_063
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  CardID: EX4-063
+  MaxCountInDeck: 4

@@ -1,3 +1,61 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:dbde70d602c010459102d707638fd2b944c2329b4d0e99fb66ebf559c38a6959
-size-not-lfs 3074
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST13_11
+  m_EditorClassIdentifier: 
+  CardIndex: 2811
+  cardColors: 05000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 5
+    Level: 3
+    MemoryCost: 2
+  - CardColor: 0
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: "\u30C6\u30A3\u30A2\u30EB\u30C9\u30E2\u30F3"
+  CardName_ENG: TiaLudomon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u9632\u5177\u578B"
+  - Legend-Arms
+  Type_ENG:
+  - Armor
+  - Legend-Arms
+  CardSpriteName: ST13-11
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u7279\u5FB4\u306B\u300CLegend-Arms\u300D\u3092\u6301\u3064\u304B\u8D64\u306E\u4ED6\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306E\u9032\u5316\u5143\u306E\u4E0B\u306B\u7F6E\u304F\u3053\u3068\u3067\u3001\u6B21\u306E\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u307E\u3067\u3001\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306F\u226A\u518D\u8D77\u52D5\u226B\uFF08\u76F8\u624B\u306E\u30A2\u30AF\u30C6\u30A3\u30D6\u30D5\u30A7\u30A4\u30BA\u306B\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u3059\u308B\uFF09\u3092\u5F97\u308B\u3002"
+  EffectDiscription_ENG: "[On Play] By placing this Digimon under 1 of your other
+    Digimon that's red or has [Legend-Arms] in its traits as its bottom digivolution
+    card, 1 of your Digimon gains \uFF1CReboot\uFF1E until the end of your opponent's
+    turn. (Unsuspend this Digimon during your opponent's unsuspend phase.)"
+  InheritedEffectDiscription_JPN: "\u3010\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u3011\u7279\u5FB4\u306B\u300CLegend-Arms\u300D\u3092\u6301\u3064\u304B\u8D64\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u3044\u308B\u9593\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u226A\u30D6\u30ED\u30C3\u30AB\u30FC\u226B\uFF08\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30A2\u30BF\u30C3\u30AF\u3057\u305F\u3068\u304D\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u30EC\u30B9\u30C8\u3055\u305B\u308B\u3053\u3068\u3067\u30A2\u30BF\u30C3\u30AF\u306E\u5BFE\u8C61\u3092\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306B\u3059\u308B\uFF09\u3092\u5F97\u308B\u3002"
+  InheritedEffectDiscription_ENG: "[Opponent's Turn] While you have a Digimon that's
+    red or has [Legend-Arms] in its traits in play, this Digimon gains \uFF1CBlocker\uFF1E.
+    (When an opponent's Digimon attacks, you may suspend this Digimon to force the
+    opponent to attack it instead.)"
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: ST13_11
+  DP: 4000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: ST13-11
+  MaxCountInDeck: 4

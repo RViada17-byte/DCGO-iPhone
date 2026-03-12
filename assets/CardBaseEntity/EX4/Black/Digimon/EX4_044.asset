@@ -1,3 +1,54 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:7e23585afef5069021c708af32ea4242111dd62ab18ca467a3ec4492f078cb49
-size-not-lfs 2182
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX4_044
+  m_EditorClassIdentifier: 
+  CardIndex: 2596
+  cardColors: 05000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 5
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: "\u30B0\u30EC\u30A4\u30E2\u30F3"
+  CardName_ENG: Greymon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u6050\u7ADC\u578B"
+  Type_ENG:
+  - Dinosaur
+  CardSpriteName: EX4-044
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u4ED6\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u624B\u672D\u306E\u540D\u79F0\u306B\u300C\u30AC\u30EB\u30EB\u30E2\u30F3\u300D\u3092\u542B\u3080Lv.6\u4EE5\u4E0B\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C9\u306B\u9032\u5316\u30B3\u30B9\u30C8\u3092\u652F\u6255\u3063\u3066\u9032\u5316\u3067\u304D\u308B\u3002\u3053\u306E\u52B9\u679C\u3067\u9032\u5316\u3059\u308B\u3068\u304D\u3001\u652F\u6255\u3046\u9032\u5316\u30B3\u30B9\u30C8-2\u3002"
+  EffectDiscription_ENG: '[When Digivolving] 1 of your other Digimon may digivolve
+    into a level 6 or lower Digimon card with [Garurumon] in its name in your hand
+    for the digivolution cost. When that Digimon would digivolve by this effect,
+    reduce the digivolution cost by 2.'
+  InheritedEffectDiscription_JPN: "\u226A\u518D\u8D77\u52D5\u226B\uFF08\u76F8\u624B\u306E\u30A2\u30AF\u30C6\u30A3\u30D6\u30D5\u30A7\u30A4\u30BA\u306B\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u3059\u308B\uFF09"
+  InheritedEffectDiscription_ENG: ' (Unsuspend this Digimon during your opponent''s
+    unsuspend phase.)'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX4_044
+  DP: 5000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: EX4-044
+  MaxCountInDeck: 4

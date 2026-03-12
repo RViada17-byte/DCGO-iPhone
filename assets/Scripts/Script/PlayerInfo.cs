@@ -39,6 +39,7 @@ public class PlayerInfo : MonoBehaviour
         gameObject.SetActive(true);
         EnsureCurrencyText();
         EnsureHudLayout(force: true);
+        SetPlayerNameAccessoryVisibility(true);
 
         if (PlayerNameInputField != null && ContinuousController.instance != null)
         {
@@ -82,6 +83,8 @@ public class PlayerInfo : MonoBehaviour
         {
             PlayerNameInputField.gameObject.SetActive(false);
         }
+
+        SetPlayerNameAccessoryVisibility(false);
 
         gameObject.SetActive(false);
     }
@@ -215,35 +218,12 @@ public class PlayerInfo : MonoBehaviour
 
     void ApplyPlayerNameLayout(RectTransform hudParent, Rect safeArea)
     {
-        if (hudParent == null || PlayerNameInputField == null)
+        if (PlayerNameInputField == null)
         {
             return;
         }
 
         CapturePlayerNameOffsets();
-
-        RectTransform playerNameRect = PlayerNameInputField.transform as RectTransform;
-        if (playerNameRect == null)
-        {
-            return;
-        }
-
-        if (playerNameRect.parent != hudParent)
-        {
-            playerNameRect.SetParent(hudParent, false);
-        }
-
-        GetSafeInsetsInCanvasUnits(hudParent, safeArea, out float rightInset, out float topInset, out _);
-        playerNameRect.anchorMin = new Vector2(1f, 1f);
-        playerNameRect.anchorMax = new Vector2(1f, 1f);
-        playerNameRect.pivot = new Vector2(1f, 1f);
-        playerNameRect.anchoredPosition = new Vector2(
-            -(rightInset + PlayerNamePadding.x),
-            -(topInset + PlayerNamePadding.y));
-        playerNameRect.SetAsLastSibling();
-
-        ApplyPlayerNameAccessoryLayout(hudParent, _playerNameTextRect, playerNameRect, _playerNameTextOffset);
-        ApplyPlayerNameAccessoryLayout(hudParent, _playerNamePlaceholderRect, playerNameRect, _playerNamePlaceholderOffset);
     }
 
     void ApplyCurrencyLayout(RectTransform hudParent, Rect safeArea)
@@ -333,6 +313,19 @@ public class PlayerInfo : MonoBehaviour
         accessoryRect.anchorMax = new Vector2(1f, 1f);
         accessoryRect.anchoredPosition = playerNameRect.anchoredPosition + offset;
         accessoryRect.SetAsLastSibling();
+    }
+
+    void SetPlayerNameAccessoryVisibility(bool isVisible)
+    {
+        if (_playerNameTextRect != null)
+        {
+            _playerNameTextRect.gameObject.SetActive(isVisible);
+        }
+
+        if (_playerNamePlaceholderRect != null)
+        {
+            _playerNamePlaceholderRect.gameObject.SetActive(isVisible);
+        }
     }
 
     void GetSafeInsetsInCanvasUnits(RectTransform hudParent, Rect safeArea, out float rightInset, out float topInset, out float bottomInset)

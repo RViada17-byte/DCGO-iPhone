@@ -1,3 +1,59 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:53e9b4f95f261cc0e901677722a42f2f8ae74013b136e2ac84f28e8e32a6b650
-size-not-lfs 1640
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX10_034
+  m_EditorClassIdentifier: 
+  CardIndex: 7195
+  cardColors: 0500000006000000
+  PlayCost: 13
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 5
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 5
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Blastmon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Mineral
+  - Bagra Army
+  CardSpriteName: EX10-034
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "\uFF1CCollision\uFF1E \n\uFF1CFragment (3)\uFF1E \n\uFF1CBlocker\uFF1E
+    \n[On Play] [When Digivolving] Until your opponent's turn ends, give 1 of their
+    Digimon \"[Start of Your Main Phase] This Digimon attacks.\"[All Turns] [Once
+    Per Turn] When Digimon attack, by trashing any 2 of this Digimon's digivolution
+    cards, this Digimon gains \uFF1CSecurity A. +1\uFF1E and +3000 DP until your
+    turn ends.\n\n[DigiXros\_-2] 2 Digimon cards w/[Bagra Army]\_trait"
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX10_034
+  DP: 13000
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX10-034
+  MaxCountInDeck: 4

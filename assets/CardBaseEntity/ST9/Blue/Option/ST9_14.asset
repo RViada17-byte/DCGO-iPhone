@@ -1,3 +1,42 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:5e8fde8e47e78ad36e9d263b03575bf12bdf751513fc938668abf9ad5ee2535c
-size-not-lfs 1608
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST9_14
+  m_EditorClassIdentifier: 
+  CardIndex: 1752
+  cardColors: 0100000003000000
+  PlayCost: 5
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: "\u30E1\u30AC\u30C7\u30B9"
+  CardName_ENG: Megadeath
+  Form_JPN: []
+  Form_ENG: []
+  Attribute_JPN: []
+  Attribute_ENG: []
+  Type_JPN: []
+  Type_ENG: []
+  CardSpriteName: ST9-14
+  cardKind: 2
+  EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u30EC\u30B9\u30C8\u3055\u305B\u308B\u3002\u305D\u306E\u5F8C\u3001\u30EC\u30B9\u30C8\u72B6\u614B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u624B\u672D\u306B\u623B\u3059\u3002"
+  EffectDiscription_ENG: '[Main] Suspend 1 of your opponent''s Digimon. Then, return
+    1 of your opponent''s suspended Digimon to its owner''s hand.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u3053\u306E\u30AB\u30FC\u30C9\u306E\u3010\u30E1\u30A4\u30F3\u3011\u52B9\u679C\u3092\u767A\u63EE\u3059\u308B\u3002"
+  SecurityEffectDiscription_ENG: '[Security] Activate this card''s [Main] effect.'
+  CardEffectClassName: ST9_14
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  CardID: ST9-14
+  MaxCountInDeck: 4

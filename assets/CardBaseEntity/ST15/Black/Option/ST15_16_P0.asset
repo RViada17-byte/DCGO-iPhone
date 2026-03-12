@@ -1,3 +1,47 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:124961f4f25d9de25365a4417fe5e7528e4cb91661537181f11ad800ccc99c8d
-size-not-lfs 1269
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST15_16_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4942
+  cardColors: 05000000
+  PlayCost: 6
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Trident Arm
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Option
+  CardSpriteName: ST15-16_P0
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Main] \uFF1CDe-Digivolve3\uFF1E 1 of your opponent's Digimon.
+    Then, until the end of your opponent's turn, 1 of your opponent's Digimon gains
+    \"[Start of Your Main Phase] Attack with this Digimon\"."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: "[Security] \uFF1CDe-Digivolve3\uFF1E 1 of your
+    opponent's Digimon."
+  CardEffectClassName: ST15_16
+  DP: 0
+  rarity: 0
+  OverflowMemory: 0
+  CardID: ST15-16
+  MaxCountInDeck: 4

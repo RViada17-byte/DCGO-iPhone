@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:6990fcb4e03eb955328ef9f58d5fced83cecec8079d50b6549de6b59f62bf2a8
-size-not-lfs 1373
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX8_057
+  m_EditorClassIdentifier: 
+  CardIndex: 4158
+  cardColors: 06000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 6
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: 
+  CardName_ENG: DemiDevimon
+  Form_JPN: []
+  Form_ENG:
+  - Rookie
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Evil
+  - NSo
+  CardSpriteName: EX8-057
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.2 w/[NSo]\_trait: Cost 0 \n\n[On Play] Reveal
+    the top 3 cards of your deck. Add 1 card with the [NSo]\_trait and 1 card with
+    the [Fallen Angel]\_trait among them to the hand. Return the rest to the bottom
+    of the deck."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[When Attacking] [Once Per Turn] \uFF1CDraw 1\uFF1Eand
+    trash 1 card in your hand."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX8_057
+  DP: 1000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: EX8-057
+  MaxCountInDeck: 4

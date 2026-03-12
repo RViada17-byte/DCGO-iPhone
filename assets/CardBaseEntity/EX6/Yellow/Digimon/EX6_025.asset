@@ -1,3 +1,54 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:b533824d799571771a7d6ef84ec2aa4e51e404e7360b802f8e49760f7d5a67d7
-size-not-lfs 1712
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX6_025
+  m_EditorClassIdentifier: 
+  CardIndex: 3467
+  cardColors: 02000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 2
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Sanzomon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Monk
+  CardSpriteName: EX6-025
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[On Play] [When Attacking] [Once Per Turn] 1 Digimon may
+    gain \uFF1CSecurity Attack -1\uFF1Euntil the end of your opponent's turn. Then,
+    if DigiXrosing, reveal the top 4 cards of your deck. Add 1 of each [Gokuumon],
+    [Sagomon], [Cho-Hakkaimon] and [Shakamon] among them to the hand. Return the
+    rest to the bottom of the deck.\n[All Turns] When this Digimon would leave the
+    battle area, return 1 yellow Digimon card from this Digimon's digivolution cards
+    to the hand.\n\n[DigiXros\_-2] [Gokuumon] or [Sagomon] or [Cho-Hakkaimon]"
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[When Attacking] [Once Per Turn] 1 Digimon may
+    gain \uFF1CSecurity Attack -1\uFF1Euntil the end of your opponent's turn."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX6_025
+  DP: 7000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: EX6-025
+  MaxCountInDeck: 4

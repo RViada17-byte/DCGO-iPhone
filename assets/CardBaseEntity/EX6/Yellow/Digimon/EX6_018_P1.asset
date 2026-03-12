@@ -1,3 +1,50 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:9f33e059d654bbfe5632331d264bf2254b24ab71023a0d426d27d778743ff27f
-size-not-lfs 1568
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX6_018_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 3460
+  cardColors: 02000000
+  PlayCost: 10
+  EvoCosts: []
+  Level: 3
+  CardName_JPN: 
+  CardName_ENG: Lucemon
+  Form_JPN: []
+  Form_ENG:
+  - Rookie
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Angel
+  CardSpriteName: EX6-018_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve][Cupimon]: Cost 5 \n\nWhen you would play this
+    card, if you don't have a level 5 or lower Digimon, reduce the play cost by 5.\n[On
+    Play] [Start of Your Main Phase] Reveal the top 3 cards of your deck. Add 1 card
+    with the [Angel]/[Archangel]/[Three Great Angels]/[Seven Great Demon Lords]\_trait
+    among them to your hand. Trash the rest.\n[End of Your Turn] [Once Per Turn]
+    By placing one of your level 6 Digimon on top of your security stack, this Digimon
+    may digivolve into [Lucemon: Chaos Mode] in the trash without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX6_018
+  DP: 10000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: EX6-018
+  MaxCountInDeck: 4

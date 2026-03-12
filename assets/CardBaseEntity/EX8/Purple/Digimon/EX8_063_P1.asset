@@ -1,3 +1,54 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:324a1fc5a096313f765d175921b023019da259d627e4eb524cc5a20aa0ad908e
-size-not-lfs 1582
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX8_063_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 4172
+  cardColors: 06000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Barbamon (X Antibody)
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Demon Lord
+  - Seven Great Demon Lords
+  - X Antibody
+  CardSpriteName: EX8-063_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve][Barbamon]: Cost 1 \n\n[When Digivolving] [When
+    Attacking] [Once Per Turn] Your opponent may trash 1 card in their hand. If this
+    effect didn't trash, you may play 1 [Fallen Angel]\_trait Digimon card with a
+    play cost of 7 or less from your trash without paying the cost.\n[All Turns]
+    [Once Per Turn] When cards are trashed from your opponent's hand, if [Barbamon]/[X
+    Antibody] is in this Digimon's digivolution cards, trash their top security card."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX8_063
+  DP: 12000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: EX8-063
+  MaxCountInDeck: 4

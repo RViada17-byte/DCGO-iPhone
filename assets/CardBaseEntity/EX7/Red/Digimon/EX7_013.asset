@@ -1,3 +1,53 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:e1b6454e1126625d4d36e47f59ed267edc833983ce98fafe3c8ba0f5ada0f1b8
-size-not-lfs 1523
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX7_013
+  m_EditorClassIdentifier: 
+  CardIndex: 3699
+  cardColors: 00000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 0
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: MagnaKidmon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Dragonkin
+  - Three Musketeers
+  CardSpriteName: EX7-013
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.5 w/[Three Musketeers]\_in its text: Cost
+    4 \n\n[On Play] [When Digivolving] You may use 1 Option card with the [Three
+    Musketeers]\_trait from your hand without paying the cost. Then, draw cards until
+    there are 6 cards in your hand.\n[End of Your Turn] [Once Per Turn] By trashing
+    1 Option card in this Digimon's digivolution card, 1 of your Digimon gains \uFF1CSecurity
+    Attack +1\uFF1E for the turn and that Digimon attacks."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX7_013
+  DP: 12000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: EX7-013
+  MaxCountInDeck: 4

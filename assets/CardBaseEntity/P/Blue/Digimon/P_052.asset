@@ -1,3 +1,53 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:3a243b13be8f3cf479b96ef4cfca492e6648988f9a81cea9c2b3822bd9fc985d
-size-not-lfs 2013
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_052
+  m_EditorClassIdentifier: 
+  CardIndex: 6094
+  cardColors: 01000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 1
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: "\u30F4\u30A1\u30A4\u30AF\u30E2\u30F3"
+  CardName_ENG: Vikemon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30D5\u30EA\u30FC"
+  Attribute_ENG:
+  - Free
+  Type_JPN:
+  - "\u7363\u4EBA\u578B"
+  Type_ENG:
+  - Beastkin
+  CardSpriteName: P-052
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u81EA\u5206\u306E\u30C6\u30A4\u30DE\u30FC\u304C\u3044\u308B\u3068\u304D\u3001\u6B21\u306E\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u6642\u307E\u3067\u3001\u9032\u5316\u5143\u3092\u6301\u305F\u306A\u3044\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F33\u4F53\u307E\u3067\u306F\u30A2\u30BF\u30C3\u30AF\u3067\u304D\u306A\u3044\u3002\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u9032\u5316\u5143\u3092\u6301\u305F\u306A\u3044\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u624B\u672D\u306B\u623B\u3059\u3002"
+  EffectDiscription_ENG: '[When Digivolving] If you have a Tamer in play, up to 3
+    of your opponent''s Digimon with no digivolution cards can''t attack until the
+    end of your opponent''s next turn. [When Attacking][Once Per Turn] Return 1 of
+    your opponent''s Digimon with no digivolution cards to its owner''s hand.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: P_052
+  DP: 11000
+  rarity: 5
+  OverflowMemory: 0
+  CardID: P-052
+  MaxCountInDeck: 4

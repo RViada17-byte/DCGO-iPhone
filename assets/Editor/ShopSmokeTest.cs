@@ -1,16 +1,22 @@
 #if UNITY_EDITOR
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEngine;
+using UnityEngine.UI;
 
 public static class ShopSmokeTest
 {
     private const string OpeningScenePath = "Assets/Scenes/Opening.unity";
     private const string StructureDeckProductId = "st1-structure";
+    private const string StarterSetProductId = "st7-set";
+    private const string StarterSetPrereqNodeId = "story.act1.frontier.06_takuya";
     private const string BoosterPackProductId = "bt1-pack";
     private const string PromoPackProductId = "promo-pack";
+    private const string StructureDeckDialogTitle = "Deck Purchase Results";
+    private const string PackDialogTitle = "Pack Open Results";
 
     private static bool _shopOpened;
     private static bool _exiting;
@@ -123,93 +129,287 @@ public static class ShopSmokeTest
         }
 
         Transform structureRows = shopPanel.transform.Find("ShopRuntimeBody/ScrollRoot/Viewport/Content/StructureDeckRows");
+        Transform starterSetRows = shopPanel.transform.Find("ShopRuntimeBody/ScrollRoot/Viewport/Content/StarterSetRows");
         Transform packRows = shopPanel.transform.Find("ShopRuntimeBody/ScrollRoot/Viewport/Content/PackRows");
 
-        if (structureRows == null || packRows == null)
+        if (structureRows == null || starterSetRows == null || packRows == null)
         {
             return false;
         }
 
-        int expectedStructureCount = ShopCatalogDatabase.Instance.Products.Count(product => product != null && product.IsStructureDeck);
-        int expectedPackCount = ShopCatalogDatabase.Instance.Products.Count(product => product != null && product.IsPack);
+        AssertSectionOrder(structureRows, GetExpectedProductIds(ShopProductDisplayGroup.StructureDecks), "structure deck");
+        AssertSectionOrder(starterSetRows, GetExpectedProductIds(ShopProductDisplayGroup.StarterSets), "starter set");
+        AssertSectionOrder(packRows, GetExpectedProductIds(ShopProductDisplayGroup.BoosterPacks), "booster pack");
 
-        if (structureRows.childCount != expectedStructureCount)
-        {
-            Fail($"Expected {expectedStructureCount} structure deck rows, found {structureRows.childCount}.");
-            return false;
-        }
-
-        if (packRows.childCount != expectedPackCount)
-        {
-            Fail($"Expected {expectedPackCount} booster pack rows, found {packRows.childCount}.");
-            return false;
-        }
-
-        ShopPurchaseResult structureDeckResult = ShopService.Purchase(StructureDeckProductId);
-        if (!structureDeckResult.Succeeded)
-        {
-            Fail($"Structure deck purchase failed: {structureDeckResult.Message}");
-            return false;
-        }
+        ShopPurchaseResult structureDeckResult = PurchaseViaUi(shopPanel, StructureDeckProductId);
+        AssertSuccess(structureDeckResult, "structure deck");
+        AssertCardResults(structureDeckResult, expectedCount: 16, context: "structure deck");
+        AssertDialog(shopPanel, StructureDeckDialogTitle, "ST1-01 -");
 
         if (!ProgressionManager.Instance.HasPurchasedProduct(StructureDeckProductId))
         {
             Fail("Structure deck purchase did not persist to the profile.");
-            return false;
         }
 
-        bool hasPremadeDeck = ContinuousController.instance.DeckDatas.Any(deckData =>
-            deckData != null &&
-            string.Equals(deckData.DeckID, "shop-st1-structure", StringComparison.OrdinalIgnoreCase));
-        if (!hasPremadeDeck)
+        AssertStructureDeckCount("shop-st1-structure", 1, "Structure deck purchase did not create exactly one premade deck.");
+
+        Transform structureDeckRow = FindProductRow(structureRows, StructureDeckProductId);
+        Button structureDeckButton = structureDeckRow != null ? structureDeckRow.Find("BuyButton")?.GetComponent<Button>() : null;
+        if (structureDeckButton == null || structureDeckButton.interactable)
         {
-            Fail("Structure deck purchase did not create the premade deck.");
-            return false;
+            Fail("Owned structure deck row should not remain purchasable.");
         }
 
-        ShopPurchaseResult packResult = ShopService.Purchase(BoosterPackProductId);
-        if (!packResult.Succeeded)
+        int currencyAfterFirstDeckPurchase = ProgressionManager.Instance.GetCurrency();
+        ShopPurchaseResult duplicateStructureDeckResult = ShopService.Purchase(StructureDeckProductId);
+        if (duplicateStructureDeckResult.Succeeded || !string.Equals(duplicateStructureDeckResult.Message, "Already purchased.", StringComparison.Ordinal))
         {
-            Fail($"Booster pack purchase failed: {packResult.Message}");
-            return false;
+            Fail("Second structure deck purchase should fail with 'Already purchased.'.");
         }
 
-        if (packResult.Lines == null || packResult.Lines.Count != 12)
+        if (ProgressionManager.Instance.GetCurrency() != currencyAfterFirstDeckPurchase)
         {
-            Fail($"Expected 12 pack result lines, found {packResult.Lines?.Count ?? 0}.");
-            return false;
+            Fail("Second structure deck purchase attempt spent currency.");
         }
 
-        int newCount = packResult.Lines.Count(line => line.StartsWith("NEW: ", StringComparison.Ordinal));
-        if (newCount < 5)
+        AssertStructureDeckCount("shop-st1-structure", 1, "Second structure deck purchase created a duplicate deck.");
+
+        ProgressionManager.Instance.MarkStoryCompleted(StarterSetPrereqNodeId);
+        shopPanel.RefreshView();
+
+        ShopPurchaseResult starterSetResult = PurchaseViaUi(shopPanel, StarterSetProductId);
+        AssertSuccess(starterSetResult, "starter set");
+        AssertCardResults(starterSetResult, expectedCount: PackService.GetUniqueCardCountForSet("ST7"), context: "starter set");
+        AssertDialog(shopPanel, PackDialogTitle, "ST7-");
+
+        if (!ProgressionManager.Instance.HasPurchasedProduct(StarterSetProductId))
         {
-            Fail($"Expected at least 5 NEW pulls, found {newCount}.");
-            return false;
+            Fail("Starter set purchase did not persist to the profile.");
         }
 
-        ProgressionManager.Instance.AddCurrency(1000);
+        Transform starterSetRow = FindProductRow(starterSetRows, StarterSetProductId);
+        Button starterSetButton = starterSetRow != null ? starterSetRow.Find("BuyButton")?.GetComponent<Button>() : null;
+        if (starterSetButton == null || starterSetButton.interactable)
+        {
+            Fail("Owned starter set row should not remain purchasable.");
+        }
+
+        ProgressionManager.Instance.AddCurrency(2500);
+        shopPanel.RefreshView();
+
+        ShopPurchaseResult packResult = PurchaseViaUi(shopPanel, BoosterPackProductId);
+        AssertSuccess(packResult, "booster pack");
+        AssertCardResults(packResult, expectedCount: 12, context: "booster pack");
+        AssertDialog(shopPanel, PackDialogTitle, "BT1-");
+
+        Transform boosterPackRow = FindProductRow(packRows, BoosterPackProductId);
+        Button boosterPackButton = boosterPackRow != null ? boosterPackRow.Find("BuyButton")?.GetComponent<Button>() : null;
+        if (boosterPackButton == null || !boosterPackButton.interactable)
+        {
+            Fail("Repeatable booster pack row should remain purchasable.");
+        }
+
+        ShopPurchaseResult secondPackResult = ShopService.Purchase(BoosterPackProductId);
+        AssertSuccess(secondPackResult, "second booster pack");
+        AssertCardResults(secondPackResult, expectedCount: 12, context: "second booster pack");
 
         ShopPurchaseResult promoResult = ShopService.Purchase(PromoPackProductId);
-        if (!promoResult.Succeeded)
-        {
-            Fail($"Promo pack purchase failed: {promoResult.Message}");
-            return false;
-        }
+        AssertSuccess(promoResult, "promo pack");
+        AssertCardResults(promoResult, expectedCount: 2, context: "promo pack");
 
-        if (promoResult.Lines == null || promoResult.Lines.Count != 2)
-        {
-            Fail($"Expected 2 promo pack result lines, found {promoResult.Lines?.Count ?? 0}.");
-            return false;
-        }
-
-        int promoNewCount = promoResult.Lines.Count(line => line.StartsWith("NEW: ", StringComparison.Ordinal));
-        if (promoNewCount < 1)
-        {
-            Fail($"Expected at least 1 NEW promo pull, found {promoNewCount}.");
-            return false;
-        }
+        ShopPurchaseResult secondPromoResult = ShopService.Purchase(PromoPackProductId);
+        AssertSuccess(secondPromoResult, "second promo pack");
+        AssertCardResults(secondPromoResult, expectedCount: 2, context: "second promo pack");
 
         return true;
+    }
+
+    private static ShopPurchaseResult PurchaseViaUi(ShopPanel shopPanel, string productId)
+    {
+        if (shopPanel == null)
+        {
+            Fail("Shop panel was null while attempting a UI purchase.");
+        }
+
+        Transform row = FindProductRow(shopPanel.transform, productId);
+        if (row == null)
+        {
+            Fail($"Could not find shop row for '{productId}'.");
+        }
+
+        Button buyButton = row.Find("BuyButton")?.GetComponent<Button>();
+        if (buyButton == null)
+        {
+            Fail($"Shop row '{productId}' is missing its buy button.");
+        }
+
+        if (!buyButton.interactable)
+        {
+            Fail($"Shop row '{productId}' was unexpectedly not interactable.");
+        }
+
+        buyButton.onClick.Invoke();
+
+        if (shopPanel.LastPurchaseResult == null)
+        {
+            Fail($"Shop row '{productId}' did not populate LastPurchaseResult.");
+        }
+
+        return shopPanel.LastPurchaseResult;
+    }
+
+    private static void AssertSuccess(ShopPurchaseResult result, string context)
+    {
+        if (result == null || !result.Succeeded)
+        {
+            Fail($"{context} purchase failed: {result?.Message ?? "missing result"}");
+        }
+    }
+
+    private static void AssertCardResults(ShopPurchaseResult result, int expectedCount, string context)
+    {
+        if (result?.CardResults == null || result.CardResults.Count != expectedCount)
+        {
+            Fail($"Expected {expectedCount} card results for {context}, found {result?.CardResults?.Count ?? 0}.");
+        }
+
+        for (int index = 0; index < result.CardResults.Count; index++)
+        {
+            ShopPurchaseCardResult cardResult = result.CardResults[index];
+            if (cardResult == null ||
+                string.IsNullOrWhiteSpace(cardResult.CardId) ||
+                string.IsNullOrWhiteSpace(cardResult.CardName) ||
+                cardResult.Count <= 0)
+            {
+                Fail($"{context} purchase produced an invalid structured card result at index {index}.");
+            }
+        }
+    }
+
+    private static void AssertDialog(ShopPanel shopPanel, string expectedTitle, string requiredBodyFragment)
+    {
+        if (shopPanel == null || !shopPanel.IsPurchaseResultsDialogOpen)
+        {
+            Fail("Expected the purchase results dialog to be open.");
+        }
+
+        if (!string.Equals(shopPanel.ActiveResultsDialogTitle, expectedTitle, StringComparison.Ordinal))
+        {
+            Fail($"Expected purchase results dialog title '{expectedTitle}', found '{shopPanel.ActiveResultsDialogTitle}'.");
+        }
+
+        if (string.IsNullOrWhiteSpace(shopPanel.ActiveResultsDialogBody) ||
+            shopPanel.ActiveResultsDialogBody.IndexOf(requiredBodyFragment, StringComparison.OrdinalIgnoreCase) < 0)
+        {
+            Fail($"Expected purchase results dialog body to contain '{requiredBodyFragment}'.");
+        }
+    }
+
+    private static void AssertSectionOrder(Transform sectionRoot, IReadOnlyList<string> expectedProductIds, string label)
+    {
+        if (sectionRoot == null)
+        {
+            Fail($"Missing {label} section.");
+        }
+
+        if (sectionRoot.childCount != expectedProductIds.Count)
+        {
+            Fail($"Expected {expectedProductIds.Count} {label} rows, found {sectionRoot.childCount}.");
+        }
+
+        for (int index = 0; index < expectedProductIds.Count; index++)
+        {
+            string expectedRowName = expectedProductIds[index] + "_Row";
+            string actualRowName = sectionRoot.GetChild(index).name;
+            if (!string.Equals(actualRowName, expectedRowName, StringComparison.Ordinal))
+            {
+                Fail($"Expected {label} row {index} to be '{expectedRowName}', found '{actualRowName}'.");
+            }
+        }
+    }
+
+    private static List<string> GetExpectedProductIds(ShopProductDisplayGroup group)
+    {
+        List<string> ids = new List<string>();
+        IReadOnlyList<ShopProductDef> products = ShopCatalogDatabase.Instance.Products;
+
+        for (int index = 0; index < products.Count; index++)
+        {
+            ShopProductDef product = products[index];
+            if (product == null || product.DisplayGroup != group || (group == ShopProductDisplayGroup.BoosterPacks && IsPromoProduct(product)))
+            {
+                continue;
+            }
+
+            ids.Add(product.id);
+        }
+
+        if (group == ShopProductDisplayGroup.BoosterPacks)
+        {
+            for (int index = 0; index < products.Count; index++)
+            {
+                ShopProductDef product = products[index];
+                if (product != null && product.DisplayGroup == group && IsPromoProduct(product))
+                {
+                    ids.Add(product.id);
+                }
+            }
+        }
+
+        return ids;
+    }
+
+    private static bool IsPromoProduct(ShopProductDef product)
+    {
+        if (product == null)
+        {
+            return false;
+        }
+
+        if (!string.IsNullOrWhiteSpace(product.setId) &&
+            string.Equals(product.setId.Trim(), "P", StringComparison.OrdinalIgnoreCase))
+        {
+            return true;
+        }
+
+        return !string.IsNullOrWhiteSpace(product.id) &&
+            product.id.IndexOf("promo", StringComparison.OrdinalIgnoreCase) >= 0;
+    }
+
+    private static Transform FindProductRow(Transform root, string productId)
+    {
+        if (root == null || string.IsNullOrWhiteSpace(productId))
+        {
+            return null;
+        }
+
+        if (string.Equals(root.name, productId + "_Row", StringComparison.Ordinal))
+        {
+            return root;
+        }
+
+        for (int index = 0; index < root.childCount; index++)
+        {
+            Transform match = FindProductRow(root.GetChild(index), productId);
+            if (match != null)
+            {
+                return match;
+            }
+        }
+
+        return null;
+    }
+
+    private static void AssertStructureDeckCount(string deckId, int expectedCount, string failureMessage)
+    {
+        int matchingDeckCount = ContinuousController.instance.DeckDatas.Count(deckData =>
+            deckData != null &&
+            string.Equals(deckData.DeckID, deckId, StringComparison.OrdinalIgnoreCase));
+
+        if (matchingDeckCount != expectedCount)
+        {
+            Fail($"{failureMessage} Expected {expectedCount}, found {matchingDeckCount}.");
+        }
     }
 
     private static void Succeed(string message)

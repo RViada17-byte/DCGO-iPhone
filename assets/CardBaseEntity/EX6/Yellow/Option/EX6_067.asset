@@ -1,3 +1,47 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:14cef57459762e4286345ee9339bdf75d034598398bb4f019eee5544e0d7c062
-size-not-lfs 1290
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX6_067
+  m_EditorClassIdentifier: 
+  CardIndex: 3533
+  cardColors: 02000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Final Excalibur
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Option
+  CardSpriteName: EX6-067
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Main] Unsuspend 1 of your Digimon with the [Angel]/[Archangel]/[Three
+    Great Angels]\_trait. If you have [Dominimon], unsuspend all of your Digimon
+    with the [Angel]/[Archangel]/[Three Great Angels]\_trait instead."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: "[Security] \uFF1CRecovery +1 (Deck)\uFF1E. Then,
+    add this card to the hand."
+  CardEffectClassName: EX6_067
+  DP: 0
+  rarity: 0
+  OverflowMemory: 0
+  CardID: EX6-067
+  MaxCountInDeck: 4

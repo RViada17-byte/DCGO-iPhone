@@ -1,3 +1,56 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:27120d5ca03e7756ac36d3860bb27887fba480284c5557e03e51adbe1b11c888
-size-not-lfs 1480
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST20_11
+  m_EditorClassIdentifier: 
+  CardIndex: 5274
+  cardColors: 0500000000000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 4
+  - CardColor: 0
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: WarGreymon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Dragonkin
+  - ADVENTURE
+  - Hero
+  CardSpriteName: ST20-11
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.5 w/[ADVENTURE]/[Hero]\_trait: Cost 3 \n\n[Hand]
+    [Counter] \uFF1CBlast Digivolve\uFF1E \n[On Play] [When Digivolving] Until your
+    opponent's turn ends, for every 2 colors your Tamers have, their Digimon's effects
+    don't affect 1 of your Digimon.\n[When Digivolving] [When Attacking] Delete 1
+    of your opponent's lowest DP Digimon."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: ST20_11
+  DP: 12000
+  rarity: 3
+  OverflowMemory: 4
+  CardID: ST20-11
+  MaxCountInDeck: 4

@@ -1,3 +1,50 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:ad261359066661a3e9947bd7852f78032aae9e582f20f69c0a11862eeb1fc838
-size-not-lfs 1363
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX7_054_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 3777
+  cardColors: 06000000
+  PlayCost: 4
+  EvoCosts:
+  - CardColor: 6
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: BlackGatomon
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Dark Animal
+  CardSpriteName: EX7-054_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[When Digivolving] [On Deletion] By trashing 1 card in
+    your hand, 1 of your Digimon gains \uFF1CBlocker\uFF1Eand \uFF1CRetaliation\uFF1Euntil
+    the end of your opponent's turn."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[Opponent''s Turn] [Once Per Turn] When an opponent''s
+    Digimon attacks, by deleting 1 of your other Digimon, end the attack.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX7_054
+  DP: 3000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: EX7-054
+  MaxCountInDeck: 4

@@ -1,3 +1,48 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:f28e00a2dd092935fb661fb3e0276700879731724202002f6314095208bf31a4
-size-not-lfs 1364
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST15_15_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4941
+  cardColors: 05000000
+  PlayCost: 4
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Breakthrough of Courage
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Option
+  CardSpriteName: ST15-15_P0
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "While you have a Tamer with [Tai Kamiya]\_in its name,
+    you may use this card without meeting its color requirements.\n[Main] Unsuspend
+    1 of your Digimon. Then, 1 of your Digimon with [Greymon]\_in its name is not
+    affected by your opponent's Digimon's effects until the end of your opponent's
+    turn."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Activate this card''s [Main] effect.'
+  CardEffectClassName: ST15_15
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  CardID: ST15-15
+  MaxCountInDeck: 4

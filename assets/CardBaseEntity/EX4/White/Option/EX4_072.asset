@@ -1,3 +1,49 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:85c334a661bf7b94c790bac1eebc580db00ea8ef32b0565d33a2d1dece104069
-size-not-lfs 2779
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX4_072
+  m_EditorClassIdentifier: 
+  CardIndex: 2637
+  cardColors: 04000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: "\u30C7\u30B8\u30BF\u30EB\u30C8\u30E9\u30F3\u30B9\u30EC\u30FC\u30BF\u30FC"
+  CardName_ENG: Digital Translator
+  Form_JPN: []
+  Form_ENG: []
+  Attribute_JPN: []
+  Attribute_ENG: []
+  Type_JPN: []
+  Type_ENG: []
+  CardSpriteName: EX4-072
+  cardKind: 2
+  EffectDiscription_JPN: "\u3053\u306E\u30AB\u30FC\u30C9\u306F\u540D\u79F0\u306B\u300C\u30D7\u30E9\u30B0\u30A4\u30F3\u300D\u3092\u542B\u3080\u3082\u306E\u3068\u3057\u3066\u6271\u3046\u3002\u81EA\u5206\u306E\u30C6\u30A4\u30DE\u30FC\u304C\u3044\u308B\u9593\u3001\u3053\u306E\u30AB\u30FC\u30C9\u306F\u8272\u6761\u4EF6\u3092\u7121\u8996\u3057\u3066\u4F7F\u7528\u3067\u304D\u308B\u3002\u3010\u30E1\u30A4\u30F3\u3011Lv.6\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u9078\u3073\u3001\u9078\u3093\u3060\u30C7\u30B8\u30E2\u30F3\u3092\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u9078\u3093\u3060\u30C7\u30B8\u30E2\u30F3\u3068\u540C\u3058\u540D\u79F0\u3092\u542B\u307F\u3001\u30AB\u30FC\u30C9\u540D\u306E\u7570\u306A\u308BLv.6\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C9\u306B\u9032\u5316\u6761\u4EF6\u3092\u7121\u8996\u3057\u3066\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u9032\u5316\u3067\u304D\u308B\u3002"
+  EffectDiscription_ENG: This card is also treated as having [Plug-In] in its name.
+    While you have a Tamer in play, you may use this card without meeting its color
+    requirements. [Main] Choose 1 of your level 6 Digimon. Ignoring digivolution
+    requirements and without paying the cost, it may digivolve into a level 6 Digimon
+    card in your hand with a different name that includes the chosen Digimon's name.
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u624B\u672D\u306B\u623B\u3057\u3001\u3053\u306E\u30AB\u30FC\u30C9\u3092\u624B\u672D\u306B\u52A0\u3048\u308B\u3002"
+  SecurityEffectDiscription_ENG: '[Security] Return 1 Digimon card from your trash
+    to your hand, and add this card to your hand.'
+  CardEffectClassName: EX4_072
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: EX4-072
+  MaxCountInDeck: 4

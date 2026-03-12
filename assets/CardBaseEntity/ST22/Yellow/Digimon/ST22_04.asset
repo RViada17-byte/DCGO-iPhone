@@ -1,3 +1,54 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:b431ed4c1c007850c5b3324d767288abacd4e667c1a58e4dc45d0d5e4ffb248c
-size-not-lfs 1540
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST22_04
+  m_EditorClassIdentifier: 
+  CardIndex: 7495
+  cardColors: 02000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 2
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Taomon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Wizard
+  CardSpriteName: ST22-04
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[On Play] [When Digivolving] Until your opponent's turn
+    ends, 1 of their Digimon can't activate [When Digivolving] effects and gets -3000
+    DP.\n[When Attacking] [Once Per Turn] You may use 1 Option card with the [Onmy\u014Djutsu]
+    or [Plug-In]\_trait from your hand or under your Tamers without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[End of Attack] [Once Per Turn] By trashing your
+    top security card, 1 of your Digimon with [Sakuyamon]\_in its name unsuspends."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: ST22_04
+  DP: 7000
+  rarity: 2
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: ST22-04
+  MaxCountInDeck: 4

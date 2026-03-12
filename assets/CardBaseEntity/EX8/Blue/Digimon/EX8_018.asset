@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:5a9f56eaf098f83beccd1a767e98f560e2149746b7b5d2a0ce79c18e3b316cab
-size-not-lfs 1397
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX8_018
+  m_EditorClassIdentifier: 
+  CardIndex: 4082
+  cardColors: 01000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 1
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: 
+  CardName_ENG: Gomamon
+  Form_JPN: []
+  Form_ENG:
+  - Rookie
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Sea Beast
+  - DS
+  CardSpriteName: EX8-018
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.2 w/[DS]\_trait: Cost 0 \n\n[On Play] Reveal
+    the top 3 cards of your deck. Add 1 card with the [DS]\_trait and 1 card with
+    the [Sea Beast]/[Plesiosaur]\_trait among them to the hand. Return the rest to
+    the bottom of the deck."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[When Attacking] [Once Per Turn] If you have 7
+    or fewer cards in your hand, \uFF1CDraw 1\uFF1E."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX8_018
+  DP: 1000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: EX8-018
+  MaxCountInDeck: 4

@@ -1,3 +1,49 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:1411b68b8f7973d3ad113d045774713fbb39019f0f4509c34ff94b61a21219ef
-size-not-lfs 1386
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST12_13_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 4908
+  cardColors: 04000000
+  PlayCost: 4
+  EvoCosts: []
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Sistermon Ciel
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Puppet
+  CardSpriteName: ST12-13_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[On Play] Reveal the top 3 cards of your deck. Add 1 card
+    with [Huckmon]\_in its name or [Royal Knight]\_trait among them to your hand.
+    Trash the rest.\n[All Turns] All of your Digimon with [Huckmon]\_in their names
+    or [Royal Knight]\_trait gain \uFF1CReboot\uFF1E \n[Rule] Name: Also treated
+    as [Sistermon Noir].\n[Rule] Trait: Has the [Virus] attribute."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: ST12_13
+  DP: 5000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: ST12-13
+  MaxCountInDeck: 4

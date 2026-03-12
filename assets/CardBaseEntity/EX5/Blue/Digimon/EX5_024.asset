@@ -1,3 +1,61 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:9add28b6ca512fc086c0f1ef7818cbdc453ebe646141bb707e38f1b79d8c5b66
-size-not-lfs 2674
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX5_024
+  m_EditorClassIdentifier: 
+  CardIndex: 3063
+  cardColors: 0100000002000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 1
+    Level: 5
+    MemoryCost: 4
+  - CardColor: 2
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: "\u30C1\u30F3\u30ED\u30F3\u30E2\u30F3"
+  CardName_ENG: Azulongmon
+  Form_JPN:
+  - "\u7A76\u6975\u4F53"
+  Form_ENG:
+  - Mega
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u8056\u7ADC\u578B"
+  - "\u56DB\u5927\u7ADC"
+  - "\u56DB\u8056\u7363"
+  Type_ENG:
+  - Holy Dragon
+  - Four Great Dragons
+  - Four Sovereigns
+  CardSpriteName: EX5-024
+  cardKind: 0
+  EffectDiscription_JPN: "\u7279\u5FB4\u306B\u300C\u30C7\u30FC\u30F4\u30A1\u300D\u3092\u6301\u3064Lv.5:\u30B3\u30B9\u30C83\uFF3B\u624B\u672D\uFF3D\u3010\u30AB\u30A6\u30F3\u30BF\u30FC\u3011\u226A\u30D6\u30E9\u30B9\u30C8\u9032\u5316\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u3053\u306E\u30AB\u30FC\u30C9\u306B\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u9032\u5316\u3067\u304D\u308B\uFF09\u3010\u767B\u5834\u6642\u3011\u3010\u9032\u5316\u6642\u3011Lv.5\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u624B\u672D\u306B\u623B\u3059\u3002\u305D\u306E\u5F8C\u3001\u7279\u5FB4\u306B\u300C\u30C7\u30FC\u30F4\u30A1\u300D/\u300C\u56DB\u5927\u7ADC\u300D/\u300C\u56DB\u8056\u7363\u300D\u3092\u6301\u3064\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u3059\u308B\u3002\u3010\u6D88\u6EC5\u6642\u3011\u6700\u3082Lv.\u306E\u9AD8\u3044\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3002"
+  EffectDiscription_ENG: "[Hand] [Counter] \uFF1CBlast Digivolve\uFF1E (Your Digimon
+    may digivolve into this card without paying the cost).[On Play] [When Digivolving]
+    Return 1 of your opponent's level 5 or lower Digimon to the hand. Then, unsuspend
+    1 of your Digimon with the [Deva]/[Four Great Dragons]/[Four Sovereigns]\_trait.[On
+    Deletion] Delete 1 of your opponent's Digimon with the highest level."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX5_024
+  DP: 12000
+  rarity: 2
+  OverflowMemory: 4
+  CardID: EX5-024
+  MaxCountInDeck: 4

@@ -1,3 +1,51 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:1c27de8f7b692ac2f13ba09c17b2f8e8b5580107ef2c46da0c632b1c50e6133e
-size-not-lfs 1684
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST14_06
+  m_EditorClassIdentifier: 
+  CardIndex: 2822
+  cardColors: 06000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 6
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: "\u30A6\u30A3\u30C3\u30C1\u30E2\u30F3"
+  CardName_ENG: Witchmon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Data
+  Type_JPN:
+  - "\u9B54\u4EBA\u578B"
+  Type_ENG:
+  - Wizard
+  CardSpriteName: ST14-06
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u30893\u679A\u7834\u68C4\u3059\u308B\u3002"
+  EffectDiscription_ENG: '[When Digivolving] Trash the top 3 cards of your deck.'
+  InheritedEffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u7279\u5FB4\u306B\u300C\u9B54\u4EBA\u578B\u300D\u304B\u300C\u9B54\u738B\u578B\u300D\u3092\u6301\u3064\u9593\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092DP+2000\u3002"
+  InheritedEffectDiscription_ENG: '[Your Turn] While this Digimon has [Wizard] or
+    [Demon Lord] in its traits, it gets +2000 DP.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: ST14_06
+  DP: 5000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: ST14-06
+  MaxCountInDeck: 4

@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:0a1eefd2bae516ef2413d20351a1ab18c7b6c12db9ec7064d63ffbbabb1b2842
-size-not-lfs 1772
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX3_027
+  m_EditorClassIdentifier: 
+  CardIndex: 2205
+  cardColors: 02000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 2
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: "\u30A2\u30B0\u30E2\u30F3"
+  CardName_ENG: Agumon
+  Form_JPN:
+  - "\u6210\u9577\u671F"
+  Form_ENG:
+  - Rookie
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u722C\u866B\u985E\u578B"
+  Type_ENG:
+  - Reptile
+  CardSpriteName: EX3-027
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 
+  InheritedEffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u7279\u5FB4\u306B\u300C\u56DB\u5927\u7ADC\u300D\u3092\u6301\u3064\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u767B\u5834\u3057\u305F\u3068\u304D\u304B\u3001\u81EA\u5206\u306E\u300C\u56DB\u5927\u7ADC\u306E\u8A66\u7DF4\u300D\u304C\u30D0\u30C8\u30EB\u30A8\u30EA\u30A2\u306B\u7F6E\u304B\u308C\u305F\u3068\u304D\u3001\u226A1\u30C9\u30ED\u30FC\u226B\u3002"
+  InheritedEffectDiscription_ENG: "[Your Turn][Once Per Turn] When you play a Digimon
+    with [Four Great Dragons] in its traits or place [Trial of the Four Great Dragons]
+    in your battle area, \uFF1CDraw 1\uFF1E."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX3_027
+  DP: 2000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: EX3-027
+  MaxCountInDeck: 4

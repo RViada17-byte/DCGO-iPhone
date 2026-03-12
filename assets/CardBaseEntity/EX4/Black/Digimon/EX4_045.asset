@@ -1,3 +1,54 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:79d624a9a3290b25964e07e539c585bf86c61c6252db8581e66231e6b3df7c0b
-size-not-lfs 2465
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX4_045
+  m_EditorClassIdentifier: 
+  CardIndex: 2597
+  cardColors: 05000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: "\u30E1\u30BF\u30EB\u30B0\u30EC\u30A4\u30E2\u30F3"
+  CardName_ENG: MetalGreymon
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u30B5\u30A4\u30DC\u30FC\u30B0\u578B"
+  Type_ENG:
+  - Cyborg
+  CardSpriteName: EX4-045
+  cardKind: 0
+  EffectDiscription_JPN: "\u226A\u30D6\u30ED\u30C3\u30AB\u30FC\u226B\u3010\u9032\u5316\u6642\u3011\u4ED6\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u624B\u672D\u306E\u540D\u79F0\u306B\u300C\u30AC\u30EB\u30EB\u30E2\u30F3\u300D\u3092\u542B\u3080Lv.6\u4EE5\u4E0B\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C9\u306B\u9032\u5316\u30B3\u30B9\u30C8\u3092\u652F\u6255\u3063\u3066\u9032\u5316\u3067\u304D\u308B\u3002\u3053\u306E\u52B9\u679C\u3067\u9032\u5316\u3059\u308B\u3068\u304D\u3001\u652F\u6255\u3046\u9032\u5316\u30B3\u30B9\u30C8-2\u3002"
+  EffectDiscription_ENG: '[When Digivolving] 1 of your other Digimon may digivolve
+    into a level 6 or lower Digimon card with [Garurumon] in its name in your hand
+    for the digivolution cost. When that Digimon would digivolve by this effect,
+    reduce the digivolution cost by 2.'
+  InheritedEffectDiscription_JPN: "\u226A\u30D6\u30ED\u30C3\u30AB\u30FC\u226B\uFF08\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30A2\u30BF\u30C3\u30AF\u3057\u305F\u3068\u304D\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u30EC\u30B9\u30C8\u3055\u305B\u308B\u3053\u3068\u3067\u30A2\u30BF\u30C3\u30AF\u306E\u5BFE\u8C61\u3092\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306B\u3059\u308B\uFF09"
+  InheritedEffectDiscription_ENG: ' (When an opponent''s Digimon attacks, you may
+    suspend this Digimon to force the opponent to attack it instead.)'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX4_045
+  DP: 7000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: EX4-045
+  MaxCountInDeck: 4

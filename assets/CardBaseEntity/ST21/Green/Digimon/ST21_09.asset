@@ -1,3 +1,53 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:a663fdf9e69e666f9188ce9a6f5e8e1a87dde54f3e24806f1f641b1282eb030a
-size-not-lfs 1549
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST21_09
+  m_EditorClassIdentifier: 
+  CardIndex: 5287
+  cardColors: 03000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 3
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Lillymon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Fairy
+  - ADVENTURE
+  CardSpriteName: ST21-09
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.4 w/[ADVENTURE]\_trait: Cost 3 \n\n[On Play]
+    [When Digivolving] Suspend all of your opponent's 5000 DP or lower Digimon. Then,
+    for every 2 colors your Tamers have, return 1 of their suspended Digimon to the
+    bottom of the deck.\n[Your Turn] [Once Per Turn] When your other Digimon are
+    played or digivolve, if any of them have the [ADVENTURE]\_trait, 1 of your Digimon
+    gains \uFF1CAlliance\uFF1E for the turn. Then, 1 of your Digimon may attack."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "\uFF1CAlliance\uFF1E."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: ST21_09
+  DP: 7000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: ST21-09
+  MaxCountInDeck: 4

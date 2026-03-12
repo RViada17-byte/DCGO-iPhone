@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:ab54ffb89ef5d614758e35f3b6834d9fb6030f3d6f08f341a3060c993ea57433
-size-not-lfs 1489
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX6_038
+  m_EditorClassIdentifier: 
+  CardIndex: 3490
+  cardColors: 05000000
+  PlayCost: 4
+  EvoCosts:
+  - CardColor: 5
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: 
+  CardName_ENG: Ludomon
+  Form_JPN: []
+  Form_ENG:
+  - Rookie
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Armor
+  - Legend-Arms
+  CardSpriteName: EX6-038
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve][Kakkinmon]/[Sakuttomon]: Cost 0 \n\n[Hand]
+    [Main] By paying 1 cost and placing this card as the bottom digivolution card
+    of 1 of your Digimon that's level 3 or has the [Legend-Arms]\_trait, that Digimon
+    gets +2000 DP until the end of your opponent's turn.\n[Your Turn] [Once Per Turn]
+    When an effect places a digivolution card under this Digimon, \uFF1CDraw 1\uFF1E."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[Opponent''s Turn] This Digimon gets +2000 DP.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX6_038
+  DP: 1000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: EX6-038
+  MaxCountInDeck: 4

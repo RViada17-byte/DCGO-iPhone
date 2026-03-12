@@ -1,3 +1,62 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:6ea0147c34fac025dd060c4643197b1bb8137d6ec1b40974422076acbfa3994c
-size-not-lfs 1735
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: LM_020_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 6827
+  cardColors: 0200000003000000
+  PlayCost: 13
+  EvoCosts:
+  - CardColor: 2
+    Level: 5
+    MemoryCost: 5
+  - CardColor: 3
+    Level: 5
+    MemoryCost: 5
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Quantumon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Fairy
+  CardSpriteName: LM-020_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[When Digivolving] By placing 1 Digimon on top of its owner''s
+    security stack, reveal all of your opponent''s security cards, and place 1 card
+    among them on top of your opponent''s deck. Shuffle the rest and return them
+    to the security stack.
+
+    [Start of Opponent''s Turn] Declare 1 card category.
+    Then, reveal the top card of your opponent''s deck. If it''s of that category,
+    this Digimon isn''t affected by that category''s effects, other than this Digimon''s
+    effects, for the turn. Return the revealed cards to the top or bottom of your
+    opponent''s deck.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: LM_020
+  DP: 13000
+  rarity: 4
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: LM-020
+  MaxCountInDeck: 4

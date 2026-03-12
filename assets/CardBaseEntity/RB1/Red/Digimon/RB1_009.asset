@@ -1,3 +1,55 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:44bf2b63e8aa1d03dcf2caef12abd705a5ccb197b153d7c96e2f3f6a178c38de
-size-not-lfs 2833
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: RB1_009
+  m_EditorClassIdentifier: 
+  CardIndex: 2871
+  cardColors: 00000000
+  PlayCost: 8
+  EvoCosts:
+  - CardColor: 0
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: "\u30AB\u30CE\u30FC\u30F4\u30A1\u30A4\u30B9\u30E2\u30F3"
+  CardName_ENG: Canoweissmon
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u5929\u7ADC\u578B"
+  Type_ENG:
+  - Sky Dragon
+  CardSpriteName: RB1-009
+  cardKind: 0
+  EffectDiscription_JPN: "\u300E\u540D\u79F0\u306B\u300C\u30AC\u30F3\u30DE\u30E2\u30F3\u300D\u3092\u542B\u3080Lv.4\u300F\u304B\u30893\u9032\u5316\u5143\u306B\u540D\u79F0\u306B\u300C\u30AC\u30F3\u30DE\u30E2\u30F3\u300D\u3092\u542B\u3080\u30AB\u30FC\u30C9\u304C\u3042\u308B\u81EA\u5206\u306E\u300C\u30AC\u30F3\u30DE\u30E2\u30F3\u300D\u306F\u3001\u624B\u672D\u306E\u3053\u306E\u30AB\u30FC\u30C9\u306B\u9032\u5316\u6761\u4EF6\u3092\u7121\u8996\u3057\u3066\u9032\u5316\u30B3\u30B9\u30C83\u3067\u9032\u5316\u3067\u304D\u308B\u3002\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u306B\u3042\u308B\u540D\u79F0\u306B\u300C\u30AC\u30F3\u30DE\u30E2\u30F3\u300D\u3092\u542B\u3080\u30AB\u30FC\u30C9\u306E\u52B9\u679C\u5168\u3066\u3092\u5F97\u308B\u3002"
+  EffectDiscription_ENG: 'Digivolve: 3 from Lv.4 w/[Gammamon] in nameOne of your
+    [Gammamon] that has a digivolution card with [Gammamon] in its name may digivolve
+    into this card in your hand for a digivolution cost of 3, ignoring digivolution
+    requirements.[All Turns] This Digimon gains all effects of cards with [Gammamon]
+    in their names in this Digimon''s digivolution cards.'
+  InheritedEffectDiscription_JPN: "\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u306B\u3042\u308B\u540D\u79F0\u306B\u300C\u30AC\u30F3\u30DE\u30E2\u30F3\u300D\u3092\u542B\u3080\u30AB\u30FC\u30C9\u306E\u52B9\u679C\u5168\u3066\u3092\u5F97\u308B\u3002"
+  InheritedEffectDiscription_ENG: '[All Turns] This Digimon gains all effects of
+    cards with [Gammamon] in their names in this Digimon''s digivolution cards.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: RB1_009
+  DP: 8000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: RB1-009
+  MaxCountInDeck: 4

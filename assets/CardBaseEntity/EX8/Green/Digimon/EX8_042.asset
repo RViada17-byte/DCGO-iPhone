@@ -1,3 +1,53 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:c35422ca44523f80cc7bcd899fa710c74bf8f40c2d0f881271f9815b975e503e
-size-not-lfs 1440
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX8_042
+  m_EditorClassIdentifier: 
+  CardIndex: 4127
+  cardColors: 03000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 3
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: MegaKabuterimon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Insectoid
+  - NSp
+  CardSpriteName: EX8-042
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.4 w/[NSp]\_trait: Cost 3 \n\n\uFF1CFortitude\uFF1E
+    (When this Digimon with digivolution cards is deleted, play this card without
+    paying the cost)\n[All Turns] While this Digimon is suspended, it gets +3000
+    DP."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[All Turns] [Once Per Turn] When this Digimon
+    deletes an opponent''s Digimon in battle, trash the top card of your opponent''s
+    security stack.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX8_042
+  DP: 7000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: EX8-042
+  MaxCountInDeck: 4

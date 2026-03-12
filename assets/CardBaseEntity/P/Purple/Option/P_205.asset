@@ -1,3 +1,53 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:d91ed159878b7026a41207a8afade954d19ce38351c1b350ec9d6013cae60556
-size-not-lfs 1595
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_205
+  m_EditorClassIdentifier: 
+  CardIndex: 7480
+  cardColors: 06000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Insane Synthetic Monster
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - DM
+  CardSpriteName: P-205
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "While you have a Digimon or Tamer with the [DM]\_trait
+    on the field, you can ignore this card's color requirements.\n[Main] \uFF1CDraw
+    2\uFF1E and trash 2 cards in your hand. Then, place this card in the battle area.\n[Main]
+    \uFF1CDelay\uFF1E \n\u30FBBy deleting 1 of your play cost 7 or lower Digimon,
+    you may play 1 Digimon card with [Kimeramon] or [Millenniummon]\_in its name
+    from your trash with the play cost reduced by 3."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: "[Security] \uFF1CDraw 2\uFF1E and trash 2 cards
+    in your hand. Then, place this card in the battle area."
+  CardEffectClassName: P_205
+  DP: 0
+  rarity: 5
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: P-205
+  MaxCountInDeck: 4

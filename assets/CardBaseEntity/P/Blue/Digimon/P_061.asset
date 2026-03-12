@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:40cdcebf52d63c8979743a415035d332048e1fd8cce5a1f956e570a1174a2376
-size-not-lfs 1597
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_061
+  m_EditorClassIdentifier: 
+  CardIndex: 6103
+  cardColors: 01000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 1
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: "\u30B8\u30A7\u30EA\u30FC\u30E2\u30F3"
+  CardName_ENG: Jellymon
+  Form_JPN:
+  - "\u6210\u9577\u671F"
+  Form_ENG:
+  - Rookie
+  Attribute_JPN:
+  - "\u30C7\u30FC\u30BF\u7A2E"
+  Attribute_ENG:
+  - Mollusk
+  Type_JPN:
+  - "\u8EDF\u4F53\u578B"
+  Type_ENG:
+  - Data
+  CardSpriteName: P-061
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 
+  InheritedEffectDiscription_JPN: "\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011[\u30BF\u30FC\u30F3\u306B1\u56DE]\u81EA\u5206\u306E\u300C\u6771\u5FA1\u624B\u6D17\u6E05\u53F8\u90CE\u300D\u304C\u3044\u308B\u306A\u3089\u3001\u226A1\u30C9\u30ED\u30FC\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u304B\u3089\u30AB\u30FC\u30C9\u30921\u679A\u5F15\u304F\uFF09\u3002"
+  InheritedEffectDiscription_ENG: "[When Attacking][Once Per Turn] If you have a
+    [Kiyoshiro Higashimitarai] in play, \uFF1CDraw 1\uFF1E. (Draw 1 card from your
+    deck.)"
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: P_061
+  DP: 3000
+  rarity: 5
+  OverflowMemory: 0
+  CardID: P-061
+  MaxCountInDeck: 4

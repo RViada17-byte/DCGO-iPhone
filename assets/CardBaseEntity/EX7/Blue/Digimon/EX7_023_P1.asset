@@ -1,3 +1,55 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:9a2d8547a6b6740f44279dc2f8ec971a586d2dec4819a7f897b486e3b7f4f28e
-size-not-lfs 1635
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX7_023_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 3719
+  cardColors: 01000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 1
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Hexeblaumon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Magic Knight
+  - Witchelny
+  - Ice-Snow
+  CardSpriteName: EX7-023_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "\uFF1CSecurity Attack +1\uFF1E \n\uFF1CIce Clad\uFF1E (This
+    Digimon compares its number of digivolution cards instead of DP in battles other
+    than with security Digimon)\n[When Digivolving] Trash any 4 digivolution cards
+    of your opponent's Digimon. Then, if your opponent has no Digimon with digivolution
+    cards, return 1 of your opponent's Tamers to the bottom of the deck.\n[Opponent's
+    Turn] None of your opponent's Digimon with as many or fewer digivolution cards
+    as this Digimon can suspend.\n[Rule] Trait: Has the [Ice-Snow] type."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX7_023
+  DP: 12000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: EX7-023
+  MaxCountInDeck: 4

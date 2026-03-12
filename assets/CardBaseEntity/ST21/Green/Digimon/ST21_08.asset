@@ -1,3 +1,51 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:652fb75c66c78390c8b460b173131f685cbddd849e00c5fa36304baa37f7e472
-size-not-lfs 1367
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST21_08
+  m_EditorClassIdentifier: 
+  CardIndex: 5286
+  cardColors: 03000000
+  PlayCost: 4
+  EvoCosts:
+  - CardColor: 3
+    Level: 3
+    MemoryCost: 2
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Togemon
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Vegetation
+  - ADVENTURE
+  CardSpriteName: ST21-08
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.3 w/[ADVENTURE]\_trait: Cost 2 \n\n[On Play]
+    [When Digivolving] If your Tamers with the [ADVENTURE]\_trait have 3 or more
+    total colors, this Digimon may digivolve into a Digimon card with the [ADVENTURE]\_trait
+    in the hand without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[All Turns] This Digimon gets +1000 DP.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: ST21_08
+  DP: 4000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: ST21-08
+  MaxCountInDeck: 4

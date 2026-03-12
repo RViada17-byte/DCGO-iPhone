@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:2f8da3e758225b889427d7fd51c86797c9aa1956cdd382ef1fc56c27eae03dd5
-size-not-lfs 1238
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_190
+  m_EditorClassIdentifier: 
+  CardIndex: 6981
+  cardColors: 01000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 1
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: 
+  CardName_ENG: Tweetmon
+  Form_JPN: []
+  Form_ENG:
+  - Stnd.
+  - Appmon
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Social
+  Type_JPN: []
+  Type_ENG:
+  - Tweet
+  CardSpriteName: P-190
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.2 w/[Appmon]\_trait: Cost 0 \n\n[On Play]
+    \uFF1CDraw 1\uFF1E."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: P_190
+  DP: 1000
+  rarity: 5
+  OverflowMemory: 0
+  LinkDP: 2000
+  LinkEffect: "[When Linking] \uFF1CDraw 1\uFF1E."
+  LinkRequirement: "[Link] [Appmon]\_trait: Cost 1 "
+  CardID: P-190
+  MaxCountInDeck: 4

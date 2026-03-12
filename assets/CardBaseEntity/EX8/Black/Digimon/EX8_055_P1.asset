@@ -1,3 +1,53 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:437cceeec220be99dda1dcc9751a218211ee54c739b9f67a369fb5a2765a4f64
-size-not-lfs 1468
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX8_055_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 4155
+  cardColors: 05000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Pyramidimon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Mineral
+  - LIBERATOR
+  CardSpriteName: EX8-055_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "\uFF1CFragment (3)\uFF1E \n[When Digivolving] [When Attacking]
+    By trashing any 3 digivolution cards with the [Mineral]/[Rock]\_trait from your
+    Digimon, this Digimon unsuspends and gains \uFF1CSecurity Attack +1\uFF1Efor
+    the turn.\n[End of Your Turn] [Once Per Turn] You may place up to 3 cards with
+    the [Mineral]/[Rock]\_trait from your trash as this Digimon's bottom digivolution
+    cards."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX8_055
+  DP: 12000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: EX8-055
+  MaxCountInDeck: 4

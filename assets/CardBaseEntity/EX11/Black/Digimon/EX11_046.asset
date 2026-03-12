@@ -1,3 +1,57 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:573a7bca45c8bef571fe4e49d2506abbf3e5788f08592ca40abf7068e9983624
-size-not-lfs 1658
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX11_046
+  m_EditorClassIdentifier: 
+  CardIndex: 7752
+  cardColors: 05000000
+  PlayCost: 14
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 6
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Galacticmon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Unknown
+  Type_JPN: []
+  Type_ENG:
+  - Unknown
+  - LIBERATOR
+  CardSpriteName: EX11-046
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] [Snatchmon]: Cost 9 [Digivolve] [Galacticmon]:
+    Cost 5 \n\n[On Play] [When Digivolving] Choose 1 of your opponent's highest play
+    cost Digimon and delete all of their other Digimon. Then, if this Digimon has
+    4 or more [Vemmon] in its digivolution cards, until your opponent's turn ends,
+    it gains \uFF1CBlocker\uFF1E and isn't affected by their effects.\n[End of Opponent's
+    Turn] This Digimon may digivolve into [Galacticmon] in the hand or trash, ignoring
+    digivolution requirements and without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX11_046
+  DP: 14000
+  rarity: 3
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX11-046
+  MaxCountInDeck: 4

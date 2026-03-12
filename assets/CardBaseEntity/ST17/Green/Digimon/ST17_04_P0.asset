@@ -1,3 +1,54 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:8931228260f466645ad7711239f04477b56b664738aea2c8a157e9abcbee7483
-size-not-lfs 1471
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST17_04_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4961
+  cardColors: 0300000006000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 3
+    Level: 3
+    MemoryCost: 3
+  - CardColor: 6
+    Level: 3
+    MemoryCost: 3
+  Level: 4
+  CardName_JPN: 
+  CardName_ENG: Wendigomon
+  Form_JPN: []
+  Form_ENG:
+  - Champion
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Beastkin
+  CardSpriteName: ST17-04_P0
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve]Lv.3 w/[Terriermon]/[Lopmon]\_in its name: Cost
+    2 \n\n[On Play] [When Digivolving] Delete 1 level 3 or lower Digimon. If this
+    effect deleted one of your Digimon, you may play 1 level 3 Digimon card with
+    [Terriermon]/[Lopmon]\_in its name from your trash without paying the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[All Turns] While this Digimon is suspended, it
+    gets +1000 DP.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: ST17_04
+  DP: 4000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: ST17-04
+  MaxCountInDeck: 4

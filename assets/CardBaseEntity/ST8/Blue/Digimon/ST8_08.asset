@@ -1,3 +1,53 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:ce908e4e16a5b3cf147ae45057badef6a8c47546fee780c0ea71f87f8536aac3
-size-not-lfs 2064
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST8_08
+  m_EditorClassIdentifier: 
+  CardIndex: 1725
+  cardColors: 01000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 1
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: "\u30A8\u30A2\u30ED\u30D6\u30A4\u30C9\u30E9\u30E2\u30F3"
+  CardName_ENG: AeroVeedramon
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u8056\u7ADC\u578B"
+  Type_ENG:
+  - Holy Dragon
+  CardSpriteName: ST8-08
+  cardKind: 0
+  EffectDiscription_JPN: "\u226A\u30B8\u30E3\u30DF\u30F3\u30B0\u226B\uFF08\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u30C7\u30B8\u30E2\u30F3\u3068\u306E\u30D0\u30C8\u30EB\u3067\u306F\u6D88\u6EC5\u3057\u306A\u3044\uFF09"
+  EffectDiscription_ENG: " \uFF1CJamming\uFF1E (This Digimon can't be deleted in
+    battles against Security Digimon.)"
+  InheritedEffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\u81EA\u5206\u306E\u624B\u672D\u304C8\u679A\u4EE5\u4E0A\u306E\u9593\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u226A\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u30A2\u30BF\u30C3\u30AF+1\u226B\uFF08\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30C1\u30A7\u30C3\u30AF\u3059\u308B\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u306E\u679A\u6570+1\uFF09\u3092\u5F97\u308B\u3002"
+  InheritedEffectDiscription_ENG: '[Your Turn] While you have 8 or more cards in
+    your hand, this Digimon gains <Security Attack +1>. (This Digimon checks 1 additional
+    security card.)'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: ST8_08
+  DP: 7000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: ST8-08
+  MaxCountInDeck: 4

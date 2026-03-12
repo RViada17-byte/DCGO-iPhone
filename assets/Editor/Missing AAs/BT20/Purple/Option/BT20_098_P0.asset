@@ -1,3 +1,49 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:c5a984ef9e5fb35468206f416f281ea05602564cd9935a359bccc4bd02e900b0
-size-not-lfs 1500
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT20_098_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 5257
+  cardColors: 06000000
+  PlayCost: 8
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Apparition Legion
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - LIBERATOR
+  CardSpriteName: BT20-098_P0
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Main] By returning up to 9 levels' total worth of Digimon
+    cards from your opponent's trash to the bottom of the deck, you may play 1 [Ghost]\_trait
+    Digimon card of each returned card's level from your trash without paying the
+    costs. Then, the Digimon this effect played gain \uFF1CRush\uFF1E and \uFF1CBlocker\uFF1E
+    until the end of your opponent's turn."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: "[Security] You may play 1 level 5 or lower Digimon
+    card with the [Ghost]\_trait from your trash without paying the cost."
+  CardEffectClassName: BT20_098
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT20-098
+  MaxCountInDeck: 4

@@ -1,3 +1,57 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:18210c238d46b828390da1a88a1d65d812380894e131c9f47d3ab085d440241c
-size-not-lfs 2398
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_091
+  m_EditorClassIdentifier: 
+  CardIndex: 6137
+  cardColors: 0000000006000000
+  PlayCost: 5
+  EvoCosts:
+  - CardColor: 0
+    Level: 3
+    MemoryCost: 3
+  - CardColor: 6
+    Level: 3
+    MemoryCost: 3
+  Level: 4
+  CardName_JPN: "\u30BB\u30FC\u30D0\u30FC\u30C9\u30E9\u30E2\u30F3"
+  CardName_ENG: Saberdramon
+  Form_JPN:
+  - "\u6210\u719F\u671F"
+  Form_ENG:
+  - Champion
+  Attribute_JPN:
+  - "\u30EF\u30AF\u30C1\u30F3\u7A2E"
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN:
+  - "\u5DE8\u9CE5\u578B"
+  Type_ENG:
+  - Giant Bird
+  CardSpriteName: P-091
+  cardKind: 0
+  EffectDiscription_JPN: "\u226A\u7A81\u9032\u226B\uFF08\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30A2\u30BF\u30C3\u30AF\u3057\u305F\u3068\u304D\u3001\u30A2\u30BF\u30C3\u30AF\u306E\u5BFE\u8C61\u3092\u6700\u3082DP\u306E\u9AD8\u3044\u30A2\u30AF\u30C6\u30A3\u30D6\u72B6\u614B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306B\u5909\u66F4\u3067\u304D\u308B)\u226A\u9053\u9023\u308C\u226B\uFF08\u30D0\u30C8\u30EB\u3067\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3060\u3051\u304C\u6D88\u6EC5\u3057\u305F\u3068\u304D\u3001\u30D0\u30C8\u30EB\u3057\u305F\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u6D88\u6EC5\u3055\u305B\u308B\uFF09"
+  EffectDiscription_ENG: "\uFF1CRaid\uFF1E (When this Digimon attacks, you may switch
+    the target of attack to 1 of your opponent's unsuspended Digimon with the highest
+    DP).\uFF1CRetaliation\uFF1E (When this Digimon is deleted after losing a battle,
+    delete the Digimon it was battling)."
+  InheritedEffectDiscription_JPN: "\u3010\u6D88\u6EC5\u6642\u3011\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u8D64\u304B\u7D2B\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u624B\u672D\u306B\u623B\u3059\u3002"
+  InheritedEffectDiscription_ENG: '[On Deletion] Return 1 red or purple Digimon card
+    from your trash to the hand.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: P_091
+  DP: 5000
+  rarity: 5
+  OverflowMemory: 0
+  CardID: P-091
+  MaxCountInDeck: 4

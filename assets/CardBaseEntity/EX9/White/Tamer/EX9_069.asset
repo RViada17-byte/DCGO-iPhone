@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:f24f1c45ae55d312ac23d60d6a15b0cf8ed475de8acefff757348724b9075778
-size-not-lfs 1539
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX9_069
+  m_EditorClassIdentifier: 
+  CardIndex: 6964
+  cardColors: 04000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Analog Youth
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - DM
+  CardSpriteName: EX9-069
+  cardKind: 1
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Start of Your Main Phase] You may place 1 card from your
+    hand face down as any of your [DM]\_trait Digimon's bottom digivolution card.\n[Your
+    Turn] When face-down cards are placed as any of your Digimon's digivolution cards,
+    by suspending this Tamer, gain 1 memory. Then, if you have 7 or fewer cards in
+    your hand, \uFF1CDraw 1\uFF1E \n[Opponent's Turn] All of your Digimon with face-down
+    digivolution cards gain \uFF1CReboot\uFF1E."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying the cost.'
+  CardEffectClassName: EX9_069
+  DP: 0
+  rarity: 3
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX9-069
+  MaxCountInDeck: 4

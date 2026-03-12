@@ -1,3 +1,61 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:72102873bd0d76851f7fb7c94b2525a3e5ae21da22ab6c51dacc486fb47f1d98
-size-not-lfs 1902
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX11_018_P2
+  m_EditorClassIdentifier: 
+  CardIndex: 7693
+  cardColors: 01000000
+  PlayCost: 11
+  EvoCosts:
+  - CardColor: 1
+    Level: 5
+    MemoryCost: 3
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Ryugumon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Mollusk
+  - LIBERATOR
+  - Aquatic
+  CardSpriteName: EX11-018_P2
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "\uFF1CEvade\uFF1E \n\uFF1CDecode (Lv.5 or lower w/[Aqua]/[Sea
+    Animal]\_in any trait)\uFF1E (When this Digimon would leave the battle area other
+    than in battle, you may play 1 Level 5 or lower Digimon card with [Aqua] or [Sea
+    Animal]\_in any of its traits from its digivolution cards without paying the
+    cost.)\n[On Play] [When Digivolving] [When Attacking] [Once Per Turn] By placing
+    1 Digimon card with [Aqua] or [Sea Animal]\_in any of its traits from your hand
+    as this Digimon's bottom digivolution card, 1 of your Digimon unsuspends.\n[All
+    Turns] [Once Per Turn] When effects add to this Digimon's digivolution cards,
+    return 1 of your opponent's Digimon with as many or fewer digivolution cards
+    as this Digimon to the bottom of the deck."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX11_018
+  DP: 12000
+  rarity: 3
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX11-018
+  MaxCountInDeck: 4

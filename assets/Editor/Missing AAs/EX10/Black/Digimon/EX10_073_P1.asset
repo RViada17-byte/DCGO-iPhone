@@ -1,3 +1,58 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:ae8b94f3b3dab220a8b1d9c2edb82ecfd7d71665052f3006493ee8ab30e801ce
-size-not-lfs 1649
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX10_073_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 7266
+  cardColors: 0500000004000000
+  PlayCost: 13
+  EvoCosts:
+  - CardColor: 5
+    Level: 5
+    MemoryCost: 5
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Deusmon
+  Form_JPN: []
+  Form_ENG:
+  - God
+  - Appmon
+  Attribute_JPN: []
+  Attribute_ENG:
+  - God
+  Type_JPN: []
+  Type_ENG:
+  - Omnipotence
+  - Leviathan
+  CardSpriteName: EX10-073_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[App Fusion] [Warudamon] & [Cometmon]: Cost 0\n\n\uFF1CSecurity
+    A. +1\uFF1E \n\uFF1CLink +1\uFF1E \n[When Digivolving] [End of Opponent's Turn]
+    You may link 1 Digimon card from your hand to this Digimon without paying the
+    cost. Then, you may link 1 Digimon card from this Digimon's digivolution cards
+    to this Digimon without paying the cost.\n[All Turns] [Once Per Turn] When effects
+    trash any of this Digimon's link cards, delete 1 of your opponent\u2019s Digimon
+    with the lowest play cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX10_073
+  DP: 13000
+  rarity: 4
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX10-073
+  MaxCountInDeck: 4

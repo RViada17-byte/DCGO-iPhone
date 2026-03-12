@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-1300780665579138467
+--- !u!114 &-8686724201628585840
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -54,7 +54,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _QueueControl: 0
+    - _QueueControl: -1
     - _QueueOffset: 0
     m_Colors:
     - _Color1: {r: 1, g: 1, b: 1, a: 1}

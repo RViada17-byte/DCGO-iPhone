@@ -1,3 +1,48 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:85b56e6a6a670cf231c55b12418fbb1dac005edb0d603f0f8dbbc721cffe821b
-size-not-lfs 2714
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX5_064
+  m_EditorClassIdentifier: 
+  CardIndex: 3103
+  cardColors: 00000000
+  PlayCost: 4
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: "\u30B3\u30A6\uFF06\u30B5\u30E8"
+  CardName_ENG: Koh &amp; Sayo
+  Form_JPN: []
+  Form_ENG: []
+  Attribute_JPN: []
+  Attribute_ENG: []
+  Type_JPN:
+  - "\u30E9\u30A4\u30C8\u30D5\u30A1\u30F3\u30B0"
+  Type_ENG:
+  - Light Fang
+  CardSpriteName: EX5-064
+  cardKind: 1
+  EffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u958B\u59CB\u6642\u3011\u30E1\u30E2\u30EA\u30FC\u304C2\u4EE5\u4E0B\u306A\u3089\u30013\u306B\u3059\u308B\u3002\u3010\u767B\u5834\u6642\u3011\u3010\u30E1\u30A4\u30F3\u3011\u3053\u306E\u30C6\u30A4\u30DE\u30FC\u3092\u30EC\u30B9\u30C8\u3055\u305B\u3001\u7279\u5FB4\u306B\u300C\u30E9\u30A4\u30C8\u30D5\u30A1\u30F3\u30B0\u300D/\u300C\u30CA\u30A4\u30C8\u30AF\u30ED\u30A6\u300D\u3092\u6301\u3064\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u306B\u91CD\u306D\u3089\u308C\u3066\u3044\u308B\u30AB\u30FC\u30C9\u3092\u4E0A\u304B\u30891\u679A\u305D\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u306E\u4E0B\u306B\u7F6E\u304F\u3053\u3068\u3067\u3001\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u624B\u672D\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C9\u306B\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u9032\u5316\u3067\u304D\u308B\u3002"
+  EffectDiscription_ENG: "[Start of Your Turn] If you have 2 memory or less, set
+    your memory to 3.[On Play] [Main] By suspending this Tamer and placing the top
+    top card of one of your [Light Fang]/[Night Claw]\_trait Digimon as that Digimon's
+    bottom digivolution card, 1 of your Digimon may digivolve into a Digimon card
+    in your hand without paying the cost."
+  InheritedEffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u3053\u306E\u30AB\u30FC\u30C9\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3055\u305B\u308B\u3002"
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u3053\u306E\u30AB\u30FC\u30C9\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3055\u305B\u308B\u3002"
+  SecurityEffectDiscription_ENG: '[Security] Play this card without paying its memory
+    cost.'
+  CardEffectClassName: EX5_064
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  CardID: EX5-064
+  MaxCountInDeck: 4

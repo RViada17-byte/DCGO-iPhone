@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:2d03c9c4ec61d63abd74202c826ce4e8bdf018578f3f61dfd7ea6c0c3985ab9b
-size-not-lfs 1265
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX2_067_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 3294
+  cardColors: 00000000
+  PlayCost: 2
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: "\u30D5\u30A1\u30A4\u30A2\u30FC\u30DC\u30FC\u30EB"
+  CardName_ENG: Fire Ball
+  Form_JPN:
+  - '-'
+  Form_ENG:
+  - '-'
+  Attribute_JPN:
+  - '-'
+  Attribute_ENG:
+  - '-'
+  Type_JPN:
+  - '-'
+  Type_ENG:
+  - '-'
+  CardSpriteName: EX2-067_P1
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Main] Delete 1 of your opponent's Digimon with 3000 DP
+    or less. If an opponent's Digimon wasn't deleted by this effect, <Draw 2>. (Draw
+    2 cards from your deck.)\r"
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX2_067
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: EX2-067
+  MaxCountInDeck: 4

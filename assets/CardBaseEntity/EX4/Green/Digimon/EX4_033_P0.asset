@@ -1,3 +1,53 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:05e9b19b4fd743f095110360232ae3b1057af410f2167e8d536cfe95d2f10035
-size-not-lfs 1431
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX4_033_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 4247
+  cardColors: 03000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 3
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: 
+  CardName_ENG: Terriermon Assistant
+  Form_JPN: []
+  Form_ENG:
+  - Rookie
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Beast
+  CardSpriteName: EX4-033_P0
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[Your Turn] When an effect suspends this Digimon, 1 of
+    your Digimon gets +4000 DP for the turn.
+
+    [Rule] Name: Also treated as [Terriermon].'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[Your Turn] When <Alliance> suspends one of your
+    Digimon, this Digimon may digivolve into a 2-color green Digimon card in your
+    hand for the cost. When this Digimon would digivolve by this effect, reduce the
+    cost by 2.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX4_033
+  DP: 1000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: EX4-033
+  MaxCountInDeck: 4

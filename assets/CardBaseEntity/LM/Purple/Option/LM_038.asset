@@ -1,3 +1,47 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:979ed9fd25c2bcdd12df7404108df54398c1eec9a71f35e9a8faebbb9586cc9a
-size-not-lfs 1342
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: LM_038
+  m_EditorClassIdentifier: 
+  CardIndex: 4048
+  cardColors: 06000000
+  PlayCost: 3
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Grape Memory Boost!
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Option
+  CardSpriteName: LM-038
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "This card may also have its color requirements met by green.\n[Main]
+    Reveal the top 3 cards of your deck. Add 1 purple or green Digimon card among
+    them to the hand. Return the rest to the bottom of deck. Then, place this card
+    in the battle area.\n[Main] \uFF1CDelay\uFF1E \n\u30FBGain 2 memory."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Place this card in the battle area.'
+  CardEffectClassName: LM_038
+  DP: 0
+  rarity: 5
+  OverflowMemory: 0
+  CardID: LM-038
+  MaxCountInDeck: 4

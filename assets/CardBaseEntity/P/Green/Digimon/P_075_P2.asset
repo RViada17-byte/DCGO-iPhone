@@ -1,3 +1,51 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:23076fd8d49507c5e0dab509d52d71d96f3039167a305977bd06f5989f09efc5
-size-not-lfs 1374
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_075_P2
+  m_EditorClassIdentifier: 
+  CardIndex: 10385
+  cardColors: 03000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 3
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: Okuwamon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Insectoid
+  CardSpriteName: P-075_P2
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Your Turn] When this Digimon would digivolve into a card
+    with the [Insectoid]\_trait, all of your opponent's Digimon gain \"[All Turns]
+    When this Digimon becomes suspended, lose 1 memory.\" until the end of your opponent's
+    turn."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[Your Turn] While this Digimon has the [Insectoid]\_trait,
+    it gains \uFF1CPiercing\uFF1E."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: P_075
+  DP: 7000
+  rarity: 5
+  OverflowMemory: 0
+  CardID: P-075
+  MaxCountInDeck: 4

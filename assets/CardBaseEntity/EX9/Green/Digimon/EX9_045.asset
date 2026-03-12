@@ -1,3 +1,63 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:135536737e66d4c7e247876059e5f8d50c479013266af751bea73c3c56d9d182
-size-not-lfs 1720
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX9_045
+  m_EditorClassIdentifier: 
+  CardIndex: 6921
+  cardColors: 030000000200000001000000
+  PlayCost: 15
+  EvoCosts:
+  - CardColor: 3
+    Level: 6
+    MemoryCost: 5
+  - CardColor: 2
+    Level: 6
+    MemoryCost: 5
+  - CardColor: 1
+    Level: 6
+    MemoryCost: 5
+  Level: 7
+  CardName_JPN: 
+  CardName_ENG: Cernumon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Holy Beast
+  - WG
+  CardSpriteName: EX9-045
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "\uFF1CAlliance\uFF1E.\n\uFF1CBlocker\uFF1E \n[When Digivolving]
+    you may play 1 play cost 7 or lower [WG]\_trait Digimon card from your hand without
+    paying the cost. Then, if DNA digivolving, you may return up to 2 of your opponent's
+    Digimon to the bottom of the deck.\n[All Turns] [Once Per Turn] When any of your
+    [WG]\_trait Digimon would leave the battle area other than in battle, you may
+    play 1 play cost 7 or lower [WG]\_trait Digimon card from your hand without paying
+    the cost."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX9_045
+  DP: 15000
+  rarity: 3
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX9-045
+  MaxCountInDeck: 4

@@ -1,3 +1,50 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:55a899ec7dbc770f5aa6819157c8a2b741b24cde1ff662b9e06e5924d2035324
-size-not-lfs 1139
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST4_09
+  m_EditorClassIdentifier: 
+  CardIndex: 123
+  cardColors: 03000000
+  PlayCost: 6
+  EvoCosts:
+  - CardColor: 3
+    Level: 4
+    MemoryCost: 2
+  Level: 5
+  CardName_JPN: "\u30AA\u30AA\u30AF\u30EF\u30E2\u30F3"
+  CardName_ENG: Okuwamon
+  Form_JPN:
+  - "\u5B8C\u5168\u4F53"
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u6606\u866B\u578B"
+  Type_ENG:
+  - Insectoid
+  CardSpriteName: ST4-09
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: 
+  DP: 7000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: ST4-09
+  MaxCountInDeck: 4

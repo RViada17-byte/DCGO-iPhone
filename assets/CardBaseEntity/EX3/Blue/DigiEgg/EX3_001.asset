@@ -1,3 +1,50 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:b351cede320476203f6631ff6a2faf2a16a0c31bfdc7602d0fd8dd76013f2913
-size-not-lfs 1706
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX3_001
+  m_EditorClassIdentifier: 
+  CardIndex: 2171
+  cardColors: 01000000
+  PlayCost: -1
+  EvoCosts: []
+  Level: 2
+  CardName_JPN: "\u30D9\u30D3\u30C9\u30E2\u30F3"
+  CardName_ENG: Bebydomon
+  Form_JPN:
+  - "\u5E7C\u5E74\u671F"
+  Form_ENG:
+  - In-Training
+  Attribute_JPN: []
+  Attribute_ENG: []
+  Type_JPN:
+  - "\u5E7C\u7ADC\u578B"
+  Type_ENG:
+  - Baby Dragon
+  CardSpriteName: EX3-001-Errata
+  cardKind: 3
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 
+  InheritedEffectDiscription_JPN: "\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u540D\u79F0\u306B\u300C\u30C9\u30E9\u30E2\u30F3\u300D\u304B\u300C\u30A8\u30B0\u30B6\u30E2\u30F3\u300D\u3092\u542B\u3080\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u306A\u3063\u305F\u3068\u304D\u3001\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092DP+1000\u3002"
+  InheritedEffectDiscription_ENG: '[All Turns][Once Per Turn] When this Digimon with
+    [Dramon] or [Examon] in its name becomes unsuspended, this Digimon gets +1000
+    DP for the turn.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX3_001
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
+  CardID: EX3-001
+  MaxCountInDeck: 4

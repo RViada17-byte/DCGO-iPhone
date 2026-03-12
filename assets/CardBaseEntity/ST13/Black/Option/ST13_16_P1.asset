@@ -1,3 +1,50 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:5fad1cd9abc4f5d6419565aa33fa5d869a29bb4b01bd91204060620bf7d78cf3
-size-not-lfs 1541
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: ST13_16_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 4910
+  cardColors: 0500000000000000
+  PlayCost: 4
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Legend-Arms Alliance
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Legend-Arms
+  CardSpriteName: ST13-16_P1
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Main] You may play 1 Digimon card with the [Legend-Arms]\_trait
+    and a play cost of 7 or less in your hand without paying its memory cost. Then,
+    place this card in your Battle Area.\n[Main] \uFF1CDelay\uFF1E \n\u30FBReveal
+    the top 4 cards of your deck. Place those cards on the top or bottom of your
+    deck in any order."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: "[Security] You may play 1 Digimon card with the
+    [Legend-Arms]\_trait and a play cost of 7 or less in your hand without paying
+    its memory cost. Then, place this card in your battle area."
+  CardEffectClassName: ST13_16
+  DP: 0
+  rarity: 0
+  OverflowMemory: 0
+  CardID: ST13-16
+  MaxCountInDeck: 4

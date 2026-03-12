@@ -1,3 +1,55 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:6a3d7799b71a355af5ea3a8d1701a19752a8a6b29261af13edbb0655a8286176
-size-not-lfs 2204
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX4_014
+  m_EditorClassIdentifier: 
+  CardIndex: 2560
+  cardColors: 01000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 1
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: "\u30AC\u30AA\u30B9\u30E2\u30F3"
+  CardName_ENG: Gaossmon
+  Form_JPN:
+  - "\u6210\u9577\u671F"
+  Form_ENG:
+  - Rookie
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u722C\u866B\u985E\u578B"
+  - "\u30D6\u30EB\u30FC\u30D5\u30EC\u30A2"
+  Type_ENG:
+  - Reptile
+  - BlueFlare
+  CardSpriteName: EX4-014
+  cardKind: 0
+  EffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u7279\u5FB4\u306B\u300C\u30D6\u30EB\u30FC\u30D5\u30EC\u30A2\u300D\u3092\u6301\u3064\u30AB\u30FC\u30C9\u304C\u767B\u5834\u3057\u305F\u3068\u304D\u3001\u226A1\u30C9\u30ED\u30FC\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u304B\u3089\u30AB\u30FC\u30C9\u30921\u679A\u5F15\u304F\uFF09\u3002\u7279\u5FB4\u306B\u300C\u30C8\u30EF\u30A4\u30E9\u30A4\u30C8\u300D\u3092\u6301\u3064\u30AB\u30FC\u30C9\u304C\u767B\u5834\u3057\u305F\u3068\u304D\u3001\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u30C7\u30B8\u30AF\u30ED\u30B9\u6761\u4EF6\u3092\u6301\u3064\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u624B\u672D\u306B\u623B\u3059\u3002"
+  EffectDiscription_ENG: '[Your Turn][Once Per Turn] When a card with the [Blue Flare]
+    trait is played, . (Draw 1 card from your deck.) When a card with the [Twilight]
+    trait is played, return 1 Digimon card with DigiXros requirements from your trash
+    to your hand.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX4_014
+  DP: 1000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: EX4-014
+  MaxCountInDeck: 4

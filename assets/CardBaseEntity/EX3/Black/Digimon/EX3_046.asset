@@ -1,3 +1,54 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:445ffe06015b436decd1f93862ee8e499885b10f680162f7d258616ab249b187
-size-not-lfs 1932
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX3_046
+  m_EditorClassIdentifier: 
+  CardIndex: 2230
+  cardColors: 05000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 5
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: "\u30B3\u30DE\u30F3\u30C9\u30E9\u30E2\u30F3"
+  CardName_ENG: Commandramon
+  Form_JPN:
+  - "\u6210\u9577\u671F"
+  Form_ENG:
+  - Rookie
+  Attribute_JPN:
+  - "\u30A6\u30A3\u30EB\u30B9\u7A2E"
+  Attribute_ENG:
+  - Virus
+  Type_JPN:
+  - "\u30B5\u30A4\u30DC\u30FC\u30B0\u578B"
+  - "D-\u30D6\u30EA\u30AC\u30FC\u30C9"
+  Type_ENG:
+  - Cyborg
+  - D-Brigade
+  CardSpriteName: EX3-046
+  cardKind: 0
+  EffectDiscription_JPN: "\u226A\u30C7\u30B3\u30A4\u300A\u7279\u5FB4\u300CD-\u30D6\u30EA\u30AC\u30FC\u30C9\u300D\u300B\u226B\uFF08\u7279\u5FB4\u306B\u300CD-\u30D6\u30EA\u30AC\u30FC\u30C9\u300D\u3092\u6301\u3064\u4ED6\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u76F8\u624B\u306E\u52B9\u679C\u3067\u6D88\u6EC5\u3059\u308B\u3068\u304D\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3053\u3068\u3067\u3001\u305D\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306F\u6D88\u6EC5\u3057\u306A\u3044\uFF09"
+  EffectDiscription_ENG: "\uFF1CDecoy ([D-Brigade])\uFF1E (When one of your other
+    Digimon with [D-Brigade] in its traits would be deleted by an opponent's effect,
+    you may delete this Digimon to prevent that deletion.)"
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: 
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: 
+  CardEffectClassName: EX3_046
+  DP: 2000
+  rarity: 0
+  OverflowMemory: 0
+  CardID: EX3-046
+  MaxCountInDeck: 4

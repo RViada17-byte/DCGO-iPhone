@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:215be2fce12a3bf24fe1a261c7cb26e5061e58d3f09c0202a1d43083ddcfdcb3
-size-not-lfs 1452
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX5_062_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 4234
+  cardColors: 06000000
+  PlayCost: 12
+  EvoCosts:
+  - CardColor: 6
+    Level: 5
+    MemoryCost: 4
+  Level: 6
+  CardName_JPN: 
+  CardName_ENG: Anubismon
+  Form_JPN: []
+  Form_ENG:
+  - Mega
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Shaman
+  CardSpriteName: EX5-062_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[When Digivolving] [Main] [Once Per Turn] You may trash
+    up to 3 cards in your hand. Then, play 1 purple Digimon card from your trash
+    with the play cost reduced by 3. For each card trashed by this effect, further
+    reduce it by 1.\n[Your Turn] When an effect plays one of your Digimon, delete
+    1 of your opponent's level 5 or lower Digimon. If this effect didn't delete,
+    \uFF1CDraw 1\uFF1E."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX5_062
+  DP: 12000
+  rarity: 3
+  OverflowMemory: 0
+  CardID: EX5-062
+  MaxCountInDeck: 1

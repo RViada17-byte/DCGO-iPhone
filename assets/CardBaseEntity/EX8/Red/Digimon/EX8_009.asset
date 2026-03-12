@@ -1,3 +1,55 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:52c028554e41b4b082b7c842244e11736d0fea12fb0fc80658eada347dcd79c1
-size-not-lfs 1478
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX8_009
+  m_EditorClassIdentifier: 
+  CardIndex: 4065
+  cardColors: 0000000006000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 0
+    Level: 2
+    MemoryCost: 1
+  - CardColor: 6
+    Level: 2
+    MemoryCost: 1
+  Level: 3
+  CardName_JPN: 
+  CardName_ENG: Guilmon (X Antibody)
+  Form_JPN: []
+  Form_ENG:
+  - Rookie
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Virus
+  Type_JPN: []
+  Type_ENG:
+  - Dark Dragon
+  - X Antibody
+  CardSpriteName: EX8-009
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve][Gigimon]/[Guilmon]: Cost 0 \n\n[On Play] [When
+    Digivolving] Reveal the top 3 cards of your deck. Add 1 card with [Growlmon]/[Gallantmon]\_in
+    its name and 1 [X Antibody] among them to the hand. Return the rest to the bottom
+    of the deck."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[Your Turn] [Once Per Turn] When any of your opponent''s
+    Digimon is deleted, gain 1 memory.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX8_009
+  DP: 2000
+  rarity: 2
+  OverflowMemory: 0
+  CardID: EX8-009
+  MaxCountInDeck: 4

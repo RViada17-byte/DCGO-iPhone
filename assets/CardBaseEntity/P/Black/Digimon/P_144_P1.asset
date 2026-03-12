@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:23ac599c3eeb0d8cc77b1cde009baff7b25f6f999b12a6d8eb03cb97ab2a265a
-size-not-lfs 1432
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: P_144_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 10300
+  cardColors: 05000000
+  PlayCost: 4
+  EvoCosts:
+  - CardColor: 5
+    Level: 2
+    MemoryCost: 0
+  Level: 3
+  CardName_JPN: 
+  CardName_ENG: Gotsumon (X Antibody)
+  Form_JPN: []
+  Form_ENG:
+  - Rookie
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Rock
+  - X Antibody
+  CardSpriteName: P-144_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve][Gotsumon]: Cost 0 \n\n\uFF1CBlocker\uFF1E \n[Your
+    Turn] This Digimon without [Gotsumon]/[X Antibody] in it's digivolution cards
+    can't attack.\n[Opponent's Turn] [Once Per Turn] When an attack target is switched,
+    you may unsuspend 1 of your Digimon with \uFF1CBlocker\uFF1E\n"
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: "[All Turns] All of your Digimon with \uFF1CBlocker\uFF1E
+    get +1000 DP."
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: P_144
+  DP: 4000
+  rarity: 5
+  OverflowMemory: 0
+  CardID: P-144
+  MaxCountInDeck: 4

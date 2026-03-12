@@ -1,3 +1,50 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:f2ca5f7e6855b9b3bca8777a527da4ba15faa4ae62c8bd0ac45ef92f8dbdff22
-size-not-lfs 1371
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX7_072
+  m_EditorClassIdentifier: 
+  CardIndex: 3812
+  cardColors: 06000000
+  PlayCost: 7
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Seventh Fascination
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Seven Great Demon Lords
+  CardSpriteName: EX7-072
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: '[Trash] [Your Turn] When your Digimon digivolves into [Lilithmon
+    (X Antibody)], by returning this card to the bottom of the deck, activate this
+    card''s [Main] effect.
+
+    [Main] All your opponent''s Digimon gain "[End of
+    Your Turn] Delete 1 of your Digimon." until end of their turn.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Delete 1 of your opponent''s unsuspended
+    Digimon.'
+  CardEffectClassName: EX7_072
+  DP: 0
+  rarity: 2
+  OverflowMemory: 0
+  CardID: EX7-072
+  MaxCountInDeck: 4

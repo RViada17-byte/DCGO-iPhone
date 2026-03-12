@@ -1,3 +1,56 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:9f956f39f726c4dfa2bf54daa8ef4809aab5dac7235148a4a021df4b1d6a81e3
-size-not-lfs 1608
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX11_042_P1
+  m_EditorClassIdentifier: 
+  CardIndex: 7744
+  cardColors: 05000000
+  PlayCost: 7
+  EvoCosts:
+  - CardColor: 5
+    Level: 4
+    MemoryCost: 3
+  Level: 5
+  CardName_JPN: 
+  CardName_ENG: MockingBirdmon
+  Form_JPN: []
+  Form_ENG:
+  - Ultimate
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Vaccine
+  Type_JPN: []
+  Type_ENG:
+  - Machine
+  - LIBERATOR
+  CardSpriteName: EX11-042_P1
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Maquinamon]\_in text: Cost 3 \n\n[On
+    Play] [When Digivolving] You may play 1 [Maquinamon] from your hand or this Digimon's
+    digivolution cards to 1 of your Digimon without paying the cost.\n[Your Turn]
+    [Once Per Turn] When this Digimon gets linked, delete 1 of your opponent's Digimon
+    with a play cost of 5 or less."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[Opponent''s Turn] [Once Per Turn] When one of
+    your opponent''s Digimon attacks, you may change the attack target to this Digimon.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: EX11_042
+  DP: 7000
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX11-042
+  MaxCountInDeck: 4

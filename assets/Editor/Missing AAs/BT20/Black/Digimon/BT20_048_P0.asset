@@ -1,3 +1,55 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:d7398d551c2954fba6473de5aad49939c7074d9b773b0be2c071bd391973d663
-size-not-lfs 1452
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: BT20_048_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 5217
+  cardColors: 0500000002000000
+  PlayCost: 3
+  EvoCosts:
+  - CardColor: 5
+    Level: 2
+    MemoryCost: 1
+  - CardColor: 2
+    Level: 2
+    MemoryCost: 1
+  Level: 3
+  CardName_JPN: 
+  CardName_ENG: Dorumon
+  Form_JPN: []
+  Form_ENG:
+  - Rookie
+  Attribute_JPN: []
+  Attribute_ENG:
+  - Data
+  Type_JPN: []
+  Type_ENG:
+  - Beast
+  - X Antibody
+  - Chronicle
+  CardSpriteName: BT20-048_P0
+  cardKind: 0
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: "[Digivolve] Black Lv.2 w/[X Antibody]\_trait: Cost 0 \n\n[On
+    Play] Reveal the top 3 cards of your deck. Add 1 card with [X Antibody]\_trait
+    and 1 Tamer card or Option card with the [Chronicle]\_trait among them to the
+    hand. Return the rest to the bottom of the deck."
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '[Opponent''s Turn] This Digimon gets +2000 DP.'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '-'
+  CardEffectClassName: BT20_048
+  DP: 1000
+  rarity: 1
+  OverflowMemory: 0
+  CardID: BT20-048
+  MaxCountInDeck: 4

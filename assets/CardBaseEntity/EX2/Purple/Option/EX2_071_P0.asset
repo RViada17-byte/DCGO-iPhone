@@ -1,3 +1,52 @@
-version-not-lfs https://git-lfs.github.com/spec/v1
-oid-not-lfs sha256:aa1eaac64d59c862f00d0a4fff1c400306fe4d4e18928643a34c8c08c549ad50
-size-not-lfs 1339
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac423894725fed64a9146a10d3878ce1, type: 3}
+  m_Name: EX2_071_P0
+  m_EditorClassIdentifier: 
+  CardIndex: 6822
+  cardColors: 06000000
+  PlayCost: 4
+  EvoCosts: []
+  Level: 0
+  CardName_JPN: 
+  CardName_ENG: Death Slinger
+  Form_JPN: []
+  Form_ENG:
+  - '-'
+  Attribute_JPN: []
+  Attribute_ENG:
+  - '-'
+  Type_JPN: []
+  Type_ENG:
+  - Option
+  CardSpriteName: EX2-071_P0
+  cardKind: 2
+  EffectDiscription_JPN: 
+  EffectDiscription_ENG: 'When this card is trashed from your deck, gain 1 memory.
+
+    [Main]
+    Delete 1 of your opponent''s level 4 or lower Digimon. For every 10 cards in
+    your trash, add 1 to the maximum level of the Digimon you can choose with this
+    effect.'
+  InheritedEffectDiscription_JPN: 
+  InheritedEffectDiscription_ENG: '-'
+  SecurityEffectDiscription_JPN: 
+  SecurityEffectDiscription_ENG: '[Security] Activate this card''s [Main] effects.'
+  CardEffectClassName: EX2_071
+  DP: 0
+  rarity: 1
+  OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: '-'
+  LinkRequirement: '-'
+  CardID: EX2-071
+  MaxCountInDeck: 4
