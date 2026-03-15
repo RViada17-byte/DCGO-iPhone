@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_057
   m_EditorClassIdentifier: 
   CardIndex: 5136
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 12
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Holy Warrior
   - Royal Knight
   CardSpriteName: BT20-057
+  PrintID: BT20-057
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "When this card would be played, if you have a Digimon with
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-057
   MaxCountInDeck: 4

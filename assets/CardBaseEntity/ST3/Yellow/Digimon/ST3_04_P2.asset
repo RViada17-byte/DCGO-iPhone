@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST3_04_P2
   m_EditorClassIdentifier: 
   CardIndex: 81
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Mammal
   CardSpriteName: ST3-04_P2
+  PrintID: ST3-04_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST3-04
   MaxCountInDeck: 4

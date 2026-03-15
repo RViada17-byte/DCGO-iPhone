@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST14_03
   m_EditorClassIdentifier: 
   CardIndex: 2819
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Flame
   CardSpriteName: ST14-03
+  PrintID: ST14-03
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u30892\u679A\u7834\u68C4\u3059\u308B\u3002\u3010\u6D88\u6EC5\u6642\u3011\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u304C10\u679A\u4EE5\u4E0A\u306E\u3068\u304D\u3001\u226A1\u30C9\u30ED\u30FC\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u304B\u3089\u30AB\u30FC\u30C9\u30921\u679A\u5F15\u304F\uFF09\u3002"
   EffectDiscription_ENG: "[On Play] Trash the top 2 cards of your deck.[On Deletion]
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST14-03
   MaxCountInDeck: 4

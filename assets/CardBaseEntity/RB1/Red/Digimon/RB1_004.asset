@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: RB1_004
   m_EditorClassIdentifier: 
   CardIndex: 2865
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Reptile
   CardSpriteName: RB1-004
+  PrintID: RB1-004
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: "\u203B\u30AB\u30FC\u30C9\u30CA\u30F3\u30D0\u30FC:\u300CP-009\u300D\u3068\u3057\u3066\u3082\u6271\u3044\u3001\u30C7\u30C3\u30AD\u306B\u300CP-009\u300D\u3068\u3042\u308F\u305B\u30664\u679A\u307E\u3067\u5165\u308C\u3089\u308C\u308B\u3002"
   EffectDiscription_ENG: "\u203BCard Number: Also treated as [P-009]. A deck may
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-009
   MaxCountInDeck: 4

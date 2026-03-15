@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_027
   m_EditorClassIdentifier: 
   CardIndex: 3152
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 6
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Ancient Crustacean
   CardSpriteName: BT15-027
+  PrintID: BT15-027
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] Reveal the top 4 cards of your deck. Add 2 level
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-027
   MaxCountInDeck: 4

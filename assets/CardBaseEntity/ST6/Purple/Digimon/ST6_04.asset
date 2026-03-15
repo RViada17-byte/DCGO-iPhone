@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST6_04
   m_EditorClassIdentifier: 
   CardIndex: 343
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Undead
   CardSpriteName: ST6-04
+  PrintID: ST6-04
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u7D2B\u306E\u4F7F\u7528\u30B3\u30B9\u30C81\u304B7\u306E\u30AA\u30D7\u30B7\u30E7\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u624B\u672D\u306B\u623B\u305B\u308B\u3002"
   EffectDiscription_ENG: '[On Play] You may return 1 purple Option card with a memory
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST6-04
   MaxCountInDeck: 4

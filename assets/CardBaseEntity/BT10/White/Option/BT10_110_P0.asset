@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_110_P0
   m_EditorClassIdentifier: 
   CardIndex: 4367
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Royal Knight
   CardSpriteName: BT10-110_P0
+  PrintID: BT10-110_P0
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you have a Digimon with the [Royal Knight]\_trait
@@ -43,5 +46,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-110
   MaxCountInDeck: 4

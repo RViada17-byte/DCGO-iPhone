@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_019
   m_EditorClassIdentifier: 
   CardIndex: 3866
+  LegacyCardIndices: 
   cardColors: 0000000005000000
   PlayCost: 14
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Composite
   CardSpriteName: BT18-019
+  PrintID: BT18-019
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] Delete 1 of your opponent's
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 14000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-019
   MaxCountInDeck: 4

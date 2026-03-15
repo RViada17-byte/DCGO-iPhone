@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT12_057_P2
   m_EditorClassIdentifier: 
   CardIndex: 4511
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 16
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Unidentified
   CardSpriteName: BT12-057_P2
+  PrintID: BT12-057_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.5 w/\uFF1CSave\uFF1E\_in its text: Cost 9
@@ -54,5 +57,8 @@ MonoBehaviour:
   DP: 15000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT12-057
   MaxCountInDeck: 4

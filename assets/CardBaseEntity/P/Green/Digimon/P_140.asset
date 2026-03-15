@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_140
   m_EditorClassIdentifier: 
   CardIndex: 10294
+  LegacyCardIndices: 
   cardColors: 0300000001000000
   PlayCost: 8
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Insectoid
   CardSpriteName: P-140
+  PrintID: P-140
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.4 w/[Insectoid]\_in its name: Cost 3 \n\n\uFF1CEvade\uFF1E
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-140
   MaxCountInDeck: 4

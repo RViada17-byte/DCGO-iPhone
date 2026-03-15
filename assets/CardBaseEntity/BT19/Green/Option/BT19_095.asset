@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_095
   m_EditorClassIdentifier: 
   CardIndex: 5073
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Device
   CardSpriteName: BT19-095
+  PrintID: BT19-095
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you don't have [Knight Device], you may ignore this
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-095
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST15_02
   m_EditorClassIdentifier: 
   CardIndex: 2831
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Reptile
   CardSpriteName: ST15-02
+  PrintID: ST15-02
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u300C\u30B3\u30ED\u30E2\u30F3\u300D:\u30B3\u30B9\u30C80\u3010\u81EA\u5206\u306E\u30E1\u30A4\u30F3\u30D5\u30A7\u30A4\u30BA\u958B\u59CB\u6642\u3011\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u3044\u308B\u306A\u3089\u3001\u30E1\u30E2\u30EA\u30FC+1\u3002"
   EffectDiscription_ENG: '[Digivolve][Koromon]: Cost 0[Start of Your Main Phase]
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST15-02
   MaxCountInDeck: 4

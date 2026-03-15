@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_009_P0
   m_EditorClassIdentifier: 
   CardIndex: 4292
+  LegacyCardIndices: 
   cardColors: 0000000002000000
   PlayCost: 9
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Composite
   - Xros Heart
   CardSpriteName: BT10-009_P0
+  PrintID: BT10-009_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CMaterial Save 2\uFF1E \n[On Play] \uFF1CDraw 2\uFF1E
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-009
   MaxCountInDeck: 1

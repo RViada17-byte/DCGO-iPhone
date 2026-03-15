@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_022
   m_EditorClassIdentifier: 
   CardIndex: 5101
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Crustacean
   - X Antibody
   CardSpriteName: BT20-022
+  PrintID: BT20-022
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Crabmon]: Cost 0 \n\n[On Play] [When Digivolving]
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-022
   MaxCountInDeck: 4

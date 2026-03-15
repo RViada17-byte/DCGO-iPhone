@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT9_032
   m_EditorClassIdentifier: 
   CardIndex: 1819
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 2
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Puppet
   CardSpriteName: BT9-032
+  PrintID: BT9-032
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 3000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT9-032
   MaxCountInDeck: 4

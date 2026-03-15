@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_200
   m_EditorClassIdentifier: 
   CardIndex: 7471
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - TS
   CardSpriteName: P-200
+  PrintID: P-200
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] If you have 4 or less memory,

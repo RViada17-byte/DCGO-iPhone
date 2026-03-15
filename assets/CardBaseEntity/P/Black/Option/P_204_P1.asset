@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_204_P1
   m_EditorClassIdentifier: 
   CardIndex: 7479
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 3
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - X Antibody
   - Chronicle
   CardSpriteName: P-204_P1
+  PrintID: P-204_P1
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] By trashing 1 card with the [X Antibody] or [Chronicle]\_trait

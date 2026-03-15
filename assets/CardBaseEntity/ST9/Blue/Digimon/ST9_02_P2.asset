@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST9_02_P2
   m_EditorClassIdentifier: 
   CardIndex: 4997
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Mini Dragon
   CardSpriteName: ST9-02_P2
+  PrintID: ST9-02_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] Reveal the top 3 cards of your deck. Add 1 card
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST9-02
   MaxCountInDeck: 4

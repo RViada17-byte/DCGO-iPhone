@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_060_P1
   m_EditorClassIdentifier: 
   CardIndex: 5223
+  LegacyCardIndices: 
   cardColors: 050000000200000000000000
   PlayCost: 9
   EvoCosts:
@@ -41,6 +42,8 @@ MonoBehaviour:
   - Royal Knight
   - Chronicle
   CardSpriteName: BT20-060_P1
+  PrintID: BT20-060_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Hand] [Counter] \uFF1CBlast DNA Digivolve ([Alphamon]
@@ -56,5 +59,8 @@ MonoBehaviour:
   DP: 16000
   rarity: 3
   OverflowMemory: 5
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-060
   MaxCountInDeck: 4

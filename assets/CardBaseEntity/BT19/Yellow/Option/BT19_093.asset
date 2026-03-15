@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_093
   m_EditorClassIdentifier: 
   CardIndex: 5072
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Device
   CardSpriteName: BT19-093
+  PrintID: BT19-093
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 'While you don''t have [Queen Device], you may ignore this
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-093
   MaxCountInDeck: 4

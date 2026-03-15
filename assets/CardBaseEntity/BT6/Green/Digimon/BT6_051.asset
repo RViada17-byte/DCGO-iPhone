@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT6_051
   m_EditorClassIdentifier: 
   CardIndex: 1179
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Vegetation
   CardSpriteName: BT6-051
+  PrintID: BT6-051
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT6-051
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST12_12_P2
   m_EditorClassIdentifier: 
   CardIndex: 4907
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Puppet
   CardSpriteName: ST12-12_P2
+  PrintID: ST12-12_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] By trashing 1 card in your hand, \uFF1CDraw 2\uFF1E
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 3000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST12-12
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST20_04
   m_EditorClassIdentifier: 
   CardIndex: 5266
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 7
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Birdkin
   - ADVENTURE
   CardSpriteName: ST20-04
+  PrintID: ST20-04
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.4 w/[ADVENTURE]\_trait: Cost 3 \n\n[On Play]
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST20-04
   MaxCountInDeck: 4

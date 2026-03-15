@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_027_P1
   m_EditorClassIdentifier: 
   CardIndex: 10347
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 11
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Cyborg
   CardSpriteName: P-027_P1
+  PrintID: P-027_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] \uFF1CDigi-Burst 2\uFF1E.\n\u30FBUse a purple Option
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-027
   MaxCountInDeck: 4

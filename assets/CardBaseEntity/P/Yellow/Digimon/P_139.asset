@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_139
   m_EditorClassIdentifier: 
   CardIndex: 10293
+  LegacyCardIndices: 
   cardColors: 0200000003000000
   PlayCost: 6
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Beastkin
   - X Antibody
   CardSpriteName: P-139
+  PrintID: P-139
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Leomon]: Cost 0 \n\n[On Play] [When Digivolving]
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-139
   MaxCountInDeck: 4

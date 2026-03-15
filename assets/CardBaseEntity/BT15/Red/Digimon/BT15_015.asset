@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_015
   m_EditorClassIdentifier: 
   CardIndex: 3137
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Flame
   CardSpriteName: BT15-015
+  PrintID: BT15-015
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Main] [Once Per Turn] By paying 2 cost, this Digimon gains 
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-015
   MaxCountInDeck: 4

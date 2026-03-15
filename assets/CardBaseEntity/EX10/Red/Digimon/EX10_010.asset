@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_010
   m_EditorClassIdentifier: 
   CardIndex: 7149
+  LegacyCardIndices: 
   cardColors: 0000000005000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Dragonkin
   CardSpriteName: EX10-010
+  PrintID: EX10-010
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Hand] [Counter] \uFF1CBlast Digivolve\uFF1E \n\uFF1CRaid\uFF1E

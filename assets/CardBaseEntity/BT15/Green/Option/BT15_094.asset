@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_094
   m_EditorClassIdentifier: 
   CardIndex: 3235
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 2
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   - "-\r"
   Type_ENG: []
   CardSpriteName: BT15-094
+  PrintID: BT15-094
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Main] Suspend 1 level 6 or lower Digimon. 1 of your Digimon
@@ -42,5 +45,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-094
   MaxCountInDeck: 4

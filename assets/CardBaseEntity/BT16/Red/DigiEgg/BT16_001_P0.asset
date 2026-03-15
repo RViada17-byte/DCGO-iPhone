@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_001_P0
   m_EditorClassIdentifier: 
   CardIndex: 4773
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: -1
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Mini Bird
   CardSpriteName: BT16-001_P0
+  PrintID: BT16-001_P0
+  IsCanonicalPrint: 0
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '-'

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_011_P2
   m_EditorClassIdentifier: 
   CardIndex: 3451
+  LegacyCardIndices: 
   cardColors: 0000000005000000
   PlayCost: 9
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Unique
   - Legend-Arms
   CardSpriteName: EX6-011_P2
+  PrintID: EX6-011_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Hand] [Counter] \uFF1CBlast DNA Digivolve ([Durandamon]
@@ -54,5 +57,8 @@ MonoBehaviour:
   DP: 15000
   rarity: 3
   OverflowMemory: 5
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX6-011
   MaxCountInDeck: 4

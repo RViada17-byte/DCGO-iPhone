@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX4_001
   m_EditorClassIdentifier: 
   CardIndex: 2544
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: -1
   EvoCosts: []
@@ -32,6 +33,8 @@ MonoBehaviour:
   - Machine
   - BlueFlare
   CardSpriteName: EX4-001
+  PrintID: EX4-001
+  IsCanonicalPrint: 1
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 

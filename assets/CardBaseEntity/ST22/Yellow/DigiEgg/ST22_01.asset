@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST22_01
   m_EditorClassIdentifier: 
   CardIndex: 7491
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: -1
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Lesser
   CardSpriteName: ST22-01
+  PrintID: ST22-01
+  IsCanonicalPrint: 1
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '-'

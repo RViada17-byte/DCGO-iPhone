@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT13_076_P0
   m_EditorClassIdentifier: 
   CardIndex: 4601
+  LegacyCardIndices: 
   cardColors: 0500000002000000
   PlayCost: 13
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Puppet
   CardSpriteName: BT13-076_P0
+  PrintID: BT13-076_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.5 w/[Etemon]/[Sukamon]\_in its name: Cost
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT13-076
   MaxCountInDeck: 4

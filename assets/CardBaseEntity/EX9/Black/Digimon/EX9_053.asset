@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX9_053
   m_EditorClassIdentifier: 
   CardIndex: 6937
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 7
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - DM
   - Ver.1
   CardSpriteName: EX9-053
+  PrintID: EX9-053
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.4 w/[DM]\_trait: Cost 3 \n\n\uFF1CCollision\uFF1E

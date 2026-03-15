@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_075
   m_EditorClassIdentifier: 
   CardIndex: 3626
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 6
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Unknown
   CardSpriteName: BT17-075
+  PrintID: BT17-075
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.4 [Eosmon]: Cost 3 \n\n[On Play] [When Digivolving]
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-075
   MaxCountInDeck: 4

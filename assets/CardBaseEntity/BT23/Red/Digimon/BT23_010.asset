@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_010
   m_EditorClassIdentifier: 
   CardIndex: 7341
+  LegacyCardIndices: 
   cardColors: 0000000005000000
   PlayCost: 5
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Dinosaur
   - CS
   CardSpriteName: BT23-010
+  PrintID: BT23-010
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.3 w/[Agumon]\_in name or w/[CS]\_trait:

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT8_039_P2
   m_EditorClassIdentifier: 
   CardIndex: 3290
+  LegacyCardIndices: 
   cardColors: 0200000003000000
   PlayCost: 6
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Holy Warrior
   CardSpriteName: BT8-039_P2
+  PrintID: BT8-039_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "<Armor Purge> (When this Digimon would be deleted, you
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT8-039
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_095
   m_EditorClassIdentifier: 
   CardIndex: 3423
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 7
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   - '-'
   Type_ENG: []
   CardSpriteName: BT16-095
+  PrintID: BT16-095
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Main] Suspend 2 of your opponent''s Digimon. Then, return
@@ -43,5 +46,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-095
   MaxCountInDeck: 4

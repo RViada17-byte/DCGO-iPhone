@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_060
   m_EditorClassIdentifier: 
   CardIndex: 3788
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 11
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Dark Dragon
   CardSpriteName: EX7-060
+  PrintID: EX7-060
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Trash] [Main] If you have 4 or fewer cards in your hand,
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-060
   MaxCountInDeck: 4

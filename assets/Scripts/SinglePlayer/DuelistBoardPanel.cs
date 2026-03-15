@@ -412,26 +412,21 @@ public class DuelistBoardPanel : MonoBehaviour
             return;
         }
 
-        if (ContinuousController.instance == null)
+        if (!SinglePlayerWorldDuelLauncher.TryLaunchWithDeckSelection(
+                this,
+                enemyDeck,
+                () => GameSessionContext.Instance.StartSession(
+                    SessionMode.DuelistBoard,
+                    duel.id,
+                    duel.rewardCurrency,
+                    duel.rewardPromoCardId,
+                    duel.promoOneTime,
+                    boardActId: duel.parentActId,
+                    boardWorldId: duel.parentWorldId),
+                out string launchError))
         {
-            SetInfoText("Game controller is unavailable.");
-            return;
+            SetInfoText(launchError);
         }
-
-        ContinuousController.instance.isAI = true;
-        ContinuousController.instance.isRandomMatch = false;
-        ContinuousController.instance.EnemyDeckData = enemyDeck;
-
-        GameSessionContext.Instance.StartSession(
-            SessionMode.DuelistBoard,
-            duel.id,
-            duel.rewardCurrency,
-            duel.rewardPromoCardId,
-            duel.promoOneTime,
-            boardActId: duel.parentActId,
-            boardWorldId: duel.parentWorldId);
-
-        StartCoroutine(SinglePlayerBattleLoader.LoadBattleSceneAdditiveCoroutine());
     }
 
     private bool TryResolveEnemyDeck(DuelBoardDuelDef duel, out DeckData enemyDeck, out string error)

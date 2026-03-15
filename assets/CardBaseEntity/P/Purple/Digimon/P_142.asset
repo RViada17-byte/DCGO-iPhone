@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_142
   m_EditorClassIdentifier: 
   CardIndex: 10296
+  LegacyCardIndices: 
   cardColors: 0600000003000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Avian
   CardSpriteName: P-142
+  PrintID: P-142
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Pinamon]: Cost 0 \n\n[On Play] Suspend 1 of
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-142
   MaxCountInDeck: 4

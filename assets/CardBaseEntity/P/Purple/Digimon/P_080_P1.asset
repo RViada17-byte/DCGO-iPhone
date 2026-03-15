@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_080_P1
   m_EditorClassIdentifier: 
   CardIndex: 6125
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Beast
   CardSpriteName: P-080_P1
+  PrintID: P-080_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u7D2B\u306E\u81EA\u5206\u306E\u30C6\u30A4\u30DE\u30FC\u304C\u3044\u308B\u3068\u304D\u3001Lv.3\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3002"
   EffectDiscription_ENG: '[On Play] If you have a purple Tamer in play, delete 1
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-080
   MaxCountInDeck: 4

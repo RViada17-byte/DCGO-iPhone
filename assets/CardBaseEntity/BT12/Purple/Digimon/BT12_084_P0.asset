@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT12_084_P0
   m_EditorClassIdentifier: 
   CardIndex: 4531
+  LegacyCardIndices: 
   cardColors: 0600000005000000
   PlayCost: 13
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Enhancement
   - Xros Heart
   CardSpriteName: BT12-084_P0
+  PrintID: BT12-084_P0
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CArmor Purge\uFF1E\n[On Play] [When Digivolving] You
@@ -54,5 +57,8 @@ MonoBehaviour:
   DP: 13000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT12-084
   MaxCountInDeck: 4

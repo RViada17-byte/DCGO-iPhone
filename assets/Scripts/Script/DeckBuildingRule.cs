@@ -119,12 +119,20 @@ public class DeckBuildingRule : MonoBehaviour
             return deckCards;
         }
 
-        DeckData deckData1 = new DeckData(DeckData.GetDeckCode(deckData.DeckName, modifiedDeckCards, modifiedDigitamaDeckCards, deckData.KeyCard), deckData.DeckID);
-
-        if (!deckData1.AllDeckCards().Contains(deckData1.KeyCard))
+        CEntity_Base keyCard = deckData.KeyCard;
+        if (keyCard != null &&
+            !modifiedDeckCards.Contains(keyCard) &&
+            !modifiedDigitamaDeckCards.Contains(keyCard))
         {
-            deckData1.KeyCardId = -1;
+            keyCard = null;
         }
+
+        DeckData deckData1 = new DeckData(string.Empty, deckData.DeckID)
+        {
+            DeckName = deckData.DeckName,
+            SortValue = deckData.SortValue,
+        };
+        deckData1.SetDeckCardsFromResolvedCards(modifiedDeckCards, modifiedDigitamaDeckCards, keyCard);
 
         return deckData1;
     }

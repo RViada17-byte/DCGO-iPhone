@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_054
   m_EditorClassIdentifier: 
   CardIndex: 6096
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 12
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Seraph
   - Three Great Angels
   CardSpriteName: P-054
+  PrintID: P-054
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u81EA\u5206\u306E\u30C6\u30A4\u30DE\u30FC\u304C\u3044\u308B\u3068\u304D\u3001\u226A\u30EA\u30AB\u30D0\u30EA\u30FC+1\u300A\u30C7\u30C3\u30AD\u300B\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u3089\u30AB\u30FC\u30C9\u30921\u679A\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u306E\u4E0A\u306B\u7F6E\u304F\uFF09\u3002\u3010\u6D88\u6EC5\u6642\u3011\u226A\u30EA\u30AB\u30D0\u30EA\u30FC+1\u300A\u30C7\u30C3\u30AD\u300B\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u3089\u30AB\u30FC\u30C9\u30921\u679A\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u306E\u4E0A\u306B\u7F6E\u304F\uFF09"
   EffectDiscription_ENG: "[When Digivolving] If you have a Tamer in play, \uFF1CRecovery
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-054
   MaxCountInDeck: 4

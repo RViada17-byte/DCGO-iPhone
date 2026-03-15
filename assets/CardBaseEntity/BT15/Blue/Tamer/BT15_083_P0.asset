@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_083_P0
   m_EditorClassIdentifier: 
   CardIndex: 4758
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Tamer
   CardSpriteName: BT15-083_P0
+  PrintID: BT15-083_P0
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] Reveal the top 3 cards of your deck. Add 1 card
@@ -43,5 +46,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-083
   MaxCountInDeck: 4

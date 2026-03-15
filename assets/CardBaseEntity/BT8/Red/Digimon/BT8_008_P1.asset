@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT8_008_P1
   m_EditorClassIdentifier: 
   CardIndex: 1563
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Ceratopsian
   CardSpriteName: BT8-008_P1
+  PrintID: BT8-008_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011[\u30BF\u30FC\u30F3\u306B1\u56DE]\u8D64\u306E\u81EA\u5206\u306E\u30C6\u30A4\u30DE\u30FC\u304C\u767B\u5834\u3057\u305F\u3068\u304D\u3001\u226A1\u30C9\u30ED\u30FC\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u304B\u3089\u30AB\u30FC\u30C9\u30921\u679A\u5F15\u304F\uFF09\u3002"
   EffectDiscription_ENG: "[Your Turn][Once Per Turn] When you play a red Tamer, \uFF1CDraw
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT8-008
   MaxCountInDeck: 4

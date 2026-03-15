@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: LM_017
   m_EditorClassIdentifier: 
   CardIndex: 3263
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Evil Dragon
   CardSpriteName: LM-017
+  PrintID: LM-017
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Hand] [Counter]  (Your Digimon may digivolve into this
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 10000
   rarity: 3
   OverflowMemory: 3
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: LM-017
   MaxCountInDeck: 4

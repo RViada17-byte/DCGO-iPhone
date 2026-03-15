@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_068_P1
   m_EditorClassIdentifier: 
   CardIndex: 4418
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Mutant
   CardSpriteName: BT11-068_P1
+  PrintID: BT11-068_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] [When Digivolving] Reveal the top 5 cards of
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-068
   MaxCountInDeck: 4

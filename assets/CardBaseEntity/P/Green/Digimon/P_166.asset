@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_166
   m_EditorClassIdentifier: 
   CardIndex: 10445
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Bird Dragon
   - LIBERATOR
   CardSpriteName: P-166
+  PrintID: P-166
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] You may suspend 1 Digimon.
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-166
   MaxCountInDeck: 4

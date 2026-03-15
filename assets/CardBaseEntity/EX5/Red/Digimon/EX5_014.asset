@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX5_014
   m_EditorClassIdentifier: 
   CardIndex: 3053
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 12
   EvoCosts:
@@ -42,6 +43,8 @@ MonoBehaviour:
   - Olympos XII
   - Light Fang
   CardSpriteName: EX5-014
+  PrintID: EX5-014
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u7279\u5FB4\u306B\u300C\u30E9\u30A4\u30C8\u30D5\u30A1\u30F3\u30B0\u300D/\u300C\u30CA\u30A4\u30C8\u30AF\u30ED\u30A6\u300D\u3092\u6301\u3064Lv.5:\u30B3\u30B9\u30C84\u3010\u9032\u5316\u6642\u3011\u226A\u9032\u6483\u226B\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u51433\u679A\u3054\u3068\u306B\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u226AS\u30A2\u30BF\u30C3\u30AF+1\u226B\u3092\u5F97\u308B\u3002\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u76F8\u624B\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u304C\u6E1B\u3063\u305F\u3068\u304D\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306EDP\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3002"
   EffectDiscription_ENG: "[When Digivolving] \uFF1CBlitz\uFF1E (If your opponent
@@ -59,5 +62,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX5-014
   MaxCountInDeck: 4

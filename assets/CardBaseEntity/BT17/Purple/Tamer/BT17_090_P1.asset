@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_090_P1
   m_EditorClassIdentifier: 
   CardIndex: 4878
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Abadin Electronics
   CardSpriteName: BT17-090_P1
+  PrintID: BT17-090_P1
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Your Turn] When an effect places a Tamer card in one of
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-090
   MaxCountInDeck: 4

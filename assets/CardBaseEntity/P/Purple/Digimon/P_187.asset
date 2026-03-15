@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_187
   m_EditorClassIdentifier: 
   CardIndex: 5439
+  LegacyCardIndices: 
   cardColors: 0600000002000000
   PlayCost: 13
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Angel
   CardSpriteName: P-187
+  PrintID: P-187
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[When Digivolving] \uFF1CRecovery +1 (Deck)\uFF1E. Then,

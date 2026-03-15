@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_045_P1
   m_EditorClassIdentifier: 
   CardIndex: 5215
+  LegacyCardIndices: 
   cardColors: 030000000000000001000000
   PlayCost: 9
   EvoCosts:
@@ -39,6 +40,8 @@ MonoBehaviour:
   - Holy Warrior
   - Royal Knight
   CardSpriteName: BT20-045_P1
+  PrintID: BT20-045_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Hand] [Counter] \uFF1CBlast DNA Digivolve ([Breakdramon]
@@ -54,5 +57,8 @@ MonoBehaviour:
   DP: 15000
   rarity: 3
   OverflowMemory: 5
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-045
   MaxCountInDeck: 4

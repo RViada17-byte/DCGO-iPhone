@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_099
   m_EditorClassIdentifier: 
   CardIndex: 3240
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 6
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   - "-\r"
   Type_ENG: []
   CardSpriteName: BT15-099
+  PrintID: BT15-099
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Main] By trashing 1 Digimon card in your hand, delete
@@ -43,5 +46,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-099
   MaxCountInDeck: 4

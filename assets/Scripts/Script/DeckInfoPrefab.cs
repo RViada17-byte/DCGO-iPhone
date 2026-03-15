@@ -96,10 +96,13 @@ public class DeckInfoPrefab : MonoBehaviour
 
         if (deckData != null)
         {
+            CEntity_Base keyCard = deckData.KeyCard;
+            List<CEntity_Base> mainDeckCards = deckData.DeckCards();
+
             //MC image
-            if (deckData.KeyCard != null)
+            if (keyCard != null)
             {
-                KeyCardImage.sprite = await deckData.KeyCard.GetCardSprite();
+                KeyCardImage.sprite = await keyCard.GetCardSprite();
                 ReverseFace.gameObject.SetActive(false);
             }
 
@@ -113,10 +116,10 @@ public class DeckInfoPrefab : MonoBehaviour
             DeckName.text = deckData.DeckName;
 
             //color icon
-            RedIcon.gameObject.SetActive(deckData.DeckCards().Count((card) => card.cardColors[0] == CardColor.Green) > 0);
-            BlueIcon.gameObject.SetActive(deckData.DeckCards().Count((card) => card.cardColors[0] == CardColor.Red) > 0);
-            GreenIcon.gameObject.SetActive(deckData.DeckCards().Count((card) => card.cardColors[0] == CardColor.Blue) > 0);
-            YellowIcon.gameObject.SetActive(deckData.DeckCards().Count((card) => card.cardColors[0] == CardColor.Yellow) > 0);
+            RedIcon.gameObject.SetActive(mainDeckCards.Count((card) => card.cardColors[0] == CardColor.Green) > 0);
+            BlueIcon.gameObject.SetActive(mainDeckCards.Count((card) => card.cardColors[0] == CardColor.Red) > 0);
+            GreenIcon.gameObject.SetActive(mainDeckCards.Count((card) => card.cardColors[0] == CardColor.Blue) > 0);
+            YellowIcon.gameObject.SetActive(mainDeckCards.Count((card) => card.cardColors[0] == CardColor.Yellow) > 0);
 
             thisDeckData = deckData;
 

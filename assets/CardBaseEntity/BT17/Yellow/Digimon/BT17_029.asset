@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_029
   m_EditorClassIdentifier: 
   CardIndex: 3573
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Dinosaur
   CardSpriteName: BT17-029
+  PrintID: BT17-029
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[When Attacking] By suspending 1 of your yellow Tamers,
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-029
   MaxCountInDeck: 4

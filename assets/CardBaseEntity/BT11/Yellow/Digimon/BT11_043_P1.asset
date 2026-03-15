@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_043_P1
   m_EditorClassIdentifier: 
   CardIndex: 4403
+  LegacyCardIndices: 
   cardColors: 0200000005000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Mutant
   CardSpriteName: BT11-043_P1
+  PrintID: BT11-043_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.4 w/[Sukamon]\_in its name: Cost 3 \n\n[On
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-043
   MaxCountInDeck: 4

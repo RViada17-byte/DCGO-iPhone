@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_010
   m_EditorClassIdentifier: 
   CardIndex: 3315
+  LegacyCardIndices: 
   cardColors: 0000000006000000
   PlayCost: 7
   EvoCosts:
@@ -42,6 +43,8 @@ MonoBehaviour:
   - X Antibody
   - SoC
   CardSpriteName: BT16-010
+  PrintID: BT16-010
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.4 w/[SoC] trait: Cost 3<Retaliation> [End
@@ -56,5 +59,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-010
   MaxCountInDeck: 4

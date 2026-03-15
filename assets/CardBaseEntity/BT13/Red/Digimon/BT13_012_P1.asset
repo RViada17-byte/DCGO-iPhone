@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT13_012_P1
   m_EditorClassIdentifier: 
   CardIndex: 4561
+  LegacyCardIndices: 
   cardColors: 0000000002000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Dinosaur
   CardSpriteName: BT13-012_P1
+  PrintID: BT13-012_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.3 w/[Agumon]\_in its name & w/[Dinosaur]\_trait:
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT13-012
   MaxCountInDeck: 1

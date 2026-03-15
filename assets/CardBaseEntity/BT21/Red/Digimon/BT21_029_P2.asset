@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_029_P2
   m_EditorClassIdentifier: 
   CardIndex: 5340
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 12
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Dragonkin
   - LIBERATOR
   CardSpriteName: BT21-029_P2
+  PrintID: BT21-029_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CSecurity A. +1\uFF1E.\n\uFF1CProgress\uFF1E \n[When
@@ -52,6 +55,5 @@ MonoBehaviour:
   LinkDP: 0
   LinkEffect: '-'
   LinkRequirement: '-'
-  LinkCost: 0
   CardID: BT21-029
   MaxCountInDeck: 4

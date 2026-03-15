@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_101
   m_EditorClassIdentifier: 
   CardIndex: 4027
+  LegacyCardIndices: 
   cardColors: 000000000600000005000000
   PlayCost: 16
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Wicked God
   CardSpriteName: BT19-101
+  PrintID: BT19-101
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]MoonMillenniummon: Cost 2 \n\n\uFF1COverclock
@@ -55,5 +58,8 @@ MonoBehaviour:
   DP: 16000
   rarity: 4
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-101
   MaxCountInDeck: 4

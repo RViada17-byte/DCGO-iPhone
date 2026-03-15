@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT4_047
   m_EditorClassIdentifier: 
   CardIndex: 825
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 10
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Throne
   CardSpriteName: BT4-047
+  PrintID: BT4-047
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u226A\u30EA\u30AB\u30D0\u30EA\u30FC+2\u300A\u30C7\u30C3\u30AD\u300B\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u3089\u30AB\u30FC\u30C9\u30922\u679A\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u306E\u4E0A\u306B\u7F6E\u304F\uFF09\u3010\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u6642\u3011\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3092\u4E0A\u304B\u30891\u679A\u7834\u68C4\u3059\u308B\u3002"
   EffectDiscription_ENG: "[When Digivolving] Trigger \uFF1CRecovery +2 (Deck)\uFF1E.
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 10000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT4-047
   MaxCountInDeck: 4

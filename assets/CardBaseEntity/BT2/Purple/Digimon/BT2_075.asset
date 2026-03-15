@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT2_075
   m_EditorClassIdentifier: 
   CardIndex: 504
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 6
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Undead
   CardSpriteName: BT2-075
+  PrintID: BT2-075
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT2-075
   MaxCountInDeck: 4

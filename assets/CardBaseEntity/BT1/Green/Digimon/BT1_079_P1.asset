@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT1_079_P1
   m_EditorClassIdentifier: 
   CardIndex: 256
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Fairy
   CardSpriteName: BT1-079_P1
+  PrintID: BT1-079_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT1-079
   MaxCountInDeck: 4

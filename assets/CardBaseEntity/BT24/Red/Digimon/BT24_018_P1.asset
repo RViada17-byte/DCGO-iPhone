@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_018_P1
   m_EditorClassIdentifier: 
   CardIndex: 7539
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 14
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Dragonkin
   - LIBERATOR
   CardSpriteName: BT24-018_P1
+  PrintID: BT24-018_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] While you have [Owen Dreadnought], [Lamiamon]:

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_043
   m_EditorClassIdentifier: 
   CardIndex: 3357
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 4
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Beast
   CardSpriteName: BT16-043
+  PrintID: BT16-043
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Digivolve] [Pulsemon]: Cost 2[On Play] [When Digivolving]
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-043
   MaxCountInDeck: 4

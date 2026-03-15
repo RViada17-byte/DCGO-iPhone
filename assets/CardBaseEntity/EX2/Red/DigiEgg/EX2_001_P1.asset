@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX2_001_P1
   m_EditorClassIdentifier: 
   CardIndex: 1915
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: -1
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   Type_ENG:
   - Lesser
   CardSpriteName: EX2-001_P1
+  PrintID: EX2-001_P1
+  IsCanonicalPrint: 0
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 

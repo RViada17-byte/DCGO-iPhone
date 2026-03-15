@@ -2062,6 +2062,24 @@
                   "message": "Shop unlocked: ST14"
                 },
                 {
+                  "kind": "shopSet",
+                  "id": "BT14",
+                  "title": "BT14",
+                  "message": "Shop unlocked: BT14"
+                },
+                {
+                  "kind": "shopSet",
+                  "id": "ST15",
+                  "title": "ST15",
+                  "message": "Shop unlocked: ST15"
+                },
+                {
+                  "kind": "shopSet",
+                  "id": "ST16",
+                  "title": "ST16",
+                  "message": "Shop unlocked: ST16"
+                },
+                {
                   "kind": "storyKey",
                   "id": "tamers_core_key",
                   "title": "Tamers Core Key",
@@ -2098,6 +2116,8 @@
               "title": "Izzy",
               "role": "standard",
               "rewardCurrency": 600,
+              "preDuelSceneId": "scene.story.act2.adventure.01.pre",
+              "postWinSceneId": "scene.story.act2.adventure.01.post",
               "enemyCardIds": [
                 "BT15-004",
                 "BT15-004",
@@ -2163,6 +2183,8 @@
               "prereqEncounterIds": [
                 "story.act2.adventure.01"
               ],
+              "preDuelSceneId": "scene.story.act2.adventure.02.pre",
+              "postWinSceneId": "scene.story.act2.adventure.02.post",
               "enemyCardIds": [
                 "ST16-01",
                 "ST16-01",
@@ -2228,6 +2250,28 @@
               "prereqEncounterIds": [
                 "story.act2.adventure.02"
               ],
+              "unlockGrants": [
+                {
+                  "kind": "shopSet",
+                  "id": "EX5",
+                  "title": "EX5",
+                  "message": "Shop unlocked: EX5"
+                },
+                {
+                  "kind": "shopSet",
+                  "id": "BT15",
+                  "title": "BT15",
+                  "message": "Shop unlocked: BT15"
+                },
+                {
+                  "kind": "worldUnlock",
+                  "id": "act2_adventure02",
+                  "title": "Adventure 02",
+                  "message": "World unlocked: Adventure 02"
+                }
+              ],
+              "preDuelSceneId": "scene.story.act2.adventure.03.pre",
+              "postWinSceneId": "scene.story.act2.adventure.03.post",
               "enemyCardIds": [
                 "BT5-001",
                 "BT5-001",
@@ -2300,6 +2344,8 @@
               "title": "Yolei",
               "role": "standard",
               "rewardCurrency": 600,
+              "preDuelSceneId": "scene.story.act2.adventure02.01.pre",
+              "postWinSceneId": "scene.story.act2.adventure02.01.post",
               "enemyCardIds": [
                 "BT16-001",
                 "BT16-001",
@@ -2365,6 +2411,8 @@
               "prereqEncounterIds": [
                 "story.act2.adventure02.01"
               ],
+              "preDuelSceneId": "scene.story.act2.adventure02.02.pre",
+              "postWinSceneId": "scene.story.act2.adventure02.02.post",
               "enemyCardIds": [
                 "BT16-004",
                 "BT16-004",
@@ -2430,6 +2478,34 @@
               "prereqEncounterIds": [
                 "story.act2.adventure02.02"
               ],
+              "unlockGrants": [
+                {
+                  "kind": "shopSet",
+                  "id": "ST17",
+                  "title": "ST17",
+                  "message": "Shop unlocked: ST17"
+                },
+                {
+                  "kind": "shopSet",
+                  "id": "BT16",
+                  "title": "BT16",
+                  "message": "Shop unlocked: BT16"
+                },
+                {
+                  "kind": "shopSet",
+                  "id": "EX6",
+                  "title": "EX6",
+                  "message": "Shop unlocked: EX6"
+                },
+                {
+                  "kind": "worldUnlock",
+                  "id": "act2_frontier",
+                  "title": "Frontier",
+                  "message": "World unlocked: Frontier"
+                }
+              ],
+              "preDuelSceneId": "scene.story.act2.adventure02.03.pre",
+              "postWinSceneId": "scene.story.act2.adventure02.03.post",
               "enemyCardIds": [
                 "BT16-002",
                 "BT16-002",
@@ -2502,6 +2578,8 @@
               "title": "Takuya",
               "role": "standard",
               "rewardCurrency": 600,
+              "preDuelSceneId": "scene.story.act2.frontier.01.pre",
+              "postWinSceneId": "scene.story.act2.frontier.01.post",
               "enemyCardIds": [
                 "BT18-001",
                 "BT18-001",
@@ -2567,6 +2645,8 @@
               "prereqEncounterIds": [
                 "story.act2.frontier.01"
               ],
+              "preDuelSceneId": "scene.story.act2.frontier.02.pre",
+              "postWinSceneId": "scene.story.act2.frontier.02.post",
               "enemyCardIds": [
                 "BT18-003",
                 "BT18-003",
@@ -2632,6 +2712,22 @@
               "prereqEncounterIds": [
                 "story.act2.frontier.02"
               ],
+              "unlockGrants": [
+                {
+                  "kind": "shopSet",
+                  "id": "BT17",
+                  "title": "BT17",
+                  "message": "Shop unlocked: BT17"
+                },
+                {
+                  "kind": "worldUnlock",
+                  "id": "act2_tamers",
+                  "title": "Tamers",
+                  "message": "World unlocked: Tamers"
+                }
+              ],
+              "preDuelSceneId": "scene.story.act2.frontier.03.pre",
+              "postWinSceneId": "scene.story.act2.frontier.03.post",
               "enemyCardIds": [
                 "BT18-003",
                 "BT18-003",
@@ -2704,6 +2800,8 @@
               "title": "Rika",
               "role": "standard",
               "rewardCurrency": 600,
+              "preDuelSceneId": "scene.story.act2.tamers.01.pre",
+              "postWinSceneId": "scene.story.act2.tamers.01.post",
               "enemyCardIds": [
                 "BT19-003",
                 "BT19-003",
@@ -2769,6 +2867,8 @@
               "prereqEncounterIds": [
                 "story.act2.tamers.01"
               ],
+              "preDuelSceneId": "scene.story.act2.tamers.02.pre",
+              "postWinSceneId": "scene.story.act2.tamers.02.post",
               "enemyCardIds": [
                 "EX2-001",
                 "EX2-001",
@@ -2834,6 +2934,46 @@
               "prereqEncounterIds": [
                 "story.act2.tamers.02"
               ],
+              "unlockGrants": [
+                {
+                  "kind": "shopSet",
+                  "id": "BT18",
+                  "title": "BT18",
+                  "message": "Shop unlocked: BT18"
+                },
+                {
+                  "kind": "shopSet",
+                  "id": "BT19",
+                  "title": "BT19",
+                  "message": "Shop unlocked: BT19"
+                },
+                {
+                  "kind": "shopSet",
+                  "id": "ST18",
+                  "title": "ST18",
+                  "message": "Shop unlocked: ST18"
+                },
+                {
+                  "kind": "shopSet",
+                  "id": "ST19",
+                  "title": "ST19",
+                  "message": "Shop unlocked: ST19"
+                },
+                {
+                  "kind": "shopSet",
+                  "id": "EX7",
+                  "title": "EX7",
+                  "message": "Shop unlocked: EX7"
+                },
+                {
+                  "kind": "worldUnlock",
+                  "id": "act2_liberator",
+                  "title": "Liberator",
+                  "message": "World unlocked: Liberator"
+                }
+              ],
+              "preDuelSceneId": "scene.story.act2.tamers.03.pre",
+              "postWinSceneId": "scene.story.act2.tamers.03.post",
               "enemyCardIds": [
                 "ST17-01",
                 "ST17-01",
@@ -2896,10 +3036,521 @@
         {
           "id": "act2_liberator",
           "title": "Liberator",
-          "isAuthored": false,
-          "placeholderMessage": "Liberator world is visible, but its duel ladder is not decided yet.",
+          "isAuthored": true,
           "prereqEncounterIds": [
             "story.act2.tamers.03"
+          ],
+          "encounters": [
+            {
+              "id": "story.act2.liberator.01",
+              "title": "Shoto",
+              "role": "standard",
+              "rewardCurrency": 600,
+              "enemyCardIds": [
+                "EX7-004",
+                "EX7-004",
+                "EX7-004",
+                "EX7-004",
+                "EX7-031",
+                "EX7-031",
+                "EX7-031",
+                "EX7-031",
+                "ST18-04",
+                "ST18-04",
+                "ST18-04",
+                "ST18-04",
+                "ST18-05",
+                "ST18-05",
+                "P-131",
+                "P-131",
+                "EX7-032",
+                "EX7-032",
+                "EX7-032",
+                "EX7-032",
+                "P-166",
+                "P-166",
+                "P-166",
+                "P-166",
+                "EX7-034",
+                "EX7-034",
+                "EX7-034",
+                "EX7-034",
+                "ST18-10",
+                "ST18-10",
+                "ST18-10",
+                "BT20-101",
+                "BT20-101",
+                "BT20-101",
+                "BT20-101",
+                "EX7-036",
+                "EX8-074",
+                "EX8-074",
+                "ST18-12",
+                "ST18-12",
+                "BT20-085",
+                "BT20-085",
+                "EX7-064",
+                "EX7-064",
+                "EX7-064",
+                "EX7-064",
+                "ST18-14",
+                "ST18-14",
+                "LM-030",
+                "LM-030",
+                "P-106",
+                "P-106",
+                "P-106",
+                "P-106"
+              ]
+            },
+            {
+              "id": "story.act2.liberator.02",
+              "title": "Arisa",
+              "role": "standard",
+              "rewardCurrency": 600,
+              "enemyCardIds": [
+                "EX7-004",
+                "EX7-004",
+                "EX7-004",
+                "EX7-004",
+                "EX7-031",
+                "EX7-031",
+                "EX7-031",
+                "EX7-031",
+                "ST18-04",
+                "ST18-04",
+                "ST18-04",
+                "ST18-04",
+                "ST18-05",
+                "ST18-05",
+                "P-131",
+                "P-131",
+                "EX7-032",
+                "EX7-032",
+                "EX7-032",
+                "EX7-032",
+                "P-166",
+                "P-166",
+                "P-166",
+                "P-166",
+                "EX7-034",
+                "EX7-034",
+                "EX7-034",
+                "EX7-034",
+                "ST18-10",
+                "ST18-10",
+                "ST18-10",
+                "BT20-101",
+                "BT20-101",
+                "BT20-101",
+                "BT20-101",
+                "EX7-036",
+                "EX8-074",
+                "EX8-074",
+                "ST18-12",
+                "ST18-12",
+                "BT20-085",
+                "BT20-085",
+                "EX7-064",
+                "EX7-064",
+                "EX7-064",
+                "EX7-064",
+                "ST18-14",
+                "ST18-14",
+                "LM-030",
+                "LM-030",
+                "P-106",
+                "P-106",
+                "P-106",
+                "P-106"
+              ],
+              "prereqEncounterIds": [
+                "story.act2.liberator.01"
+              ],
+              "unlockGrants": [
+                {
+                  "kind": "shopSet",
+                  "id": "EX8",
+                  "title": "EX8",
+                  "message": "Shop unlocked: EX8"
+                },
+                {
+                  "kind": "shopSet",
+                  "id": "BT20",
+                  "title": "BT20",
+                  "message": "Shop unlocked: BT20"
+                }
+              ]
+            },
+            {
+              "id": "story.act2.liberator.03",
+              "title": "Violet",
+              "role": "standard",
+              "rewardCurrency": 600,
+              "enemyCardIds": [
+                "BT20-006",
+                "BT20-006",
+                "BT20-006",
+                "BT20-006",
+                "BT23-004",
+                "BT20-063",
+                "BT20-063",
+                "BT20-063",
+                "BT20-063",
+                "BT21-065",
+                "BT21-065",
+                "BT21-065",
+                "BT21-065",
+                "BT23-061",
+                "BT23-061",
+                "BT23-061",
+                "BT23-061",
+                "BT20-068",
+                "BT20-068",
+                "BT20-068",
+                "BT20-068",
+                "BT23-064",
+                "BT23-064",
+                "BT23-064",
+                "BT23-064",
+                "P-192",
+                "P-192",
+                "BT20-072",
+                "BT20-072",
+                "BT20-072",
+                "BT20-072",
+                "BT23-065",
+                "BT23-065",
+                "BT23-065",
+                "BT20-079",
+                "BT20-079",
+                "BT20-079",
+                "BT23-069",
+                "BT23-069",
+                "BT23-071",
+                "BT23-071",
+                "BT23-071",
+                "BT20-088",
+                "BT20-088",
+                "BT20-088",
+                "BT20-088",
+                "BT23-087",
+                "BT23-087",
+                "EX1-066",
+                "EX1-066",
+                "EX1-066",
+                "EX1-066",
+                "BT23-098",
+                "BT23-098",
+                "BT23-098"
+              ],
+              "prereqEncounterIds": [
+                "story.act2.liberator.02"
+              ]
+            },
+            {
+              "id": "story.act2.liberator.04",
+              "title": "Yao",
+              "role": "standard",
+              "rewardCurrency": 600,
+              "enemyCardIds": [
+                "BT22-001",
+                "BT22-001",
+                "BT22-001",
+                "BT22-001",
+                "BT19-017",
+                "BT19-017",
+                "BT19-017",
+                "BT19-017",
+                "BT21-031",
+                "BT21-031",
+                "BT21-031",
+                "BT21-031",
+                "BT22-018",
+                "BT22-018",
+                "BT22-018",
+                "BT22-018",
+                "BT19-019",
+                "BT19-019",
+                "BT19-019",
+                "BT22-021",
+                "BT22-021",
+                "BT22-021",
+                "BT22-021",
+                "P-164",
+                "P-164",
+                "P-164",
+                "BT19-024",
+                "BT19-024",
+                "BT19-024",
+                "BT22-024",
+                "BT22-024",
+                "BT22-024",
+                "BT22-024",
+                "BT19-027",
+                "BT19-027",
+                "BT22-027",
+                "BT22-027",
+                "BT22-027",
+                "BT22-027",
+                "BT22-028",
+                "BT22-028",
+                "BT22-028",
+                "BT22-028",
+                "BT19-082",
+                "BT19-082",
+                "BT22-086",
+                "BT22-086",
+                "BT22-086",
+                "P-168",
+                "P-168",
+                "BT22-096",
+                "BT22-096",
+                "BT22-096",
+                "BT22-096"
+              ],
+              "prereqEncounterIds": [
+                "story.act2.liberator.03"
+              ],
+              "unlockGrants": [
+                {
+                  "kind": "shopSet",
+                  "id": "ST20",
+                  "title": "ST20",
+                  "message": "Shop unlocked: ST20"
+                },
+                {
+                  "kind": "shopSet",
+                  "id": "ST21",
+                  "title": "ST21",
+                  "message": "Shop unlocked: ST21"
+                }
+              ]
+            },
+            {
+              "id": "story.act2.liberator.05",
+              "title": "Close",
+              "role": "standard",
+              "rewardCurrency": 600,
+              "enemyCardIds": [
+                "EX8-005",
+                "EX8-005",
+                "EX8-005",
+                "EX10-003",
+                "EX10-003",
+                "BT21-055",
+                "BT21-055",
+                "BT21-055",
+                "BT21-055",
+                "EX8-047",
+                "EX8-047",
+                "EX8-047",
+                "EX8-047",
+                "EX10-025",
+                "EX10-025",
+                "EX10-025",
+                "EX8-048",
+                "EX8-048",
+                "EX8-048",
+                "EX8-048",
+                "EX10-028",
+                "EX10-028",
+                "P-167",
+                "P-167",
+                "P-167",
+                "P-167",
+                "EX8-051",
+                "EX8-051",
+                "EX8-051",
+                "EX10-032",
+                "EX10-032",
+                "EX10-032",
+                "EX10-032",
+                "EX8-055",
+                "EX8-055",
+                "EX10-033",
+                "EX10-033",
+                "EX10-036",
+                "EX10-036",
+                "EX10-036",
+                "EX10-036",
+                "EX8-067",
+                "EX8-067",
+                "EX10-063",
+                "EX10-063",
+                "P-169",
+                "P-169",
+                "EX8-070",
+                "EX8-070",
+                "EX10-069",
+                "EX10-069",
+                "EX10-069",
+                "P-107",
+                "P-107",
+                "P-107"
+              ],
+              "prereqEncounterIds": [
+                "story.act2.liberator.04"
+              ]
+            },
+            {
+              "id": "story.act2.liberator.06",
+              "title": "Owen",
+              "role": "standard",
+              "rewardCurrency": 600,
+              "enemyCardIds": [
+                "BT21-001",
+                "BT21-001",
+                "BT21-001",
+                "BT21-001",
+                "BT21-007",
+                "BT21-007",
+                "BT21-007",
+                "BT21-007",
+                "BT21-008",
+                "BT21-008",
+                "BT21-008",
+                "BT21-008",
+                "EX1-001",
+                "EX1-001",
+                "EX1-001",
+                "EX1-001",
+                "BT21-015",
+                "BT21-015",
+                "BT21-015",
+                "BT21-015",
+                "BT21-017",
+                "BT21-017",
+                "BT21-017",
+                "BT21-017",
+                "BT21-024",
+                "BT21-024",
+                "BT21-024",
+                "BT21-024",
+                "BT21-025",
+                "BT21-025",
+                "BT21-025",
+                "BT21-025",
+                "BT21-026",
+                "BT21-026",
+                "BT21-026",
+                "BT21-026",
+                "BT21-029",
+                "BT21-029",
+                "BT21-029",
+                "BT21-029",
+                "BT18-087",
+                "BT18-087",
+                "BT21-081",
+                "BT21-081",
+                "BT21-081",
+                "BT21-081",
+                "BT21-093",
+                "BT21-093",
+                "BT21-093",
+                "BT21-093",
+                "P-103",
+                "P-103",
+                "P-103",
+                "P-103"
+              ],
+              "prereqEncounterIds": [
+                "story.act2.liberator.05"
+              ],
+              "unlockGrants": [
+                {
+                  "kind": "shopSet",
+                  "id": "BT21",
+                  "title": "BT21",
+                  "message": "Shop unlocked: BT21"
+                },
+                {
+                  "kind": "shopSet",
+                  "id": "EX9",
+                  "title": "EX9",
+                  "message": "Shop unlocked: EX9"
+                }
+              ]
+            },
+            {
+              "id": "story.act2.liberator.final",
+              "title": "Cool Boy",
+              "role": "standard",
+              "rewardCurrency": 600,
+              "enemyCardIds": [
+                "BT13-007",
+                "BT13-007",
+                "BT13-007",
+                "BT13-007",
+                "BT23-072",
+                "BT23-072",
+                "BT23-072",
+                "BT13-093",
+                "BT13-093",
+                "BT20-083",
+                "BT20-083",
+                "BT20-083",
+                "BT20-083",
+                "BT23-054",
+                "BT23-054",
+                "BT23-054",
+                "BT23-054",
+                "BT13-019",
+                "BT13-019",
+                "BT13-019",
+                "BT13-087",
+                "BT13-087",
+                "BT13-087",
+                "BT19-072",
+                "BT20-017",
+                "BT20-056",
+                "BT23-013",
+                "BT23-014",
+                "BT23-035",
+                "BT23-058",
+                "EX8-074",
+                "EX8-074",
+                "P-186",
+                "BT13-112",
+                "BT13-112",
+                "BT13-112",
+                "BT17-018",
+                "BT20-021",
+                "BT20-060",
+                "BT20-060",
+                "BT20-102",
+                "BT20-102",
+                "BT20-102",
+                "BT20-102",
+                "BT23-047",
+                "BT20-091",
+                "BT20-091",
+                "BT20-091",
+                "BT20-091",
+                "BT13-110",
+                "BT20-100",
+                "BT20-100",
+                "BT20-100",
+                "BT20-100"
+              ],
+              "prereqEncounterIds": [
+                "story.act2.liberator.06"
+              ],
+              "unlockGrants": [
+                {
+                  "kind": "shopSet",
+                  "id": "EX10",
+                  "title": "EX10",
+                  "message": "Shop unlocked: EX10"
+                },
+                {
+                  "kind": "worldUnlock",
+                  "id": "act3",
+                  "title": "Act 3",
+                  "message": "Act unlocked: Act 3"
+                }
+              ]
+            }
           ]
         }
       ]

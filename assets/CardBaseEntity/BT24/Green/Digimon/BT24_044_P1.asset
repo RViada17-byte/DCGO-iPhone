@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_044_P1
   m_EditorClassIdentifier: 
   CardIndex: 7573
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Avian
   CardSpriteName: BT24-044_P1
+  PrintID: BT24-044_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] You may suspend 1 level 6 or lower Digimon. If

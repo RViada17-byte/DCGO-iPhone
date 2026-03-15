@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: LM_031
   m_EditorClassIdentifier: 
   CardIndex: 4041
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 2
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: LM-031
+  PrintID: LM-031
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] 1 of your black Digimon may digivolve into a black
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 0
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: LM-031
   MaxCountInDeck: 4

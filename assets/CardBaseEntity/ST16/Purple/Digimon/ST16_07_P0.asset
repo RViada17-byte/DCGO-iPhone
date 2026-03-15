@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST16_07_P0
   m_EditorClassIdentifier: 
   CardIndex: 4950
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 5
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Flame
   CardSpriteName: ST16-07_P0
+  PrintID: ST16-07_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Deletion] Gain 1 memory.'
@@ -43,5 +46,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST16-07
   MaxCountInDeck: 4

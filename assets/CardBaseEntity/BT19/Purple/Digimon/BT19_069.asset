@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_069
   m_EditorClassIdentifier: 
   CardIndex: 4009
+  LegacyCardIndices: 
   cardColors: 0600000005000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Composite
   CardSpriteName: BT19-069
+  PrintID: BT19-069
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Gazimon]/[Gizamon]: Cost 2 \n\n[On Play] [When
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-069
   MaxCountInDeck: 4

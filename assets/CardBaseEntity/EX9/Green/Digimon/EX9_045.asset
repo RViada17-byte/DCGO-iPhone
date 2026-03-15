@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX9_045
   m_EditorClassIdentifier: 
   CardIndex: 6921
+  LegacyCardIndices: 
   cardColors: 030000000200000001000000
   PlayCost: 15
   EvoCosts:
@@ -39,6 +40,8 @@ MonoBehaviour:
   - Holy Beast
   - WG
   CardSpriteName: EX9-045
+  PrintID: EX9-045
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CAlliance\uFF1E.\n\uFF1CBlocker\uFF1E \n[When Digivolving]

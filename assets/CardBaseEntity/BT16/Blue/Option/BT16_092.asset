@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_092
   m_EditorClassIdentifier: 
   CardIndex: 3420
+  LegacyCardIndices: 
   cardColors: 0100000003000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   - '-'
   Type_ENG: []
   CardSpriteName: BT16-092
+  PrintID: BT16-092
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Main] You may play 1 [ExVeemon] or [Stingmon] from your
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-092
   MaxCountInDeck: 4

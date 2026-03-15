@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_206
   m_EditorClassIdentifier: 
   CardIndex: 7482
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - '-'
   CardSpriteName: P-206
+  PrintID: P-206
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "You can ignore this card's color requirements.\n[Main]

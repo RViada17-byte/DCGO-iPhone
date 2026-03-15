@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_181_P1
   m_EditorClassIdentifier: 
   CardIndex: 5306
+  LegacyCardIndices: 
   cardColors: 0300000005000000
   PlayCost: 2
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Royal Base
   CardSpriteName: P-181_P1
+  PrintID: P-181_P1
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Security] [Your Turn] [Once Per Turn] When any of your
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 0
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-181
   MaxCountInDeck: 4

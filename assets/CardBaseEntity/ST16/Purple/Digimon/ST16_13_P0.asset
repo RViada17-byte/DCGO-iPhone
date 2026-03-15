@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST16_13_P0
   m_EditorClassIdentifier: 
   CardIndex: 4956
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 11
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Undead
   CardSpriteName: ST16-13_P0
+  PrintID: ST16-13_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[When Digivolving] \uFF1CDraw 1\uFF1E. Then, trash 1 card
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST16-13
   MaxCountInDeck: 4

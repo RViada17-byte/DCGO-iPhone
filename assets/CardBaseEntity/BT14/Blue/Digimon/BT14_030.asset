@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT14_030
   m_EditorClassIdentifier: 
   CardIndex: 2951
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 11
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Fairy
   CardSpriteName: BT14-030
+  PrintID: BT14-030
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u3010\u9032\u5316\u6642\u3011Lv.3\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u304B\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u624B\u672D\u306B\u623B\u3059\u3053\u3068\u3067\u3001\u623B\u3057\u305F\u30C7\u30B8\u30E2\u30F3\u306ELv.\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u624B\u672D\u306B\u623B\u3059\u3002\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u4ED6\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u624B\u672D\u306B\u623B\u3063\u305F\u3068\u304D\u3001\u226A\u30EA\u30AB\u30D0\u30EA\u30FC+1\u300A\u30C7\u30C3\u30AD\u300B\u226B\u3002"
   EffectDiscription_ENG: "[On Play][When Digivolving] By returning 1 of your opponent's
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT14-030
   MaxCountInDeck: 4

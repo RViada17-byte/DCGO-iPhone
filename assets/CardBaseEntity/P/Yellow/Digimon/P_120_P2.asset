@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_120_P2
   m_EditorClassIdentifier: 
   CardIndex: 10426
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 4
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Holy Beast
   CardSpriteName: P-120_P2
+  PrintID: P-120_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CBarrier\uFF1E."
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-120
   MaxCountInDeck: 4

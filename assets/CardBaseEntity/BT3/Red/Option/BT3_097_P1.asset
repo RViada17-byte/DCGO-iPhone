@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT3_097_P1
   m_EditorClassIdentifier: 
   CardIndex: 6772
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 1
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: BT3-097_P1
+  PrintID: BT3-097_P1
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Main] 1 of your Digimon gains "[Security] effects on Option

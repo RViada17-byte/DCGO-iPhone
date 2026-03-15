@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_039
   m_EditorClassIdentifier: 
   CardIndex: 7203
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Beast
   - Bagra Army
   CardSpriteName: EX10-039
+  PrintID: EX10-039
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] You may place 1 Digimon card

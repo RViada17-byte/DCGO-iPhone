@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_050
   m_EditorClassIdentifier: 
   CardIndex: 3914
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 6
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Vegetation
   CardSpriteName: BT18-050
+  PrintID: BT18-050
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Arbormon]: Cost 1 \n\n[On Play] [When Digivolving]
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-050
   MaxCountInDeck: 4

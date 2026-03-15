@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_067
   m_EditorClassIdentifier: 
   CardIndex: 5384
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Beast
   - ADVENTURE
   CardSpriteName: BT21-067
+  PrintID: BT21-067
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.3 w/[Gabumon]\_in name or w/[ADVENTURE]\_trait:

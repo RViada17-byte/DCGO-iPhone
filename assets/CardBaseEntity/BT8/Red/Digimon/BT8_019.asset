@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT8_019
   m_EditorClassIdentifier: 
   CardIndex: 1581
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 13
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Holy Bird
   - Four Sovereigns
   CardSpriteName: BT8-019
+  PrintID: BT8-019
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u76F8\u624B\u306F\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u9078\u3076\u3002\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3068\u9078\u3093\u3060\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u4EE5\u5916\u306E\u304A\u4E92\u3044\u306E\u30C7\u30B8\u30E2\u30F3\u5168\u3066\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3002\u3053\u306E\u52B9\u679C\u3067\u6D88\u6EC5\u3057\u305F\u30C7\u30B8\u30E2\u30F31\u4F53\u3054\u3068\u306B\u3001\u30E1\u30E2\u30EA\u30FC+1\u3002\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u6D88\u6EC5\u3057\u305F\u3068\u304D\u3001\u6D88\u6EC5\u3057\u305F\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3054\u3068\u306B\u3001\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u226A\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u30A2\u30BF\u30C3\u30AF+1\u226B\u3092\u5F97\u308B\u3002"
   EffectDiscription_ENG: "[When Digivolving] Your opponent chooses 1 of their Digimon.
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 13000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT8-019
   MaxCountInDeck: 4

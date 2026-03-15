@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_047
   m_EditorClassIdentifier: 
   CardIndex: 3765
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 12
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Mutant
   - NSp
   CardSpriteName: EX7-047
+  PrintID: EX7-047
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.5 w/[NSP]\_trait: Cost 3 \n\n\uFF1CBlocker\uFF1E
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-047
   MaxCountInDeck: 4

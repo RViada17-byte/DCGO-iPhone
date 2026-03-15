@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX3_031_P1
   m_EditorClassIdentifier: 
   CardIndex: 6825
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 5
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Mythical Dragon
   CardSpriteName: EX3-031_P1
+  PrintID: EX3-031_P1
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[When Digivolving] Reveal the top 4 cards of your deck.

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_171
   m_EditorClassIdentifier: 
   CardIndex: 5184
+  LegacyCardIndices: 
   cardColors: 0100000005000000
   PlayCost: 11
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Mutant
   - DS
   CardSpriteName: P-171
+  PrintID: P-171
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "When this card would be played, if [Deep Savers] is face-up
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-171
   MaxCountInDeck: 4

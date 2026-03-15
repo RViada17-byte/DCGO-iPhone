@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_077
   m_EditorClassIdentifier: 
   CardIndex: 7415
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 4
   EvoCosts: []
@@ -31,6 +32,8 @@ MonoBehaviour:
   - Puppet
   - CS
   CardSpriteName: BT23-077
+  PrintID: BT23-077
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CBlocker\uFF1E \n[On Play] Delete 1 of your opponent's

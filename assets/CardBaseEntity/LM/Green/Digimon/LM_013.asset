@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: LM_013
   m_EditorClassIdentifier: 
   CardIndex: 3259
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 6
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Beast Knight
   CardSpriteName: LM-013
+  PrintID: LM-013
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Hand] [Counter]  (Your Digimon may digivolve into this
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 3
   OverflowMemory: 4
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: LM-013
   MaxCountInDeck: 4

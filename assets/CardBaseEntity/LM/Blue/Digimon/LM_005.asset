@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: LM_005
   m_EditorClassIdentifier: 
   CardIndex: 3251
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 6
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Cyborg
   CardSpriteName: LM-005
+  PrintID: LM-005
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Hand] [Counter]  (Your Digimon may digivolve into this
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 3
   OverflowMemory: 4
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: LM-005
   MaxCountInDeck: 4

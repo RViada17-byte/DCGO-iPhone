@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_062_P1
   m_EditorClassIdentifier: 
   CardIndex: 10377
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Tamer
   CardSpriteName: P-062_P1
+  PrintID: P-062_P1
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Your Turn] When one of your Digimon with [Gammamon] in
@@ -42,5 +45,8 @@ MonoBehaviour:
   DP: 0
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-062
   MaxCountInDeck: 4

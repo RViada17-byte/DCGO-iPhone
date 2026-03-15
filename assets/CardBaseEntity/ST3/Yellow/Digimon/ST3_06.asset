@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST3_06
   m_EditorClassIdentifier: 
   CardIndex: 86
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 4
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Holy Beast
   CardSpriteName: ST3-06
+  PrintID: ST3-06
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST3-06
   MaxCountInDeck: 4

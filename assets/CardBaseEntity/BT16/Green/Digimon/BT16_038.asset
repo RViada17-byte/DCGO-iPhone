@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_038
   m_EditorClassIdentifier: 
   CardIndex: 3352
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Beast
   - X Antibody
   CardSpriteName: BT16-038
+  PrintID: BT16-038
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Digivolve] [Gummymon]/[Terriermon]: Cost 0[Your Turn]
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-038
   MaxCountInDeck: 4

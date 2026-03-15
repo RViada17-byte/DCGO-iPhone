@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_071
   m_EditorClassIdentifier: 
   CardIndex: 3621
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 12
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Demon Lord
   CardSpriteName: BT17-071
+  PrintID: BT17-071
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Darcmon] w/[HippoGryphonmon] digivolution card:
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-071
   MaxCountInDeck: 4

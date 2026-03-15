@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX11_069_P1
   m_EditorClassIdentifier: 
   CardIndex: 7794
+  LegacyCardIndices: 
   cardColors: 0600000000000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - LIBERATOR
   CardSpriteName: EX11-069_P1
+  PrintID: EX11-069_P1
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] [On Play] By trashing 1 card

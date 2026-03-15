@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST17_08_P2
   m_EditorClassIdentifier: 
   CardIndex: 4962
+  LegacyCardIndices: 
   cardColors: 0300000005000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Machine
   CardSpriteName: ST17-08_P2
+  PrintID: ST17-08_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]w/[Rapidmon]\_in its name: Cost 5 \n\n[Hand]
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 4
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST17-08
   MaxCountInDeck: 4

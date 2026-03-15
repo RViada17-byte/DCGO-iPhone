@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_102
   m_EditorClassIdentifier: 
   CardIndex: 5077
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 6
   EvoCosts:
@@ -51,6 +52,8 @@ MonoBehaviour:
   - Composite
   - Xros Heart
   CardSpriteName: BT19-102
+  PrintID: BT19-102
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Luminamon]: Cost 2\n[Digivolve][Nene Amano]
@@ -67,5 +70,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 4
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-102
   MaxCountInDeck: 4

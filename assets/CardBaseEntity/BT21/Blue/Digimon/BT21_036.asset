@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_036
   m_EditorClassIdentifier: 
   CardIndex: 5347
+  LegacyCardIndices: 
   cardColors: 0100000002000000
   PlayCost: 7
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Royal Knight
   - Hero
   CardSpriteName: BT21-036
+  PrintID: BT21-036
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Veemon]/Lv.3 w/[Hero]\_trait: Cost 3 \n\n\uFF1CBlocker\uFF1E.\n\uFF1CArmor
@@ -54,6 +57,5 @@ MonoBehaviour:
   LinkDP: 0
   LinkEffect: '-'
   LinkRequirement: '-'
-  LinkCost: 0
   CardID: BT21-036
   MaxCountInDeck: 4

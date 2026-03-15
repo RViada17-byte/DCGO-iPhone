@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_039
   m_EditorClassIdentifier: 
   CardIndex: 5118
+  LegacyCardIndices: 
   cardColors: 0300000002000000
   PlayCost: 4
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Ancient Bird
   - ACCEL
   CardSpriteName: BT20-039
+  PrintID: BT20-039
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.3 w/[ACCEL]\_trait: Cost 2 \n\n[On Play]
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-039
   MaxCountInDeck: 4

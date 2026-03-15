@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_099
   m_EditorClassIdentifier: 
   CardIndex: 5178
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 2
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - ACCEL
   CardSpriteName: BT20-099
+  PrintID: BT20-099
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you have a Digimon with [Chaosmon]\_in its name or
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-099
   MaxCountInDeck: 4

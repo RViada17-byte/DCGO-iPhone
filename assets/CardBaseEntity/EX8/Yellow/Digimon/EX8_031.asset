@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_031
   m_EditorClassIdentifier: 
   CardIndex: 4107
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Beastkin
   - X Antibody
   CardSpriteName: EX8-031
+  PrintID: EX8-031
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Renamon]: Cost 0 \n\n[On Play] [When Digivolving]
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-031
   MaxCountInDeck: 4

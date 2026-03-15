@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_076_P0
   m_EditorClassIdentifier: 
   CardIndex: 4424
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Reptile Man
   - Xros Heart
   CardSpriteName: BT11-076_P0
+  PrintID: BT11-076_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.2 w/[Xros Heart]\_trait: Cost 0 \n\n[When
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-076
   MaxCountInDeck: 4

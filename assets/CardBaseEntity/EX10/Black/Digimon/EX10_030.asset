@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_030
   m_EditorClassIdentifier: 
   CardIndex: 7187
+  LegacyCardIndices: 
   cardColors: 0500000002000000
   PlayCost: 8
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Astronomy
   - Leviathan
   CardSpriteName: EX10-030
+  PrintID: EX10-030
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[App Fusion] [Warpmon] & [Weatherdramon]: Cost 0\n\n\uFF1CCollision\uFF1E

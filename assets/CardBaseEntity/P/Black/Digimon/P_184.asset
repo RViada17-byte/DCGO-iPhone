@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_184
   m_EditorClassIdentifier: 
   CardIndex: 5436
+  LegacyCardIndices: 
   cardColors: 0500000006000000
   PlayCost: 12
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - X Antibody
   - SoC
   CardSpriteName: P-184
+  PrintID: P-184
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.5 w/[DoruGreymon]\_in name or w/[SoC]\_trait:

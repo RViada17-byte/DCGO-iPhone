@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_084_P1
   m_EditorClassIdentifier: 
   CardIndex: 3408
+  LegacyCardIndices: 
   cardColors: 0000000002000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   - '-'
   Type_ENG: []
   CardSpriteName: BT16-084_P1
+  PrintID: BT16-084_P1
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] You may play 1 [Hawkmon] or

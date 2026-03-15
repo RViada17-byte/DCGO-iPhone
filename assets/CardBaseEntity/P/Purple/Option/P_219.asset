@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_219
   m_EditorClassIdentifier: 
   CardIndex: 7517
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 9
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Seven Great Demon Lords
   CardSpriteName: P-219
+  PrintID: P-219
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "When this card would be used, if your opponent has 10 or

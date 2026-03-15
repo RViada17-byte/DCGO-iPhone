@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_048
   m_EditorClassIdentifier: 
   CardIndex: 4142
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Mineral
   - LIBERATOR
   CardSpriteName: EX8-048
+  PrintID: EX8-048
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[When Digivolving] If you have 1 or fewer Tamers, you may
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-048
   MaxCountInDeck: 4

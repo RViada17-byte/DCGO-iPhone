@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_064
   m_EditorClassIdentifier: 
   CardIndex: 5381
+  LegacyCardIndices: 
   cardColors: 0600000000000000
   PlayCost: 3
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Reptile
   - Hero
   CardSpriteName: BT21-064
+  PrintID: BT21-064
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Gigimon]/Lv.2 w/[Hero]\_trait: Cost 0 \n\n[On
@@ -52,6 +55,5 @@ MonoBehaviour:
   LinkDP: 0
   LinkEffect: '-'
   LinkRequirement: '-'
-  LinkCost: 0
   CardID: BT21-064
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT1_042
   m_EditorClassIdentifier: 
   CardIndex: 196
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Machine
   CardSpriteName: BT1-042
+  PrintID: BT1-042
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 10000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT1-042
   MaxCountInDeck: 4

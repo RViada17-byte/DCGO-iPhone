@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_025
   m_EditorClassIdentifier: 
   CardIndex: 3333
+  LegacyCardIndices: 
   cardColors: 0100000003000000
   PlayCost: 8
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Dragonkin
   CardSpriteName: BT16-025
+  PrintID: BT16-025
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[DNA Digivolution] Blue Lv.4 + green Lv.4: Cost 0 Digivolve
@@ -58,5 +61,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-025
   MaxCountInDeck: 4

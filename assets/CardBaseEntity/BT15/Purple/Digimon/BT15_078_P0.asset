@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_078_P0
   m_EditorClassIdentifier: 
   CardIndex: 4753
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 8
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Aquatic
   CardSpriteName: BT15-078_P0
+  PrintID: BT15-078_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[All Turns] [Once Per Turn] When an effect plays an opponent''s
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-078
   MaxCountInDeck: 4

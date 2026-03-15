@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX1_033
   m_EditorClassIdentifier: 
   CardIndex: 1318
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Insectoid
   CardSpriteName: EX1-033
+  PrintID: EX1-033
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX1-033
   MaxCountInDeck: 4

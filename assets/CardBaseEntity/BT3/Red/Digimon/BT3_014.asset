@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT3_014
   m_EditorClassIdentifier: 
   CardIndex: 610
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 7
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Beastkin
   CardSpriteName: BT3-014
+  PrintID: BT3-014
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001Lv.4\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306E\u5143\u3005\u306EDP\u30921000\u306B\u5909\u66F4\u3059\u308B\u3002\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u8272\u306F\u9EC4\u3068\u3057\u3066\u3082\u6271\u3046\u3002"
   EffectDiscription_ENG: '[When Digivolving] Change the original DP of 1 of your
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT3-014
   MaxCountInDeck: 4

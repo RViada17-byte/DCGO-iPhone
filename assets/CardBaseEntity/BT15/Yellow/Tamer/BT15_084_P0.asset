@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_084_P0
   m_EditorClassIdentifier: 
   CardIndex: 4759
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Tamer
   CardSpriteName: BT15-084_P0
+  PrintID: BT15-084_P0
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "When an effect trashes this card from the security stack,
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-084
   MaxCountInDeck: 4

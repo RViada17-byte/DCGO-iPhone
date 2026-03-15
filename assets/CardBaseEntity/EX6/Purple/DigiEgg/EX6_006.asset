@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_006
   m_EditorClassIdentifier: 
   CardIndex: 3444
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: -1
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Digi-Egg
   CardSpriteName: EX6-006
+  PrintID: EX6-006
+  IsCanonicalPrint: 1
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Breeding] [Start of Your Main Phase] Place the top card

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_085
   m_EditorClassIdentifier: 
   CardIndex: 7625
+  LegacyCardIndices: 
   cardColors: 0300000000000000
   PlayCost: 4
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - ADAMAS
   - TS
   CardSpriteName: BT24-085
+  PrintID: BT24-085
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] If you have 4 or less memory,

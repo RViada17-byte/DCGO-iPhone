@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_081
   m_EditorClassIdentifier: 
   CardIndex: 5062
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 3
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - General
   - Blue Flare
   CardSpriteName: BT19-081
+  PrintID: BT19-081
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] By placing 1 Digimon card with
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-081
   MaxCountInDeck: 4

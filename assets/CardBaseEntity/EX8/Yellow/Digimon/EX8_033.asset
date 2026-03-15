@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_033
   m_EditorClassIdentifier: 
   CardIndex: 4111
+  LegacyCardIndices: 
   cardColors: 0200000006000000
   PlayCost: 6
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Puppet
   - NSo
   CardSpriteName: EX8-033
+  PrintID: EX8-033
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] Return 1 card with the [NSo]\_trait
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-033
   MaxCountInDeck: 4

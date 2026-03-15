@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_070_P0
   m_EditorClassIdentifier: 
   CardIndex: 4421
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 10
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Unknown
   CardSpriteName: BT11-070_P0
+  PrintID: BT11-070_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Vemmon]: Cost 6 \n\n[When Digivolving] Reveal
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 10000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-070
   MaxCountInDeck: 4

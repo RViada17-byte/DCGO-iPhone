@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_033
   m_EditorClassIdentifier: 
   CardIndex: 5112
+  LegacyCardIndices: 
   cardColors: 0200000005000000
   PlayCost: 6
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Machine
   - ACCEL
   CardSpriteName: BT20-033
+  PrintID: BT20-033
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.4 w/[ACCEL]\_trait: Cost 3 \n\n[On Play]
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-033
   MaxCountInDeck: 4

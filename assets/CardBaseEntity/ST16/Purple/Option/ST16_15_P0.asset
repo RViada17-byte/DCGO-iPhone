@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST16_15_P0
   m_EditorClassIdentifier: 
   CardIndex: 4958
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: ST16-15_P0
+  PrintID: ST16-15_P0
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you have a Tamer with [Matt Ishida]\_in its name,
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST16-15
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_017
   m_EditorClassIdentifier: 
   CardIndex: 3858
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 12
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Ancient Mineral
   - Ten Warriors
   CardSpriteName: BT18-017
+  PrintID: BT18-017
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] Delete all of your opponent's
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-017
   MaxCountInDeck: 4

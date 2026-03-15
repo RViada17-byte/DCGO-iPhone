@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 public class CEntity_Base : ScriptableObject
 {
     public int CardIndex = 0;
+    public List<int> LegacyCardIndices = new List<int>();
     public List<CardColor> cardColors = new List<CardColor>();
     public int PlayCost = -1;
     public List<EvoCost> EvoCosts = new List<EvoCost>();
@@ -21,6 +22,8 @@ public class CEntity_Base : ScriptableObject
     public List<string> Type_JPN = new List<string>();
     public List<string> Type_ENG = new List<string>();
     public string CardSpriteName = "";
+    public string PrintID = "";
+    public bool IsCanonicalPrint = false;
     public CardKind cardKind = CardKind.Digimon;
     [TextArea] public string EffectDiscription_JPN = "";
     [TextArea] public string EffectDiscription_ENG = "";
@@ -42,6 +45,7 @@ public class CEntity_Base : ScriptableObject
     public int MaxCountInDeck = 4;
     public bool HasLoadStarted { get; set; } = false;
     public Sprite CardSprite { get; set; } = null;
+    public string EffectivePrintID => CardPrintCatalog.GetStoredPrintId(this);
 
     public void ClearLoadedCardImageReference()
     {
@@ -51,31 +55,60 @@ public class CEntity_Base : ScriptableObject
 
     public async Task LoadCardImage()
     {
-        if (String.IsNullOrEmpty(CardSpriteName))
+        StartupPerfTrace.Scope perfScope = StartupPerfTrace.Measure("CEntity_Base.LoadCardImage");
+        bool skippedEmpty = String.IsNullOrEmpty(CardSpriteName);
+        bool skippedStarted = !skippedEmpty && HasLoadStarted;
+
+        StartupPerfTrace.RecordLoadCardImageCall(skippedEmpty, skippedStarted);
+
+        try
         {
-            return;
-        }
+            if (skippedEmpty)
+            {
+                return;
+            }
 
-        if (HasLoadStarted)
+            if (skippedStarted)
+            {
+                return;
+            }
+
+            HasLoadStarted = true;
+
+            Sprite sprite = await StreamingAssetsUtility.GetSprite(CardSpriteName, isCard: true);
+
+            CardSprite = sprite;
+            StartupPerfTrace.RecordLoadCardImageCompleted(sprite != null);
+        }
+        finally
         {
-            return;
+            perfScope.SetItemCount("skippedEmpty", skippedEmpty ? 1 : 0);
+            perfScope.SetItemCount("skippedStarted", skippedStarted ? 1 : 0);
+            perfScope.SetItemCount("hasSprite", CardSprite != null ? 1 : 0);
+            perfScope.Dispose();
         }
-
-        HasLoadStarted = true;
-
-        Sprite sprite = await StreamingAssetsUtility.GetSprite(CardSpriteName, isCard: true);
-
-        CardSprite = sprite;
     }
 
     public async Task<Sprite> GetCardSprite()
     {
-        if (!HasLoadStarted)
-        {
-            await LoadCardImage();
-        }
+        StartupPerfTrace.Scope perfScope = StartupPerfTrace.Measure("CEntity_Base.GetCardSprite");
+        StartupPerfTrace.RecordGetCardSpriteCall();
 
-        return CardSprite;
+        try
+        {
+            if (!HasLoadStarted)
+            {
+                await LoadCardImage();
+            }
+
+            return CardSprite;
+        }
+        finally
+        {
+            perfScope.SetItemCount("hasLoadStarted", HasLoadStarted ? 1 : 0);
+            perfScope.SetItemCount("hasSprite", CardSprite != null ? 1 : 0);
+            perfScope.Dispose();
+        }
     }
     public bool IsACE => OverflowMemory >= 1;
     public bool IsStandardValid => true;
@@ -229,7 +262,9 @@ public class CEntity_Base : ScriptableObject
     {
         get
         {
-            string normalizedName = (CardSpriteName ?? "").Replace("_", "-");
+            string normalizedName = !string.IsNullOrWhiteSpace(CardID)
+                ? (CardID ?? "").Replace("_", "-")
+                : (CardSpriteName ?? "").Replace("_", "-");
 
             if (GetParseByHyphen(normalizedName).Length >= 1)
             {
@@ -304,7 +339,7 @@ public class CEntity_Base : ScriptableObject
         {
             if (!string.IsNullOrEmpty(CardSpriteName))
             {
-                string s = CardSpriteName.Replace(CardID, "");
+                string s = EffectivePrintID.Replace(CardID, "");
 
                 if (!string.IsNullOrEmpty(s))
                 {

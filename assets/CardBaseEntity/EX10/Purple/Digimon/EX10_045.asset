@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_045
   m_EditorClassIdentifier: 
   CardIndex: 7215
+  LegacyCardIndices: 
   cardColors: 0600000005000000
   PlayCost: 7
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Mutant
   - Bagra Army
   CardSpriteName: EX10-045
+  PrintID: EX10-045
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Damemon]: Cost 1 \n\n\uFF1CRush\uFF1E \n\uFF1CCollision\uFF1E

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_060
   m_EditorClassIdentifier: 
   CardIndex: 5043
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 5
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Dragonkin
   CardSpriteName: BT19-060
+  PrintID: BT19-060
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[When Digivolving] If you have 1 or fewer Tamers, you may
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-060
   MaxCountInDeck: 4

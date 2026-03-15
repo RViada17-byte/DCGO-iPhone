@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_066_P0
   m_EditorClassIdentifier: 
   CardIndex: 4805
+  LegacyCardIndices: 
   cardColors: 0600000001000000
   PlayCost: 3
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Crustacean
   - X Antibody
   CardSpriteName: BT16-066_P0
+  PrintID: BT16-066_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Syakomon]: Cost 0 \n\n[Start of Your Main Phase]
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-066
   MaxCountInDeck: 4

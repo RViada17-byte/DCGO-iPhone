@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX11_015
   m_EditorClassIdentifier: 
   CardIndex: 7685
+  LegacyCardIndices: 
   cardColors: 0100000002000000
   PlayCost: 5
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Ice-Snow
   - LIBERATOR
   CardSpriteName: EX11-015
+  PrintID: EX11-015
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.3 w/[Ice-Snow]\_trait: Cost 2 \n\n[When

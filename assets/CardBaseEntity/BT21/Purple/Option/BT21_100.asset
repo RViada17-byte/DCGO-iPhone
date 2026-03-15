@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_100
   m_EditorClassIdentifier: 
   CardIndex: 5427
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 2
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: BT21-100
+  PrintID: BT21-100
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you have [Takato Matsuki], you can ignore this card's
@@ -49,6 +52,5 @@ MonoBehaviour:
   LinkDP: 0
   LinkEffect: '-'
   LinkRequirement: '-'
-  LinkCost: 0
   CardID: BT21-100
   MaxCountInDeck: 4

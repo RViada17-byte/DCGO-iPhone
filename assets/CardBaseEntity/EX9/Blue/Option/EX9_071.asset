@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX9_071
   m_EditorClassIdentifier: 
   CardIndex: 6968
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 2
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - DM
   CardSpriteName: EX9-071
+  PrintID: EX9-071
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you have a [DM]\_trait Digimon or Tamer on the field,

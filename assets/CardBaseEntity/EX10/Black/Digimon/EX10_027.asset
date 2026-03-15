@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_027
   m_EditorClassIdentifier: 
   CardIndex: 7181
+  LegacyCardIndices: 
   cardColors: 0500000006000000
   PlayCost: 4
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Bagra Army
   - Twilight
   CardSpriteName: EX10-027
+  PrintID: EX10-027
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.3 w/[Knightmon]\_in text: Cost 2 \n\n[On

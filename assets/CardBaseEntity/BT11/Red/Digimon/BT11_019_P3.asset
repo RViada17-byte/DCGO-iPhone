@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_019_P3
   m_EditorClassIdentifier: 
   CardIndex: 4382
+  LegacyCardIndices: 
   cardColors: 0000000004000000
   PlayCost: 14
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Xros Heart
   - Blue Flare
   CardSpriteName: BT11-019_P3
+  PrintID: BT11-019_P3
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CRush\uFF1E.\n\uFF1CMaterial Save 4\uFF1E \n[On Play]
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 13000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-019
   MaxCountInDeck: 4

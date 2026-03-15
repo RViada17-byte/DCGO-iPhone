@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX11_038
   m_EditorClassIdentifier: 
   CardIndex: 7735
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 3
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - LIBERATOR
   - Mineral
   CardSpriteName: EX11-038
+  PrintID: EX11-038
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[When Moving] [On Play] By trashing 1 [Mineral] or [Rock]\_trait

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_042
   m_EditorClassIdentifier: 
   CardIndex: 3590
+  LegacyCardIndices: 
   cardColors: 0300000006000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Mutant
   CardSpriteName: BT17-042
+  PrintID: BT17-042
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.2 [Argomon]: Cost 0 \n\n[On Play] Reveal
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-042
   MaxCountInDeck: 4

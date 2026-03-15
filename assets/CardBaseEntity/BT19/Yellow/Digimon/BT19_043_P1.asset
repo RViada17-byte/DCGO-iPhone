@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_043_P1
   m_EditorClassIdentifier: 
   CardIndex: 4000
+  LegacyCardIndices: 
   cardColors: 0200000006000000
   PlayCost: 14
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - X Antibody
   - Seven Great Demon Lords
   CardSpriteName: BT19-043_P1
+  PrintID: BT19-043_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.5 or higher w/[Lucemon]\_in its name: Cost
@@ -54,5 +57,8 @@ MonoBehaviour:
   DP: 14000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-043
   MaxCountInDeck: 4

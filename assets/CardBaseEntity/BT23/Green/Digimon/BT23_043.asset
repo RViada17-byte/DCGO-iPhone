@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_043
   m_EditorClassIdentifier: 
   CardIndex: 7375
+  LegacyCardIndices: 
   cardColors: 0300000005000000
   PlayCost: 8
   EvoCosts:
@@ -39,6 +40,8 @@ MonoBehaviour:
   - CS
   - Insectoid
   CardSpriteName: BT23-043
+  PrintID: BT23-043
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Royal Base]/[CS]\_trait: Cost 3 \n\n[Security]

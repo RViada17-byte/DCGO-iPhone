@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_065
   m_EditorClassIdentifier: 
   CardIndex: 3925
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 6
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Unknown
   - LIBERATOR
   CardSpriteName: BT18-065
+  PrintID: BT18-065
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you have no Digimon other than [Vemmon], cards from
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-065
   MaxCountInDeck: 4

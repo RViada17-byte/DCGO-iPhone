@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX11_018_P1
   m_EditorClassIdentifier: 
   CardIndex: 7692
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 11
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - LIBERATOR
   - Aquatic
   CardSpriteName: EX11-018_P1
+  PrintID: EX11-018_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CEvade\uFF1E \n\uFF1CDecode (Lv.5 or lower w/[Aqua]/[Sea

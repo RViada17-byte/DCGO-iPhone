@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_111
   m_EditorClassIdentifier: 
   CardIndex: 6157
+  LegacyCardIndices: 
   cardColors: 0200000005000000
   PlayCost: 7
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Warrior
   CardSpriteName: P-111
+  PrintID: P-111
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u226A\u30D6\u30ED\u30C3\u30AB\u30FC\u226B\u3010\u767B\u5834\u6642\u3011\u3010\u9032\u5316\u6642\u3011\u30BF\u30FC\u30F3\u7D42\u4E86\u307E\u3067\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3054\u3068\u306BDP-3000\u3002"
   EffectDiscription_ENG: "\uFF1CBlocker\uFF1E [On Play][When Digivolving] 1 of your
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-111
   MaxCountInDeck: 4

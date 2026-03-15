@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_095
   m_EditorClassIdentifier: 
   CardIndex: 5422
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 2
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - WG
   CardSpriteName: BT21-095
+  PrintID: BT21-095
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you have no face-up security cards, you may ignore
@@ -47,6 +50,5 @@ MonoBehaviour:
   LinkDP: 0
   LinkEffect: '-'
   LinkRequirement: '-'
-  LinkCost: 0
   CardID: BT21-095
   MaxCountInDeck: 4

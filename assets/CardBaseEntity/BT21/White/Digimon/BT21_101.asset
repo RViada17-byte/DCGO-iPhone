@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_101
   m_EditorClassIdentifier: 
   CardIndex: 5428
+  LegacyCardIndices: 
   cardColors: 0400000000000000
   PlayCost: 13
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   Type_ENG:
   - Creation
   CardSpriteName: BT21-101
+  PrintID: BT21-101
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[App Fusion] [Globemon] & [Charismon]: Cost 0\n\n\uFF1CBlocker\uFF1E.\n\uFF1CLink

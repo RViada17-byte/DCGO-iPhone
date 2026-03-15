@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_015_P0
   m_EditorClassIdentifier: 
   CardIndex: 4844
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 11
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Dragonkin
   CardSpriteName: BT17-015_P0
+  PrintID: BT17-015_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.5 w/[Greymon]\_in its name: Cost 3 \n\nWhen
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-015
   MaxCountInDeck: 4

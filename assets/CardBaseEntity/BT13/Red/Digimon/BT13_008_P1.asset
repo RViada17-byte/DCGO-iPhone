@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT13_008_P1
   m_EditorClassIdentifier: 
   CardIndex: 4559
+  LegacyCardIndices: 
   cardColors: 0000000002000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Dinosaur
   CardSpriteName: BT13-008_P1
+  PrintID: BT13-008_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Koromon]: Cost 0 \n\n[Main] [Once Per Turn]
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT13-008
   MaxCountInDeck: 4

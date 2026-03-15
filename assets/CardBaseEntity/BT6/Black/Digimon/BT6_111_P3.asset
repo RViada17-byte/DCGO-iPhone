@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT6_111_P3
   m_EditorClassIdentifier: 
   CardIndex: 6787
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 13
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - Royal Knight
   - X Antibody
   CardSpriteName: BT6-111_P3
+  PrintID: BT6-111_P3
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Security] At the end of the battle, add this card to your

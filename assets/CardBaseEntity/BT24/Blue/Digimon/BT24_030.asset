@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_030
   m_EditorClassIdentifier: 
   CardIndex: 7552
+  LegacyCardIndices: 
   cardColors: 0100000005000000
   PlayCost: 12
   EvoCosts:
@@ -39,6 +40,8 @@ MonoBehaviour:
   - TS
   - Aquatic
   CardSpriteName: BT24-030
+  PrintID: BT24-030
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.5 w/[Aqua] or [Sea Animal]\_in any trait

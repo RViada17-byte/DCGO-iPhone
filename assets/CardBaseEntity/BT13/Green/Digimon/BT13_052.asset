@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT13_052
   m_EditorClassIdentifier: 
   CardIndex: 2704
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Beastkin
   CardSpriteName: BT13-052
+  PrintID: BT13-052
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u226A\u30B8\u30E3\u30DF\u30F3\u30B0\u226B\uFF08\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u30C7\u30B8\u30E2\u30F3\u3068\u306E\u30D0\u30C8\u30EB\u3067\u306F\u6D88\u6EC5\u3057\u306A\u3044\uFF09"
   EffectDiscription_ENG: "\uFF1CJamming\uFF1E (This Digimon can't be deleted in battles
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT13-052
   MaxCountInDeck: 4

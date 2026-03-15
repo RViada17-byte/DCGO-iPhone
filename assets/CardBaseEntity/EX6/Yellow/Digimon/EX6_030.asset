@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_030
   m_EditorClassIdentifier: 
   CardIndex: 3478
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 12
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Dominion
   - Angel
   CardSpriteName: EX6-030
+  PrintID: EX6-030
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[When Digivolving] Search your security stack. You may
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX6-030
   MaxCountInDeck: 4

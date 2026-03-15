@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT6_049
   m_EditorClassIdentifier: 
   CardIndex: 1177
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Cyborg
   CardSpriteName: BT6-049
+  PrintID: BT6-049
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u624B\u672D\u306E\u3053\u306E\u30AB\u30FC\u30C9\u306F\u3001\u7DD1\u306E\u81EA\u5206\u306E\u30C6\u30A4\u30DE\u30FC\u3092\u7DD1\u306ELv.3\u306E\u30C7\u30B8\u30E2\u30F3\u3068\u3057\u3066\u6271\u3044\u9032\u5316\u3067\u304D\u308B\u3002"
   EffectDiscription_ENG: You may digivolve this card from your hand onto one of your
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT6-049
   MaxCountInDeck: 4

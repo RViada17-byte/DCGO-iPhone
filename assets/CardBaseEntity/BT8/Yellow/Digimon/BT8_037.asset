@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT8_037
   m_EditorClassIdentifier: 
   CardIndex: 1603
+  LegacyCardIndices: 
   cardColors: 0200000000000000
   PlayCost: 5
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Dragonkin
   CardSpriteName: BT8-037
+  PrintID: BT8-037
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT8-037
   MaxCountInDeck: 4

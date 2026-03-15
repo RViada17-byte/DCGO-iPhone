@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX2_020
   m_EditorClassIdentifier: 
   CardIndex: 1949
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Beast
   CardSpriteName: EX2-020
+  PrintID: EX2-020
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u304C3\u679A\u4EE5\u4E0B\u306E\u3068\u304D\u3001\u81EA\u5206\u306E\u300C\u674E\u5C0F\u6625\u300D\u304C\u3044\u308B\u306A\u3089\u3001\u226A\u30EA\u30AB\u30D0\u30EA\u30FC+1\u300A\u30C7\u30C3\u30AD\u300B\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u3089\u30AB\u30FC\u30C9\u30921\u679A\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u306E\u4E0A\u306B\u7F6E\u304F\uFF09\u3002"
   EffectDiscription_ENG: "[On Play] If you have 3 or fewer security cards and [Shu-Chong
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX2-020
   MaxCountInDeck: 4

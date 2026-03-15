@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_037
   m_EditorClassIdentifier: 
   CardIndex: 2075
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Fairy
   CardSpriteName: BT10-037
+  PrintID: BT10-037
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-037
   MaxCountInDeck: 4

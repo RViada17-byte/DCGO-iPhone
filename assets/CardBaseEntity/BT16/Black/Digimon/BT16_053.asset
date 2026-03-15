@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_053
   m_EditorClassIdentifier: 
   CardIndex: 3370
+  LegacyCardIndices: 
   cardColors: 0500000002000000
   PlayCost: 4
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Ankylosaur
   CardSpriteName: BT16-053
+  PrintID: BT16-053
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Digivolve] [Armadillomon]: Cost 2<Barrier> [On Play] [When
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-053
   MaxCountInDeck: 4

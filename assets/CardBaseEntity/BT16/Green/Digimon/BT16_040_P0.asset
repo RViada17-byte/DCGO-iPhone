@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_040_P0
   m_EditorClassIdentifier: 
   CardIndex: 4795
+  LegacyCardIndices: 
   cardColors: 0300000006000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Larva
   CardSpriteName: BT16-040_P0
+  PrintID: BT16-040_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Minomon]: Cost 0 \n\n[Start of Your Main Phase]
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-040
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: LM_056
   m_EditorClassIdentifier: 
   CardIndex: 7816
+  LegacyCardIndices: 
   cardColors: 0100000006000000
   PlayCost: 2
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - '-'
   CardSpriteName: LM-056
+  PrintID: LM-056
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you have don't have [Image Training] in the battle

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_013
   m_EditorClassIdentifier: 
   CardIndex: 3453
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Avian
   - Aquatic
   CardSpriteName: EX6-013
+  PrintID: EX6-013
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] \uFF1CDraw 1\uFF1E. If played from digivolution
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX6-013
   MaxCountInDeck: 4

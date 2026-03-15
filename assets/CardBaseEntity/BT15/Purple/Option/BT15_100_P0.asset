@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_100_P0
   m_EditorClassIdentifier: 
   CardIndex: 4772
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 7
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Seven Great Demon Lords
   CardSpriteName: BT15-100_P0
+  PrintID: BT15-100_P0
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Trash] [All Turns] When one of your Digimon digivolves
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-100
   MaxCountInDeck: 4

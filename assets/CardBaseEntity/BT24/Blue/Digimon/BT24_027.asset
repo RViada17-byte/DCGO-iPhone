@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_027
   m_EditorClassIdentifier: 
   CardIndex: 7549
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   - TS
   - Aquatic
   CardSpriteName: BT24-027
+  PrintID: BT24-027
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Calmaramon]: Cost 0 [Digivolve] Lv.3 w/[TS]\_trait:

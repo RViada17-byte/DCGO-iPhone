@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_047
   m_EditorClassIdentifier: 
   CardIndex: 5079
+  LegacyCardIndices: 
   cardColors: 0300000005000000
   PlayCost: 4
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Machine
   - Xros Heart
   CardSpriteName: BT19-047
+  PrintID: BT19-047
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] This Digimon may digivolve into [AtlurBallistamon]
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-047
   MaxCountInDeck: 4

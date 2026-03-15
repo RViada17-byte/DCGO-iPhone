@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_223
   m_EditorClassIdentifier: 
   CardIndex: 7654
+  LegacyCardIndices: 
   cardColors: 0600000002000000
   PlayCost: 11
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Shaman
   CardSpriteName: P-223
+  PrintID: P-223
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.6 w/[Maid Mode]\_in name: Cost 1 \n\nWhen

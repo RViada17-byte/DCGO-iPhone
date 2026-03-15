@@ -168,6 +168,9 @@ public class EditDeck : MonoBehaviour
     List<CEntity_Base> _oldDeckCards = new List<CEntity_Base>();
     List<CEntity_Base> _oldDigitamaDeckCards = new List<CEntity_Base>();
     int _oldKeyCardId = -1;
+    List<CardPrintRef> _oldDeckCardRefs = new List<CardPrintRef>();
+    List<CardPrintRef> _oldDigitamaDeckCardRefs = new List<CardPrintRef>();
+    CardPrintRef _oldKeyCardRef = new CardPrintRef();
     bool _isFromClipboard = false;
     readonly List<CEntity_Base> _filteredPoolCards = new List<CEntity_Base>();
     // Keep the existing paged collection path as the canonical deck editor flow.
@@ -1340,43 +1343,56 @@ public class EditDeck : MonoBehaviour
 
     IEnumerator SetSprittedCardLists()
     {
-        _filteredPoolCards.Clear();
+        StartupPerfTrace.Scope perfScope = StartupPerfTrace.Measure("EditDeck.SetSprittedCardLists");
 
-        foreach (CEntity_Base cEntity_Base in ContinuousController.instance.CardList)
+        try
         {
-            if (MatchCondition(cEntity_Base))
+            _filteredPoolCards.Clear();
+
+            foreach (CEntity_Base cEntity_Base in ContinuousController.instance.CardList)
             {
-                _filteredPoolCards.Add(cEntity_Base);
+                if (MatchCondition(cEntity_Base))
+                {
+                    _filteredPoolCards.Add(cEntity_Base);
+                }
             }
-        }
 
-        if (UseIPhoneDeckScroll)
-        {
-            EnsureCardPoolPrefabCapacityForIPhone(_filteredPoolCards.Count);
+            if (UseIPhoneDeckScroll)
+            {
+                EnsureCardPoolPrefabCapacityForIPhone(_filteredPoolCards.Count);
+                yield return null;
+                yield break;
+            }
+
+            SprittedCardLists = new List<List<CEntity_Base>>();
+
+            for (int i = 0; i < _maxDisplayPageIndex + 1; i++)
+            {
+                SprittedCardLists.Add(new List<CEntity_Base>());
+            }
+
+            for (int i = 0; i < _filteredPoolCards.Count; i++)
+            {
+                CEntity_Base cEntity_Base = _filteredPoolCards[i];
+
+                int Quotient = i / _cardPoolPrefabs.Count;
+
+                if (0 <= Quotient && Quotient < SprittedCardLists.Count)
+                {
+                    SprittedCardLists[Quotient].Add(cEntity_Base);
+                }
+            }
+
             yield return null;
-            yield break;
         }
-
-        SprittedCardLists = new List<List<CEntity_Base>>();
-
-        for (int i = 0; i < _maxDisplayPageIndex + 1; i++)
+        finally
         {
-            SprittedCardLists.Add(new List<CEntity_Base>());
+            perfScope.SetItemCount("runtimeCards", ContinuousController.instance?.CardList?.Length ?? 0);
+            perfScope.SetItemCount("filteredCards", _filteredPoolCards.Count);
+            perfScope.SetItemCount("pageCount", SprittedCardLists?.Count ?? 0);
+            perfScope.SetItemCount("poolPrefabs", _cardPoolPrefabs.Count);
+            perfScope.Dispose();
         }
-
-        for (int i = 0; i < _filteredPoolCards.Count; i++)
-        {
-            CEntity_Base cEntity_Base = _filteredPoolCards[i];
-
-            int Quotient = i / _cardPoolPrefabs.Count;
-
-            if (0 <= Quotient && Quotient < SprittedCardLists.Count)
-            {
-                SprittedCardLists[Quotient].Add(cEntity_Base);
-            }
-        }
-
-        yield return null;
     }
 
     void SetCardData()
@@ -1430,7 +1446,7 @@ public class EditDeck : MonoBehaviour
         poolPrefab.isActive = true;
         poolPrefab.SetUpCardPrefab_CreateDeck(cEntity_Base);
 
-        bool unlocked = ProgressionManager.Instance == null || ProgressionManager.Instance.IsCardUnlocked(cEntity_Base.CardID);
+        bool unlocked = ProgressionManager.Instance == null || ProgressionManager.Instance.OwnsPrint(cEntity_Base.EffectivePrintID);
         poolPrefab.SetLocked(!unlocked);
     }
 
@@ -1577,8 +1593,7 @@ public class EditDeck : MonoBehaviour
 
         if (Canceled)
         {
-            EdittingDeckData.DeckCardIDs = DeckData.GetDeckCardCodes(DeckData.SortedDeckCardsList(_oldDeckCards));
-            EdittingDeckData.DigitamaDeckCardIDs = DeckData.GetDeckCardCodes(DeckData.SortedDeckCardsList(_oldDigitamaDeckCards));
+            EdittingDeckData.SetStoredDeckRefs(_oldDeckCardRefs, _oldDigitamaDeckCardRefs, _oldKeyCardRef);
             EdittingDeckData.DeckName = _oldDeckName;
             EdittingDeckData.KeyCardId = _oldKeyCardId;
         }
@@ -1586,6 +1601,7 @@ public class EditDeck : MonoBehaviour
         if (!EdittingDeckData.AllDeckCards().Contains(EdittingDeckData.KeyCard))
         {
             EdittingDeckData.KeyCardId = -1;
+            EdittingDeckData.KeyCardRef = new CardPrintRef();
         }
 
         #region not save if deck is empty or canceled when importing from clipboard
@@ -1605,8 +1621,7 @@ public class EditDeck : MonoBehaviour
 
         if (!Canceled)
         {
-            EdittingDeckData.DeckCardIDs = DeckData.GetDeckCardCodes(DeckData.SortedDeckCardsList(EdittingDeckData.DeckCards()));
-            EdittingDeckData.DigitamaDeckCardIDs = DeckData.GetDeckCardCodes(DeckData.SortedDeckCardsList(EdittingDeckData.DigitamaDeckCards()));
+            EdittingDeckData.SyncLegacyCardIndexesFromResolvedCards(EdittingDeckData.DeckCards(), EdittingDeckData.DigitamaDeckCards(), EdittingDeckData.KeyCard);
         }
 
         foreach (CardPrefab_CreateDeck cardPrefab_CreateDeck in _cardPoolPrefabs)
@@ -1730,6 +1745,9 @@ public class EditDeck : MonoBehaviour
         }
 
         _oldKeyCardId = deckData.KeyCardId;
+        _oldDeckCardRefs = deckData.GetStoredMainDeckRefs();
+        _oldDigitamaDeckCardRefs = deckData.GetStoredDigitamaDeckRefs();
+        _oldKeyCardRef = deckData.GetStoredKeyCardRef();
 
         _checkCoverCoroutine = null;
         this._isFromSelectDeck = isFromSelectDeck;
@@ -1743,6 +1761,15 @@ public class EditDeck : MonoBehaviour
 
     public IEnumerator SetUpCreateDeckCoroutine(DeckData deckData)
     {
+        if (!DoneSetUp)
+        {
+            StartupPerfTrace.Scope lazyInitScope = StartupPerfTrace.Measure("EditDeck.LazyInitOnOpen");
+            yield return ContinuousController.instance.StartCoroutine(InitEditDeck());
+            lazyInitScope.SetItemCount("runtimeCards", ContinuousController.instance?.CardList?.Length ?? 0);
+            lazyInitScope.SetItemCount("poolPrefabs", _cardPoolPrefabs.Count);
+            lazyInitScope.Dispose();
+        }
+
         yield return ContinuousController.instance.StartCoroutine(LoadingObjec.StartLoading("Now Loading"));
 
         yield return new WaitForSeconds(0.1f);
@@ -1757,8 +1784,7 @@ public class EditDeck : MonoBehaviour
         CardPoolScroll.verticalNormalizedPosition = 1;
         DeckScroll.verticalNormalizedPosition = 1;
 
-        deckData.DeckCardIDs = DeckData.GetDeckCardCodes(DeckData.SortedDeckCardsList(deckData.DeckCards()));
-        deckData.DigitamaDeckCardIDs = DeckData.GetDeckCardCodes(DeckData.SortedDeckCardsList(deckData.DigitamaDeckCards()));
+        deckData.SyncLegacyCardIndexesFromResolvedCards(deckData.DeckCards(), deckData.DigitamaDeckCards(), deckData.KeyCard);
 
         EdittingDeckData = deckData;
 
@@ -1988,49 +2014,62 @@ public class EditDeck : MonoBehaviour
     bool DoneSetUp { get; set; } = false;
     public IEnumerator InitEditDeck()
     {
-        EnsureCardPoolScrollConfiguredForIPhone();
-        cardDistribution.Init();
-        CardPoolCardPrefabs_CreateDeck.Clear();
-        _cardPoolPrefabs.Clear();
+        StartupPerfTrace.Scope perfScope = StartupPerfTrace.Measure("EditDeck.InitEditDeck");
 
-        for (int i = 0; i < CardPoolScroll.content.childCount; i++)
+        try
         {
-            CardPrefab_CreateDeck cardPrefab_CreateDeck = CardPoolScroll.content.GetChild(i).GetComponent<CardPrefab_CreateDeck>();
+            EnsureCardPoolScrollConfiguredForIPhone();
+            cardDistribution.Init();
+            CardPoolCardPrefabs_CreateDeck.Clear();
+            _cardPoolPrefabs.Clear();
 
-            if (cardPrefab_CreateDeck != null)
+            for (int i = 0; i < CardPoolScroll.content.childCount; i++)
             {
-                CardPoolCardPrefabs_CreateDeck.Add(cardPrefab_CreateDeck);
+                CardPrefab_CreateDeck cardPrefab_CreateDeck = CardPoolScroll.content.GetChild(i).GetComponent<CardPrefab_CreateDeck>();
+
+                if (cardPrefab_CreateDeck != null)
+                {
+                    CardPoolCardPrefabs_CreateDeck.Add(cardPrefab_CreateDeck);
+                }
             }
-        }
 
-        for (int i = 0; i < DeckScroll.content.childCount; i++)
-        {
-            Destroy(DeckScroll.content.GetChild(i).gameObject);
-        }
-
-        foreach (CardPrefab_CreateDeck cardPrefab_CreateDeck in cardPoolPrefabs_all)
-        {
-            if (cardPrefab_CreateDeck.gameObject.activeSelf)
+            for (int i = 0; i < DeckScroll.content.childCount; i++)
             {
-                cardPrefab_CreateDeck.gameObject.SetActive(false);
+                Destroy(DeckScroll.content.GetChild(i).gameObject);
             }
-        }
 
-        for (int i = 0; i < cardPoolPrefabs_all.Count; i++)
-        {
-            if (i < ContinuousController.instance.CardList.Length)
+            foreach (CardPrefab_CreateDeck cardPrefab_CreateDeck in cardPoolPrefabs_all)
             {
-                CardPrefab_CreateDeck _cardPrefab_CreateDeck = cardPoolPrefabs_all[i];
-                _cardPoolPrefabs.Add(_cardPrefab_CreateDeck);
-                ConfigurePoolCardPrefab(_cardPrefab_CreateDeck);
+                if (cardPrefab_CreateDeck.gameObject.activeSelf)
+                {
+                    cardPrefab_CreateDeck.gameObject.SetActive(false);
+                }
             }
+
+            for (int i = 0; i < cardPoolPrefabs_all.Count; i++)
+            {
+                if (i < ContinuousController.instance.CardList.Length)
+                {
+                    CardPrefab_CreateDeck _cardPrefab_CreateDeck = cardPoolPrefabs_all[i];
+                    _cardPoolPrefabs.Add(_cardPrefab_CreateDeck);
+                    ConfigurePoolCardPrefab(_cardPrefab_CreateDeck);
+                }
+            }
+
+            yield return ContinuousController.instance.StartCoroutine(SetSprittedCardLists());
+
+            yield return new WaitForSeconds(0.1f);
+
+            DoneSetUp = true;
         }
-
-        yield return ContinuousController.instance.StartCoroutine(SetSprittedCardLists());
-
-        yield return new WaitForSeconds(0.1f);
-
-        DoneSetUp = true;
+        finally
+        {
+            perfScope.SetItemCount("runtimeCards", ContinuousController.instance?.CardList?.Length ?? 0);
+            perfScope.SetItemCount("allPoolPrefabs", cardPoolPrefabs_all.Count);
+            perfScope.SetItemCount("activePoolPrefabs", _cardPoolPrefabs.Count);
+            perfScope.SetItemCount("deckChildren", DeckScroll != null && DeckScroll.content != null ? DeckScroll.content.childCount : 0);
+            perfScope.Dispose();
+        }
     }
     #endregion
 
@@ -2673,8 +2712,7 @@ public class EditDeck : MonoBehaviour
 
         Debug.Log($"ADD DECK CARD: {EdittingDeckData.DeckCardIDs.Count}");
         Debug.Log($"ADD DECK CARD: {EdittingDeckData.DeckCards().Count}");
-        EdittingDeckData.DeckCardIDs = DeckData.GetDeckCardCodes(DeckData.SortedDeckCardsList(EdittingDeckData.DeckCards()));
-        EdittingDeckData.DigitamaDeckCardIDs = DeckData.GetDeckCardCodes(DeckData.SortedDeckCardsList(EdittingDeckData.DigitamaDeckCards()));
+        EdittingDeckData.SyncLegacyCardIndexesFromResolvedCards(EdittingDeckData.DeckCards(), EdittingDeckData.DigitamaDeckCards(), EdittingDeckData.KeyCard);
         
         ReflectDeckData();
         cardDistribution.SetCardDistribution(EdittingDeckData);
@@ -2702,8 +2740,7 @@ public class EditDeck : MonoBehaviour
 
         EdittingDeckData.RemoveCard(cEntity_Base);
 
-        EdittingDeckData.DeckCardIDs = DeckData.GetDeckCardCodes(DeckData.SortedDeckCardsList(EdittingDeckData.DeckCards()));
-        EdittingDeckData.DigitamaDeckCardIDs = DeckData.GetDeckCardCodes(DeckData.SortedDeckCardsList(EdittingDeckData.DigitamaDeckCards()));
+        EdittingDeckData.SyncLegacyCardIndexesFromResolvedCards(EdittingDeckData.DeckCards(), EdittingDeckData.DigitamaDeckCards(), EdittingDeckData.KeyCard);
 
         ReflectDeckData();
         cardDistribution.SetCardDistribution(EdittingDeckData);
@@ -2826,6 +2863,7 @@ public class EditDeck : MonoBehaviour
         void OnClick(CEntity_Base cEntity_Base)
         {
             EdittingDeckData.KeyCardId = cEntity_Base.CardIndex;
+            EdittingDeckData.KeyCardRef = CardPrintRef.FromCard(cEntity_Base);
             Opening.instance.deck.deckListPanel.Close();
             Opening.instance.PlayDecisionSE();
         }

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_057
   m_EditorClassIdentifier: 
   CardIndex: 5042
+  LegacyCardIndices: 
   cardColors: 0500000006000000
   PlayCost: 4
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Twilight
   - Xros Heart
   CardSpriteName: BT19-057
+  PrintID: BT19-057
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.2 w/[Twilight]/[Xros Heart]\_trait: Cost
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-057
   MaxCountInDeck: 4

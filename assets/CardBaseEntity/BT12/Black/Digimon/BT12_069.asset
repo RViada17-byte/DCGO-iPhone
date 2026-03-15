@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT12_069
   m_EditorClassIdentifier: 
   CardIndex: 2484
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 8
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Cyborg
   CardSpriteName: BT12-069
+  PrintID: BT12-069
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 9000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT12-069
   MaxCountInDeck: 4

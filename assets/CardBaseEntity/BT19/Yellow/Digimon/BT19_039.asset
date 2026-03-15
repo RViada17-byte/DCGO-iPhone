@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_039
   m_EditorClassIdentifier: 
   CardIndex: 3991
+  LegacyCardIndices: 
   cardColors: 0200000006000000
   PlayCost: 7
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Undead
   - X Antibody
   CardSpriteName: BT19-039
+  PrintID: BT19-039
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] By trashing your top security
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-039
   MaxCountInDeck: 4

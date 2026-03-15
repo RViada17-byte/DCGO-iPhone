@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST22_07
   m_EditorClassIdentifier: 
   CardIndex: 7498
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - '-'
   CardSpriteName: ST22-07
+  PrintID: ST22-07
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] [On Play] By placing 1 Option

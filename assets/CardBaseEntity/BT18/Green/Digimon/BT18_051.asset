@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_051
   m_EditorClassIdentifier: 
   CardIndex: 3912
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 7
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Vegetation
   CardSpriteName: BT18-051
+  PrintID: BT18-051
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Your Turn] When this suspended Digimon would digivolve
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-051
   MaxCountInDeck: 4

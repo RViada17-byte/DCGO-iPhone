@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_021
   m_EditorClassIdentifier: 
   CardIndex: 5100
+  LegacyCardIndices: 
   cardColors: 0000000005000000
   PlayCost: 9
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - X Antibody
   - Royal Knight
   CardSpriteName: BT20-021
+  PrintID: BT20-021
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Hand] [Counter] \uFF1CBlast Digivolve\uFF1E \n[On Play]
@@ -54,5 +57,8 @@ MonoBehaviour:
   DP: 16000
   rarity: 3
   OverflowMemory: 5
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-021
   MaxCountInDeck: 4

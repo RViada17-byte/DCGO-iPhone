@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_077
   m_EditorClassIdentifier: 
   CardIndex: 7610
+  LegacyCardIndices: 
   cardColors: 0600000000000000
   PlayCost: 9
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   Type_ENG:
   - Restoration
   CardSpriteName: BT24-077
+  PrintID: BT24-077
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[App Fusion] [Raidramon] & [Dezipmon]: Cost 0\n\n\uFF1CBlocker\uFF1E

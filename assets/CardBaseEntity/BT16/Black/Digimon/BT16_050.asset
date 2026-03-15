@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_050
   m_EditorClassIdentifier: 
   CardIndex: 3366
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 3
   EvoCosts:
@@ -39,6 +40,8 @@ MonoBehaviour:
   - D-Brigade
   - DigiPolice
   CardSpriteName: BT16-050
+  PrintID: BT16-050
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[All Turns] All of your other Digimon with the [D-Brigade]
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-050
   MaxCountInDeck: 4

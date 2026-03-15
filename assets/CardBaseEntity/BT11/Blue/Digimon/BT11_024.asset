@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_024
   m_EditorClassIdentifier: 
   CardIndex: 2294
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Avian
   CardSpriteName: BT11-024
+  PrintID: BT11-024
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u9752\u306ELv.3\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C9\u304B\u7279\u5FB4\u306B\u300C\u6C34\u68F2\u300D\u3092\u542B\u3080\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u306E\u4E0B\u306B\u7F6E\u304F\u3053\u3068\u3067\u3001\u226A1\u30C9\u30ED\u30FC\u226B\u3002"
   EffectDiscription_ENG: "[On Play] By placing 1 blue level 3 Digimon card or 1 Digimon
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-024
   MaxCountInDeck: 4

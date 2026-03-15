@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX9_033
   m_EditorClassIdentifier: 
   CardIndex: 6897
+  LegacyCardIndices: 
   cardColors: 0200000006000000
   PlayCost: 12
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Puppet
   - LIBERATOR
   CardSpriteName: EX9-033
+  PrintID: EX9-033
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.5 w/[Puppet]\_trait: Cost 3 \n\n[All Turns]

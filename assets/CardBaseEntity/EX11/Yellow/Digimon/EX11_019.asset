@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX11_019
   m_EditorClassIdentifier: 
   CardIndex: 7694
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Puppet
   - LIBERATOR
   CardSpriteName: EX11-019
+  PrintID: EX11-019
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Deletion] You may play 1 [Familiar] Token. (Digimon/Yellow/3000

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_072_P0
   m_EditorClassIdentifier: 
   CardIndex: 4422
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 11
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Machine
   CardSpriteName: BT11-072_P0
+  PrintID: BT11-072_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[When Digivolving] [On Play] Reveal the top 5 cards of
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-072
   MaxCountInDeck: 4

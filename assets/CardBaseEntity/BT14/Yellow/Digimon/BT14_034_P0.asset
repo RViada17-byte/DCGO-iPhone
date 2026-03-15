@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT14_034_P0
   m_EditorClassIdentifier: 
   CardIndex: 4650
+  LegacyCardIndices: 
   cardColors: 0200000005000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Abnormal
   CardSpriteName: BT14-034_P0
+  PrintID: BT14-034_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Security] At the end of the battle, play this card without
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT14-034
   MaxCountInDeck: 4

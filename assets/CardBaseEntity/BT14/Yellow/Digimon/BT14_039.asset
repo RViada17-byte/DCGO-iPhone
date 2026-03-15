@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT14_039
   m_EditorClassIdentifier: 
   CardIndex: 2962
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Puppet
   CardSpriteName: BT14-039
+  PrintID: BT14-039
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u540D\u79F0\u306B\u300C\u30CC\u30E1\u30E2\u30F3\u300D\u3092\u542B\u3080Lv.4:\u30B3\u30B9\u30C83\u226A\u30A2\u30FC\u30DE\u30FC\u89E3\u9664\u226B\u3010\u767B\u5834\u6642\u3011\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u540D\u79F0\u306B\u300C\u30CC\u30E1\u30E2\u30F3\u300D\u3092\u542B\u3080\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u306E\u4E0B\u306B\u7F6E\u304F\u3053\u3068\u3067\u3001\u30E1\u30E2\u30EA\u30FC+2\u3002"
   EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Numemon] in name: Cost 3\uFF1CArmor
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT14-039
   MaxCountInDeck: 4

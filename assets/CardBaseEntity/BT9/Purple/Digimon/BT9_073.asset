@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT9_073
   m_EditorClassIdentifier: 
   CardIndex: 1866
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Dark Animal
   CardSpriteName: BT9-073
+  PrintID: BT9-073
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT9-073
   MaxCountInDeck: 4

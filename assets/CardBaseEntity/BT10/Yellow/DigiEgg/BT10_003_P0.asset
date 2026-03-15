@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_003_P0
   m_EditorClassIdentifier: 
   CardIndex: 4282
+  LegacyCardIndices: []
   cardColors: 02000000
   PlayCost: -1
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - Minor
   - Xros Heart
   CardSpriteName: BT10-003_P0
+  PrintID: BT10-003_P0
+  IsCanonicalPrint: 0
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '-'

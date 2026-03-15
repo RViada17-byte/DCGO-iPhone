@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_084_P1
   m_EditorClassIdentifier: 
   CardIndex: 4022
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - LIBERATOR
   CardSpriteName: BT19-084_P1
+  PrintID: BT19-084_P1
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] If you have a face-up security
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-084
   MaxCountInDeck: 4

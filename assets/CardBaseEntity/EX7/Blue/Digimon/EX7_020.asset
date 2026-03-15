@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_020
   m_EditorClassIdentifier: 
   CardIndex: 3713
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 5
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Dragon
   - Ice-Snow
   CardSpriteName: EX7-020
+  PrintID: EX7-020
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[When Digivolving] Trash the bottom 2 digivolution card
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-020
   MaxCountInDeck: 4

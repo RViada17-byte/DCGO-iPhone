@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_026
   m_EditorClassIdentifier: 
   CardIndex: 5335
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 11
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Dragonkin
   CardSpriteName: BT21-026
+  PrintID: BT21-026
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "When this card would be played, reduce the play cost by
@@ -49,6 +52,5 @@ MonoBehaviour:
   LinkDP: 0
   LinkEffect: '-'
   LinkRequirement: '-'
-  LinkCost: 0
   CardID: BT21-026
   MaxCountInDeck: 4

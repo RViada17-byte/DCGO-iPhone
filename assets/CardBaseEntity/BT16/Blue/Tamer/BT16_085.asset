@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_085
   m_EditorClassIdentifier: 
   CardIndex: 3409
+  LegacyCardIndices: 
   cardColors: 0100000003000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   - '-'
   Type_ENG: []
   CardSpriteName: BT16-085
+  PrintID: BT16-085
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] You may play 1 [Veemon] or [Wormmon]
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-085
   MaxCountInDeck: 4

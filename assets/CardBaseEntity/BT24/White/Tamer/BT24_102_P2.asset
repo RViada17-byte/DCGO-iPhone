@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_102_P2
   m_EditorClassIdentifier: 
   CardIndex: 7650
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 5
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - Iliad
   - TS
   CardSpriteName: BT24-102_P2
+  PrintID: BT24-102_P2
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] Gain 1 memory. Then, if you

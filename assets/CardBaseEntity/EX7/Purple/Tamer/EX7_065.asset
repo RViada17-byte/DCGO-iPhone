@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_065
   m_EditorClassIdentifier: 
   CardIndex: 3798
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - LIBERATOR
   CardSpriteName: EX7-065
+  PrintID: EX7-065
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] If your opponent has a Digimon,
@@ -43,5 +46,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-065
   MaxCountInDeck: 4

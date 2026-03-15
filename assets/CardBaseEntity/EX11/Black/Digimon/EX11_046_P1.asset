@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX11_046_P1
   m_EditorClassIdentifier: 
   CardIndex: 7753
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 14
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Unknown
   - LIBERATOR
   CardSpriteName: EX11-046_P1
+  PrintID: EX11-046_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Snatchmon]: Cost 9 [Digivolve] [Galacticmon]:

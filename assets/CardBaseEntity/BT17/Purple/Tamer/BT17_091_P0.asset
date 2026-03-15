@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_091_P0
   m_EditorClassIdentifier: 
   CardIndex: 4879
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - SoC
   CardSpriteName: BT17-091_P0
+  PrintID: BT17-091_P0
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Security] Play this card without paying the cost.\n[Start
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-091
   MaxCountInDeck: 4

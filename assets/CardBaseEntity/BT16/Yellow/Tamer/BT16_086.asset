@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_086
   m_EditorClassIdentifier: 
   CardIndex: 3411
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 4
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   Type_ENG:
   - Abadin Electronics
   CardSpriteName: BT16-086
+  PrintID: BT16-086
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Security] Play this card without paying the cost. [Start
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-086
   MaxCountInDeck: 4

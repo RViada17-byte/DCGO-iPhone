@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_053_P3
   m_EditorClassIdentifier: 
   CardIndex: 4738
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 12
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Insectoid
   CardSpriteName: BT15-053_P3
+  PrintID: BT15-053_P3
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] [When Digivolving] Suspend 1
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-053
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_068
   m_EditorClassIdentifier: 
   CardIndex: 3386
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 4
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Dark Animal
   CardSpriteName: BT16-068
+  PrintID: BT16-068
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] [When Digivolving] 1 of your Digimon gains <Blocker>
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-068
   MaxCountInDeck: 4

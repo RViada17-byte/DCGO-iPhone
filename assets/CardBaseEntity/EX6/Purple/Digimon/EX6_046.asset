@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_046
   m_EditorClassIdentifier: 
   CardIndex: 3499
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Evil
   CardSpriteName: EX6-046
+  PrintID: EX6-046
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Deletion] If your opponent has 5 or fewer cards in
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX6-046
   MaxCountInDeck: 4

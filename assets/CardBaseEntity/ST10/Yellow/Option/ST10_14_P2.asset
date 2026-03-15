@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST10_14_P2
   m_EditorClassIdentifier: 
   CardIndex: 4904
+  LegacyCardIndices: 
   cardColors: 0200000006000000
   PlayCost: 8
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: ST10-14_P2
+  PrintID: ST10-14_P2
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Main] Place 1 of your opponent''s Digimon face down at
@@ -43,5 +46,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST10-14
   MaxCountInDeck: 4

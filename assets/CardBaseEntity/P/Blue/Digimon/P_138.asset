@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_138
   m_EditorClassIdentifier: 
   CardIndex: 10292
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 5
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Mythical Dragon
   CardSpriteName: P-138
+  PrintID: P-138
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] Reveal the top 3 cards of
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-138
   MaxCountInDeck: 4

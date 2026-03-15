@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT9_039
   m_EditorClassIdentifier: 
   CardIndex: 1826
+  LegacyCardIndices: 
   cardColors: 0200000005000000
   PlayCost: 7
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Mutant
   CardSpriteName: BT9-039
+  PrintID: BT9-039
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 9000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT9-039
   MaxCountInDeck: 4

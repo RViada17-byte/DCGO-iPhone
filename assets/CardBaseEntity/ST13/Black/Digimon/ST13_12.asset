@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST13_12
   m_EditorClassIdentifier: 
   CardIndex: 2812
+  LegacyCardIndices: 
   cardColors: 0500000000000000
   PlayCost: 5
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Warrior
   CardSpriteName: ST13-12
+  PrintID: ST13-12
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST13-12
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT9_058_P2
   m_EditorClassIdentifier: 
   CardIndex: 7821
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 3
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Beast
   - X Antibody
   CardSpriteName: BT9-058_P2
+  PrintID: BT9-058_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] You may trash 1 card with the [X Antibody]\_trait

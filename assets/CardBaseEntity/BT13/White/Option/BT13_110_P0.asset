@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT13_110_P0
   m_EditorClassIdentifier: 
   CardIndex: 4630
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 6
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Royal Knight
   CardSpriteName: BT13-110_P0
+  PrintID: BT13-110_P0
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] \uFF1CDraw 1\uFF1E. You may place 1 Digimon card
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT13-110
   MaxCountInDeck: 4

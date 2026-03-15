@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_156
   m_EditorClassIdentifier: 
   CardIndex: 10458
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 2
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: P-156
+  PrintID: P-156
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 'While you have a tamer, you may use this card ignoring
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 0
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-156
   MaxCountInDeck: 4

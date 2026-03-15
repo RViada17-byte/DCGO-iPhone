@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_046
   m_EditorClassIdentifier: 
   CardIndex: 3993
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 4
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Vegetation
   CardSpriteName: BT19-046
+  PrintID: BT19-046
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] Suspend 1 of your opponent's
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 3000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-046
   MaxCountInDeck: 4

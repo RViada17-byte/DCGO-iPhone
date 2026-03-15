@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT2_025_P1
   m_EditorClassIdentifier: 
   CardIndex: 402
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Sea Beast
   CardSpriteName: BT2-025_P1
+  PrintID: BT2-025_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 3000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT2-025
   MaxCountInDeck: 4

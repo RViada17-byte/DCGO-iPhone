@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX5_073_P1
   m_EditorClassIdentifier: 
   CardIndex: 4238
+  LegacyCardIndices: 
   cardColors: 0000000001000000
   PlayCost: 15
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Galaxy
   CardSpriteName: EX5-073_P1
+  PrintID: EX5-073_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CSecurity Attack +1\uFF1E \n\uFF1CBlocker\uFF1E \n[When
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 15000
   rarity: 4
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX5-073
   MaxCountInDeck: 4

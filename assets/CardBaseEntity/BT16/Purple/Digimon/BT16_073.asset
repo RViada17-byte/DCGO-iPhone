@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_073
   m_EditorClassIdentifier: 
   CardIndex: 3391
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 6
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Undead
   CardSpriteName: BT16-073
+  PrintID: BT16-073
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: <Retaliation>[On Play] <Draw 2> and trash 2 cards in your
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-073
   MaxCountInDeck: 4

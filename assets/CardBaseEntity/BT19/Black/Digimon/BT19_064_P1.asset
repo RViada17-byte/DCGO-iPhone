@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_064_P1
   m_EditorClassIdentifier: 
   CardIndex: 5047
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 6
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Cyborg
   CardSpriteName: BT19-064_P1
+  PrintID: BT19-064_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Justimon: Accel Arm]/[Justimon: Critical Arm]:
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 3
   OverflowMemory: 4
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-064
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT5_058
   m_EditorClassIdentifier: 
   CardIndex: 1016
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 13
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Mutant
   CardSpriteName: BT5-058
+  PrintID: BT5-058
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u226A\u5438\u53CE\u9032\u5316-2\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u624B\u672D\u306E\u3053\u306E\u30AB\u30FC\u30C9\u306B\u9032\u5316\u3059\u308B\u3068\u304D\u3001\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u30EC\u30B9\u30C8\u3055\u305B\u308B\u3053\u3068\u3067\u3001\u652F\u6255\u3046\u9032\u5316\u30B3\u30B9\u30C8\u3092-2\u3059\u308B\uFF09\u3010\u9032\u5316\u6642\u3011\u76F8\u624B\u306E\u30C6\u30A4\u30DE\u30FC\u5168\u3066\u3092\u30EC\u30B9\u30C8\u3055\u305B\u308B\u3002\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\u76F8\u624B\u306E\u30C6\u30A4\u30DE\u30FC\u5168\u3066\u306F\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u306A\u3089\u306A\u3044\u3002"
   EffectDiscription_ENG: "\uFF1CDigisorption -2\uFF1E (When one of your Digimon digivolves
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT5-058
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST2_08
   m_EditorClassIdentifier: 
   CardIndex: 56
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Beastkin
   CardSpriteName: ST2-08
+  PrintID: ST2-08
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST2-08
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_056
   m_EditorClassIdentifier: 
   CardIndex: 3605
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 7
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Machine
   CardSpriteName: BT17-056
+  PrintID: BT17-056
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[All Turns] [Once Per Turn] When an attack target is switched,
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-056
   MaxCountInDeck: 4

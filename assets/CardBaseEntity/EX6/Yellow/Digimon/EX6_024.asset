@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_024
   m_EditorClassIdentifier: 
   CardIndex: 3466
+  LegacyCardIndices: 
   cardColors: 0200000001000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Wizard
   CardSpriteName: EX6-024
+  PrintID: EX6-024
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Attacking] [Once Per Turn] 1 Digimon may
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX6-024
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_063_P1
   m_EditorClassIdentifier: 
   CardIndex: 3381
+  LegacyCardIndices: 
   cardColors: 0500000002000000
   PlayCost: 8
   EvoCosts:
@@ -39,6 +40,8 @@ MonoBehaviour:
   - Mutant
   - Angel
   CardSpriteName: BT16-063_P1
+  PrintID: BT16-063_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[DNA Digivolution] Black Lv.4 + yellow Lv.4: Cost 0 Digivolve
@@ -59,5 +62,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-063
   MaxCountInDeck: 4

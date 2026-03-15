@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_056
   m_EditorClassIdentifier: 
   CardIndex: 5370
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 3
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Unknown
   - LIBERATOR
   CardSpriteName: BT21-056
+  PrintID: BT21-056
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] By trashing 1 card with [Vemmon]\_in its text
@@ -51,6 +54,5 @@ MonoBehaviour:
   LinkDP: 0
   LinkEffect: '-'
   LinkRequirement: '-'
-  LinkCost: 0
   CardID: BT21-056
   MaxCountInDeck: 4

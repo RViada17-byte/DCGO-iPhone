@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_014
   m_EditorClassIdentifier: 
   CardIndex: 3322
+  LegacyCardIndices: 
   cardColors: 0000000002000000
   PlayCost: 13
   EvoCosts:
@@ -42,6 +43,8 @@ MonoBehaviour:
   - X Antibody
   - Four Great Dragons
   CardSpriteName: BT16-014
+  PrintID: BT16-014
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Digivolve] [Goldramon]: Cost 2<Raid> [When Digivolving]
@@ -56,5 +59,8 @@ MonoBehaviour:
   DP: 13000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-014
   MaxCountInDeck: 4

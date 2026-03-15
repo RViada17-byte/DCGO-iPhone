@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_056
   m_EditorClassIdentifier: 
   CardIndex: 7390
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 7
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Beastkin
   - CS
   CardSpriteName: BT23-056
+  PrintID: BT23-056
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.4 w/[CS]\_trait: Cost 3 \n\n\uFF1CBlocker\uFF1E

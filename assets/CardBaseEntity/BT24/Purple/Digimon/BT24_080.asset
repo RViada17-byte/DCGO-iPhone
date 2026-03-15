@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_080
   m_EditorClassIdentifier: 
   CardIndex: 7615
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 13
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Evil Dragon
   - Four Great Dragons
   CardSpriteName: BT24-080
+  PrintID: BT24-080
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Trash] [End of Your Turn] If you have 4 or fewer cards

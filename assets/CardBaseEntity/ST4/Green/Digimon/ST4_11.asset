@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST4_11
   m_EditorClassIdentifier: 
   CardIndex: 126
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Insectoid
   CardSpriteName: ST4-11
+  PrintID: ST4-11
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST4-11
   MaxCountInDeck: 4

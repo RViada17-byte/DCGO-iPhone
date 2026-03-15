@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_107_P2
   m_EditorClassIdentifier: 
   CardIndex: 4444
+  LegacyCardIndices: 
   cardColors: 0500000000000000
   PlayCost: 7
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: BT11-107_P2
+  PrintID: BT11-107_P2
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "When you would use this card, if you have a Digimon with
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-107
   MaxCountInDeck: 4

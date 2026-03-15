@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_001
   m_EditorClassIdentifier: 
   CardIndex: 7332
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: -1
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Flick
   CardSpriteName: BT23-001
+  PrintID: BT23-001
+  IsCanonicalPrint: 1
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '-'

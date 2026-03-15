@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT4_025_P1
   m_EditorClassIdentifier: 
   CardIndex: 798
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Warrior
   CardSpriteName: BT4-025_P1
+  PrintID: BT4-025_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: "\u624B\u672D\u306E\u3053\u306E\u30AB\u30FC\u30C9\u306F\u3001\u9752\u306E\u81EA\u5206\u306E\u30C6\u30A4\u30DE\u30FC\u3092\u9752\u306ELv.3\u306E\u30C7\u30B8\u30E2\u30F3\u3068\u3057\u3066\u6271\u3044\u9032\u5316\u3067\u304D\u308B\u3002"
   EffectDiscription_ENG: You may Digivolve this card from your hand onto one of your
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT4-025
   MaxCountInDeck: 4

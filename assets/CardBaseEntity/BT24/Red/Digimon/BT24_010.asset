@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_010
   m_EditorClassIdentifier: 
   CardIndex: 7529
+  LegacyCardIndices: 
   cardColors: 0000000005000000
   PlayCost: 5
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Titan
   - TS
   CardSpriteName: BT24-010
+  PrintID: BT24-010
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.3 w/[Agumon]\_in name or w/[TS]\_trait:

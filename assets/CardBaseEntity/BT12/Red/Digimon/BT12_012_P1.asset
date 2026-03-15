@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT12_012_P1
   m_EditorClassIdentifier: 
   CardIndex: 4462
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 6
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Wizard
   CardSpriteName: BT12-012_P1
+  PrintID: BT12-012_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][BurningGreymon]: Cost 1 \n\nYou may digivolve
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT12-012
   MaxCountInDeck: 4

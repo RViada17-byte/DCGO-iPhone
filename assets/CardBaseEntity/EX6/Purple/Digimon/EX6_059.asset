@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_059
   m_EditorClassIdentifier: 
   CardIndex: 3516
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 12
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Demon Lord
   - Seven Great Demon Lords
   CardSpriteName: EX6-059
+  PrintID: EX6-059
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CScapegoat\uFF1E (When this Digimon would be deleted
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX6-059
   MaxCountInDeck: 4

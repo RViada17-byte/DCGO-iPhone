@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_046
   m_EditorClassIdentifier: 
   CardIndex: 3763
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Machine Dragon
   CardSpriteName: EX7-046
+  PrintID: EX7-046
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] \uFF1CDe-Digivolve1\uFF1E 1 of your opponent's
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-046
   MaxCountInDeck: 4

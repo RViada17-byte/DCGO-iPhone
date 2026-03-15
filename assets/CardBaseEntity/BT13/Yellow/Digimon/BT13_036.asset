@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT13_036
   m_EditorClassIdentifier: 
   CardIndex: 2686
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Holy Beast
   CardSpriteName: BT13-036
+  PrintID: BT13-036
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011[\u30BF\u30FC\u30F3\u306B1\u56DE]\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u304C\u6E1B\u3063\u305F\u3068\u304D\u3001\u30E1\u30E2\u30EA\u30FC+1\u3002"
   EffectDiscription_ENG: '[Your Turn][Once Per Turn] When a card is removed from
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT13-036
   MaxCountInDeck: 4

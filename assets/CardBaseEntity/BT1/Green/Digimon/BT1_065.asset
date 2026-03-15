@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT1_065
   m_EditorClassIdentifier: 
   CardIndex: 230
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 2
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Vegetation
   CardSpriteName: BT1-065
+  PrintID: BT1-065
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT1-065
   MaxCountInDeck: 4

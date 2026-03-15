@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT14_013_P0
   m_EditorClassIdentifier: 
   CardIndex: 4639
+  LegacyCardIndices: 
   cardColors: 0000000003000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Dinosaur
   CardSpriteName: BT14-013_P0
+  PrintID: BT14-013_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] For the turn, when this Digimon
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT14-013
   MaxCountInDeck: 4

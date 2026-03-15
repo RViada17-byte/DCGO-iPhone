@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT12_018_P3
   m_EditorClassIdentifier: 
   CardIndex: 4475
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 12
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Holy Warrior
   - Royal Knight
   CardSpriteName: BT12-018_P3
+  PrintID: BT12-018_P3
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CRaid\uFF1E \n[When Digivolving] Delete 1 of your
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT12-018
   MaxCountInDeck: 4

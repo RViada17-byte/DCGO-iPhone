@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_059
   m_EditorClassIdentifier: 
   CardIndex: 7393
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 11
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - Hudie
   - CS
   CardSpriteName: BT23-059
+  PrintID: BT23-059
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Justimon: Accel Arm]/[Justimon: Critical Arm]:

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX4_024
   m_EditorClassIdentifier: 
   CardIndex: 2572
+  LegacyCardIndices: 
   cardColors: 0200000001000000
   PlayCost: 4
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Beastkin
   CardSpriteName: EX4-024
+  PrintID: EX4-024
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u9032\u5316:\u300C\u30DD\u30B3\u30E2\u30F3\u300D\u304B\u30890\u3010\u767B\u5834\u6642\u3011\u6B21\u306E\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u307E\u3067\u3001DP4000\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F32\u4F53\u306F\u30A2\u30BF\u30C3\u30AF\u3067\u304D\u306A\u3044\u3002"
   EffectDiscription_ENG: '[Digivolve][Viximon]: Cost 0[On Play] Until the end of
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX4-024
   MaxCountInDeck: 4

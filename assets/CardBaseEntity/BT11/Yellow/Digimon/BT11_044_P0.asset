@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_044_P0
   m_EditorClassIdentifier: 
   CardIndex: 4404
+  LegacyCardIndices: 
   cardColors: 0200000005000000
   PlayCost: 11
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Cyborg
   CardSpriteName: BT11-044_P0
+  PrintID: BT11-044_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] By Reveal the top 4 cards
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-044
   MaxCountInDeck: 4

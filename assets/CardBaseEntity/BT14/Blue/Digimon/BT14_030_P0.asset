@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT14_030_P0
   m_EditorClassIdentifier: 
   CardIndex: 4649
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 11
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Fairy
   CardSpriteName: BT14-030_P0
+  PrintID: BT14-030_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] By returning 1 of your opponent's
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT14-030
   MaxCountInDeck: 4

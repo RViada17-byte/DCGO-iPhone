@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST22_12
   m_EditorClassIdentifier: 
   CardIndex: 7503
+  LegacyCardIndices: 
   cardColors: 0000000001000000
   PlayCost: 6
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   Type_ENG:
   - Super Search
   CardSpriteName: ST22-12
+  PrintID: ST22-12
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[App Fusion] [Gatchmon] & [Navimon]\_& [Tweetmon]: Cost

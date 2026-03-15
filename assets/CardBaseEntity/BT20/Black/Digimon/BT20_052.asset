@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_052
   m_EditorClassIdentifier: 
   CardIndex: 5131
+  LegacyCardIndices: 
   cardColors: 0500000001000000
   PlayCost: 7
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Cyborg
   - LIBERATOR
   CardSpriteName: BT20-052
+  PrintID: BT20-052
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Cyborg]/[Machine]\_trait: Cost 3 \n\n[Security]
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-052
   MaxCountInDeck: 4

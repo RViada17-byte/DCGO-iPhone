@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_052
   m_EditorClassIdentifier: 
   CardIndex: 3601
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 3
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Reptile
   - SoC
   CardSpriteName: BT17-052
+  PrintID: BT17-052
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[All Turns] [Once Per Turn] When one of your [Kosuke Kisakata]
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-052
   MaxCountInDeck: 4

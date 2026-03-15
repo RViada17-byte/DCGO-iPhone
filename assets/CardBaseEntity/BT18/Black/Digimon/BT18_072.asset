@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_072
   m_EditorClassIdentifier: 
   CardIndex: 3929
+  LegacyCardIndices: 
   cardColors: 0500000002000000
   PlayCost: 11
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Ten Warriors
   - Insectoid
   CardSpriteName: BT18-072
+  PrintID: BT18-072
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.5 w/[Insectoid]\_trait: Cost 3 \n\n[On Play]
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-072
   MaxCountInDeck: 4

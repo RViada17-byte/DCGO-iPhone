@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_094_P0
   m_EditorClassIdentifier: 
   CardIndex: 4352
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 1
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: BT10-094_P0
+  PrintID: BT10-094_P0
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] 1 of your Digimon gets +2000 DP for the turn. Then,
@@ -43,5 +46,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-094
   MaxCountInDeck: 4

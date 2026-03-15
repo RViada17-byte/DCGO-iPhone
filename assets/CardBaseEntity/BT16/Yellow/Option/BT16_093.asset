@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_093
   m_EditorClassIdentifier: 
   CardIndex: 3421
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   - '-'
   Type_ENG: []
   CardSpriteName: BT16-093
+  PrintID: BT16-093
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: While you have a green Digimon, you may ignore this card's
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-093
   MaxCountInDeck: 4

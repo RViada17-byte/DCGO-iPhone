@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT2_019
   m_EditorClassIdentifier: 
   CardIndex: 390
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 11
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Holy Beast
   CardSpriteName: BT2-019
+  PrintID: BT2-019
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\u30D7\u30EC\u30A4\u30E4\u30FC\u306B\u30A2\u30BF\u30C3\u30AF\u3057\u305F\u3068\u304D\u3001\u30E1\u30E2\u30EA\u30FC\u3092+1\u3059\u308B\u3002"
   EffectDiscription_ENG: '[When Attacking] When this Digimon attacks a player, gain
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT2-019
   MaxCountInDeck: 4

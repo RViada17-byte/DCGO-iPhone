@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_101
   m_EditorClassIdentifier: 
   CardIndex: 3970
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 16
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Demon God
   CardSpriteName: BT18-101
+  PrintID: BT18-101
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Lucemon: Chaos Mode]: Cost 6 \n\n[When Digivolving]
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 16000
   rarity: 4
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-101
   MaxCountInDeck: 4

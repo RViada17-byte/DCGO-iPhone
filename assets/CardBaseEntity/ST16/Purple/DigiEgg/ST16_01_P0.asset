@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST16_01_P0
   m_EditorClassIdentifier: 
   CardIndex: 4943
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: -1
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Lesser
   CardSpriteName: ST16-01_P0
+  PrintID: ST16-01_P0
+  IsCanonicalPrint: 0
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '-'

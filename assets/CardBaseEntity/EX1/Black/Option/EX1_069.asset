@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX1_069
   m_EditorClassIdentifier: 
   CardIndex: 1371
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 1
   EvoCosts: []
@@ -26,6 +27,8 @@ MonoBehaviour:
   Type_JPN: []
   Type_ENG: []
   CardSpriteName: EX1-069
+  PrintID: EX1-069
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u7279\u5FB4\u306B\u300C\u30B5\u30A4\u30DC\u30FC\u30B0\u578B\u300D\u3092\u6301\u3064Lv.5\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u7834\u68C4\u3059\u308B\u3053\u3068\u3067\u3001\u30E1\u30E2\u30EA\u30FC\u3092+2\u3057\u3001\u226A1\u30C9\u30ED\u30FC\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u304B\u3089\u30AB\u30FC\u30C9\u30921\u679A\u5F15\u304F\uFF09\u3002"
   EffectDiscription_ENG: "[Main] You may trash 1 level 5 Digimon card with [Cyborg]

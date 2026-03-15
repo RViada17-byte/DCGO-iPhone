@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_048
   m_EditorClassIdentifier: 
   CardIndex: 3363
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 14
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Insectoid
   CardSpriteName: BT16-048
+  PrintID: BT16-048
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Digivolve] Lv.6 w/[Insectoid] trait and play cost 13 or
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 14000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-048
   MaxCountInDeck: 4

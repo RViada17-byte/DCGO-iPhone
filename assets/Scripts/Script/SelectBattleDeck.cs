@@ -56,6 +56,7 @@ public class SelectBattleDeck : MonoBehaviour
         }
 
         ProgressionManager.Instance.LoadOrCreate();
+        HashSet<string> unlockedCardIds = ProgressionManager.Instance.GetUnlockedCardIdSetSnapshot();
 
         foreach (CEntity_Base card in deck.AllDeckCards())
         {
@@ -64,7 +65,8 @@ public class SelectBattleDeck : MonoBehaviour
                 continue;
             }
 
-            if (!ProgressionManager.Instance.IsCardUnlocked(card.CardID))
+            string normalizedCardId = CardPrintCatalog.NormalizeCardId(card.CardID);
+            if (!string.IsNullOrEmpty(normalizedCardId) && !unlockedCardIds.Contains(normalizedCardId))
             {
                 return true;
             }
@@ -80,7 +82,8 @@ public class SelectBattleDeck : MonoBehaviour
             return false;
         }
 
-        if (deck.DeckCardIDs == null)
+        if ((deck.DeckCardRefs == null || deck.DeckCardRefs.Count == 0) &&
+            (deck.DeckCardIDs == null || deck.DeckCardIDs.Count == 0))
         {
             return false;
         }

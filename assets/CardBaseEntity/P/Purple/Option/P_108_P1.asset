@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_108_P1
   m_EditorClassIdentifier: 
   CardIndex: 10328
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 2
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: P-108_P1
+  PrintID: P-108_P1
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] Reveal the top 2 cards of your deck. Add 1 purple
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 0
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-108
   MaxCountInDeck: 4

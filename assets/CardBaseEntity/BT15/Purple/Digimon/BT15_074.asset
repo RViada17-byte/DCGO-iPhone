@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_074
   m_EditorClassIdentifier: 
   CardIndex: 3207
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Mollusk
   CardSpriteName: BT15-074
+  PrintID: BT15-074
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: ' (At blocker timing, by suspending this Digimon, it becomes
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-074
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_170
   m_EditorClassIdentifier: 
   CardIndex: 5183
+  LegacyCardIndices: 
   cardColors: 0000000006000000
   PlayCost: 13
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Dragonkin
   - Three Musketeers
   CardSpriteName: P-170
+  PrintID: P-170
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.5 w/[Three Musketeers]\_in text: Cost 4
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 13000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-170
   MaxCountInDeck: 4

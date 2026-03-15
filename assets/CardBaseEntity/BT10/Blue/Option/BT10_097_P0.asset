@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_097_P0
   m_EditorClassIdentifier: 
   CardIndex: 4354
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 5
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Blue Flare
   CardSpriteName: BT10-097_P0
+  PrintID: BT10-097_P0
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] Reveal the top 6 cards of your deck. You may add
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-097
   MaxCountInDeck: 4

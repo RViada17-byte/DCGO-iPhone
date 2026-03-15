@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_214_P1
   m_EditorClassIdentifier: 
   CardIndex: 7508
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Aquatic
   - X Antibody
   CardSpriteName: P-214_P1
+  PrintID: P-214_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Betamon]/[ModokiBetamon]: Cost 2 \n\n\uFF1CDecode

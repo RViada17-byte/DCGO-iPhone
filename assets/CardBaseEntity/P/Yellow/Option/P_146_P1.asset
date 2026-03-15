@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_146_P1
   m_EditorClassIdentifier: 
   CardIndex: 10304
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: P-146_P1
+  PrintID: P-146_P1
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you have a Tamer, you may ignore this card's color
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 0
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-146
   MaxCountInDeck: 4

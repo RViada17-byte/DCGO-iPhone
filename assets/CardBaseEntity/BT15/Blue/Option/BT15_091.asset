@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_091
   m_EditorClassIdentifier: 
   CardIndex: 3232
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   - "-\r"
   Type_ENG: []
   CardSpriteName: BT15-091
+  PrintID: BT15-091
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: While you have a Tamer with [Matt Ishida] in its name, you
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-091
   MaxCountInDeck: 4

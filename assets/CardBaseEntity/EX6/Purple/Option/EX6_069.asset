@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_069
   m_EditorClassIdentifier: 
   CardIndex: 3535
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Seven Great Demon Lords
   CardSpriteName: EX6-069
+  PrintID: EX6-069
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] You may place 1 Digimon card with the [Seven Great
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX6-069
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_022
   m_EditorClassIdentifier: 
   CardIndex: 5021
+  LegacyCardIndices: 
   cardColors: 0100000005000000
   PlayCost: 5
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Machine
   - Blue Flare
   CardSpriteName: BT19-022
+  PrintID: BT19-022
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CBlocker\uFF1E \n[On Deletion] You may place 1 Digimon
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-022
   MaxCountInDeck: 4

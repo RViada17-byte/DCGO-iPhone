@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT9_053
   m_EditorClassIdentifier: 
   CardIndex: 1841
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 8
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Wizard
   - Big Death-Stars
   CardSpriteName: BT9-053
+  PrintID: BT9-053
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 9000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT9-053
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT13_064_P0
   m_EditorClassIdentifier: 
   CardIndex: 4595
+  LegacyCardIndices: 
   cardColors: 0500000002000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Puppet
   CardSpriteName: BT13-064_P0
+  PrintID: BT13-064_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CBlocker\uFF1E \n[On Deletion] If it's your opponent's
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT13-064
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_043_P1
   m_EditorClassIdentifier: 
   CardIndex: 7042
+  LegacyCardIndices: 
   cardColors: 0300000002000000
   PlayCost: 3
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Beast
   - CS
   CardSpriteName: BT22-043_P1
+  PrintID: BT22-043_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.2 w/[CS]\_trait: Cost 0 \n\n[Your Turn]

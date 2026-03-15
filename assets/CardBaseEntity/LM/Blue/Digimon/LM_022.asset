@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: LM_022
   m_EditorClassIdentifier: 
   CardIndex: 4032
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 8
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Unknown
   CardSpriteName: LM-022
+  PrintID: LM-022
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Gabumon] while you have 2 or fewer security
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 14000
   rarity: 5
   OverflowMemory: 5
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: LM-022
   MaxCountInDeck: 4

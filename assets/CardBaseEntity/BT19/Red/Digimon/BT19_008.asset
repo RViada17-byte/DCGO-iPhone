@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_008
   m_EditorClassIdentifier: 
   CardIndex: 5009
+  LegacyCardIndices: 
   cardColors: 0000000002000000
   PlayCost: 4
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Mini Dragon
   - Xros Heart
   CardSpriteName: BT19-008
+  PrintID: BT19-008
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.2 w/[Xros Heart]\_trait: Cost 0 \n\n[On Play]
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-008
   MaxCountInDeck: 4

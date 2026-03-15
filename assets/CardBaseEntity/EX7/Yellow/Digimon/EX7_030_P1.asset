@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_030_P1
   m_EditorClassIdentifier: 
   CardIndex: 3732
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 12
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Puppet
   - LIBERATOR
   CardSpriteName: EX7-030_P1
+  PrintID: EX7-030_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1COverclock ([Puppet] trait)\uFF1E(At the end of your
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-030
   MaxCountInDeck: 4

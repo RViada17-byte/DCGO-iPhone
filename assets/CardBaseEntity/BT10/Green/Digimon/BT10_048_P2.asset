@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_048_P2
   m_EditorClassIdentifier: 
   CardIndex: 4321
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 4
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Vegetation
   CardSpriteName: BT10-048_P2
+  PrintID: BT10-048_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[When Digivolving] By suspending 1 of your green Digimon,
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 3000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-048
   MaxCountInDeck: 4

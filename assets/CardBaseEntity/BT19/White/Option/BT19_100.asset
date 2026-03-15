@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_100
   m_EditorClassIdentifier: 
   CardIndex: 5076
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: BT19-100
+  PrintID: BT19-100
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Security] [Opponent's Turn] When an opponent's Digimon
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-100
   MaxCountInDeck: 4

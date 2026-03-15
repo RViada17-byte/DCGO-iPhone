@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_048
   m_EditorClassIdentifier: 
   CardIndex: 3994
+  LegacyCardIndices: 
   cardColors: 0300000005000000
   PlayCost: 4
   EvoCosts:
@@ -39,6 +40,8 @@ MonoBehaviour:
   - LIBERATOR
   - Insectoid
   CardSpriteName: BT19-048
+  PrintID: BT19-048
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.3 w/[Royal Base]\_trait: Cost 2 \n\n[Security]
@@ -54,5 +57,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-048
   MaxCountInDeck: 4

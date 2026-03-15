@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_023
   m_EditorClassIdentifier: 
   CardIndex: 3983
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 7
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Aquatic
   CardSpriteName: BT19-023
+  PrintID: BT19-023
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CBlocker\uFF1E \n[On Play] [When Digivolving] 1 of
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-023
   MaxCountInDeck: 4

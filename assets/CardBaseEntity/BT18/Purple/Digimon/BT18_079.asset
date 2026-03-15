@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_079
   m_EditorClassIdentifier: 
   CardIndex: 3940
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 7
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Giant Bird
   CardSpriteName: BT18-079
+  PrintID: BT18-079
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Koichi Kimura]: Cost 3 [Digivolve][Duskmon]:
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-079
   MaxCountInDeck: 4

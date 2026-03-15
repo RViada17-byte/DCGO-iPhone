@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_058
   m_EditorClassIdentifier: 
   CardIndex: 7392
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 11
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - Royal Knight
   - CS
   CardSpriteName: BT23-058
+  PrintID: BT23-058
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.5 w/[CS]\_trait: Cost 3 \n\n\uFF1CReboot\uFF1E

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_047
   m_EditorClassIdentifier: 
   CardIndex: 3362
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 11
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Beastkin
   CardSpriteName: BT16-047
+  PrintID: BT16-047
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.5 w/[Pulsemon] in text: Cost 3[When Digivolving]
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-047
   MaxCountInDeck: 4

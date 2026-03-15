@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_085_P0
   m_EditorClassIdentifier: 
   CardIndex: 4430
+  LegacyCardIndices: 
   cardColors: 0600000001000000
   PlayCost: 8
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Aquatic
   CardSpriteName: BT11-085_P0
+  PrintID: BT11-085_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] [When Digivolving] You may play 1 purple or blue
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-085
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_069_P1
   m_EditorClassIdentifier: 
   CardIndex: 4184
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 2
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - NSp
   CardSpriteName: EX8-069_P1
+  PrintID: EX8-069_P1
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you have no face-up security cards, you may ignore
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-069
   MaxCountInDeck: 4

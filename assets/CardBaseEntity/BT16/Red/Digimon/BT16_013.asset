@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_013
   m_EditorClassIdentifier: 
   CardIndex: 3319
+  LegacyCardIndices: 
   cardColors: 0000000002000000
   PlayCost: 7
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Warrior
   CardSpriteName: BT16-013
+  PrintID: BT16-013
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Digivolve] [Silphymon]: Cost 3[Hand] [Counter] <Blast
@@ -54,5 +57,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 4
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-013
   MaxCountInDeck: 4

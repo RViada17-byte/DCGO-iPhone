@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_043
   m_EditorClassIdentifier: 
   CardIndex: 5354
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   Type_ENG:
   - SNS
   CardSpriteName: BT21-043
+  PrintID: BT21-043
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Security] At the end of the battle, play this card without

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_160
   m_EditorClassIdentifier: 
   CardIndex: 10447
+  LegacyCardIndices: 
   cardColors: 0000000003000000
   PlayCost: 6
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Dinosaur
   - X Antibody
   CardSpriteName: P-160
+  PrintID: P-160
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.4 w/[Tyrannomon]\_in name w/o [X Antibody]\_trait:
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-160
   MaxCountInDeck: 4

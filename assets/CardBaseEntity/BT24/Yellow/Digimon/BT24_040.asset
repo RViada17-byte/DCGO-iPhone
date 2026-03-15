@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_040
   m_EditorClassIdentifier: 
   CardIndex: 7566
+  LegacyCardIndices: 
   cardColors: 0200000001000000
   PlayCost: 12
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   - Iliad
   - TS
   CardSpriteName: BT24-040
+  PrintID: BT24-040
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.5 w/[TS]\_trait: Cost 3 \n\nWhen this card

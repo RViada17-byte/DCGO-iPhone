@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT6_040
   m_EditorClassIdentifier: 
   CardIndex: 1163
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 6
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Magic Warrior
   CardSpriteName: BT6-040
+  PrintID: BT6-040
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT6-040
   MaxCountInDeck: 4

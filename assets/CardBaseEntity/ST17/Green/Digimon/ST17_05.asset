@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST17_05
   m_EditorClassIdentifier: 
   CardIndex: 3274
+  LegacyCardIndices: 
   cardColors: 0300000005000000
   PlayCost: 6
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Beastkin
   CardSpriteName: ST17-05
+  PrintID: ST17-05
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.3 w/[Terriermon]/[Lopmon] in name: Cost
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST17-05
   MaxCountInDeck: 4

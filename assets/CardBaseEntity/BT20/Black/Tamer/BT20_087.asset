@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_087
   m_EditorClassIdentifier: 
   CardIndex: 5166
+  LegacyCardIndices: 
   cardColors: 0500000000000000
   PlayCost: 5
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Chronicle
   CardSpriteName: BT20-087
+  PrintID: BT20-087
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Turn] If you have 2 or less memory, set
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-087
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_026_P2
   m_EditorClassIdentifier: 
   CardIndex: 3337
+  LegacyCardIndices: 
   cardColors: 0100000005000000
   PlayCost: 7
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Beastkin
   CardSpriteName: BT16-026_P2
+  PrintID: BT16-026_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Digivolve] [Shakkoumon]/[Zudomon]: Cost 3[Hand] [Counter]
@@ -54,5 +57,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 4
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-026
   MaxCountInDeck: 4

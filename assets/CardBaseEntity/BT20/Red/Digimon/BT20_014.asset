@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_014
   m_EditorClassIdentifier: 
   CardIndex: 5093
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 7
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Dragonkin
   CardSpriteName: BT20-014
+  PrintID: BT20-014
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] Delete 1 of your opponent's
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-014
   MaxCountInDeck: 4

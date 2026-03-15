@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_034
   m_EditorClassIdentifier: 
   CardIndex: 3159
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Mammal
   CardSpriteName: BT15-034
+  PrintID: BT15-034
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Start of Your Main Phase] If you have 3 or more security
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-034
   MaxCountInDeck: 4

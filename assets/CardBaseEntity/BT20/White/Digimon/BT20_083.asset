@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_083
   m_EditorClassIdentifier: 
   CardIndex: 5162
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 5
   EvoCosts: []
@@ -31,6 +32,8 @@ MonoBehaviour:
   - X Antibody
   - LIBERATOR
   CardSpriteName: BT20-083
+  PrintID: BT20-083
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CBlocker\uFF1E \n[On Play] If you have 1 or fewer
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-083
   MaxCountInDeck: 4

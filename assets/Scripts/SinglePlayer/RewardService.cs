@@ -37,7 +37,7 @@ public static class RewardService
 
                 if (shouldGrantPromo)
                 {
-                    progressionManager.UnlockCard(session.RewardPromoCardIdOnWin, saveImmediately: false);
+                    progressionManager.UnlockCanonicalPrint(session.RewardPromoCardIdOnWin, saveImmediately: false);
                     progressionManager.MarkPromoClaimed(session.RewardPromoCardIdOnWin, saveImmediately: false);
                 }
             }
@@ -52,7 +52,7 @@ public static class RewardService
                 progressionManager.MarkBoardCompleted(session.ContentId, saveImmediately: false);
             }
 
-            progressionManager.Save();
+            progressionManager.Save("duel reward commit");
         }
 
         session.MarkRewardsGranted();

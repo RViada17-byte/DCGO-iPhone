@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT13_030_P0
   m_EditorClassIdentifier: 
   CardIndex: 4575
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 11
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Holy Warrior
   - Royal Knight
   CardSpriteName: BT13-030_P0
+  PrintID: BT13-030_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] For each of your Digimon with
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT13-030
   MaxCountInDeck: 4

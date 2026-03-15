@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_059
   m_EditorClassIdentifier: 
   CardIndex: 5138
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 13
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - X Antibody
   - Royal Knight
   CardSpriteName: BT20-059
+  PrintID: BT20-059
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Gankoomon]: Cost 2 \n\n[When Digivolving]
@@ -54,5 +57,8 @@ MonoBehaviour:
   DP: 13000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-059
   MaxCountInDeck: 4

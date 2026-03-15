@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX11_011_P1
   m_EditorClassIdentifier: 
   CardIndex: 7678
+  LegacyCardIndices: 
   cardColors: 0000000003000000
   PlayCost: 13
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Dinosaur
   - LIBERATOR
   CardSpriteName: EX11-011_P1
+  PrintID: EX11-011_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.5 w/[Tyrannomon]\_in name or w/[Dinosaur]\_trait:

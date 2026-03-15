@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_062
   m_EditorClassIdentifier: 
   CardIndex: 3379
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 8
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Beast Dragon
   CardSpriteName: BT16-062
+  PrintID: BT16-062
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Digivolve] Lv.4 w/[Gammamon] in text: Cost 3[On Play]
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-062
   MaxCountInDeck: 4

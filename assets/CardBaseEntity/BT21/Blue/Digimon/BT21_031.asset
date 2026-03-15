@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_031
   m_EditorClassIdentifier: 
   CardIndex: 5342
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 3
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - LIBERATOR
   - Aquatic
   CardSpriteName: BT21-031
+  PrintID: BT21-031
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Your Turn] When this Digimon would digivolve into a Digimon
@@ -49,6 +52,5 @@ MonoBehaviour:
   LinkDP: 0
   LinkEffect: '-'
   LinkRequirement: '-'
-  LinkCost: 0
   CardID: BT21-031
   MaxCountInDeck: 4

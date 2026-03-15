@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_064
   m_EditorClassIdentifier: 
   CardIndex: 2338
+  LegacyCardIndices: 
   cardColors: 0500000000000000
   PlayCost: 5
   EvoCosts:
@@ -40,6 +41,8 @@ MonoBehaviour:
   - Dinosaur
   - X Antibody
   CardSpriteName: BT11-064
+  PrintID: BT11-064
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u9032\u5316:\u300C\u30B0\u30EC\u30A4\u30E2\u30F3\u300D\u304B\u30890\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u540D\u79F0\u306B\u300C\u30B0\u30EC\u30A4\u30E2\u30F3\u300D\u3092\u542B\u3080\u30AB\u30FC\u30C9\u306B\u9032\u5316\u3059\u308B\u3068\u304D\u3001\u305D\u306E\u30AB\u30FC\u30C9\u306E\u82721\u8272\u3054\u3068\u306B\u652F\u6255\u3046\u30B3\u30B9\u30C8-1\u3002"
   EffectDiscription_ENG: 'Digivolve: 0 from [Greymon][Your Turn] When this Digimon

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_027
   m_EditorClassIdentifier: 
   CardIndex: 7359
+  LegacyCardIndices: 
   cardColors: 0200000001000000
   PlayCost: 5
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Hudie
   - CS
   CardSpriteName: BT23-027
+  PrintID: BT23-027
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Patamon]/Lv.3 w/[CS]\_trait: Cost 2 \n\n\uFF1CBarrier\uFF1E

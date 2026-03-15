@@ -48,7 +48,6 @@ public class ResultObject : MonoBehaviour
             if (!GManager.instance.IsAI)
             {
                 ContinuousController.instance.WinCount++;
-                ContinuousController.instance.SaveWinCount();
 
                 if (Surrendered)
                     ResultText.text = "The opponent has surrendered.";
@@ -120,5 +119,7 @@ public class ResultObject : MonoBehaviour
         {
             Debug.LogWarning($"RewardService: Failed to grant win rewards. {exception.Message}");
         }
+
+        ContinuousController.instance?.SaveCanonicalState("duel result");
     }
 }

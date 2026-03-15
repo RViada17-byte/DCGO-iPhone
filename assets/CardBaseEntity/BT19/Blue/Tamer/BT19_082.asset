@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_082
   m_EditorClassIdentifier: 
   CardIndex: 4019
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - LIBERATOR
   CardSpriteName: BT19-082
+  PrintID: BT19-082
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Turn] If you have 2 memory or less, set
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-082
   MaxCountInDeck: 4

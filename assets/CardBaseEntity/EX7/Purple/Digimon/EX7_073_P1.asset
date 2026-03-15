@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_073_P1
   m_EditorClassIdentifier: 
   CardIndex: 3814
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 12
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - X Antibody
   - Three Musketeers
   CardSpriteName: EX7-073_P1
+  PrintID: EX7-073_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.6 w/[Three Musketeers]\_trait w/o [X Antibody]\_trait:
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 4
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-073
   MaxCountInDeck: 4

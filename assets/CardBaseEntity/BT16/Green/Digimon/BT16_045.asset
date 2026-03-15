@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_045
   m_EditorClassIdentifier: 
   CardIndex: 3359
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Insectoid
   CardSpriteName: BT16-045
+  PrintID: BT16-045
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] [When Digivolving] You may suspend 1 Digimon.
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-045
   MaxCountInDeck: 4

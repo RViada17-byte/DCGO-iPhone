@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_087_P1
   m_EditorClassIdentifier: 
   CardIndex: 3652
+  LegacyCardIndices: 
   cardColors: 0200000000000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Tamer
   CardSpriteName: BT17-087_P1
+  PrintID: BT17-087_P1
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] 1 of your [Marcus Damon] is also treated as a
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-087
   MaxCountInDeck: 4

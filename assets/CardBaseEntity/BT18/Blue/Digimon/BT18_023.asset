@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_023
   m_EditorClassIdentifier: 
   CardIndex: 3877
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 5
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Fairy
   - Aquatic
   CardSpriteName: BT18-023
+  PrintID: BT18-023
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Calmaramon]: Cost 0 \n\n[On Play] [When Digivolving]
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-023
   MaxCountInDeck: 4

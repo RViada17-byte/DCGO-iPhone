@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_087
   m_EditorClassIdentifier: 
   CardIndex: 7629
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - App Driver
   - Appmon
   CardSpriteName: BT24-087
+  PrintID: BT24-087
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] If your opponent has a Digimon,

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST21_08
   m_EditorClassIdentifier: 
   CardIndex: 5286
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Vegetation
   - ADVENTURE
   CardSpriteName: ST21-08
+  PrintID: ST21-08
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.3 w/[ADVENTURE]\_trait: Cost 2 \n\n[On Play]
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST21-08
   MaxCountInDeck: 4

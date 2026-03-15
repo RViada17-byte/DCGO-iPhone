@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_012_P1
   m_EditorClassIdentifier: 
   CardIndex: 7280
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 11
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - Cyborg
   - Dark Masters
   CardSpriteName: EX10-012_P1
+  PrintID: EX10-012_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Hand] [Main] If you don't have any Digimon other than

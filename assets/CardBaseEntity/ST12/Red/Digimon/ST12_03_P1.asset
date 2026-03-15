@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST12_03_P1
   m_EditorClassIdentifier: 
   CardIndex: 4905
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 3
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Machine
   CardSpriteName: ST12-03_P1
+  PrintID: ST12-03_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[All Turns] Players can''t reduce play costs.'
@@ -43,5 +46,8 @@ MonoBehaviour:
   DP: 3000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST12-03
   MaxCountInDeck: 4

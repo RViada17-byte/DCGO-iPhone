@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_027
   m_EditorClassIdentifier: 
   CardIndex: 3878
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 8
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Aquabeast
   CardSpriteName: BT18-027
+  PrintID: BT18-027
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[When Attacking] You may play 1 blue level 3 Digimon card
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-027
   MaxCountInDeck: 4

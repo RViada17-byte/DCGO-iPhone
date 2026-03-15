@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX9_036_P1
   m_EditorClassIdentifier: 
   CardIndex: 6905
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Vegetation
   - WG
   CardSpriteName: EX9-036_P1
+  PrintID: EX9-036_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.2 w/[WG]\_trait: Cost 0 \n\n[Your Turn]

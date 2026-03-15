@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_074_P2
   m_EditorClassIdentifier: 
   CardIndex: 4198
+  LegacyCardIndices: 
   cardColors: 0300000000000000
   PlayCost: 11
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Witchelny
   - Vortex Warriors
   CardSpriteName: EX8-074_P2
+  PrintID: EX8-074_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "When this card would be played, by suspending 2 Digimon,
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 4
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-074
   MaxCountInDeck: 4

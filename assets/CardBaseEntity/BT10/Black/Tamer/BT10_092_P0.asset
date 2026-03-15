@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_092_P0
   m_EditorClassIdentifier: 
   CardIndex: 4349
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 3
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - General
   - Twilight
   CardSpriteName: BT10-092_P0
+  PrintID: BT10-092_P0
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] Reveal the top 4 cards of your deck. Add 1 card
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-092
   MaxCountInDeck: 4

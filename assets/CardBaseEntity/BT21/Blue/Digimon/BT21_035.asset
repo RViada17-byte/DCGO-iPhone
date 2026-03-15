@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_035
   m_EditorClassIdentifier: 
   CardIndex: 5346
+  LegacyCardIndices: 
   cardColors: 0100000000000000
   PlayCost: 6
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Dragonkin
   CardSpriteName: BT21-035
+  PrintID: BT21-035
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Veemon]: Cost 2 \n\n\uFF1CArmor Purge\uFF1E
@@ -52,6 +55,5 @@ MonoBehaviour:
   LinkDP: 0
   LinkEffect: '-'
   LinkRequirement: '-'
-  LinkCost: 0
   CardID: BT21-035
   MaxCountInDeck: 4

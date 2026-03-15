@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT1_107_P2
   m_EditorClassIdentifier: 
   CardIndex: 304
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 6
   EvoCosts: []
@@ -26,6 +27,8 @@ MonoBehaviour:
   Type_JPN: []
   Type_ENG: []
   CardSpriteName: BT1-107_P2
+  PrintID: BT1-107_P2
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u226A\u30EA\u30AB\u30D0\u30EA\u30FC+1\u300A\u30C7\u30C3\u30AD\u300B\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u3089\u30AB\u30FC\u30C9\u30921\u679A\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u306E\u4E0A\u306B\u7F6E\u304F\uFF09"
   EffectDiscription_ENG: "[Main] Trigger \uFF1CRecovery +1 (Deck)\uFF1E. (Place the

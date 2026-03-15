@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST17_11_P2
   m_EditorClassIdentifier: 
   CardIndex: 4970
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: ST17-11_P2
+  PrintID: ST17-11_P2
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] Reveal the top 3 cards of your deck. Add 1 green
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST17-11
   MaxCountInDeck: 4

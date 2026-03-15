@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_019_P1
   m_EditorClassIdentifier: 
   CardIndex: 3712
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 5
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - Witchelny
   - Ice-Snow
   CardSpriteName: EX7-019_P1
+  PrintID: EX7-019_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CBlocker\uFF1E \n[On Play] If your opponent has no
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-019
   MaxCountInDeck: 4

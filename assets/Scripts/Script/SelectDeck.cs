@@ -109,7 +109,10 @@ public class SelectDeck : OffAnimation
             lastBattleDeckDataIndex = ContinuousController.instance.DeckDatas.IndexOf(ContinuousController.instance.LastBattleDeckData);
         }
 
-        ContinuousController.instance.ModifyAllDeckDatas();
+        if (NeedsDeckNormalization())
+        {
+            ContinuousController.instance.ModifyAllDeckDatas();
+        }
 
         if (0 <= lastBattleDeckDataIndex && lastBattleDeckDataIndex <= ContinuousController.instance.DeckDatas.Count - 1)
         {
@@ -241,6 +244,39 @@ public class SelectDeck : OffAnimation
             yield return new WaitForSeconds(Time.deltaTime);
             deckInfoPrefabParentScroll.verticalNormalizedPosition = 1;
         }
+    }
+
+    bool NeedsDeckNormalization()
+    {
+        if (ContinuousController.instance == null || ContinuousController.instance.DeckDatas == null)
+        {
+            return false;
+        }
+
+        foreach (DeckData deckData in ContinuousController.instance.DeckDatas)
+        {
+            if (deckData == null)
+            {
+                continue;
+            }
+
+            bool mainDeckNeedsRefs =
+                (deckData.DeckCardRefs == null || deckData.DeckCardRefs.Count == 0) &&
+                deckData.DeckCardIDs != null &&
+                deckData.DeckCardIDs.Count > 0;
+
+            bool digitamaDeckNeedsRefs =
+                (deckData.DigitamaDeckCardRefs == null || deckData.DigitamaDeckCardRefs.Count == 0) &&
+                deckData.DigitamaDeckCardIDs != null &&
+                deckData.DigitamaDeckCardIDs.Count > 0;
+
+            if (mainDeckNeedsRefs || digitamaDeckNeedsRefs)
+            {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     void ApplyIPhoneFullscreenLayout(bool force = false)

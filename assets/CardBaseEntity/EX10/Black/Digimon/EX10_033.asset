@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_033
   m_EditorClassIdentifier: 
   CardIndex: 7194
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 11
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Mineral
   - LIBERATOR
   CardSpriteName: EX10-033
+  PrintID: EX10-033
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CFragment (3)\uFF1E \n[When Digivolving] [When Attacking]

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST19_08
   m_EditorClassIdentifier: 
   CardIndex: 3840
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 6
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Puppet
   - LIBERATOR
   CardSpriteName: ST19-08
+  PrintID: ST19-08
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Security] You may play 1 card with the [LIBERATOR]\_trait
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST19-08
   MaxCountInDeck: 4

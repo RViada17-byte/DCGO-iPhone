@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT1_009
   m_EditorClassIdentifier: 
   CardIndex: 143
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 2
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Mini Dragon
   CardSpriteName: BT1-009
+  PrintID: BT1-009
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 3000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT1-009
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT7_080_P1
   m_EditorClassIdentifier: 
   CardIndex: 1503
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 3
   EvoCosts: []
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Beast
   CardSpriteName: BT7-080_P1
+  PrintID: BT7-080_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u9032\u5316\u5143\u52B9\u679C\u3092\u6301\u3064\u30C6\u30A4\u30DE\u30FC\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u9032\u5316\u5143\u306B\u30C6\u30A4\u30DE\u30FC\u30AB\u30FC\u30C9\u3092\u6301\u3064\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u6D88\u6EC5\u3057\u305F\u3068\u304D\u3001\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u30C6\u30A4\u30DE\u30FC\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002"
   EffectDiscription_ENG: '[On Play] You may play 1 Tamer card with an inherited effect
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT7-080
   MaxCountInDeck: 4

@@ -6,13 +6,16 @@ public class StarterDeck : MonoBehaviour
 {
     public List<StarterDeckData> starterDeckDatas = new List<StarterDeckData>();
 
-    public void SetStarterDecks()
+    public bool SetStarterDecks()
     {
+        bool changed = false;
+
         if (ContinuousController.instance.DeckDatas.Count == 0)
         {
             foreach (StarterDeckData starterDeckData in starterDeckDatas)
             {
                 starterDeckData.AddDeckData();
+                changed = true;
             }
         }
 
@@ -23,9 +26,12 @@ public class StarterDeck : MonoBehaviour
                 if(!starterDeckData.HasPlayerPrefs())
                 {
                     starterDeckData.AddDeckData();
+                    changed = true;
                 }
             }
         }
+
+        return changed;
     }
 }
 
@@ -39,19 +45,11 @@ public class StarterDeckData
     {
         string deckCode = ContinuousController.instance.ShuffleDeckCode.GetDeckCode(DeckCode);
         ContinuousController.instance.DeckDatas.Add(new DeckData(deckCode));
-        PlayerPrefs.SetInt(Key, 2);
+        GameSaveManager.RecordStarterDeckGrant(Key);
     }
 
     public bool HasPlayerPrefs()
     {
-        if(PlayerPrefs.HasKey(Key))
-        {
-            if(PlayerPrefs.GetInt(Key) == 2)
-            {
-                return true;
-            }
-        }
-
-        return false;
+        return GameSaveManager.HasStarterDeckGrant(Key, ContinuousController.instance);
     }
 }

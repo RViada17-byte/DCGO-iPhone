@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_068
   m_EditorClassIdentifier: 
   CardIndex: 7403
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 13
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Dark Animal
   - CS
   CardSpriteName: BT23-068
+  PrintID: BT23-068
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.5 w/[Undead]/[CS]\_trait: Cost 4 \n\n[Start

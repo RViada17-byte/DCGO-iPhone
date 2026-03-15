@@ -1,12 +1,12 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text.RegularExpressions;
 using UnityEngine;
 
 public class ShopPurchaseCardResult
 {
     public string CardId;
+    public string PrintId;
     public string CardName;
     public int Count = 1;
     public bool IsNew;
@@ -30,9 +30,9 @@ public class PackPullResult
 
 public static class ShopService
 {
-    private static readonly Regex ParallelSuffixRegex = new Regex(@"([_-])P\d+$", RegexOptions.IgnoreCase | RegexOptions.Compiled);
     private const string PackResultsDialogTitle = "Pack Open Results";
     private const string DeckResultsDialogTitle = "Deck Purchase Results";
+    private static bool _hasReconciledPurchasedStructureDecksThisSession;
 
     public static bool IsProductUnlocked(ShopProductDef product)
     {
@@ -152,6 +152,11 @@ public static class ShopService
 
     public static void ReconcilePurchasedStructureDecks()
     {
+        if (_hasReconciledPurchasedStructureDecksThisSession)
+        {
+            return;
+        }
+
         ContinuousController controller = ContinuousController.instance;
         if (controller == null || controller.CardList == null || controller.CardList.Length == 0)
         {
@@ -188,8 +193,10 @@ public static class ShopService
 
         if (saveProfile)
         {
-            ProgressionManager.Instance.Save();
+            ProgressionManager.Instance.Save("shop reconciliation");
         }
+
+        _hasReconciledPurchasedStructureDecksThisSession = true;
     }
 
     private static ShopPurchaseResult PurchasePack(ShopProductDef product)
@@ -206,7 +213,7 @@ public static class ShopService
             return Failure("Not enough currency.");
         }
 
-        HashSet<string> unlockedCardIds = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+        HashSet<string> unlockedPrintIds = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
         List<CEntity_Base> newlyUnlockedCards = new List<CEntity_Base>();
         int ownedPullCount = 0;
         ShopPurchaseResult result = Success(product.repeatable
@@ -222,7 +229,7 @@ public static class ShopService
                 continue;
             }
 
-            unlockedCardIds.Add(pull.Card.CardID);
+            unlockedPrintIds.Add(pull.Card.EffectivePrintID);
             if (pull.WasNew)
             {
                 newlyUnlockedCards.Add(pull.Card);
@@ -239,13 +246,13 @@ public static class ShopService
 
         result.SummaryLine = BuildUnlockSummary(newlyUnlockedCards, ownedPullCount);
 
-        ProgressionManager.Instance.UnlockCards(unlockedCardIds, saveImmediately: false);
+        ProgressionManager.Instance.UnlockPrints(unlockedPrintIds, saveImmediately: false);
         if (!product.repeatable)
         {
             ProgressionManager.Instance.MarkProductPurchased(product.id, saveImmediately: false);
         }
 
-        ProgressionManager.Instance.Save();
+        ProgressionManager.Instance.Save("pack opening committed");
         return result;
     }
 
@@ -267,7 +274,7 @@ public static class ShopService
             return Failure("Not enough currency.");
         }
 
-        HashSet<string> unlockedCardIds = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+        HashSet<string> unlockedPrintIds = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
         List<CEntity_Base> newlyUnlockedCards = new List<CEntity_Base>();
         int alreadyOwnedCount = 0;
         ShopPurchaseResult result = Success($"Purchased {GetProductTitle(product)}.");
@@ -284,7 +291,7 @@ public static class ShopService
             }
 
             bool wasNew = !ProgressionManager.Instance.IsCardUnlocked(card.CardID);
-            unlockedCardIds.Add(card.CardID);
+            unlockedPrintIds.Add(card.EffectivePrintID);
             wasNewById[card.CardID] = wasNew;
             if (wasNew)
             {
@@ -299,10 +306,10 @@ public static class ShopService
         result.SummaryLine = BuildUnlockSummary(newlyUnlockedCards, alreadyOwnedCount);
         AddStructureDeckCardResults(result, product, wasNewById);
 
-        ProgressionManager.Instance.UnlockCards(unlockedCardIds, saveImmediately: false);
+        ProgressionManager.Instance.UnlockPrints(unlockedPrintIds, saveImmediately: false);
         ProgressionManager.Instance.MarkProductPurchased(product.id, saveImmediately: false);
         EnsureStructureDeckExists(controller, deckData);
-        ProgressionManager.Instance.Save();
+        ProgressionManager.Instance.Save("structure deck purchase committed");
         return result;
     }
 
@@ -349,8 +356,8 @@ public static class ShopService
             return false;
         }
 
-        List<int> mainDeckCardIndexes = new List<int>();
-        List<int> eggDeckCardIndexes = new List<int>();
+        List<CEntity_Base> mainDeckCards = new List<CEntity_Base>();
+        List<CEntity_Base> eggDeckCards = new List<CEntity_Base>();
 
         foreach (string rawCardId in cardIds)
         {
@@ -368,23 +375,23 @@ public static class ShopService
 
             if (card.cardKind == CardKind.DigiEgg)
             {
-                eggDeckCardIndexes.Add(card.CardIndex);
+                eggDeckCards.Add(card);
             }
             else
             {
-                mainDeckCardIndexes.Add(card.CardIndex);
+                mainDeckCards.Add(card);
             }
         }
 
-        if (mainDeckCardIndexes.Count != 50)
+        if (mainDeckCards.Count != 50)
         {
-            error = $"{deckName} resolves to {mainDeckCardIndexes.Count} main-deck cards instead of 50.";
+            error = $"{deckName} resolves to {mainDeckCards.Count} main-deck cards instead of 50.";
             return false;
         }
 
-        if (eggDeckCardIndexes.Count > 5)
+        if (eggDeckCards.Count > 5)
         {
-            error = $"{deckName} resolves to {eggDeckCardIndexes.Count} digi-eggs instead of 0-5.";
+            error = $"{deckName} resolves to {eggDeckCards.Count} digi-eggs instead of 0-5.";
             return false;
         }
 
@@ -392,10 +399,8 @@ public static class ShopService
         {
             DeckName = string.IsNullOrWhiteSpace(deckName) ? "Story Duel" : deckName.Trim(),
             DeckID = "story-" + Guid.NewGuid().ToString("N"),
-            DeckCardIDs = mainDeckCardIndexes,
-            DigitamaDeckCardIDs = eggDeckCardIndexes,
-            KeyCardId = mainDeckCardIndexes.Count > 0 ? mainDeckCardIndexes[0] : -1,
         };
+        deckData.SetDeckCardsFromResolvedCards(mainDeckCards, eggDeckCards, mainDeckCards.FirstOrDefault());
 
         return true;
     }
@@ -416,8 +421,8 @@ public static class ShopService
             return false;
         }
 
-        List<int> mainDeckCardIndexes = new List<int>();
-        List<int> eggDeckCardIndexes = new List<int>();
+        List<CEntity_Base> mainDeckCards = new List<CEntity_Base>();
+        List<CEntity_Base> eggDeckCards = new List<CEntity_Base>();
         HashSet<string> seenCardIds = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
 
         for (int index = 0; index < product.structureDeckCards.Length; index++)
@@ -440,22 +445,28 @@ public static class ShopService
                 uniqueCards.Add(card);
             }
 
-            List<int> target = card.cardKind == CardKind.DigiEgg ? eggDeckCardIndexes : mainDeckCardIndexes;
             for (int count = 0; count < cardDef.count; count++)
             {
-                target.Add(card.CardIndex);
+                if (card.cardKind == CardKind.DigiEgg)
+                {
+                    eggDeckCards.Add(card);
+                }
+                else
+                {
+                    mainDeckCards.Add(card);
+                }
             }
         }
 
-        if (mainDeckCardIndexes.Count != 50)
+        if (mainDeckCards.Count != 50)
         {
-            error = $"{GetProductTitle(product)} resolves to {mainDeckCardIndexes.Count} main-deck cards instead of 50.";
+            error = $"{GetProductTitle(product)} resolves to {mainDeckCards.Count} main-deck cards instead of 50.";
             return false;
         }
 
-        if (eggDeckCardIndexes.Count > 5)
+        if (eggDeckCards.Count > 5)
         {
-            error = $"{GetProductTitle(product)} resolves to {eggDeckCardIndexes.Count} digi-eggs instead of 0-5.";
+            error = $"{GetProductTitle(product)} resolves to {eggDeckCards.Count} digi-eggs instead of 0-5.";
             return false;
         }
 
@@ -463,10 +474,8 @@ public static class ShopService
         {
             DeckName = string.IsNullOrWhiteSpace(product.deckName) ? GetProductTitle(product) : product.deckName.Trim(),
             DeckID = BuildStructureDeckId(product.id),
-            DeckCardIDs = mainDeckCardIndexes,
-            DigitamaDeckCardIDs = eggDeckCardIndexes,
-            KeyCardId = mainDeckCardIndexes.Count > 0 ? mainDeckCardIndexes[0] : -1,
         };
+        deckData.SetDeckCardsFromResolvedCards(mainDeckCards, eggDeckCards, mainDeckCards.FirstOrDefault());
 
         return true;
     }
@@ -496,7 +505,77 @@ public static class ShopService
             return;
         }
 
+        if (!StructureDeckNeedsUpdate(existingDeck, deckData))
+        {
+            return;
+        }
+
+        existingDeck.DeckName = deckData.DeckName;
+        existingDeck.DeckID = deckData.DeckID;
+        existingDeck.SetStoredDeckRefs(
+            deckData.GetStoredMainDeckRefs(),
+            deckData.GetStoredDigitamaDeckRefs(),
+            deckData.GetStoredKeyCardRef());
         controller.SaveDeckData(existingDeck);
+    }
+
+    private static bool StructureDeckNeedsUpdate(DeckData existingDeck, DeckData authoredDeck)
+    {
+        if (existingDeck == null || authoredDeck == null)
+        {
+            return false;
+        }
+
+        if (!string.Equals(existingDeck.DeckName, authoredDeck.DeckName, StringComparison.Ordinal))
+        {
+            return true;
+        }
+
+        if (!CardPrintRefsEqual(existingDeck.GetStoredMainDeckRefs(), authoredDeck.GetStoredMainDeckRefs()))
+        {
+            return true;
+        }
+
+        if (!CardPrintRefsEqual(existingDeck.GetStoredDigitamaDeckRefs(), authoredDeck.GetStoredDigitamaDeckRefs()))
+        {
+            return true;
+        }
+
+        return !CardPrintRefsEqual(existingDeck.GetStoredKeyCardRef(), authoredDeck.GetStoredKeyCardRef());
+    }
+
+    private static bool CardPrintRefsEqual(IReadOnlyList<CardPrintRef> left, IReadOnlyList<CardPrintRef> right)
+    {
+        int leftCount = left?.Count ?? 0;
+        int rightCount = right?.Count ?? 0;
+        if (leftCount != rightCount)
+        {
+            return false;
+        }
+
+        for (int index = 0; index < leftCount; index++)
+        {
+            if (!CardPrintRefsEqual(left[index], right[index]))
+            {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    private static bool CardPrintRefsEqual(CardPrintRef left, CardPrintRef right)
+    {
+        string leftCardId = CardPrintCatalog.NormalizeCardId(left?.CardId);
+        string rightCardId = CardPrintCatalog.NormalizeCardId(right?.CardId);
+        if (!string.Equals(leftCardId, rightCardId, StringComparison.OrdinalIgnoreCase))
+        {
+            return false;
+        }
+
+        string leftPrintId = CardPrintCatalog.NormalizeStoredPrintId(left?.PrintId);
+        string rightPrintId = CardPrintCatalog.NormalizeStoredPrintId(right?.PrintId);
+        return string.Equals(leftPrintId, rightPrintId, StringComparison.OrdinalIgnoreCase);
     }
 
     private static void AddStructureDeckCardResults(
@@ -546,42 +625,7 @@ public static class ShopService
 
     private static CEntity_Base ResolveCard(string cardId)
     {
-        ContinuousController controller = ContinuousController.instance;
-        if (controller?.CardList == null)
-        {
-            return null;
-        }
-
-        string normalizedCardId = NormalizeCardCode(cardId);
-        return controller.CardList
-            .Where(card => card != null)
-            .Where(card =>
-                NormalizeCardCode(card.CardID) == normalizedCardId ||
-                NormalizeCardCode(card.CardSpriteName) == normalizedCardId)
-            .OrderByDescending(card => IsCanonicalSprite(card, normalizedCardId))
-            .ThenBy(card => card.CardIndex)
-            .FirstOrDefault();
-    }
-
-    private static bool IsCanonicalSprite(CEntity_Base card, string normalizedCardId)
-    {
-        if (card == null)
-        {
-            return false;
-        }
-
-        string normalizedSpriteName = NormalizeCardCode(ParallelSuffixRegex.Replace(card.CardSpriteName ?? string.Empty, ""));
-        return normalizedSpriteName == normalizedCardId;
-    }
-
-    private static string NormalizeCardCode(string cardCode)
-    {
-        if (string.IsNullOrWhiteSpace(cardCode))
-        {
-            return string.Empty;
-        }
-
-        return cardCode.Trim().Replace("_", "-").ToUpperInvariant();
+        return CardPrintCatalog.ResolveCardOrPrint(cardId);
     }
 
     private static string BuildStructureDeckId(string productId)
@@ -644,6 +688,7 @@ public static class ShopService
         return new ShopPurchaseCardResult
         {
             CardId = card?.CardID ?? string.Empty,
+            PrintId = card?.EffectivePrintID ?? string.Empty,
             CardName = GetCardDisplayName(card),
             Count = Mathf.Max(0, count),
             IsNew = isNew,

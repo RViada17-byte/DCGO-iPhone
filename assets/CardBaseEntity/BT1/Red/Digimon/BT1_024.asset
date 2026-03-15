@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT1_024
   m_EditorClassIdentifier: 
   CardIndex: 166
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Cyborg
   CardSpriteName: BT1-024
+  PrintID: BT1-024
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 10000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT1-024
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_054
   m_EditorClassIdentifier: 
   CardIndex: 3909
+  LegacyCardIndices: 
   cardColors: 0300000000000000
   PlayCost: 11
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Ancient Birdkin
   - Ten Warriors
   CardSpriteName: BT18-054
+  PrintID: BT18-054
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] Suspend all of your opponent's
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-054
   MaxCountInDeck: 4

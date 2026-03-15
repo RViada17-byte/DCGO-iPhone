@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT14_078_P1
   m_EditorClassIdentifier: 
   CardIndex: 4684
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 7
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - X Antibody
   - SoC
   CardSpriteName: BT14-078_P1
+  PrintID: BT14-078_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[End of Your Turn] Delete this Digimon and \uFF1CDraw 2\uFF1E.
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 9000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT14-078
   MaxCountInDeck: 4

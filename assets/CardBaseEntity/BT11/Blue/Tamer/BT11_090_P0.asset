@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_090_P0
   m_EditorClassIdentifier: 
   CardIndex: 4434
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Tamer
   CardSpriteName: BT11-090_P0
+  PrintID: BT11-090_P0
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] 1 of your Digimon with [Gaomon]/[Gaogamon]\_in
@@ -42,5 +45,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-090
   MaxCountInDeck: 4

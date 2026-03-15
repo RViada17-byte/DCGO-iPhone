@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_101
   m_EditorClassIdentifier: 
   CardIndex: 7455
+  LegacyCardIndices: 
   cardColors: 0300000002000000
   PlayCost: 7
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Hudie
   - CS
   CardSpriteName: BT23-101
+  PrintID: BT23-101
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.3 w/[CS]\_trait: Cost 4\n[Digivolve] While

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_088
   m_EditorClassIdentifier: 
   CardIndex: 7437
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - CS
   CardSpriteName: BT23-088
+  PrintID: BT23-088
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] By trashing 1 card with the

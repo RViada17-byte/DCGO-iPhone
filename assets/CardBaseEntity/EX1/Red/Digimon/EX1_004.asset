@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX1_004
   m_EditorClassIdentifier: 
   CardIndex: 1264
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Dinosaur
   CardSpriteName: EX1-004
+  PrintID: EX1-004
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX1-004
   MaxCountInDeck: 4

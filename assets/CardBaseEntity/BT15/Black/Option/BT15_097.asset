@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_097
   m_EditorClassIdentifier: 
   CardIndex: 3238
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 5
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   - "-\r"
   Type_ENG: []
   CardSpriteName: BT15-097
+  PrintID: BT15-097
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Main] By trashing 1 Digimon card with the [Machine]/[Cyborg]/[SoC]
@@ -42,5 +45,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-097
   MaxCountInDeck: 4

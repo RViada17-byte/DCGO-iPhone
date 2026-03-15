@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_080_P0
   m_EditorClassIdentifier: 
   CardIndex: 4338
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 7
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Undead
   - X Antibody
   CardSpriteName: BT10-080_P0
+  PrintID: BT10-080_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "When this card is trashed from your hand by one of your
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-080
   MaxCountInDeck: 4

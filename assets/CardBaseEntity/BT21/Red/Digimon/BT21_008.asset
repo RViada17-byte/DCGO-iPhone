@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_008
   m_EditorClassIdentifier: 
   CardIndex: 5314
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 3
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Reptile
   - LIBERATOR
   CardSpriteName: BT21-008
+  PrintID: BT21-008
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] Reveal the top 3 cards of your deck. Add 1 card
@@ -50,6 +53,5 @@ MonoBehaviour:
   LinkDP: 0
   LinkEffect: '-'
   LinkRequirement: '-'
-  LinkCost: 0
   CardID: BT21-008
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX4_050
   m_EditorClassIdentifier: 
   CardIndex: 2604
+  LegacyCardIndices: 
   cardColors: 0500000002000000
   PlayCost: 12
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Seraph
   CardSpriteName: EX4-050
+  PrintID: EX4-050
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u9032\u5316:\u300C\u30BB\u30E9\u30D5\u30A3\u30E2\u30F3\u300D\u304B\u3089\uFF11\u3010\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u3011\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u304C\u6E1B\u3063\u305F\u3068\u304D\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u226A\u9000\u53161\u226B\u3002\u3010\u6D88\u6EC5\u6642\u3011\u226A\u30EA\u30AB\u30D0\u30EA\u30FC+1\u300A\u30C7\u30C3\u30AD\u300B\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u30891\u679A\u3092\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u306E\u4E0A\u306B\u7F6E\u304F\uFF09\u3002\u305D\u306E\u5F8C\u3001\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A31\u679A\u3054\u3068\u306B\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092DP-4000\u3002"
   EffectDiscription_ENG: "Digivolve: 1 from [Seraphimon][Opponent's Turn] When a
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX4-050
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_083
   m_EditorClassIdentifier: 
   CardIndex: 7619
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - TS
   CardSpriteName: BT24-083
+  PrintID: BT24-083
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Turn] If you have 4 or less memory, by returning

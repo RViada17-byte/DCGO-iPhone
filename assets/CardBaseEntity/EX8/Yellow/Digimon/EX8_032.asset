@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_032
   m_EditorClassIdentifier: 
   CardIndex: 4109
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Beastkin
   - NSo
   CardSpriteName: EX8-032
+  PrintID: EX8-032
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.3 w/[NSo]\_trait: Cost 2 "
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-032
   MaxCountInDeck: 4

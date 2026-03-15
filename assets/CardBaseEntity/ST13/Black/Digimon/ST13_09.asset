@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST13_09
   m_EditorClassIdentifier: 
   CardIndex: 2809
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 3
   EvoCosts:
@@ -40,6 +41,8 @@ MonoBehaviour:
   - Armor
   - Legend-Arms
   CardSpriteName: ST13-09
+  PrintID: ST13-09
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u7279\u5FB4\u306B\u300CLegend-Arms\u300D\u3092\u6301\u3064\u304B\u8D64\u306E\u4ED6\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306E\u9032\u5316\u5143\u306E\u4E0B\u306B\u7F6E\u304F\u3053\u3068\u3067\u3001\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u30891\u679A\u30AA\u30FC\u30D7\u30F3\u3059\u308B\u3002\u305D\u306E\u30AB\u30FC\u30C9\u304C\u7279\u5FB4\u306B\u300CLegend-Arms\u300D\u3092\u6301\u3064\u767B\u5834\u30B3\u30B9\u30C87\u4EE5\u4E0B\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C9\u306A\u3089\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002\u6B8B\u308A\u306F\u624B\u672D\u306B\u52A0\u3048\u308B\u3002"
   EffectDiscription_ENG: '[On Play] By placing this Digimon under 1 of your other
@@ -58,5 +61,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST13-09
   MaxCountInDeck: 4

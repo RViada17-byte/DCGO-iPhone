@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_089
   m_EditorClassIdentifier: 
   CardIndex: 5168
+  LegacyCardIndices: 
   cardColors: 0600000002000000
   PlayCost: 4
   EvoCosts: []
@@ -31,6 +32,8 @@ MonoBehaviour:
   - Abadin Electronics
   - SEEKERS
   CardSpriteName: BT20-089
+  PrintID: BT20-089
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Security] Play this card without paying the cost.\n[Start
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-089
   MaxCountInDeck: 4

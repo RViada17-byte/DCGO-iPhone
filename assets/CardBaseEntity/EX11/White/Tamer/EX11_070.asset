@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX11_070
   m_EditorClassIdentifier: 
   CardIndex: 7795
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - LIBERATOR
   CardSpriteName: EX11-070
+  PrintID: EX11-070
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Security] Play this card without paying the cost.\n[Start

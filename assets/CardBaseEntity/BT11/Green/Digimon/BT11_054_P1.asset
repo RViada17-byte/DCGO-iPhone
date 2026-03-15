@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_054_P1
   m_EditorClassIdentifier: 
   CardIndex: 4409
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Beastkin
   CardSpriteName: BT11-054_P1
+  PrintID: BT11-054_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[When Digivolving] You may play 1 green or blue Tamer card
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-054
   MaxCountInDeck: 4

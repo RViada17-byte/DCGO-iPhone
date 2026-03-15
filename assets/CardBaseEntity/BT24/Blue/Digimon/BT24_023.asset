@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_023
   m_EditorClassIdentifier: 
   CardIndex: 7545
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 6
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - Titan
   - TS
   CardSpriteName: BT24-023
+  PrintID: BT24-023
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Lanamon]: Cost 1\n[Digivolve] Lv.3 w/[TS]\_trait:

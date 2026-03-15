@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_019
   m_EditorClassIdentifier: 
   CardIndex: 5327
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 5
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Dragonkin
   CardSpriteName: BT21-019
+  PrintID: BT21-019
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Gammamon]: Cost 2 \n\n[When Digivolving] If

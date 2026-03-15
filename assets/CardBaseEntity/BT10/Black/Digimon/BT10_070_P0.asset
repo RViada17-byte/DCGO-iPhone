@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_070_P0
   m_EditorClassIdentifier: 
   CardIndex: 4334
+  LegacyCardIndices: 
   cardColors: 0500000006000000
   PlayCost: 13
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Mineral
   - Bagra Army
   CardSpriteName: BT10-070_P0
+  PrintID: BT10-070_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CRush\uFF1E \n[On Play] If this Digimon has 3 digivolution
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 13000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-070
   MaxCountInDeck: 4

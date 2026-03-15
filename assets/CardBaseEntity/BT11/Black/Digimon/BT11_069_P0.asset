@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_069_P0
   m_EditorClassIdentifier: 
   CardIndex: 4420
+  LegacyCardIndices: 
   cardColors: 0500000000000000
   PlayCost: 8
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Cyborg
   - X Antibody
   CardSpriteName: BT11-069_P0
+  PrintID: BT11-069_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][MetalGreymon]: Cost 1 \n\n[When Digivolving]
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-069
   MaxCountInDeck: 4

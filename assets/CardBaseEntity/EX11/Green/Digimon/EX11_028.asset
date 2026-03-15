@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX11_028
   m_EditorClassIdentifier: 
   CardIndex: 7714
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Bird Dragon
   - LIBERATOR
   CardSpriteName: EX11-028
+  PrintID: EX11-028
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] You may suspend 1 Digimon.\n[All

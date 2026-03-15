@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX5_016_P1
   m_EditorClassIdentifier: 
   CardIndex: 4211
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 3
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Mammal
   - Night Claw
   CardSpriteName: EX5-016_P1
+  PrintID: EX5-016_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.2 w/[Night Claw]/[Light Fang]\_trait: Cost
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX5-016
   MaxCountInDeck: 4

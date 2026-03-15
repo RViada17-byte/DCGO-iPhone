@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_040
   m_EditorClassIdentifier: 
   CardIndex: 5119
+  LegacyCardIndices: 
   cardColors: 0300000000000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Dragon
   CardSpriteName: BT20-040
+  PrintID: BT20-040
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.3 w/[Dracomon]\_in name: Cost 2 \n\n\uFF1CRaid\uFF1E
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-040
   MaxCountInDeck: 4

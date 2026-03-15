@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT12_056_P0
   m_EditorClassIdentifier: 
   CardIndex: 4510
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 12
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Insectoid
   CardSpriteName: BT12-056_P0
+  PrintID: BT12-056_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Dinobeemon]: Cost 3 \n\n[When Digivolving]
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT12-056
   MaxCountInDeck: 4

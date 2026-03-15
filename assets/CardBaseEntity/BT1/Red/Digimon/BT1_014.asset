@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT1_014
   m_EditorClassIdentifier: 
   CardIndex: 152
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Giant Bird
   CardSpriteName: BT1-014
+  PrintID: BT1-014
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT1-014
   MaxCountInDeck: 4

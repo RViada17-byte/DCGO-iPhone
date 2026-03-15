@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_071_P1
   m_EditorClassIdentifier: 
   CardIndex: 3934
+  LegacyCardIndices: 
   cardColors: 0500000002000000
   PlayCost: 7
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Seraph
   - Three Great Angels
   CardSpriteName: BT18-071_P1
+  PrintID: BT18-071_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Seraphimon]: Cost 1 [Digivolve][Sephirothmon]
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 4
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-071
   MaxCountInDeck: 4

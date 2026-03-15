@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT2_084_P2
   m_EditorClassIdentifier: 
   CardIndex: 522
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 3
   EvoCosts: []
@@ -26,6 +27,8 @@ MonoBehaviour:
   Type_JPN: []
   Type_ENG: []
   CardSpriteName: BT2-084_P2
+  PrintID: BT2-084_P2
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\u8D64\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30D7\u30EC\u30A4\u30E4\u30FC\u306B\u30A2\u30BF\u30C3\u30AF\u3057\u305F\u3068\u304D\u3001\u3053\u306E\u30C6\u30A4\u30DE\u30FC\u3092\u30EC\u30B9\u30C8\u3055\u305B\u308B\u3053\u3068\u3067\u3001\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u305D\u306E\u30C7\u30B8\u30E2\u30F3\u306EDP\u3092+2000\u3059\u308B\u3002"
   EffectDiscription_ENG: "[Your Turn] When one of your red Digimon attacks a player\uFF0C

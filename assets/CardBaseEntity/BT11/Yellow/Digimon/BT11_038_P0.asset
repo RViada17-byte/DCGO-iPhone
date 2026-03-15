@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_038_P0
   m_EditorClassIdentifier: 
   CardIndex: 4399
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Angel
   CardSpriteName: BT11-038_P0
+  PrintID: BT11-038_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Deletion] If you have a purple Digimon or purple Tamer
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-038
   MaxCountInDeck: 4

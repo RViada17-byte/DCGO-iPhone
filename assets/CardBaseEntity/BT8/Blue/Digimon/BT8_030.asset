@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT8_030
   m_EditorClassIdentifier: 
   CardIndex: 1593
+  LegacyCardIndices: 
   cardColors: 0100000005000000
   PlayCost: 10
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Cyborg
   CardSpriteName: BT8-030
+  PrintID: BT8-030
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 13000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT8-030
   MaxCountInDeck: 4

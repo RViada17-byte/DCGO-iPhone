@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST6_12
   m_EditorClassIdentifier: 
   CardIndex: 354
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 10
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Dark Animal
   CardSpriteName: ST6-12
+  PrintID: ST6-12
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u6B21\u306E\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u6642\u307E\u3067\u3001\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F32\u4F53\u307E\u3067\u306F\u226A\u9053\u9023\u308C\u226B\uFF08\u30D0\u30C8\u30EB\u3067\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3060\u3051\u304C\u6D88\u6EC5\u3057\u305F\u3068\u304D\u3001\u30D0\u30C8\u30EB\u3057\u305F\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u6D88\u6EC5\u3055\u305B\u308B\uFF09\u3092\u5F97\u308B\u3002"
   EffectDiscription_ENG: "[When Digivolving] Up to 2 of your Digimon gain \uFF1CRetaliation\uFF1E
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST6-12
   MaxCountInDeck: 4

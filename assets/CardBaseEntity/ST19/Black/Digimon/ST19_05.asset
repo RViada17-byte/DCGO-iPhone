@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST19_05
   m_EditorClassIdentifier: 
   CardIndex: 3837
+  LegacyCardIndices: 
   cardColors: 0500000002000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Puppet
   CardSpriteName: ST19-05
+  PrintID: ST19-05
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CBlocker\uFF1E \n[On Deletion] By trashing 1 card
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST19-05
   MaxCountInDeck: 4

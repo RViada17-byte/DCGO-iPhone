@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_118_P1
   m_EditorClassIdentifier: 
   CardIndex: 10413
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Larva
   CardSpriteName: P-118_P1
+  PrintID: P-118_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] Reveal the top 3 cards of your deck. Add 1 green
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-118
   MaxCountInDeck: 4

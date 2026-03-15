@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_018_P1
   m_EditorClassIdentifier: 
   CardIndex: 4301
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 3
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Reptile
   - Blue Flare
   CardSpriteName: BT10-018_P1
+  PrintID: BT10-018_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Deletion] You may play 1 level 4 Digimon card with
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-018
   MaxCountInDeck: 4

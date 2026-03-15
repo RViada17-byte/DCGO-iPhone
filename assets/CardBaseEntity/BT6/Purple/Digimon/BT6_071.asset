@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT6_071
   m_EditorClassIdentifier: 
   CardIndex: 1205
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 4
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Demon
   CardSpriteName: BT6-071
+  PrintID: BT6-071
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT6-071
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT9_012
   m_EditorClassIdentifier: 
   CardIndex: 1794
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 5
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Dinosaur
   - X Antibody
   CardSpriteName: BT9-012
+  PrintID: BT9-012
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u9032\u5316:\u300C\u30B0\u30EC\u30A4\u30E2\u30F3\u300D\u304B\u30890"
   EffectDiscription_ENG: 'Digivolve: 0 from [Greymon]'

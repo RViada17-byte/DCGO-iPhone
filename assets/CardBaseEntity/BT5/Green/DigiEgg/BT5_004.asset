@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT5_004
   m_EditorClassIdentifier: 
   CardIndex: 933
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: -1
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   Type_ENG:
   - Bulb
   CardSpriteName: BT5-004
+  PrintID: BT5-004
+  IsCanonicalPrint: 1
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 

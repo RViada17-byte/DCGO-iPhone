@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX2_036
   m_EditorClassIdentifier: 
   CardIndex: 1974
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 11
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Machine
   CardSpriteName: EX2-036
+  PrintID: EX2-036
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u306B\u30A2\u30BF\u30C3\u30AF\u3067\u304D\u306A\u3044\u3002\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u306E\u7279\u5FB4\u306B\u300C\u30B5\u30A4\u30DC\u30FC\u30B0\u578B\u300D\u304B\u300C\u30DE\u30B7\u30FC\u30F3\u578B\u300D\u3092\u6301\u3064\u30AB\u30FC\u30C91\u679A\u3054\u3068\u306B\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092DP+1000\u3002"
   EffectDiscription_ENG: '[Your Turn] This Digimon can''t attack your opponent''s
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX2-036
   MaxCountInDeck: 4

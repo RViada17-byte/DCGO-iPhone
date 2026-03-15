@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST13_01
   m_EditorClassIdentifier: 
   CardIndex: 2801
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: -1
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   Type_ENG:
   - Weapon
   CardSpriteName: ST13-01
+  PrintID: ST13-01
+  IsCanonicalPrint: 1
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 

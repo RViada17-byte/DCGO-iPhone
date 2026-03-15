@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_020_P0
   m_EditorClassIdentifier: 
   CardIndex: 4304
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 5
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Cyborg
   - Blue Flare
   CardSpriteName: BT10-020_P0
+  PrintID: BT10-020_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] \uFF1CDraw 1\uFF1E. Then, for each Digimon your
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-020
   MaxCountInDeck: 4

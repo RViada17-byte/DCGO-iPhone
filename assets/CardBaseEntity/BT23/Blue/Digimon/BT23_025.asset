@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_025
   m_EditorClassIdentifier: 
   CardIndex: 7357
+  LegacyCardIndices: 
   cardColors: 0100000002000000
   PlayCost: 11
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Fairy
   - CS
   CardSpriteName: BT23-025
+  PrintID: BT23-025
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.5 w/[CS]\_trait: Cost 3 \n\n[Hand] [Main]

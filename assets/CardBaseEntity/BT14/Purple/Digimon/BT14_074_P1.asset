@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT14_074_P1
   m_EditorClassIdentifier: 
   CardIndex: 4680
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 6
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - X Antibody
   - SoC
   CardSpriteName: BT14-074_P1
+  PrintID: BT14-074_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[When Attacking] By trashing 1 card in your hand, \uFF1CDraw
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT14-074
   MaxCountInDeck: 4

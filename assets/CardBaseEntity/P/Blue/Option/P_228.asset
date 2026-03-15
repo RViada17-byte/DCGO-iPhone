@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_228
   m_EditorClassIdentifier: 
   CardIndex: 7806
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 2
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - LIBERATOR
   CardSpriteName: P-228
+  PrintID: P-228
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] Reveal the top 3 cards of your deck. Add 1 [Ice-Snow]\_trait

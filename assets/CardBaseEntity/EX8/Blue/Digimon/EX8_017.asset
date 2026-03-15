@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_017
   m_EditorClassIdentifier: 
   CardIndex: 4080
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 3
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Crustacean
   - DS
   CardSpriteName: EX8-017
+  PrintID: EX8-017
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.2 w/[DS]\_trait: Cost 0 \n\n[On Play] 1 of
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-017
   MaxCountInDeck: 4

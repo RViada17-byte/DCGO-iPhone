@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_074
   m_EditorClassIdentifier: 
   CardIndex: 3625
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Unknown
   CardSpriteName: BT17-074
+  PrintID: BT17-074
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Morphomon]: Cost 2 \n\n[When Digivolving] If
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-074
   MaxCountInDeck: 4

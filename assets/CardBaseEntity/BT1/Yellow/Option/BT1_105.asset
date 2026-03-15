@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT1_105
   m_EditorClassIdentifier: 
   CardIndex: 300
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 4
   EvoCosts: []
@@ -26,6 +27,8 @@ MonoBehaviour:
   Type_JPN: []
   Type_ENG: []
   CardSpriteName: BT1-105
+  PrintID: BT1-105
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u6B21\u306E\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u6642\u307E\u3067\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306E\u5143\u3005\u306EDP\u30923000\u306B\u5909\u66F4\u3059\u308B\u3002"
   EffectDiscription_ENG: '[Main] Change the original DP of 1 of your opponent''s

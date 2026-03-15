@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_067
   m_EditorClassIdentifier: 
   CardIndex: 3385
+  LegacyCardIndices: 
   cardColors: 0600000003000000
   PlayCost: 3
   EvoCosts:
@@ -40,6 +41,8 @@ MonoBehaviour:
   - Beast
   - X Antibody
   CardSpriteName: BT16-067
+  PrintID: BT16-067
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Digivolve] [Kokomon]/[Lopmon]: Cost 0[On Play] [When Digivolving]
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-067
   MaxCountInDeck: 4

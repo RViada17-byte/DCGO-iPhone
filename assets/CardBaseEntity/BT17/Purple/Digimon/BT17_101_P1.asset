@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_101_P1
   m_EditorClassIdentifier: 
   CardIndex: 3671
+  LegacyCardIndices: 
   cardColors: 0600000002000000
   PlayCost: 16
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - X Antibody
   - SoC
   CardSpriteName: BT17-101_P1
+  PrintID: BT17-101_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Trash] [Your Turn] When one of your level 6 Digimon with
@@ -54,5 +57,8 @@ MonoBehaviour:
   DP: 16000
   rarity: 4
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-101
   MaxCountInDeck: 4

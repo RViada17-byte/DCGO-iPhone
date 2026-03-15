@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_070
   m_EditorClassIdentifier: 
   CardIndex: 4011
+  LegacyCardIndices: 
   cardColors: 0000000006000000
   PlayCost: 8
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Composite
   CardSpriteName: BT19-070
+  PrintID: BT19-070
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.4 w/[Composite]\_trait: Cost 3 \n\n[On Play]
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-070
   MaxCountInDeck: 4

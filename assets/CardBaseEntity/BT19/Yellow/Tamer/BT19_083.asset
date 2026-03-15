@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_083
   m_EditorClassIdentifier: 
   CardIndex: 5065
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Tamer
   CardSpriteName: BT19-083
+  PrintID: BT19-083
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] Reveal the top 3 cards of your deck. Add 1 Digimon
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-083
   MaxCountInDeck: 4

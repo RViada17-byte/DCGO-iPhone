@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_016
   m_EditorClassIdentifier: 
   CardIndex: 5019
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 3
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Reptile
   - Blue Flare
   CardSpriteName: BT19-016
+  PrintID: BT19-016
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [On Deletion] By placing 1 [Blue Flare]\_trait
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-016
   MaxCountInDeck: 4

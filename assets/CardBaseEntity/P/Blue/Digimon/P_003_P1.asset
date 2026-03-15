@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_003_P1
   m_EditorClassIdentifier: 
   CardIndex: 6006
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 4
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Reptile
   CardSpriteName: P-003_P1
+  PrintID: P-003_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306E\u9032\u5316\u5143\u3092\u3001\u4E0B\u304B\u30891\u679A\u7834\u68C4\u3059\u308B\u3002"
   EffectDiscription_ENG: '[On Play] Trash the bottom digivolution card of 1 of your
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 3000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-003
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_062
   m_EditorClassIdentifier: 
   CardIndex: 5141
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Flame
   - Ghost
   CardSpriteName: BT20-062
+  PrintID: BT20-062
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CRetaliation\uFF1E."
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-062
   MaxCountInDeck: 4

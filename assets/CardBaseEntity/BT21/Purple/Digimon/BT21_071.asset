@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_071
   m_EditorClassIdentifier: 
   CardIndex: 5388
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   Type_ENG:
   - Monitoring
   CardSpriteName: BT21-071
+  PrintID: BT21-071
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.3 w/[Three Musketeers]\_in text: Cost 2

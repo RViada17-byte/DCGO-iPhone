@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_057
   m_EditorClassIdentifier: 
   CardIndex: 3782
+  LegacyCardIndices: 
   cardColors: 0600000000000000
   PlayCost: 7
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - LIBERATOR
   - Dark Dragon
   CardSpriteName: EX7-057
+  PrintID: EX7-057
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.4 w/[Dark Dragon]/[Evil Dragon]\_trait: Cost
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-057
   MaxCountInDeck: 4

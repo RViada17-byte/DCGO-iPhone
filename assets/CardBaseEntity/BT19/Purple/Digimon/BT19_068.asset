@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_068
   m_EditorClassIdentifier: 
   CardIndex: 5050
+  LegacyCardIndices: 
   cardColors: 0600000005000000
   PlayCost: 5
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Twilight
   - Composite
   CardSpriteName: BT19-068
+  PrintID: BT19-068
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] Reveal the top 3 cards of your deck. Add 1 card
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-068
   MaxCountInDeck: 4

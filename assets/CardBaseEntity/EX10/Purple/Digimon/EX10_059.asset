@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_059
   m_EditorClassIdentifier: 
   CardIndex: 7237
+  LegacyCardIndices: 
   cardColors: 0600000005000000
   PlayCost: 16
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Composite
   - Bagra Army
   CardSpriteName: EX10-059
+  PrintID: EX10-059
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] Choose 1 card in your opponent's

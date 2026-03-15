@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_174
   m_EditorClassIdentifier: 
   CardIndex: 5187
+  LegacyCardIndices: 
   cardColors: 0500000006000000
   PlayCost: 11
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Cyborg
   - NSo
   CardSpriteName: P-174
+  PrintID: P-174
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "When this card would be played, if [Nightmare Soldiers]
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-174
   MaxCountInDeck: 4

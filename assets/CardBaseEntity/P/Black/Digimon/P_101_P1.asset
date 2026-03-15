@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_101_P1
   m_EditorClassIdentifier: 
   CardIndex: 10401
+  LegacyCardIndices: 
   cardColors: 0500000006000000
   PlayCost: 4
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Undead
   - Cyborg
   CardSpriteName: P-101_P1
+  PrintID: P-101_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] By trashing 1 card from your
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-101
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT14_028_P0
   m_EditorClassIdentifier: 
   CardIndex: 4647
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 7
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Amphibian
   CardSpriteName: BT14-028_P0
+  PrintID: BT14-028_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CBlocker\uFF1E \n[All Turns] [Once Per Turn] When
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT14-028
   MaxCountInDeck: 4

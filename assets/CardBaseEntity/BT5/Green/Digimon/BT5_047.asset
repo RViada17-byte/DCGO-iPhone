@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT5_047
   m_EditorClassIdentifier: 
   CardIndex: 1005
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Vegetation
   CardSpriteName: BT5-047
+  PrintID: BT5-047
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u6D88\u6EC5\u6642\u3011\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u300C\u30D1\u30EB\u30E2\u30F3\u300D1\u679A\u3092\u7DD1\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306E\u9032\u5316\u5143\u306E1\u756A\u4E0B\u306B\u7F6E\u304F\u3002"
   EffectDiscription_ENG: '[On Deletion] Place 1 [Palmon] from your trash under 1
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT5-047
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX11_044
   m_EditorClassIdentifier: 
   CardIndex: 7747
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 11
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Mineral
   - LIBERATOR
   CardSpriteName: EX11-044
+  PrintID: EX11-044
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CReboot\uFF1E \n\uFF1CFragment (3)\uFF1E \n[On Play]

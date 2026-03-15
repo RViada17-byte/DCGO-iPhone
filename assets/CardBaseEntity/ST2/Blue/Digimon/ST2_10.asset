@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST2_10
   m_EditorClassIdentifier: 
   CardIndex: 61
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 10
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Plesiosaur
   CardSpriteName: ST2-10
+  PrintID: ST2-10
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST2-10
   MaxCountInDeck: 4

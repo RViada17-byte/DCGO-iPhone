@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: LM_012
   m_EditorClassIdentifier: 
   CardIndex: 3258
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 8
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Beast
   CardSpriteName: LM-012
+  PrintID: LM-012
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] [When Digivolving] Suspend 1 of your opponent''s

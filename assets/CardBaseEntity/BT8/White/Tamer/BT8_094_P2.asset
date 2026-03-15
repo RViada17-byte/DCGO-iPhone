@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT8_094_P2
   m_EditorClassIdentifier: 
   CardIndex: 6804
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Tamer
   CardSpriteName: BT8-094_P2
+  PrintID: BT8-094_P2
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[All Turns] When one of your opponent's level 5 or lower

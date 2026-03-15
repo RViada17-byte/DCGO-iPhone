@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT2_111_P1
   m_EditorClassIdentifier: 
   CardIndex: 559
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 12
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Demon Lord
   - Seven Great Demon Lords
   CardSpriteName: BT2-111_P1
+  PrintID: BT2-111_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: "\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u304C10\u679A\u4EE5\u4E0A\u306E\u9593\u3001\u81EA\u5206\u306E\u300C\u30A4\u30F3\u30D7\u30E2\u30F3\u300D\u306F\u624B\u672D\u306E\u3053\u306E\u30AB\u30FC\u30C9\u306B\u9032\u5316\u6761\u4EF6\u3092\u7121\u8996\u3057\u3066\u9032\u5316\u30B3\u30B9\u30C84\u3067\u9032\u5316\u3067\u304D\u308B\u3002\u3010\u9032\u5316\u6642\u3011Lv.4\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3002"
   EffectDiscription_ENG: "While you have 10 or more cards in your trash\uFF0C your
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 4
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT2-111
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_018
   m_EditorClassIdentifier: 
   CardIndex: 3459
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 10
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Angel
   CardSpriteName: EX6-018
+  PrintID: EX6-018
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Cupimon]: Cost 5 \n\nWhen you would play this
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 10000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX6-018
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT12_036
   m_EditorClassIdentifier: 
   CardIndex: 2446
+  LegacyCardIndices: 
   cardColors: 0200000003000000
   PlayCost: 4
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Beast
   CardSpriteName: BT12-036
+  PrintID: BT12-036
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT12-036
   MaxCountInDeck: 4

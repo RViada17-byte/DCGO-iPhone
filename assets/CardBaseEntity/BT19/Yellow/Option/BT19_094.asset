@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_094
   m_EditorClassIdentifier: 
   CardIndex: 4026
+  LegacyCardIndices: 
   cardColors: 0200000006000000
   PlayCost: 7
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Seven Great Demon Lords
   CardSpriteName: BT19-094
+  PrintID: BT19-094
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Trash] [Your Turn] When any of your Digimon digivolve
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-094
   MaxCountInDeck: 4

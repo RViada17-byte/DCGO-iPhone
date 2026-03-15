@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_069
   m_EditorClassIdentifier: 
   CardIndex: 5386
+  LegacyCardIndices: 
   cardColors: 0600000000000000
   PlayCost: 6
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Dragonkin
   CardSpriteName: BT21-069
+  PrintID: BT21-069
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Gammamon]: Cost 2 \n\n[Security] At the end
@@ -53,6 +56,5 @@ MonoBehaviour:
   LinkDP: 0
   LinkEffect: '-'
   LinkRequirement: '-'
-  LinkCost: 0
   CardID: BT21-069
   MaxCountInDeck: 4

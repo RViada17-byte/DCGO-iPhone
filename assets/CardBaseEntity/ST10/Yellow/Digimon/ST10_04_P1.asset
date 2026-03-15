@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST10_04_P1
   m_EditorClassIdentifier: 
   CardIndex: 4902
+  LegacyCardIndices: 
   cardColors: 0200000006000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Holy Beast
   CardSpriteName: ST10-04_P1
+  PrintID: ST10-04_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] Reveal the top 3 cards of your deck. Add 1 yellow
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST10-04
   MaxCountInDeck: 4

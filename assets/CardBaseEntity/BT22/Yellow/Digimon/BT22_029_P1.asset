@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_029_P1
   m_EditorClassIdentifier: 
   CardIndex: 7026
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Puppet
   - LIBERATOR
   CardSpriteName: BT22-029_P1
+  PrintID: BT22-029_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [On Deletion] 1 of your Digimon with the [Puppet]\_trait

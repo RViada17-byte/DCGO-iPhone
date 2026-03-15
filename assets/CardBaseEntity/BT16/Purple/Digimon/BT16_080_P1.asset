@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_080_P1
   m_EditorClassIdentifier: 
   CardIndex: 3400
+  LegacyCardIndices: 
   cardColors: 0600000002000000
   PlayCost: 13
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Wizard
   CardSpriteName: BT16-080_P1
+  PrintID: BT16-080_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Digivolve] Lv.5 w/[Pulsemon] in text: Cost 5[When Digivolving]
@@ -55,5 +58,8 @@ MonoBehaviour:
   DP: 13000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-080
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_032
   m_EditorClassIdentifier: 
   CardIndex: 5343
+  LegacyCardIndices: 
   cardColors: 0100000000000000
   PlayCost: 3
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Mini Dragon
   - Hero
   CardSpriteName: BT21-032
+  PrintID: BT21-032
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [DemiVeemon]/Lv.2 w/[Hero]\_trait: Cost 0 \n\n[Your
@@ -52,6 +55,5 @@ MonoBehaviour:
   LinkDP: 0
   LinkEffect: '-'
   LinkRequirement: '-'
-  LinkCost: 0
   CardID: BT21-032
   MaxCountInDeck: 4

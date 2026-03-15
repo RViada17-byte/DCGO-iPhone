@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_039
   m_EditorClassIdentifier: 
   CardIndex: 3491
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 5
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Unidentified
   CardSpriteName: EX6-039
+  PrintID: EX6-039
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "When this card would be played from the hand, by deleting
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX6-039
   MaxCountInDeck: 4

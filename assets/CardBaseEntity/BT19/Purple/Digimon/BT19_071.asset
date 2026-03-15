@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_071
   m_EditorClassIdentifier: 
   CardIndex: 5051
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 11
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Demon Lord
   - Seven Great Demon Lords
   CardSpriteName: BT19-071
+  PrintID: BT19-071
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] Trash the top 2 cards of your
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-071
   MaxCountInDeck: 4

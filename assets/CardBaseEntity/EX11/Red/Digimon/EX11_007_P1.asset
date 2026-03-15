@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX11_007_P1
   m_EditorClassIdentifier: 
   CardIndex: 7670
+  LegacyCardIndices: 
   cardColors: 0000000003000000
   PlayCost: 3
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Reptile
   - LIBERATOR
   CardSpriteName: EX11-007_P1
+  PrintID: EX11-007_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Koromon]: Cost 0 \n\n[When Moving] [On Play]

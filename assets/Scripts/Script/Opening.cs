@@ -86,11 +86,22 @@ public class Opening : MonoBehaviour
     public BGMObject OpeningBGM;
     private void Awake()
     {
-        instance = this;
+        StartupPerfTrace.StartBootIfNeeded("Opening.Awake");
+        StartupPerfTrace.Scope perfScope = StartupPerfTrace.Measure("Opening.Awake");
 
-        if (openingCameras.Count >= 1)
+        try
         {
-            MainCamera = openingCameras[0];
+            instance = this;
+
+            if (openingCameras.Count >= 1)
+            {
+                MainCamera = openingCameras[0];
+            }
+        }
+        finally
+        {
+            perfScope.SetItemCount("openingCameras", openingCameras.Count);
+            perfScope.Dispose();
         }
     }
 
@@ -430,22 +441,32 @@ public class Opening : MonoBehaviour
 
     private void Start()
     {
-        foreach (YesNoObject yesNoObject in YesNoObjects)
+        StartupPerfTrace.Scope perfScope = StartupPerfTrace.Measure("Opening.Start");
+
+        try
         {
-            yesNoObject.Close_(false);
+            foreach (YesNoObject yesNoObject in YesNoObjects)
+            {
+                yesNoObject.Close_(false);
+            }
+
+            ChangeBackground();
+
+            home.OffHome();
+
+            deck.OffDeck();
+
+            battle.OffBattle();
+
+            _cardImagePanel.Close_(false);
+
+            StartCoroutine(Init());
         }
-
-        ChangeBackground();
-
-        home.OffHome();
-
-        deck.OffDeck();
-
-        battle.OffBattle();
-
-        _cardImagePanel.Close_(false);
-
-        StartCoroutine(Init());
+        finally
+        {
+            perfScope.SetItemCount("yesNoObjects", YesNoObjects.Count);
+            perfScope.Dispose();
+        }
     }
 
     async void ChangeBackground()
@@ -463,72 +484,115 @@ public class Opening : MonoBehaviour
 
     public IEnumerator Init()
     {
-        OfflineBootstrapper.EnsureOfflineReady();
+        StartupPerfTrace.Scope perfScope = StartupPerfTrace.Measure("Opening.Init");
 
-        OpeningBGM.StopPlayBGM();
-        yield return StartCoroutine(LoadingObject.StartLoading("Now Loading"));
-
-        LoadingObject_light.gameObject.SetActive(false);
-        LoadingObject_Unload.gameObject.SetActive(false);
-
-        yield return StartCoroutine(ContinuousController.LoadCoroutine());
-
-        yield return new WaitWhile(() => ContinuousController.instance == null);
-
-        ProgressionManager.Instance.LoadOrCreate();
-
-        // ContinuousController.instance.LoadVolume();
-
-        home.OffHome();
-
-        optionPanel.Init();
-
-        patchNotesPanel.Init();
-
-        yield return StartCoroutine(deck.editDeck.InitEditDeck());
-
-        yield return new WaitForSeconds(0.1f);
-
-        VerText.text = $"Ver{ContinuousController.instance.GameVerString}";
-
-        MainMenuRouter router = GetComponent<MainMenuRouter>();
-        if (router != null)
+        try
         {
-            router.HideAllCustomModes();
-        }
+            OfflineBootstrapper.EnsureOfflineReady();
 
-        if (title != null)
+            OpeningBGM.StopPlayBGM();
+            yield return StartCoroutine(LoadingObject.StartLoading("Now Loading"));
+
+            LoadingObject_light.gameObject.SetActive(false);
+            LoadingObject_Unload.gameObject.SetActive(false);
+
+            StartupPerfTrace.Scope controllerLoadScope = StartupPerfTrace.Measure("Opening.Init.ContinuousController.LoadCoroutine");
+            yield return StartCoroutine(ContinuousController.LoadCoroutine());
+            controllerLoadScope.SetItemCount("runtimeCards", ContinuousController.instance?.CardList?.Length ?? 0);
+            controllerLoadScope.Dispose();
+
+            yield return new WaitWhile(() => ContinuousController.instance == null);
+
+            StartupPerfTrace.Scope progressionScope = StartupPerfTrace.Measure("Opening.Init.ProgressionManager.LoadOrCreate");
+            ProgressionManager.Instance.LoadOrCreate();
+            progressionScope.SetItemCount("ownedPrints", ProgressionManager.Instance.CurrentProfileData?.OwnedPrintIds?.Count ?? 0);
+            progressionScope.SetItemCount("unlockedCardIds", ProgressionManager.Instance.CurrentProfileData?.UnlockedCardIds?.Count ?? 0);
+            progressionScope.Dispose();
+
+            // ContinuousController.instance.LoadVolume();
+
+            home.OffHome();
+
+            optionPanel.Init();
+
+            patchNotesPanel.Init();
+
+            if (StartupPerfTrace.Enabled)
+            {
+                Debug.Log($"[StartupPerf] DEFER label={StartupPerfTrace.Label} step=Opening.InitEditDeckStartup");
+            }
+
+            yield return new WaitForSeconds(0.1f);
+
+            VerText.text = $"Ver{ContinuousController.instance.GameVerString}";
+
+            MainMenuRouter router = GetComponent<MainMenuRouter>();
+            if (router != null)
+            {
+                router.HideAllCustomModes();
+            }
+
+            if (title != null)
+            {
+                title.OffTitle();
+            }
+
+            home.SetUpHome();
+
+            if (StartupPerfTrace.SkipLoadCardImagesOnStartup)
+            {
+                Debug.Log($"[StartupPerf] SKIP label={StartupPerfTrace.Label} step=Opening.LoadCardImages");
+            }
+            else
+            {
+                LoadCardImages();
+            }
+
+            yield return new WaitForSeconds(0.15f);
+
+            yield return StartCoroutine(LoadingObject.EndLoading());
+        }
+        finally
         {
-            title.OffTitle();
+            perfScope.SetItemCount("runtimeCards", ContinuousController.instance?.CardList?.Length ?? 0);
+            perfScope.SetItemCount("savedDecks", ContinuousController.instance?.DeckDatas?.Count ?? 0);
+            perfScope.SetItemCount("ownedPrints", ProgressionManager.LoadedInstance?.CurrentProfileData?.OwnedPrintIds?.Count ?? 0);
+            perfScope.Dispose();
+            StartupPerfTrace.MarkBootComplete("Opening.Init");
         }
-
-        home.SetUpHome();
-
-        LoadCardImages();
-
-        yield return new WaitForSeconds(0.15f);
-
-        yield return StartCoroutine(LoadingObject.EndLoading());
     }
 
     async void LoadCardImages()
     {
-#if UNITY_EDITOR
-        foreach (CEntity_Base cEntity_Base in ContinuousController.instance.CardList)
+        StartupPerfTrace.Scope perfScope = StartupPerfTrace.Measure("Opening.LoadCardImages");
+        int keyCardCount = 0;
+
+        try
         {
-            cEntity_Base.HasLoadStarted = false;
-        }
+#if UNITY_EDITOR
+            foreach (CEntity_Base cEntity_Base in ContinuousController.instance.CardList)
+            {
+                cEntity_Base.HasLoadStarted = false;
+            }
 #endif
 
-        foreach (DeckData deckData in ContinuousController.instance.DeckDatas)
-        {
-            CEntity_Base keyCard = deckData.KeyCard;
-
-            if (keyCard != null)
+            foreach (DeckData deckData in ContinuousController.instance.DeckDatas)
             {
-                keyCard.HasLoadStarted = false;
-                await keyCard.LoadCardImage();
+                CEntity_Base keyCard = deckData.KeyCard;
+
+                if (keyCard != null)
+                {
+                    keyCardCount++;
+                    keyCard.HasLoadStarted = false;
+                    await keyCard.LoadCardImage();
+                }
             }
+        }
+        finally
+        {
+            perfScope.SetItemCount("savedDecks", ContinuousController.instance?.DeckDatas?.Count ?? 0);
+            perfScope.SetItemCount("keyCards", keyCardCount);
+            perfScope.Dispose();
         }
     }
 }

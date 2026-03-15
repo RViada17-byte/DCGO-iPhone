@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_044
   m_EditorClassIdentifier: 
   CardIndex: 3358
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 6
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Vegetation
   CardSpriteName: BT16-044
+  PrintID: BT16-044
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Digivolve] Lv.4 w/[Pulsemon] in text: Cost 3[On Play]
@@ -54,5 +57,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-044
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_067
   m_EditorClassIdentifier: 
   CardIndex: 3617
+  LegacyCardIndices: 
   cardColors: 0600000005000000
   PlayCost: 8
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - X Antibody
   - SoC
   CardSpriteName: BT17-067
+  PrintID: BT17-067
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][DoruGreymon]: Cost 1 \n\n[Trash] [All Turns]
@@ -55,5 +58,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-067
   MaxCountInDeck: 4

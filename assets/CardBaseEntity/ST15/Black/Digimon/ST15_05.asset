@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST15_05
   m_EditorClassIdentifier: 
   CardIndex: 2834
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 4
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Puppet
   CardSpriteName: ST15-05
+  PrintID: ST15-05
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u226A\u30D6\u30ED\u30C3\u30AB\u30FC\u226B\uFF08\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u30D6\u30ED\u30C3\u30AF\u30BF\u30A4\u30DF\u30F3\u30B0\u3067\u30D6\u30ED\u30C3\u30AF\u3067\u304D\u308B\uFF09\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30D7\u30EC\u30A4\u30E4\u30FC\u306B\u30A2\u30BF\u30C3\u30AF\u3057\u305F\u3068\u304D\u3001\u30E1\u30E2\u30EA\u30FC-2\u3002"
   EffectDiscription_ENG: "\uFF1CBlocker\uFF1E (At blocker timing, by suspending this
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST15-05
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_080
   m_EditorClassIdentifier: 
   CardIndex: 5159
+  LegacyCardIndices: 
   cardColors: 0600000000000000
   PlayCost: 12
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   - SoC
   - SEEKERS
   CardSpriteName: BT20-080
+  PrintID: BT20-080
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Soloogarmon]/Lv.5 w/[SEEKERS]\_trait: Cost
@@ -56,5 +59,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-080
   MaxCountInDeck: 4

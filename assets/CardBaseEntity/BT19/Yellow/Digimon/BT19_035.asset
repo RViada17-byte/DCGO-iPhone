@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_035
   m_EditorClassIdentifier: 
   CardIndex: 5028
+  LegacyCardIndices: 
   cardColors: 0200000000000000
   PlayCost: 5
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Super Major
   - Xros Heart
   CardSpriteName: BT19-035
+  PrintID: BT19-035
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.3 w/[Xros Heart]\_trait: Cost 2 \n\nThis
@@ -54,5 +57,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-035
   MaxCountInDeck: 4

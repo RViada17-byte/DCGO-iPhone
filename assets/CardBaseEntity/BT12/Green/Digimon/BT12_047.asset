@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT12_047
   m_EditorClassIdentifier: 
   CardIndex: 2459
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Larva
   CardSpriteName: BT12-047
+  PrintID: BT12-047
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u30893\u679A\u30AA\u30FC\u30D7\u30F3\u3059\u308B\u3002\u305D\u306E\u4E2D\u306E\u540D\u79F0\u306B\u300C\u30A4\u30F3\u30DA\u30EA\u30A2\u30EB\u30C9\u30E9\u30E2\u30F3\u300D\u3092\u542B\u3080\u304B\u7279\u5FB4\u306B\u300C\u30D5\u30EA\u30FC\u300D\u3092\u6301\u3064\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C9\u3068\u540D\u79F0\u306B\u300C\u4E00\u4E57\u5BFA\u8CE2\u300D\u3092\u542B\u3080\u30C6\u30A4\u30DE\u30FC\u30AB\u30FC\u30C91\u679A\u305A\u3064\u3092\u624B\u672D\u306B\u52A0\u3048\u308B\u3002\u6B8B\u308A\u306F\u597D\u304D\u306A\u9806\u756A\u3067\u30C7\u30C3\u30AD\u306E\u4E0B\u306B\u623B\u3059\u3002"
   EffectDiscription_ENG: '[On Play] Reveal the top 3 cards of your deck. Add 1 Digimon
@@ -54,5 +57,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT12-047
   MaxCountInDeck: 4

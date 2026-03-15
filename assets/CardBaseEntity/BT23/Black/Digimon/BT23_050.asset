@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_050
   m_EditorClassIdentifier: 
   CardIndex: 7384
+  LegacyCardIndices: 
   cardColors: 0500000002000000
   PlayCost: 5
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Hudie
   - CS
   CardSpriteName: BT23-050
+  PrintID: BT23-050
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Armadillomon]/Lv.3 w/[CS]\_trait: Cost 2 \n\n\uFF1CBlocker\uFF1E

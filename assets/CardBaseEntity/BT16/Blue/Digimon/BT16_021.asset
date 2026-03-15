@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_021
   m_EditorClassIdentifier: 
   CardIndex: 3329
+  LegacyCardIndices: 
   cardColors: 0100000003000000
   PlayCost: 5
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Mammal
   CardSpriteName: BT16-021
+  PrintID: BT16-021
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Digivolve] [Wormmon]: Cost 2<Blocker><Armor Purge> [All
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-021
   MaxCountInDeck: 4

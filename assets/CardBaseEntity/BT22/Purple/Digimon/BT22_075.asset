@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_075
   m_EditorClassIdentifier: 
   CardIndex: 7082
+  LegacyCardIndices: 
   cardColors: 0600000003000000
   PlayCost: 8
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   Type_ENG:
   - Camouflage
   CardSpriteName: BT22-075
+  PrintID: BT22-075
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[App Fusion] [Roamon] & [Effecmon]: Cost 0\n\n\uFF1CRetaliation\uFF1E

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_114_P1
   m_EditorClassIdentifier: 
   CardIndex: 10406
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 6
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Unidentified
   CardSpriteName: P-114_P1
+  PrintID: P-114_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Hand] [Counter] \uFF1CBlast Digivolve\uFF1E \n[When Digivolving]
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 5
   OverflowMemory: 4
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-114
   MaxCountInDeck: 4

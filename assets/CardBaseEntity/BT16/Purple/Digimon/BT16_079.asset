@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_079
   m_EditorClassIdentifier: 
   CardIndex: 3398
+  LegacyCardIndices: 
   cardColors: 0600000003000000
   PlayCost: 13
   EvoCosts:
@@ -40,6 +41,8 @@ MonoBehaviour:
   - Cherub
   - X Antibody
   CardSpriteName: BT16-079
+  PrintID: BT16-079
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Digivolve] [Cherubimon]: Cost 2<Alliance> [When Digivolving]
@@ -56,5 +59,8 @@ MonoBehaviour:
   DP: 13000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-079
   MaxCountInDeck: 4

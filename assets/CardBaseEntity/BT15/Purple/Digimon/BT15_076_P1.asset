@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_076_P1
   m_EditorClassIdentifier: 
   CardIndex: 3210
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Undead
   CardSpriteName: BT15-076_P1
+  PrintID: BT15-076_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Hand] [Counter]  (Your Digimon may digivolve into this
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 3
   OverflowMemory: 3
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-076
   MaxCountInDeck: 4

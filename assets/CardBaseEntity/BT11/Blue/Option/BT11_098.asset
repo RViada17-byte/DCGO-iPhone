@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_098
   m_EditorClassIdentifier: 
   CardIndex: 2381
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 5
   EvoCosts: []
@@ -26,6 +27,8 @@ MonoBehaviour:
   Type_JPN: []
   Type_ENG: []
   CardSpriteName: BT11-098
+  PrintID: BT11-098
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u9752\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u304B\u3089\u3001\u9752\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002\u305D\u306E\u5F8C\u3001\u540D\u79F0\u306B\u300C\u30B7\u30FC\u30C9\u30E9\u30E2\u30F3\u300D\u3092\u542B\u3080\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u3044\u308B\u3068\u304D\u3001Lv.4\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u30C7\u30C3\u30AD\u306E\u4E0B\u306B\u623B\u3059\u3002"
   EffectDiscription_ENG: '[Main] You may play 1 blue Digimon card from one of your
@@ -40,5 +43,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-098
   MaxCountInDeck: 4

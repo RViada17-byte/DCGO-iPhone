@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_039
   m_EditorClassIdentifier: 
   CardIndex: 2311
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Beastkin
   CardSpriteName: BT11-039
+  PrintID: BT11-039
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u4ED6\u306E\u9EC4\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u306E\u4E0A\u306B\u88CF\u5411\u304D\u3067\u7F6E\u3051\u308B\u3002"
   EffectDiscription_ENG: '[When Digivolving] You may place 1 of your other yellow
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-039
   MaxCountInDeck: 4

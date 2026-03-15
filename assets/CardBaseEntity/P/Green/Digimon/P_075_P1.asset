@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_075_P1
   m_EditorClassIdentifier: 
   CardIndex: 10384
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 7
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Insectoid
   CardSpriteName: P-075_P1
+  PrintID: P-075_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Your Turn] When this Digimon would digivolve into a card
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-075
   MaxCountInDeck: 4

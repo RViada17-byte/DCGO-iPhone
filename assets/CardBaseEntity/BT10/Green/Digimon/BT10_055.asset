@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_055
   m_EditorClassIdentifier: 
   CardIndex: 2097
+  LegacyCardIndices: 
   cardColors: 0300000002000000
   PlayCost: 10
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Mythical Beast
   CardSpriteName: BT10-055
+  PrintID: BT10-055
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 13000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-055
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_086
   m_EditorClassIdentifier: 
   CardIndex: 5409
+  LegacyCardIndices: 
   cardColors: 0200000000000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Hero
   CardSpriteName: BT21-086
+  PrintID: BT21-086
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] If your opponent has a Digimon,

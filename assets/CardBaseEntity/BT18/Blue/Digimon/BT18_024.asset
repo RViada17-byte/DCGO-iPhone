@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_024
   m_EditorClassIdentifier: 
   CardIndex: 3871
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 6
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Aquatic
   CardSpriteName: BT18-024
+  PrintID: BT18-024
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Lanamon]: Cost 1 \n\n[On Play] [When Digivolving]
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-024
   MaxCountInDeck: 4

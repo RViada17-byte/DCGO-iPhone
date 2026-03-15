@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_085
   m_EditorClassIdentifier: 
   CardIndex: 5066
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Tamer
   CardSpriteName: BT19-085
+  PrintID: BT19-085
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] If you have a Digimon with [Terriermon]/[Gargomon]/[Rapidmon]\_in
@@ -42,5 +45,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-085
   MaxCountInDeck: 4

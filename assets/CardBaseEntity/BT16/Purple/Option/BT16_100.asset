@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_100
   m_EditorClassIdentifier: 
   CardIndex: 3428
+  LegacyCardIndices: 
   cardColors: 0600000002000000
   PlayCost: 6
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   - '-'
   Type_ENG: []
   CardSpriteName: BT16-100
+  PrintID: BT16-100
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: While you have a Digimon or Tamer with [Pulsemon] in its
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-100
   MaxCountInDeck: 4

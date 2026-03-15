@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST17_02
   m_EditorClassIdentifier: 
   CardIndex: 3268
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Beast
   CardSpriteName: ST17-02
+  PrintID: ST17-02
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Gummymon]: Cost 0[Main] [Once Per Turn] You
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST17-02
   MaxCountInDeck: 4

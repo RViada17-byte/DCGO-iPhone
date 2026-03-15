@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_063
   m_EditorClassIdentifier: 
   CardIndex: 7069
+  LegacyCardIndices: 
   cardColors: 0500000002000000
   PlayCost: 12
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   - Royal Knight
   - CS
   CardSpriteName: BT22-063
+  PrintID: BT22-063
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.5 w/[CS]\_trait: Cost 3\n[Digivolve] While

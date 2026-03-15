@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_047
   m_EditorClassIdentifier: 
   CardIndex: 3892
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 5
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Cyborg
   - Vegetation
   CardSpriteName: BT18-047
+  PrintID: BT18-047
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Petaldramon]: Cost 0 \n\n[On Play] [When Digivolving]
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-047
   MaxCountInDeck: 4

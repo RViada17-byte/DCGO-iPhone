@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_062
   m_EditorClassIdentifier: 
   CardIndex: 7397
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Undead
   - CS
   CardSpriteName: BT23-062
+  PrintID: BT23-062
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.2 w/[CS]\_trait: Cost 0 \n\n[Start of Your

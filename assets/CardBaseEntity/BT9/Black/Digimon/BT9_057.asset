@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT9_057
   m_EditorClassIdentifier: 
   CardIndex: 1846
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 2
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Beast
   CardSpriteName: BT9-057
+  PrintID: BT9-057
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 3000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT9-057
   MaxCountInDeck: 4

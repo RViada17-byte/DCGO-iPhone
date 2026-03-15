@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT14_011
   m_EditorClassIdentifier: 
   CardIndex: 2929
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 4
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Ankylosaur
   CardSpriteName: BT14-011
+  PrintID: BT14-011
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u226A\u30D6\u30ED\u30C3\u30AB\u30FC\u226B\uFF08\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u30D6\u30ED\u30C3\u30AF\u30BF\u30A4\u30DF\u30F3\u30B0\u3067\u30D6\u30ED\u30C3\u30AF\u3067\u304D\u308B\uFF09"
   EffectDiscription_ENG: "\uFF1CBlocker\uFF1E (At blocker timing, by suspending this
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT14-011
   MaxCountInDeck: 4

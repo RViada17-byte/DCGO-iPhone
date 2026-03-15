@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT9_027
   m_EditorClassIdentifier: 
   CardIndex: 1813
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Aquabeast
   CardSpriteName: BT9-027
+  PrintID: BT9-027
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT9-027
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT13_079
   m_EditorClassIdentifier: 
   CardIndex: 2738
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Avian
   CardSpriteName: BT13-079
+  PrintID: BT13-079
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u6B21\u306E\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u307E\u3067\u3001\u7D2B\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306F\u226A\u9053\u9023\u308C\u226B\u3092\u5F97\u308B\u3002"
   EffectDiscription_ENG: "[On Play] 1 of your purple Digimon gains \uFF1CRetaliation\uFF1E
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT13-079
   MaxCountInDeck: 4

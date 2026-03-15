@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_027_P1
   m_EditorClassIdentifier: 
   CardIndex: 4390
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 6
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Mythical Dragon
   CardSpriteName: BT11-027_P1
+  PrintID: BT11-027_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Your Turn] [Once Per Turn] When you play a blue Tamer,
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-027
   MaxCountInDeck: 4

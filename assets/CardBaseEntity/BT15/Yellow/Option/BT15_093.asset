@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_093
   m_EditorClassIdentifier: 
   CardIndex: 3234
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 5
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   - "-\r"
   Type_ENG: []
   CardSpriteName: BT15-093
+  PrintID: BT15-093
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Main] 1 of your opponent''s Digimon gets -6000 DP for
@@ -42,5 +45,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-093
   MaxCountInDeck: 4

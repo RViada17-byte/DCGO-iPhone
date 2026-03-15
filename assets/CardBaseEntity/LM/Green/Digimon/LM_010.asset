@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: LM_010
   m_EditorClassIdentifier: 
   CardIndex: 3256
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Vegetation
   CardSpriteName: LM-010
+  PrintID: LM-010
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] Suspend 1 Tamer. None of your opponent''s Tamers
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 3000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: LM-010
   MaxCountInDeck: 4

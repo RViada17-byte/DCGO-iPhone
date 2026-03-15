@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_035
   m_EditorClassIdentifier: 
   CardIndex: 3580
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 7
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Wizard
   CardSpriteName: BT17-035
+  PrintID: BT17-035
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CBarrier\uFF1E \n[When Digivolving] You may use 1
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-035
   MaxCountInDeck: 4

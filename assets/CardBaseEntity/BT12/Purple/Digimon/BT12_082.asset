@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT12_082
   m_EditorClassIdentifier: 
   CardIndex: 2500
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 8
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Wizard
   - X Antibody
   CardSpriteName: BT12-082
+  PrintID: BT12-082
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u9032\u5316:\u300C\u30D0\u30A2\u30EB\u30E2\u30F3\u300D\u304B\u30890\u3010\u9032\u5316\u6642\u3011\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u300CX\u6297\u4F53\u300D1\u679A\u3092\u624B\u672D\u306B\u623B\u3059\u3002\u3010\u9032\u5316\u6642\u3011\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u30893\u679A\u7834\u68C4\u3059\u308B\u3002\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u306B\u300C\u30D0\u30A2\u30EB\u30E2\u30F3\u300D\u304B\u300CX\u6297\u4F53\u300D\u304C\u3042\u308B\u3068\u304D\u3001\u4EE3\u308F\u308A\u306BLv.4\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3002"
   EffectDiscription_ENG: 'Digivolve: 0 from [Baalmon][When Digivolving] Return 1

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT5_071
   m_EditorClassIdentifier: 
   CardIndex: 1031
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Reptile
   CardSpriteName: BT5-071
+  PrintID: BT5-071
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u6D88\u6EC5\u6642\u3011\u52B9\u679C\u3067\u6D88\u6EC5\u3057\u305F\u3068\u304D\u3001\u30E1\u30E2\u30EA\u30FC\u3092+1\u3059\u308B\u3002"
   EffectDiscription_ENG: '[On Deletion] If this card was deleted by an effect, gain
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT5-071
   MaxCountInDeck: 4

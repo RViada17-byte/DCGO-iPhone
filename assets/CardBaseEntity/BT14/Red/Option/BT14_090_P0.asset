@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT14_090_P0
   m_EditorClassIdentifier: 
   CardIndex: 4702
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: BT14-090_P0
+  PrintID: BT14-090_P0
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you have Tamer with [Tai Kamiya]\_in its name, you
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT14-090
   MaxCountInDeck: 4

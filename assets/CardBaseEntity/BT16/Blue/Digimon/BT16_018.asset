@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_018
   m_EditorClassIdentifier: 
   CardIndex: 3326
+  LegacyCardIndices: 
   cardColors: 0100000000000000
   PlayCost: 4
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Mythical Dragon
   CardSpriteName: BT16-018
+  PrintID: BT16-018
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Digivolve] [Veemon]: Cost 2<Raid> [On Play] [When Digivolving]
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-018
   MaxCountInDeck: 4

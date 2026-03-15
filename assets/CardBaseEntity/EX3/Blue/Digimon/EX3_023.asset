@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX3_023
   m_EditorClassIdentifier: 
   CardIndex: 2198
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 11
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Plesiosaur
   CardSpriteName: EX3-023-Errata
+  PrintID: EX3-023-ERRATA
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u9752\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306E\u9032\u5316\u5143\u304B\u3089\u3001\u9752\u306ELv.3\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C9\u304B\u7279\u5FB4\u306B\u300C\u6C34\u68F2\u300D\u3092\u542B\u3080Lv.4\u4EE5\u4E0B\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002\u305D\u306E\u5F8C\u3001\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u9752\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u306E\u4E0B\u306B\u7F6E\u3051\u308B\u3002"
   EffectDiscription_ENG: '[When Digivolving] You may play 1 blue level 3 Digimon
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX3-023
   MaxCountInDeck: 4

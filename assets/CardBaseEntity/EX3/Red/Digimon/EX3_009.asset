@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX3_009
   m_EditorClassIdentifier: 
   CardIndex: 2179
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 6
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Dragon
   CardSpriteName: EX3-009
+  PrintID: EX3-009
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX3-009
   MaxCountInDeck: 4

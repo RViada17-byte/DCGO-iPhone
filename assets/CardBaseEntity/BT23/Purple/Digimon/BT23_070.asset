@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_070
   m_EditorClassIdentifier: 
   CardIndex: 7406
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 14
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - X Antibody
   - Seven Great Demon Lords
   CardSpriteName: BT23-070
+  PrintID: BT23-070
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.6 w/[Belphemon]\_in name w/o [X Antibody]\_trait:

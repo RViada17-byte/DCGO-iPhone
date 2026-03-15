@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT8_070_P2
   m_EditorClassIdentifier: 
   CardIndex: 6801
+  LegacyCardIndices: 
   cardColors: 0500000000000000
   PlayCost: 12
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Dragonkin
   CardSpriteName: BT8-070_P2
+  PrintID: BT8-070_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[When Digivolving] If this Digimon has a red digivolution

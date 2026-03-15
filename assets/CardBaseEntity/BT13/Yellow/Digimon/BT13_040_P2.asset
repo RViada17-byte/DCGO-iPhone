@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT13_040_P2
   m_EditorClassIdentifier: 
   CardIndex: 4582
+  LegacyCardIndices: 
   cardColors: 0200000001000000
   PlayCost: 7
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Holy Warrior
   - Royal Knight
   CardSpriteName: BT13-040_P2
+  PrintID: BT13-040_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Veemon]: Cost 3 \n\n\uFF1CBlocker\uFF1E \n[All
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT13-040
   MaxCountInDeck: 4

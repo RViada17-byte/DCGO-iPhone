@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_047_P1
   m_EditorClassIdentifier: 
   CardIndex: 10358
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 8
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Holy Dragon
   CardSpriteName: P-047_P1
+  PrintID: P-047_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[When Digivolving] Trash the top 3 cards of your deck.
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-047
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT14_037_P1
   m_EditorClassIdentifier: 
   CardIndex: 2960
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 4
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Archangel
   CardSpriteName: BT14-037_P1
+  PrintID: BT14-037_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: "\uFF3B\u624B\u672D\uFF3D\u3010\u30AB\u30A6\u30F3\u30BF\u30FC\u3011\u226A\u30D6\u30E9\u30B9\u30C8\u9032\u5316\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u3053\u306E\u30AB\u30FC\u30C9\u306B\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u9032\u5316\u3067\u304D\u308B\uFF09\u3010\u767B\u5834\u6642\u3011\u3010\u9032\u5316\u6642\u3011\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u304C5\u679A\u4EE5\u4E0B\u306A\u3089\u3001\u226A\u30EA\u30AB\u30D0\u30EA\u30FC+1\u300A\u30C7\u30C3\u30AD\u300B\u226B\u3002\u305D\u306E\u5F8C\u3001\u30BF\u30FC\u30F3\u7D42\u4E86\u307E\u3067\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A31\u679A\u3054\u3068\u306BDP-1000\u3002"
   EffectDiscription_ENG: "[Hand][Counter] \uFF1CBlast Digivolve\uFF1E (One of your
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 3
   OverflowMemory: 3
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT14-037
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_077_P1
   m_EditorClassIdentifier: 
   CardIndex: 3630
+  LegacyCardIndices: 
   cardColors: 040000000100000003000000
   PlayCost: 9
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Ancient Holy Warrior
   - Free
   CardSpriteName: BT17-077_P1
+  PrintID: BT17-077_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.6 w/[Imperialdramon]\_in its name: Cost 5
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 16000
   rarity: 3
   OverflowMemory: 5
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-077
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_051
   m_EditorClassIdentifier: 
   CardIndex: 4148
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 7
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Mineral
   - LIBERATOR
   CardSpriteName: EX8-051
+  PrintID: EX8-051
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CCollision\uFF1E.\n\uFF1CPiercing\uFF1E.\n\uFF1CFragment
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-051
   MaxCountInDeck: 4

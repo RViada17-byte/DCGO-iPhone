@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_082_P1
   m_EditorClassIdentifier: 
   CardIndex: 5237
+  LegacyCardIndices: 
   cardColors: 0600000005000000
   PlayCost: 15
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Unanalyzable
   - X Program
   CardSpriteName: BT20-082_P1
+  PrintID: BT20-082_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CSecurity A. +1\uFF1E.\n\uFF1CReboot\uFF1E.\n\uFF1CBlocker\uFF1E
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 15000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-082
   MaxCountInDeck: 4

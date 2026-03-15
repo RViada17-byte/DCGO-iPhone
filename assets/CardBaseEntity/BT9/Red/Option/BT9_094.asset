@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT9_094
   m_EditorClassIdentifier: 
   CardIndex: 1892
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 6
   EvoCosts: []
@@ -26,6 +27,8 @@ MonoBehaviour:
   Type_JPN: []
   Type_ENG: []
   CardSpriteName: BT9-094
+  PrintID: BT9-094
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011DP\u306E\u5408\u8A08\u304C10000\u4EE5\u4E0B\u306B\u306A\u308B\u3088\u3046\u306B\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u9078\u3073\u3001\u9078\u3093\u3060\u30C7\u30B8\u30E2\u30F3\u5168\u3066\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3002"
   EffectDiscription_ENG: "[Main] Choose any number of your opponent\u2019s Digimon

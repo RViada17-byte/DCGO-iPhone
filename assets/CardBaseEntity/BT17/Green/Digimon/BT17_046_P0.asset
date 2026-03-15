@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_046_P0
   m_EditorClassIdentifier: 
   CardIndex: 4855
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 6
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Beastkin
   CardSpriteName: BT17-046_P0
+  PrintID: BT17-046_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Deletion] You may play 1 [Terriermon] from your trash
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-046
   MaxCountInDeck: 4

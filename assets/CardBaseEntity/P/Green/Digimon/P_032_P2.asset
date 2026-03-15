@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_032_P2
   m_EditorClassIdentifier: 
   CardIndex: 10350
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Vegetation
   CardSpriteName: P-032_P2
+  PrintID: P-032_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '-'
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-032
   MaxCountInDeck: 4

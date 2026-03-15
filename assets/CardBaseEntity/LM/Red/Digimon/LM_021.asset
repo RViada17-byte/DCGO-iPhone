@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: LM_021
   m_EditorClassIdentifier: 
   CardIndex: 4031
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 8
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Unknown
   CardSpriteName: LM-021
+  PrintID: LM-021
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Agumon] while you have 2 or fewer security
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 14000
   rarity: 5
   OverflowMemory: 5
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: LM-021
   MaxCountInDeck: 4

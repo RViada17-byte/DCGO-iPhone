@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT5_060
   m_EditorClassIdentifier: 
   CardIndex: 1018
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - CRT
   CardSpriteName: BT5-060
+  PrintID: BT5-060
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u306E1\u756A\u4E0A\u306E\u30AB\u30FC\u30C9\u3092\u78BA\u8A8D\u3059\u308B\u3002\u3010\u6D88\u6EC5\u6642\u3011\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u30893\u679A\u30AA\u30FC\u30D7\u30F3\u3059\u308B\u3002\u305D\u306E\u4E2D\u306E\u300C\u30E2\u30CB\u30BF\u30E2\u30F3\u300D1\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002\u6B8B\u3063\u305F\u30AB\u30FC\u30C9\u306F\u597D\u304D\u306A\u9806\u756A\u3067\u30C7\u30C3\u30AD\u306E\u4E0B\u306B\u623B\u3059\u3002"
   EffectDiscription_ENG: '[On Play] Look at the top card of your deck.[On Deletion]
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT5-060
   MaxCountInDeck: 4

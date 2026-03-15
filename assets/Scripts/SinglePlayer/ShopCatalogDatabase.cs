@@ -13,16 +13,19 @@ public class ShopCatalogDatabase
 
     private readonly List<ShopProductDef> _products = new List<ShopProductDef>();
     private readonly Dictionary<string, ShopProductDef> _productsById = new Dictionary<string, ShopProductDef>(StringComparer.OrdinalIgnoreCase);
+    private bool _isLoaded;
 
     public IReadOnlyList<ShopProductDef> Products => _products;
 
     public ShopCatalogDatabase()
     {
-        Load();
+        Load(force: false);
     }
 
     public ShopProductDef GetProduct(string productId)
     {
+        EnsureLoaded();
+
         if (string.IsNullOrWhiteSpace(productId))
         {
             return null;
@@ -34,13 +37,24 @@ public class ShopCatalogDatabase
 
     public void Reload()
     {
-        Load();
+        Load(force: true);
     }
 
-    private void Load()
+    public void EnsureLoaded()
     {
+        Load(force: false);
+    }
+
+    private void Load(bool force)
+    {
+        if (_isLoaded && !force)
+        {
+            return;
+        }
+
         _products.Clear();
         _productsById.Clear();
+        _isLoaded = true;
 
         string json = TryReadCatalogJson();
         if (string.IsNullOrWhiteSpace(json))

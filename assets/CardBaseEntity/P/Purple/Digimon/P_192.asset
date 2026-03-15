@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_192
   m_EditorClassIdentifier: 
   CardIndex: 6985
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 5
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Ghost
   - LIBERATOR
   CardSpriteName: P-192
+  PrintID: P-192
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] [When Digivolving] By trashing 1 card in your

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT2_076
   m_EditorClassIdentifier: 
   CardIndex: 505
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 6
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Puppet
   CardSpriteName: BT2-076
+  PrintID: BT2-076
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT2-076
   MaxCountInDeck: 4

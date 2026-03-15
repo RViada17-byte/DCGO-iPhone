@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_059
   m_EditorClassIdentifier: 
   CardIndex: 3191
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 5
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Mythical Beast
   - SoC
   CardSpriteName: BT15-059
+  PrintID: BT15-059
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] [When Digivolving] By placing 1 [Marvin Jackson]
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-059
   MaxCountInDeck: 4

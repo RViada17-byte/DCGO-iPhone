@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX11_035_P1
   m_EditorClassIdentifier: 
   CardIndex: 7729
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 11
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   - LIBERATOR
   - Bird Dragon
   CardSpriteName: EX11-035_P1
+  PrintID: EX11-035_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CPiercing\uFF1E \n\uFF1CVortex\uFF1E \n\uFF1CBlocker\uFF1E

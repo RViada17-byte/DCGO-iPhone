@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_072
   m_EditorClassIdentifier: 
   CardIndex: 3205
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 4
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Evil
   CardSpriteName: BT15-072
+  PrintID: BT15-072
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: ' (At blocker timing, by suspending this Digimon, it becomes
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-072
   MaxCountInDeck: 4

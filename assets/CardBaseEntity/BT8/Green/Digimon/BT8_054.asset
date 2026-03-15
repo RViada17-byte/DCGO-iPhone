@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT8_054
   m_EditorClassIdentifier: 
   CardIndex: 1629
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Vegetation
   CardSpriteName: BT8-054
+  PrintID: BT8-054
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u226A\u5438\u53CE\u9032\u5316-2\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u624B\u672D\u306E\u3053\u306E\u30AB\u30FC\u30C9\u306B\u9032\u5316\u3059\u308B\u3068\u304D\u3001\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u30EC\u30B9\u30C8\u3055\u305B\u308B\u3053\u3068\u3067\u3001\u652F\u6255\u3046\u9032\u5316\u30B3\u30B9\u30C8-2\uFF09"
   EffectDiscription_ENG: "\uFF1CDigisorption -2\uFF1E (When one of your Digimon digivolves
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT8-054
   MaxCountInDeck: 4

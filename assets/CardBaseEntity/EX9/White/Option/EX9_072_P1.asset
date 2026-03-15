@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX9_072_P1
   m_EditorClassIdentifier: 
   CardIndex: 6971
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 2
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - DM
   CardSpriteName: EX9-072_P1
+  PrintID: EX9-072_P1
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you have no face-up security cards, you can ignore

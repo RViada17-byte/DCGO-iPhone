@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX11_014
   m_EditorClassIdentifier: 
   CardIndex: 7683
+  LegacyCardIndices: 
   cardColors: 0100000002000000
   PlayCost: 3
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - LIBERATOR
   - Ice-Snow
   CardSpriteName: EX11-014
+  PrintID: EX11-014
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Hiyarimon]: Cost 0 \n\n[On Play] Reveal the

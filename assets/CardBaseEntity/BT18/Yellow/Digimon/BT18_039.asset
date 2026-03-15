@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_039
   m_EditorClassIdentifier: 
   CardIndex: 3887
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 7
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Magic Warrior
   - Witchelny
   CardSpriteName: BT18-039
+  PrintID: BT18-039
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CBarrier\uFF1E \n[On Play] [When Digivolving] By trashing
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-039
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_130_P2
   m_EditorClassIdentifier: 
   CardIndex: 10431
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Tamer
   CardSpriteName: P-130_P2
+  PrintID: P-130_P2
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] You may move 1 of your level 3 or higher Digimon
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 0
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-130
   MaxCountInDeck: 1

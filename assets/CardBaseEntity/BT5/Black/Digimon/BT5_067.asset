@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT5_067
   m_EditorClassIdentifier: 
   CardIndex: 1027
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Unidentified
   CardSpriteName: BT5-067
+  PrintID: BT5-067
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u81EA\u5206\u306E\u300C\u30B1\u30E9\u30E2\u30F3\u300D\u306F\u624B\u672D\u306E\u3053\u306E\u30AB\u30FC\u30C9\u306B\u9032\u5316\u6761\u4EF6\u3092\u7121\u8996\u3057\u3066\u9032\u5316\u30B3\u30B9\u30C84\u3067\u9032\u5316\u3067\u304D\u308B\u3002"
   EffectDiscription_ENG: Your [Keramon] can digivolve into this card in your hand
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT5-067
   MaxCountInDeck: 4

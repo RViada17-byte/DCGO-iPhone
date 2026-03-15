@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT12_038
   m_EditorClassIdentifier: 
   CardIndex: 2448
+  LegacyCardIndices: 
   cardColors: 0200000000000000
   PlayCost: 5
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Dinosaur
   CardSpriteName: BT12-038
+  PrintID: BT12-038
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u9032\u5316:\u300E\u540D\u79F0\u306B\u300C\u30A2\u30B0\u30E2\u30F3\u300D\u3092\u542B\u307F\u7279\u5FB4\u306B\u300C\u6050\u7ADC\u578B\u300D\u3092\u6301\u3064Lv.3\u300F\u304B\u30892\u3010\u9032\u5316\u6642\u3011\u81EA\u5206\u306E\u300C\u5927\u9580\u5927\u300D\u304C\u3044\u306A\u3044\u3068\u304D\u3001\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u300C\u5927\u9580\u5927\u300D1\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002"
   EffectDiscription_ENG: 'Digivolve: 2 from Lv.3 w/[Agumon] in name and [Dinosaur]
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT12-038
   MaxCountInDeck: 4

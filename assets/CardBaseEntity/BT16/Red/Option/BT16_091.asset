@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_091
   m_EditorClassIdentifier: 
   CardIndex: 3419
+  LegacyCardIndices: 
   cardColors: 0000000002000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   - '-'
   Type_ENG: []
   CardSpriteName: BT16-091-Errata
+  PrintID: BT16-091-ERRATA
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Main] You may play 1 [Aquilamon] or [Gatomon] from your
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-091
   MaxCountInDeck: 4

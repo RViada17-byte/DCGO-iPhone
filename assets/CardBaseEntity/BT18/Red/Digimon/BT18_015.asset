@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_015
   m_EditorClassIdentifier: 
   CardIndex: 3865
+  LegacyCardIndices: 
   cardColors: 0000000006000000
   PlayCost: 8
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Composite
   CardSpriteName: BT18-015
+  PrintID: BT18-015
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.4 w/[Composite]\_trait: Cost 3 \n\n[When
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-015
   MaxCountInDeck: 4

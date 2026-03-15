@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_027
   m_EditorClassIdentifier: 
   CardIndex: 5336
+  LegacyCardIndices: 
   cardColors: 0000000002000000
   PlayCost: 12
   EvoCosts: []
@@ -31,6 +32,8 @@ MonoBehaviour:
   - Xros Heart
   - Blue Flare
   CardSpriteName: BT21-027
+  PrintID: BT21-027
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [ZeigGreymon]: Cost 2\n[Digivolve] Lv.5 w/[Xros
@@ -51,6 +54,5 @@ MonoBehaviour:
   LinkDP: 0
   LinkEffect: '-'
   LinkRequirement: '-'
-  LinkCost: 0
   CardID: BT21-027
   MaxCountInDeck: 4

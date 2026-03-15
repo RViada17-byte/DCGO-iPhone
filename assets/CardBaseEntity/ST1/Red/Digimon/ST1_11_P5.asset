@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST1_11_P5
   m_EditorClassIdentifier: 
   CardIndex: 4900
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 12
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Dragonkin
   CardSpriteName: ST1-11_P5
+  PrintID: ST1-11_P5
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Your Turn] For every 2 digivolution cards this Digimon
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST1-11
   MaxCountInDeck: 4

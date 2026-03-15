@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_011
   m_EditorClassIdentifier: 
   CardIndex: 5319
+  LegacyCardIndices: 
   cardColors: 0000000002000000
   PlayCost: 3
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Xros Heart
   - Hero
   CardSpriteName: BT21-011
+  PrintID: BT21-011
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.2 w/[Xros Heart]/[Hero]\_trait: Cost 0 \n\n[Your
@@ -54,6 +57,5 @@ MonoBehaviour:
   LinkDP: 0
   LinkEffect: '-'
   LinkRequirement: '-'
-  LinkCost: 0
   CardID: BT21-011
   MaxCountInDeck: 4

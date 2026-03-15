@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_080_P0
   m_EditorClassIdentifier: 
   CardIndex: 4427
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Fallen Angel
   CardSpriteName: BT11-080_P0
+  PrintID: BT11-080_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Your Turn] While you have a yellow Digimon or yellow Tamer
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-080
   MaxCountInDeck: 4

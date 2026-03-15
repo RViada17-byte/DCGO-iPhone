@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_063_P0
   m_EditorClassIdentifier: 
   CardIndex: 4744
+  LegacyCardIndices: 
   cardColors: 0500000003000000
   PlayCost: 7
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - X Antibody
   - DigiPolice
   CardSpriteName: BT15-063_P0
+  PrintID: BT15-063_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.4 w/[X Antibody]/[DigiPolice]\_trait: Cost
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-063
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT8_078
   m_EditorClassIdentifier: 
   CardIndex: 1660
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 6
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Wizard
   CardSpriteName: BT8-078
+  PrintID: BT8-078
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT8-078
   MaxCountInDeck: 4

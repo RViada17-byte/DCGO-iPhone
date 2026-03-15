@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_225
   m_EditorClassIdentifier: 
   CardIndex: 7656
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 2
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - CS
   CardSpriteName: P-225
+  PrintID: P-225
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you have [CS]\_trait Digimon or Tamer, you can ignore

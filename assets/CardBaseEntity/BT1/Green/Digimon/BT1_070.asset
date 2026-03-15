@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT1_070
   m_EditorClassIdentifier: 
   CardIndex: 238
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 4
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Insectoid
   CardSpriteName: BT1-070
+  PrintID: BT1-070
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u30EC\u30B9\u30C8\u3055\u305B\u308B\u3002"
   EffectDiscription_ENG: '[On Play] Suspend 1 of your opponent''s Digimon.'
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT1-070
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX11_041_P1
   m_EditorClassIdentifier: 
   CardIndex: 7742
+  LegacyCardIndices: 
   cardColors: 0500000001000000
   PlayCost: 7
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Cyborg
   - LIBERATOR
   CardSpriteName: EX11-041_P1
+  PrintID: EX11-041_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Cyborg]\_trait: Cost 3 \n\n[Security]

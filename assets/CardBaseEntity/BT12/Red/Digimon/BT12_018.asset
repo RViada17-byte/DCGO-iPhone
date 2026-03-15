@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT12_018
   m_EditorClassIdentifier: 
   CardIndex: 2424
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 12
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Holy Warrior
   - Royal Knight
   CardSpriteName: BT12-018
+  PrintID: BT12-018
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u226A\u7A81\u9032\u226B\uFF08\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30A2\u30BF\u30C3\u30AF\u3057\u305F\u3068\u304D\u3001\u30A2\u30BF\u30C3\u30AF\u306E\u5BFE\u8C61\u3092\u6700\u3082DP\u306E\u9AD8\u3044\u30A2\u30AF\u30C6\u30A3\u30D6\u72B6\u614B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306B\u5909\u66F4\u3067\u304D\u308B\uFF09\u3010\u9032\u5316\u6642\u3011DP6000\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3002\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011DP6000\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3002\u3053\u306E\u52B9\u679C\u3067\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u6D88\u6EC5\u3057\u306A\u304B\u3063\u305F\u3068\u304D\u3001\u76F8\u624B\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3092\u4E0A\u304B\u30891\u679A\u7834\u68C4\u3059\u308B\u3002"
   EffectDiscription_ENG: "\uFF1CRaid\uFF1E (When this Digimon attacks, you may switch
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT12-018
   MaxCountInDeck: 4

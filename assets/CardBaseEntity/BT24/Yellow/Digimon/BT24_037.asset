@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_037
   m_EditorClassIdentifier: 
   CardIndex: 7563
+  LegacyCardIndices: 
   cardColors: 0200000000000000
   PlayCost: 8
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Iliad
   - TS
   CardSpriteName: BT24-037
+  PrintID: BT24-037
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] 1 of your opponent's Digimon

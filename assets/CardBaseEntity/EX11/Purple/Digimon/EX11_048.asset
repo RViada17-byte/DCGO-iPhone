@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX11_048
   m_EditorClassIdentifier: 
   CardIndex: 7756
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Ghost
   - LIBERATOR
   CardSpriteName: EX11-048
+  PrintID: EX11-048
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[When Moving] [On Play] 1 of your Digimon with the [Ghost]\_trait

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_094
   m_EditorClassIdentifier: 
   CardIndex: 3422
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 4
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   Type_ENG:
   - Four Great Dragons
   CardSpriteName: BT16-094
+  PrintID: BT16-094
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Main] Reveal the top 4 cards of your deck. Add 1 [Four
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-094
   MaxCountInDeck: 4

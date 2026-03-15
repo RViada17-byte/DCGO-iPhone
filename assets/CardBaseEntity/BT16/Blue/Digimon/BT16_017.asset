@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_017
   m_EditorClassIdentifier: 
   CardIndex: 3325
+  LegacyCardIndices: 
   cardColors: 0100000000000000
   PlayCost: 3
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Mini Dragon
   CardSpriteName: BT16-017
+  PrintID: BT16-017
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Digivolve] [DemiVeemon]: Cost 0[Your Turn][Once Per Turn]
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-017
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_091
   m_EditorClassIdentifier: 
   CardIndex: 5071
+  LegacyCardIndices: 
   cardColors: 000000000200000003000000
   PlayCost: 8
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: BT19-091
+  PrintID: BT19-091
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you have a level 5 [WarGrowlmon]/[Taomon]/[Rapidmon],
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-091
   MaxCountInDeck: 4

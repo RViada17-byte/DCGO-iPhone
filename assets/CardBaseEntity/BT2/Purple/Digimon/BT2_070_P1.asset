@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT2_070_P1
   m_EditorClassIdentifier: 
   CardIndex: 495
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Holy Beast
   CardSpriteName: BT2-070_P1
+  PrintID: BT2-070_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u6D88\u6EC5\u6642\u3011\u226A1\u30C9\u30ED\u30FC\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u304B\u3089\u30AB\u30FC\u30C9\u30921\u679A\u5F15\u304F\uFF09"
   EffectDiscription_ENG: "[On Deletion] Trigger \uFF1CDraw 1\uFF1E. (Draw 1 card
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT2-070
   MaxCountInDeck: 4

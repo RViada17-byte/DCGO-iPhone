@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_034
   m_EditorClassIdentifier: 
   CardIndex: 7195
+  LegacyCardIndices: 
   cardColors: 0500000006000000
   PlayCost: 13
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Mineral
   - Bagra Army
   CardSpriteName: EX10-034
+  PrintID: EX10-034
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CCollision\uFF1E \n\uFF1CFragment (3)\uFF1E \n\uFF1CBlocker\uFF1E

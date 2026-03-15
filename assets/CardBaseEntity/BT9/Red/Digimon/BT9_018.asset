@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT9_018
   m_EditorClassIdentifier: 
   CardIndex: 1802
+  LegacyCardIndices: 
   cardColors: 0000000003000000
   PlayCost: 13
   EvoCosts:
@@ -40,6 +41,8 @@ MonoBehaviour:
   - Dinosaur
   - X Antibody
   CardSpriteName: BT9-018
+  PrintID: BT9-018
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u76F8\u624B\u306E\u30C6\u30A4\u30DE\u30FC1\u4F53\u3054\u3068\u306B\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u30EC\u30B9\u30C8\u3055\u305B\u3001\u30E1\u30E2\u30EA\u30FC+1\u3002\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3DDP6000\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30EC\u30B9\u30C8\u3057\u305F\u3068\u304D\u3001\u305D\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u6D88\u6EC5\u3067\u304D\u308B\u3002"
   EffectDiscription_ENG: "[When Digivolving] For each Tamer your opponent has in
@@ -54,5 +57,8 @@ MonoBehaviour:
   DP: 13000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT9-018
   MaxCountInDeck: 4

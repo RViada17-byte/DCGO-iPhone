@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_089_P0
   m_EditorClassIdentifier: 
   CardIndex: 4823
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Tamer
   CardSpriteName: BT16-089_P0
+  PrintID: BT16-089_P0
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Your Turn] When [Arukenimon]/[Mummymon] would be played
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-089
   MaxCountInDeck: 4

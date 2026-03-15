@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: LM_011
   m_EditorClassIdentifier: 
   CardIndex: 3257
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Beastkin
   CardSpriteName: LM-011
+  PrintID: LM-011
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] [When Digivolving] Suspend 1 of your opponent''s
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: LM-011
   MaxCountInDeck: 4

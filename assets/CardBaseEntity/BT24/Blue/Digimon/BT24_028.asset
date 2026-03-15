@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_028
   m_EditorClassIdentifier: 
   CardIndex: 7550
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 6
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - Titan
   - TS
   CardSpriteName: BT24-028
+  PrintID: BT24-028
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Aqua] or [Sea Animal]\_in any trait

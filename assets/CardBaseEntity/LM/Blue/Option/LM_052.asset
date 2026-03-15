@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: LM_052
   m_EditorClassIdentifier: 
   CardIndex: 7813
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - '-'
   CardSpriteName: LM-052
+  PrintID: LM-052
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "Yellow also meets this card's color requirements.\n[Main]

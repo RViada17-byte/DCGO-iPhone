@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_092_P1
   m_EditorClassIdentifier: 
   CardIndex: 3660
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Tamer
   CardSpriteName: BT17-092_P1
+  PrintID: BT17-092_P1
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] By trashing 1 [Morphomon]/[Eosmon] in your hand,
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-092
   MaxCountInDeck: 4

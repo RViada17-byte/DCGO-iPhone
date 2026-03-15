@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_094
   m_EditorClassIdentifier: 
   CardIndex: 3663
+  LegacyCardIndices: 
   cardColors: 0000000001000000
   PlayCost: 2
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Ten Warriors
   CardSpriteName: BT17-094
+  PrintID: BT17-094
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you have a Tamer or a Digimon with the [Hybrid]\_trait,
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-094
   MaxCountInDeck: 4

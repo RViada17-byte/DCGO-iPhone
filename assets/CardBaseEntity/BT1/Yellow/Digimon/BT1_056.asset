@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT1_056
   m_EditorClassIdentifier: 
   CardIndex: 213
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Fairy
   CardSpriteName: BT1-056
+  PrintID: BT1-056
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u81EA\u5206\u306E\u624B\u672D\u304B\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u300C\u30C6\u30A3\u30F3\u30AB\u30FC\u30E2\u30F3\u300D1\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002"
   EffectDiscription_ENG: '[On Play] You may play 1 [Tinkermon] from your hand or
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT1-056
   MaxCountInDeck: 4

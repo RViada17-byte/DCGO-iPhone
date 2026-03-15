@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_075
   m_EditorClassIdentifier: 
   CardIndex: 5392
+  LegacyCardIndices: 
   cardColors: 0600000000000000
   PlayCost: 8
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Undead
   - ADVENTURE
   CardSpriteName: BT21-075
+  PrintID: BT21-075
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Greymon]\_in name or w/[ADVENTURE]\_trait:
@@ -55,6 +58,5 @@ MonoBehaviour:
   LinkDP: 0
   LinkEffect: '-'
   LinkRequirement: '-'
-  LinkCost: 0
   CardID: BT21-075
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_060
   m_EditorClassIdentifier: 
   CardIndex: 3377
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 7
   EvoCosts:
@@ -39,6 +40,8 @@ MonoBehaviour:
   - D-Brigade
   - DigiPolice
   CardSpriteName: BT16-060
+  PrintID: BT16-060
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] [When Digivolving] Reveal the top 3 cards of
@@ -56,5 +59,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-060
   MaxCountInDeck: 4

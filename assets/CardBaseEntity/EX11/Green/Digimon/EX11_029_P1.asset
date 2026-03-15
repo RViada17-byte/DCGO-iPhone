@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX11_029_P1
   m_EditorClassIdentifier: 
   CardIndex: 7717
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 5
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Beast
   - LIBERATOR
   CardSpriteName: EX11-029_P1
+  PrintID: EX11-029_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Maquinamon]: Cost 2 \n\n[On Play] [When Digivolving]

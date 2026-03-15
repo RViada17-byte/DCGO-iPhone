@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT3_025_P1
   m_EditorClassIdentifier: 
   CardIndex: 630
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Mythical Dragon
   CardSpriteName: BT3-025_P1
+  PrintID: BT3-025_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011Lv.4\u4EE5\u4E0B\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u3059\u308B\u3002"
   EffectDiscription_ENG: '[When Digivolving] Unsuspend 1 of your level 4 or lower
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT3-025
   MaxCountInDeck: 4

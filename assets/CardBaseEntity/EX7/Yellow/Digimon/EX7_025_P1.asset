@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_025_P1
   m_EditorClassIdentifier: 
   CardIndex: 3723
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Puppet
   - LIBERATOR
   CardSpriteName: EX7-025_P1
+  PrintID: EX7-025_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[When Digivolving] If you have 1 or fewer Tamers, you may
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-025
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT13_104
   m_EditorClassIdentifier: 
   CardIndex: 2774
+  LegacyCardIndices: 
   cardColors: 0000000002000000
   PlayCost: 8
   EvoCosts: []
@@ -26,6 +27,8 @@ MonoBehaviour:
   Type_JPN: []
   Type_ENG: []
   CardSpriteName: BT13-104
+  PrintID: BT13-104
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u6B21\u306E\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u307E\u3067\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092DP-12000\u3002\u305D\u306E\u5F8C\u3001\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u300C\u5927\u9580\u5927\u300D1\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002"
   EffectDiscription_ENG: '[Main] 1 of your opponent''s Digimon gets -12000 DP until

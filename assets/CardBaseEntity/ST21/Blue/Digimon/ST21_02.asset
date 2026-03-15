@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST21_02
   m_EditorClassIdentifier: 
   CardIndex: 5280
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 3
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Sea Beast
   - ADVENTURE
   CardSpriteName: ST21-02
+  PrintID: ST21-02
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.2 w/[ADVENTURE]\_trait: Cost 0 \n\n[All
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST21-02
   MaxCountInDeck: 4

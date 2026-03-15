@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT1_068
   m_EditorClassIdentifier: 
   CardIndex: 236
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 4
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Machine
   CardSpriteName: BT1-068
+  PrintID: BT1-068
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT1-068
   MaxCountInDeck: 4

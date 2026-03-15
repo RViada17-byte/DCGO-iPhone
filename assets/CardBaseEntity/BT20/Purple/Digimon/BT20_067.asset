@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_067
   m_EditorClassIdentifier: 
   CardIndex: 5146
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 4
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Ghost
   CardSpriteName: BT20-067
+  PrintID: BT20-067
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] 1 of your Digimon gains \uFF1CRetaliation\uFF1E
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-067
   MaxCountInDeck: 4

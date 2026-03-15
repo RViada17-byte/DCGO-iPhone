@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST18_06
   m_EditorClassIdentifier: 
   CardIndex: 3823
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Ancient Bird
   - Vegetation
   CardSpriteName: ST18-06
+  PrintID: ST18-06
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] [On Deletion] Suspend 1 of your opponent''s Digimon.
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 3000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST18-06
   MaxCountInDeck: 4

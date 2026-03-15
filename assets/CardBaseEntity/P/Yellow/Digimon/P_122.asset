@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_122
   m_EditorClassIdentifier: 
   CardIndex: 6168
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Mammal
   CardSpriteName: P-122
+  PrintID: P-122
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3092\u5168\u3066\u78BA\u8A8D\u3059\u308B\u3002\u305D\u306E\u4E2D\u306E\u9EC4/\u9ED2\u3092\u542B\u30802\u8272\u4EE5\u4E0A\u306E\u30AB\u30FC\u30C91\u679A\u3092\u624B\u672D\u306B\u52A0\u3048\u3089\u308C\u308B\u3002\u52A0\u3048\u305F\u306A\u3089\u3001\u226A\u30EA\u30AB\u30D0\u30EA\u30FC\uFF0B1\u300A\u30C7\u30C3\u30AD\u300B\u226B\u3002\u305D\u306E\u5F8C\u3001\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3092\u30B7\u30E3\u30C3\u30D5\u30EB\u3059\u308B\u3002"
   EffectDiscription_ENG: "[On Play] Search your security stack. You may add 1 yellow
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-122
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_042
   m_EditorClassIdentifier: 
   CardIndex: 7209
+  LegacyCardIndices: 
   cardColors: 0600000000000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Dragonkin
   CardSpriteName: EX10-042
+  PrintID: EX10-042
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Gammamon]: Cost 2 \n\n[On Play] [When Digivolving]

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST21_05
   m_EditorClassIdentifier: 
   CardIndex: 5283
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Angel
   - ADVENTURE
   CardSpriteName: ST21-05
+  PrintID: ST21-05
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.3 w/[ADVENTURE]\_trait: Cost 2 \n\n[When
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST21-05
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_089_P0
   m_EditorClassIdentifier: 
   CardIndex: 4345
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Xros Heart
   CardSpriteName: BT10-089_P0
+  PrintID: BT10-089_P0
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] You may play 1 [Dorulumon] from your hand or
@@ -43,5 +46,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-089
   MaxCountInDeck: 4

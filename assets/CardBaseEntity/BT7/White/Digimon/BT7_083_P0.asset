@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT7_083_P0
   m_EditorClassIdentifier: 
   CardIndex: 6790
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 6
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   Type_ENG:
   - Puppet
   CardSpriteName: BT7-083_P0
+  PrintID: BT7-083_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] You may place 1 [Sistermon Ciel] from your hand

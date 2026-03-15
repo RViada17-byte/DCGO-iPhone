@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT7_106
   m_EditorClassIdentifier: 
   CardIndex: 1541
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 5
   EvoCosts: []
@@ -26,6 +27,8 @@ MonoBehaviour:
   Type_JPN: []
   Type_ENG: []
   CardSpriteName: BT7-106
+  PrintID: BT7-106
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u767B\u5834\u30B3\u30B9\u30C86\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3002\u9032\u5316\u5143\u30925\u679A\u4EE5\u4E0A\u6301\u3061\u3001\u7279\u5FB4\u306B\u300CX\u6297\u4F53\u300D\u3092\u6301\u3064\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u3044\u308B\u3068\u304D\u3001\u4EE3\u308F\u308A\u306B\u7279\u5FB4\u306B\u300CX\u6297\u4F53\u300D\u3092\u6301\u305F\u306A\u3044\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u6D88\u6EC5\u3067\u304D\u308B\u3002"
   EffectDiscription_ENG: '[Main] Delete 1 of your opponent''s Digimon with a play

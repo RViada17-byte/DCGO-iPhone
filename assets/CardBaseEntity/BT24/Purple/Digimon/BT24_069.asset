@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_069
   m_EditorClassIdentifier: 
   CardIndex: 7602
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 4
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Evil
   CardSpriteName: BT24-069
+  PrintID: BT24-069
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[When Moving] [When Digivolving] Trash 1 card in your hand.

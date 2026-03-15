@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_032
   m_EditorClassIdentifier: 
   CardIndex: 3482
+  LegacyCardIndices: 
   cardColors: 0300000002000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Beast
   CardSpriteName: EX6-032
+  PrintID: EX6-032
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Kokomon]: Cost 0 \n\n[On Play] You may suspend
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX6-032
   MaxCountInDeck: 4

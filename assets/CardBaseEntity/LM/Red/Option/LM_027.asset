@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: LM_027
   m_EditorClassIdentifier: 
   CardIndex: 4037
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 2
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: LM-027
+  PrintID: LM-027
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] 1 of your red Digimon may digivolve into a red Digimon
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 0
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: LM-027
   MaxCountInDeck: 4

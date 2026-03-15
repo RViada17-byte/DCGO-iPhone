@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_099
   m_EditorClassIdentifier: 
   CardIndex: 3668
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: BT17-099
+  PrintID: BT17-099
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] You may play 1 [Marcus Damon]/[Rhythm] from your
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-099
   MaxCountInDeck: 4

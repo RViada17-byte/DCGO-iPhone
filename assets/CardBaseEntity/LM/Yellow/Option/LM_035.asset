@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: LM_035
   m_EditorClassIdentifier: 
   CardIndex: 4045
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: LM-035
+  PrintID: LM-035
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "This card may also have its color requirements met by purple.\n[Main]
@@ -43,5 +46,8 @@ MonoBehaviour:
   DP: 0
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: LM-035
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST3_08
   m_EditorClassIdentifier: 
   CardIndex: 90
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Archangel
   CardSpriteName: ST3-08
+  PrintID: ST3-08
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST3-08
   MaxCountInDeck: 4

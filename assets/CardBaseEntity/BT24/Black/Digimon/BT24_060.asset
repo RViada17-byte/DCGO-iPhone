@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_060
   m_EditorClassIdentifier: 
   CardIndex: 7591
+  LegacyCardIndices: 
   cardColors: 0500000003000000
   PlayCost: 7
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   - DigiPolice
   - SEEKERS
   CardSpriteName: BT24-060
+  PrintID: BT24-060
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.4 w/[DigiPolice]/[SEEKERS]\_trait: Cost

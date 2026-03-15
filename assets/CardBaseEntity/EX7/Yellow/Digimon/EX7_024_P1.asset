@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_024_P1
   m_EditorClassIdentifier: 
   CardIndex: 3721
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Puppet
   - LIBERATOR
   CardSpriteName: EX7-024_P1
+  PrintID: EX7-024_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Your Turn] When this Digimon would digivolve into a Digimon
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-024
   MaxCountInDeck: 4

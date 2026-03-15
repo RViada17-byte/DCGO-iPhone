@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: LM_023
   m_EditorClassIdentifier: 
   CardIndex: 4033
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 6
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Shaman
   CardSpriteName: LM-023
+  PrintID: LM-023
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Sakuyamon]: Cost 1 \n\n[Hand] [Counter] \uFF1CBlast
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 5
   OverflowMemory: 4
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: LM-023
   MaxCountInDeck: 4

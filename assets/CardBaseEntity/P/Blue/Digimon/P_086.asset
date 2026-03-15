@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_086
   m_EditorClassIdentifier: 
   CardIndex: 6132
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Crustacean
   CardSpriteName: P-086
+  PrintID: P-086
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u9752\u306E\u81EA\u5206\u306E\u30C6\u30A4\u30DE\u30FC\u304C\u3044\u308B\u3068\u304D\u3001\u6B21\u306E\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u307E\u3067\u3001\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306F\u30A2\u30BF\u30C3\u30AF\u3055\u308C\u306A\u3044\u3002"
   EffectDiscription_ENG: '[On Play] If you have a blue Tamer in play, 1 of your Digimon
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-086
   MaxCountInDeck: 4

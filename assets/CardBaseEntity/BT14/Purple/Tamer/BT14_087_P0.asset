@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT14_087_P0
   m_EditorClassIdentifier: 
   CardIndex: 4699
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - SoC
   CardSpriteName: BT14-087_P0
+  PrintID: BT14-087_P0
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Security] Play this card without paying the cost.\n[Start
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT14-087
   MaxCountInDeck: 4

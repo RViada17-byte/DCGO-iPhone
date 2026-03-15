@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_081_P2
   m_EditorClassIdentifier: 
   CardIndex: 7423
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 4
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - Hudie
   - CS
   CardSpriteName: BT23-081_P2
+  PrintID: BT23-081_P2
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] If you have a Digimon with the

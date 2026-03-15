@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT5_009_P1
   m_EditorClassIdentifier: 
   CardIndex: 943
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Mini Dragon
   CardSpriteName: BT5-009_P1
+  PrintID: BT5-009_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u30895\u679A\u30AA\u30FC\u30D7\u30F3\u3059\u308B\u3002\u305D\u306E\u4E2D\u306E\u540D\u79F0\u306B\u300C\u30B7\u30E3\u30A6\u30C8\u30E2\u30F3\u300D\u3092\u542B\u3080\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C9\u3068\u226A\u9032\u6483\u226B\u3092\u6301\u3064\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u305A\u3064\u3092\u624B\u672D\u306B\u52A0\u3048\u308B\u3002\u6B8B\u3063\u305F\u30AB\u30FC\u30C9\u306F\u597D\u304D\u306A\u9806\u756A\u3067\u30C7\u30C3\u30AD\u306E\u4E0B\u306B\u623B\u3059\u3002"
   EffectDiscription_ENG: "[On Play] Reveal 5 cards from the top of your deck. Add
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT5-009
   MaxCountInDeck: 4

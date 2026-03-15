@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_067
   m_EditorClassIdentifier: 
   CardIndex: 3922
+  LegacyCardIndices: 
   cardColors: 0500000002000000
   PlayCost: 6
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Cyborg
   CardSpriteName: BT18-067
+  PrintID: BT18-067
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][J.P. Shibayama]: Cost 3 [Digivolve][Beetlemon]:
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-067
   MaxCountInDeck: 4

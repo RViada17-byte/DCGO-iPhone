@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_070
   m_EditorClassIdentifier: 
   CardIndex: 7077
+  LegacyCardIndices: 
   cardColors: 0600000003000000
   PlayCost: 6
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Dinosaur
   - X Antibody
   CardSpriteName: BT22-070
+  PrintID: BT22-070
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Tyrannomon]\_in name w/o [X Antibody]\_trait:

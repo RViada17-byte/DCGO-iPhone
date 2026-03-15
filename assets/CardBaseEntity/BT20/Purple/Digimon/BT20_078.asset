@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_078
   m_EditorClassIdentifier: 
   CardIndex: 5157
+  LegacyCardIndices: 
   cardColors: 0600000005000000
   PlayCost: 11
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Cyborg
   - Ghost
   CardSpriteName: BT20-078
+  PrintID: BT20-078
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CCollision\uFF1E.\n\uFF1CBlocker\uFF1E \n[All Turns]
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-078
   MaxCountInDeck: 4

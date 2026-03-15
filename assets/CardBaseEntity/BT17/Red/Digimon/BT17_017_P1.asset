@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_017_P1
   m_EditorClassIdentifier: 
   CardIndex: 3558
+  LegacyCardIndices: 
   cardColors: 0000000006000000
   PlayCost: 12
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Ancient Dragon
   - Ten Warriors
   CardSpriteName: BT17-017_P1
+  PrintID: BT17-017_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CSecurity Attack +1\uFF1E \n[On Play] [When Digivolving]
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-017
   MaxCountInDeck: 4

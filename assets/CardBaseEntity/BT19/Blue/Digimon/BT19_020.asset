@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_020
   m_EditorClassIdentifier: 
   CardIndex: 5020
+  LegacyCardIndices: 
   cardColors: 0100000005000000
   PlayCost: 5
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Dinosaur
   - Blue Flare
   CardSpriteName: BT19-020
+  PrintID: BT19-020
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CRush\uFF1E \n[On Deletion] If you have 1 or fewer
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-020
   MaxCountInDeck: 4

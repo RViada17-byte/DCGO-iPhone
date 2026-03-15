@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_005
   m_EditorClassIdentifier: 
   CardIndex: 3308
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: -1
   EvoCosts: []
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Lesser
   - X Antibody
   CardSpriteName: BT16-005
+  PrintID: BT16-005
+  IsCanonicalPrint: 1
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 

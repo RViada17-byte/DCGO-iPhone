@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_036
   m_EditorClassIdentifier: 
   CardIndex: 3161
+  LegacyCardIndices: 
   cardColors: 0200000006000000
   PlayCost: 5
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Wizard
   CardSpriteName: BT15-036
+  PrintID: BT15-036
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: ' (At blocker timing, by suspending this Digimon, it becomes
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-036
   MaxCountInDeck: 4

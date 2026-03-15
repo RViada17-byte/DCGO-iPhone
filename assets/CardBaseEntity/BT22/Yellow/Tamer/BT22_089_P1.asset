@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_089_P1
   m_EditorClassIdentifier: 
   CardIndex: 7104
+  LegacyCardIndices: 
   cardColors: 0200000006000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - CS
   CardSpriteName: BT22-089_P1
+  PrintID: BT22-089_P1
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] By returning this Tamer to the

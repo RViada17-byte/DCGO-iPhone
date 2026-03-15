@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_058
   m_EditorClassIdentifier: 
   CardIndex: 5373
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 6
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Unknown
   - LIBERATOR
   CardSpriteName: BT21-058
+  PrintID: BT21-058
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] Reveal the top 3 cards of
@@ -52,6 +55,5 @@ MonoBehaviour:
   LinkDP: 0
   LinkEffect: '-'
   LinkRequirement: '-'
-  LinkCost: 0
   CardID: BT21-058
   MaxCountInDeck: 4

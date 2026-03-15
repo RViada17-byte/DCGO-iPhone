@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_043
   m_EditorClassIdentifier: 
   CardIndex: 2083
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 2
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Vegetation
   CardSpriteName: BT10-043
+  PrintID: BT10-043
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 3000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-043
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX11_064
   m_EditorClassIdentifier: 
   CardIndex: 7784
+  LegacyCardIndices: 
   cardColors: 0500000001000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - LIBERATOR
   CardSpriteName: EX11-064
+  PrintID: EX11-064
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] If your opponent has a Digimon,

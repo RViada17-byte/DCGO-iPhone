@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_009
   m_EditorClassIdentifier: 
   CardIndex: 3692
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Rock Dragon
   CardSpriteName: EX7-009
+  PrintID: EX7-009
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] Return 1 card with the [Machine Dragon]/[Sky
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-009
   MaxCountInDeck: 4

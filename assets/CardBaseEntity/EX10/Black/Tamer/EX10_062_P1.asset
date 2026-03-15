@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_062_P1
   m_EditorClassIdentifier: 
   CardIndex: 7319
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 3
   EvoCosts: []
@@ -31,6 +32,8 @@ MonoBehaviour:
   - Appmon
   - Leviathan
   CardSpriteName: EX10-062_P1
+  PrintID: EX10-062_P1
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] If your opponent has a Digimon,

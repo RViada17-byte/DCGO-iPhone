@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX9_066_P1
   m_EditorClassIdentifier: 
   CardIndex: 6958
+  LegacyCardIndices: 
   cardColors: 0000000001000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - ADVENTURE
   CardSpriteName: EX9-066_P1
+  PrintID: EX9-066_P1
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] You may return 1 Digimon card with [Greymon],

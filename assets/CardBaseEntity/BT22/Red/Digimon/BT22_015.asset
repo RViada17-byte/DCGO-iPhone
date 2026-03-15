@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_015
   m_EditorClassIdentifier: 
   CardIndex: 7006
+  LegacyCardIndices: 
   cardColors: 000000000400000001000000
   PlayCost: 15
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Royal Knight
   - CS
   CardSpriteName: BT22-015
+  PrintID: BT22-015
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CBlocker\uFF1E \n\uFF1CDecode (Red/Black Lv.3)\uFF1E

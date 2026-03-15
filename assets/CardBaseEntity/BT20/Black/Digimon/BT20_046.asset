@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_046
   m_EditorClassIdentifier: 
   CardIndex: 5125
+  LegacyCardIndices: 
   cardColors: 0500000001000000
   PlayCost: 3
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Cyborg
   - LIBERATOR
   CardSpriteName: BT20-046
+  PrintID: BT20-046
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Kapurimon]: Cost 0 \n\n[Your Turn] When this
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-046
   MaxCountInDeck: 4

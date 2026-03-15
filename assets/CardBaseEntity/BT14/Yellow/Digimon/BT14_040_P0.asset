@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT14_040_P0
   m_EditorClassIdentifier: 
   CardIndex: 4656
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 11
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Ancient
   CardSpriteName: BT14-040_P0
+  PrintID: BT14-040_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] [When Digivolving] You may place 1 Tamer card
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT14-040
   MaxCountInDeck: 4

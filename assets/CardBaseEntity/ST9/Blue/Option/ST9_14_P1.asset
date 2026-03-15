@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST9_14_P1
   m_EditorClassIdentifier: 
   CardIndex: 5003
+  LegacyCardIndices: 
   cardColors: 0100000003000000
   PlayCost: 5
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: ST9-14_P1
+  PrintID: ST9-14_P1
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Main] Suspend 1 of your opponents Digimon. Then, return
@@ -41,5 +44,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST9-14
   MaxCountInDeck: 4

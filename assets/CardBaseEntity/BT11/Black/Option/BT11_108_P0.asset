@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_108_P0
   m_EditorClassIdentifier: 
   CardIndex: 4445
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 8
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: BT11-108_P0
+  PrintID: BT11-108_P0
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "When you would use this card, if you have a black Tamer
@@ -42,5 +45,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-108
   MaxCountInDeck: 4

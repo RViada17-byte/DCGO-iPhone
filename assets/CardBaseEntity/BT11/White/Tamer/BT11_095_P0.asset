@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_095_P0
   m_EditorClassIdentifier: 
   CardIndex: 4439
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 4
   EvoCosts: []
@@ -31,6 +32,8 @@ MonoBehaviour:
   - Blue Flare
   - General
   CardSpriteName: BT11-095_P0
+  PrintID: BT11-095_P0
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] By placing 1 Digimon card with
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-095
   MaxCountInDeck: 4

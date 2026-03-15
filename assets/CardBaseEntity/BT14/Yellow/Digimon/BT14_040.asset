@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT14_040
   m_EditorClassIdentifier: 
   CardIndex: 2963
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 11
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Ancient
   CardSpriteName: BT14-040
+  PrintID: BT14-040
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u3010\u9032\u5316\u6642\u3011\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u30C6\u30A4\u30DE\u30FC\u30AB\u30FC\u30C91\u679A\u3092\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u306E\u4E0A\u306B\u7F6E\u3051\u308B\u3002\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u81EA\u5206\u306E\u30C6\u30A4\u30DE\u30FC\u304C\u767B\u5834\u3057\u305F\u3068\u304D\u3001\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001Lv.3\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002"
   EffectDiscription_ENG: '[On Play][When Digivolving] You may place 1 Tamer card
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT14-040
   MaxCountInDeck: 4

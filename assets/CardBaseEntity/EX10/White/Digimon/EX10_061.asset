@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_061
   m_EditorClassIdentifier: 
   CardIndex: 7241
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 17
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Unidentified
   CardSpriteName: EX10-061
+  PrintID: EX10-061
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.6 w/[Dark Masters]\_trait: Cost 5 \n\nWhen

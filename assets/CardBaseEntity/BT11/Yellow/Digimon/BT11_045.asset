@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_045
   m_EditorClassIdentifier: 
   CardIndex: 2318
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 12
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Virtue
   CardSpriteName: BT11-045
+  PrintID: BT11-045
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u304C5\u679A\u4EE5\u4E0B\u306E\u3068\u304D\u3001\u226A\u30EA\u30AB\u30D0\u30EA\u30FC+1\u300A\u30C7\u30C3\u30AD\u300B\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u30891\u679A\u3092\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u306E\u4E0A\u306B\u7F6E\u304F\uFF09\u3002\u3010\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u3011\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u304C\u6E1B\u3063\u305F\u3068\u304D\u3001\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092DP-4000\u3002"
   EffectDiscription_ENG: "[When Digivolving] If you have 5 or fewer cards in your
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-045
   MaxCountInDeck: 4

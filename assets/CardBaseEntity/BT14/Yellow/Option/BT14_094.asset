@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT14_094
   m_EditorClassIdentifier: 
   CardIndex: 3029
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 4
   EvoCosts: []
@@ -26,6 +27,8 @@ MonoBehaviour:
   Type_JPN: []
   Type_ENG: []
   CardSpriteName: BT14-094
+  PrintID: BT14-094
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u6B21\u306E\u52B9\u679C\u304B\u30891\u3064\u3092\u767A\u63EE\u3059\u308B\u3002\u30FB\u30BF\u30FC\u30F3\u7D42\u4E86\u307E\u3067\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092DP-6000\u3002\u30FB\u81EA\u5206\u306E\u300C\u30A8\u30F3\u30B8\u30A7\u30E2\u30F3\u300D1\u4F53\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3053\u3068\u3067\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u76F8\u624B\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u306E\u4E0B\u306B\u7F6E\u304F\u3002"
   EffectDiscription_ENG: "[Main] Activate 1 of the effects below: \u30FB1 of your

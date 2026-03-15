@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST18_03
   m_EditorClassIdentifier: 
   CardIndex: 3820
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Avian
   CardSpriteName: ST18-03
+  PrintID: ST18-03
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[When Attacking] Suspend 1 of your opponent''s Digimon.'
@@ -43,5 +46,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST18-03
   MaxCountInDeck: 4

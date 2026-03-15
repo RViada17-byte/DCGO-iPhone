@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_083_P1
   m_EditorClassIdentifier: 
   CardIndex: 7094
+  LegacyCardIndices: 
   cardColors: 0000000005000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - CS
   CardSpriteName: BT22-083_P1
+  PrintID: BT22-083_P1
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Security] Play this card without paying the cost.\n[Start

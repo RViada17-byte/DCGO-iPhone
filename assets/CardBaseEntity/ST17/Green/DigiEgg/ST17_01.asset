@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST17_01
   m_EditorClassIdentifier: 
   CardIndex: 3267
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: -1
   EvoCosts: []
@@ -31,6 +32,8 @@ MonoBehaviour:
   Type_ENG:
   - Lesser
   CardSpriteName: ST17-01
+  PrintID: ST17-01
+  IsCanonicalPrint: 1
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "-\r"

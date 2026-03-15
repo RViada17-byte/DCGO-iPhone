@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_036_P2
   m_EditorClassIdentifier: 
   CardIndex: 10354
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: P-036_P2
+  PrintID: P-036_P2
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] Reveal the top 4 cards of your deck. Add 1 blue
@@ -43,5 +46,8 @@ MonoBehaviour:
   DP: 0
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-036
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_077
   m_EditorClassIdentifier: 
   CardIndex: 3395
+  LegacyCardIndices: 
   cardColors: 0600000000000000
   PlayCost: 8
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Mutant
   CardSpriteName: BT16-077-Errata
+  PrintID: BT16-077-ERRATA
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[DNA Digivolution] Purple Lv.4 + red Lv.4: Cost 0 Digivolve
@@ -57,5 +60,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-077
   MaxCountInDeck: 4

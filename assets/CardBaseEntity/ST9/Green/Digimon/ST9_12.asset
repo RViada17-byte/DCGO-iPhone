@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST9_12
   m_EditorClassIdentifier: 
   CardIndex: 1750
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 6
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Insectoid
   CardSpriteName: ST9-12
+  PrintID: ST9-12
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST9-12
   MaxCountInDeck: 4

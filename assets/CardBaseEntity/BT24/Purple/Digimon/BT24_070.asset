@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_070
   m_EditorClassIdentifier: 
   CardIndex: 7603
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 5
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Dark Dragon
   CardSpriteName: BT24-070
+  PrintID: BT24-070
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] [When Digivolving] If you have 4 or fewer cards

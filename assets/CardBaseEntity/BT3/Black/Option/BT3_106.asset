@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT3_106
   m_EditorClassIdentifier: 
   CardIndex: 748
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 3
   EvoCosts: []
@@ -26,6 +27,8 @@ MonoBehaviour:
   Type_JPN: []
   Type_ENG: []
   CardSpriteName: BT3-106
+  PrintID: BT3-106
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u226A\u30D6\u30ED\u30C3\u30AB\u30FC\u226B\u304B\u226A\u518D\u8D77\u52D5\u226B\u3092\u6301\u3064\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u5168\u3066\u306F\u226A\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u30A2\u30BF\u30C3\u30AF+1\u226B\uFF08\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30C1\u30A7\u30C3\u30AF\u3059\u308B\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u306E\u679A\u6570+1\uFF09\u3092\u5F97\u308B\u3002"
   EffectDiscription_ENG: "[Main] All of your Digimon with \uFF1CBlocker\uFF1E or

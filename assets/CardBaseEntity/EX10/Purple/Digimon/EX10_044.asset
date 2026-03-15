@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_044
   m_EditorClassIdentifier: 
   CardIndex: 7213
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Mutant
   - Bagra Army
   CardSpriteName: EX10-044
+  PrintID: EX10-044
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] By placing 1 [Bagra Army]\_trait Digimon card

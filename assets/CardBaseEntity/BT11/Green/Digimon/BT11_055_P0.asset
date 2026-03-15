@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_055_P0
   m_EditorClassIdentifier: 
   CardIndex: 4410
+  LegacyCardIndices: 
   cardColors: 0300000005000000
   PlayCost: 8
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Cyborg
   CardSpriteName: BT11-055_P0
+  PrintID: BT11-055_P0
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[When Digivolving] [On Play] For each green or black Tamer
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-055
   MaxCountInDeck: 4

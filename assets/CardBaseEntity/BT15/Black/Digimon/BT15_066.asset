@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_066
   m_EditorClassIdentifier: 
   CardIndex: 3199
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 11
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Machine
   - Dark Masters
   CardSpriteName: BT15-066
+  PrintID: BT15-066
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] [When Attacking]  1 of your opponent''s Digimon
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-066
   MaxCountInDeck: 4

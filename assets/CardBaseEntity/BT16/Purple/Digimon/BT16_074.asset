@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_074
   m_EditorClassIdentifier: 
   CardIndex: 3392
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 7
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Insectoid
   CardSpriteName: BT16-074
+  PrintID: BT16-074
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Pulsemon] in text: Cost 3[When Digivolving]
@@ -55,5 +58,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-074
   MaxCountInDeck: 4

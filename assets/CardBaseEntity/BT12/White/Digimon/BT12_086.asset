@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT12_086
   m_EditorClassIdentifier: 
   CardIndex: 2506
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 4
   EvoCosts: []
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Machine
   CardSpriteName: BT12-086
+  PrintID: BT12-086
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u226A\u30D6\u30ED\u30C3\u30AB\u30FC\u226B\u3010\u767B\u5834\u6642\u3011\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u30893\u679A\u30AA\u30FC\u30D7\u30F3\u3059\u308B\u3002\u305D\u306E\u4E2D\u306E\u226A\u30BB\u30FC\u30D6\u226B\u306E\u8A18\u8FF0\u304C\u3042\u308A\u3001\u8272\u306E\u7570\u306A\u308B\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C92\u679A\u307E\u3067\u3092\u624B\u672D\u306B\u52A0\u3048\u308B\u3002\u6B8B\u308A\u306F\u597D\u304D\u306A\u9806\u756A\u3067\u30C7\u30C3\u30AD\u306E\u4E0B\u306B\u623B\u3059\u3002\u3010\u6D88\u6EC5\u6642\u3011\u226A\u30BB\u30FC\u30D6\u226B\uFF08\u3053\u306E\u30AB\u30FC\u30C9\u3092\u81EA\u5206\u306E\u30C6\u30A4\u30DE\u30FC\u306E\u4E0B\u306B\u7F6E\u3051\u308B\uFF09"
   EffectDiscription_ENG: "\uFF1CBlocker\uFF1E[On Play] Reveal the top 3 cards of
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT12-086
   MaxCountInDeck: 4

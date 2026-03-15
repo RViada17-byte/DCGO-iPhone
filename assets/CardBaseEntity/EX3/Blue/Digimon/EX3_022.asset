@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX3_022
   m_EditorClassIdentifier: 
   CardIndex: 2197
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Aquatic
   CardSpriteName: EX3-022-Errata
+  PrintID: EX3-022-ERRATA
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\u9752\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306E\u9032\u5316\u5143\u304B\u3089\u3001\u9752\u306ELv.3\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002"
   EffectDiscription_ENG: '[When Attacking] You may play 1 blue level 3 Digimon card
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX3-022
   MaxCountInDeck: 4

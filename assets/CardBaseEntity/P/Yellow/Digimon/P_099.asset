@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_099
   m_EditorClassIdentifier: 
   CardIndex: 6145
+  LegacyCardIndices: 
   cardColors: 0200000005000000
   PlayCost: 7
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Puppet
   CardSpriteName: P-099
+  PrintID: P-099
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u300E\u540D\u79F0\u306B\u300C\u30B9\u30AB\u30E2\u30F3\u300D\u3092\u542B\u3080Lv.4\u300F\u304B\u30893\u3010\u767B\u5834\u6642\u3011\u3010\u9032\u5316\u6642\u3011\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u226A\u9000\u53161\u226B\u3002"
   EffectDiscription_ENG: "[On Play] [When Digivolving] \uFF1CDe-Digivolve  1\uFF1E
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-099
   MaxCountInDeck: 4

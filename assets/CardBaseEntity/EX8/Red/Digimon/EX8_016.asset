@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_016
   m_EditorClassIdentifier: 
   CardIndex: 4078
+  LegacyCardIndices: 
   cardColors: 0000000003000000
   PlayCost: 13
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Dinosaur
   - LIBERATOR
   CardSpriteName: EX8-016
+  PrintID: EX8-016
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.5 w/[Tyrannomon]\_in its name: Cost 4 [Digivolve]Lv.5
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 13000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-016
   MaxCountInDeck: 4

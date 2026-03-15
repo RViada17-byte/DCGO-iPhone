@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT14_009
   m_EditorClassIdentifier: 
   CardIndex: 2927
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Rock
   CardSpriteName: BT14-009
+  PrintID: BT14-009
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\u304A\u4E92\u3044\u306F\u52B9\u679C\u3067\u30C7\u30B8\u30E2\u30F3\u3092\u767B\u5834\u3067\u304D\u306A\u3044\u3002"
   EffectDiscription_ENG: "[All Turns] Players can\u2019t play Digimon by effects."
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT14-009
   MaxCountInDeck: 4

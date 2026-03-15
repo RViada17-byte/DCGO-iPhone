@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT2_040
   m_EditorClassIdentifier: 
   CardIndex: 434
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 12
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Throne
   - Three Great Angels
   CardSpriteName: BT2-040
+  PrintID: BT2-040
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u6D88\u6EC5\u6642\u3011\u3053\u306E\u30AB\u30FC\u30C9\u3092\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u306E\u4E0A\u306B\u88CF\u5411\u304D\u3067\u7F6E\u304F\u3002"
   EffectDiscription_ENG: '[On Deletion] Place this card on top of your security stack
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT2-040
   MaxCountInDeck: 4

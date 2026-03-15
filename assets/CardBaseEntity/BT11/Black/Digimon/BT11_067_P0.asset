@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_067_P0
   m_EditorClassIdentifier: 
   CardIndex: 4416
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 7
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Cyborg
   CardSpriteName: BT11-067_P0
+  PrintID: BT11-067_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CJamming\uFF1E."
@@ -43,5 +46,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-067
   MaxCountInDeck: 4

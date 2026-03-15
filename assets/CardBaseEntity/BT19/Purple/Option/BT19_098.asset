@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_098
   m_EditorClassIdentifier: 
   CardIndex: 5075
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Device
   CardSpriteName: BT19-098
+  PrintID: BT19-098
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you don't have [King Device], you may ignore this
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-098
   MaxCountInDeck: 4

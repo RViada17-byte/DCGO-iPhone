@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_055
   m_EditorClassIdentifier: 
   CardIndex: 5134
+  LegacyCardIndices: 
   cardColors: 0500000001000000
   PlayCost: 11
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Cyborg
   - LIBERATOR
   CardSpriteName: BT20-055
+  PrintID: BT20-055
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Security] [End of Opponent's Turn] Play this card without
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-055
   MaxCountInDeck: 4

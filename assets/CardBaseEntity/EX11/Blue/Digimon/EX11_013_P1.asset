@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX11_013_P1
   m_EditorClassIdentifier: 
   CardIndex: 7682
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 3
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - LIBERATOR
   - Aquatic
   CardSpriteName: EX11-013_P1
+  PrintID: EX11-013_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[When Moving] [On Play] If you have 7 or fewer cards in

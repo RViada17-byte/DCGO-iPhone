@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_023_P1
   m_EditorClassIdentifier: 
   CardIndex: 4091
+  LegacyCardIndices: 
   cardColors: 0100000002000000
   PlayCost: 7
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Ice-Snow
   - LIBERATOR
   CardSpriteName: EX8-023_P1
+  PrintID: EX8-023_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.4 w/[Ice-Snow]\_trait: Cost 3 \n\n\uFF1CIce
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-023
   MaxCountInDeck: 4

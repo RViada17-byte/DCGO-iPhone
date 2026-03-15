@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT5_084_P2
   m_EditorClassIdentifier: 
   CardIndex: 1052
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 11
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Unidentified
   CardSpriteName: BT5-084_P2
+  PrintID: BT5-084_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u300C\u30C7\u30A3\u30A2\u30DC\u30ED\u30E2\u30F3\u300D\uFF08\u30C7\u30B8\u30E2\u30F3\u30FB14\u30B3\u30B9\u30C8\u30FBLv.6\u30FB\u767D\u30FB\u7A76\u6975\u4F53\u30FB\u4E0D\u660E\u30FB\u7A2E\u65CF\u4E0D\u660E\u30FBDP3000\uFF09\u306E\u30C8\u30FC\u30AF\u30F31\u4F53\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002"
   EffectDiscription_ENG: '[When Digivolving] You may play 1 [Diaboromon] Token without
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT5-084
   MaxCountInDeck: 4

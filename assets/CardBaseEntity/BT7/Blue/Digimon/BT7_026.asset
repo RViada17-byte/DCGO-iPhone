@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT7_026
   m_EditorClassIdentifier: 
   CardIndex: 1414
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Beastkin
   CardSpriteName: BT7-026
+  PrintID: BT7-026
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u81EA\u5206\u306E\u30C6\u30A4\u30DE\u30FC\u304C\u3044\u308B\u3068\u304D\u3001\u30E1\u30E2\u30EA\u30FC\u3092+2\u3059\u308B\u3002\u81EA\u5206\u306E\u30C6\u30A4\u30DE\u30FC\u304C\u3044\u306A\u3044\u3068\u304D\u3001\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u9752\u306E\u30C6\u30A4\u30DE\u30FC\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002"
   EffectDiscription_ENG: '[On Play] If you have a Tamer in play, gain 2 memory. If
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT7-026
   MaxCountInDeck: 4

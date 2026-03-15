@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT3_059_P1
   m_EditorClassIdentifier: 
   CardIndex: 683
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 2
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Cyborg
   - D-Brigade
   CardSpriteName: BT3-059_P1
+  PrintID: BT3-059_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 3000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT3-059
   MaxCountInDeck: 4

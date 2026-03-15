@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT1_075
   m_EditorClassIdentifier: 
   CardIndex: 246
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 6
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Perfect
   CardSpriteName: BT1-075
+  PrintID: BT1-075
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\u30E1\u30E2\u30EA\u30FC\u3092+3\u3059\u308B\u3002\u3053\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u6642\u3001\u30E1\u30E2\u30EA\u30FC\u3092-3\u3059\u308B\u3002"
   EffectDiscription_ENG: "[When Attacking] Gain 3 memory. At end of turn\uFF0C lose
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT1-075
   MaxCountInDeck: 4

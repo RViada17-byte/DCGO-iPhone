@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_003
   m_EditorClassIdentifier: 
   CardIndex: 6991
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: -1
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Tap
   CardSpriteName: BT22-003
+  PrintID: BT22-003
+  IsCanonicalPrint: 1
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '-'

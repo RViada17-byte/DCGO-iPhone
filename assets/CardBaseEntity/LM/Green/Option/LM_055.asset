@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: LM_055
   m_EditorClassIdentifier: 
   CardIndex: 7815
+  LegacyCardIndices: 
   cardColors: 0300000000000000
   PlayCost: 2
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - '-'
   CardSpriteName: LM-055
+  PrintID: LM-055
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you have don't have [Sprint Dash Training] in the

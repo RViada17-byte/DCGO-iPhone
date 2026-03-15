@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_056
   m_EditorClassIdentifier: 
   CardIndex: 3373
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 4
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Mutant
   CardSpriteName: BT16-056
+  PrintID: BT16-056
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] [When Digivolving] You may place the top card
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-056
   MaxCountInDeck: 4

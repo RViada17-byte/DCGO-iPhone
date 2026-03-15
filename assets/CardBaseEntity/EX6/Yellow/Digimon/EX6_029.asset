@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_029
   m_EditorClassIdentifier: 
   CardIndex: 3475
+  LegacyCardIndices: 
   cardColors: 0200000006000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Angel
   CardSpriteName: EX6-029
+  PrintID: EX6-029
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Hand] [Counter] \uFF1CBlast DNA Digivolve ([Angewomon]
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 4
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX6-029
   MaxCountInDeck: 4

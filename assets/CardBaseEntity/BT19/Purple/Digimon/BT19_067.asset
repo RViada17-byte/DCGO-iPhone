@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_067
   m_EditorClassIdentifier: 
   CardIndex: 5049
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 4
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Evil
   CardSpriteName: BT19-067
+  PrintID: BT19-067
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] If you have 1 or fewer Tamers, you may play 1
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-067
   MaxCountInDeck: 4

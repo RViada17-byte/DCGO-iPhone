@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_069_P1
   m_EditorClassIdentifier: 
   CardIndex: 3807
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 2
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - LIBERATOR
   CardSpriteName: EX7-069_P1
+  PrintID: EX7-069_P1
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Main] You may suspend 1 level 6 or lower Digimon. If this
@@ -41,5 +44,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-069
   MaxCountInDeck: 4

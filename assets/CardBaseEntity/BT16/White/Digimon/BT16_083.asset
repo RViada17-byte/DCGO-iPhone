@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_083
   m_EditorClassIdentifier: 
   CardIndex: 3405
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 12
   EvoCosts:
@@ -53,6 +54,8 @@ MonoBehaviour:
   Type_ENG:
   - Ancient Fairy
   CardSpriteName: BT16-083
+  PrintID: BT16-083
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Deletion] Return all Tamers to their owners'' hands.
@@ -70,5 +73,8 @@ MonoBehaviour:
   DP: 13000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-083
   MaxCountInDeck: 4

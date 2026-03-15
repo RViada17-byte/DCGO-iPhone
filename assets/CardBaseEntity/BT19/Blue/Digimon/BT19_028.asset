@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_028
   m_EditorClassIdentifier: 
   CardIndex: 3987
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 13
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Holy Bird
   - Aquatic
   CardSpriteName: BT19-028
+  PrintID: BT19-028
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CSecurity Attack +1\uFF1E.\n\uFF1CBlocker\uFF1E \n[When
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 13000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-028
   MaxCountInDeck: 4

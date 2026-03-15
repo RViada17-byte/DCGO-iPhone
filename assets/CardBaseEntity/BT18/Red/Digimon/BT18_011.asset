@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_011
   m_EditorClassIdentifier: 
   CardIndex: 3857
+  LegacyCardIndices: 
   cardColors: 0000000006000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Wizard
   CardSpriteName: BT18-011
+  PrintID: BT18-011
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Takuya Kanbara]: Cost 2 [Digivolve][BurningGreymon]:
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-011
   MaxCountInDeck: 4

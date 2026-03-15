@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST20_01
   m_EditorClassIdentifier: 
   CardIndex: 5263
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: -1
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - Lesser
   - ADVENTURE
   CardSpriteName: ST20-01
+  PrintID: ST20-01
+  IsCanonicalPrint: 1
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '-'

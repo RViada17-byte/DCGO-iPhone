@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_047_P1
   m_EditorClassIdentifier: 
   CardIndex: 7381
+  LegacyCardIndices: 
   cardColors: 030000000000000001000000
   PlayCost: 15
   EvoCosts:
@@ -40,6 +41,8 @@ MonoBehaviour:
   - Royal Knight
   - CS
   CardSpriteName: BT23-047_P1
+  PrintID: BT23-047_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CPiercing\uFF1E \n\uFF1CSecurity A. +1\uFF1E \n\uFF1CPartition

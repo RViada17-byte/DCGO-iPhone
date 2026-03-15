@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_075
   m_EditorClassIdentifier: 
   CardIndex: 5154
+  LegacyCardIndices: 
   cardColors: 0600000000000000
   PlayCost: 8
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - LIBERATOR
   - Dark Dragon
   CardSpriteName: BT20-075
+  PrintID: BT20-075
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Dark Dragon]/[Evil Dragon]\_trait:
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-075
   MaxCountInDeck: 4

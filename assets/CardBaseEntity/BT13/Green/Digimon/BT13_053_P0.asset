@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT13_053_P0
   m_EditorClassIdentifier: 
   CardIndex: 4591
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 7
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Holy Beast
   - Deva
   CardSpriteName: BT13-053_P0
+  PrintID: BT13-053_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] Suspend 1 of your opponent''s Digimon with 7000
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT13-053
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_091
   m_EditorClassIdentifier: 
   CardIndex: 3956
+  LegacyCardIndices: 
   cardColors: 0500000002000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Tamer
   CardSpriteName: BT18-091
+  PrintID: BT18-091
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Security] Play this card without paying the cost.\n[Start
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-091
   MaxCountInDeck: 4

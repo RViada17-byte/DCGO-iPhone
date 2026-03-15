@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST3_15_P1
   m_EditorClassIdentifier: 
   CardIndex: 4982
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 2
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: ST3-15_P1
+  PrintID: ST3-15_P1
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] 1 of your opponent's Digimon gains \uFF1CSecurity
@@ -42,5 +45,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST3-15
   MaxCountInDeck: 4

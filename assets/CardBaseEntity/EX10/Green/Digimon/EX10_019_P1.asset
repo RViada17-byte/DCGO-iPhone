@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_019_P1
   m_EditorClassIdentifier: 
   CardIndex: 7284
+  LegacyCardIndices: 
   cardColors: 0300000006000000
   PlayCost: 8
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Strategy
   - Leviathan
   CardSpriteName: EX10-019_P1
+  PrintID: EX10-019_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[App Fusion] [Mienumon] & [Sakusimon]: Cost 0\n\n\uFF1CFortitude\uFF1E

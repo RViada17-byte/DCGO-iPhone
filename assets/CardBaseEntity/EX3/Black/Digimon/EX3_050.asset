@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX3_050
   m_EditorClassIdentifier: 
   CardIndex: 2235
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 6
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Cyborg
   CardSpriteName: EX3-050
+  PrintID: EX3-050
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX3-050
   MaxCountInDeck: 4

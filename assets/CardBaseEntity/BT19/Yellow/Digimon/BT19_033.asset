@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_033
   m_EditorClassIdentifier: 
   CardIndex: 5026
+  LegacyCardIndices: 
   cardColors: 0200000003000000
   PlayCost: 4
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Beast
   - Xros Heart
   CardSpriteName: BT19-033
+  PrintID: BT19-033
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] This Digimon may digivolve into [JaegerDorulumon]
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-033
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_076_P1
   m_EditorClassIdentifier: 
   CardIndex: 10380
+  LegacyCardIndices: 
   cardColors: 0500000000000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Composite
   CardSpriteName: P-076_P1
+  PrintID: P-076_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Your Turn] When this Digimon would digivolve into a card
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-076
   MaxCountInDeck: 4

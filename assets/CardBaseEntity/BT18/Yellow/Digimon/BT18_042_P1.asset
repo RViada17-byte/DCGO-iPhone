@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_042_P1
   m_EditorClassIdentifier: 
   CardIndex: 3904
+  LegacyCardIndices: 
   cardColors: 020000000600000005000000
   PlayCost: 13
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Cyborg
   CardSpriteName: BT18-042_P1
+  PrintID: BT18-042_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Koji Minamoto] w/5 [Hybrid]\_trait cards under
@@ -54,5 +57,8 @@ MonoBehaviour:
   DP: 13000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-042
   MaxCountInDeck: 4

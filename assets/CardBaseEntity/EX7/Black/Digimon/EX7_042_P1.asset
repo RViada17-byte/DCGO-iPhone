@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_042_P1
   m_EditorClassIdentifier: 
   CardIndex: 3756
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Machine Dragon
   CardSpriteName: EX7-042_P1
+  PrintID: EX7-042_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] By trashing 1 card with the [Rock Dragon]/[Earth
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-042
   MaxCountInDeck: 4

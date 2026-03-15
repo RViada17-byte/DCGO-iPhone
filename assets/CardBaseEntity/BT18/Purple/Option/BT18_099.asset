@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_099
   m_EditorClassIdentifier: 
   CardIndex: 3961
+  LegacyCardIndices: 
   cardColors: 0600000005000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: BT18-099
+  PrintID: BT18-099
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you have a Digimon with [Knightmon]\_in its text,
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-099
   MaxCountInDeck: 4

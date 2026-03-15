@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_079
   m_EditorClassIdentifier: 
   CardIndex: 7087
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - CS
   CardSpriteName: BT22-079
+  PrintID: BT22-079
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CBlocker\uFF1E \n[On Play] \uFF1CDraw 1\uFF1E "

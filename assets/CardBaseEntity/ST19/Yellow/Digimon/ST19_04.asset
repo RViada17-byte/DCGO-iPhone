@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST19_04
   m_EditorClassIdentifier: 
   CardIndex: 3836
+  LegacyCardIndices: 
   cardColors: 0200000005000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Puppet
   CardSpriteName: ST19-04
+  PrintID: ST19-04
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] By trashing 1 card with the [Puppet]\_trait in
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST19-04
   MaxCountInDeck: 4

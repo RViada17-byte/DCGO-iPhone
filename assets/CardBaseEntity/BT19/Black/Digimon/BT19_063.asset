@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_063
   m_EditorClassIdentifier: 
   CardIndex: 4007
+  LegacyCardIndices: 
   cardColors: 0500000006000000
   PlayCost: 8
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Dark Knight
   - Twilight
   CardSpriteName: BT19-063
+  PrintID: BT19-063
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CMaterial Save 1\uFF1E \n[On Play] [When Digivolving]
@@ -54,5 +57,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-063
   MaxCountInDeck: 4

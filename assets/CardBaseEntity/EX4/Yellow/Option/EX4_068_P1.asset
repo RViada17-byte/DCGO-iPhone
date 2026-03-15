@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX4_068_P1
   m_EditorClassIdentifier: 
   CardIndex: 4254
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 7
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: EX4-068_P1
+  PrintID: EX4-068_P1
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you have a green Digimon or Tamer in play, you may
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX4-068
   MaxCountInDeck: 4

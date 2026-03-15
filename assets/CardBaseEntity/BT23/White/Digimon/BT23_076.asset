@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_076
   m_EditorClassIdentifier: 
   CardIndex: 7414
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 3
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - Puppet
   - CS
   CardSpriteName: BT23-076
+  PrintID: BT23-076
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] Add your top security card to the hand. Then,

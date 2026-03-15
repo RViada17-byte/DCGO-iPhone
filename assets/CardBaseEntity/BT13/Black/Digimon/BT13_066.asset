@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT13_066
   m_EditorClassIdentifier: 
   CardIndex: 2723
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 4
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Beast Dragon
   - X Antibody
   CardSpriteName: BT13-066
+  PrintID: BT13-066
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT13-066
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_036
   m_EditorClassIdentifier: 
   CardIndex: 3891
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 5
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Wizard
   - Witchelny
   CardSpriteName: BT18-036
+  PrintID: BT18-036
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[When Digivolving] By trashing the top card of your security
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-036
   MaxCountInDeck: 4

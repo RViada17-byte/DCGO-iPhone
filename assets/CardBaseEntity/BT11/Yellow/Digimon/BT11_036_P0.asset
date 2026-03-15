@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_036_P0
   m_EditorClassIdentifier: 
   CardIndex: 4398
+  LegacyCardIndices: 
   cardColors: 0200000005000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Beast
   CardSpriteName: BT11-036_P0
+  PrintID: BT11-036_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Your Turn] When this Digimon would digivolve into a card
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-036
   MaxCountInDeck: 4

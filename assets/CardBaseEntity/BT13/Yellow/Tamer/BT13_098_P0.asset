@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT13_098_P0
   m_EditorClassIdentifier: 
   CardIndex: 4617
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Tamer
   CardSpriteName: BT13-098_P0
+  PrintID: BT13-098_P0
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 'When an effect trashes this card from the security stack,
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT13-098
   MaxCountInDeck: 4

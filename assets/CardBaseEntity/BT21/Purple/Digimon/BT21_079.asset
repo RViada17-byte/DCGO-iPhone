@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_079
   m_EditorClassIdentifier: 
   CardIndex: 5396
+  LegacyCardIndices: 
   cardColors: 0600000000000000
   PlayCost: 13
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Evil Dragon
   - Four Great Dragons
   CardSpriteName: BT21-079
+  PrintID: BT21-079
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.5 w/[Growlmon]\_in name: Cost 4 \n\n\uFF1CSecurity
@@ -54,6 +57,5 @@ MonoBehaviour:
   LinkDP: 0
   LinkEffect: '-'
   LinkRequirement: '-'
-  LinkCost: 0
   CardID: BT21-079
   MaxCountInDeck: 4

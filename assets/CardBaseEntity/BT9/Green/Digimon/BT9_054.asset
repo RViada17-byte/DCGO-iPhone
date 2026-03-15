@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT9_054
   m_EditorClassIdentifier: 
   CardIndex: 1842
+  LegacyCardIndices: 
   cardColors: 0300000005000000
   PlayCost: 11
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Cyborg
   CardSpriteName: BT9-054
+  PrintID: BT9-054
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\uFF3B\u624B\u672D\uFF3D\u3010\u30E1\u30A4\u30F3\u3011\u540D\u79F0\u306B\u300C\u30B8\u30E3\u30B9\u30C6\u30A3\u30E2\u30F3\u300D\u304B\u300C\u30E9\u30A4\u30C7\u30F3\u30E2\u30F3\u300D\u3092\u542B\u3080\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u3044\u308B\u3068\u304D\u30011\u30B3\u30B9\u30C8\u652F\u6255\u3046\u3053\u3068\u3067\u3001\u3053\u306E\u30AB\u30FC\u30C9\u3092\u305D\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306E\u9032\u5316\u5143\u306E\u4E0B\u306B\u7F6E\u304F\u3002\u3010\u9032\u5316\u6642\u3011\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u7279\u5FB4\u306B\u300C\u30DE\u30B7\u30FC\u30F3\u578B\u300D\u304B\u300C\u30B5\u30A4\u30DC\u30FC\u30B0\u578B\u300D\u3092\u6301\u3064\u30AB\u30FC\u30C91\u679A\u3092\u7834\u68C4\u3059\u308B\u3053\u3068\u3067\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u30EC\u30B9\u30C8\u3055\u305B\u308B\u3002"
   EffectDiscription_ENG: "[Hand][Main] If you have a Digimon with [Justimon] or [Raidenmon]
@@ -55,5 +58,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT9-054
   MaxCountInDeck: 4

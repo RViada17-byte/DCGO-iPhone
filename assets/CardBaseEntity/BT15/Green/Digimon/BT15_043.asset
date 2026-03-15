@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_043
   m_EditorClassIdentifier: 
   CardIndex: 3171
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Insectoid
   CardSpriteName: BT15-043
+  PrintID: BT15-043
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Start of Your Main Phase] By suspending 1 Digimon, 1 of
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-043
   MaxCountInDeck: 4

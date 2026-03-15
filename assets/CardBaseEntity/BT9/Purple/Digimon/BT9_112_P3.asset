@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT9_112_P3
   m_EditorClassIdentifier: 
   CardIndex: 6816
+  LegacyCardIndices: 
   cardColors: 0600000005000000
   PlayCost: 20
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Unanalyzable
   - X Program
   CardSpriteName: BT9-112_P3
+  PrintID: BT9-112_P3
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "When you would play this card, reduce its memory cost by

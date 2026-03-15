@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX5_024_P1
   m_EditorClassIdentifier: 
   CardIndex: 4215
+  LegacyCardIndices: 
   cardColors: 0100000002000000
   PlayCost: 7
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Four Great Dragons
   - Four Sovereigns
   CardSpriteName: EX5-024_P1
+  PrintID: EX5-024_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.5 w/[Deva]\_trait: Cost 3 \n\n[Hand] [Counter]
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 2
   OverflowMemory: 4
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX5-024
   MaxCountInDeck: 4

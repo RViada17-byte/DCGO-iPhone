@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_028
   m_EditorClassIdentifier: 
   CardIndex: 3472
+  LegacyCardIndices: 
   cardColors: 0200000001000000
   PlayCost: 7
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Seraph
   - Three Great Angels
   CardSpriteName: EX6-028
+  PrintID: EX6-028
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][MagnaAngemon]: Cost 3 \n\n[Hand] [Counter]
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 2
   OverflowMemory: 4
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX6-028
   MaxCountInDeck: 4

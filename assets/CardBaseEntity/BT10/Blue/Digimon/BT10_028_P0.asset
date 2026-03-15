@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_028_P0
   m_EditorClassIdentifier: 
   CardIndex: 4308
+  LegacyCardIndices: 
   cardColors: 0100000005000000
   PlayCost: 13
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Cyborg
   CardSpriteName: BT10-028_P0
+  PrintID: BT10-028_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CBlocker\uFF1E \n[When Digivolving] Unsuspend this
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-028
   MaxCountInDeck: 4

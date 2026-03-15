@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT8_059
   m_EditorClassIdentifier: 
   CardIndex: 1636
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Machine
   CardSpriteName: BT8-059
+  PrintID: BT8-059
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\u304A\u4E92\u3044\u306F\u9032\u5316\u6761\u4EF6\u3092\u7121\u8996\u3067\u304D\u306A\u3044\u3002"
   EffectDiscription_ENG: '[All Turns] Players can''t ignore digivolution requirements.'
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 3000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT8-059
   MaxCountInDeck: 4

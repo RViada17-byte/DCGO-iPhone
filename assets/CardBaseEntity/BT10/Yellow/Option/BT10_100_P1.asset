@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_100_P1
   m_EditorClassIdentifier: 
   CardIndex: 4356
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: BT10-100_P1
+  PrintID: BT10-100_P1
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] You may play 1 [Pulsemon] from your hand without
@@ -42,5 +45,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-100
   MaxCountInDeck: 4

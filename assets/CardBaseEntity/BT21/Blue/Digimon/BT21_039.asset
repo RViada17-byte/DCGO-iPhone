@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_039
   m_EditorClassIdentifier: 
   CardIndex: 5350
+  LegacyCardIndices: 
   cardColors: 0100000003000000
   PlayCost: 12
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - WG
   - Avian
   CardSpriteName: BT21-039
+  PrintID: BT21-039
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CAlliance\uFF1E \n[When Digivolving] You may play

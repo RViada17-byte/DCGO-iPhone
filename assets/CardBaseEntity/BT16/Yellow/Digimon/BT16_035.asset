@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_035
   m_EditorClassIdentifier: 
   CardIndex: 3348
+  LegacyCardIndices: 
   cardColors: 0200000005000000
   PlayCost: 11
   EvoCosts:
@@ -39,6 +40,8 @@ MonoBehaviour:
   - Authority
   - Angel
   CardSpriteName: BT16-035
+  PrintID: BT16-035
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '<Barrier><Reboot>[All Turns] [Once Per Turn] When a card
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-035
   MaxCountInDeck: 4

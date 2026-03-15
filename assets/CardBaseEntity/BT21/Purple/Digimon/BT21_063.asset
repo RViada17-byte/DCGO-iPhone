@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_063
   m_EditorClassIdentifier: 
   CardIndex: 5380
+  LegacyCardIndices: 
   cardColors: 0600000000000000
   PlayCost: 3
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Mini Dragon
   - Hero
   CardSpriteName: BT21-063
+  PrintID: BT21-063
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.2 w/\uFF1CSave\uFF1E\_in text or w/[Hero]\_trait:
@@ -52,6 +55,5 @@ MonoBehaviour:
   LinkDP: 0
   LinkEffect: '-'
   LinkRequirement: '-'
-  LinkCost: 0
   CardID: BT21-063
   MaxCountInDeck: 4

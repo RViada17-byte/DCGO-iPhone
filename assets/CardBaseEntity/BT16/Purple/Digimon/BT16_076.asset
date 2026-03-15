@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_076
   m_EditorClassIdentifier: 
   CardIndex: 3394
+  LegacyCardIndices: 
   cardColors: 0600000000000000
   PlayCost: 7
   EvoCosts:
@@ -42,6 +43,8 @@ MonoBehaviour:
   - X Antibody
   - SoC
   CardSpriteName: BT16-076
+  PrintID: BT16-076
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Digivolve] Lv.4 w/[SoC] trait: Cost 3[When Digivolving]
@@ -60,5 +63,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-076
   MaxCountInDeck: 4

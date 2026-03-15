@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_097
   m_EditorClassIdentifier: 
   CardIndex: 7640
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 5
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - TS
   CardSpriteName: BT24-097
+  PrintID: BT24-097
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you have an [TS]\_trait Digimon or Tamer on the field,

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_083_P0
   m_EditorClassIdentifier: 
   CardIndex: 4429
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Fallen Angel
   CardSpriteName: BT11-083_P0
+  PrintID: BT11-083_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[When Digivolving] You may trash 1 card in your hand. If
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-083
   MaxCountInDeck: 4

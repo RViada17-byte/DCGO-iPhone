@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_015_P0
   m_EditorClassIdentifier: 
   CardIndex: 4299
+  LegacyCardIndices: 
   cardColors: 0000000006000000
   PlayCost: 11
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Composite
   - Xros Heart
   CardSpriteName: BT10-015_P0
+  PrintID: BT10-015_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CBlocker\uFF1E.\n\uFF1CArmor Purge\uFF1E\n[On Play]
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-015
   MaxCountInDeck: 4

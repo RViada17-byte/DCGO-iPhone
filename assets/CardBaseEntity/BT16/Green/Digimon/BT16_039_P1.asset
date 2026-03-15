@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_039_P1
   m_EditorClassIdentifier: 
   CardIndex: 4794
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Beastkin
   - Abadin Electronics
   CardSpriteName: BT16-039_P1
+  PrintID: BT16-039_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Bibimon]: Cost 0 \n\n[On Play] Reveal the top
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-039
   MaxCountInDeck: 4

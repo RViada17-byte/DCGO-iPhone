@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_079_P0
   m_EditorClassIdentifier: 
   CardIndex: 4754
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 11
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Wizard
   - Dark Masters
   CardSpriteName: BT15-079_P0
+  PrintID: BT15-079_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Attacking] Delete 1 of your opponent\u2019s
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-079
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST7_03_P1
   m_EditorClassIdentifier: 
   CardIndex: 567
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Reptile
   CardSpriteName: ST7-03_P1
+  PrintID: ST7-03_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011Lv.6\u4EE5\u4E0A\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u3044\u308B\u3068\u304D\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u624B\u672D\u306E\u300C\u30C7\u30E5\u30FC\u30AF\u30E2\u30F3\u300D\u306B\u9032\u5316\u6761\u4EF6\u3092\u7121\u8996\u3057\u3066\u9032\u5316\u30B3\u30B9\u30C84\u3067\u9032\u5316\u3067\u304D\u308B\u3002"
   EffectDiscription_ENG: '[Your Turn] If your opponent has a level 6 or higher Digimon
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST7-03
   MaxCountInDeck: 4

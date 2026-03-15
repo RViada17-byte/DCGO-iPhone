@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX4_050_P2
   m_EditorClassIdentifier: 
   CardIndex: 4249
+  LegacyCardIndices: 
   cardColors: 0500000002000000
   PlayCost: 12
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Seraph
   CardSpriteName: EX4-050_P2
+  PrintID: EX4-050_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Seraphimon]: Cost 1 \n\n[Opponent's Turn] When
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX4-050
   MaxCountInDeck: 4

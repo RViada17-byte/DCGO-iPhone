@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_015
   m_EditorClassIdentifier: 
   CardIndex: 4076
+  LegacyCardIndices: 
   cardColors: 0000000006000000
   PlayCost: 8
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Cyborg
   - X Antibody
   CardSpriteName: EX8-015
+  PrintID: EX8-015
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][WarGrowlmon]: Cost 1 \n\n[When Digivolving]
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-015
   MaxCountInDeck: 4

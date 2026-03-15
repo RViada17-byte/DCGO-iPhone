@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT14_080
   m_EditorClassIdentifier: 
   CardIndex: 3008
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 11
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Demon Lord
   CardSpriteName: BT14-080
+  PrintID: BT14-080
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E510\u679A\u3054\u3068\u306B\u3001\u76F8\u624B\u306E\u30C7\u30C3\u30AD\u3092\u4E0A\u304B\u30893\u679A\u7834\u68C4\u3059\u308B\u3002\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u76F8\u624B\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u304C10\u679A\u4EE5\u4E0A\u3042\u308B\u306A\u3089\u3001\u30BF\u30FC\u30F3\u7D42\u4E86\u307E\u3067\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u226AS\u30A2\u30BF\u30C3\u30AF+1\u226B\u3092\u5F97\u308B\u3002"
   EffectDiscription_ENG: "[When Digivolving][When Attacking][Once Per Turn] For every
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT14-080
   MaxCountInDeck: 4

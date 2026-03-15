@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX9_020
   m_EditorClassIdentifier: 
   CardIndex: 6872
+  LegacyCardIndices: 
   cardColors: 0100000005000000
   PlayCost: 7
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - DM
   - Ver.2
   CardSpriteName: EX9-020
+  PrintID: EX9-020
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.5 w/[Garurumon]\_in name or w/[DM]\_trait:

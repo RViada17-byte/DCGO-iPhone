@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_073
   m_EditorClassIdentifier: 
   CardIndex: 7265
+  LegacyCardIndices: 
   cardColors: 0500000004000000
   PlayCost: 13
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - Omnipotence
   - Leviathan
   CardSpriteName: EX10-073
+  PrintID: EX10-073
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[App Fusion] [Warudamon] & [Cometmon]: Cost 0\n\n\uFF1CSecurity

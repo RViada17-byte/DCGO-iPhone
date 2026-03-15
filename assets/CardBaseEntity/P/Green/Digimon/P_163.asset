@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_163
   m_EditorClassIdentifier: 
   CardIndex: 10444
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Insectoid
   - NSo
   CardSpriteName: P-163
+  PrintID: P-163
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.3 w/[NSo]\_trait: Cost 2 \n\n[On Play] [When
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 3000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-163
   MaxCountInDeck: 4

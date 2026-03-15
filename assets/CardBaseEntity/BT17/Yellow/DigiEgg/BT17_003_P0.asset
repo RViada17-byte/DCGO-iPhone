@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_003_P0
   m_EditorClassIdentifier: 
   CardIndex: 4835
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: -1
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - Lesser
   - Abadin Electronics
   CardSpriteName: BT17-003_P0
+  PrintID: BT17-003_P0
+  IsCanonicalPrint: 0
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '-'

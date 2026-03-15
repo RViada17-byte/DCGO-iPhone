@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_028
   m_EditorClassIdentifier: 
   CardIndex: 7183
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Mineral
   - LIBERATOR
   CardSpriteName: EX10-028
+  PrintID: EX10-028
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] By trashing any 1 card with

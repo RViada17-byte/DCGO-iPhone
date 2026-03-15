@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_084_P1
   m_EditorClassIdentifier: 
   CardIndex: 5406
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 4
   EvoCosts: []
@@ -31,6 +32,8 @@ MonoBehaviour:
   - Appmon
   - Hero
   CardSpriteName: BT21-084_P1
+  PrintID: BT21-084_P1
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Turn] If you have 2 or less memory, set
@@ -48,6 +51,5 @@ MonoBehaviour:
   LinkDP: 0
   LinkEffect: '-'
   LinkRequirement: '-'
-  LinkCost: 0
   CardID: BT21-084
   MaxCountInDeck: 4

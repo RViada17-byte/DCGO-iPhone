@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX9_057_P1
   m_EditorClassIdentifier: 
   CardIndex: 6942
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 15
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Unidentified
   CardSpriteName: EX9-057_P1
+  PrintID: EX9-057_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Abbadomon]: Cost 4 \n\n[Breeding] [Opponent's

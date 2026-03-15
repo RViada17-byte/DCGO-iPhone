@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT8_065
   m_EditorClassIdentifier: 
   CardIndex: 1644
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 6
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Mutant
   CardSpriteName: BT8-065
+  PrintID: BT8-065
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u81EA\u5206\u306E\u624B\u672D\u304B\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u540D\u79F0\u306B\u300C\u30DE\u30E1\u30E2\u30F3\u300D\u3092\u542B\u3080\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C94\u679A\u307E\u3067\u3092\u597D\u304D\u306A\u9806\u756A\u3067\u30C7\u30C3\u30AD\u306E\u4E0A\u306B\u623B\u305B\u308B\u3002\u3053\u306E\u52B9\u679C\u30673\u679A\u4EE5\u4E0A\u623B\u3057\u305F\u3068\u304D\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u226A\u9000\u53161\u226B\uFF08\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u306B\u91CD\u306D\u3089\u308C\u305F\u30AB\u30FC\u30C9\u3092\u3001\u4E0A\u304B\u30891\u679A\u7834\u68C4\u3059\u308B\u3002\u9032\u5316\u5143\u304C\u306A\u304F\u306A\u308B\u304B\u3001Lv.3\u306E\u30C7\u30B8\u30E2\u30F3\u306B\u306A\u3063\u305F\u3089\u305D\u308C\u4EE5\u4E0A\u7834\u68C4\u3067\u304D\u306A\u3044\uFF09\u3059\u308B\u3002"
   EffectDiscription_ENG: "[When Digivolving] You may return up to 4 Digimon cards
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT8-065
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_082_P3
   m_EditorClassIdentifier: 
   CardIndex: 4814
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 3
   EvoCosts:
@@ -50,6 +51,8 @@ MonoBehaviour:
   Type_ENG:
   - Ancient Fairy
   CardSpriteName: BT16-082_P3
+  PrintID: BT16-082_P3
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Your Turn] [Once Per Turn] When one of your Digimon moves
@@ -64,5 +67,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-082
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_030_P1
   m_EditorClassIdentifier: 
   CardIndex: 3575
+  LegacyCardIndices: 
   cardColors: 0200000003000000
   PlayCost: 3
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Beastkin
   - Abadin Electronics
   CardSpriteName: BT17-030_P1
+  PrintID: BT17-030_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Bibimon]: Cost 0 \n\n[Start of Your Main Phase]
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-030
   MaxCountInDeck: 4

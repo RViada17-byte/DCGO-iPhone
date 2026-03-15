@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT9_002
   m_EditorClassIdentifier: 
   CardIndex: 1777
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: -1
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   Type_ENG:
   - Lesser
   CardSpriteName: BT9-002
+  PrintID: BT9-002
+  IsCanonicalPrint: 1
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 

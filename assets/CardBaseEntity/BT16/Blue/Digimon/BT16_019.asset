@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_019
   m_EditorClassIdentifier: 
   CardIndex: 3327
+  LegacyCardIndices: 
   cardColors: 0100000002000000
   PlayCost: 4
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Angel
   CardSpriteName: BT16-019
+  PrintID: BT16-019
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Digivolve] [Patamon]: Cost 2<Blocker> [On Play] [When
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-019
   MaxCountInDeck: 4

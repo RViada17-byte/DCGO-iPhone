@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_144
   m_EditorClassIdentifier: 
   CardIndex: 10299
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Rock
   - X Antibody
   CardSpriteName: P-144
+  PrintID: P-144
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Gotsumon]: Cost 0 \n\n\uFF1CBlocker\uFF1E \n[Your
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-144
   MaxCountInDeck: 4

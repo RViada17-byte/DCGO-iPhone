@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT8_091_P2
   m_EditorClassIdentifier: 
   CardIndex: 3291
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts: []
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - '-'
   CardSpriteName: BT8-091_P2
+  PrintID: BT8-091_P2
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] You may hatch 1 Digi-Egg card to an empty space
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT8-091
   MaxCountInDeck: 4

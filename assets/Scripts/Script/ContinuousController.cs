@@ -88,16 +88,26 @@ public class ContinuousController : MonoBehaviour
     #region Call up a scene for data storage
     public static IEnumerator LoadCoroutine()
     {
-        if (instance == null)
+        StartupPerfTrace.Scope perfScope = StartupPerfTrace.Measure("ContinuousController.LoadCoroutine");
+
+        try
         {
-            SceneManager.LoadSceneAsync("ContinuousControllerScene", LoadSceneMode.Additive);
-
-            while (instance == null)
+            if (instance == null)
             {
-                yield return null;
-            }
+                SceneManager.LoadSceneAsync("ContinuousControllerScene", LoadSceneMode.Additive);
 
-            instance.Init();
+                while (instance == null)
+                {
+                    yield return null;
+                }
+
+                instance.Init();
+            }
+        }
+        finally
+        {
+            perfScope.SetItemCount("runtimeCards", instance?.CardList?.Length ?? 0);
+            perfScope.Dispose();
         }
     }
     #endregion
@@ -532,91 +542,122 @@ public class ContinuousController : MonoBehaviour
         Application.lowMemory -= HandleLowMemory;
     }
 
+    void OnApplicationPause(bool pauseStatus)
+    {
+        if (pauseStatus)
+        {
+            SaveCanonicalState("app pause/background");
+        }
+    }
+
     public async void Init()
     {
-        Application.targetFrameRate = 60;
-        int random = RandomUtility.getRamdom();
-        UnityEngine.Random.InitState(random);
-        Debug.Log($"Game Initialize - random number sequence initialization,InitState:{random}");
+        StartupPerfTrace.Scope perfScope = StartupPerfTrace.Measure("ContinuousController.Init");
 
-        if (SortedCardList == null || SortedCardList.Length == 0)
+        try
         {
-            SortedCardList = CardList
-                .Where(card => card != null)
-                .OrderBy(card => card.CardIndex)
-                .ToArray();
+            Application.targetFrameRate = 60;
+            int random = RandomUtility.getRamdom();
+            UnityEngine.Random.InitState(random);
+            Debug.Log($"Game Initialize - random number sequence initialization,InitState:{random}");
+
+            if (SortedCardList == null || SortedCardList.Length == 0)
+            {
+                SortedCardList = CardList
+                    .Where(card => card != null)
+                    .OrderBy(card => card.CardIndex)
+                    .ToArray();
+            }
+
+            ApplySupportedCardScope();
+
+            Sprite reverseCardSprite = await StreamingAssetsUtility.GetSprite("card_back_main");
+
+            if (reverseCardSprite != null)
+            {
+                ReverseCard = reverseCardSprite;
+            }
+
+            Sprite reverseDigieggCardSprite = await StreamingAssetsUtility.GetSprite("card_back_sub");
+
+            if (reverseDigieggCardSprite != null)
+            {
+                ReverseCard_Digitama = reverseDigieggCardSprite;
+            }
+
+            if (ReverseCard == null)
+            {
+                ReverseCard = Resources.Load<Sprite>("Placeholders/EmptyCard");
+            }
+
+            if (ReverseCard_Digitama == null)
+            {
+                ReverseCard_Digitama = ReverseCard;
+            }
+
+            LoadBanList();
+
+            // deck data
+            LoadDeckLists();
+            bool starterDecksChanged = GetComponent<StarterDeck>().SetStarterDecks();
+            bool offlineDemoDecksRemoved = EnsureOfflineDemoDecks();
+            if (starterDecksChanged || offlineDemoDecksRemoved)
+            {
+                SaveCanonicalState("starter deck initialization");
+            }
+
+            GameSaveControllerData controllerData = GameSaveManager.GetControllerData(this);
+
+            // player data
+            PlayerName = controllerData.PlayerName;
+            WinCount = controllerData.WinCount;
+
+            // game play
+            autoEffectOrder = controllerData.AutoEffectOrder;
+            autoDeckBottomOrder = controllerData.AutoDeckBottomOrder;
+            autoDeckTopOrder = controllerData.AutoDeckTopOrder;
+            autoMinDigivolutionCost = controllerData.AutoMinDigivolutionCost;
+            autoMaxCardCount = controllerData.AutoMaxCardCount;
+            autoHatch = controllerData.AutoHatch;
+            LoadShowCutInAnimation();
+            reverseOpponentsCards = controllerData.ReverseOpponentsCards;
+            turnSuspendedCards = controllerData.TurnSuspendedCards;
+            checkBeforeEndingSelection = controllerData.CheckBeforeEndingSelection;
+            suspendedCardsDirectionIsLeft = controllerData.SuspendedCardsDirectionIsLeft;
+
+            //Graphics
+            showBackgroundParticle = controllerData.ShowBackgroundParticle;
+            if (BootstrapConfig.IsOfflineLocal)
+            {
+                showBackgroundParticle = false;
+            }
+
+            // Sound
+            BGMVolume = controllerData.BgmVolume;
+            SEVolume = controllerData.SeVolume;
+
+            // ServerRegion
+            serverRegion = controllerData.ServerRegion;
+
+            // Language
+            language = (Language)Enum.Parse(typeof(Language), controllerData.Language);
+
+            // Skip eager token bootstrap for offline iPhone mode to keep first load fast.
+            if (!BootstrapConfig.IsOfflineLocal)
+            {
+                CreateTokenData();
+            }
+
+            DontDestroyOnLoad(gameObject);
+            GameSaveManager.LogCanonicalSaveStatus("controller init");
         }
-
-        ApplySupportedCardScope();
-
-        Sprite reverseCardSprite = await StreamingAssetsUtility.GetSprite("card_back_main");
-
-        if (reverseCardSprite != null)
+        finally
         {
-            ReverseCard = reverseCardSprite;
+            perfScope.SetItemCount("runtimeCards", CardList?.Length ?? 0);
+            perfScope.SetItemCount("sortedRuntimeCards", SortedCardList?.Length ?? 0);
+            perfScope.SetItemCount("savedDecks", DeckDatas?.Count ?? 0);
+            perfScope.Dispose();
         }
-
-        Sprite reverseDigieggCardSprite = await StreamingAssetsUtility.GetSprite("card_back_sub");
-
-        if (reverseDigieggCardSprite != null)
-        {
-            ReverseCard_Digitama = reverseDigieggCardSprite;
-        }
-
-        if (ReverseCard == null)
-        {
-            ReverseCard = Resources.Load<Sprite>("Placeholders/EmptyCard");
-        }
-
-        if (ReverseCard_Digitama == null)
-        {
-            ReverseCard_Digitama = ReverseCard;
-        }
-
-        LoadBanList();
-
-        // deck data
-        //DeckDatas = PlayerPrefsUtil.LoadList<DeckData>(DeckDatasPlayerPrefsKey);
-        LoadDeckLists();
-        GetComponent<StarterDeck>().SetStarterDecks();
-        EnsureOfflineDemoDecks();
-
-        // player data
-        LoadPlayerName();
-        LoadWinCount();
-
-        // game play
-        LoadAutoEffectOrder();
-        LoadAutoDeckBottomOrder();
-        LoadAutoDeckTopOrder();
-        LoadAutoMinDigivolutionCost();
-        LoadAutoMaxCardCount();
-        LoadAutoHatch();
-        LoadShowCutInAnimation();
-        LoadReverseOpponentsCards();
-        LoadTurnSuspendedCards();
-        LoadCheckBeforeEndingSelection();
-        LoadSuspendedCardsDirectionIsLeft();
-
-        //Graphics
-        LoadShowBackgroundParticle();
-
-        // Sound
-        LoadVolume();
-
-        // ServerRegion
-        LoadServerRegion();
-
-        // Language
-        LoadLanguage();
-
-        // Skip eager token bootstrap for offline iPhone mode to keep first load fast.
-        if (!BootstrapConfig.IsOfflineLocal)
-        {
-            CreateTokenData();
-        }
-
-        DontDestroyOnLoad(gameObject);
     }
 
     void HandleLowMemory()
@@ -664,7 +705,6 @@ public class ContinuousController : MonoBehaviour
         Debug.Log($"[ContinuousController] Supported card scope applied. Cards in runtime pool: {CardList.Length}");
     }
 
-    [Obsolete("This is obsolete, switching to save files")]
     public void ModifyAllDeckDatas()
     {
         List<DeckData> tempDeckDatas = new List<DeckData>();
@@ -694,32 +734,16 @@ public class ContinuousController : MonoBehaviour
         SaveDeckDatas();
     }
 
-    [Obsolete("This is obsolete, switching to save files")]
     public void SaveDeckDatas()
     {
-        PlayerPrefsUtil.SaveList(DeckDatasPlayerPrefsKey, DeckDatas);
-
-        PlayerPrefs.Save();
+        SaveCanonicalState("deck list save");
     }
 
     public void SaveDeckData(DeckData data)
     {
-        if (data == null)
-        {
-            return;
-        }
-
-        try
-        {
-            string savePath = GetDeckStoragePath();
-            string deckPath = GetDeckFilePath(data.DeckName, data.DeckID, savePath);
-            File.WriteAllText(deckPath, DeckCodeUtility.GetDeckBuilderFile(data));
-        }
-
-        catch (Exception exception)
-        {
-            Debug.LogWarning($"[ContinuousController] Failed to save deck '{data.DeckName}': {exception.Message}");
-        }
+        SaveCanonicalState(data == null
+            ? "deck save"
+            : $"deck save ({data.DeckName})");
     }
 
     public void RenameDeck(DeckData data, string newName)
@@ -730,127 +754,47 @@ public class ContinuousController : MonoBehaviour
         }
 
         string validatedName = DeckData.ValidateDeckName(newName);
-
-        try
-        {
-            string savePath = GetDeckStoragePath();
-            string oldPath = GetDeckFilePath(data.DeckName, data.DeckID, savePath);
-            string newPath = GetDeckFilePath(validatedName, data.DeckID, savePath);
-
-            if (File.Exists(oldPath) && !string.Equals(oldPath, newPath, StringComparison.Ordinal))
-            {
-                File.Move(oldPath, newPath);
-            }
-
-            data.DeckName = validatedName;
-            SaveDeckData(data);
-        }
-
-        catch (Exception exception)
-        {
-            Debug.LogWarning($"[ContinuousController] Failed to rename deck '{data.DeckName}' to '{validatedName}': {exception.Message}");
-            data.DeckName = validatedName;
-        }
+        data.DeckName = validatedName;
+        SaveCanonicalState($"deck rename ({validatedName})");
     }
 
     public void DeleteDeck(DeckData data)
     {
         if (data == null)
+        {
             return;
-
-        try
-        {
-            string filePath = GetDeckStoragePath();
-
-            if (!Directory.Exists(filePath))
-                return;
-
-            string deckPath = GetDeckFilePath(data.DeckName, data.DeckID, filePath);
-            if (!File.Exists(deckPath))
-                return;
-
-            File.Delete(deckPath);
         }
 
-        catch (Exception exception)
-        {
-            Debug.LogWarning($"[ContinuousController] Failed to delete deck '{data.DeckName}': {exception.Message}");
-        }
+        DeckDatas ??= new List<DeckData>();
+        DeckDatas.RemoveAll(deckData =>
+            deckData != null &&
+            string.Equals(deckData.DeckID, data.DeckID, StringComparison.OrdinalIgnoreCase));
+        SaveCanonicalState($"deck delete ({data.DeckName})");
     }
 
     public void DeleteAllDecks()
     {
-        foreach(DeckData data in DeckDatas)
-        {
-            DeleteDeck(data);
-        }
+        DeckDatas ??= new List<DeckData>();
+        DeckDatas.Clear();
+        SaveCanonicalState("all decks deleted");
     }
 
     public void LoadDeckLists()
     {
-        string loadPath = GetDeckStoragePath();
+        StartupPerfTrace.Scope perfScope = StartupPerfTrace.Measure("ContinuousController.LoadDeckLists");
 
-        if (!Directory.Exists(loadPath))
-            return;
-
-        string[] deckLists = Directory.GetFiles(loadPath);
-
-        foreach(string deckPath in deckLists)
+        try
         {
-            try
-            {
-                string fileName = Path.GetFileNameWithoutExtension(deckPath);
-
-                if (!fileName.Contains("_"))
-                    continue;
-
-                string deckList = File.ReadAllText(deckPath);
-
-                using StreamReader sr = new StreamReader(deckPath);
-
-                string deckNameLine = sr.ReadLine();
-                string keyCardLine = sr.ReadLine();
-                string sortValueLine = sr.ReadLine();
-
-                if (string.IsNullOrEmpty(deckNameLine) || string.IsNullOrEmpty(keyCardLine) || string.IsNullOrEmpty(sortValueLine))
-                {
-                    Debug.LogWarning($"[ContinuousController] Skipping malformed deck file: {deckPath}");
-                    continue;
-                }
-
-                string deckName = deckNameLine.Replace("Name: ", "");
-
-                if (!int.TryParse(keyCardLine.Replace("Key Card: ", ""), out int KeyCard))
-                {
-                    KeyCard = -1;
-                }
-
-                if (!int.TryParse(sortValueLine.Replace("Sort Index: ", ""), out int SortValue))
-                {
-                    SortValue = 0;
-                }
-
-                if (!deckList.Contains("//"))
-                {
-                    Debug.LogWarning($"[ContinuousController] Skipping deck file without deck code body: {deckPath}");
-                    continue;
-                }
-
-                string deck = deckList.Substring(deckList.IndexOf("//", StringComparison.Ordinal));
-
-                if (SortValue < 0)
-                    SortValue = 0;
-
-                CreateDeckFromFile(fileName.Split("_")[1], deckName, KeyCard, deck, SortValue);
-            }
-
-            catch (Exception exception)
-            {
-                Debug.LogWarning($"[ContinuousController] Failed to load deck file '{deckPath}': {exception.Message}");
-            }
+            GameSaveControllerData controllerData = GameSaveManager.GetControllerData(this);
+            DeckDatas = GameSaveManager.BuildDecksFromSaveData(controllerData.Decks)
+                .OrderBy(deckData => deckData.DeckName)
+                .ToList();
         }
-
-        DeckDatas = DeckDatas.OrderBy(x => x.DeckName).ToList();
+        finally
+        {
+            perfScope.SetItemCount("savedDecks", DeckDatas?.Count ?? 0);
+            perfScope.Dispose();
+        }
     }
 
     public DeckData FindDeckDataBySelector(string selector)
@@ -907,13 +851,14 @@ public class ContinuousController : MonoBehaviour
         return Path.Combine(basePath, $"{safeName}_{deckId}.txt");
     }
 
-    void EnsureOfflineDemoDecks()
+    bool EnsureOfflineDemoDecks()
     {
         if (DeckDatas == null)
         {
-            return;
+            return false;
         }
 
+        int originalCount = DeckDatas.Count;
         DeckDatas.RemoveAll(deckData =>
             deckData != null &&
             (
@@ -922,6 +867,7 @@ public class ContinuousController : MonoBehaviour
                 string.Equals(deckData.DeckName, "Offline Demo", StringComparison.OrdinalIgnoreCase) ||
                 (!string.IsNullOrWhiteSpace(deckData.DeckID) && deckData.DeckID.StartsWith("offline-", StringComparison.OrdinalIgnoreCase))
             ));
+        return DeckDatas.Count != originalCount;
     }
 
     DeckData GenerateDemoDeckFromSets(string deckName, IReadOnlyCollection<string> setIds)
@@ -976,11 +922,11 @@ public class ContinuousController : MonoBehaviour
         // Build a direct deterministic deck first to avoid failing on partially loaded metadata.
         DeckData directDeck = new DeckData("");
         directDeck.DeckName = deckName;
-        directDeck.DeckCardIDs = mainDeck.Take(50).Select(card => card.CardIndex).ToList();
-        directDeck.DigitamaDeckCardIDs = digiEggDeck.Take(5).Select(card => card.CardIndex).ToList();
-        directDeck.KeyCardId = directDeck.DeckCardIDs.Count > 0 ? directDeck.DeckCardIDs[0] : -1;
+        List<CEntity_Base> resolvedMainDeck = mainDeck.Take(50).ToList();
+        List<CEntity_Base> resolvedDigitamaDeck = digiEggDeck.Take(5).ToList();
+        directDeck.SetDeckCardsFromResolvedCards(resolvedMainDeck, resolvedDigitamaDeck, resolvedMainDeck.FirstOrDefault());
 
-        if (directDeck.DeckCardIDs.Count == 50)
+        if (resolvedMainDeck.Count == 50)
         {
             return directDeck;
         }
@@ -1104,9 +1050,15 @@ public class ContinuousController : MonoBehaviour
         DeckData manualDeck = new DeckData("");
         manualDeck.DeckName = deckName;
         manualDeck.DeckID = $"offline-{NormalizeDeckId(deckName)}";
-        manualDeck.DeckCardIDs = mainDeckCardIndexes;
-        manualDeck.DigitamaDeckCardIDs = eggDeckCardIndexes;
-        manualDeck.KeyCardId = mainDeckCardIndexes.Count > 0 ? mainDeckCardIndexes[0] : -1;
+        List<CEntity_Base> manualMainDeckCards = mainDeckCardIndexes
+            .Select(getCardEntityByCardID)
+            .Where(card => card != null)
+            .ToList();
+        List<CEntity_Base> manualDigitamaDeckCards = eggDeckCardIndexes
+            .Select(getCardEntityByCardID)
+            .Where(card => card != null)
+            .ToList();
+        manualDeck.SetDeckCardsFromResolvedCards(manualMainDeckCards, manualDigitamaDeckCards, manualMainDeckCards.FirstOrDefault());
 
         string mainBreakdown = string.Join(", ", mainDeckSpec.Select(spec => $"{spec.CardId}x{spec.Count}"));
         string eggBreakdown = string.Join(", ", eggDeckSpec.Select(spec => $"{spec.CardId}x{spec.Count}"));
@@ -1135,13 +1087,7 @@ public class ContinuousController : MonoBehaviour
 
     public CEntity_Base FindCardByIdOrSpriteName(string cardId)
     {
-        string normalizedCardId = NormalizeCardCode(cardId);
-        return CardList.FirstOrDefault(entity =>
-            entity != null &&
-            (
-                NormalizeCardCode(entity.CardID) == normalizedCardId ||
-                NormalizeCardCode(entity.CardSpriteName) == normalizedCardId
-            ));
+        return CardPrintCatalog.ResolveCardOrPrint(cardId, preferCanonical: false);
     }
 
     CEntity_Base EnsureOfflineRuntimeCard(OfflineCardDefinition definition)
@@ -1202,6 +1148,8 @@ public class ContinuousController : MonoBehaviour
         runtimeCard.LinkEffect = "";
         runtimeCard.LinkRequirement = "";
         runtimeCard.CardID = definition.CardId;
+        runtimeCard.PrintID = CardPrintCatalog.NormalizeStoredPrintId(definition.CardId);
+        runtimeCard.IsCanonicalPrint = true;
         runtimeCard.MaxCountInDeck = 4;
 
         List<CEntity_Base> cardList = (CardList ?? Array.Empty<CEntity_Base>())
@@ -1446,10 +1394,9 @@ public class ContinuousController : MonoBehaviour
 
         DeckData deckData = new DeckData(string.Empty, id);
         deckData.DeckName = name;
-        deckData.DeckCardIDs = deckCards.Select(card => card.CardIndex).ToList();
-        deckData.DigitamaDeckCardIDs = digitamaDeckCards.Select(card => card.CardIndex).ToList();
-        deckData.KeyCardId = keyID >= 0 ? keyID : (deckData.DeckCardIDs.Count > 0 ? deckData.DeckCardIDs[0] : -1);
         deckData.SortValue = index;
+        CEntity_Base keyCard = keyID >= 0 ? getCardEntityByCardID(keyID) : deckCards.FirstOrDefault();
+        deckData.SetDeckCardsFromResolvedCards(deckCards, digitamaDeckCards, keyCard);
 
         DeckDatas.Insert(index, deckData);
     }
@@ -1478,22 +1425,12 @@ public class ContinuousController : MonoBehaviour
     public void SavePlayerName(string playerName)
     {
         PlayerName = playerName;
-        PlayerPrefs.SetString(_playerNameKey, playerName);
-        PlayerPrefs.Save();
+        SaveCanonicalState("player name changed");
     }
 
     public void LoadPlayerName()
     {
-        if (PlayerPrefs.HasKey(_playerNameKey))
-        {
-            PlayerName = PlayerPrefs.GetString(_playerNameKey);
-        }
-
-
-        if (string.IsNullOrEmpty(PlayerName))
-        {
-            PlayerName = "Player";
-        }
+        PlayerName = GameSaveManager.GetControllerData(this).PlayerName;
     }
     #endregion
 
@@ -1503,16 +1440,11 @@ public class ContinuousController : MonoBehaviour
 
     public void SaveWinCount()
     {
-        PlayerPrefs.SetInt(_winCountKey, WinCount);
-        PlayerPrefs.Save();
+        SaveCanonicalState("win count changed");
     }
     public void LoadWinCount()
     {
-        if (PlayerPrefs.HasKey(_winCountKey))
-        {
-            WinCount = PlayerPrefs.GetInt(_winCountKey);
-        }
-
+        WinCount = GameSaveManager.GetControllerData(this).WinCount;
     }
     #endregion
 
@@ -1522,12 +1454,11 @@ public class ContinuousController : MonoBehaviour
 
     public void SaveAutoEffectOrder()
     {
-        PlayerPrefsUtil.SetBool(_autoEffectOrderKey, autoEffectOrder);
-        PlayerPrefs.Save();
+        SaveCanonicalState("auto effect order changed");
     }
     public void LoadAutoEffectOrder()
     {
-        autoEffectOrder = PlayerPrefsUtil.GetBool(_autoEffectOrderKey, false);
+        autoEffectOrder = GameSaveManager.GetControllerData(this).AutoEffectOrder;
     }
     #endregion
 
@@ -1537,12 +1468,11 @@ public class ContinuousController : MonoBehaviour
 
     public void SaveAutoDeckBottomOrder()
     {
-        PlayerPrefsUtil.SetBool(_autoDeckBottomOrderKey, autoDeckBottomOrder);
-        PlayerPrefs.Save();
+        SaveCanonicalState("auto deck bottom order changed");
     }
     public void LoadAutoDeckBottomOrder()
     {
-        autoDeckBottomOrder = PlayerPrefsUtil.GetBool(_autoDeckBottomOrderKey, false);
+        autoDeckBottomOrder = GameSaveManager.GetControllerData(this).AutoDeckBottomOrder;
     }
     #endregion
 
@@ -1552,12 +1482,11 @@ public class ContinuousController : MonoBehaviour
 
     public void SaveAutoDeckTopOrder()
     {
-        PlayerPrefsUtil.SetBool(_autoDeckTopOrderKey, autoDeckTopOrder);
-        PlayerPrefs.Save();
+        SaveCanonicalState("auto deck top order changed");
     }
     public void LoadAutoDeckTopOrder()
     {
-        autoDeckTopOrder = PlayerPrefsUtil.GetBool(_autoDeckTopOrderKey, false);
+        autoDeckTopOrder = GameSaveManager.GetControllerData(this).AutoDeckTopOrder;
     }
     #endregion
 
@@ -1567,12 +1496,11 @@ public class ContinuousController : MonoBehaviour
 
     public void SaveAutoMinDigivolutionCost()
     {
-        PlayerPrefsUtil.SetBool(_autoMinDigivolutionCostKey, autoMinDigivolutionCost);
-        PlayerPrefs.Save();
+        SaveCanonicalState("auto min digivolution cost changed");
     }
     public void LoadAutoMinDigivolutionCost()
     {
-        autoMinDigivolutionCost = PlayerPrefsUtil.GetBool(_autoMinDigivolutionCostKey, false);
+        autoMinDigivolutionCost = GameSaveManager.GetControllerData(this).AutoMinDigivolutionCost;
     }
     #endregion
 
@@ -1582,12 +1510,11 @@ public class ContinuousController : MonoBehaviour
 
     public void SaveAutoMaxCardCount()
     {
-        PlayerPrefsUtil.SetBool(_autoMaxCardCountKey, autoMaxCardCount);
-        PlayerPrefs.Save();
+        SaveCanonicalState("auto max card count changed");
     }
     public void LoadAutoMaxCardCount()
     {
-        autoMaxCardCount = PlayerPrefsUtil.GetBool(_autoMaxCardCountKey, false);
+        autoMaxCardCount = GameSaveManager.GetControllerData(this).AutoMaxCardCount;
     }
     #endregion
 
@@ -1597,12 +1524,11 @@ public class ContinuousController : MonoBehaviour
 
     public void SaveAutoHatch()
     {
-        PlayerPrefsUtil.SetBool(_autoHatchKey, autoHatch);
-        PlayerPrefs.Save();
+        SaveCanonicalState("auto hatch changed");
     }
     public void LoadAutoHatch()
     {
-        autoHatch = PlayerPrefsUtil.GetBool(_autoHatchKey, false);
+        autoHatch = GameSaveManager.GetControllerData(this).AutoHatch;
     }
     #endregion
 
@@ -1612,8 +1538,7 @@ public class ContinuousController : MonoBehaviour
 
     public void SaveShowCutInAnimation()
     {
-        PlayerPrefsUtil.SetBool(_showCutInAnimationKey, showCutInAnimation);
-        PlayerPrefs.Save();
+        SaveCanonicalState("show cut-in animation changed");
     }
     public void LoadShowCutInAnimation()
     {
@@ -1629,12 +1554,11 @@ public class ContinuousController : MonoBehaviour
 
     public void SaveReverseOpponentsCards()
     {
-        PlayerPrefsUtil.SetBool(_reverseOpponentsCardsKey, reverseOpponentsCards);
-        PlayerPrefs.Save();
+        SaveCanonicalState("reverse opponents cards changed");
     }
     public void LoadReverseOpponentsCards()
     {
-        reverseOpponentsCards = PlayerPrefsUtil.GetBool(_reverseOpponentsCardsKey, false);
+        reverseOpponentsCards = GameSaveManager.GetControllerData(this).ReverseOpponentsCards;
     }
     #endregion
 
@@ -1644,12 +1568,11 @@ public class ContinuousController : MonoBehaviour
 
     public void SaveTurnSuspendedCards()
     {
-        PlayerPrefsUtil.SetBool(_turnSuspendedCardsKey, turnSuspendedCards);
-        PlayerPrefs.Save();
+        SaveCanonicalState("turn suspended cards changed");
     }
     public void LoadTurnSuspendedCards()
     {
-        turnSuspendedCards = PlayerPrefsUtil.GetBool(_turnSuspendedCardsKey, true);
+        turnSuspendedCards = GameSaveManager.GetControllerData(this).TurnSuspendedCards;
     }
     #endregion
 
@@ -1659,12 +1582,11 @@ public class ContinuousController : MonoBehaviour
 
     public void SaveCheckBeforeEndingSelection()
     {
-        PlayerPrefsUtil.SetBool(_checkBeforeEndingSelectionKey, checkBeforeEndingSelection);
-        PlayerPrefs.Save();
+        SaveCanonicalState("check before ending selection changed");
     }
     public void LoadCheckBeforeEndingSelection()
     {
-        checkBeforeEndingSelection = PlayerPrefsUtil.GetBool(_checkBeforeEndingSelectionKey, true);
+        checkBeforeEndingSelection = GameSaveManager.GetControllerData(this).CheckBeforeEndingSelection;
     }
     #endregion
 
@@ -1674,12 +1596,11 @@ public class ContinuousController : MonoBehaviour
 
     public void SaveSuspendedCardsDirectionIsLeft()
     {
-        PlayerPrefsUtil.SetBool(_suspendedCardsDirectionIsLeftKey, suspendedCardsDirectionIsLeft);
-        PlayerPrefs.Save();
+        SaveCanonicalState("suspended cards direction changed");
     }
     public void LoadSuspendedCardsDirectionIsLeft()
     {
-        suspendedCardsDirectionIsLeft = PlayerPrefsUtil.GetBool(_suspendedCardsDirectionIsLeftKey, true);
+        suspendedCardsDirectionIsLeft = GameSaveManager.GetControllerData(this).SuspendedCardsDirectionIsLeft;
     }
     #endregion
 
@@ -1689,12 +1610,11 @@ public class ContinuousController : MonoBehaviour
 
     public void SaveShowBackgroundParticle()
     {
-        PlayerPrefsUtil.SetBool(_showBackgroundParticleKey, showBackgroundParticle);
-        PlayerPrefs.Save();
+        SaveCanonicalState("background particle changed");
     }
     public void LoadShowBackgroundParticle()
     {
-        showBackgroundParticle = PlayerPrefsUtil.GetBool(_showBackgroundParticleKey, false);
+        showBackgroundParticle = GameSaveManager.GetControllerData(this).ShowBackgroundParticle;
 
         if (BootstrapConfig.IsOfflineLocal)
         {
@@ -1710,17 +1630,13 @@ public class ContinuousController : MonoBehaviour
     public void SetBGMVolume(float BGMVolume)
     {
         this.BGMVolume = BGMVolume;
-
-        PlayerPrefs.SetFloat("BGMVolume", BGMVolume);
-        PlayerPrefs.Save();
+        SaveCanonicalState("bgm volume changed");
     }
 
     public void SetSEVolume(float SEVolume)
     {
         this.SEVolume = SEVolume;
-
-        PlayerPrefs.SetFloat("SEVolume", SEVolume);
-        PlayerPrefs.Save();
+        SaveCanonicalState("se volume changed");
     }
 
     public void ChangeBGMVolume(AudioSource audioSource)
@@ -1735,18 +1651,9 @@ public class ContinuousController : MonoBehaviour
 
     void LoadVolume()
     {
-        BGMVolume = 0.5f;
-        SEVolume = 0.5f;
-
-        if (PlayerPrefs.HasKey("BGMVolume"))
-        {
-            BGMVolume = PlayerPrefs.GetFloat("BGMVolume");
-        }
-
-        if (PlayerPrefs.HasKey("SEVolume"))
-        {
-            SEVolume = PlayerPrefs.GetFloat("SEVolume");
-        }
+        GameSaveControllerData controllerData = GameSaveManager.GetControllerData(this);
+        BGMVolume = controllerData.BgmVolume;
+        SEVolume = controllerData.SeVolume;
     }
     #endregion
 
@@ -1756,12 +1663,11 @@ public class ContinuousController : MonoBehaviour
 
     public void SaveServerRegion()
     {
-        PlayerPrefs.SetString(_serverRegionKey, serverRegion);
-        PlayerPrefs.Save();
+        SaveCanonicalState("server region changed");
     }
     public void LoadServerRegion()
     {
-        //serverRegion = PlayerPrefs.GetString(_serverRegionKey, "us");
+        serverRegion = GameSaveManager.GetControllerData(this).ServerRegion;
     }
     public string LastConnectServerRegion = "";
     #endregion
@@ -1772,12 +1678,27 @@ public class ContinuousController : MonoBehaviour
 
     public void SaveLanguage()
     {
-        PlayerPrefs.SetString(_languageKey, language.ToString());
-        PlayerPrefs.Save();
+        SaveCanonicalState("language changed");
     }
     public void LoadLanguage()
     {
-        language = (Language)Enum.Parse(typeof(Language), PlayerPrefs.GetString(_languageKey, "ENG"));
+        language = (Language)Enum.Parse(typeof(Language), GameSaveManager.GetControllerData(this).Language);
+    }
+
+    public void SaveCanonicalState(string reason = null)
+    {
+        StartupPerfTrace.Scope perfScope = StartupPerfTrace.Measure("ContinuousController.SaveCanonicalState");
+
+        try
+        {
+            GameSaveManager.SaveAll(ProgressionManager.LoadedInstance?.CurrentProfileData, this, reason ?? "controller save");
+        }
+        finally
+        {
+            perfScope.SetItemCount("savedDecks", DeckDatas?.Count ?? 0);
+            perfScope.SetItemCount("ownedPrints", ProgressionManager.LoadedInstance?.CurrentProfileData?.OwnedPrintIds?.Count ?? 0);
+            perfScope.Dispose();
+        }
     }
     #endregion
 
@@ -1795,17 +1716,23 @@ public class ContinuousController : MonoBehaviour
     #region カードIndexからカードを取得
     public CEntity_Base getCardEntityByCardID(int cardIndex)
     {
-        //int searchIndex = cardIndex - 1;
-        //int count = 0;
+        if (cardIndex <= 0)
+        {
+            return null;
+        }
+
+        CEntity_Base resolvedCard = CardPrintCatalog.ResolveLegacyCardIndex(cardIndex);
+        if (resolvedCard != null)
+        {
+            return resolvedCard;
+        }
 
         if (SortedCardList == null)
         {
             return null;
         }
 
-        CEntity_Base cEntity_Base = SortedCardList.FirstOrDefault(entity => entity != null && entity.CardIndex == cardIndex);
-
-        return cEntity_Base;
+        return SortedCardList.FirstOrDefault(entity => entity != null && entity.CardIndex == cardIndex);
 
         //TODO: REMOVE IN FUTURE
         /*do

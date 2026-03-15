@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_048
   m_EditorClassIdentifier: 
   CardIndex: 7049
+  LegacyCardIndices: 
   cardColors: 0300000000000000
   PlayCost: 5
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Vegetation
   - CS
   CardSpriteName: BT22-048
+  PrintID: BT22-048
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.3 w/[CS]\_trait: Cost 2 \n\n[On Play] [When

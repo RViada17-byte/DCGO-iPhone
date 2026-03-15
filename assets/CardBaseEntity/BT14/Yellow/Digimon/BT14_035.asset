@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT14_035
   m_EditorClassIdentifier: 
   CardIndex: 2957
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 4
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Mythical Beast
   CardSpriteName: BT14-035
+  PrintID: BT14-035
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u226A\u9632\u58C1\u226B\uFF08\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30D0\u30C8\u30EB\u3067\u6D88\u6EC5\u3059\u308B\u3068\u304D\u3001\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3092\u4E0A\u304B\u30891\u679A\u7834\u68C4\u3059\u308B\u3053\u3068\u3067\u3001\u6D88\u6EC5\u3057\u306A\u3044\uFF09"
   EffectDiscription_ENG: "\uFF1CBarrier\uFF1E (When this Digimon would be deleted
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT14-035
   MaxCountInDeck: 4

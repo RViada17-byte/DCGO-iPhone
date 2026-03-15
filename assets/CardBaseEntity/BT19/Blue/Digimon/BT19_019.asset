@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_019
   m_EditorClassIdentifier: 
   CardIndex: 3981
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 4
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - LIBERATOR
   - Aquatic
   CardSpriteName: BT19-019
+  PrintID: BT19-019
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[When Digivolving] If you have 1 or fewer Tamers, you may
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-019
   MaxCountInDeck: 4

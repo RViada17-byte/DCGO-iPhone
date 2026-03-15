@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_072_P1
   m_EditorClassIdentifier: 
   CardIndex: 10391
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 7
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Cyborg
   CardSpriteName: P-072_P1
+  PrintID: P-072_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][MetalGreymon]: Cost 0 \n\n[When Digivolving]
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-072
   MaxCountInDeck: 4

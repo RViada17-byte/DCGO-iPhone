@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_056
   m_EditorClassIdentifier: 
   CardIndex: 7587
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 5
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - Zip
   - Unzip
   CardSpriteName: BT24-056
+  PrintID: BT24-056
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[App Fusion] [Hackmon] & [Protecmon]\_& [Pipomon]: Cost

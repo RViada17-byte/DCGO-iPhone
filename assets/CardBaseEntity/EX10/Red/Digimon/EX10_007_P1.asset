@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_007_P1
   m_EditorClassIdentifier: 
   CardIndex: 7275
+  LegacyCardIndices: 
   cardColors: 0000000005000000
   PlayCost: 4
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Dinosaur
   CardSpriteName: EX10-007_P1
+  PrintID: EX10-007_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.3 w/[Agumon]\_in name: Cost 2 \n\n\uFF1CRaid\uFF1E

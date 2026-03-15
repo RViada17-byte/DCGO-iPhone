@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_031_P3
   m_EditorClassIdentifier: 
   CardIndex: 4397
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 11
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Cyborg
   - Blue Flare
   CardSpriteName: BT11-031_P3
+  PrintID: BT11-031_P3
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][MetalGreymon]: Cost 2 \n\n[When Digivolving]
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-031
   MaxCountInDeck: 4

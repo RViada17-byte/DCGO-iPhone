@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_030
   m_EditorClassIdentifier: 
   CardIndex: 7362
+  LegacyCardIndices: 
   cardColors: 0200000005000000
   PlayCost: 7
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Puppet
   - CS
   CardSpriteName: BT23-030
+  PrintID: BT23-030
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Sukamon]\_in name or w/[CS]\_trait:

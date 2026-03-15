@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_072
   m_EditorClassIdentifier: 
   CardIndex: 4189
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 7
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Seven Great Demon Lords
   CardSpriteName: EX8-072
+  PrintID: EX8-072
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Trash] [Your Turn] When any of your Digimon digivolves
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-072
   MaxCountInDeck: 4

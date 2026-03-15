@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_069_P1
   m_EditorClassIdentifier: 
   CardIndex: 7326
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - LIBERATOR
   CardSpriteName: EX10-069_P1
+  PrintID: EX10-069_P1
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] You may play 1 [Sunarizamon] or [Close] from your

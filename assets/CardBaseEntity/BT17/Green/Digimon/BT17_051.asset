@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_051
   m_EditorClassIdentifier: 
   CardIndex: 3599
+  LegacyCardIndices: 
   cardColors: 0300000006000000
   PlayCost: 13
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Mutant
   CardSpriteName: BT17-051
+  PrintID: BT17-051
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.5 [Argomon]: Cost 4 \n\n[On Play] [When Digivolving]
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 13000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-051
   MaxCountInDeck: 4

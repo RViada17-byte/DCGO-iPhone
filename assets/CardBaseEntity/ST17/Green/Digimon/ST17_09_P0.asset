@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST17_09_P0
   m_EditorClassIdentifier: 
   CardIndex: 4965
+  LegacyCardIndices: 
   cardColors: 0300000006000000
   PlayCost: 12
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Cherub
   CardSpriteName: ST17-09_P0
+  PrintID: ST17-09_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Antylamon]: Cost 3 \n\n\uFF1CAlliance\uFF1E
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST17-09
   MaxCountInDeck: 4

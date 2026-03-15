@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_115
   m_EditorClassIdentifier: 
   CardIndex: 6161
+  LegacyCardIndices: 
   cardColors: 0600000005000000
   PlayCost: 4
   EvoCosts:
@@ -42,6 +43,8 @@ MonoBehaviour:
   - Bagra Army
   - Twilight
   CardSpriteName: P-115
+  PrintID: P-115
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u6D88\u6EC5\u6642\u3011\u81EA\u5206\u306E\u624B\u672D\u304B\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u540D\u79F0\u306B\u300C\u5929\u91CE\u30CD\u30CD\u300D/\u300C\u5929\u91CE\u30E6\u30A6\u300D\u3092\u542B\u3080\u30C6\u30A4\u30DE\u30FC\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002\u305D\u306E\u5F8C\u3001\u226A\u30BB\u30FC\u30D6\u226B\u3002"
   EffectDiscription_ENG: "[On Deletion] You may play 1 Tamer card with [Amano] in
@@ -56,5 +59,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-115
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_102_P1
   m_EditorClassIdentifier: 
   CardIndex: 3245
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 15
   EvoCosts:
@@ -44,6 +45,8 @@ MonoBehaviour:
   Type_ENG:
   - Unidentified
   CardSpriteName: BT15-102_P1
+  PrintID: BT15-102_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: When this card would be played, by placing up to 3 [Dark
@@ -61,5 +64,8 @@ MonoBehaviour:
   DP: 15000
   rarity: 4
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-102
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST18_09
   m_EditorClassIdentifier: 
   CardIndex: 3826
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 6
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Avian
   - Vegetation
   CardSpriteName: ST18-09
+  PrintID: ST18-09
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CBlocker\uFF1E \n[On Deletion] You may play 1 Digimon
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST18-09
   MaxCountInDeck: 4

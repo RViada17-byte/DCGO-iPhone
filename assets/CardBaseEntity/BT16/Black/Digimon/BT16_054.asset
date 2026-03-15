@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_054
   m_EditorClassIdentifier: 
   CardIndex: 3371
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 4
   EvoCosts:
@@ -39,6 +40,8 @@ MonoBehaviour:
   - D-Brigade
   - DigiPolice
   CardSpriteName: BT16-054
+  PrintID: BT16-054
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] [When Digivolving] By returning 3 cards with
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-054
   MaxCountInDeck: 4

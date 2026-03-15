@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT5_040
   m_EditorClassIdentifier: 
   CardIndex: 992
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 6
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Mutant
   CardSpriteName: BT5-040
+  PrintID: BT5-040
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT5-040
   MaxCountInDeck: 4

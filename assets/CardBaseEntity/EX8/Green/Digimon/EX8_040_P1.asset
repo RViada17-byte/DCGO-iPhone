@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_040_P1
   m_EditorClassIdentifier: 
   CardIndex: 4124
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Insectoid
   - NSp
   CardSpriteName: EX8-040_P1
+  PrintID: EX8-040_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.3 w/[NSp]\_trait: Cost 2 \n\n[On Play] [When
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-040
   MaxCountInDeck: 4

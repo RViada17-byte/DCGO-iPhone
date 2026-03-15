@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_017_P1
   m_EditorClassIdentifier: 
   CardIndex: 10343
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Evil
   CardSpriteName: P-017_P1
+  PrintID: P-017_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] Trash the top 2 cards of your deck.'
@@ -43,5 +46,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-017
   MaxCountInDeck: 4

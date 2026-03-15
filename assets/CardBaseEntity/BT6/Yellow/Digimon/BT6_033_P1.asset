@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT6_033_P1
   m_EditorClassIdentifier: 
   CardIndex: 1151
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Beastkin
   CardSpriteName: BT6-033_P1
+  PrintID: BT6-033_P1
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u30923\u679A\u306B\u306A\u308B\u307E\u3067\u4E0A\u304B\u3089\u7834\u68C4\u3059\u308B\u3053\u3068\u3067\u3001\u7834\u68C4\u3057\u305F\u30BB\u30AD\u30E5\u30EA\u30C6\u30A31\u679A\u3054\u3068\u306B\u3001\u30E1\u30E2\u30EA\u30FC\u3092+1\u3059\u308B\u3002"
   EffectDiscription_ENG: '[On Play] You may trash any number of cards from the top
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT6-033
   MaxCountInDeck: 4

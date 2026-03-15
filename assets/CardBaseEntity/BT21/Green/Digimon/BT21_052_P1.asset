@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_052_P1
   m_EditorClassIdentifier: 
   CardIndex: 5366
+  LegacyCardIndices: 
   cardColors: 030000000000000001000000
   PlayCost: 16
   EvoCosts:
@@ -40,6 +41,8 @@ MonoBehaviour:
   - X Antibody
   - Royal Knight
   CardSpriteName: BT21-052_P1
+  PrintID: BT21-052_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Examon]: Cost 2 \n\n\uFF1CPiercing\uFF1E.\n\uFF1CBlocker\uFF1E.\n\uFF1CEvade\uFF1E
@@ -58,6 +61,5 @@ MonoBehaviour:
   LinkDP: 0
   LinkEffect: '-'
   LinkRequirement: '-'
-  LinkCost: 0
   CardID: BT21-052
   MaxCountInDeck: 4

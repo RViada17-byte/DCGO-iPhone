@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_057
   m_EditorClassIdentifier: 
   CardIndex: 3512
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 11
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Demon Lord
   - Seven Great Demon Lords
   CardSpriteName: EX6-057
+  PrintID: EX6-057
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] [When Digivolving] Until the end of your opponent''s
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX6-057
   MaxCountInDeck: 4

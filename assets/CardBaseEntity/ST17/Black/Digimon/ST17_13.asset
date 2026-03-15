@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST17_13
   m_EditorClassIdentifier: 
   CardIndex: 3286
+  LegacyCardIndices: 
   cardColors: 0500000001000000
   PlayCost: 7
   EvoCosts:
@@ -40,6 +41,8 @@ MonoBehaviour:
   - Holy Warrior
   - Royal Knight
   CardSpriteName: ST17-13
+  PrintID: ST17-13
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Veemon]: Cost 3[Security] <De-Digivolve 1>
@@ -56,5 +59,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST17-13
   MaxCountInDeck: 4

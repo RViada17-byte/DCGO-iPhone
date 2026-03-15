@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_027_P2
   m_EditorClassIdentifier: 
   CardIndex: 3471
+  LegacyCardIndices: 
   cardColors: 0200000000000000
   PlayCost: 7
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Throne
   - Three Great Angels
   CardSpriteName: EX6-027_P2
+  PrintID: EX6-027_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Angewomon]: Cost 3 \n\n[Hand] [Counter] \uFF1CBlast
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 4
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX6-027
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT8_045
   m_EditorClassIdentifier: 
   CardIndex: 1616
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 2
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Mutant
   CardSpriteName: BT8-045
+  PrintID: BT8-045
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 3000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT8-045
   MaxCountInDeck: 4

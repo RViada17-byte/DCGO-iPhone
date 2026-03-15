@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_038
   m_EditorClassIdentifier: 
   CardIndex: 7564
+  LegacyCardIndices: 
   cardColors: 0200000003000000
   PlayCost: 8
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   Type_ENG:
   - Life
   CardSpriteName: BT24-038
+  PrintID: BT24-038
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[App Fusion] [Docmon] & [Medicmon]: Cost 0\n\n\uFF1CFortitude\uFF1E

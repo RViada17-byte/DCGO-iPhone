@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_030_P1
   m_EditorClassIdentifier: 
   CardIndex: 4106
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Holy Beast
   - NSo
   CardSpriteName: EX8-030_P1
+  PrintID: EX8-030_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.2 w/[NSo]\_trait: Cost 0 \n\n[All Turns]
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-030
   MaxCountInDeck: 4

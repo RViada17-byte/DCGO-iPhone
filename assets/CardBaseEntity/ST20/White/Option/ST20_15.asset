@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST20_15
   m_EditorClassIdentifier: 
   CardIndex: 5278
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 2
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - ADVENTURE
   CardSpriteName: ST20-15
+  PrintID: ST20-15
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 'While you have no face-up [Island of Adventure] security
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST20-15
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_096
   m_EditorClassIdentifier: 
   CardIndex: 7120
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - LIBERATOR
   CardSpriteName: BT22-096
+  PrintID: BT22-096
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] You may play 1 [Sangomon] or [Yao Qinglan] from

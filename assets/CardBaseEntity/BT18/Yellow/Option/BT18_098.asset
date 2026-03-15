@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_098
   m_EditorClassIdentifier: 
   CardIndex: 3969
+  LegacyCardIndices: 
   cardColors: 0200000000000000
   PlayCost: 5
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: BT18-098
+  PrintID: BT18-098
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "When this card is trashed from the security stack, activate
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-098
   MaxCountInDeck: 4

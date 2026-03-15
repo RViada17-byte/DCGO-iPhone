@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST22_05
   m_EditorClassIdentifier: 
   CardIndex: 7496
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 6
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Shaman
   CardSpriteName: ST22-05
+  PrintID: ST22-05
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Sakuyamon: Maid Mode]: Cost 1 \n\n[Hand] [Counter]

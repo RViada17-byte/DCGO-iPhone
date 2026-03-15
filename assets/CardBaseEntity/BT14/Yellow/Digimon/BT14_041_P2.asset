@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT14_041_P2
   m_EditorClassIdentifier: 
   CardIndex: 4659
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 12
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Seraph
   - Three Great Angels
   CardSpriteName: BT14-041_P2
+  PrintID: BT14-041_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[When Digivolving] \uFF1CRecovery +1 (Deck)\uFF1E \n[All
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT14-041
   MaxCountInDeck: 4

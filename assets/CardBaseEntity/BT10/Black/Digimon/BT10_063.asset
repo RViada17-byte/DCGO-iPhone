@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_063
   m_EditorClassIdentifier: 
   CardIndex: 2107
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 6
   EvoCosts:
@@ -39,6 +40,8 @@ MonoBehaviour:
   - Twilight
   - Xros Heart
   CardSpriteName: BT10-063
+  PrintID: BT10-063
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u30C7\u30B8\u30AF\u30ED\u30B9-2:\u300C\u30E2\u30CB\u30BF\u30E2\u30F3\u300D\xD7\u300C\u30E2\u30CB\u30BF\u30E2\u30F3\u300D\xD7\u300C\u30E2\u30CB\u30BF\u30E2\u30F3\u300D\u767B\u5834\u3059\u308B\u3068\u304D\u3001\u624B\u672D/\u30D0\u30C8\u30EB\u30A8\u30EA\u30A2\u304B\u3089\u3053\u306E\u30AB\u30FC\u30C9\u306E\u4E0B\u306B\u7F6E\u3051\u308B\u30021\u679A\u3054\u3068\u306B\u767B\u5834\u30B3\u30B9\u30C8\u3092\u30DE\u30A4\u30CA\u30B9\u3059\u308B"
   EffectDiscription_ENG: 'DigiXros -2: [Monitamon] + [Monitamon] + [Monitamon] When
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-063
   MaxCountInDeck: 4

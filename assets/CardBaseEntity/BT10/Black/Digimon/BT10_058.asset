@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_058
   m_EditorClassIdentifier: 
   CardIndex: 2101
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 3
   EvoCosts:
@@ -39,6 +40,8 @@ MonoBehaviour:
   - Twilight
   - Xros Heart
   CardSpriteName: BT10-058
+  PrintID: BT10-058
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u30894\u679A\u30AA\u30FC\u30D7\u30F3\u3059\u308B\u3002\u305D\u306E\u4E2D\u306E\u540D\u79F0\u306B\u300C\u30CA\u30A4\u30C8\u30E2\u30F3\u300D\u304B\u300C\u30C7\u30C3\u30C9\u30EA\u30FC\u30A2\u30C3\u30AF\u30B9\u30E2\u30F3\u300D\u3092\u542B\u3080\u9ED2\u306E\u30AB\u30FC\u30C9\u304B\u7279\u5FB4\u306B\u300C\u30C8\u30EF\u30A4\u30E9\u30A4\u30C8\u300D\u3092\u6301\u3064\u30AB\u30FC\u30C92\u679A\u3092\u624B\u672D\u306B\u52A0\u3048\u308B\u3002\u6B8B\u308A\u306F\u597D\u304D\u306A\u9806\u756A\u3067\u30C7\u30C3\u30AD\u306E\u4E0B\u306B\u623B\u3059\u3002"
   EffectDiscription_ENG: '[On Play] Reveal the top 4 cards of your deck. Add 2 cards
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-058
   MaxCountInDeck: 4

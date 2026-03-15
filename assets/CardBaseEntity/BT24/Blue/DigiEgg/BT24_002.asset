@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_002
   m_EditorClassIdentifier: 
   CardIndex: 7520
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: -1
   EvoCosts: []
@@ -31,6 +32,8 @@ MonoBehaviour:
   - Iliad
   - TS
   CardSpriteName: BT24-002
+  PrintID: BT24-002
+  IsCanonicalPrint: 1
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '-'

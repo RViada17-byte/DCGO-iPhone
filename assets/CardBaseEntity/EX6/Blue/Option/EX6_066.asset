@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_066
   m_EditorClassIdentifier: 
   CardIndex: 3532
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 6
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: EX6-066
+  PrintID: EX6-066
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] By placing 1 Digimon card with [Aqua]/[Sea Animal]\_in
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX6-066
   MaxCountInDeck: 4

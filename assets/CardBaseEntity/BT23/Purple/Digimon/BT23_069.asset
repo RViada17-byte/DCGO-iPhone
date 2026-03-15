@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_069
   m_EditorClassIdentifier: 
   CardIndex: 7405
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 11
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Ghost
   - LIBERATOR
   CardSpriteName: BT23-069
+  PrintID: BT23-069
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CExecute\uFF1E \n[On Play] [On Deletion] You may play

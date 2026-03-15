@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST22_03
   m_EditorClassIdentifier: 
   CardIndex: 7494
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 5
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Mysterious Beast
   CardSpriteName: ST22-03
+  PrintID: ST22-03
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[When Moving] [On Play] Reveal the top 3 cards of your

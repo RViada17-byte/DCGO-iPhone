@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_076
   m_EditorClassIdentifier: 
   CardIndex: 5155
+  LegacyCardIndices: 
   cardColors: 0600000000000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Ancient Dragon
   CardSpriteName: BT20-076
+  PrintID: BT20-076
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Hand] [Counter] \uFF1CBlast DNA Digivolve ([DinoBeemon]
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 2
   OverflowMemory: 4
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-076
   MaxCountInDeck: 4

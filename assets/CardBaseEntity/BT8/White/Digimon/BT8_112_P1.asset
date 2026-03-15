@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT8_112_P1
   m_EditorClassIdentifier: 
   CardIndex: 3434
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 15
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Ancient Holy Warrior
   CardSpriteName: BT8-112_P1
+  PrintID: BT8-112_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "When one of your Digimon would digivolve into this card

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_014_P1
   m_EditorClassIdentifier: 
   CardIndex: 4075
+  LegacyCardIndices: 
   cardColors: 0000000003000000
   PlayCost: 8
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Dinosaur
   - LIBERATOR
   CardSpriteName: EX8-014_P1
+  PrintID: EX8-014_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.4 w/[Dinosaur]\_trait: Cost 3 \n\n\uFF1CFortitude\uFF1E
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-014
   MaxCountInDeck: 4

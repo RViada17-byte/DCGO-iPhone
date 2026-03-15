@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT3_011_P1
   m_EditorClassIdentifier: 
   CardIndex: 607
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Dinosaur
   CardSpriteName: BT3-011_P1
+  PrintID: BT3-011_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u30D0\u30C8\u30EB\u7D42\u4E86\u6642\u3001\u3053\u306E\u30AB\u30FC\u30C9\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3055\u305B\u308B\u3002"
   EffectDiscription_ENG: '[Security] At the end of the battle, play this card without
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT3-011
   MaxCountInDeck: 4

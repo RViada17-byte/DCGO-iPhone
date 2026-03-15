@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_100
   m_EditorClassIdentifier: 
   CardIndex: 3973
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 5
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Seven Great Demon Lords
   CardSpriteName: BT18-100
+  PrintID: BT18-100
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] Your Digimon in the breeding area may digivolve
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-100
   MaxCountInDeck: 4

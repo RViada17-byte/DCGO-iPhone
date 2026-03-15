@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_021
   m_EditorClassIdentifier: 
   CardIndex: 3144
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 3
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Sea Beast
   - X Antibody
   CardSpriteName: BT15-021
+  PrintID: BT15-021
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] [When Digivolving] Reveal the top 3 cards of
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-021
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_013
   m_EditorClassIdentifier: 
   CardIndex: 7156
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 10
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Angel
   CardSpriteName: EX10-013
+  PrintID: EX10-013
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Cupimon]: Cost 5 \n\n\uFF1CBlocker\uFF1E \n[Breeding]

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_098
   m_EditorClassIdentifier: 
   CardIndex: 5177
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 8
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - LIBERATOR
   CardSpriteName: BT20-098
+  PrintID: BT20-098
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] By returning up to 9 levels' total worth of Digimon
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-098
   MaxCountInDeck: 4

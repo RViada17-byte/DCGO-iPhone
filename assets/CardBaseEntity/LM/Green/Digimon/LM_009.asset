@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: LM_009
   m_EditorClassIdentifier: 
   CardIndex: 3255
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 4
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Mythical Beast
   CardSpriteName: LM-009
+  PrintID: LM-009
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Your Turn] When a card with [Angoramon]&#160;in its text
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: LM-009
   MaxCountInDeck: 4

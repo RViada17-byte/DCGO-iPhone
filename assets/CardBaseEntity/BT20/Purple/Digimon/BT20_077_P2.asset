@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_077_P2
   m_EditorClassIdentifier: 
   CardIndex: 5232
+  LegacyCardIndices: 
   cardColors: 0600000000000000
   PlayCost: 7
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Evil Dragon
   - LIBERATOR
   CardSpriteName: BT20-077_P2-Errata
+  PrintID: BT20-077_P2-ERRATA
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.5 w/[Dark Dragon]/[Evil Dragon]\_trait:
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 4
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-077
   MaxCountInDeck: 4

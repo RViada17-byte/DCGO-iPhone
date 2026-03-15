@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_063
   m_EditorClassIdentifier: 
   CardIndex: 3917
+  LegacyCardIndices: 
   cardColors: 0500000002000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Cyborg
   CardSpriteName: BT18-063
+  PrintID: BT18-063
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][J.P. Shibayama]: Cost 2 [Digivolve][MetalKabuterimon]:
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-063
   MaxCountInDeck: 4

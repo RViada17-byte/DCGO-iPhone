@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_185
   m_EditorClassIdentifier: 
   CardIndex: 5437
+  LegacyCardIndices: 
   cardColors: 030000000000000001000000
   PlayCost: 12
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Dragon Warrior
   CardSpriteName: P-185
+  PrintID: P-185
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Takuya Kanbara] w/5 [Hybrid]\_trait cards

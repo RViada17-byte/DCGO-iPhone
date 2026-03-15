@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT8_101
   m_EditorClassIdentifier: 
   CardIndex: 1694
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 4
   EvoCosts: []
@@ -26,6 +27,8 @@ MonoBehaviour:
   Type_JPN: []
   Type_ENG: []
   CardSpriteName: BT8-101
+  PrintID: BT8-101
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: "\u7279\u5FB4\u306B\u300C\u30A2\u30FC\u30DE\u30FC\u4F53\u300D\u3092\u6301\u3064\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u3044\u308B\u9593\u3001\u3053\u306E\u30AB\u30FC\u30C9\u306F\u8272\u6761\u4EF6\u3092\u7121\u8996\u3057\u3066\u4F7F\u7528\u3067\u304D\u308B\u3002\u3010\u30E1\u30A4\u30F3\u3011\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092DP-4000\u3057\u3001\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u306E\u7279\u5FB4\u306B\u300C\u30A2\u30FC\u30DE\u30FC\u4F53\u300D\u3092\u6301\u3064\u30AB\u30FC\u30C91\u679A\u3054\u3068\u306B\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u5168\u3066\u3092DP-1000\u3002"
   EffectDiscription_ENG: While you have a Digimon with [Armor Form] in its traits

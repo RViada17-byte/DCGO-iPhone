@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_082_P0
   m_EditorClassIdentifier: 
   CardIndex: 4340
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 11
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Demon Lord
   - Xros Heart
   CardSpriteName: BT10-082_P0
+  PrintID: BT10-082_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.5 w/[Xros Heart]\_trait: Cost 3 \n\n[On Play]
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-082
   MaxCountInDeck: 4

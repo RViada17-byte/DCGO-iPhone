@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_031
   m_EditorClassIdentifier: 
   CardIndex: 3480
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 15
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - "Tath\u0101gata"
   CardSpriteName: EX6-031
+  PrintID: EX6-031
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Sanzomon]/[Gokuumon]/[Sagomon]/[Cho-Hakkaimon]:
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 15000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX6-031
   MaxCountInDeck: 4

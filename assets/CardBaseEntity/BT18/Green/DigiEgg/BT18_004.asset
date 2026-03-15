@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_004
   m_EditorClassIdentifier: 
   CardIndex: 3850
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: -1
   EvoCosts: []
@@ -31,6 +32,8 @@ MonoBehaviour:
   - X Antibody
   - Royal Base
   CardSpriteName: BT18-004
+  PrintID: BT18-004
+  IsCanonicalPrint: 1
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '-'

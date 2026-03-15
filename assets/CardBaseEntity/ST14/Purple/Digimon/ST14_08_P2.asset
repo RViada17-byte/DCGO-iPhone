@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST14_08_P2
   m_EditorClassIdentifier: 
   CardIndex: 4922
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 12
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Demon Lord
   - Seven Great Demon Lords
   CardSpriteName: ST14-08_P2
+  PrintID: ST14-08_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[When Digivolving] Trash the top 4 cards of your deck.\n[All
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST14-08
   MaxCountInDeck: 4

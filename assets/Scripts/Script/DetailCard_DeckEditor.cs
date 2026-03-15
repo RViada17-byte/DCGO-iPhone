@@ -139,7 +139,10 @@ public class DetailCard_DeckEditor : MonoBehaviour
                 cardID_RarityText.color = Color.white;
             }
         }
-        cardID_RarityText.text = $"{cEntity_Base.CardID} {cEntity_Base.rarity}";
+        string printLabel = BuildPrintLabel(cEntity_Base);
+        cardID_RarityText.text = string.IsNullOrWhiteSpace(printLabel)
+            ? $"{cEntity_Base.CardID} {cEntity_Base.rarity}"
+            : $"{cEntity_Base.CardID} {cEntity_Base.rarity}  {printLabel}";
 
         //プレイコスト
         if (cEntity_Base.HasCost)
@@ -497,6 +500,27 @@ public class DetailCard_DeckEditor : MonoBehaviour
     public void OffDetailCard()
     {
         this.gameObject.SetActive(false);
+    }
+
+    static string BuildPrintLabel(CEntity_Base cEntity_Base)
+    {
+        if (cEntity_Base == null)
+        {
+            return string.Empty;
+        }
+
+        string normalizedCardId = CardPrintCatalog.NormalizeCardId(cEntity_Base.CardID);
+        string normalizedPrintId = CardPrintCatalog.NormalizeStoredPrintId(cEntity_Base.EffectivePrintID);
+
+        if (string.IsNullOrWhiteSpace(normalizedPrintId) ||
+            string.Equals(normalizedCardId, normalizedPrintId, StringComparison.OrdinalIgnoreCase))
+        {
+            return string.Empty;
+        }
+
+        return cEntity_Base.isParallel
+            ? $"ALT {normalizedPrintId}"
+            : normalizedPrintId;
     }
 }
 

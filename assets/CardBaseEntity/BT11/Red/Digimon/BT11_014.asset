@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_014
   m_EditorClassIdentifier: 
   CardIndex: 2281
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Beastkin
   CardSpriteName: BT11-014
+  PrintID: BT11-014
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u226A\u7A81\u9032\u226B(\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30A2\u30BF\u30C3\u30AF\u3057\u305F\u3068\u304D\u3001\u30A2\u30BF\u30C3\u30AF\u306E\u5BFE\u8C61\u3092\u6700\u3082DP\u306E\u9AD8\u3044\u30A2\u30AF\u30C6\u30A3\u30D6\u72B6\u614B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306B\u5909\u66F4\u3067\u304D\u308B)"
   EffectDiscription_ENG: "\uFF1CRaid\uFF1E (When this Digimon attacks, you may switch
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-014
   MaxCountInDeck: 4

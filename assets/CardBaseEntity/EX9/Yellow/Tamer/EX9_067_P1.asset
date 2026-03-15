@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX9_067_P1
   m_EditorClassIdentifier: 
   CardIndex: 6960
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - LIBERATOR
   CardSpriteName: EX9-067_P1
+  PrintID: EX9-067_P1
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] Reveal the top 3 cards of your deck. Add 1 card

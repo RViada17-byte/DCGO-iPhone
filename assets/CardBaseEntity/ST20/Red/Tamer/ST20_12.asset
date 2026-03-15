@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST20_12
   m_EditorClassIdentifier: 
   CardIndex: 5275
+  LegacyCardIndices: 
   cardColors: 0000000002000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - ADVENTURE
   CardSpriteName: ST20-12
+  PrintID: ST20-12
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] If you have a Digimon with the
@@ -43,5 +46,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST20-12
   MaxCountInDeck: 4

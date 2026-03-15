@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST18_10
   m_EditorClassIdentifier: 
   CardIndex: 3827
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 7
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - Vortex Warriors
   - LIBERATOR
   CardSpriteName: ST18-10
+  PrintID: ST18-10
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] Suspend 1 Digimon. If this
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST18-10
   MaxCountInDeck: 4

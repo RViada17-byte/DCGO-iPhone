@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST20_08
   m_EditorClassIdentifier: 
   CardIndex: 5270
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Insectoid
   - ADVENTURE
   CardSpriteName: ST20-08
+  PrintID: ST20-08
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.3 w/[ADVENTURE]\_trait: Cost 2 \n\n[When
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST20-08
   MaxCountInDeck: 4

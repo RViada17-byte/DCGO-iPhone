@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX11_001
   m_EditorClassIdentifier: 
   CardIndex: 7657
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: -1
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - Lesser
   - LIBERATOR
   CardSpriteName: EX11-001
+  PrintID: EX11-001
+  IsCanonicalPrint: 1
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '-'

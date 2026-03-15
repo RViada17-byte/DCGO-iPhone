@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_058
   m_EditorClassIdentifier: 
   CardIndex: 3784
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 8
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Fallen Angel
   - X Antibody
   CardSpriteName: EX7-058
+  PrintID: EX7-058
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][LadyDevimon]: Cost 0 \n\n[On Play] [When Digivolving]
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-058
   MaxCountInDeck: 4

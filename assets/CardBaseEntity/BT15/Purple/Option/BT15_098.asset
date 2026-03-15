@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_098
   m_EditorClassIdentifier: 
   CardIndex: 3239
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   - "-\r"
   Type_ENG: []
   CardSpriteName: BT15-098
+  PrintID: BT15-098
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] By deleting 1 of your Digimon, you may play 1 [Myotismon]
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-098
   MaxCountInDeck: 4

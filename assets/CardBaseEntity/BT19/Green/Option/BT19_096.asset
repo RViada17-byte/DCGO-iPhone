@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_096
   m_EditorClassIdentifier: 
   CardIndex: 4024
+  LegacyCardIndices: 
   cardColors: 0300000005000000
   PlayCost: 8
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - Royal Base
   - LIBERATOR
   CardSpriteName: BT19-096
+  PrintID: BT19-096
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] You may place 1 [Royal Base]\_trait Digimon card
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-096
   MaxCountInDeck: 4

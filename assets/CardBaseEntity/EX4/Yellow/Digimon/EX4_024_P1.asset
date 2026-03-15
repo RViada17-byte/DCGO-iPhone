@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX4_024_P1
   m_EditorClassIdentifier: 
   CardIndex: 4242
+  LegacyCardIndices: 
   cardColors: 0200000001000000
   PlayCost: 4
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Beastkin
   CardSpriteName: EX4-024_P1
+  PrintID: EX4-024_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Viximon]: Cost 0 \n\n[On Play] Until the end
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX4-024
   MaxCountInDeck: 4

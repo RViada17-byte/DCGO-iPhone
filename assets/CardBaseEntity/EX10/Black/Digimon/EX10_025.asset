@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_025
   m_EditorClassIdentifier: 
   CardIndex: 7177
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 3
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - LIBERATOR
   - Mineral
   CardSpriteName: EX10-025
+  PrintID: EX10-025
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] You may place 2 cards with the [Mineral] or [Rock]\_trait

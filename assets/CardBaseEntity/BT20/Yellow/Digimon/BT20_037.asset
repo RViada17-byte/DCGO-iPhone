@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_037
   m_EditorClassIdentifier: 
   CardIndex: 5116
+  LegacyCardIndices: 
   cardColors: 0200000003000000
   PlayCost: 15
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Unique
   CardSpriteName: BT20-037
+  PrintID: BT20-037
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CSecurity A. +1\uFF1E.\n\uFF1CPartition (Yellow Lv.6
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 15000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-037
   MaxCountInDeck: 4

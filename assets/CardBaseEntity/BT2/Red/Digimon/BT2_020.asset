@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT2_020
   m_EditorClassIdentifier: 
   CardIndex: 391
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 12
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Holy Warrior
   - Royal Knight
   CardSpriteName: BT2-020
+  PrintID: BT2-020
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u8D64\u306E\u81EA\u5206\u306E\u30C6\u30A4\u30DE\u30FC\u304C\u3044\u308B\u3068\u304D\u3001DP6000\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3002\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\u76F8\u624B\u306E\u30C8\u30E9\u30C3\u30B7\u30E510\u679A\u3054\u3068\u306B\u3001\u76F8\u624B\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u30921\u679A\u7834\u68C4\u3059\u308B\u3002"
   EffectDiscription_ENG: "[When Digivolving] If you have a red Tamer in play\uFF0C
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT2-020
   MaxCountInDeck: 4

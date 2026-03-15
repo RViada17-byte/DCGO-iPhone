@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT9_034
   m_EditorClassIdentifier: 
   CardIndex: 1821
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Mammal
   - X Antibody
   CardSpriteName: BT9-034
+  PrintID: BT9-034
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u9032\u5316:\u300C\u30D7\u30ED\u30C3\u30C8\u30E2\u30F3\u300D\u304B\u30890\u3010\u9032\u5316\u6642\u3011\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3092\u4E0A\u304B\u30891\u679A\u78BA\u8A8D\u3057\u3066\u3001\u305D\u306E\u30AB\u30FC\u30C9\u3092\u624B\u672D\u306B\u52A0\u3048\u3089\u308C\u308B\u3002\u52A0\u3048\u305F\u3068\u304D\u3001\u226A\u30EA\u30AB\u30D0\u30EA\u30FC+1\u300A\u30C7\u30C3\u30AD\u300B\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u30891\u679A\u3092\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u306E\u4E0A\u306B\u7F6E\u304F\uFF09\u3002"
   EffectDiscription_ENG: "Digivolve: 0 from [Salamon][When Digivolving] Look at the

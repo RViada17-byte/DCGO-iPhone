@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_067
   m_EditorClassIdentifier: 
   CardIndex: 4179
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - LIBERATOR
   CardSpriteName: EX8-067
+  PrintID: EX8-067
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Turn] If you have 2 memory or less, set
@@ -43,5 +46,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-067
   MaxCountInDeck: 4

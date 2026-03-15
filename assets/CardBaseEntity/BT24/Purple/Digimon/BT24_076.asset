@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_076
   m_EditorClassIdentifier: 
   CardIndex: 7609
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 7
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Cyborg
   - Dark Dragon
   CardSpriteName: BT24-076
+  PrintID: BT24-076
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Trash] [Main] If you have 4 or fewer cards in your hand,

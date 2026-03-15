@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_026
   m_EditorClassIdentifier: 
   CardIndex: 7548
+  LegacyCardIndices: 
   cardColors: 0100000006000000
   PlayCost: 4
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   - TS
   - Demon
   CardSpriteName: BT24-026
+  PrintID: BT24-026
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.3 w/[Demon]/[TS]\_trait: Cost 2 \n\nWhen

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_016_P5
   m_EditorClassIdentifier: 
   CardIndex: 10341
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 11
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Unidentified
   CardSpriteName: P-016_P5
+  PrintID: P-016_P5
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Your Turn] For each [Diaboromon] you have, this Digimon
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-016
   MaxCountInDeck: 4

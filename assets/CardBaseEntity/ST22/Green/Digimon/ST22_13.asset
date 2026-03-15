@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST22_13
   m_EditorClassIdentifier: 
   CardIndex: 7504
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 7
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - Vortex Warriors
   - LIBERATOR
   CardSpriteName: ST22-13
+  PrintID: ST22-13
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CFortitude\uFF1E \n\uFF1CVortex\uFF1E \n[On Play]

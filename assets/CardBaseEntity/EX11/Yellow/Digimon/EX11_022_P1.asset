@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX11_022_P1
   m_EditorClassIdentifier: 
   CardIndex: 7701
+  LegacyCardIndices: 
   cardColors: 0200000006000000
   PlayCost: 7
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Puppet
   - LIBERATOR
   CardSpriteName: EX11-022_P1
+  PrintID: EX11-022_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Yellow/Purple Lv.4 w/[Puppet]\_trait: Cost

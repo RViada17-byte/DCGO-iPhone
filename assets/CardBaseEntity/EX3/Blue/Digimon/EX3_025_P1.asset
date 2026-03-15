@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX3_025_P1
   m_EditorClassIdentifier: 
   CardIndex: 2202
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 12
   EvoCosts:
@@ -39,6 +40,8 @@ MonoBehaviour:
   - Four Great Dragons
   - Four Sovereigns
   CardSpriteName: EX3-025_P1
+  PrintID: EX3-025_P1
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u226A2\u30C9\u30ED\u30FC\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u304B\u3089\u30AB\u30FC\u30C9\u30922\u679A\u5F15\u304F\uFF09\u3002\u305D\u306E\u5F8C\u3001\u300C\u56DB\u5927\u7ADC\u306E\u8A66\u7DF4\u300D\u306E\u52B9\u679C\u3067\u767B\u5834\u3057\u3066\u3044\u305F\u3068\u304D\u3001\u30E1\u30E2\u30EA\u30FC+2\u3002\u3010\u6D88\u6EC5\u6642\u3011\u81EA\u5206\u306E\u300C\u56DB\u5927\u7ADC\u306E\u8A66\u7DF4\u300D\u304C\u7F6E\u304B\u308C\u3066\u3044\u306A\u3044\u3068\u304D\u3001\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u300C\u56DB\u5927\u7ADC\u306E\u8A66\u7DF4\u300D1\u679A\u3092\u30D0\u30C8\u30EB\u30A8\u30EA\u30A2\u306B\u7F6E\u3051\u308B\u3002"
   EffectDiscription_ENG: "[On Play] \uFF1CDraw 2\uFF1E. (Draw 2 cards from your deck.)
@@ -54,5 +57,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX3-025
   MaxCountInDeck: 4

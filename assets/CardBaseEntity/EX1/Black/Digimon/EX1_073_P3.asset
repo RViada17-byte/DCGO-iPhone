@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX1_073_P3
   m_EditorClassIdentifier: 
   CardIndex: 6820
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 12
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Machine
   CardSpriteName: EX1-073_P3
+  PrintID: EX1-073_P3
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] You may place up to 5 level 5 red and/or black

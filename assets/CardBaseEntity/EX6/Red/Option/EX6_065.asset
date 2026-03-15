@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_065
   m_EditorClassIdentifier: 
   CardIndex: 3531
+  LegacyCardIndices: 
   cardColors: 0000000005000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Legend-Arms
   CardSpriteName: EX6-065
+  PrintID: EX6-065
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you have a Digimon with the [Legend-Arms]\_trait,
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX6-065
   MaxCountInDeck: 4

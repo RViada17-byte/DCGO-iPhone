@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_013
   m_EditorClassIdentifier: 
   CardIndex: 7004
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 12
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Dragonkin
   - CS
   CardSpriteName: BT22-013
+  PrintID: BT22-013
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.5 w/[Greymon]\_in name or w/[CS]\_trait:

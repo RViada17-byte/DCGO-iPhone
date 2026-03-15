@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_097
   m_EditorClassIdentifier: 
   CardIndex: 7121
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 2
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Appmon
   CardSpriteName: BT22-097
+  PrintID: BT22-097
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you have an [Appmon]\_trait Digimon or Tamer on the

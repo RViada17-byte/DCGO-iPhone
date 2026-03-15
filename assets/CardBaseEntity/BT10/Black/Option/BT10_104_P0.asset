@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_104_P0
   m_EditorClassIdentifier: 
   CardIndex: 4361
+  LegacyCardIndices: 
   cardColors: 0500000006000000
   PlayCost: 0
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Twilight
   CardSpriteName: BT10-104_P0
+  PrintID: BT10-104_P0
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 'While you have a [Nene Amano] in play, you may use this
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-104
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_015
   m_EditorClassIdentifier: 
   CardIndex: 3703
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 3
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Amphibian
   - NSp
   CardSpriteName: EX7-015
+  PrintID: EX7-015
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.2 w/[NSp]\_trait: Cost 0 \n\n[All Turns]
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 3000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-015
   MaxCountInDeck: 4

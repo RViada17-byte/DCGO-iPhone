@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: LM_044
   m_EditorClassIdentifier: 
   CardIndex: 5445
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 6
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Demon Lord
   - Fallen Angel
   CardSpriteName: LM-044
+  PrintID: LM-044
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Hand] [Counter] \uFF1CBlast Digivolve\uFF1E.\n\uFF1CBlocker\uFF1E.\n\uFF1CRetaliation\uFF1E

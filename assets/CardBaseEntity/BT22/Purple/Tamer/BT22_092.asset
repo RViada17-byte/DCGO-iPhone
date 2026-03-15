@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_092
   m_EditorClassIdentifier: 
   CardIndex: 7110
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - CS
   CardSpriteName: BT22-092
+  PrintID: BT22-092
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Turn] If you have 2 or less memory, set

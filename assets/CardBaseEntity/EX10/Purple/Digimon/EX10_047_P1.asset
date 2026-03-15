@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_047_P1
   m_EditorClassIdentifier: 
   CardIndex: 7310
+  LegacyCardIndices: 
   cardColors: 0600000000000000
   PlayCost: 6
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Dark Animal
   CardSpriteName: EX10-047_P1
+  PrintID: EX10-047_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] By trashing 1 card in your hand, delete up to

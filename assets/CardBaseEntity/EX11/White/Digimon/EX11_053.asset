@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX11_053
   m_EditorClassIdentifier: 
   CardIndex: 7767
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 5
   EvoCosts: []
@@ -31,6 +32,8 @@ MonoBehaviour:
   - X Antibody
   - LIBERATOR
   CardSpriteName: EX11-053
+  PrintID: EX11-053
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] By placing 1 [Royal Knight] trait Digimon card
@@ -42,7 +45,7 @@ MonoBehaviour:
     on the field without paying the cost. Then, place this card as the played Digimon''s
     bottom digivolution card.
 
-    
+
 
     [Rule] Name: Also treated as [X Antibody].'
   InheritedEffectDiscription_JPN: 

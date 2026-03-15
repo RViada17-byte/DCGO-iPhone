@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_049_P1
   m_EditorClassIdentifier: 
   CardIndex: 3769
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 13
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Sky Dragon
   CardSpriteName: EX7-049_P1
+  PrintID: EX7-049_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Attacking] \uFF1CDe-Digivolve4\uFF1E 1
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 13000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-049
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT14_097
   m_EditorClassIdentifier: 
   CardIndex: 3032
+  LegacyCardIndices: 
   cardColors: 0500000002000000
   PlayCost: 3
   EvoCosts: []
@@ -26,6 +27,8 @@ MonoBehaviour:
   Type_JPN: []
   Type_ENG: []
   CardSpriteName: BT14-097
+  PrintID: BT14-097
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u767D\u4EE5\u5916\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u624B\u672D\u306E\u540D\u79F0\u306B\u300C\u30B9\u30AB\u30E2\u30F3\u300D\u3092\u542B\u3080\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C9\u306B\u9032\u5316\u6761\u4EF6\u3092\u7121\u8996\u3057\u3066\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u9032\u5316\u3067\u304D\u308B\u3002\uFF1C\u30EB\u30FC\u30EB\uFF1E\u540D\u79F0\uFF1A\u300C\u30B9\u30AB\u30E2\u30F3\u300D\u3092\u542B\u3080\u3082\u306E\u3068\u3057\u3066\u3082\u6271\u3046\u3002"
   EffectDiscription_ENG: '[Main] 1 of your non-white Digimon may digivolve into a

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_093
   m_EditorClassIdentifier: 
   CardIndex: 5420
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 8
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - LIBERATOR
   CardSpriteName: BT21-093
+  PrintID: BT21-093
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "When this card would be used, if your opponent has 3 or
@@ -49,6 +52,5 @@ MonoBehaviour:
   LinkDP: 0
   LinkEffect: '-'
   LinkRequirement: '-'
-  LinkCost: 0
   CardID: BT21-093
   MaxCountInDeck: 4

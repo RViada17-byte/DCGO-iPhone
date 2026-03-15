@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX4_057_P1
   m_EditorClassIdentifier: 
   CardIndex: 3299
+  LegacyCardIndices: 
   cardColors: 0600000003000000
   PlayCost: 8
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Holy Beast
   CardSpriteName: EX4-057_P1
+  PrintID: EX4-057_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "Digivolve: 3 from Lv.4 2-color w/green (When this Digimon
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX4-057
   MaxCountInDeck: 4

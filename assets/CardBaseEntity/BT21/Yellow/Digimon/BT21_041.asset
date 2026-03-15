@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_041
   m_EditorClassIdentifier: 
   CardIndex: 5352
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   Type_ENG:
   - Calendar
   CardSpriteName: BT21-041
+  PrintID: BT21-041
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.2 w/[Appmon]\_trait: Cost 0 \n\n[Security]

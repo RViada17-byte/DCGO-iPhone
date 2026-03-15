@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: LM_029
   m_EditorClassIdentifier: 
   CardIndex: 4039
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 2
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: LM-029
+  PrintID: LM-029
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] 1 of your yellow Digimon may digivolve into a yellow
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 0
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: LM-029
   MaxCountInDeck: 4

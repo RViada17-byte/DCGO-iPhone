@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_073
   m_EditorClassIdentifier: 
   CardIndex: 3206
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 4
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Ghost
   CardSpriteName: BT15-073
+  PrintID: BT15-073
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[When Digivolving] [On Deletion]  (Draw 1 card from your
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 3000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-073
   MaxCountInDeck: 4

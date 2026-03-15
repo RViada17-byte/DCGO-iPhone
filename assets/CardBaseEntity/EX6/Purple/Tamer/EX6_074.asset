@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_074
   m_EditorClassIdentifier: 
   CardIndex: 3539
+  LegacyCardIndices: 
   cardColors: 0600000002000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Tamer
   CardSpriteName: EX6-074
+  PrintID: EX6-074
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Your Turn] When one of your Digimon with the [Holy Beast]/[Archangel]/[Fallen
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 0
   rarity: 4
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX6-074
   MaxCountInDeck: 4

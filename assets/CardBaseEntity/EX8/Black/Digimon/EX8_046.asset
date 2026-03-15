@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_046
   m_EditorClassIdentifier: 
   CardIndex: 4138
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 3
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Rock
   CardSpriteName: EX8-046
+  PrintID: EX8-046
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Deletion] By trashing 1 card with the [Mineral]/[Rock]\_trait
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-046
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_086_P2
   m_EditorClassIdentifier: 
   CardIndex: 4763
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - SoC
   CardSpriteName: BT15-086_P2
+  PrintID: BT15-086_P2
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Security] Play this card without paying the cost.\n[Start
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-086
   MaxCountInDeck: 4

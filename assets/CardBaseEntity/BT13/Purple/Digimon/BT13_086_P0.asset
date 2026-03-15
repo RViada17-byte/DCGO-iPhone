@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT13_086_P0
   m_EditorClassIdentifier: 
   CardIndex: 4603
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 9
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Unknown
   CardSpriteName: BT13-086_P0
+  PrintID: BT13-086_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "When you would play this card from your hand, by deleting
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 9000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT13-086
   MaxCountInDeck: 4

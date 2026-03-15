@@ -69,8 +69,7 @@ public static class DeckBuilderSetScope
             return false;
         }
 
-        if (ExplicitlyExcludedCardIds.Contains(NormalizeCardCode(card.CardID)) ||
-            ExplicitlyExcludedCardIds.Contains(NormalizeCardCode(card.CardSpriteName)))
+        if (ExplicitlyExcludedCardIds.Contains(NormalizeCardCode(card.CardID)))
         {
             return false;
         }

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_220
   m_EditorClassIdentifier: 
   CardIndex: 7651
+  LegacyCardIndices: 
   cardColors: 0000000005000000
   PlayCost: 14
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   - Ver.3
   - Ver.5
   CardSpriteName: P-220
+  PrintID: P-220
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CReboot\uFF1E \n\uFF1CBlocker\uFF1E \n[On Play] [When

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_060
   m_EditorClassIdentifier: 
   CardIndex: 5375
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 10
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Unknown
   - LIBERATOR
   CardSpriteName: BT21-060
+  PrintID: BT21-060
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Vemmon]: Cost 6 \n\n[When Digivolving] Until
@@ -54,6 +57,5 @@ MonoBehaviour:
   LinkDP: 0
   LinkEffect: '-'
   LinkRequirement: '-'
-  LinkCost: 0
   CardID: BT21-060
   MaxCountInDeck: 4

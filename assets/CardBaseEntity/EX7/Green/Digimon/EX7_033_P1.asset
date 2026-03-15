@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_033_P1
   m_EditorClassIdentifier: 
   CardIndex: 3739
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 4
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - NSp
   - Dinosaur
   CardSpriteName: EX7-033_P1
+  PrintID: EX7-033_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.3 w/[NSp]\_trait: Cost 1 \n\n[Rule] Trait:
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-033
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT12_022_P0
   m_EditorClassIdentifier: 
   CardIndex: 4480
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 4
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Mythical Dragon
   CardSpriteName: BT12-022_P0
+  PrintID: BT12-022_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Your Turn] When this Digimon DNA digivolves into a green
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT12-022
   MaxCountInDeck: 4

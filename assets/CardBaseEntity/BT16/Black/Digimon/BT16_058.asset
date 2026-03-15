@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_058
   m_EditorClassIdentifier: 
   CardIndex: 3375
+  LegacyCardIndices: 
   cardColors: 0500000006000000
   PlayCost: 5
   EvoCosts:
@@ -42,6 +43,8 @@ MonoBehaviour:
   - X Antibody
   - SoC
   CardSpriteName: BT16-058
+  PrintID: BT16-058
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Digivolve] [Dorumon] or Lv.3 w/[SoC] trait: Cost 2<Collision>
@@ -58,5 +61,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-058
   MaxCountInDeck: 4

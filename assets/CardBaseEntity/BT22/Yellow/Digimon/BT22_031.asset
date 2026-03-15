@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_031
   m_EditorClassIdentifier: 
   CardIndex: 7028
+  LegacyCardIndices: 
   cardColors: 0200000005000000
   PlayCost: 5
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Mutant
   - CS
   CardSpriteName: BT22-031
+  PrintID: BT22-031
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Numemon]\_in name or Lv.3 w/[CS]\_trait:

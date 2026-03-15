@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_053
   m_EditorClassIdentifier: 
   CardIndex: 2326
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Perfect
   CardSpriteName: BT11-053
+  PrintID: BT11-053
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 10000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-053
   MaxCountInDeck: 4

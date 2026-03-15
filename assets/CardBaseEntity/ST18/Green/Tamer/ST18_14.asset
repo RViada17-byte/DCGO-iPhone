@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST18_14
   m_EditorClassIdentifier: 
   CardIndex: 3831
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - LIBERATOR
   CardSpriteName: ST18-14
+  PrintID: ST18-14
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Start of Your Turn] If you have 2 memory or less, set
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST18-14
   MaxCountInDeck: 4

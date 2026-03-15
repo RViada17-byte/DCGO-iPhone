@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_024
   m_EditorClassIdentifier: 
   CardIndex: 5103
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 6
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Aquatic
   - X Antibody
   CardSpriteName: BT20-024
+  PrintID: BT20-024
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Seadramon]: Cost 0 \n\n[On Play] [When Digivolving]
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-024
   MaxCountInDeck: 4

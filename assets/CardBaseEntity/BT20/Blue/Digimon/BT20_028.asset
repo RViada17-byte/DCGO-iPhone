@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_028
   m_EditorClassIdentifier: 
   CardIndex: 5107
+  LegacyCardIndices: 
   cardColors: 0100000005000000
   PlayCost: 13
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - X Antibody
   - Aquatic
   CardSpriteName: BT20-028
+  PrintID: BT20-028
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [MetalSeadramon]: Cost 2 \n\n\uFF1CSecurity
@@ -54,5 +57,8 @@ MonoBehaviour:
   DP: 13000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-028
   MaxCountInDeck: 4

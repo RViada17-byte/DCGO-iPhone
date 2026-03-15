@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_044
   m_EditorClassIdentifier: 
   CardIndex: 5355
+  LegacyCardIndices: 
   cardColors: 0200000000000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Cyborg
   CardSpriteName: BT21-044
+  PrintID: BT21-044
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [GeoGreymon]: Cost 3 \n\n[On Play] [When Digivolving]
@@ -56,6 +59,5 @@ MonoBehaviour:
   LinkDP: 0
   LinkEffect: '-'
   LinkRequirement: '-'
-  LinkCost: 0
   CardID: BT21-044
   MaxCountInDeck: 4

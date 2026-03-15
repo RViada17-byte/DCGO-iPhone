@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST14_12_P0
   m_EditorClassIdentifier: 
   CardIndex: 4925
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 7
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: ST14-12_P0
+  PrintID: ST14-12_P0
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "When this card is trashed from your deck, you may place
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST14-12
   MaxCountInDeck: 4

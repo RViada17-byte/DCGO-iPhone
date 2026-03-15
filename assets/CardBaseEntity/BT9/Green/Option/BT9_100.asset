@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT9_100
   m_EditorClassIdentifier: 
   CardIndex: 1898
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 4
   EvoCosts: []
@@ -26,6 +27,8 @@ MonoBehaviour:
   Type_JPN: []
   Type_ENG: []
   CardSpriteName: BT9-100
+  PrintID: BT9-100
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u30EC\u30B9\u30C8\u3055\u305B\u308B\u3002\u305D\u306E\u5F8C\u3001\u7279\u5FB4\u306B\u300C\u6606\u866B\u578B\u300D\u3092\u6301\u3064\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u3057\u3001\u305D\u306E\u30C7\u30B8\u30E2\u30F3\u3067\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u306B\u30A2\u30BF\u30C3\u30AF\u3067\u304D\u308B\u3002"
   EffectDiscription_ENG: "[Main] Suspend 1 of your opponent's Digimon. Then, you

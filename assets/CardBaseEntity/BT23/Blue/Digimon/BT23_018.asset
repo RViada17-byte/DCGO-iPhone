@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_018
   m_EditorClassIdentifier: 
   CardIndex: 7350
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 6
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Beast
   - CS
   CardSpriteName: BT23-018
+  PrintID: BT23-018
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.3 w/[Gabumon]\_in name or w/[CS]\_trait:

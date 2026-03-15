@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: LM_054
   m_EditorClassIdentifier: 
   CardIndex: 7811
+  LegacyCardIndices: 
   cardColors: 0200000005000000
   PlayCost: 2
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - '-'
   CardSpriteName: LM-054
+  PrintID: LM-054
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you have don't have [Treadmill Training] in the battle

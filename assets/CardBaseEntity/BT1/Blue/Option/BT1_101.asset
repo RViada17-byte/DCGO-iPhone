@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT1_101
   m_EditorClassIdentifier: 
   CardIndex: 295
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 7
   EvoCosts: []
@@ -26,6 +27,8 @@ MonoBehaviour:
   Type_JPN: []
   Type_ENG: []
   CardSpriteName: BT1-101
+  PrintID: BT1-101
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u5168\u3066\u306E\u9032\u5316\u5143\u3092\u5168\u3066\u7834\u68C4\u3059\u308B\u3002"
   EffectDiscription_ENG: '[Main] Trash all digivolution cards under all of your opponent''s

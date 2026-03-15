@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX11_020_P1
   m_EditorClassIdentifier: 
   CardIndex: 7697
+  LegacyCardIndices: 
   cardColors: 0200000006000000
   PlayCost: 3
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Puppet
   - LIBERATOR
   CardSpriteName: EX11-020_P1
+  PrintID: EX11-020_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Kyaromon]: Cost 0 \n\n[On Deletion] If deleted

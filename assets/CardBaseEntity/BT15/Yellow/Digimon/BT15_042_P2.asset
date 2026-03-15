@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_042_P2
   m_EditorClassIdentifier: 
   CardIndex: 4732
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 11
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Holy Dragon
   - Four Great Dragons
   CardSpriteName: BT15-042_P2
+  PrintID: BT15-042_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] [When Digivolving] By trashing the top or bottom
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-042
   MaxCountInDeck: 4

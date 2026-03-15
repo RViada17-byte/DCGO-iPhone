@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_093
   m_EditorClassIdentifier: 
   CardIndex: 7636
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 2
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - Iliad
   - TS
   CardSpriteName: BT24-093
+  PrintID: BT24-093
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] Add your top security card to the hand and \uFF1CRecovery

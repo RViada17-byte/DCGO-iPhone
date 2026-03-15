@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_070
   m_EditorClassIdentifier: 
   CardIndex: 5149
+  LegacyCardIndices: 
   cardColors: 0600000000000000
   PlayCost: 6
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   - SoC
   - SEEKERS
   CardSpriteName: BT20-070
+  PrintID: BT20-070
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Loogamon]/Lv.3 w/[SEEKERS]\_trait: Cost 2
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-070
   MaxCountInDeck: 4

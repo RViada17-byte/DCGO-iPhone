@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT1_007
   m_EditorClassIdentifier: 
   CardIndex: 141
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: -1
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   Type_ENG:
   - Bulb
   CardSpriteName: BT1-007
+  PrintID: BT1-007
+  IsCanonicalPrint: 1
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 

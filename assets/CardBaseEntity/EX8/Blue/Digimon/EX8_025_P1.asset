@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_025_P1
   m_EditorClassIdentifier: 
   CardIndex: 4094
+  LegacyCardIndices: 
   cardColors: 0100000005000000
   PlayCost: 8
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Sea Animal
   - DS
   CardSpriteName: EX8-025_P1
+  PrintID: EX8-025_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] You may place 1 Digimon card
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-025
   MaxCountInDeck: 4

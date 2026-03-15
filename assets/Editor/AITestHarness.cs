@@ -88,6 +88,20 @@ public static class AITestHarness
             },
             new ScenarioCase
             {
+                Name = "Force close game when visible lethal exists on board",
+                Snapshot = MainSnapshot(selfSecurity: 3, oppSecurity: 2, selfThreats: 4, oppThreats: 1, opponentHasBlocker: true),
+                Candidates = new List<AIMainPhaseCandidate>
+                {
+                    AttackSecurityCandidate("Attack security with Attacker 0", 0, stackCount: 1),
+                    AttackSecurityCandidate("Attack security with Attacker 1", 1, stackCount: 1),
+                    AttackSecurityCandidate("Attack security with Attacker 2", 2, stackCount: 2),
+                    AttackSecurityCandidate("Attack security with Attacker 3", 3, stackCount: 2),
+                    DigivolveCandidate("Digivolve instead of closing", 21, projectedMemory: 2, cost: 2, targetLevel: 4, sourceLevel: 5),
+                },
+                Assertion = action => action.ActionKind == AIChosenAction.AIActionKind.AttackSecurity,
+            },
+            new ScenarioCase
+            {
                 Name = "Do not expose premium breeding stack",
                 Snapshot = BreedingSnapshot(canHatch: false, canMove: true, selfSecurity: 2, oppSecurity: 4, breedingLevel: 6, breedingStack: 4, oppThreats: 3, selfThreats: 0),
                 Assertion = action => action.ActionKind == AIChosenAction.AIActionKind.StayHidden,

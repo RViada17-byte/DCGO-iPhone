@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST18_12
   m_EditorClassIdentifier: 
   CardIndex: 3829
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 11
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   - LIBERATOR
   - Bird Dragon
   CardSpriteName: ST18-12
+  PrintID: ST18-12
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CVortex\uFF1E (At the end of your turn, this Digimon
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST18-12
   MaxCountInDeck: 4

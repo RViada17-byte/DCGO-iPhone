@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_218_P1
   m_EditorClassIdentifier: 
   CardIndex: 7516
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - App Driver
   - Appmon
   CardSpriteName: P-218_P1
+  PrintID: P-218_P1
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] Reveal the top 3 cards of your deck. Add 1 [Entertainment]\_trait

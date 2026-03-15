@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT12_050_P1
   m_EditorClassIdentifier: 
   CardIndex: 4508
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 4
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Insectoid
   CardSpriteName: BT12-050_P1
+  PrintID: BT12-050_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Your Turn] When this Digimon DNA digivolves into a blue
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT12-050
   MaxCountInDeck: 4

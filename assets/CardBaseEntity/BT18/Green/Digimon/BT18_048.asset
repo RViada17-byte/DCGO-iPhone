@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_048
   m_EditorClassIdentifier: 
   CardIndex: 3894
+  LegacyCardIndices: 
   cardColors: 0300000000000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Fairy
   CardSpriteName: BT18-048
+  PrintID: BT18-048
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Zoe Orimoto]: Cost 2 [Digivolve][Zephyrmon]:
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-048
   MaxCountInDeck: 4

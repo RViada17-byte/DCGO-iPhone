@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST5_01
   m_EditorClassIdentifier: 
   CardIndex: 320
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: -1
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   Type_ENG:
   - Lesser
   CardSpriteName: ST5-01
+  PrintID: ST5-01
+  IsCanonicalPrint: 1
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 

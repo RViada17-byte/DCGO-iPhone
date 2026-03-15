@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_046
   m_EditorClassIdentifier: 
   CardIndex: 3898
+  LegacyCardIndices: 
   cardColors: 0300000005000000
   PlayCost: 4
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   - Royal Base
   - Insectoid
   CardSpriteName: BT18-046
+  PrintID: BT18-046
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.3 w/[Royal Base]\_trait: Cost 2 \n\n[Security]
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-046
   MaxCountInDeck: 4

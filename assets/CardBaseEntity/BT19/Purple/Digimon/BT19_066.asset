@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_066
   m_EditorClassIdentifier: 
   CardIndex: 4010
+  LegacyCardIndices: 
   cardColors: 0600000005000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Sea Animal
   CardSpriteName: BT19-066
+  PrintID: BT19-066
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Pagumon]: Cost 0 \n\n[On Play] By trashing
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-066
   MaxCountInDeck: 4

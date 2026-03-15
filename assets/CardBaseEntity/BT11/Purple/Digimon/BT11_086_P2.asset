@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_086_P2
   m_EditorClassIdentifier: 
   CardIndex: 4431
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 11
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Shaman
   - Xros Heart
   CardSpriteName: BT11-086_P2
+  PrintID: BT11-086_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "When you would play this card, you can also place cards
@@ -54,5 +57,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-086
   MaxCountInDeck: 4

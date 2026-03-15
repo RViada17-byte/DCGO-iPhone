@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_025_P0
   m_EditorClassIdentifier: 
   CardIndex: 4848
+  LegacyCardIndices: 
   cardColors: 0100000006000000
   PlayCost: 7
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Wizard
   - Dark Animal
   CardSpriteName: BT17-025_P0
+  PrintID: BT17-025_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Cerberusmon]: Cost 1 \n\n[When Digivolving]
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-025
   MaxCountInDeck: 4

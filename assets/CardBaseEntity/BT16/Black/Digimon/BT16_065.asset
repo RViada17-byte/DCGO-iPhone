@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_065
   m_EditorClassIdentifier: 
   CardIndex: 3383
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 13
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Cyborg
   - D-Brigade
   CardSpriteName: BT16-065
+  PrintID: BT16-065
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: When this card would be played, if there is a Digimon with
@@ -54,5 +57,8 @@ MonoBehaviour:
   DP: 13000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-065
   MaxCountInDeck: 4

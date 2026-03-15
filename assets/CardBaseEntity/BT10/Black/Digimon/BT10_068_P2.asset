@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_068_P2
   m_EditorClassIdentifier: 
   CardIndex: 4333
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 13
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Royal Knight
   - X Antibody
   CardSpriteName: BT10-068_P2
+  PrintID: BT10-068_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Gankoomon]: Cost 1 \n\n\uFF1CBlocker\uFF1E
@@ -54,5 +57,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-068
   MaxCountInDeck: 4

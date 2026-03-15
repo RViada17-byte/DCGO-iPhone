@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT4_040
   m_EditorClassIdentifier: 
   CardIndex: 817
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Ancient Bird
   CardSpriteName: BT4-040
+  PrintID: BT4-040
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT4-040
   MaxCountInDeck: 4

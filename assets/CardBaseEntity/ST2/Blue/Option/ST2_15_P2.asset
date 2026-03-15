@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST2_15_P2
   m_EditorClassIdentifier: 
   CardIndex: 4974
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: ST2-15_P2
+  PrintID: ST2-15_P2
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Main] Choose 1 Digimon digivolution card placed under
@@ -41,5 +44,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST2-15
   MaxCountInDeck: 4

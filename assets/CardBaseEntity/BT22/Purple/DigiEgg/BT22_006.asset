@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_006
   m_EditorClassIdentifier: 
   CardIndex: 6994
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: -1
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - Lesser
   - Night Claw
   CardSpriteName: BT22-006
+  PrintID: BT22-006
+  IsCanonicalPrint: 1
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '-'

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_051
   m_EditorClassIdentifier: 
   CardIndex: 5130
+  LegacyCardIndices: 
   cardColors: 0500000002000000
   PlayCost: 5
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - X Antibody
   - Chronicle
   CardSpriteName: BT20-051
+  PrintID: BT20-051
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Dorumon]/Lv.3 w/[Chronicle]\_trait: Cost 2
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-051
   MaxCountInDeck: 4

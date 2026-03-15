@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_068
   m_EditorClassIdentifier: 
   CardIndex: 3804
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 2
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - LIBERATOR
   CardSpriteName: EX7-068
+  PrintID: EX7-068
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] \uFF1CDraw 1\uFF1E. Then, you may play 1 level 3
@@ -41,5 +44,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-068
   MaxCountInDeck: 4

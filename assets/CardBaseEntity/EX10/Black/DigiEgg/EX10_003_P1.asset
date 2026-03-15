@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_003_P1
   m_EditorClassIdentifier: 
   CardIndex: 7271
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: -1
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - Rock
   - LIBERATOR
   CardSpriteName: EX10-003_P1
+  PrintID: EX10-003_P1
+  IsCanonicalPrint: 0
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '-'

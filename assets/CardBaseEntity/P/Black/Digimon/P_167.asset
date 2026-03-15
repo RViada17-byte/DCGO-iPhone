@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_167
   m_EditorClassIdentifier: 
   CardIndex: 10435
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Mineral
   - LIBERATOR
   CardSpriteName: P-167
+  PrintID: P-167
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] [When Digivolving] By trashing
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-167
   MaxCountInDeck: 4

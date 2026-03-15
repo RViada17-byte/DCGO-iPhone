@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT1_076_P3
   m_EditorClassIdentifier: 
   CardIndex: 4273
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 7
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Insectoid
   CardSpriteName: BT1-076_P3
+  PrintID: BT1-076_P3
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '-'
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT1-076
   MaxCountInDeck: 4

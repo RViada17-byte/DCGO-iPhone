@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_079
   m_EditorClassIdentifier: 
   CardIndex: 7613
+  LegacyCardIndices: 
   cardColors: 0600000004000000
   PlayCost: 12
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   Type_ENG:
   - Transmutation
   CardSpriteName: BT24-079
+  PrintID: BT24-079
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[App Fusion] [Revivemon] & [Biomon]: Cost 0\n\n\uFF1COverclock

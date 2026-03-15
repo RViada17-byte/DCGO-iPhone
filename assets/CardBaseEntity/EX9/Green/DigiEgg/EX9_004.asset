@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX9_004
   m_EditorClassIdentifier: 
   CardIndex: 6837
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: -1
   EvoCosts: []
@@ -31,6 +32,8 @@ MonoBehaviour:
   - DM
   - Ver.4
   CardSpriteName: EX9-004
+  PrintID: EX9-004
+  IsCanonicalPrint: 1
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '-'

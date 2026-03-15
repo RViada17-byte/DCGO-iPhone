@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_001
   m_EditorClassIdentifier: 
   CardIndex: 2031
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: -1
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   Type_ENG:
   - Flame
   CardSpriteName: BT10-001
+  PrintID: BT10-001
+  IsCanonicalPrint: 1
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 

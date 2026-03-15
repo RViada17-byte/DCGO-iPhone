@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_193
   m_EditorClassIdentifier: 
   CardIndex: 6987
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Wicked God
   CardSpriteName: P-193
+  PrintID: P-193
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] By trashing 1 card with the [Composite] or [Wicked

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: LM_050
   m_EditorClassIdentifier: 
   CardIndex: 7466
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - '-'
   CardSpriteName: LM-050
+  PrintID: LM-050
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "Red also meets this card's color requirements.\n[Main]

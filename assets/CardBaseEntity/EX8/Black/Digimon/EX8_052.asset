@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_052
   m_EditorClassIdentifier: 
   CardIndex: 4149
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 9
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Cyborg
   - X Antibody
   CardSpriteName: EX8-052
+  PrintID: EX8-052
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Cyberdramon]: Cost 0 \n\n[When Digivolving]
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 9000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-052
   MaxCountInDeck: 4

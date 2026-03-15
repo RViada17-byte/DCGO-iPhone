@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST9_06_P2
   m_EditorClassIdentifier: 
   CardIndex: 5000
+  LegacyCardIndices: 
   cardColors: 0100000003000000
   PlayCost: 13
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Ancient Dragon
   CardSpriteName: ST9-06_P2
+  PrintID: ST9-06_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[When Digivolving] You may play 1 level 4 or lower blue
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST9-06
   MaxCountInDeck: 4

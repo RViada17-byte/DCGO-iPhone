@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX3_034
   m_EditorClassIdentifier: 
   CardIndex: 2212
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 8
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Archangel
   CardSpriteName: EX3-034-Errata
+  PrintID: EX3-034-ERRATA
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u81EA\u5206\u306E\u300C\u56DB\u5927\u7ADC\u306E\u8A66\u7DF4\u300D\u304C\u7F6E\u304B\u308C\u3066\u3044\u306A\u3044\u3068\u304D\u3001\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u300C\u56DB\u5927\u7ADC\u306E\u8A66\u7DF4\u300D1\u679A\u3092\u30D0\u30C8\u30EB\u30A8\u30EA\u30A2\u306B\u7F6E\u3051\u308B\u3002\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u7279\u5FB4\u306B\u300C\u56DB\u5927\u7ADC\u300D\u3092\u6301\u3064\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u767B\u5834\u3057\u305F\u3068\u304D\u304B\u3001\u81EA\u5206\u306E\u300C\u56DB\u5927\u7ADC\u306E\u8A66\u7DF4\u300D\u304C\u30D0\u30C8\u30EB\u30A8\u30EA\u30A2\u306B\u7F6E\u304B\u308C\u305F\u3068\u304D\u3001\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092DP-3000\u3002"
   EffectDiscription_ENG: '[When Digivolving] If you don''t have a [Trial of the Four
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX3-034
   MaxCountInDeck: 4

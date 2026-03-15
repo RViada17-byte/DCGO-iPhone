@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT3_077_P1
   m_EditorClassIdentifier: 
   CardIndex: 709
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Mammal
   CardSpriteName: BT3-077_P1
+  PrintID: BT3-077_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\u76F8\u624B\u306F\u30C6\u30A4\u30DE\u30FC\u306E\u52B9\u679C\u4EE5\u5916\u3067\u30E1\u30E2\u30EA\u30FC\u3092\u30D7\u30E9\u30B9\u3067\u304D\u306A\u3044\u3002"
   EffectDiscription_ENG: '[All Turns] Your opponent can''t gain memory except with
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT3-077
   MaxCountInDeck: 4

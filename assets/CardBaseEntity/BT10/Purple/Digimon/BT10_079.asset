@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_079
   m_EditorClassIdentifier: 
   CardIndex: 2125
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 5
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Holy Beast
   - Deva
   CardSpriteName: BT10-079
+  PrintID: BT10-079
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-079
   MaxCountInDeck: 4

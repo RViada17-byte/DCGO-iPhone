@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_033
   m_EditorClassIdentifier: 
   CardIndex: 3158
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Holy Beast
   CardSpriteName: BT15-033
+  PrintID: BT15-033
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: ' (When this Digimon would be deleted in battle, by trashing
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-033
   MaxCountInDeck: 4

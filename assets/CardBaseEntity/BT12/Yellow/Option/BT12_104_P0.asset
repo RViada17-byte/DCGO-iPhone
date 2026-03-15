@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT12_104_P0
   m_EditorClassIdentifier: 
   CardIndex: 4548
+  LegacyCardIndices: 
   cardColors: 0200000000000000
   PlayCost: 5
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: BT12-104_P0
+  PrintID: BT12-104_P0
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Main] You may play 1 [Marcus Damon] from your hand without
@@ -42,5 +45,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT12-104
   MaxCountInDeck: 4

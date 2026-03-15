@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_070
   m_EditorClassIdentifier: 
   CardIndex: 4185
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 2
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - LIBERATOR
   CardSpriteName: EX8-070
+  PrintID: EX8-070
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] By trashing any 1 digivolution card of 1 of your
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-070
   MaxCountInDeck: 4

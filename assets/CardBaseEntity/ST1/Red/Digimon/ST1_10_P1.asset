@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST1_10_P1
   m_EditorClassIdentifier: 
   CardIndex: 27
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 10
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Holy Beast
   CardSpriteName: ST1-10_P1
+  PrintID: ST1-10_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST1-10
   MaxCountInDeck: 4

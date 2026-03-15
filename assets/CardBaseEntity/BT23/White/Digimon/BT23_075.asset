@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_075
   m_EditorClassIdentifier: 
   CardIndex: 7413
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 10
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - CS
   CardSpriteName: BT23-075
+  PrintID: BT23-075
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Eater Legion]: Cost 3 \n\n[On Play] [When

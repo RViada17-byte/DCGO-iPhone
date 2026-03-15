@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_059_P0
   m_EditorClassIdentifier: 
   CardIndex: 4328
+  LegacyCardIndices: 
   cardColors: 0500000000000000
   PlayCost: 4
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Legend-Arms
   - Xros Heart
   CardSpriteName: BT10-059_P0
+  PrintID: BT10-059_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] By placing this Digimon under 1 of your Digimon
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-059
   MaxCountInDeck: 4

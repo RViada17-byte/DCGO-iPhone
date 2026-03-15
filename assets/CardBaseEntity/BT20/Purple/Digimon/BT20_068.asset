@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_068
   m_EditorClassIdentifier: 
   CardIndex: 5147
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Ghost
   - LIBERATOR
   CardSpriteName: BT20-068
+  PrintID: BT20-068
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[When Digivolving] If you have 1 or fewer Tamers, you may
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-068
   MaxCountInDeck: 4

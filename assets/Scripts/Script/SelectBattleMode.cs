@@ -126,6 +126,7 @@ public class SelectBattleMode : MonoBehaviour
 
         ContinuousController.instance.isAI = isAI;
         ContinuousController.instance.isRandomMatch = true;
+        ContinuousController.instance.EnemyDeckData = null;
         BootstrapConfig.SetMode(isAI ? GameMode.OfflineLocal : GameMode.Online);
         BootstrapConfig.ClearOfflineDuelConfig();
 

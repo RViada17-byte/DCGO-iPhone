@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_049
   m_EditorClassIdentifier: 
   CardIndex: 3178
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 4
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Insectoid
   CardSpriteName: BT15-049
+  PrintID: BT15-049
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Hand] [Counter]  (Your Digimon may digivolve into this
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 3
   OverflowMemory: 3
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-049
   MaxCountInDeck: 4

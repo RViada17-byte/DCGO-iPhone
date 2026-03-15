@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT9_024
   m_EditorClassIdentifier: 
   CardIndex: 1810
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 5
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Beast
   - X Antibody
   CardSpriteName: BT9-024
+  PrintID: BT9-024
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u9032\u5316:\u300C\u30AC\u30EB\u30EB\u30E2\u30F3\u300D\u304B\u30890"
   EffectDiscription_ENG: 'Digivolve: 0 from [Garurumon]'

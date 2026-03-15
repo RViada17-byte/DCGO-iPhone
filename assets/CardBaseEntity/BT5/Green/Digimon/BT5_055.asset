@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT5_055
   m_EditorClassIdentifier: 
   CardIndex: 1013
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 11
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Fairy
   - Boss
   CardSpriteName: BT5-055
+  PrintID: BT5-055
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u6D88\u6EC5\u6642\u3011\u30EC\u30B9\u30C8\u72B6\u614B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u30C7\u30C3\u30AD\u306E\u4E0B\u306B\u623B\u3059\u3002\u305D\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u6301\u3064\u9032\u5316\u5143\u306F\u7834\u68C4\u3059\u308B\u3002"
   EffectDiscription_ENG: '[On Deletion] Return 1 of your opponent''s suspended Digimon
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT5-055
   MaxCountInDeck: 4

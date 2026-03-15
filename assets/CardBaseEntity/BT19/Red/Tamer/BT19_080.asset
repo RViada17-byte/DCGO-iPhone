@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_080
   m_EditorClassIdentifier: 
   CardIndex: 5061
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Tamer
   CardSpriteName: BT19-080
+  PrintID: BT19-080
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Turn] If you have 2 or less memory, set
@@ -43,5 +46,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-080
   MaxCountInDeck: 4

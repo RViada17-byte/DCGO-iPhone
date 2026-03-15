@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT6_036
   m_EditorClassIdentifier: 
   CardIndex: 1156
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 4
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Mutant
   CardSpriteName: BT6-036
+  PrintID: BT6-036
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u304C3\u679A\u4EE5\u4E0B\u306E\u3068\u304D\u3001\u30E1\u30E2\u30EA\u30FC\u3092+2\u3059\u308B\u3002"
   EffectDiscription_ENG: '[On Play] If you have 3 or fewer security cards, gain 2
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 3000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT6-036
   MaxCountInDeck: 4

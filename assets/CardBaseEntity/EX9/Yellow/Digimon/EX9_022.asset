@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX9_022
   m_EditorClassIdentifier: 
   CardIndex: 6876
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - DM
   - Ver.2
   CardSpriteName: EX9-022
+  PrintID: EX9-022
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.2 w/[DM]\_trait: Cost 0 \n\n\uFF1CTraining\uFF1E."

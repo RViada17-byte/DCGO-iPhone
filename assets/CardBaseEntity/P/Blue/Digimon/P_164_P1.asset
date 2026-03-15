@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_164_P1
   m_EditorClassIdentifier: 
   CardIndex: 10440
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 4
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - LIBERATOR
   - Aquatic
   CardSpriteName: P-164_P1
+  PrintID: P-164_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] By placing 1 Level 5 or lower
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-164
   MaxCountInDeck: 4

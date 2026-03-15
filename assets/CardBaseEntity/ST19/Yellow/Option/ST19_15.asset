@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST19_15
   m_EditorClassIdentifier: 
   CardIndex: 3847
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 5
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - LIBERATOR
   CardSpriteName: ST19-15
+  PrintID: ST19-15
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Main] 1 of your opponent''s Digimon gets -6000 DP for
@@ -42,5 +45,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST19-15
   MaxCountInDeck: 4

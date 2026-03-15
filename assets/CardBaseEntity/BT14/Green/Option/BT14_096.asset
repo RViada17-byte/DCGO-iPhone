@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT14_096
   m_EditorClassIdentifier: 
   CardIndex: 3031
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts: []
@@ -26,6 +27,8 @@ MonoBehaviour:
   Type_JPN: []
   Type_ENG: []
   CardSpriteName: BT14-096
+  PrintID: BT14-096
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u30EC\u30B9\u30C8\u3055\u305B\u308B\u3002\u305D\u306E\u5F8C\u3001\u540D\u79F0\u306B\u300C\u592A\u5200\u5DDD\u30DF\u30DF\u300D\u3092\u542B\u3080\u81EA\u5206\u306E\u30C6\u30A4\u30DE\u30FC\u304C\u3044\u308B\u306A\u3089\u3001\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u307E\u3067\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306F\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u306A\u3089\u306A\u3044\u3002"
   EffectDiscription_ENG: '[Main] Suspend 1 of your opponent''s Digimon. Then, if

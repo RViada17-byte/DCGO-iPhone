@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_031
   m_EditorClassIdentifier: 
   CardIndex: 3156
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 11
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Cyborg
   - Dark Masters
   CardSpriteName: BT15-031
+  PrintID: BT15-031
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] [When Attacking] Return 1 of your opponent''s
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-031
   MaxCountInDeck: 4

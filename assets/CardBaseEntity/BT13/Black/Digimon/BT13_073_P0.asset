@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT13_073_P0
   m_EditorClassIdentifier: 
   CardIndex: 4597
+  LegacyCardIndices: 
   cardColors: 0500000002000000
   PlayCost: 11
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Puppet
   CardSpriteName: BT13-073_P0
+  PrintID: BT13-073_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.5 w/[Chessmon]\_in its name: Cost 3 \n\n\uFF1CBlocker\uFF1E
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT13-073
   MaxCountInDeck: 4

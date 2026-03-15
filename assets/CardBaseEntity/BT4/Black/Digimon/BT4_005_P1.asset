@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT4_005_P1
   m_EditorClassIdentifier: 
   CardIndex: 764
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: -1
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   Type_ENG:
   - Machine
   CardSpriteName: BT4-005_P1
+  PrintID: BT4-005_P1
+  IsCanonicalPrint: 0
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 

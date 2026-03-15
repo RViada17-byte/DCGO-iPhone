@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST10_10
   m_EditorClassIdentifier: 
   CardIndex: 1768
+  LegacyCardIndices: 
   cardColors: 0600000002000000
   PlayCost: 5
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Wizard
   CardSpriteName: ST10-10
+  PrintID: ST10-10
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST10-10
   MaxCountInDeck: 4

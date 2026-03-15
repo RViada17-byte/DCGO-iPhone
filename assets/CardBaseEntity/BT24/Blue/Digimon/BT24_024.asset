@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_024
   m_EditorClassIdentifier: 
   CardIndex: 7546
+  LegacyCardIndices: 
   cardColors: 0100000002000000
   PlayCost: 5
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Iliad
   - TS
   CardSpriteName: BT24-024
+  PrintID: BT24-024
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Armadillomon]/Lv.3 w/[TS]\_trait: Cost 2 \n\n\uFF1CArmor

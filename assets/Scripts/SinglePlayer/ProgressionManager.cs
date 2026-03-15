@@ -1,16 +1,18 @@
 using System;
 using System.Collections.Generic;
-using System.IO;
 using UnityEngine;
 
 public class ProgressionManager : MonoBehaviour
 {
-    private const int CurrentSaveVersion = 3;
+    private const int CurrentSaveVersion = 4;
     private const int NewProfileStartingCurrency = 1000;
 
     private static ProgressionManager _instance;
     private PlayerProfileData _profile;
     private bool _isLoaded;
+    private HashSet<string> _ownedPrintLookupCache;
+    private HashSet<string> _unlockedCardIdLookupCache;
+    private bool _legacyUnlockedCardMigrationVerified;
 
     public static ProgressionManager Instance
     {
@@ -28,13 +30,18 @@ public class ProgressionManager : MonoBehaviour
             }
 
             GameObject runtimeObject = new GameObject(nameof(ProgressionManager));
-            DontDestroyOnLoad(runtimeObject);
+            if (Application.isPlaying)
+            {
+                DontDestroyOnLoad(runtimeObject);
+            }
             _instance = runtimeObject.AddComponent<ProgressionManager>();
             return _instance;
         }
     }
 
-    private string SavePath => Application.persistentDataPath + "/profile.json";
+    public static ProgressionManager LoadedInstance => _instance;
+
+    public PlayerProfileData CurrentProfileData => _profile;
 
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
     private static void EnsureRuntimeInstance()
@@ -44,58 +51,57 @@ public class ProgressionManager : MonoBehaviour
 
     public void LoadOrCreate()
     {
-        if (File.Exists(SavePath))
+        StartupPerfTrace.Scope perfScope = StartupPerfTrace.Measure("ProgressionManager.LoadOrCreate");
+
+        try
         {
-            try
+            if (_isLoaded && _profile != null)
             {
-                string json = File.ReadAllText(SavePath);
-                if (!string.IsNullOrWhiteSpace(json))
-                {
-                    PlayerProfileData loaded = JsonUtility.FromJson<PlayerProfileData>(json);
-                    if (loaded != null)
-                    {
-                        _profile = loaded;
-                        EnsureCollectionsInitialized();
-                        bool migrated = MigrateProfileIfNeeded();
-                        _isLoaded = true;
-                        if (migrated)
-                        {
-                            Save();
-                        }
-                        return;
-                    }
-                }
+                EnsureCollectionsInitialized();
+                return;
             }
-            catch (Exception exception)
+
+            _profile = GameSaveManager.LoadOrCreateProfileData();
+            _legacyUnlockedCardMigrationVerified = false;
+            EnsureCollectionsInitialized();
+            bool migrated = MigrateProfileIfNeeded();
+            _isLoaded = true;
+            InvalidateOwnedPrintLookupCache();
+            if (migrated || !GameSaveManager.CanonicalSaveExists)
             {
-                Debug.LogWarning($"ProgressionManager: Failed to load profile at {SavePath}. Creating a new one. {exception.Message}");
+                Save(migrated ? "profile migration" : "initial canonical save");
             }
         }
-
-        _profile = new PlayerProfileData
+        finally
         {
-            SaveVersion = CurrentSaveVersion,
-            Currency = NewProfileStartingCurrency,
-        };
-        EnsureCollectionsInitialized();
-        _isLoaded = true;
-        Save();
+            perfScope.SetItemCount("ownedPrints", _profile?.OwnedPrintIds?.Count ?? 0);
+            perfScope.SetItemCount("unlockedCardIds", _profile?.UnlockedCardIds?.Count ?? 0);
+            perfScope.Dispose();
+        }
     }
 
-    public void Save()
+    public void Save(string reason = null)
     {
-        EnsureLoaded();
-        EnsureCollectionsInitialized();
-        _profile.SaveVersion = CurrentSaveVersion;
+        StartupPerfTrace.Scope perfScope = StartupPerfTrace.Measure("ProgressionManager.Save");
 
-        string directory = Path.GetDirectoryName(SavePath);
-        if (!string.IsNullOrEmpty(directory))
+        try
         {
-            Directory.CreateDirectory(directory);
+            EnsureLoaded();
+            EnsureCollectionsInitialized();
+            MigrateLegacyUnlockedCardsToOwnedPrints();
+            InvalidateOwnedPrintLookupCache();
+            _profile.SaveVersion = CurrentSaveVersion;
+            // Profile saves must not capture controller state. The controller owns its
+            // own save cadence, and capturing it here can overwrite deck data before the
+            // runtime deck list has been loaded.
+            GameSaveManager.SaveAll(_profile, null, reason ?? "profile save");
         }
-
-        string json = JsonUtility.ToJson(_profile, true);
-        File.WriteAllText(SavePath, json);
+        finally
+        {
+            perfScope.SetItemCount("ownedPrints", _profile?.OwnedPrintIds?.Count ?? 0);
+            perfScope.SetItemCount("unlockedCardIds", _profile?.UnlockedCardIds?.Count ?? 0);
+            perfScope.Dispose();
+        }
     }
 
     public int GetCurrency()
@@ -154,27 +160,92 @@ public class ProgressionManager : MonoBehaviour
     public bool IsCardUnlocked(string cardId)
     {
         EnsureLoaded();
-        if (ContainsValue(_profile.UnlockedCardIds, cardId))
-        {
-            return true;
-        }
-
-        return TryReloadProfileFromDisk() && ContainsValue(_profile.UnlockedCardIds, cardId);
+        return HasUnlockedCard(cardId);
     }
 
     public void UnlockCard(string cardId, bool saveImmediately = true)
     {
-        EnsureLoaded();
-        if (TryAddUnique(_profile.UnlockedCardIds, cardId))
+        if (UnlockCanonicalPrint(cardId, saveImmediately: false) && saveImmediately)
         {
-            if (saveImmediately)
-            {
-                Save();
-            }
+            Save();
         }
     }
 
     public void UnlockCards(IEnumerable<string> cardIds, bool saveImmediately = true)
+    {
+        UnlockCanonicalPrints(cardIds, saveImmediately);
+    }
+
+    public bool OwnsPrint(string printId)
+    {
+        StartupPerfTrace.Scope perfScope = StartupPerfTrace.Measure("ProgressionManager.OwnsPrint");
+
+        try
+        {
+            EnsureLoaded();
+            return HasOwnedPrint(printId);
+        }
+        finally
+        {
+            perfScope.SetItemCount("ownedPrints", _profile?.OwnedPrintIds?.Count ?? 0);
+            perfScope.Dispose();
+        }
+    }
+
+    public bool UnlockPrint(string printId, bool saveImmediately = true)
+    {
+        EnsureLoaded();
+        bool changed = TryAddUnique(_profile.OwnedPrintIds, CardPrintCatalog.NormalizeStoredPrintId(printId));
+        if (changed)
+        {
+            InvalidateOwnedPrintLookupCache();
+        }
+        if (changed && saveImmediately)
+        {
+            Save();
+        }
+
+        return changed;
+    }
+
+    public void UnlockPrints(IEnumerable<string> printIds, bool saveImmediately = true)
+    {
+        EnsureLoaded();
+        if (printIds == null)
+        {
+            return;
+        }
+
+        bool changed = false;
+        foreach (string printId in printIds)
+        {
+            changed |= TryAddUnique(_profile.OwnedPrintIds, CardPrintCatalog.NormalizeStoredPrintId(printId));
+        }
+
+        if (changed)
+        {
+            InvalidateOwnedPrintLookupCache();
+        }
+
+        if (changed && saveImmediately)
+        {
+            Save();
+        }
+    }
+
+    public bool UnlockCanonicalPrint(string cardId, bool saveImmediately = true)
+    {
+        EnsureLoaded();
+        CEntity_Base canonicalPrint = CardPrintCatalog.GetCanonicalPrint(cardId);
+        if (canonicalPrint == null)
+        {
+            return false;
+        }
+
+        return UnlockPrint(canonicalPrint.EffectivePrintID, saveImmediately);
+    }
+
+    public void UnlockCanonicalPrints(IEnumerable<string> cardIds, bool saveImmediately = true)
     {
         EnsureLoaded();
         if (cardIds == null)
@@ -185,33 +256,42 @@ public class ProgressionManager : MonoBehaviour
         bool changed = false;
         foreach (string cardId in cardIds)
         {
-            changed |= TryAddUnique(_profile.UnlockedCardIds, cardId);
+            CEntity_Base canonicalPrint = CardPrintCatalog.GetCanonicalPrint(cardId);
+            if (canonicalPrint == null)
+            {
+                continue;
+            }
+
+            changed |= TryAddUnique(_profile.OwnedPrintIds, canonicalPrint.EffectivePrintID);
         }
 
         if (changed)
         {
-            if (saveImmediately)
-            {
-                Save();
-            }
+            InvalidateOwnedPrintLookupCache();
+        }
+
+        if (changed && saveImmediately)
+        {
+            Save();
         }
     }
 
     public HashSet<string> GetUnlockedCardIdSetSnapshot()
     {
         EnsureLoaded();
-        return new HashSet<string>(_profile.UnlockedCardIds ?? new List<string>(), StringComparer.OrdinalIgnoreCase);
+        return new HashSet<string>(GetUnlockedCardIdLookupCache(), StringComparer.OrdinalIgnoreCase);
+    }
+
+    public HashSet<string> GetOwnedPrintIdSetSnapshot()
+    {
+        EnsureLoaded();
+        return new HashSet<string>(GetOwnedPrintLookupCache(), StringComparer.OrdinalIgnoreCase);
     }
 
     public bool HasPurchasedProduct(string productId)
     {
         EnsureLoaded();
-        if (ContainsValue(_profile.PurchasedProductIds, productId))
-        {
-            return true;
-        }
-
-        return TryReloadProfileFromDisk() && ContainsValue(_profile.PurchasedProductIds, productId);
+        return ContainsValue(_profile.PurchasedProductIds, productId);
     }
 
     public void MarkProductPurchased(string productId, bool saveImmediately = true)
@@ -327,7 +407,9 @@ public class ProgressionManager : MonoBehaviour
             SaveVersion = CurrentSaveVersion,
             Currency = NewProfileStartingCurrency,
         };
+        _legacyUnlockedCardMigrationVerified = false;
         EnsureCollectionsInitialized();
+        InvalidateOwnedPrintLookupCache();
         _isLoaded = true;
         Save();
     }
@@ -386,6 +468,11 @@ public class ProgressionManager : MonoBehaviour
     {
         if (_isLoaded && _profile != null)
         {
+            EnsureCollectionsInitialized();
+            if (MigrateLegacyUnlockedCardsToOwnedPrints())
+            {
+                InvalidateOwnedPrintLookupCache();
+            }
             return;
         }
 
@@ -394,35 +481,22 @@ public class ProgressionManager : MonoBehaviour
 
     private bool TryReloadProfileFromDisk()
     {
-        try
+        if (!GameSaveManager.TryReloadProfileData(out PlayerProfileData loaded) || loaded == null)
         {
-            if (!File.Exists(SavePath))
-            {
-                return false;
-            }
-
-            string json = File.ReadAllText(SavePath);
-            if (string.IsNullOrWhiteSpace(json))
-            {
-                return false;
-            }
-
-            PlayerProfileData loaded = JsonUtility.FromJson<PlayerProfileData>(json);
-            if (loaded == null)
-            {
-                return false;
-            }
-
-            _profile = loaded;
-            EnsureCollectionsInitialized();
-            _isLoaded = true;
-            return true;
-        }
-        catch (Exception exception)
-        {
-            Debug.LogWarning($"ProgressionManager: Failed to reload profile at {SavePath}. {exception.Message}");
             return false;
         }
+
+        _profile = loaded;
+        _legacyUnlockedCardMigrationVerified = false;
+        EnsureCollectionsInitialized();
+        bool migrated = MigrateProfileIfNeeded();
+        _isLoaded = true;
+        InvalidateOwnedPrintLookupCache();
+        if (migrated)
+        {
+            Save("profile reload migration");
+        }
+        return true;
     }
 
     private void EnsureCollectionsInitialized()
@@ -438,6 +512,7 @@ public class ProgressionManager : MonoBehaviour
         }
 
         _profile.UnlockedCardIds ??= new List<string>();
+        _profile.OwnedPrintIds ??= new List<string>();
         _profile.PurchasedProductIds ??= new List<string>();
         _profile.CompletedStoryNodeIds ??= new List<string>();
         _profile.EarnedStoryKeyIds ??= new List<string>();
@@ -445,6 +520,7 @@ public class ProgressionManager : MonoBehaviour
         _profile.ClaimedPromoCardIds ??= new List<string>();
 
         NormalizeValues(_profile.UnlockedCardIds);
+        NormalizeValues(_profile.OwnedPrintIds);
         NormalizeValues(_profile.PurchasedProductIds);
         NormalizeValues(_profile.CompletedStoryNodeIds);
         NormalizeValues(_profile.EarnedStoryKeyIds);
@@ -454,28 +530,54 @@ public class ProgressionManager : MonoBehaviour
 
     private bool MigrateProfileIfNeeded()
     {
-        EnsureCollectionsInitialized();
+        StartupPerfTrace.Scope perfScope = StartupPerfTrace.Measure("ProgressionManager.MigrateProfileIfNeeded");
 
-        if (_profile.SaveVersion >= CurrentSaveVersion)
+        try
         {
-            return false;
-        }
+            EnsureCollectionsInitialized();
 
-        _profile.SaveVersion = CurrentSaveVersion;
-        return true;
+            bool changed = MigrateLegacyUnlockedCardsToOwnedPrints();
+
+            if (_profile.SaveVersion < CurrentSaveVersion)
+            {
+                _profile.SaveVersion = CurrentSaveVersion;
+                changed = true;
+            }
+
+            return changed;
+        }
+        finally
+        {
+            perfScope.SetItemCount("ownedPrints", _profile?.OwnedPrintIds?.Count ?? 0);
+            perfScope.SetItemCount("unlockedCardIds", _profile?.UnlockedCardIds?.Count ?? 0);
+            perfScope.Dispose();
+        }
     }
 
     private void Awake()
     {
-        if (_instance != null && _instance != this)
-        {
-            Destroy(gameObject);
-            return;
-        }
+        StartupPerfTrace.Scope perfScope = StartupPerfTrace.Measure("ProgressionManager.Awake");
 
-        _instance = this;
-        DontDestroyOnLoad(gameObject);
-        LoadOrCreate();
+        try
+        {
+            if (_instance != null && _instance != this)
+            {
+                Destroy(gameObject);
+                return;
+            }
+
+            _instance = this;
+            if (Application.isPlaying)
+            {
+                DontDestroyOnLoad(gameObject);
+            }
+            LoadOrCreate();
+        }
+        finally
+        {
+            perfScope.SetItemCount("ownedPrints", _profile?.OwnedPrintIds?.Count ?? 0);
+            perfScope.Dispose();
+        }
     }
 
     private void OnDestroy()
@@ -527,5 +629,171 @@ public class ProgressionManager : MonoBehaviour
         }
 
         return value.Trim().Replace("_", "-").ToUpperInvariant();
+    }
+
+    private bool HasUnlockedCard(string cardId)
+    {
+        string normalizedCardId = CardPrintCatalog.NormalizeCardId(cardId);
+        if (string.IsNullOrEmpty(normalizedCardId))
+        {
+            return false;
+        }
+
+        return GetUnlockedCardIdLookupCache().Contains(normalizedCardId);
+    }
+
+    private bool HasOwnedPrint(string printId)
+    {
+        string normalizedPrintLookup = CardPrintCatalog.NormalizeLookupCode(printId);
+        if (string.IsNullOrEmpty(normalizedPrintLookup))
+        {
+            return false;
+        }
+
+        HashSet<string> ownedPrintLookup = GetOwnedPrintLookupCache();
+        bool contains = ownedPrintLookup.Contains(normalizedPrintLookup);
+        if (contains)
+        {
+            StartupPerfTrace.RecordOwnedPrintLookupCacheHit();
+        }
+        else
+        {
+            StartupPerfTrace.RecordOwnedPrintLookupCacheMiss();
+        }
+
+        return contains;
+    }
+
+    private HashSet<string> BuildOwnedPrintIdSetSnapshot()
+    {
+        StartupPerfTrace.Scope perfScope = StartupPerfTrace.Measure("ProgressionManager.BuildOwnedPrintIdSetSnapshot");
+        HashSet<string> ownedPrints = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+
+        try
+        {
+            if (_profile?.OwnedPrintIds != null)
+            {
+                foreach (string printId in _profile.OwnedPrintIds)
+                {
+                    string normalizedPrintLookup = CardPrintCatalog.NormalizeLookupCode(printId);
+                    if (!string.IsNullOrEmpty(normalizedPrintLookup))
+                    {
+                        ownedPrints.Add(normalizedPrintLookup);
+                    }
+                }
+            }
+
+            return ownedPrints;
+        }
+        finally
+        {
+            perfScope.SetItemCount("ownedPrints", ownedPrints.Count);
+            perfScope.Dispose();
+        }
+    }
+
+    private HashSet<string> BuildUnlockedCardIdSetSnapshot()
+    {
+        StartupPerfTrace.Scope perfScope = StartupPerfTrace.Measure("ProgressionManager.BuildUnlockedCardIdSetSnapshot");
+        HashSet<string> unlockedCardIds = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+
+        try
+        {
+            foreach (string ownedPrintId in GetOwnedPrintLookupCache())
+            {
+                CEntity_Base print = CardPrintCatalog.ResolveCardOrPrint(ownedPrintId, preferCanonical: false);
+                if (print == null)
+                {
+                    continue;
+                }
+
+                string normalizedCardId = CardPrintCatalog.NormalizeCardId(print.CardID);
+                if (!string.IsNullOrEmpty(normalizedCardId))
+                {
+                    unlockedCardIds.Add(normalizedCardId);
+                }
+            }
+
+            return unlockedCardIds;
+        }
+        finally
+        {
+            perfScope.SetItemCount("unlockedCardIds", unlockedCardIds.Count);
+            perfScope.Dispose();
+        }
+    }
+
+    private bool MigrateLegacyUnlockedCardsToOwnedPrints()
+    {
+        StartupPerfTrace.Scope perfScope = StartupPerfTrace.Measure("ProgressionManager.MigrateLegacyUnlockedCardsToOwnedPrints");
+
+        try
+        {
+            if (_legacyUnlockedCardMigrationVerified)
+            {
+                return false;
+            }
+
+            if (_profile?.UnlockedCardIds == null || _profile.UnlockedCardIds.Count == 0)
+            {
+                _legacyUnlockedCardMigrationVerified = true;
+                return false;
+            }
+
+            bool changed = false;
+            foreach (string legacyCardId in _profile.UnlockedCardIds)
+            {
+                CEntity_Base canonicalPrint = CardPrintCatalog.GetCanonicalPrint(legacyCardId);
+                if (canonicalPrint == null)
+                {
+                    continue;
+                }
+
+                changed |= TryAddUnique(_profile.OwnedPrintIds, canonicalPrint.EffectivePrintID);
+            }
+
+            if (changed)
+            {
+                InvalidateOwnedPrintLookupCache();
+            }
+
+            _legacyUnlockedCardMigrationVerified = true;
+            return changed;
+        }
+        finally
+        {
+            perfScope.SetItemCount("ownedPrints", _profile?.OwnedPrintIds?.Count ?? 0);
+            perfScope.SetItemCount("unlockedCardIds", _profile?.UnlockedCardIds?.Count ?? 0);
+            perfScope.Dispose();
+        }
+    }
+
+    private void InvalidateOwnedPrintLookupCache()
+    {
+        _ownedPrintLookupCache = null;
+        _unlockedCardIdLookupCache = null;
+    }
+
+    private HashSet<string> GetOwnedPrintLookupCache()
+    {
+        if (_ownedPrintLookupCache != null)
+        {
+            return _ownedPrintLookupCache;
+        }
+
+        _ownedPrintLookupCache = BuildOwnedPrintIdSetSnapshot();
+        StartupPerfTrace.RecordOwnedPrintLookupCacheBuild(_ownedPrintLookupCache.Count);
+        return _ownedPrintLookupCache;
+    }
+
+    private HashSet<string> GetUnlockedCardIdLookupCache()
+    {
+        if (_unlockedCardIdLookupCache != null)
+        {
+            return _unlockedCardIdLookupCache;
+        }
+
+        _unlockedCardIdLookupCache = BuildUnlockedCardIdSetSnapshot();
+        return _unlockedCardIdLookupCache;
     }
 }

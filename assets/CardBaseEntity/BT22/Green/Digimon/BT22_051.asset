@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_051
   m_EditorClassIdentifier: 
   CardIndex: 7053
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 8
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Insectoid
   - CS
   CardSpriteName: BT22-051
+  PrintID: BT22-051
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.4 w/[CS]\_trait: Cost 3 \n\n\uFF1CFortitude\uFF1E

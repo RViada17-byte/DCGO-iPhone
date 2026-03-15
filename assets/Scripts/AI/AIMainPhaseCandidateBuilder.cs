@@ -46,6 +46,33 @@ public static class AIMainPhaseCandidateBuilder
             .ToList();
     }
 
+    public static List<AIMainPhaseCandidate> BuildForProjectedMoveOut(GameContext gameContext, Player player)
+    {
+        List<AIMainPhaseCandidate> candidates = Build(gameContext, player);
+
+        if (gameContext == null || player == null)
+        {
+            return candidates;
+        }
+
+        Permanent breedingPermanent = player.GetBreedingAreaPermanents()
+            .FirstOrDefault(permanent => permanent != null && permanent.TopCard != null && permanent.CanMove);
+
+        if (breedingPermanent == null)
+        {
+            return candidates;
+        }
+
+        List<Permanent> yourField = player.GetFieldPermanents();
+        List<Permanent> enemyField = player.Enemy != null ? player.Enemy.GetFieldPermanents() : new List<Permanent>();
+        AddProjectedMoveOutAttackCandidates(candidates, breedingPermanent, yourField, enemyField, gameContext);
+
+        return candidates
+            .GroupBy(Signature)
+            .Select(group => group.First())
+            .ToList();
+    }
+
     static void AddAttackCandidates(List<AIMainPhaseCandidate> candidates, Permanent attacker, int attackerIndex, List<Permanent> yourField, List<Permanent> enemyField, GameContext gameContext)
     {
         if (!attacker.CanAttack(null))
@@ -124,6 +151,86 @@ public static class AIMainPhaseCandidateBuilder
                 AttackerValueTier = attackerValueTier,
                 LikelySafeAttack = likelySafeAttack,
                 UnlocksAdditionalPressure = unlocksAdditionalPressure,
+            });
+        }
+    }
+
+    static void AddProjectedMoveOutAttackCandidates(List<AIMainPhaseCandidate> candidates, Permanent attacker, List<Permanent> yourField, List<Permanent> enemyField, GameContext gameContext)
+    {
+        if (!CanProjectedMoveOutAttack(attacker, gameContext))
+        {
+            return;
+        }
+
+        int attackerIndex = yourField.IndexOf(attacker);
+        if (attackerIndex < 0)
+        {
+            attackerIndex = yourField.Count;
+        }
+
+        AIAttackerValueTier attackerValueTier = DetermineAttackerValueTier(attacker);
+        int visibleBlockerCount = enemyField.Count(permanent => permanent != null && permanent.TopCard != null && permanent.HasBlocker);
+        int otherPressureAttackers = CountOtherSecurityAttackers(yourField, attacker);
+        bool hasHigherValueFollowUp = HasHigherValueFollowUpAttacker(yourField, attacker, attackerValueTier);
+        int opponentSecurityCount = attacker.TopCard != null && attacker.TopCard.Owner != null && attacker.TopCard.Owner.Enemy != null
+            ? attacker.TopCard.Owner.Enemy.SecurityCards.Count
+            : 0;
+
+        bool closeGameAttack = opponentSecurityCount <= 1;
+        bool unlocksAdditionalPressure = otherPressureAttackers > 0 && (attackerValueTier == AIAttackerValueTier.Low || hasHigherValueFollowUp);
+        candidates.Add(new AIMainPhaseCandidate
+        {
+            ActionType = AIMainPhaseActionType.AttackSecurity,
+            Summary = $"Move out then attack security with {attacker.TopCard.BaseENGCardNameFromEntity}",
+            SourceName = attacker.TopCard.BaseENGCardNameFromEntity,
+            SourcePermanentIndex = attackerIndex,
+            SourceLevel = NormalizeLevel(attacker.Level),
+            SourceDP = attacker.DP,
+            SourceStackCount = attacker.StackCards.Count,
+            SourceHasBlocker = attacker.HasBlocker,
+            SourceIsSuspended = attacker.IsSuspended,
+            SourceInBreeding = false,
+            ProjectedMemory = gameContext.Memory,
+            ImmediateSecurityPressure = 1,
+            AttackIntent = DetermineSecurityAttackIntent(closeGameAttack, attackerValueTier, otherPressureAttackers, hasHigherValueFollowUp),
+            AttackerValueTier = attackerValueTier,
+            LikelySafeAttack = IsLikelySafeSecurityAttack(closeGameAttack, visibleBlockerCount, attackerValueTier, attacker),
+            UnlocksAdditionalPressure = unlocksAdditionalPressure,
+        });
+
+        for (int defenderIndex = 0; defenderIndex < enemyField.Count; defenderIndex++)
+        {
+            Permanent defender = enemyField[defenderIndex];
+            if (!CanProjectedMoveOutAttackTargetDigimon(attacker, defender, gameContext))
+            {
+                continue;
+            }
+
+            bool projectedUnlocksAdditionalPressure = defender.HasBlocker && otherPressureAttackers > 0;
+            bool likelySafeAttack = IsLikelySafeDigimonAttack(attacker, defender);
+
+            candidates.Add(new AIMainPhaseCandidate
+            {
+                ActionType = AIMainPhaseActionType.AttackDigimon,
+                Summary = $"Move out then attack {defender.TopCard.BaseENGCardNameFromEntity} with {attacker.TopCard.BaseENGCardNameFromEntity}",
+                SourceName = attacker.TopCard.BaseENGCardNameFromEntity,
+                TargetName = defender.TopCard.BaseENGCardNameFromEntity,
+                SourcePermanentIndex = attackerIndex,
+                AttackTargetPermanentIndex = defenderIndex,
+                SourceLevel = NormalizeLevel(attacker.Level),
+                SourceDP = attacker.DP,
+                SourceStackCount = attacker.StackCards.Count,
+                SourceHasBlocker = attacker.HasBlocker,
+                SourceIsSuspended = attacker.IsSuspended,
+                SourceInBreeding = false,
+                TargetLevel = NormalizeLevel(defender.Level),
+                TargetDP = defender.DP,
+                TargetIsBlocker = defender.HasBlocker,
+                ProjectedMemory = gameContext.Memory,
+                AttackIntent = DetermineDigimonAttackIntent(defender, attacker, likelySafeAttack, projectedUnlocksAdditionalPressure, opponentSecurityCount),
+                AttackerValueTier = attackerValueTier,
+                LikelySafeAttack = likelySafeAttack,
+                UnlocksAdditionalPressure = projectedUnlocksAdditionalPressure,
             });
         }
     }
@@ -568,6 +675,42 @@ public static class AIMainPhaseCandidateBuilder
         return attacker != null
             && defender != null
             && attacker.DP >= defender.DP;
+    }
+
+    static bool CanProjectedMoveOutAttack(Permanent attacker, GameContext gameContext)
+    {
+        if (attacker == null
+            || attacker.TopCard == null
+            || !attacker.IsDigimon
+            || attacker.IsSuspended
+            || !attacker.CanSuspend
+            || gameContext == null
+            || attacker.TopCard.Owner != gameContext.TurnPlayer)
+        {
+            return false;
+        }
+
+        if (GManager.instance != null && GManager.instance.attackProcess != null && GManager.instance.attackProcess.IsAttacking)
+        {
+            return false;
+        }
+
+        int currentTurnCount = GManager.instance != null && GManager.instance.turnStateMachine != null
+            ? GManager.instance.turnStateMachine.TurnCount
+            : -1;
+
+        return attacker.EnterFieldTurnCount != currentTurnCount || attacker.HasRush;
+    }
+
+    static bool CanProjectedMoveOutAttackTargetDigimon(Permanent attacker, Permanent defender, GameContext gameContext)
+    {
+        return CanProjectedMoveOutAttack(attacker, gameContext)
+            && defender != null
+            && defender.TopCard != null
+            && defender.TopCard.Owner == attacker.TopCard.Owner.Enemy
+            && defender.IsDigimon
+            && defender.TopCard.Owner.GetBattleAreaPermanents().Contains(defender)
+            && defender.IsSuspended;
     }
 
     static AIAttackIntent DetermineDigimonAttackIntent(Permanent defender, Permanent attacker, bool likelySafeAttack, bool unlocksAdditionalPressure, int opponentSecurityCount)

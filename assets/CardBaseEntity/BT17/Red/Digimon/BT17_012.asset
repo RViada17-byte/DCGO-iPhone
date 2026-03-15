@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_012
   m_EditorClassIdentifier: 
   CardIndex: 3552
+  LegacyCardIndices: 
   cardColors: 0000000006000000
   PlayCost: 6
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Dark Dragon
   CardSpriteName: BT17-012
+  PrintID: BT17-012
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Takuya Kanbara]: Cost 2 [Digivolve][Agunimon]:
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-012
   MaxCountInDeck: 4

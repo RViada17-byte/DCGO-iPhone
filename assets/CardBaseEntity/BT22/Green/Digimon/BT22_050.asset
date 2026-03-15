@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_050
   m_EditorClassIdentifier: 
   CardIndex: 7052
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   Type_ENG:
   - Voice Change
   CardSpriteName: BT22-050
+  PrintID: BT22-050
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Security] At the end of the battle, play this card without

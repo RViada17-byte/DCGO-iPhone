@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX5_020_P1
   m_EditorClassIdentifier: 
   CardIndex: 4212
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 7
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Wizard
   - Night Claw
   CardSpriteName: EX5-020_P1
+  PrintID: EX5-020_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.4 w/[Night Claw]/[Light Fang]\_trait: Cost
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX5-020
   MaxCountInDeck: 4

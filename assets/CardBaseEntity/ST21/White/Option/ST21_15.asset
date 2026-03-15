@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST21_15
   m_EditorClassIdentifier: 
   CardIndex: 5294
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 2
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - ADVENTURE
   CardSpriteName: ST21-15
+  PrintID: ST21-15
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 'While you have no face-up [Gennai''s House] security cards,
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST21-15
   MaxCountInDeck: 4

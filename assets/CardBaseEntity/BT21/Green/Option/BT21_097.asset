@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_097
   m_EditorClassIdentifier: 
   CardIndex: 5424
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Appmon
   CardSpriteName: BT21-097
+  PrintID: BT21-097
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you have a Digimon or Tamer with the [Appmon]\_trait
@@ -48,6 +51,5 @@ MonoBehaviour:
   LinkDP: 0
   LinkEffect: '-'
   LinkRequirement: '-'
-  LinkCost: 0
   CardID: BT21-097
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_074
   m_EditorClassIdentifier: 
   CardIndex: 5391
+  LegacyCardIndices: 
   cardColors: 0600000005000000
   PlayCost: 7
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   Type_ENG:
   - GPS
   CardSpriteName: BT21-074
+  PrintID: BT21-074
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Three Musketeers]\_in text: Cost 3

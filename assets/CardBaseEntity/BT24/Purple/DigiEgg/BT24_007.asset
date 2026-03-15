@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_007
   m_EditorClassIdentifier: 
   CardIndex: 7525
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: -1
   EvoCosts: []
@@ -31,6 +32,8 @@ MonoBehaviour:
   - Titan
   - TS
   CardSpriteName: BT24-007
+  PrintID: BT24-007
+  IsCanonicalPrint: 1
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '-'

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_034
   m_EditorClassIdentifier: 
   CardIndex: 3579
+  LegacyCardIndices: 
   cardColors: 0200000003000000
   PlayCost: 5
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Dragonkin
   - Abadin Electronics
   CardSpriteName: BT17-034
+  PrintID: BT17-034
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Pulsemon]: Cost 2 \n\n[When Digivolving] If
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-034
   MaxCountInDeck: 4

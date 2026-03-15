@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX9_041
   m_EditorClassIdentifier: 
   CardIndex: 6914
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 8
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - DM
   - Ver.5
   CardSpriteName: EX9-041
+  PrintID: EX9-041
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Raremon]: Cost 3\n[Digivolve] Lv.4 w/[DM]\_trait:

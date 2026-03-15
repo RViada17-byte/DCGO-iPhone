@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_075
   m_EditorClassIdentifier: 
   CardIndex: 7608
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 6
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Titan
   - TS
   CardSpriteName: BT24-075
+  PrintID: BT24-075
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Demon]/[TS]\_trait: Cost 3 \n\n[On

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_031
   m_EditorClassIdentifier: 
   CardIndex: 3734
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Bird Dragon
   - LIBERATOR
   CardSpriteName: EX7-031
+  PrintID: EX7-031
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Your Turn] When this Digimon would digivolve into a Digimon
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-031
   MaxCountInDeck: 4

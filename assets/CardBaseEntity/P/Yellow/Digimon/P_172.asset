@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_172
   m_EditorClassIdentifier: 
   CardIndex: 5185
+  LegacyCardIndices: 
   cardColors: 0200000000000000
   PlayCost: 11
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Four Great Dragons
   - NSp
   CardSpriteName: P-172
+  PrintID: P-172
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "When this card would be played, if [Nature Spirits] is
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-172
   MaxCountInDeck: 4

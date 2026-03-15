@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT4_078_P1
   m_EditorClassIdentifier: 
   CardIndex: 866
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Avian
   CardSpriteName: BT4-078_P1
+  PrintID: BT4-078_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u30AA\u30D7\u30B7\u30E7\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u7834\u68C4\u3059\u308B\u3053\u3068\u3067\u3001\u30E1\u30E2\u30EA\u30FC\u3092+1\u3059\u308B\u3002"
   EffectDiscription_ENG: '[When Attacking] You may trash 1 Option card in your hand
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT4-078
   MaxCountInDeck: 4

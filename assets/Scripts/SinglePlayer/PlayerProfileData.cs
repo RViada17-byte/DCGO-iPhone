@@ -4,9 +4,10 @@ using System.Collections.Generic;
 [Serializable]
 public class PlayerProfileData
 {
-    public int SaveVersion = 3;
+    public int SaveVersion = 4;
     public int Currency = 1000;
     public List<string> UnlockedCardIds = new List<string>();
+    public List<string> OwnedPrintIds = new List<string>();
     public List<string> PurchasedProductIds = new List<string>();
     public List<string> CompletedStoryNodeIds = new List<string>();
     public List<string> EarnedStoryKeyIds = new List<string>();

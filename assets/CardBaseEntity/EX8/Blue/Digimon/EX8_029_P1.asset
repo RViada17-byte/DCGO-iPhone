@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_029_P1
   m_EditorClassIdentifier: 
   CardIndex: 4104
+  LegacyCardIndices: 
   cardColors: 010000000500000002000000
   PlayCost: 15
   EvoCosts:
@@ -40,6 +41,8 @@ MonoBehaviour:
   - DS
   - Aquatic
   CardSpriteName: EX8-029_P1
+  PrintID: EX8-029_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[When Digivolving] Return up to 14 play cost's total worth
@@ -57,5 +60,8 @@ MonoBehaviour:
   DP: 15000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-029
   MaxCountInDeck: 4

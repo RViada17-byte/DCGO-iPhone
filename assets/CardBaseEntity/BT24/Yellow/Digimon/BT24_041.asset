@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_041
   m_EditorClassIdentifier: 
   CardIndex: 7568
+  LegacyCardIndices: 
   cardColors: 0200000005000000
   PlayCost: 12
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   - Iliad
   - TS
   CardSpriteName: BT24-041
+  PrintID: BT24-041
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.5 w/[Beastkin]/[Dark Dragon]/[TS]: Cost

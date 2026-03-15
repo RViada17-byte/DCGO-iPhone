@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_091
   m_EditorClassIdentifier: 
   CardIndex: 7445
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 5
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - CS
   CardSpriteName: BT23-091
+  PrintID: BT23-091
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you have a Digimon or Tamer with the [CS]\_trait

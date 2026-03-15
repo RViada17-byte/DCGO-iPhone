@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_042
   m_EditorClassIdentifier: 
   CardIndex: 7570
+  LegacyCardIndices: 
   cardColors: 0300000006000000
   PlayCost: 3
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Titan
   - TS
   CardSpriteName: BT24-042
+  PrintID: BT24-042
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Tsunomon]/Lv.2 w/[TS]\_trait: Cost 0 \n\n[Your

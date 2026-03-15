@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT13_105_P0
   m_EditorClassIdentifier: 
   CardIndex: 4625
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 8
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: BT13-105_P0
+  PrintID: BT13-105_P0
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Main] Return 1 of your opponent''s Digimon to its owner''s
@@ -42,5 +45,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT13-105
   MaxCountInDeck: 4

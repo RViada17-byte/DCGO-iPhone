@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_032
   m_EditorClassIdentifier: 
   CardIndex: 3345
+  LegacyCardIndices: 
   cardColors: 0200000005000000
   PlayCost: 5
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Mammal
   CardSpriteName: BT16-032
+  PrintID: BT16-032
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Digivolve] [Armadillomon]: Cost 2<Armor Purge> <Collision>
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-032
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_014
   m_EditorClassIdentifier: 
   CardIndex: 5017
+  LegacyCardIndices: 
   cardColors: 000000000200000005000000
   PlayCost: 11
   EvoCosts: []
@@ -31,6 +32,8 @@ MonoBehaviour:
   - Xros Heart
   - Blue Flare
   CardSpriteName: BT19-014
+  PrintID: BT19-014
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CAlliance\uFF1E.\n\uFF1CReboot\uFF1E.\n\uFF1CMaterial
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-014
   MaxCountInDeck: 4

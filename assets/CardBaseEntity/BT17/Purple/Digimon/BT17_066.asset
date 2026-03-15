@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_066
   m_EditorClassIdentifier: 
   CardIndex: 3616
+  LegacyCardIndices: 
   cardColors: 0600000002000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Mythical Beast
   CardSpriteName: BT17-066
+  PrintID: BT17-066
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Darcmon]: Cost 3 \n\n\uFF1CBlocker\uFF1E \n[When
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-066
   MaxCountInDeck: 4

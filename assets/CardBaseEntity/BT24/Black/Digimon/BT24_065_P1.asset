@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_065_P1
   m_EditorClassIdentifier: 
   CardIndex: 7597
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 13
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Unidentified
   - X Antibody
   CardSpriteName: BT24-065_P1
+  PrintID: BT24-065_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Diaboromon]: Cost 2 \n\n\uFF1COverclock ([Unidentified]

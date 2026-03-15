@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_085_P3
   m_EditorClassIdentifier: 
   CardIndex: 4342
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Puppet
   CardSpriteName: BT10-085_P3
+  PrintID: BT10-085_P3
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] If it's your turn, you may digivolve 1 of your
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-085
   MaxCountInDeck: 4

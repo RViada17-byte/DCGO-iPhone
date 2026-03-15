@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_074
   m_EditorClassIdentifier: 
   CardIndex: 3930
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 12
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Ancient Mutant
   - Ten Warriors
   CardSpriteName: BT18-074
+  PrintID: BT18-074
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] You may reveal the top 3 cards
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-074
   MaxCountInDeck: 4

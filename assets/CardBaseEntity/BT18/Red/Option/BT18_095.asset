@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_095
   m_EditorClassIdentifier: 
   CardIndex: 3967
+  LegacyCardIndices: 
   cardColors: 000000000300000001000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Ten Warriors
   CardSpriteName: BT18-095
+  PrintID: BT18-095
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] You may place up to 5 [Hybrid]\_trait cards with
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-095
   MaxCountInDeck: 4

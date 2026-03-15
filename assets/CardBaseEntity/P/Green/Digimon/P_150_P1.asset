@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_150_P1
   m_EditorClassIdentifier: 
   CardIndex: 10313
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 4
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Insectoid
   CardSpriteName: P-150_P1
+  PrintID: P-150_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Pulsemon]: Cost 2 \n\n[When Digivolving] If
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-150
   MaxCountInDeck: 4

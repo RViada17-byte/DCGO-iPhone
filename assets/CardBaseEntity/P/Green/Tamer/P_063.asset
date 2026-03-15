@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_063
   m_EditorClassIdentifier: 
   CardIndex: 6105
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts: []
@@ -26,6 +27,8 @@ MonoBehaviour:
   Type_JPN: []
   Type_ENG: []
   CardSpriteName: P-063-Errata
+  PrintID: P-063-ERRATA
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\u9032\u5316\u5143\u306B\u300C\u30A2\u30F3\u30B4\u30E9\u30E2\u30F3\u300D\u3092\u6301\u3064\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30A2\u30BF\u30C3\u30AF\u3057\u305F\u3068\u304D\u3001\u3053\u306E\u30C6\u30A4\u30DE\u30FC\u3092\u30EC\u30B9\u30C8\u3055\u305B\u308B\u3053\u3068\u3067\u3001\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u305D\u306E\u30C7\u30B8\u30E2\u30F3\u3092DP+3000\u3002"
   EffectDiscription_ENG: '[Your Turn] When you attack with a Digimon that has [Angoramon]

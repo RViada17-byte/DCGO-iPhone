@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_017_P1
   m_EditorClassIdentifier: 
   CardIndex: 3708
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 3
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Dinosaur
   - Ice-Snow
   CardSpriteName: EX7-017_P1
+  PrintID: EX7-017_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CIce Clad\uFF1E (This Digimon compares its number
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-017
   MaxCountInDeck: 4

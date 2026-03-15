@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_072
   m_EditorClassIdentifier: 
   CardIndex: 3538
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: EX6-072
+  PrintID: EX6-072
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 'While your opponent has a level 6 or higher Digimon, you
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX6-072
   MaxCountInDeck: 4

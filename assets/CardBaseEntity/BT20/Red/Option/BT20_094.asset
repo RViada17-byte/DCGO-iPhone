@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_094
   m_EditorClassIdentifier: 
   CardIndex: 5173
+  LegacyCardIndices: 
   cardColors: 0000000006000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: BT20-094
+  PrintID: BT20-094
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] You may play 1 [Free]\_trait Digimon card from your
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-094
   MaxCountInDeck: 4

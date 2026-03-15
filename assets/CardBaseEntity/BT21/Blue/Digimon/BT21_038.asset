@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_038
   m_EditorClassIdentifier: 
   CardIndex: 5349
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 6
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Avian
   - WG
   CardSpriteName: BT21-038
+  PrintID: BT21-038
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.3 w/[WG]\_trait: Cost 2 \n\n\uFF1CEvade\uFF1E

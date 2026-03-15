@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX5_043_P1
   m_EditorClassIdentifier: 
   CardIndex: 4230
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 13
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - Royal Knight
   - X Antibody
   CardSpriteName: EX5-043_P1
+  PrintID: EX5-043_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.6 w/[Leopardmon]\_in its name w/o [X Antibody]\_trait:
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX5-043
   MaxCountInDeck: 4

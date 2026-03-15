@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_010
   m_EditorClassIdentifier: 
   CardIndex: 5089
+  LegacyCardIndices: 
   cardColors: 0000000005000000
   PlayCost: 3
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - X Antibody
   - Chronicle
   CardSpriteName: BT20-010
+  PrintID: BT20-010
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Black Lv.2 w/[X Antibody]\_trait: Cost 0 \n\n[Your
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-010
   MaxCountInDeck: 4

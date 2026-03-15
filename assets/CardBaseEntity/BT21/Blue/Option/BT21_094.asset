@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_094
   m_EditorClassIdentifier: 
   CardIndex: 5421
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: BT21-094
+  PrintID: BT21-094
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] Reveal the top 3 cards of your deck. Add 1 card
@@ -48,6 +51,5 @@ MonoBehaviour:
   LinkDP: 0
   LinkEffect: '-'
   LinkRequirement: '-'
-  LinkCost: 0
   CardID: BT21-094
   MaxCountInDeck: 4

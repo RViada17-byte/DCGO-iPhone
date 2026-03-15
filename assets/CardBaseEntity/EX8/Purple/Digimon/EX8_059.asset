@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_059
   m_EditorClassIdentifier: 
   CardIndex: 4161
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 5
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Fallen Angel
   - NSo
   CardSpriteName: EX8-059
+  PrintID: EX8-059
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.3 w/[NSo]\_trait: Cost 2 \n\n[On Play] [When

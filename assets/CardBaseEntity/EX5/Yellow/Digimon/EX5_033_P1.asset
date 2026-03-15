@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX5_033_P1
   m_EditorClassIdentifier: 
   CardIndex: 4226
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 12
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - God Beast
   CardSpriteName: EX5-033_P1
+  PrintID: EX5-033_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[When Digivolving] [When Attacking] [Once Per Turn] By
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX5-033
   MaxCountInDeck: 4

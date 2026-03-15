@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_065_P0
   m_EditorClassIdentifier: 
   CardIndex: 4745
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 7
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Puppet
   CardSpriteName: BT15-065_P0
+  PrintID: BT15-065_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.4 w/[Numemon]\_in its name: Cost 3 \n\n[On
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-065
   MaxCountInDeck: 4

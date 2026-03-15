@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT13_088_P1
   m_EditorClassIdentifier: 
   CardIndex: 4606
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 11
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Demon Lord
   - Seven Great Demon Lords
   CardSpriteName: BT13-088_P1
+  PrintID: BT13-088_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Belphemon: Rage Mode]: Cost 1 \n\n[On Play]
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT13-088
   MaxCountInDeck: 4

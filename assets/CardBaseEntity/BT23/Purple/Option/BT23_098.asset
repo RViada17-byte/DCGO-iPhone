@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_098
   m_EditorClassIdentifier: 
   CardIndex: 7452
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - LIBERATOR
   CardSpriteName: BT23-098
+  PrintID: BT23-098
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] You may play 1 [Ghostmon] or [Violet Inboots] from

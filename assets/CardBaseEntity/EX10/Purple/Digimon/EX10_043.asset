@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_043
   m_EditorClassIdentifier: 
   CardIndex: 7211
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 5
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - Simulation
   - Leviathan
   CardSpriteName: EX10-043
+  PrintID: EX10-043
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] [When Digivolving] Delete 1 of your opponent''s

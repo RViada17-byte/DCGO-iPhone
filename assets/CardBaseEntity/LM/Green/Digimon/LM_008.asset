@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: LM_008
   m_EditorClassIdentifier: 
   CardIndex: 3254
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Beast
   CardSpriteName: LM-008
+  PrintID: LM-008
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Start of Your Main Phase] If you have a Tamer, gain 1
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: LM-008
   MaxCountInDeck: 4

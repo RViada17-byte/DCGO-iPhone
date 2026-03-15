@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_081
   m_EditorClassIdentifier: 
   CardIndex: 3215
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 14
   EvoCosts:
@@ -39,6 +40,8 @@ MonoBehaviour:
   - Seven Great Demon Lords
   - X Antibody
   CardSpriteName: BT15-081
+  PrintID: BT15-081
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Trash] [All Turns] When an effect plays an opponent''s
@@ -56,5 +59,8 @@ MonoBehaviour:
   DP: 14000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-081
   MaxCountInDeck: 4

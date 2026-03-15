@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX2_033
   m_EditorClassIdentifier: 
   CardIndex: 1970
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 6
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Machine
   CardSpriteName: EX2-033
+  PrintID: EX2-033
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u624B\u672D\u306E\u300C\u30B0\u30E9\u30F3\u30C9\u30ED\u30B3\u30E2\u30F3\u300D\u306B\u9032\u5316\u3059\u308B\u3068\u304D\u306B\u652F\u6255\u3046\u9032\u5316\u30B3\u30B9\u30C8-1\u3002"
   EffectDiscription_ENG: '[Your Turn] When this Digimon would digivolve into a [GroundLocomon]
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX2-033
   MaxCountInDeck: 4

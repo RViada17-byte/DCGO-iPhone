@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_078
   m_EditorClassIdentifier: 
   CardIndex: 3397
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 12
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Wizard
   CardSpriteName: BT16-078
+  PrintID: BT16-078
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] [When Digivolving] Delete 1 level 4 or lower
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-078
   MaxCountInDeck: 4

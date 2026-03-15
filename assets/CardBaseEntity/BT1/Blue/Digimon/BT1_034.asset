@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT1_034
   m_EditorClassIdentifier: 
   CardIndex: 184
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Sea Beast
   CardSpriteName: BT1-034
+  PrintID: BT1-034
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT1-034
   MaxCountInDeck: 4

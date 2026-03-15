@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST19_07
   m_EditorClassIdentifier: 
   CardIndex: 3839
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 5
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Puppet
   - X Antibody
   CardSpriteName: ST19-07
+  PrintID: ST19-07
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CJamming\uFF1E."
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST19-07
   MaxCountInDeck: 4

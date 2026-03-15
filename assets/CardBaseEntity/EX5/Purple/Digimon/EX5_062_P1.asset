@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX5_062_P1
   m_EditorClassIdentifier: 
   CardIndex: 4234
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 12
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Shaman
   CardSpriteName: EX5-062_P1
+  PrintID: EX5-062_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[When Digivolving] [Main] [Once Per Turn] You may trash
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX5-062
   MaxCountInDeck: 1

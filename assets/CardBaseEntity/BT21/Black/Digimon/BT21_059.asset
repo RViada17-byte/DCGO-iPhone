@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_059
   m_EditorClassIdentifier: 
   CardIndex: 5374
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 5
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   Type_ENG:
   - Time Slip
   CardSpriteName: BT21-059
+  PrintID: BT21-059
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[App Fusion] [Watchmon] & [Savemon]\_& [Calendamon]: Cost

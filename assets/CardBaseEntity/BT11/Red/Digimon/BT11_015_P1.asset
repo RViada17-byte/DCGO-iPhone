@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_015_P1
   m_EditorClassIdentifier: 
   CardIndex: 4377
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 8
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Dragonkin
   - Xros Heart
   CardSpriteName: BT11-015_P1
+  PrintID: BT11-015_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Shoutmon]: Cost 4 \n\nWhen you would DigiXros,
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-015
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_032
   m_EditorClassIdentifier: 
   CardIndex: 3990
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 4
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Mythical Beast
   CardSpriteName: BT19-032
+  PrintID: BT19-032
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Deletion] 1 of your opponent's Digimon gains \uFF1CSecurity
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-032
   MaxCountInDeck: 4

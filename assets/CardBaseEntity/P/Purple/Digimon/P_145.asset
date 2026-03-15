@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_145
   m_EditorClassIdentifier: 
   CardIndex: 10301
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 8
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Undead
   - X Antibody
   CardSpriteName: P-145
+  PrintID: P-145
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Myotismon]: Cost 0 \n\n[On Play] [When Digivolving]
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-145
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_024
   m_EditorClassIdentifier: 
   CardIndex: 7018
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 7
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - LIBERATOR
   - Aquatic
   CardSpriteName: BT22-024
+  PrintID: BT22-024
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Hand] [Main] If you have [Yao Qinglan], by placing 1 [Shellmon]

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX9_012
   m_EditorClassIdentifier: 
   CardIndex: 6855
+  LegacyCardIndices: 
   cardColors: 0000000005000000
   PlayCost: 8
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Cyborg
   - ADVENTURE
   CardSpriteName: EX9-012
+  PrintID: EX9-012
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [MetalGreymon]: Cost 1\n[Digivolve] Lv.4 w/[Greymon]\_in

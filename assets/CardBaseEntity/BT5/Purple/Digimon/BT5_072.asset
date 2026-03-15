@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT5_072
   m_EditorClassIdentifier: 
   CardIndex: 1035
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Dinosaur
   CardSpriteName: BT5-072
+  PrintID: BT5-072
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u6D88\u6EC5\u6642\u3011\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u300C\u30CB\u30BB\u30A2\u30B0\u30E2\u30F3\u535A\u58EB\u300D\u4EE5\u5916\u306E\u3010\u6D88\u6EC5\u6642\u3011\u52B9\u679C\u3092\u6301\u3064Lv.3\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u624B\u672D\u306B\u623B\u305B\u308B\u3002"
   EffectDiscription_ENG: '[On Deletion] You may return 1 level 3 Digimon card with

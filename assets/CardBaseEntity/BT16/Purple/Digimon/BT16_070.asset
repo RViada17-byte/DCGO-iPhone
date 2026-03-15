@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_070
   m_EditorClassIdentifier: 
   CardIndex: 3388
+  LegacyCardIndices: 
   cardColors: 0600000000000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Dark Animal
   CardSpriteName: BT16-070
+  PrintID: BT16-070
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Digivolve] [Veemon]: Cost 2<Armor Purge> [When Digivolving]
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-070
   MaxCountInDeck: 4

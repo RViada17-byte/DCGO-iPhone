@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_080
   m_EditorClassIdentifier: 
   CardIndex: 3949
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 7
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Undead
   CardSpriteName: BT18-080
+  PrintID: BT18-080
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] [When Digivolving] Delete 1 level 4 or lower
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-080
   MaxCountInDeck: 4

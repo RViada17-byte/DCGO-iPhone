@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT8_046_P1
   m_EditorClassIdentifier: 
   CardIndex: 6797
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Beast
   CardSpriteName: BT8-046_P1
+  PrintID: BT8-046_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] You may reveal the top 5 cards of your deck.

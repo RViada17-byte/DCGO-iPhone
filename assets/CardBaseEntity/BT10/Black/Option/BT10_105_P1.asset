@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_105_P1
   m_EditorClassIdentifier: 
   CardIndex: 4362
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 5
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: BT10-105_P1
+  PrintID: BT10-105_P1
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you have a Tamer in play, you may use this card without
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-105
   MaxCountInDeck: 4

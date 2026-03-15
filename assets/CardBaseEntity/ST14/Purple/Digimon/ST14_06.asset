@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST14_06
   m_EditorClassIdentifier: 
   CardIndex: 2822
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Wizard
   CardSpriteName: ST14-06
+  PrintID: ST14-06
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u30893\u679A\u7834\u68C4\u3059\u308B\u3002"
   EffectDiscription_ENG: '[When Digivolving] Trash the top 3 cards of your deck.'
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST14-06
   MaxCountInDeck: 4

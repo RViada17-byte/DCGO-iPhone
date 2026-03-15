@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_092
   m_EditorClassIdentifier: 
   CardIndex: 3233
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   - "-\r"
   Type_ENG: []
   CardSpriteName: BT15-092
+  PrintID: BT15-092
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: When an effect trashes this card from the security stack,
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-092
   MaxCountInDeck: 4

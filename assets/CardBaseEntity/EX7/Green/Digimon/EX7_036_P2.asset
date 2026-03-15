@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_036_P2
   m_EditorClassIdentifier: 
   CardIndex: 3745
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 12
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   - LIBERATOR
   - Bird Dragon
   CardSpriteName: EX7-036_P2
+  PrintID: EX7-036_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CSecurity Attack +1\uFF1E.\n\uFF1CVortex\uFF1E (At
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-036
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX9_074_P1
   m_EditorClassIdentifier: 
   CardIndex: 6976
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 10
   EvoCosts:
@@ -52,6 +53,8 @@ MonoBehaviour:
   - DM
   - Ver.3
   CardSpriteName: EX9-074_P1
+  PrintID: EX9-074_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CRush\uFF1E.\n\uFF1CSecurity A. +1\uFF1E \n[On Play]

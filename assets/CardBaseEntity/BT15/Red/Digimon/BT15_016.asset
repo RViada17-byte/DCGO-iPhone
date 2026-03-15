@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_016
   m_EditorClassIdentifier: 
   CardIndex: 3138
+  LegacyCardIndices: 
   cardColors: 0000000001000000
   PlayCost: 7
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Plesiosaur
   CardSpriteName: BT15-016
+  PrintID: BT15-016
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] [When Digivolving] If your opponent has 4 or
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-016
   MaxCountInDeck: 4

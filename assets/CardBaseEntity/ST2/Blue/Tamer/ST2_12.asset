@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST2_12
   m_EditorClassIdentifier: 
   CardIndex: 65
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 2
   EvoCosts: []
@@ -26,6 +27,8 @@ MonoBehaviour:
   Type_JPN: []
   Type_ENG: []
   CardSpriteName: ST2-12
+  PrintID: ST2-12
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u958B\u59CB\u6642\u3011\u9032\u5316\u5143\u3092\u6301\u305F\u306A\u3044\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u3044\u308B\u3068\u304D\u3001\u30E1\u30E2\u30EA\u30FC\u3092+1\u3059\u308B\u3002"
   EffectDiscription_ENG: '[Start of Your Turn] If your opponent has a Digimon with

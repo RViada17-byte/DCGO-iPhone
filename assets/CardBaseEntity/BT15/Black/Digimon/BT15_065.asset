@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_065
   m_EditorClassIdentifier: 
   CardIndex: 3198
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Puppet
   CardSpriteName: BT15-065
+  PrintID: BT15-065
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] [When Digivolving] By trashing 1 card with [Numemon]
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-065
   MaxCountInDeck: 4

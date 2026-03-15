@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX1_053_P1
   m_EditorClassIdentifier: 
   CardIndex: 6819
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 11
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Cyborg
   CardSpriteName: EX1-053_P1
+  PrintID: EX1-053_P1
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Opponent's Turn] For each Digimon card with [Etemon]\_in

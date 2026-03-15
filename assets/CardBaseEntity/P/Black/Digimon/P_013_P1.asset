@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_013_P1
   m_EditorClassIdentifier: 
   CardIndex: 6032
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Unidentified
   CardSpriteName: P-013_P1
+  PrintID: P-013_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-013
   MaxCountInDeck: 4

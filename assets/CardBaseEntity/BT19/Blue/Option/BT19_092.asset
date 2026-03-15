@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_092
   m_EditorClassIdentifier: 
   CardIndex: 4023
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 5
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - LIBERATOR
   CardSpriteName: BT19-092
+  PrintID: BT19-092
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Main] Return 1 of your opponent''s level 4 or lower Digimon
@@ -43,5 +46,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-092
   MaxCountInDeck: 4

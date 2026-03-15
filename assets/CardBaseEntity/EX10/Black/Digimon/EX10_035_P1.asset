@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_035_P1
   m_EditorClassIdentifier: 
   CardIndex: 7299
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 11
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - Machine
   - Dark Masters
   CardSpriteName: EX10-035_P1
+  PrintID: EX10-035_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Hand] [Main] If you don't have any Digimon other than

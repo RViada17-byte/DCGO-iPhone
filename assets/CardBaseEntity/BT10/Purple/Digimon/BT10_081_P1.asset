@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_081_P1
   m_EditorClassIdentifier: 
   CardIndex: 4339
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 7
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Wizard
   - Bagra Army
   CardSpriteName: BT10-081_P1
+  PrintID: BT10-081_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[When Attacking] You may trash up to 3 cards from the top
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-081
   MaxCountInDeck: 4

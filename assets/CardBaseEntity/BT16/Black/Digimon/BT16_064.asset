@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_064
   m_EditorClassIdentifier: 
   CardIndex: 3382
+  LegacyCardIndices: 
   cardColors: 0500000006000000
   PlayCost: 12
   EvoCosts:
@@ -42,6 +43,8 @@ MonoBehaviour:
   - X Antibody
   - SoC
   CardSpriteName: BT16-064
+  PrintID: BT16-064
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Digivolve] Lv.5 w/[DoruGreymon] in name or w/[SoC] trait:
@@ -58,5 +61,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-064
   MaxCountInDeck: 4

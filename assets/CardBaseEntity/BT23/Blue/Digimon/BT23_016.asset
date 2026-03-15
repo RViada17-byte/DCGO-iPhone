@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_016
   m_EditorClassIdentifier: 
   CardIndex: 7348
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 3
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   Type_ENG:
   - Action
   CardSpriteName: BT23-016
+  PrintID: BT23-016
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.2 w/[Appmon]\_trait: Cost 0 \n\n[Your Turn]

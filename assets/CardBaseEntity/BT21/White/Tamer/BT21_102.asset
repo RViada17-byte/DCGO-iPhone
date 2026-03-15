@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_102
   m_EditorClassIdentifier: 
   CardIndex: 5431
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 4
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - ADVENTURE
   - Hero
   CardSpriteName: BT21-102
+  PrintID: BT21-102
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Turn] If you have 2 or less memory, set
@@ -49,6 +52,5 @@ MonoBehaviour:
   LinkDP: 0
   LinkEffect: '-'
   LinkRequirement: '-'
-  LinkCost: 0
   CardID: BT21-102
   MaxCountInDeck: 4

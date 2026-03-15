@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST17_07_P1
   m_EditorClassIdentifier: 
   CardIndex: 3278
+  LegacyCardIndices: 
   cardColors: 0300000005000000
   PlayCost: 7
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Cyborg
   CardSpriteName: ST17-07_P1
+  PrintID: ST17-07_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Gargomon]/[Rapidmon] in name: Cost
@@ -54,5 +57,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST17-07
   MaxCountInDeck: 4

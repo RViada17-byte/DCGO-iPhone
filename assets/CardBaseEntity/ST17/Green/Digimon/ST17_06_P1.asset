@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST17_06_P1
   m_EditorClassIdentifier: 
   CardIndex: 3276
+  LegacyCardIndices: 
   cardColors: 0300000002000000
   PlayCost: 7
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Holy Warrior
   CardSpriteName: ST17-06_P1
+  PrintID: ST17-06_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.3 w/[Terriermon] in name: Cost 3<Blocker>
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST17-06
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_076
   m_EditorClassIdentifier: 
   CardIndex: 7083
+  LegacyCardIndices: 
   cardColors: 0600000002000000
   PlayCost: 13
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - DM
   - Ver.1
   CardSpriteName: BT22-076
+  PrintID: BT22-076
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.5 w/[DM]\_trait: Cost 5 \n\nWhen any of

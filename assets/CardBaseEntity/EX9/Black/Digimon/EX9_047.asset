@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX9_047
   m_EditorClassIdentifier: 
   CardIndex: 6925
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 7
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Dark Dragon
   CardSpriteName: EX9-047
+  PrintID: EX9-047
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Eyesmon: Scatter Mode]: Cost 1 \n\n\uFF1CRush\uFF1E.\n\uFF1CCollision\uFF1E

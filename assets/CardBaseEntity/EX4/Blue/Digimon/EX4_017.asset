@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX4_017
   m_EditorClassIdentifier: 
   CardIndex: 2563
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Beast
   CardSpriteName: EX4-017
+  PrintID: EX4-017
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011Lv.3\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u624B\u672D\u306B\u623B\u3059\u3002"
   EffectDiscription_ENG: '[When Digivolving] Return 1 of your opponent''s level 3
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX4-017
   MaxCountInDeck: 4

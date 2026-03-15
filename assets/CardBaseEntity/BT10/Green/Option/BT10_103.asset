@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_103
   m_EditorClassIdentifier: 
   CardIndex: 2159
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 8
   EvoCosts: []
@@ -26,6 +27,8 @@ MonoBehaviour:
   Type_JPN: []
   Type_ENG: []
   CardSpriteName: BT10-103
+  PrintID: BT10-103
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: "\u3053\u306E\u30AB\u30FC\u30C9\u3092\u4F7F\u7528\u3059\u308B\u3068\u304D\u3001\u7DD1\u306E\u30EC\u30B9\u30C8\u72B6\u614B\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C2\u4F53\u4EE5\u4E0A\u3044\u308B\u306A\u3089\u3001\u652F\u6255\u3046\u4F7F\u7528\u30B3\u30B9\u30C8-2\u3002\u3010\u30E1\u30A4\u30F3\u3011\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u30EC\u30B9\u30C8\u3055\u305B\u308B\u3002\u305D\u306E\u5F8C\u3001\u30EC\u30B9\u30C8\u72B6\u614B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u30C7\u30C3\u30AD\u306E\u4E0B\u306B\u623B\u3059\u3002"
   EffectDiscription_ENG: When you would use this card, if you have 2 or more suspended

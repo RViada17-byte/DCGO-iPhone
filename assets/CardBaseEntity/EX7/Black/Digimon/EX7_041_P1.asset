@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_041_P1
   m_EditorClassIdentifier: 
   CardIndex: 3754
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Reptile
   - NSp
   CardSpriteName: EX7-041_P1
+  PrintID: EX7-041_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.3 w/[NSp]\_trait: Cost 2 \n\n\uFF1CBlocker\uFF1E
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-041
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_020_P1
   m_EditorClassIdentifier: 
   CardIndex: 3143
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Reptile
   CardSpriteName: BT15-020_P1
+  PrintID: BT15-020_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Start of Your Main Phase] 1 of your Digimon gains  (At
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-020
   MaxCountInDeck: 4

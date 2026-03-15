@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_039
   m_EditorClassIdentifier: 
   CardIndex: 3167
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Mutant
   CardSpriteName: BT15-039
+  PrintID: BT15-039
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] [When Digivolving] Until the end of your opponent''s
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-039
   MaxCountInDeck: 4

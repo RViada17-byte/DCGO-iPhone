@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT6_084_P3
   m_EditorClassIdentifier: 
   CardIndex: 6784
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 4
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   Type_ENG:
   - Puppet
   CardSpriteName: BT6-084_P3
+  PrintID: BT6-084_P3
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[All Turns] All of your Digimon with [Huckmon]\_in their

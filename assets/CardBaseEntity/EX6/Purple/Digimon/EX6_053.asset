@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_053
   m_EditorClassIdentifier: 
   CardIndex: 3506
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Fallen Angel
   CardSpriteName: EX6-053
+  PrintID: EX6-053
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CRetaliation\uFF1E \n[On Play] [When Digivolving]
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX6-053
   MaxCountInDeck: 4

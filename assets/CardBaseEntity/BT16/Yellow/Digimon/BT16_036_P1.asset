@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_036_P1
   m_EditorClassIdentifier: 
   CardIndex: 3350
+  LegacyCardIndices: 
   cardColors: 0200000005000000
   PlayCost: 15
   EvoCosts:
@@ -40,6 +41,8 @@ MonoBehaviour:
   - Boss
   - D-Brigade
   CardSpriteName: BT16-036_P1
+  PrintID: BT16-036_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[DNA Digivolution] Yellow Lv.6 + black Lv.6: Cost 0 Digivolve
@@ -59,5 +62,8 @@ MonoBehaviour:
   DP: 15000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-036
   MaxCountInDeck: 4

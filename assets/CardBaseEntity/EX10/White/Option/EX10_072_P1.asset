@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_072_P1
   m_EditorClassIdentifier: 
   CardIndex: 7329
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Dark Masters
   CardSpriteName: EX10-072_P1
+  PrintID: EX10-072_P1
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you don't have [Spiral Mountain] in the battle area,

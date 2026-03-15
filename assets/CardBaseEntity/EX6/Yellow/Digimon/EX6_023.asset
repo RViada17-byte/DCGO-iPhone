@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_023
   m_EditorClassIdentifier: 
   CardIndex: 3465
+  LegacyCardIndices: 
   cardColors: 0200000000000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Beastkin
   CardSpriteName: EX6-023
+  PrintID: EX6-023
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Attacking] [Once Per Turn] 1 Digimon may
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX6-023
   MaxCountInDeck: 4

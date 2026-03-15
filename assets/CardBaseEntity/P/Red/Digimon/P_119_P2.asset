@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_119_P2
   m_EditorClassIdentifier: 
   CardIndex: 10416
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Avian
   CardSpriteName: P-119_P2
+  PrintID: P-119_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] Reveal the top 3 cards of your deck. Add 1 red
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-119
   MaxCountInDeck: 4

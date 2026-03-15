@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_141
   m_EditorClassIdentifier: 
   CardIndex: 10295
+  LegacyCardIndices: 
   cardColors: 0500000003000000
   PlayCost: 6
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Mutant
   - X Antibody
   CardSpriteName: P-141
+  PrintID: P-141
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.4 w/[Mamemon]/[Tyrannomon]\_in its name:
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-141
   MaxCountInDeck: 4

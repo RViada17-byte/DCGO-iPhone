@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_102_P1
   m_EditorClassIdentifier: 
   CardIndex: 7459
+  LegacyCardIndices: 
   cardColors: 0200000006000000
   PlayCost: 13
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Angel
   - CS
   CardSpriteName: BT23-102_P1
+  PrintID: BT23-102_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CBarrier\uFF1E \n\uFF1CPartition ([Angewomon] & [LadyDevimon])\uFF1E

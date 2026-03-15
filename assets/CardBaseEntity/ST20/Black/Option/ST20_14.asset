@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST20_14
   m_EditorClassIdentifier: 
   CardIndex: 5277
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - ADVENTURE
   CardSpriteName: ST20-14
+  PrintID: ST20-14
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you have a Digimon or Tamer with the [ADVENTURE]\_trait
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST20-14
   MaxCountInDeck: 4

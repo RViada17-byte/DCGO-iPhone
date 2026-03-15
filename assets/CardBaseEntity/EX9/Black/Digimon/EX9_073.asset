@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX9_073
   m_EditorClassIdentifier: 
   CardIndex: 6972
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 12
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - DM
   - Ver.5
   CardSpriteName: EX9-073
+  PrintID: EX9-073
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.5 w/[DM]\_trait: Cost 3 \n\n[On Play] [When

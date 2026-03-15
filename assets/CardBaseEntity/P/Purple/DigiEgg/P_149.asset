@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_149
   m_EditorClassIdentifier: 
   CardIndex: 10310
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: -1
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Larva
   CardSpriteName: P-149
+  PrintID: P-149
+  IsCanonicalPrint: 1
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '-'

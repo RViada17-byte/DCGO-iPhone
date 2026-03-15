@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_073_P0
   m_EditorClassIdentifier: 
   CardIndex: 4335
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Beast
   - Bagra Army
   CardSpriteName: BT10-073_P0
+  PrintID: BT10-073_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] Reveal the top 4 cards of your deck. Add 1 Digimon
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-073
   MaxCountInDeck: 4

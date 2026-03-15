@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_054
   m_EditorClassIdentifier: 
   CardIndex: 3185
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 13
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Fairy
   - X Antibody
   CardSpriteName: BT15-054
+  PrintID: BT15-054
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[When Digivolving] Suspend 1 of your opponent\u2019s Digimon
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-054
   MaxCountInDeck: 4

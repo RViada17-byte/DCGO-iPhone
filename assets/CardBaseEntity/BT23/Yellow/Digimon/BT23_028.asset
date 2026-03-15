@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_028
   m_EditorClassIdentifier: 
   CardIndex: 7360
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   Type_ENG:
   - Coordinate
   CardSpriteName: BT23-028
+  PrintID: BT23-028
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Security] At the end of the battle, play this card without

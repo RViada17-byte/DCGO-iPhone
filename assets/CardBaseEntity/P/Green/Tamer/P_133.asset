@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_133
   m_EditorClassIdentifier: 
   CardIndex: 10287
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - LIBERATOR
   CardSpriteName: P-133
+  PrintID: P-133
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] You may play 1 [Pteromon] from your hand without
@@ -43,5 +46,8 @@ MonoBehaviour:
   DP: 0
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-133
   MaxCountInDeck: 4

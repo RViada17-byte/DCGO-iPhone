@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_095_P0
   m_EditorClassIdentifier: 
   CardIndex: 4353
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 2
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Xros Heart
   CardSpriteName: BT10-095_P0
+  PrintID: BT10-095_P0
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] Activate 1 of the effects below. If you have a Digimon
@@ -43,5 +46,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-095
   MaxCountInDeck: 4

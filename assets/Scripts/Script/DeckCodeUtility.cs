@@ -12,7 +12,7 @@ public class DeckCodeUtility
         string DeckBuilderFile = "";
 
         DeckBuilderFile += $"Name: {data.DeckName}\n";
-        DeckBuilderFile += $"Key Card: {data.KeyCardId}\n";
+        DeckBuilderFile += $"Key Card: {(data.GetStoredKeyCardRef().IsEmpty ? string.Empty : data.GetStoredKeyCardRef().PrintId)}\n";
         DeckBuilderFile += $"Sort Index: {data.SortValue}\n\n";
 
         DeckBuilderFile += GetDeckBuilderDeckCode(data.AllDeckCards());
@@ -47,7 +47,7 @@ public class DeckCodeUtility
 
         foreach (CEntity_Base cEntity_Base in AllDeckCards)
         {
-            if (distinctAllDeckCards.Count((cEntity_Base1) => cEntity_Base.CardSpriteName == cEntity_Base1.CardSpriteName) == 0)
+            if (distinctAllDeckCards.Count((cEntity_Base1) => CardPrintCatalog.NormalizeLookupCode(cEntity_Base.EffectivePrintID) == CardPrintCatalog.NormalizeLookupCode(cEntity_Base1.EffectivePrintID)) == 0)
             {
                 distinctAllDeckCards.Add(cEntity_Base);
             }
@@ -57,11 +57,11 @@ public class DeckCodeUtility
         {
             string lineString = "";
 
-            int count = AllDeckCards.Count((cEntity_Base1) => cEntity_Base.CardSpriteName == cEntity_Base1.CardSpriteName);
+            int count = AllDeckCards.Count((cEntity_Base1) => CardPrintCatalog.NormalizeLookupCode(cEntity_Base.EffectivePrintID) == CardPrintCatalog.NormalizeLookupCode(cEntity_Base1.EffectivePrintID));
 
             if (count >= 1)
             {
-                lineString += $"{count} {cEntity_Base.CardName_ENG}   {cEntity_Base.CardSpriteName} \n";
+                lineString += $"{count} {cEntity_Base.CardName_ENG}   {cEntity_Base.EffectivePrintID} \n";
             }
 
             DeckBuilderDeckCode += lineString;
@@ -220,11 +220,11 @@ public class DeckCodeUtility
 
     static CEntity_Base GetCardFromCardID(string cardID)
     {
-        return ContinuousController.instance.CardList.ToList().Find(cEntity_Base => cEntity_Base.CardID == cardID);
+        return CardPrintCatalog.ResolveCardOrPrint(cardID);
     }
 
     static CEntity_Base GetCardFromSpriteName(string cardSpriteName)
     {
-        return ContinuousController.instance.CardList.ToList().Find(cEntity_Base => cEntity_Base.CardSpriteName == cardSpriteName);
+        return CardPrintCatalog.ResolveCardOrPrint(cardSpriteName, preferCanonical: false);
     }
 }

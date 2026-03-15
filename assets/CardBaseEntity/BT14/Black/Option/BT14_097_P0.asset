@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT14_097_P0
   m_EditorClassIdentifier: 
   CardIndex: 4706
+  LegacyCardIndices: 
   cardColors: 0500000002000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: BT14-097_P0
+  PrintID: BT14-097_P0
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] 1 of your non-white Digimon may digivolve into a
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT14-097
   MaxCountInDeck: 4

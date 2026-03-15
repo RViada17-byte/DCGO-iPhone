@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: LM_020_P1
   m_EditorClassIdentifier: 
   CardIndex: 6827
+  LegacyCardIndices: 
   cardColors: 0200000003000000
   PlayCost: 13
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Fairy
   CardSpriteName: LM-020_P1
+  PrintID: LM-020_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[When Digivolving] By placing 1 Digimon on top of its owner''s

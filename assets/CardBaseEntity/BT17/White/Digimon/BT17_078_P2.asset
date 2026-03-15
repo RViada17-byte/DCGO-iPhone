@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_078_P2
   m_EditorClassIdentifier: 
   CardIndex: 3634
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 9
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Holy Warrior
   - Royal Knight
   CardSpriteName: BT17-078_P2
+  PrintID: BT17-078_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Hand] [Counter] \uFF1CBlast DNA Digivolve ([WarGreymon]
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 15000
   rarity: 3
   OverflowMemory: 5
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-078
   MaxCountInDeck: 4

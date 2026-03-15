@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_029
   m_EditorClassIdentifier: 
   CardIndex: 3342
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Dinosaur
   - Light Fang
   CardSpriteName: BT16-029
+  PrintID: BT16-029
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Digivolve] Lv.2 w/[Light Fang]/[Night Claw] trait: Cost
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-029
   MaxCountInDeck: 4

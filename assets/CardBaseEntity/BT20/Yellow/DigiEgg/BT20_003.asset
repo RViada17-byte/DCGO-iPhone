@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_003
   m_EditorClassIdentifier: 
   CardIndex: 5082
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: -1
   EvoCosts: []
@@ -31,6 +32,8 @@ MonoBehaviour:
   - Abadin Electronics
   - SEEKERS
   CardSpriteName: BT20-003
+  PrintID: BT20-003
+  IsCanonicalPrint: 1
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '-'

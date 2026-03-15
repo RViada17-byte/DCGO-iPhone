@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_034
   m_EditorClassIdentifier: 
   CardIndex: 5027
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 5
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Mysterious Beast
   CardSpriteName: BT19-034
+  PrintID: BT19-034
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[When Digivolving] If you have 1 or fewer Tamers, you may
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-034
   MaxCountInDeck: 4

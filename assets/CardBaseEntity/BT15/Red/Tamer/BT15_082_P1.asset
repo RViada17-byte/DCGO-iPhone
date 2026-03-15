@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_082_P1
   m_EditorClassIdentifier: 
   CardIndex: 3218
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   - "-\r"
   Type_ENG: []
   CardSpriteName: BT15-082_P1
+  PrintID: BT15-082_P1
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Start of Your Turn] If you have 2 memory or less, set
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-082
   MaxCountInDeck: 4

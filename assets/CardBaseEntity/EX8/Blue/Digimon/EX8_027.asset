@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_027
   m_EditorClassIdentifier: 
   CardIndex: 4100
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 11
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Plesiosaur
   - DS
   CardSpriteName: EX8-027
+  PrintID: EX8-027
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.5 w/[DS]\_trait: Cost 3 \n\n[When Digivolving]
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-027
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_127
   m_EditorClassIdentifier: 
   CardIndex: 6173
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts: []
@@ -26,6 +27,8 @@ MonoBehaviour:
   Type_JPN: []
   Type_ENG: []
   CardSpriteName: P-127
+  PrintID: P-127
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30E1\u30A4\u30F3\u30D5\u30A7\u30A4\u30BA\u958B\u59CB\u6642\u3011\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u679A\u6570\u304C\u76F8\u624B\u3088\u308A\u5C11\u306A\u3044\u306A\u3089\u3001\u30E1\u30E2\u30EA\u30FC+1\u3002\u3010\u767B\u5834\u6642\u3011\u4EE5\u4E0B\u306E\u52B9\u679C\u304B\u30891\u3064\u3092\u767A\u63EE\u3059\u308B\u3002\u30FB\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u300C\u30D7\u30ED\u30C3\u30C8\u30E2\u30F3\u300D1\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002\u30FB\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u624B\u672D\u306E\u300C\u30C6\u30A4\u30EB\u30E2\u30F3\u300D\u306B\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u9032\u5316\u3067\u304D\u308B\u3002"
   EffectDiscription_ENG: "[Start of Your Main Phase] If you have fewer security cards
@@ -41,5 +44,8 @@ MonoBehaviour:
   DP: 0
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-127
   MaxCountInDeck: 4

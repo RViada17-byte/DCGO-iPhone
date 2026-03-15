@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: LM_006
   m_EditorClassIdentifier: 
   CardIndex: 3252
+  LegacyCardIndices: 
   cardColors: 0100000006000000
   PlayCost: 11
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Fairy
   CardSpriteName: LM-006
+  PrintID: LM-006
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Trash] [Main] By returning 1 of your Tamers to the bottom
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: LM-006
   MaxCountInDeck: 4

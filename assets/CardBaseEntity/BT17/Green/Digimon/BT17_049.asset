@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_049
   m_EditorClassIdentifier: 
   CardIndex: 3597
+  LegacyCardIndices: 
   cardColors: 0300000006000000
   PlayCost: 8
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Holy Beast
   CardSpriteName: BT17-049
+  PrintID: BT17-049
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Turuiemon]/[Wendigomon]: Cost 3 \n\n\uFF1CAlliance\uFF1E
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-049
   MaxCountInDeck: 4

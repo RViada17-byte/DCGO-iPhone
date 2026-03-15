@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_009
   m_EditorClassIdentifier: 
   CardIndex: 6998
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   Type_ENG:
   - Effect
   CardSpriteName: BT22-009
+  PrintID: BT22-009
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Security] At the end of the battle, play this card without

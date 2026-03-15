@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST12_13_P1
   m_EditorClassIdentifier: 
   CardIndex: 4908
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 4
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   Type_ENG:
   - Puppet
   CardSpriteName: ST12-13_P1
+  PrintID: ST12-13_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] Reveal the top 3 cards of your deck. Add 1 card
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST12-13
   MaxCountInDeck: 4

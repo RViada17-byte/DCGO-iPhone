@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_007
   m_EditorClassIdentifier: 
   CardIndex: 5313
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 3
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Reptile
   CardSpriteName: BT21-007
+  PrintID: BT21-007
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] You may return 1 Digimon card with the [Reptile]/[Dragonkin]\_trait
@@ -47,6 +50,5 @@ MonoBehaviour:
   LinkDP: 0
   LinkEffect: '-'
   LinkRequirement: '-'
-  LinkCost: 0
   CardID: BT21-007
   MaxCountInDeck: 4

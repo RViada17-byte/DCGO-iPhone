@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_064
   m_EditorClassIdentifier: 
   CardIndex: 2108
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Rock
   CardSpriteName: BT10-064
+  PrintID: BT10-064
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-064
   MaxCountInDeck: 4

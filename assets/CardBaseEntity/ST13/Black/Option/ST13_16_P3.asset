@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST13_16_P3
   m_EditorClassIdentifier: 
   CardIndex: 4912
+  LegacyCardIndices: 
   cardColors: 0500000000000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Legend-Arms
   CardSpriteName: ST13-16_P3
+  PrintID: ST13-16_P3
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] You may play 1 Digimon card with the [Legend-Arms]\_trait
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST13-16
   MaxCountInDeck: 4

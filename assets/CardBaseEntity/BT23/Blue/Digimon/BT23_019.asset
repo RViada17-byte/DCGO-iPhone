@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_019
   m_EditorClassIdentifier: 
   CardIndex: 7351
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Amphibian
   - CS
   CardSpriteName: BT23-019
+  PrintID: BT23-019
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.3 w/[CS]\_trait: Cost 2 \n\n[On Play] [When

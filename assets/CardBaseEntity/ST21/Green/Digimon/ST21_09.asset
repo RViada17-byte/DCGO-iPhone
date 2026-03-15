@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST21_09
   m_EditorClassIdentifier: 
   CardIndex: 5287
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 7
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Fairy
   - ADVENTURE
   CardSpriteName: ST21-09
+  PrintID: ST21-09
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.4 w/[ADVENTURE]\_trait: Cost 3 \n\n[On Play]
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST21-09
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_212
   m_EditorClassIdentifier: 
   CardIndex: 7490
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - TS
   CardSpriteName: P-212
+  PrintID: P-212
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] If your opponent has a Digimon,

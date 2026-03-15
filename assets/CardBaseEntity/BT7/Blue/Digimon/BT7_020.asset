@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT7_020
   m_EditorClassIdentifier: 
   CardIndex: 1405
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 4
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Mollusk
   CardSpriteName: BT7-020
+  PrintID: BT7-020
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT7-020
   MaxCountInDeck: 4

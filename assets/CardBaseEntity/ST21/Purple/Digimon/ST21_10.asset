@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST21_10
   m_EditorClassIdentifier: 
   CardIndex: 5288
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Reptile
   - ADVENTURE
   CardSpriteName: ST21-10
+  PrintID: ST21-10
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.2 w/[ADVENTURE]\_trait: Cost 0 \n\n[Your
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST21-10
   MaxCountInDeck: 4

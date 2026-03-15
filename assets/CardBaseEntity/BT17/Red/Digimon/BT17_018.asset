@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_018
   m_EditorClassIdentifier: 
   CardIndex: 3559
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 8
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Holy Warrior
   CardSpriteName: BT17-018
+  PrintID: BT17-018
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.6 w/[Gallantmon]\_in its name: Cost 4 \n\n[Hand]
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 15000
   rarity: 3
   OverflowMemory: 5
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-018
   MaxCountInDeck: 4

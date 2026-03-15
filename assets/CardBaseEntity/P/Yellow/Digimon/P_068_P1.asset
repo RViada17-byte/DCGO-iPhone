@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_068_P1
   m_EditorClassIdentifier: 
   CardIndex: 10378
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Mammal
   CardSpriteName: P-068_P1
+  PrintID: P-068_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Security] At the end of the battle, 1 of your opponent's
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-068
   MaxCountInDeck: 4

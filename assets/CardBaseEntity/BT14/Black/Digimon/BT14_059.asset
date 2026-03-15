@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT14_059
   m_EditorClassIdentifier: 
   CardIndex: 2985
+  LegacyCardIndices: 
   cardColors: 0500000006000000
   PlayCost: 4
   EvoCosts:
@@ -42,6 +43,8 @@ MonoBehaviour:
   - Bagra Army
   - Twilight
   CardSpriteName: BT14-059
+  PrintID: BT14-059
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u226A\u9053\u9023\u308C\u226B\u3010\u6D88\u6EC5\u6642\u3011\u226A\u30BB\u30FC\u30D6\u226B"
   EffectDiscription_ENG: "\uFF1CRetaliation\uFF1E [On Deletion] \uFF1CSave\uFF1E"
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 3000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT14-059
   MaxCountInDeck: 4

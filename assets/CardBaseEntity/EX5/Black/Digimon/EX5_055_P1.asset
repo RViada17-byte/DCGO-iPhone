@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX5_055_P1
   m_EditorClassIdentifier: 
   CardIndex: 4233
+  LegacyCardIndices: 
   cardColors: 0500000003000000
   PlayCost: 13
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Machine
   CardSpriteName: EX5-055_P1
+  PrintID: EX5-055_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.5 w/[Leomon]\_in its name: Cost 4 \n\n\uFF1CFortitude\uFF1E
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 13000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX5-055
   MaxCountInDeck: 4

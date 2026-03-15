@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT4_104_P1
   m_EditorClassIdentifier: 
   CardIndex: 3288
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 0
   EvoCosts: []
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - '-'
   CardSpriteName: BT4-104_P1
+  PrintID: BT4-104_P1
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] Trash the top card of your security stack. Then,

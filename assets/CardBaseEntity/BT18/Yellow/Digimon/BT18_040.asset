@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_040
   m_EditorClassIdentifier: 
   CardIndex: 3901
+  LegacyCardIndices: 
   cardColors: 0200000000000000
   PlayCost: 7
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Holy Warrior
   - Royal Knight
   CardSpriteName: BT18-040
+  PrintID: BT18-040
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Hand] [Counter] \uFF1CBlast Digivolve\uFF1E.\n\uFF1CRaid\uFF1E
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 4
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-040
   MaxCountInDeck: 4

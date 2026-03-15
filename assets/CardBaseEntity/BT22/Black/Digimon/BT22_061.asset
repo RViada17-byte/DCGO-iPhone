@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_061
   m_EditorClassIdentifier: 
   CardIndex: 7067
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 8
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - DM
   - Ver.2
   CardSpriteName: BT22-061
+  PrintID: BT22-061
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Vegiemon]: Cost 3\n[Digivolve] Lv.4 w/[DM]\_trait:

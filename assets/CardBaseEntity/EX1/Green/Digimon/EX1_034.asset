@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX1_034
   m_EditorClassIdentifier: 
   CardIndex: 1320
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Vegetation
   CardSpriteName: EX1-034
+  PrintID: EX1-034
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u6D88\u6EC5\u6642\u3011DP5000\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u30EC\u30B9\u30C8\u3055\u305B\u308B\u3002"
   EffectDiscription_ENG: '[On Deletion] Suspend 1 of your opponent''s Digimon with
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX1-034
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_056
   m_EditorClassIdentifier: 
   CardIndex: 7233
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 13
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Demon Lord
   - Bagra Army
   CardSpriteName: EX10-056
+  PrintID: EX10-056
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] You may place 1 of your opponent's

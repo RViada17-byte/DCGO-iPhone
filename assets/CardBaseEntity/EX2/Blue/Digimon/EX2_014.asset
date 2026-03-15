@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX2_014
   m_EditorClassIdentifier: 
   CardIndex: 1940
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 4
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Fallen Angel
   CardSpriteName: EX2-014
+  PrintID: EX2-014
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\u9032\u5316\u5143\u3092\u6301\u305F\u306A\u3044Lv.4\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u624B\u672D\u306B\u623B\u3059\u3002"
   EffectDiscription_ENG: '[When Attacking] Return 1 of your opponent''s level 4 or
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX2-014
   MaxCountInDeck: 4

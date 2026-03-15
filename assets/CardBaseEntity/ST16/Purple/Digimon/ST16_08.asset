@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST16_08
   m_EditorClassIdentifier: 
   CardIndex: 2853
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 6
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Beast
   CardSpriteName: ST16-08
+  PrintID: ST16-08
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u540D\u79F0\u306B\u300C\u30AC\u30D6\u30E2\u30F3\u300D\u3092\u542B\u3080Lv.3:\u30B3\u30B9\u30C82\u3010\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3011\u81EA\u5206\u306E\u624B\u672D\u304B\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u300C\u30AC\u30D6\u30E2\u30F3\u300D\u304B\u540D\u79F0\u306B\u300C\u77F3\u7530\u30E4\u30DE\u30C8\u300D\u3092\u542B\u3080\u30C6\u30A4\u30DE\u30FC\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002\u3010\u9032\u5316\u6642\u3011\u226A1\u30C9\u30ED\u30FC\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u304B\u3089\u30AB\u30FC\u30C9\u30921\u679A\u5F15\u304F\uFF09\u3002\u305D\u306E\u5F8C\u3001\u81EA\u5206\u306E\u624B\u672D\u30921\u679A\u7834\u68C4\u3059\u308B\u3002"
   EffectDiscription_ENG: "[Digivolve] Lv.3 w/[Gabumon] in name: Cost 2[Security]
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST16-08
   MaxCountInDeck: 4

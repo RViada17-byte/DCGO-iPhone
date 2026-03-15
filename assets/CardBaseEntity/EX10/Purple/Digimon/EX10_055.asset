@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_055
   m_EditorClassIdentifier: 
   CardIndex: 7232
+  LegacyCardIndices: 
   cardColors: 0600000005000000
   PlayCost: 12
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Wizard
   - Bagra Army
   CardSpriteName: EX10-055
+  PrintID: EX10-055
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] You may choose 1 of your Digimon.

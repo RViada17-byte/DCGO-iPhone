@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT4_111
   m_EditorClassIdentifier: 
   CardIndex: 920
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 0
   EvoCosts: []
@@ -26,6 +27,8 @@ MonoBehaviour:
   Type_JPN: []
   Type_ENG: []
   CardSpriteName: BT4-111
+  PrintID: BT4-111
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E510\u679A\u3054\u3068\u306B\u3001\u30E1\u30E2\u30EA\u30FC\u3092+1\u3059\u308B\u3002"
   EffectDiscription_ENG: '[Main] Gain 1 memory for every 10 cards in your trash.'

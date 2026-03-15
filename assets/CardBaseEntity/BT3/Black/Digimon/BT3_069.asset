@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT3_069
   m_EditorClassIdentifier: 
   CardIndex: 696
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 6
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Armor
   - Legend-Arms
   CardSpriteName: BT3-069
+  PrintID: BT3-069
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT3-069
   MaxCountInDeck: 4

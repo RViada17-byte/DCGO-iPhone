@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_097
   m_EditorClassIdentifier: 
   CardIndex: 5176
+  LegacyCardIndices: 
   cardColors: 0600000005000000
   PlayCost: 3
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - X Antibody
   - X Program
   CardSpriteName: BT20-097
+  PrintID: BT20-097
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] 1 of your Digimon may digivolve into a level 6 or
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-097
   MaxCountInDeck: 4

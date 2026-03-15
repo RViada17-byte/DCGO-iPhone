@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT1_100
   m_EditorClassIdentifier: 
   CardIndex: 294
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 4
   EvoCosts: []
@@ -26,6 +27,8 @@ MonoBehaviour:
   Type_JPN: []
   Type_ENG: []
   CardSpriteName: BT1-100
+  PrintID: BT1-100
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u6B21\u306E\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u6642\u307E\u3067\u3001\u76F8\u624B\u306F\u9032\u5316\u5143\u3092\u6301\u305F\u306A\u3044\u30C7\u30B8\u30E2\u30F3\u3067\u306F\u30A2\u30BF\u30C3\u30AF\u3067\u304D\u306A\u3044\u3002"
   EffectDiscription_ENG: '[Main] Until the end of your opponent''s next turn, their

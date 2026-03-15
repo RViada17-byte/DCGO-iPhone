@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT7_039
   m_EditorClassIdentifier: 
   CardIndex: 1435
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 8
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Beastkin
   CardSpriteName: BT7-039
+  PrintID: BT7-039
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u304C1\u679A\u306E\u3068\u304D\u3001\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001Lv.4\u4EE5\u4E0B\u306E\u9EC4\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C92\u679A\u307E\u3067\u3092\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u306E\u4E0B\u306B\u597D\u304D\u306A\u9806\u756A\u3067\u7F6E\u3051\u308B\u3002\u305D\u306E\u5F8C\u3001\u7F6E\u3044\u305F\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3054\u3068\u306B\u226A1\u30C9\u30ED\u30FC\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u304B\u3089\u30AB\u30FC\u30C9\u30921\u679A\u5F15\u304F\uFF09\u3002"
   EffectDiscription_ENG: "[When Digivolving] If this Digimon has 1 digivolution card,
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT7-039
   MaxCountInDeck: 4

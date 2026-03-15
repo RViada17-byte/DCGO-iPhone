@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT8_041
   m_EditorClassIdentifier: 
   CardIndex: 1609
+  LegacyCardIndices: 
   cardColors: 0200000006000000
   PlayCost: 7
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Mysterious Beast
   CardSpriteName: BT8-041
+  PrintID: BT8-041
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 9000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT8-041
   MaxCountInDeck: 4

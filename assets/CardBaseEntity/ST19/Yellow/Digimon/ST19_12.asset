@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST19_12
   m_EditorClassIdentifier: 
   CardIndex: 3844
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 11
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Puppet
   - LIBERATOR
   CardSpriteName: ST19-12
+  PrintID: ST19-12
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1COverclock ([Puppet] trait)\uFF1E(At the end of your
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST19-12
   MaxCountInDeck: 4

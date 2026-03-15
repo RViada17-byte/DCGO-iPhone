@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_058
   m_EditorClassIdentifier: 
   CardIndex: 3607
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 12
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Machine
   CardSpriteName: BT17-058
+  PrintID: BT17-058
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CPiercing\uFF1E \n[On Play] [When Digivolving] Reveal
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-058
   MaxCountInDeck: 4

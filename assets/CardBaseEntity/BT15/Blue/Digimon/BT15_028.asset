@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_028
   m_EditorClassIdentifier: 
   CardIndex: 3153
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 6
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Aquabeast
   CardSpriteName: BT15-028
+  PrintID: BT15-028
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] Trash the bottom 3 digivolution cards of 1 of
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-028
   MaxCountInDeck: 4

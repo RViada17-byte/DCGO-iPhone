@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_061_P1
   m_EditorClassIdentifier: 
   CardIndex: 4165
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 7
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Aquabeast
   - DS
   CardSpriteName: EX8-061_P1
+  PrintID: EX8-061_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.4 w/[DS]\_trait: Cost 3 \n\n\uFF1CScapegoat\uFF1E
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-061
   MaxCountInDeck: 4

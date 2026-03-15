@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_011
   m_EditorClassIdentifier: 
   CardIndex: 7001
+  LegacyCardIndices: 
   cardColors: 0000000006000000
   PlayCost: 7
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Flame
   - CS
   CardSpriteName: BT22-011
+  PrintID: BT22-011
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Flame]/[CS]\_trait: Cost 3 \n\n\uFF1CAlliance\uFF1E

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_038
   m_EditorClassIdentifier: 
   CardIndex: 5117
+  LegacyCardIndices: 
   cardColors: 0300000002000000
   PlayCost: 3
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Avian
   - ACCEL
   CardSpriteName: BT20-038
+  PrintID: BT20-038
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Pinamon]/Lv.2 w/[ACCEL]\_trait: Cost 0 \n\n[Your
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-038
   MaxCountInDeck: 4

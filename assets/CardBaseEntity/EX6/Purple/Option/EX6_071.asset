@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_071
   m_EditorClassIdentifier: 
   CardIndex: 3537
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 6
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: EX6-071
+  PrintID: EX6-071
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Main] If your opponent has 5 or more cards in their hand,
@@ -42,5 +45,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX6-071
   MaxCountInDeck: 4

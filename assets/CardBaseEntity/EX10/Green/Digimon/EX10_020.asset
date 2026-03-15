@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_020
   m_EditorClassIdentifier: 
   CardIndex: 7167
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 11
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - Puppet
   - Dark Masters
   CardSpriteName: EX10-020
+  PrintID: EX10-020
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Hand] [Main] If you don't have any Digimon other than

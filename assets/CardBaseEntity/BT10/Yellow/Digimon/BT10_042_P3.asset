@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_042_P3
   m_EditorClassIdentifier: 
   CardIndex: 4314
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 13
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Shaman
   - Olympos XII
   CardSpriteName: BT10-042_P3
+  PrintID: BT10-042_P3
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[When Digivolving] All of your opponent's Digimon gain
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-042
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX9_064_P1
   m_EditorClassIdentifier: 
   CardIndex: 6954
+  LegacyCardIndices: 
   cardColors: 0600000005000000
   PlayCost: 7
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - DM
   - Ver.4
   CardSpriteName: EX9-064_P1
+  PrintID: EX9-064_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Cyborg]/[DM]\_trait: Cost 3 \n\nWhen

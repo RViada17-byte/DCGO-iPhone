@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_007
   m_EditorClassIdentifier: 
   CardIndex: 3853
+  LegacyCardIndices: 
   cardColors: 0000000006000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Mammal
   CardSpriteName: BT18-007
+  PrintID: BT18-007
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Pagumon]: Cost 0 \n\n[On Play] Reveal the top
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-007
   MaxCountInDeck: 4

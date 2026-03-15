@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX9_055
   m_EditorClassIdentifier: 
   CardIndex: 6939
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 11
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Unidentified
   CardSpriteName: EX9-055
+  PrintID: EX9-055
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] If there are 4 or more total

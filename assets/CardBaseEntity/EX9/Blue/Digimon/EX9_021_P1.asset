@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX9_021_P1
   m_EditorClassIdentifier: 
   CardIndex: 6875
+  LegacyCardIndices: 
   cardColors: 010000000400000000000000
   PlayCost: 15
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   - Ver.1
   - Ver.2
   CardSpriteName: EX9-021_P1
+  PrintID: EX9-021_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[When Digivolving] If DNA digivolving, your opponent's

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX5_018
   m_EditorClassIdentifier: 
   CardIndex: 3057
+  LegacyCardIndices: 
   cardColors: 0100000006000000
   PlayCost: 6
   EvoCosts:
@@ -40,6 +41,8 @@ MonoBehaviour:
   - Beast
   - X Antibody
   CardSpriteName: EX5-018
+  PrintID: EX5-018
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u300C\u30AC\u30EB\u30EB\u30E2\u30F3\u300D:\u30B3\u30B9\u30C80\u3010\u9032\u5316\u6642\u3011\u226A2\u30C9\u30ED\u30FC\u226B\u3002\u305D\u306E\u5F8C\u3001\u81EA\u5206\u306E\u624B\u672D\u30922\u679A\u7834\u68C4\u3059\u308B\u3002\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u306B\u300C\u30AC\u30EB\u30EB\u30E2\u30F3\u300D/\u300CX\u6297\u4F53\u300D\u304C\u3042\u308B\u306A\u3089\u3001\u30E1\u30E2\u30EA\u30FC+1\u3002"
   EffectDiscription_ENG: "[When Digivolving] \uFF1CDraw 2\uFF1E (Draw 2 cards from
@@ -56,5 +59,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX5-018
   MaxCountInDeck: 4

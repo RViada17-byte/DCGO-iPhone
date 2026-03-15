@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_012
   m_EditorClassIdentifier: 
   CardIndex: 7531
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Reptile
   - LIBERATOR
   CardSpriteName: BT24-012
+  PrintID: BT24-012
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CBlocker\uFF1E \n[All Turns] When any of your other

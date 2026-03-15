@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_009
   m_EditorClassIdentifier: 
   CardIndex: 3855
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 3
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Demon
   CardSpriteName: BT18-009
+  PrintID: BT18-009
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[All Turns] Your opponent can''t gain memory except with
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-009
   MaxCountInDeck: 4

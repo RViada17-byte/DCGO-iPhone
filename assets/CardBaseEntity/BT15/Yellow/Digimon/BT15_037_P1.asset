@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_037_P1
   m_EditorClassIdentifier: 
   CardIndex: 3163
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Holy Beast
   CardSpriteName: BT15-037_P1
+  PrintID: BT15-037_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: When an effect trashes this card from the security stack,
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-037
   MaxCountInDeck: 4

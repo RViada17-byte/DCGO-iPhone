@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_047
   m_EditorClassIdentifier: 
   CardIndex: 7576
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 4
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Giant Bird
   CardSpriteName: BT24-047
+  PrintID: BT24-047
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] You may suspend 1 Digimon.

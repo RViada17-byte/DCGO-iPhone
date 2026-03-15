@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST14_11_P0
   m_EditorClassIdentifier: 
   CardIndex: 4924
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Tamer
   CardSpriteName: ST14-11_P0
+  PrintID: ST14-11_P0
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] Reveal the top 4 cards of your deck. Add 1 Digimon
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST14-11
   MaxCountInDeck: 4

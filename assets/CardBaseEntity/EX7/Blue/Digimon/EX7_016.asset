@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_016
   m_EditorClassIdentifier: 
   CardIndex: 3705
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 3
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Mini Dragon
   - Ice-Snow
   CardSpriteName: EX7-016
+  PrintID: EX7-016
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] Reveal the top 3 cards of your deck. Add 1 card
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-016
   MaxCountInDeck: 4

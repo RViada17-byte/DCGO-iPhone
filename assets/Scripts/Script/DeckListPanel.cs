@@ -26,6 +26,10 @@ public class DeckListPanel : MonoBehaviour
     {
         detailCard.OffDetailCard();
 
+        List<CEntity_Base> deckCards = deckData != null
+            ? deckData.AllDeckCards()
+            : new List<CEntity_Base>();
+
         for (int i = 0; i < DeckScroll.content.childCount; i++)
         {
             Destroy(DeckScroll.content.GetChild(i).gameObject);
@@ -43,12 +47,7 @@ public class DeckListPanel : MonoBehaviour
         #endregion
 
         #region デッキのカードを取得
-        List<CEntity_Base> DeckCards = new List<CEntity_Base>();
-
-        foreach (CEntity_Base cEntity_Base in deckData.AllDeckCards())
-        {
-            DeckCards.Add(cEntity_Base);
-        }
+        List<CEntity_Base> DeckCards = deckCards;
         #endregion
 
         #region デッキのカードを生成
@@ -88,7 +87,11 @@ public class DeckListPanel : MonoBehaviour
 
     IEnumerator OpenCoroutine(DeckData deckData)
     {
-        yield return new WaitWhile(() => DeckScroll.content.childCount < deckData.AllDeckCards().Count);
+        List<CEntity_Base> deckCards = deckData != null
+            ? deckData.AllDeckCards()
+            : new List<CEntity_Base>();
+
+        yield return new WaitWhile(() => DeckScroll.content.childCount < deckCards.Count);
         yield return new WaitForSeconds(Time.deltaTime);
 
         Open();

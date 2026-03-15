@@ -1098,6 +1098,486 @@
           "text": "Act like the tournament is dangerous now. Because it is."
         }
       ]
+    },
+    {
+      "id": "scene.story.act2.adventure.01.pre",
+      "title": "Izzy Pre-Battle",
+      "speaker": "Izzy",
+      "portraitId": "adventure_izzy",
+      "lines": [
+        {
+          "text": "You made it back. Good."
+        },
+        {
+          "text": "I reviewed Takato's warning and the traces you brought from Tamers. The fifth Key that should authorize tournament entry is gone from the registry."
+        },
+        {
+          "text": "We can wait and lose the trail, or investigate the worlds while the distortion is still active."
+        },
+        {
+          "text": "Starting here. I need clean data, and the easiest way to force it out is a duel inside the fault line."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act2.adventure.01.post",
+      "title": "Izzy Post-Battle",
+      "speaker": "Izzy",
+      "portraitId": "adventure_izzy",
+      "lines": [
+        {
+          "text": "Perfect. The local logs reacted the moment the duel escalated."
+        },
+        {
+          "text": "Something injected a spectator process into Adventure from outside the world."
+        },
+        {
+          "text": "It carries tournament credentials, but the signature is masked."
+        },
+        {
+          "text": "Matt is tracing where it moved next. Go see what he found."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act2.adventure.02.pre",
+      "title": "Matt Pre-Battle",
+      "speaker": "Matt",
+      "portraitId": "adventure_matt",
+      "lines": [
+        {
+          "text": "Izzy sent you? Figures."
+        },
+        {
+          "text": "Adventure's battle records are clean until they're not. Whole matches exist in the logs that nobody here remembers fighting."
+        },
+        {
+          "text": "Someone is editing this world after the fact and calling it tournament maintenance."
+        },
+        {
+          "text": "If the organizer is behind this, I want proof. Duel me inside the bad sector."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act2.adventure.02.post",
+      "title": "Matt Post-Battle",
+      "speaker": "Matt",
+      "portraitId": "adventure_matt",
+      "lines": [
+        {
+          "text": "There. The fake records moved when the pressure spiked."
+        },
+        {
+          "text": "Whoever wrote them isn't just watching worlds. They're steering them."
+        },
+        {
+          "text": "The trail branches through Tai's layer and then jumps toward 02."
+        },
+        {
+          "text": "So go make Tai open it."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act2.adventure.03.pre",
+      "title": "Tai Pre-Battle",
+      "speaker": "Tai",
+      "portraitId": "adventure_tai",
+      "lines": [
+        {
+          "text": "Izzy filled me in. Missing Key, bad logs, weird tournament signatures. Not exactly the kind of rematch I expected."
+        },
+        {
+          "text": "Adventure always opens roads. Right now it's opening one somebody else picked."
+        },
+        {
+          "text": "If the organizer thinks they can hide behind system messages, let's hit hard enough to shake them loose."
+        },
+        {
+          "text": "Win or lose, this duel should force the path to show itself."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act2.adventure.03.post",
+      "title": "Tai Post-Battle",
+      "speaker": "Tai",
+      "portraitId": "adventure_tai",
+      "lines": [
+        {
+          "text": "There it is. A routing pulse straight into the 02 shard."
+        },
+        {
+          "text": "Not random, either. It fired the second Adventure's data stabilized."
+        },
+        {
+          "text": "Take this result back to Izzy, then keep moving. 02 is next."
+        },
+        {
+          "text": "If this thing is collecting worlds, we don't give it time to finish."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act2.adventure02.01.pre",
+      "title": "Yolei Pre-Battle",
+      "speaker": "Yolei",
+      "portraitId": "adventure02_yolei",
+      "lines": [
+        {
+          "text": "Okay, wow, Izzy's log dump is a mess. Which usually means it's important."
+        },
+        {
+          "text": "02 is great at one thing: making impossible connections happen anyway."
+        },
+        {
+          "text": "If somebody is stitching worlds together through duels, we'll see the seams here."
+        },
+        {
+          "text": "Let's stress the link and watch what falls out."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act2.adventure02.01.post",
+      "title": "Yolei Post-Battle",
+      "speaker": "Yolei",
+      "portraitId": "adventure02_yolei",
+      "lines": [
+        {
+          "text": "Ew. Yep. That's definitely a seam."
+        },
+        {
+          "text": "The distortion keeps pairing battle data with people who were never in the room."
+        },
+        {
+          "text": "Some of those tags belong to Data Squad again, which makes zero sense here."
+        },
+        {
+          "text": "Ken needs to see this."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act2.adventure02.02.pre",
+      "title": "Ken Pre-Battle",
+      "speaker": "Ken",
+      "portraitId": "adventure02_ken",
+      "lines": [
+        {
+          "text": "I expected unstable links. I didn't expect intentional ones."
+        },
+        {
+          "text": "These packets aren't colliding by accident. They're being braided together around Key signatures."
+        },
+        {
+          "text": "Four signatures match the Keys you've earned."
+        },
+        {
+          "text": "The fifth is present only as an empty space, like someone removed it and kept the socket alive."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act2.adventure02.02.post",
+      "title": "Ken Post-Battle",
+      "speaker": "Ken",
+      "portraitId": "adventure02_ken",
+      "lines": [
+        {
+          "text": "That confirms it."
+        },
+        {
+          "text": "Someone is using the missing fifth Key as a relay point between worlds."
+        },
+        {
+          "text": "The tournament isn't just observing cross-world pressure. It's building a network out of it."
+        },
+        {
+          "text": "Davis can force the next route open. Go."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act2.adventure02.03.pre",
+      "title": "Davis Pre-Battle",
+      "speaker": "Davis",
+      "portraitId": "adventure02_davis",
+      "lines": [
+        {
+          "text": "So let me get this straight. We can't enter the tournament because the fifth Key vanished, and now some creep might be using it to mess with everybody?"
+        },
+        {
+          "text": "Great. I officially hate this plan."
+        },
+        {
+          "text": "But if we need one loud duel to kick the door in, that's my specialty."
+        },
+        {
+          "text": "Let's make the system answer."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act2.adventure02.03.post",
+      "title": "Davis Post-Battle",
+      "speaker": "Davis",
+      "portraitId": "adventure02_davis",
+      "lines": [
+        {
+          "text": "Ha. Knew it."
+        },
+        {
+          "text": "The route didn't break. It ran. Straight into Frontier."
+        },
+        {
+          "text": "And whatever moved through it was fast, like it knew we were getting close."
+        },
+        {
+          "text": "Don't stop now."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act2.frontier.01.pre",
+      "title": "Takuya Pre-Battle",
+      "speaker": "Takuya",
+      "portraitId": "frontier_takuya",
+      "lines": [
+        {
+          "text": "Izzy's trace reached us first. Frontier heard it like thunder."
+        },
+        {
+          "text": "Distortions leave tracks here. Even lies have to choose a direction."
+        },
+        {
+          "text": "Right now every trail points uphill, like something is dragging whole worlds toward the same summit."
+        },
+        {
+          "text": "Duel me. Let's see what the path reveals under pressure."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act2.frontier.01.post",
+      "title": "Takuya Post-Battle",
+      "speaker": "Takuya",
+      "portraitId": "frontier_takuya",
+      "lines": [
+        {
+          "text": "The trail split when the duel peaked."
+        },
+        {
+          "text": "One branch loops back toward the tournament hub. The other dives into shadow and heads deeper."
+        },
+        {
+          "text": "Koji can read that part better than I can."
+        },
+        {
+          "text": "Go before it cools off."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act2.frontier.02.pre",
+      "title": "Koji Pre-Battle",
+      "speaker": "Koji",
+      "portraitId": "frontier_koji",
+      "lines": [
+        {
+          "text": "Takuya's right. The second trail is hidden on purpose."
+        },
+        {
+          "text": "It's not just crossing worlds. It's rewriting its own footprints so nobody can follow it cleanly."
+        },
+        {
+          "text": "That means intelligence, access, and enough authority to touch the system after a duel ends."
+        },
+        {
+          "text": "I want a cleaner sample. Duel."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act2.frontier.02.post",
+      "title": "Koji Post-Battle",
+      "speaker": "Koji",
+      "portraitId": "frontier_koji",
+      "lines": [
+        {
+          "text": "Better."
+        },
+        {
+          "text": "The edits happen milliseconds after the result locks, like a handler is waiting for confirmation."
+        },
+        {
+          "text": "It tags every altered record with the same suppressed organizer stamp."
+        },
+        {
+          "text": "Koichi's been watching where those tags disappear. Finish this with him."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act2.frontier.03.pre",
+      "title": "Koichi Pre-Battle",
+      "speaker": "Koichi",
+      "portraitId": "frontier_koichi",
+      "lines": [
+        {
+          "text": "Frontier has always been good at noticing what doesn't belong."
+        },
+        {
+          "text": "The missing trail isn't gone. It's out of phase, resting between where the worlds think they end."
+        },
+        {
+          "text": "That kind of displacement would explain why Tamers keeps echoing people from Data Squad even after you left."
+        },
+        {
+          "text": "If we sharpen the signal here, we can catch where it slips next."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act2.frontier.03.post",
+      "title": "Koichi Post-Battle",
+      "speaker": "Koichi",
+      "portraitId": "frontier_koichi",
+      "lines": [
+        {
+          "text": "We found it."
+        },
+        {
+          "text": "The next fault is opening in Tamers right now, and it's wider than before."
+        },
+        {
+          "text": "Whatever is behind this is done hiding and ready to pull something through."
+        },
+        {
+          "text": "Hurry. Henry will need you before the world closes around it."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act2.tamers.01.pre",
+      "title": "Rika Pre-Battle",
+      "speaker": "Rika",
+      "portraitId": "tamers_rika",
+      "lines": [
+        {
+          "text": "Took you long enough."
+        },
+        {
+          "text": "Tamers was bad before. Now the world keeps replaying fights that never happened and faces that shouldn't still be here."
+        },
+        {
+          "text": "Data Squad echoes, broken matchups, spectators with no bodies. It's disgusting."
+        },
+        {
+          "text": "If you want answers, stop staring and duel."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act2.tamers.01.post",
+      "title": "Rika Post-Battle",
+      "speaker": "Rika",
+      "portraitId": "tamers_rika",
+      "lines": [
+        {
+          "text": "Hm. Good."
+        },
+        {
+          "text": "The false fights reacted harder to this duel than they did to any of mine."
+        },
+        {
+          "text": "Something in the distortion is prioritizing you now."
+        },
+        {
+          "text": "Takato's tracking the emotional pattern behind it. Go."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act2.tamers.02.pre",
+      "title": "Takato Pre-Battle",
+      "speaker": "Takato",
+      "portraitId": "tamers_takato",
+      "lines": [
+        {
+          "text": "I wish Rika were exaggerating, but she isn't."
+        },
+        {
+          "text": "Tamers turns feelings, intent, and imagination into shape. That's why this distortion is so dangerous here."
+        },
+        {
+          "text": "Someone is feeding it match pressure and using the tournament framework to keep it coherent."
+        },
+        {
+          "text": "If we push back carefully, Henry and Izzy might get a lock on the source."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act2.tamers.02.post",
+      "title": "Takato Post-Battle",
+      "speaker": "Takato",
+      "portraitId": "tamers_takato",
+      "lines": [
+        {
+          "text": "We got one."
+        },
+        {
+          "text": "The distortion answered with a location ping, but it isn't a normal world ID."
+        },
+        {
+          "text": "It's labeled like a sandbox, or a test field that got promoted into something bigger."
+        },
+        {
+          "text": "Henry's isolating the rest. Go now."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act2.tamers.03.pre",
+      "title": "Henry Pre-Battle",
+      "speaker": "Henry",
+      "portraitId": "tamers_henry",
+      "lines": [
+        {
+          "text": "Izzy is on comms. He sees the same thing we do."
+        },
+        {
+          "text": "The organizer signature is real, the missing fifth Key is acting like a bridge, and the new destination doesn't belong anywhere on the old map."
+        },
+        {
+          "text": "If this duel stabilizes the signal, we'll know whether we're chasing a culprit or walking into a trap."
+        },
+        {
+          "text": "Stay focused. The world is already starting to bend."
+        }
+      ]
+    },
+    {
+      "id": "scene.story.act2.tamers.03.post",
+      "title": "Henry Post-Battle",
+      "speaker": "Henry",
+      "portraitId": "tamers_henry",
+      "lines": [
+        {
+          "text": "That's it. We have a lock."
+        },
+        {
+          "text": "The organizer isn't just watching. It's using the missing fifth Key to drag a new world into the bracket."
+        },
+        {
+          "text": "Izzy just resolved a name. Liberator."
+        },
+        {
+          "text": "The distortion is opening right on top of us. Hold on."
+        }
+      ]
     }
   ]
 }

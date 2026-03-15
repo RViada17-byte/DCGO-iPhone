@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_007_P1
   m_EditorClassIdentifier: 
   CardIndex: 4062
+  LegacyCardIndices: 
   cardColors: 0000000003000000
   PlayCost: 3
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Reptile
   - LIBERATOR
   CardSpriteName: EX8-007_P1
+  PrintID: EX8-007_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Koromon]: Cost 0 \n\n[On Play] Reveal the top
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-007
   MaxCountInDeck: 4

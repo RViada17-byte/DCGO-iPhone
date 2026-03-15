@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX5_014_P1
   m_EditorClassIdentifier: 
   CardIndex: 4210
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 12
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Olympos XII
   - Light Fang
   CardSpriteName: EX5-014_P1
+  PrintID: EX5-014_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.5 w/[Light Fang]/[Night Claw]\_trait: Cost
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX5-014
   MaxCountInDeck: 4

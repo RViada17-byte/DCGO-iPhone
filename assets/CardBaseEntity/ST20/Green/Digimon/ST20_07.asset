@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST20_07
   m_EditorClassIdentifier: 
   CardIndex: 5269
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Insectoid
   - ADVENTURE
   CardSpriteName: ST20-07
+  PrintID: ST20-07
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.2 w/[ADVENTURE]\_trait: Cost 0 \n\n[Opponent's
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 3000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST20-07
   MaxCountInDeck: 4

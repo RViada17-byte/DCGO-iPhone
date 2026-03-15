@@ -42,7 +42,7 @@ public class GreedyShadowBrain : IAIBrain
                 : "opener already has workable early curve");
     }
 
-    public AIChosenAction DecideBreeding(AISnapshot snapshot)
+    public AIChosenAction DecideBreeding(AISnapshot snapshot, GameContext gameContext = null, Player player = null)
     {
         List<Tuple<AIChosenAction, AIActionScore>> options = new List<Tuple<AIChosenAction, AIActionScore>>();
 
@@ -58,6 +58,35 @@ public class GreedyShadowBrain : IAIBrain
 
         if (snapshot != null && snapshot.Self.CanMove)
         {
+            AIVisibleLethalPlan boardLethalPlan = null;
+            AIVisibleLethalPlan raiseLethalPlan = null;
+            if (gameContext != null && player != null)
+            {
+                List<AIMainPhaseCandidate> boardCandidates = AIMainPhaseCandidateBuilder.Build(gameContext, player);
+                List<AIMainPhaseCandidate> projectedCandidates = AIMainPhaseCandidateBuilder.BuildForProjectedMoveOut(gameContext, player);
+                boardLethalPlan = AIVisibleLethalDetector.FindVisibleLethal(snapshot, boardCandidates);
+                raiseLethalPlan = AIVisibleLethalDetector.FindVisibleLethal(snapshot, projectedCandidates, requiresRaise: true);
+            }
+
+            if (boardLethalPlan == null && raiseLethalPlan != null)
+            {
+                AIActionScore lethalMoveScore = CreateScore("Move out from breeding");
+                AddScore(lethalMoveScore, 120000f, "raise reveals visible lethal");
+                AddScore(lethalMoveScore, 500f, raiseLethalPlan.Reason);
+
+                AIActionScore lethalStayScore = CreateScore("Stay hidden in breeding");
+                AddScore(lethalStayScore, -120000f, "stay hidden gives up visible lethal");
+
+                return AIChosenAction.Create(
+                    AIChosenAction.AIDecisionType.Breeding,
+                    AIChosenAction.AIActionKind.MoveOut,
+                    "Move out from breeding",
+                    AITurnGoal.CloseGame,
+                    lethalMoveScore,
+                    new List<AIActionScore> { lethalStayScore },
+                    goalReason: raiseLethalPlan.Reason);
+            }
+
             int breedingValue = snapshot.Self.BreedingPermanents.Count > 0
                 ? snapshot.Self.BreedingPermanents[0].StackCount + snapshot.Self.BreedingPermanents[0].Level
                 : 0;
@@ -118,13 +147,14 @@ public class GreedyShadowBrain : IAIBrain
             return AIChosenAction.Create(AIChosenAction.AIDecisionType.MainPhase, AIChosenAction.AIActionKind.EndTurn, "End Turn", AITurnGoal.MemoryChoke, endTurnScore, goalReason: "no legal main-phase candidate exists");
         }
 
-        GoalSelection goalSelection = SelectGoal(snapshot, candidateList);
+        AIVisibleLethalPlan visibleLethalPlan = AIVisibleLethalDetector.FindVisibleLethal(snapshot, candidateList);
+        GoalSelection goalSelection = SelectGoal(snapshot, candidateList, visibleLethalPlan);
         AITurnGoal goal = goalSelection.Goal;
         List<ScoredCandidate> scoredCandidates = candidateList
             .Select(candidate => new ScoredCandidate
             {
                 Candidate = candidate,
-                Score = ScoreCandidate(snapshot, goal, candidate, candidateList),
+                Score = ScoreCandidate(snapshot, goal, candidate, candidateList, visibleLethalPlan),
             })
             .OrderByDescending(result => result.Score.TotalScore)
             .ThenBy(result => result.Candidate.Summary)
@@ -140,11 +170,16 @@ public class GreedyShadowBrain : IAIBrain
         return AIChosenAction.FromCandidate(best.Candidate, goal, best.Score, topAlternatives, goalSelection.Reason);
     }
 
-    static GoalSelection SelectGoal(AISnapshot snapshot, List<AIMainPhaseCandidate> candidates)
+    static GoalSelection SelectGoal(AISnapshot snapshot, List<AIMainPhaseCandidate> candidates, AIVisibleLethalPlan visibleLethalPlan)
     {
         if (snapshot == null)
         {
             return Goal(AITurnGoal.ValueSetup, "snapshot missing, default to generic value setup");
+        }
+
+        if (visibleLethalPlan != null)
+        {
+            return Goal(AITurnGoal.CloseGame, visibleLethalPlan.Reason);
         }
 
         bool hasSecurityPressure = candidates.Any(candidate => candidate.ActionType == AIMainPhaseActionType.AttackSecurity);
@@ -200,12 +235,12 @@ public class GreedyShadowBrain : IAIBrain
         return Goal(AITurnGoal.ValueSetup, "default value setup fallback after no higher-priority goal condition fired");
     }
 
-    static AIActionScore ScoreCandidate(AISnapshot snapshot, AITurnGoal goal, AIMainPhaseCandidate candidate, IReadOnlyList<AIMainPhaseCandidate> candidates)
+    static AIActionScore ScoreCandidate(AISnapshot snapshot, AITurnGoal goal, AIMainPhaseCandidate candidate, IReadOnlyList<AIMainPhaseCandidate> candidates, AIVisibleLethalPlan visibleLethalPlan)
     {
         AIActionScore score = CreateScore(candidate.Summary);
         score.DownstreamResolutionNotControlled = candidate.DownstreamResolutionNotControlled;
 
-        ApplyHardRules(snapshot, goal, candidate, score);
+        ApplyHardRules(snapshot, goal, candidate, score, visibleLethalPlan);
         ApplyGoalBias(goal, candidate, score);
         ApplyGenericHeuristics(snapshot, candidate, score);
         ApplyRaceHeuristics(snapshot, candidate, score);
@@ -282,7 +317,7 @@ public class GreedyShadowBrain : IAIBrain
         }
     }
 
-    static void ApplyHardRules(AISnapshot snapshot, AITurnGoal goal, AIMainPhaseCandidate candidate, AIActionScore score)
+    static void ApplyHardRules(AISnapshot snapshot, AITurnGoal goal, AIMainPhaseCandidate candidate, AIActionScore score, AIVisibleLethalPlan visibleLethalPlan)
     {
         if (snapshot == null)
         {
@@ -290,6 +325,18 @@ public class GreedyShadowBrain : IAIBrain
         }
 
         bool opponentHasBlocker = snapshot.Opponent.BlockerCount > 0;
+
+        if (visibleLethalPlan != null)
+        {
+            if (visibleLethalPlan.IsFirstStep(candidate))
+            {
+                AddScore(score, 90000f, "visible lethal first step");
+            }
+            else if (IsNonLethalSetupValueAction(candidate))
+            {
+                AddScore(score, -12000f, "visible lethal exists, do not set up");
+            }
+        }
 
         if (candidate.ActionType == AIMainPhaseActionType.AttackSecurity && snapshot.Opponent.SecurityCount <= 1)
         {
@@ -310,6 +357,24 @@ public class GreedyShadowBrain : IAIBrain
         {
             AddScore(score, -120f, "protect premium stack from visible risk");
         }
+    }
+
+    static bool IsNonLethalSetupValueAction(AIMainPhaseCandidate candidate)
+    {
+        if (candidate == null)
+        {
+            return false;
+        }
+
+        return candidate.ActionType == AIMainPhaseActionType.EndTurn
+            || candidate.ActionType == AIMainPhaseActionType.Play
+            || candidate.ActionType == AIMainPhaseActionType.Digivolve
+            || candidate.ActionType == AIMainPhaseActionType.Jogress
+            || candidate.ActionType == AIMainPhaseActionType.Burst
+            || candidate.ActionType == AIMainPhaseActionType.AppFusion
+            || candidate.ActionType == AIMainPhaseActionType.UseFieldEffect
+            || candidate.ActionType == AIMainPhaseActionType.UseHandEffect
+            || candidate.ActionType == AIMainPhaseActionType.UseTrashEffect;
     }
 
     static void ApplyGoalBias(AITurnGoal goal, AIMainPhaseCandidate candidate, AIActionScore score)

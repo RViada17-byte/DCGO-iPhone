@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_032
   m_EditorClassIdentifier: 
   CardIndex: 7364
+  LegacyCardIndices: 
   cardColors: 0200000005000000
   PlayCost: 8
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   - CS
   - Angel
   CardSpriteName: BT23-032
+  PrintID: BT23-032
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[When Digivolving] Until your opponent's turn ends, give

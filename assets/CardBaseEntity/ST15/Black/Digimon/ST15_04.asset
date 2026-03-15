@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST15_04
   m_EditorClassIdentifier: 
   CardIndex: 2833
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Machine
   CardSpriteName: ST15-04
+  PrintID: ST15-04
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u306E\u4E0A\u304B\u30891\u679A\u30AA\u30FC\u30D7\u30F3\u3059\u308B\u3002\u305D\u306E\u30AB\u30FC\u30C9\u304C\u9ED2\u306E\u30AB\u30FC\u30C9\u306A\u3089\u624B\u672D\u306B\u52A0\u3048\u308B\u3002\u6B8B\u308A\u306F\u7834\u68C4\u3059\u308B\u3002"
   EffectDiscription_ENG: '[On Play] Reveal the top card of your deck. If it''s a
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST15-04
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT12_063_P0
   m_EditorClassIdentifier: 
   CardIndex: 4515
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 5
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Mutant
   - Xros Heart
   CardSpriteName: BT12-063_P0
+  PrintID: BT12-063_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.3 w/\uFF1CSave\uFF1E\_in its text: Cost 2
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT12-063
   MaxCountInDeck: 4

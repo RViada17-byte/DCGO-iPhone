@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_025_P1
   m_EditorClassIdentifier: 
   CardIndex: 10345
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 11
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Insectoid
   CardSpriteName: P-025_P1
+  PrintID: P-025_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] \uFF1CDigi-Burst 2\uFF1E.\n\u30FB1 of your digimon
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-025
   MaxCountInDeck: 1

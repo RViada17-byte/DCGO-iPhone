@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX5_070_P1
   m_EditorClassIdentifier: 
   CardIndex: 4236
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 0
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - X Antibody
   CardSpriteName: EX5-070_P1
+  PrintID: EX5-070_P1
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you have a Digimon, you may ignore this card's color
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 0
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX5-070
   MaxCountInDeck: 4

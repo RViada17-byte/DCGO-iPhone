@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX4_023_P1
   m_EditorClassIdentifier: 
   CardIndex: 4241
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Dinosaur
   CardSpriteName: EX4-023_P1
+  PrintID: EX4-023_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Opponent''s Turn] [Once Per Turn] When an opponent plays
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX4-023
   MaxCountInDeck: 4

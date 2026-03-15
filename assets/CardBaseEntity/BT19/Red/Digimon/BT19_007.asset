@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_007
   m_EditorClassIdentifier: 
   CardIndex: 5008
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 3
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Reptile
   CardSpriteName: BT19-007
+  PrintID: BT19-007
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Start of Your Main Phase] If you have [Takato Matsuki]/[Calumon],
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-007
   MaxCountInDeck: 4

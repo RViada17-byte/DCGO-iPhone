@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST2_11
   m_EditorClassIdentifier: 
   CardIndex: 62
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 12
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Cyborg
   CardSpriteName: ST2-11
+  PrintID: ST2-11
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u3059\u308B\u3002"
   EffectDiscription_ENG: '[When Attacking][Once Per Turn] Unsuspend this Digimon.'
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST2-11
   MaxCountInDeck: 4

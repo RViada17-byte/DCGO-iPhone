@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_028
   m_EditorClassIdentifier: 
   CardIndex: 3869
+  LegacyCardIndices: 
   cardColors: 0100000000000000
   PlayCost: 11
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Ten Warriors
   - Ice-Snow
   CardSpriteName: BT18-028
+  PrintID: BT18-028
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] Trash the bottom 2 digivolution
@@ -54,5 +57,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-028
   MaxCountInDeck: 4

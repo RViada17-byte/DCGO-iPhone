@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT12_043_P4
   m_EditorClassIdentifier: 
   CardIndex: 4501
+  LegacyCardIndices: 
   cardColors: 0200000000000000
   PlayCost: 12
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Light Dragon
   CardSpriteName: BT12-043_P4
+  PrintID: BT12-043_P4
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.5 w/[RizeGreymon]\_in its name: Cost 3 \n\n[When
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT12-043
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX9_011_P2
   m_EditorClassIdentifier: 
   CardIndex: 6854
+  LegacyCardIndices: 
   cardColors: 0000000005000000
   PlayCost: 7
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - DM
   - Ver.1
   CardSpriteName: EX9-011_P2
+  PrintID: EX9-011_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Greymon]\_in name or w/[DM]\_trait:

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_086
   m_EditorClassIdentifier: 
   CardIndex: 7434
+  LegacyCardIndices: 
   cardColors: 0500000000000000
   PlayCost: 5
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - Zaxon
   - CS
   CardSpriteName: BT23-086
+  PrintID: BT23-086
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Turn] If you have 2 or less memory, set

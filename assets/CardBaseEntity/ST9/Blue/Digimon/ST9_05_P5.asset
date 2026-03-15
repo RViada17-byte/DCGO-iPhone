@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST9_05_P5
   m_EditorClassIdentifier: 
   CardIndex: 4999
+  LegacyCardIndices: 
   cardColors: 0100000003000000
   PlayCost: 8
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Dragonkin
   CardSpriteName: ST9-05_P5
+  PrintID: ST9-05_P5
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[When Digivolving] When DNA digivolving, return 1 of your
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST9-05
   MaxCountInDeck: 4

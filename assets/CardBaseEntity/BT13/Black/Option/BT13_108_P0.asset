@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT13_108_P0
   m_EditorClassIdentifier: 
   CardIndex: 4628
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 6
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: BT13-108_P0
+  PrintID: BT13-108_P0
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Main] Until the end of your opponent''s turn, 1 of your
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT13-108
   MaxCountInDeck: 4

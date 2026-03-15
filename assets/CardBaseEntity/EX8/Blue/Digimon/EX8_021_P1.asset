@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_021_P1
   m_EditorClassIdentifier: 
   CardIndex: 4088
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 5
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Aquatic
   - DS
   CardSpriteName: EX8-021_P1
+  PrintID: EX8-021_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.3 w/[DS]\_trait: Cost 2 \n\n[When Attacking]
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-021
   MaxCountInDeck: 4

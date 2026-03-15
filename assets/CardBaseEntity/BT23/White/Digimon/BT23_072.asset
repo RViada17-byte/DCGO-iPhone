@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_072
   m_EditorClassIdentifier: 
   CardIndex: 7410
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 6
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - 9000
   - CS
   CardSpriteName: BT23-072
+  PrintID: BT23-072
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Hand] [Main] By paying 3 cost and placing this card as

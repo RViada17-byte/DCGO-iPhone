@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_016
   m_EditorClassIdentifier: 
   CardIndex: 3457
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Mammal
   CardSpriteName: EX6-016
+  PrintID: EX6-016
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Start of Your Main Phase] If you have a purple Digimon
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX6-016
   MaxCountInDeck: 4

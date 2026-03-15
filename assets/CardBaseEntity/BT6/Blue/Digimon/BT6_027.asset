@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT6_027
   m_EditorClassIdentifier: 
   CardIndex: 1143
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 7
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Holy Dragon
   - Deva
   CardSpriteName: BT6-027
+  PrintID: BT6-027
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306E\u9032\u5316\u5143\u3092\u3001\u4E0A\u304B\u30891\u679A\u7834\u68C4\u3059\u308B\u3002"
   EffectDiscription_ENG: '[When Digivolving] Trash 1 digivolution card from the top
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT6-027
   MaxCountInDeck: 4

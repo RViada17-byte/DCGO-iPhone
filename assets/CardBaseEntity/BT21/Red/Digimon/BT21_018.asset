@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_018
   m_EditorClassIdentifier: 
   CardIndex: 5326
+  LegacyCardIndices: 
   cardColors: 0000000003000000
   PlayCost: 6
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Super Search
   - Hero
   CardSpriteName: BT21-018
+  PrintID: BT21-018
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[App Fusion] [Gatchmon] & [Navimon]\_& [Tweetmon]: Cost

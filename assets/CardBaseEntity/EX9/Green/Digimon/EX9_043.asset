@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX9_043
   m_EditorClassIdentifier: 
   CardIndex: 6917
+  LegacyCardIndices: 
   cardColors: 0300000005000000
   PlayCost: 7
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - DM
   - Ver.5
   CardSpriteName: EX9-043
+  PrintID: EX9-043
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Tyrannomon]\_in name or w/[DM]\_trait:

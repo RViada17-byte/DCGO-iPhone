@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT13_109
   m_EditorClassIdentifier: 
   CardIndex: 2779
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 6
   EvoCosts: []
@@ -26,6 +27,8 @@ MonoBehaviour:
   Type_JPN: []
   Type_ENG: []
   CardSpriteName: BT13-109
+  PrintID: BT13-109
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011Lv.6\u4EE5\u4E0A\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3002\u305D\u306E\u5F8C\u3001\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u306E\u300C\u30D9\u30EB\u30D5\u30A7\u30E2\u30F3\uFF1A\u30B9\u30EA\u30FC\u30D7\u30E2\u30FC\u30C9\u300D\u306B\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u9032\u5316\u3067\u304D\u308B\u3002"
   EffectDiscription_ENG: '[Main] Delete 1 of your opponent''s level 6 or higher Digimon.

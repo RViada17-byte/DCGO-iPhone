@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST5_11_P1
   m_EditorClassIdentifier: 
   CardIndex: 4986
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 7
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Cyborg
   CardSpriteName: ST5-11_P1
+  PrintID: ST5-11_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '-'
@@ -43,5 +46,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST5-11
   MaxCountInDeck: 4

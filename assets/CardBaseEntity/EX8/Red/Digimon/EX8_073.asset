@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_073
   m_EditorClassIdentifier: 
   CardIndex: 4190
+  LegacyCardIndices: 
   cardColors: 000000000100000002000000
   PlayCost: 12
   EvoCosts:
@@ -40,6 +41,8 @@ MonoBehaviour:
   - X Antibody
   - Royal Knight
   CardSpriteName: EX8-073
+  PrintID: EX8-073
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Gallantmon]: Cost 1 \n\n[When Digivolving]
@@ -58,5 +61,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 4
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-073
   MaxCountInDeck: 4

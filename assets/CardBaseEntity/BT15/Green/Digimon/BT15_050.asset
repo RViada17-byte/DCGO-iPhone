@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_050
   m_EditorClassIdentifier: 
   CardIndex: 3181
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 6
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Vegetation
   CardSpriteName: BT15-050
+  PrintID: BT15-050
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] Reveal the top 4 cards of your deck. Add 2 level
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-050
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST7_05_P1
   m_EditorClassIdentifier: 
   CardIndex: 573
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 4
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Dark Dragon
   CardSpriteName: ST7-05_P1
+  PrintID: ST7-05_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST7-05
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST22_09
   m_EditorClassIdentifier: 
   CardIndex: 7500
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Plug-In
   CardSpriteName: ST22-09
+  PrintID: ST22-09
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 'While you have a Tamer, you can ignore this card''s color

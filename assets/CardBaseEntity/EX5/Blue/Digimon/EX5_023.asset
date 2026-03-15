@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX5_023
   m_EditorClassIdentifier: 
   CardIndex: 3062
+  LegacyCardIndices: 
   cardColors: 0100000006000000
   PlayCost: 8
   EvoCosts:
@@ -40,6 +41,8 @@ MonoBehaviour:
   - Beastkin
   - X Antibody
   CardSpriteName: EX5-023
+  PrintID: EX5-023
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u300C\u30EF\u30FC\u30AC\u30EB\u30EB\u30E2\u30F3\u300D:\u30B3\u30B9\u30C81\u3010\u9032\u5316\u6642\u3011\u81EA\u5206\u306E\u624B\u672D\u30922\u679A\u7834\u68C4\u3059\u308B\u3053\u3068\u3067\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u3059\u308B\u3002\u305D\u306E\u5F8C\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u306B\u300C\u30EF\u30FC\u30AC\u30EB\u30EB\u30E2\u30F3\u300D/\u300CX\u6297\u4F53\u300D\u304C\u3042\u308B\u306A\u3089\u3001\u81EA\u5206\u306E\u30C8\u30E9\u30C3\u30B7\u30E5\u304B\u3089\u3001\u540D\u79F0\u306B\u300C\u30AC\u30EB\u30EB\u30E2\u30F3\u300D/\u300CX\u6297\u4F53\u300D\u3092\u542B\u3080\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u624B\u672D\u306B\u623B\u305B\u308B\u3002"
   EffectDiscription_ENG: "[When Digivolving] By trashing 2 cards in your hand, unsuspend
@@ -56,5 +59,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX5-023
   MaxCountInDeck: 4

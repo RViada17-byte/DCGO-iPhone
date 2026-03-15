@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_071
   m_EditorClassIdentifier: 
   CardIndex: 3204
+  LegacyCardIndices: 
   cardColors: 0600000000000000
   PlayCost: 3
   EvoCosts:
@@ -42,6 +43,8 @@ MonoBehaviour:
   - X Antibody
   - SoC
   CardSpriteName: BT15-071
+  PrintID: BT15-071
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[When Attacking] By trashing 1 card in your hand, delete
@@ -57,5 +60,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-071
   MaxCountInDeck: 4

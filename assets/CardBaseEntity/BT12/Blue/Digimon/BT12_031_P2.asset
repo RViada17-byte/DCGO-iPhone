@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT12_031_P2
   m_EditorClassIdentifier: 
   CardIndex: 4488
+  LegacyCardIndices: 
   cardColors: 0100000003000000
   PlayCost: 13
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Ancient Dragonkin
   CardSpriteName: BT12-031_P2
+  PrintID: BT12-031_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Imperialdramon: Dragon Mode]: Cost 2 \n\n[When
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 13000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT12-031
   MaxCountInDeck: 4

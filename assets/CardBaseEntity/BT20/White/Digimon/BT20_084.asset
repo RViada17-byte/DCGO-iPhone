@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_084
   m_EditorClassIdentifier: 
   CardIndex: 5163
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 5
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Puppet
   CardSpriteName: BT20-084
+  PrintID: BT20-084
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Sistermon Ciel]: Cost 1 \n\n[Trash] [All Turns]
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-084
   MaxCountInDeck: 4

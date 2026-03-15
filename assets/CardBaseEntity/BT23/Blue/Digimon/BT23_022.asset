@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_022
   m_EditorClassIdentifier: 
   CardIndex: 7354
+  LegacyCardIndices: 
   cardColors: 0100000000000000
   PlayCost: 9
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   Type_ENG:
   - Battle
   CardSpriteName: BT23-022
+  PrintID: BT23-022
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[App Fusion] [Dosukomon] & [Coachmon]: Cost 0\n\n\uFF1CRaid\uFF1E

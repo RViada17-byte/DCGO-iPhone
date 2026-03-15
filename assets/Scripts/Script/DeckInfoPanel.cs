@@ -47,6 +47,11 @@ public class DeckInfoPanel : MonoBehaviour
 
         if (deckData != null)
         {
+            CEntity_Base keyCard = deckData.KeyCard;
+            List<CEntity_Base> mainDeckCards = deckData.DeckCards();
+            List<CEntity_Base> digitamaDeckCards = deckData.DigitamaDeckCards();
+            bool isValidDeck = deckData.IsValidDeckData();
+
             if (GetComponent<Animator>() != null)
             {
                 GetComponent<Animator>().SetInteger("Open", 1);
@@ -56,11 +61,11 @@ public class DeckInfoPanel : MonoBehaviour
             ShowingDeckData = deckData;
 
             //MC card image
-            KeyCardImage.gameObject.SetActive(deckData.KeyCard != null);
+            KeyCardImage.gameObject.SetActive(keyCard != null);
 
-            if (deckData.KeyCard != null)
+            if (keyCard != null)
             {
-                KeyCardImage.sprite = await deckData.KeyCard.GetCardSprite();
+                KeyCardImage.sprite = await keyCard.GetCardSprite();
             }
 
             else
@@ -105,9 +110,9 @@ public class DeckInfoPanel : MonoBehaviour
             //Number of cards in the deck
             if (DeckCountText != null)
             {
-                DeckCountText.text = $"{deckData.DeckCards().Count}+{deckData.DigitamaDeckCards().Count}/50+5";
+                DeckCountText.text = $"{mainDeckCards.Count}+{digitamaDeckCards.Count}/50+5";
 
-                if (deckData.IsValidDeckData())
+                if (isValidDeck)
                 {
                     DeckCountText.color = new Color32(69, 255, 69, 255);
                 }
@@ -121,12 +126,12 @@ public class DeckInfoPanel : MonoBehaviour
             //Get Deck Code button
             if (GetDeckCodeButton != null)
             {
-                GetDeckCodeButton.gameObject.SetActive(deckData.IsValidDeckData());
+                GetDeckCodeButton.gameObject.SetActive(isValidDeck);
             }
 
             if (TrialDrawButton != null)
             {
-                TrialDrawButton.gameObject.SetActive(ShowingDeckData.DeckCards().Count >= 1);
+                TrialDrawButton.gameObject.SetActive(mainDeckCards.Count >= 1);
             }
         }
     }

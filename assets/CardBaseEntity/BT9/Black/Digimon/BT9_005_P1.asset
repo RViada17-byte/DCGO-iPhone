@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT9_005_P1
   m_EditorClassIdentifier: 
   CardIndex: 1785
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: -1
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   Type_ENG:
   - Rock
   CardSpriteName: BT9-005_P1
+  PrintID: BT9-005_P1
+  IsCanonicalPrint: 0
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 

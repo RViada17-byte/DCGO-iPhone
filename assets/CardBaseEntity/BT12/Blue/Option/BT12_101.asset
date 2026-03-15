@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT12_101
   m_EditorClassIdentifier: 
   CardIndex: 2528
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 3
   EvoCosts: []
@@ -26,6 +27,8 @@ MonoBehaviour:
   Type_JPN: []
   Type_ENG: []
   CardSpriteName: BT12-101
+  PrintID: BT12-101
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306E\u9032\u5316\u5143\u3092\u4E0A\u304B\u30893\u679A\u7834\u68C4\u3059\u308B\u3002\u305D\u306E\u5F8C\u3001\u7DD1\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u3044\u308B\u3068\u304D\u3001\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u7279\u5FB4\u306B\u300C\u30D5\u30EA\u30FC\u300D\u3092\u6301\u3064\u9752\u306ELv.4\u4EE5\u4E0B\u306E\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002"
   EffectDiscription_ENG: '[Main] Trash the top 3 digivolution cards of 1 of your

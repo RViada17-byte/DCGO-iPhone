@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_074_P1
   m_EditorClassIdentifier: 
   CardIndex: 7331
+  LegacyCardIndices: 
   cardColors: 0600000005000000
   PlayCost: 7
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Demon Lord
   - Seven Great Demon Lords
   CardSpriteName: EX10-074_P1
+  PrintID: EX10-074_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] While you have 20 or more cards in trash, Lv.3

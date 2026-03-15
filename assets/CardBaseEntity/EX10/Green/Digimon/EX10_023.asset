@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_023
   m_EditorClassIdentifier: 
   CardIndex: 7173
+  LegacyCardIndices: 
   cardColors: 0300000005000000
   PlayCost: 9
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Unidentified
   CardSpriteName: EX10-023
+  PrintID: EX10-023
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] While you have [Ryoma Mogami], [Astamon]: Cost

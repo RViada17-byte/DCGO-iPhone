@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX5_067
   m_EditorClassIdentifier: 
   CardIndex: 3106
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 5
   EvoCosts: []
@@ -28,6 +29,8 @@ MonoBehaviour:
   Type_ENG:
   - Night Claw
   CardSpriteName: EX5-067
+  PrintID: EX5-067
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u307E\u3067\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u3068\u30C6\u30A4\u30DE\u30FC1\u4F53\u305A\u3064\u306F\u30EC\u30B9\u30C8\u3067\u304D\u306A\u3044\u3002\u305D\u306E\u5F8C\u3001\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u7279\u5FB4\u306B\u300C\u30CA\u30A4\u30C8\u30AF\u30ED\u30A6\u300D/\u300C\u30E9\u30A4\u30C8\u30D5\u30A1\u30F3\u30B0\u300D\u3092\u6301\u3064\u30C6\u30A4\u30DE\u30FC\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002"
   EffectDiscription_ENG: "[Main] Until the end of your opponent's turn, 1 of your
@@ -42,5 +45,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX5-067
   MaxCountInDeck: 4

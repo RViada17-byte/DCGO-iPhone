@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_053
   m_EditorClassIdentifier: 
   CardIndex: 4151
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 11
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Mineral
   - Boss
   CardSpriteName: EX8-053
+  PrintID: EX8-053
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CBlocker\uFF1E \n[All Turns] While your opponent has
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-053
   MaxCountInDeck: 4

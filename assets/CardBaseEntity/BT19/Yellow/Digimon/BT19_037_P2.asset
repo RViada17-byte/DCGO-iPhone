@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_037_P2
   m_EditorClassIdentifier: 
   CardIndex: 5031
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 5
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Wizard
   CardSpriteName: BT19-037_P2
+  PrintID: BT19-037_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Hand] [Counter] \uFF1CBlast Digivolve\uFF1E \n[On Play]
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 3
   OverflowMemory: 3
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-037
   MaxCountInDeck: 4

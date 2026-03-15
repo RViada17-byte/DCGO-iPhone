@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_060_P0
   m_EditorClassIdentifier: 
   CardIndex: 4329
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 4
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - Twilight
   - Xros Heart
   CardSpriteName: BT10-060_P0
+  PrintID: BT10-060_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.2 w/[Xros Heart]\_trait: Cost 0 \n\n[All
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-060
   MaxCountInDeck: 4

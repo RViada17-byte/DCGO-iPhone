@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_033
   m_EditorClassIdentifier: 
   CardIndex: 7365
+  LegacyCardIndices: 
   cardColors: 0200000005000000
   PlayCost: 8
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   Type_ENG:
   - Beauty
   CardSpriteName: BT23-033
+  PrintID: BT23-033
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[App Fusion] [Coordemon] & [Consulmon]: Cost 0\n\n\uFF1CBarrier\uFF1E

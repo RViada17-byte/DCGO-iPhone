@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_074
   m_EditorClassIdentifier: 
   CardIndex: 3816
+  LegacyCardIndices: 
   cardColors: 030000000200000006000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - LIBERATOR
   CardSpriteName: EX7-074
+  PrintID: EX7-074
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "If you have a Digimon or Tamer with the [LIBERATOR]\_trait,
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 0
   rarity: 4
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-074
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_027
   m_EditorClassIdentifier: 
   CardIndex: 7022
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 11
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - LIBERATOR
   - Aquatic
   CardSpriteName: BT22-027
+  PrintID: BT22-027
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CDecode (Lv.5 w/[Aqua]/[Sea Animal]\_in any trait)\uFF1E

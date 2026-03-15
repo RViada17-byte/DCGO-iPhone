@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_101
   m_EditorClassIdentifier: 
   CardIndex: 5180
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 8
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   - LIBERATOR
   - Bird Dragon
   CardSpriteName: BT20-101
+  PrintID: BT20-101
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Play cost 10 or higher Lv.6 w/[Vortex Warriors]\_trait:
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 13000
   rarity: 4
   OverflowMemory: 4
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-101
   MaxCountInDeck: 4

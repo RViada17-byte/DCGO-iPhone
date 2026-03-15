@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_061
   m_EditorClassIdentifier: 
   CardIndex: 3378
+  LegacyCardIndices: 
   cardColors: 0500000006000000
   PlayCost: 7
   EvoCosts:
@@ -42,6 +43,8 @@ MonoBehaviour:
   - X Antibody
   - SoC
   CardSpriteName: BT16-061
+  PrintID: BT16-061
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Digivolve] Lv.4 w/[Dorugamon] in name or w/[SoC] trait:
@@ -60,5 +63,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-061
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_015
   m_EditorClassIdentifier: 
   CardIndex: 7159
+  LegacyCardIndices: 
   cardColors: 0300000006000000
   PlayCost: 4
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Reptile
   CardSpriteName: EX10-015
+  PrintID: EX10-015
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] By trashing 1 card with \uFF1CSave\uFF1E\_in

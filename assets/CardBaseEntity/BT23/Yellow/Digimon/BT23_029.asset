@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_029
   m_EditorClassIdentifier: 
   CardIndex: 7361
+  LegacyCardIndices: 
   cardColors: 0200000003000000
   PlayCost: 7
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Deva
   - CS
   CardSpriteName: BT23-029
+  PrintID: BT23-029
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Turuiemon]/[Wendigomon]/Lv.4 w/[CS]\_trait:

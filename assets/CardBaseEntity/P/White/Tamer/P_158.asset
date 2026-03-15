@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_158
   m_EditorClassIdentifier: 
   CardIndex: 10463
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Tamer
   CardSpriteName: P-158
+  PrintID: P-158
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] Reveal the top 4 cards of your deck. Add 1 card
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 0
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-158
   MaxCountInDeck: 4

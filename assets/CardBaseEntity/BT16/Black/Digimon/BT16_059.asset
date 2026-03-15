@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_059
   m_EditorClassIdentifier: 
   CardIndex: 3376
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 6
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Machine
   CardSpriteName: BT16-059
+  PrintID: BT16-059
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Digivolve] Lv.4 w/[Pulsemon] in text: Cost 3[On Play]
@@ -54,5 +57,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-059
   MaxCountInDeck: 4

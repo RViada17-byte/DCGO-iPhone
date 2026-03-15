@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_048
   m_EditorClassIdentifier: 
   CardIndex: 3766
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 12
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Machine
   - Three Musketeers
   CardSpriteName: EX7-048
+  PrintID: EX7-048
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.5 w/[Three Musketeers]\_in its text: Cost
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-048
   MaxCountInDeck: 4

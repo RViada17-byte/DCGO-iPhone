@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT5_021
   m_EditorClassIdentifier: 
   CardIndex: 965
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Crustacean
   CardSpriteName: BT5-021
+  PrintID: BT5-021
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u3011\u76F8\u624B\u306F\u652F\u6255\u3046\u9032\u5316\u30B3\u30B9\u30C8\u3092\u30DE\u30A4\u30CA\u30B9\u3067\u304D\u306A\u3044\u3002"
   EffectDiscription_ENG: '[Opponent''s Turn] Your opponent can''t reduce digivolution
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 3000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT5-021
   MaxCountInDeck: 4

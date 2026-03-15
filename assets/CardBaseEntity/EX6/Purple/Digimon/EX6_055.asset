@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_055
   m_EditorClassIdentifier: 
   CardIndex: 3509
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 11
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Fallen Angel
   CardSpriteName: EX6-055
+  PrintID: EX6-055
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] Delete 1 of your opponent's
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX6-055
   MaxCountInDeck: 4

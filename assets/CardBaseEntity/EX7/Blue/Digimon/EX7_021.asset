@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_021
   m_EditorClassIdentifier: 
   CardIndex: 3715
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 7
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Dragonkin
   - Ice-Snow
   CardSpriteName: EX7-021
+  PrintID: EX7-021
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CIce Clad\uFF1E (This Digimon compares its number
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-021
   MaxCountInDeck: 4

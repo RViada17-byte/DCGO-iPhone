@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT12_027
   m_EditorClassIdentifier: 
   CardIndex: 2435
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Aquabeast
   CardSpriteName: BT12-027
+  PrintID: BT12-027
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u3010\u9032\u5316\u6642\u3011\u4ED6\u306E\u9752\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u306E\u4E0B\u306B\u7F6E\u304F\u3053\u3068\u3067\u3001\u30E1\u30E2\u30EA\u30FC+2\u3002"
   EffectDiscription_ENG: '[On Play][When Digivolving] By placing another blue Digimon
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT12-027
   MaxCountInDeck: 4

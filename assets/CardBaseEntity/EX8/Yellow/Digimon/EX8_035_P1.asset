@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_035_P1
   m_EditorClassIdentifier: 
   CardIndex: 4115
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 9
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Fairy
   - DS
   CardSpriteName: EX8-035_P1
+  PrintID: EX8-035_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.5 w/[DS]\_trait: Cost 3 \n\n[Security] At
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 9000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-035
   MaxCountInDeck: 4

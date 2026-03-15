@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_082_P0
   m_EditorClassIdentifier: 
   CardIndex: 4428
+  LegacyCardIndices: 
   cardColors: 0600000005000000
   PlayCost: 7
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Bagra Army
   - Twilight
   CardSpriteName: BT11-082_P0
+  PrintID: BT11-082_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Damemon]: Cost 1 \n\n\uFF1CDecoy ([Bagra Army]
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-082
   MaxCountInDeck: 4

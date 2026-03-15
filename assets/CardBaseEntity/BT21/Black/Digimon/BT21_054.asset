@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_054
   m_EditorClassIdentifier: 
   CardIndex: 5368
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 3
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   Type_ENG:
   - Shooting
   CardSpriteName: BT21-054
+  PrintID: BT21-054
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.2 w/[Three Musketeers]\_in text or w/[Appmon]\_trait:

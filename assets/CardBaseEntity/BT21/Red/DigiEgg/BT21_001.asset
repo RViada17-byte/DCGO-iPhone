@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_001
   m_EditorClassIdentifier: 
   CardIndex: 5307
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: -1
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - Lesser
   - LIBERATOR
   CardSpriteName: BT21-001
+  PrintID: BT21-001
+  IsCanonicalPrint: 1
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '-'

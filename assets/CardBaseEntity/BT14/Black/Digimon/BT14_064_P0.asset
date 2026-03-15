@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT14_064_P0
   m_EditorClassIdentifier: 
   CardIndex: 4674
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 7
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - D-Brigade
   - DigiPolice
   CardSpriteName: BT14-064_P0
+  PrintID: BT14-064_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] Reveal the top 3 cards of
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT14-064
   MaxCountInDeck: 4

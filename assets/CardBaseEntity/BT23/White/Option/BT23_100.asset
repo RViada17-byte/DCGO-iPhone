@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_100
   m_EditorClassIdentifier: 
   CardIndex: 7454
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 3
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - Hudie
   - CS
   CardSpriteName: BT23-100
+  PrintID: BT23-100
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you have a Digimon or Tamer with the [CS]\_trait

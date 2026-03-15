@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST16_05_P0
   m_EditorClassIdentifier: 
   CardIndex: 4948
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 4
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Rock
   CardSpriteName: ST16-05_P0
+  PrintID: ST16-05_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CRetaliation\uFF1E \n[Your Turn] When this Digimon
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST16-05
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT8_053_P1
   m_EditorClassIdentifier: 
   CardIndex: 1626
+  LegacyCardIndices: 
   cardColors: 0300000001000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Beast
   CardSpriteName: BT8-053_P1
+  PrintID: BT8-053_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: "\u9032\u5316:\u300C\u30D6\u30A4\u30E2\u30F3\u300D\u304B\u30892\u226A\u30A2\u30FC\u30DE\u30FC\u89E3\u9664\u226B(\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u6D88\u6EC5\u3059\u308B\u3068\u304D\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306B\u91CD\u306D\u3089\u308C\u3066\u3044\u308B\u30AB\u30FC\u30C9\u3092\u4E0A\u304B\u30891\u679A\u7834\u68C4\u3059\u308B\u3053\u3068\u3067\u3001\u6D88\u6EC5\u3057\u306A\u3044)\u3010\u9032\u5316\u6642\u3011Lv.4\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u30EC\u30B9\u30C8\u3055\u305B\u308B\u3002"
   EffectDiscription_ENG: "\uFF1CArmor Purge\uFF1E (When this Digimon would be deleted,
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT8-053
   MaxCountInDeck: 4

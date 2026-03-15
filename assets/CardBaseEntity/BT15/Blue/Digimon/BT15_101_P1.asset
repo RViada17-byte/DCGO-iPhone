@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_101_P1
   m_EditorClassIdentifier: 
   CardIndex: 3243
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 12
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Cyborg
   CardSpriteName: BT15-101_P1
+  PrintID: BT15-101_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: While you have a Tamer with [Matt Ishida] in its name and
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 4
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-101
   MaxCountInDeck: 4

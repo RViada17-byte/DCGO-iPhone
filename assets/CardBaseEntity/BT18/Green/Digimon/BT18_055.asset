@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_055
   m_EditorClassIdentifier: 
   CardIndex: 3910
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 12
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Ancient Plant
   - Ten Warriors
   CardSpriteName: BT18-055
+  PrintID: BT18-055
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[All Turns] [Once Per Turn] When an opponent's Digimon
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-055
   MaxCountInDeck: 4

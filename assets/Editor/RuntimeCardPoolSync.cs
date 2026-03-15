@@ -62,7 +62,7 @@ public static class RuntimeCardPoolSync
         List<CEntity_Base> mergedCards = DeduplicateByGlobalId(preservedExtras.Concat(supportedCards))
             .OrderBy(card => card.CardIndex)
             .ThenBy(card => card.CardID, StringComparer.OrdinalIgnoreCase)
-            .ThenBy(card => card.CardSpriteName, StringComparer.OrdinalIgnoreCase)
+            .ThenBy(card => card.EffectivePrintID, StringComparer.OrdinalIgnoreCase)
             .ToList();
 
         controller.CardList = mergedCards.ToArray();

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_056
   m_EditorClassIdentifier: 
   CardIndex: 3187
+  LegacyCardIndices: 
   cardColors: 0500000003000000
   PlayCost: 3
   EvoCosts:
@@ -42,6 +43,8 @@ MonoBehaviour:
   - X Antibody
   - DigiPolice
   CardSpriteName: BT15-056
+  PrintID: BT15-056
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Start of Your Main Phase] By placing 1 [Shuu Yulin] from
@@ -57,5 +60,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-056
   MaxCountInDeck: 4

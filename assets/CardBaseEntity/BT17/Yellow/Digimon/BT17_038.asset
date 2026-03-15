@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_038
   m_EditorClassIdentifier: 
   CardIndex: 3583
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 11
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Shaman
   CardSpriteName: BT17-038
+  PrintID: BT17-038
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Sakuyamon: Maid Mode]: Cost 1 \n\n\uFF1CBarrier\uFF1E
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-038
   MaxCountInDeck: 4

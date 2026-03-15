@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST17_03
   m_EditorClassIdentifier: 
   CardIndex: 3270
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Beast
   CardSpriteName: ST17-03
+  PrintID: ST17-03
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Kokomon]: Cost 0[Main] [Once Per Turn] 1 of
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST17-03
   MaxCountInDeck: 4

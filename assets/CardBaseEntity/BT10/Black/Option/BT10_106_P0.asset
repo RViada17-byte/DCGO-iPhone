@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_106_P0
   m_EditorClassIdentifier: 
   CardIndex: 4363
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 12
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: BT10-106_P0
+  PrintID: BT10-106_P0
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "When you would use this card, reduce its cost by 1 for
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-106
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST14_04_P0
   m_EditorClassIdentifier: 
   CardIndex: 4917
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Dark Animal
   CardSpriteName: ST14-04_P0
+  PrintID: ST14-04_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CBlocker\uFF1E (When an opponent's Digimon attacks,

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_010
   m_EditorClassIdentifier: 
   CardIndex: 5011
+  LegacyCardIndices: 
   cardColors: 0000000002000000
   PlayCost: 8
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - Composite
   - Xros Heart
   CardSpriteName: BT19-010
+  PrintID: BT19-010
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[All Turns] When this Digimon would leave the battle area,
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-010
   MaxCountInDeck: 4

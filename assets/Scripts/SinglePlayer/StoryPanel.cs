@@ -438,26 +438,21 @@ public class StoryPanel : MonoBehaviour
             return;
         }
 
-        if (ContinuousController.instance == null)
+        if (!SinglePlayerWorldDuelLauncher.TryLaunchWithDeckSelection(
+                this,
+                enemyDeck,
+                () => GameSessionContext.Instance.StartSession(
+                    SessionMode.Story,
+                    encounter.id,
+                    encounter.rewardCurrency,
+                    encounter.rewardPromoCardId,
+                    promoOneTime: true,
+                    storyActId: encounter.parentActId,
+                    storyWorldId: encounter.parentWorldId),
+                out string launchError))
         {
-            SetInfoText("Game controller is unavailable.");
-            return;
+            SetInfoText(launchError);
         }
-
-        ContinuousController.instance.isAI = true;
-        ContinuousController.instance.isRandomMatch = false;
-        ContinuousController.instance.EnemyDeckData = enemyDeck;
-
-        GameSessionContext.Instance.StartSession(
-            SessionMode.Story,
-            encounter.id,
-            encounter.rewardCurrency,
-            encounter.rewardPromoCardId,
-            promoOneTime: true,
-            storyActId: encounter.parentActId,
-            storyWorldId: encounter.parentWorldId);
-
-        StartCoroutine(SinglePlayerBattleLoader.LoadBattleSceneAdditiveCoroutine());
     }
 
     private bool TryResolveEnemyDeck(StoryEncounterDef encounter, out DeckData enemyDeck, out string error)

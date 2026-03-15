@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_050
   m_EditorClassIdentifier: 
   CardIndex: 5361
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 7
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Vegetation
   - WG
   CardSpriteName: BT21-050
+  PrintID: BT21-050
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.4 w/[WG]\_trait: Cost 3 \n\n[On Play] [When
@@ -51,6 +54,5 @@ MonoBehaviour:
   LinkDP: 0
   LinkEffect: '-'
   LinkRequirement: '-'
-  LinkCost: 0
   CardID: BT21-050
   MaxCountInDeck: 4

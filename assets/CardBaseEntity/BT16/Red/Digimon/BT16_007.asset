@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_007
   m_EditorClassIdentifier: 
   CardIndex: 3312
+  LegacyCardIndices: 
   cardColors: 0000000003000000
   PlayCost: 3
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Avian
   CardSpriteName: BT16-007
+  PrintID: BT16-007
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Digivolve] [Poromon]: Cost 0[Your Turn][Once Per Turn]
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-007
   MaxCountInDeck: 4

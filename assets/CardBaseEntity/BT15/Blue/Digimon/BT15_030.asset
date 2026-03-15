@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_030
   m_EditorClassIdentifier: 
   CardIndex: 3155
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 10
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Mutant
   CardSpriteName: BT15-030
+  PrintID: BT15-030
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: ' (At blocker timing, by suspending this Digimon, it becomes
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 10000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-030
   MaxCountInDeck: 4

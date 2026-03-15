@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_088
   m_EditorClassIdentifier: 
   CardIndex: 5413
+  LegacyCardIndices: 
   cardColors: 0600000000000000
   PlayCost: 4
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - Hunter
   - Hero
   CardSpriteName: BT21-088
+  PrintID: BT21-088
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] By placing 1 Digimon card with
@@ -49,6 +52,5 @@ MonoBehaviour:
   LinkDP: 0
   LinkEffect: '-'
   LinkRequirement: '-'
-  LinkCost: 0
   CardID: BT21-088
   MaxCountInDeck: 4

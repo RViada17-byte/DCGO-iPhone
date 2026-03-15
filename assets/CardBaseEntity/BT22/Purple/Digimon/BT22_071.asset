@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_071
   m_EditorClassIdentifier: 
   CardIndex: 7078
+  LegacyCardIndices: 
   cardColors: 0600000000000000
   PlayCost: 5
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Fallen Angel
   - CS
   CardSpriteName: BT22-071
+  PrintID: BT22-071
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.3 w/[Flame]/[CS]\_trait: Cost 2 \n\n[When

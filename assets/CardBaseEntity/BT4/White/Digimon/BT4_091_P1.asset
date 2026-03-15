@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT4_091_P1
   m_EditorClassIdentifier: 
   CardIndex: 891
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 15
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Unique
   CardSpriteName: BT4-091_P1
+  PrintID: BT4-091_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u4EE5\u4E0B\u306E\u52B9\u679C\u30922\u56DE\u767A\u63EE\u3059\u308B\u3002\u30FB\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306EDP\u3092-7000\u3059\u308B\u3002\u3010\u6D88\u6EC5\u6642\u3011\u30E1\u30E2\u30EA\u30FC\u3092+3\u3059\u308B\u3002"
   EffectDiscription_ENG: "[When Digivolving] Activate the following effect twice.\u30FB1

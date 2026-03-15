@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX11_008
   m_EditorClassIdentifier: 
   CardIndex: 7671
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 3
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Reptile
   - LIBERATOR
   CardSpriteName: EX11-008
+  PrintID: EX11-008
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[When Moving] [On Play] 1 of your Digimon with the [Reptile]

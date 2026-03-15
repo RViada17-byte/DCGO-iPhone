@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_011_P0
   m_EditorClassIdentifier: 
   CardIndex: 4372
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 5
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Giant Bird
   CardSpriteName: BT11-011_P0
+  PrintID: BT11-011_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CBlocker\uFF1E."
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-011
   MaxCountInDeck: 4

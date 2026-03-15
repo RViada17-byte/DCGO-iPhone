@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT1_041
   m_EditorClassIdentifier: 
   CardIndex: 195
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Sea Beast
   CardSpriteName: BT1-041
+  PrintID: BT1-041
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u226A2\u30C9\u30ED\u30FC\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u304B\u3089\u30AB\u30FC\u30C9\u30922\u679A\u5F15\u304F\uFF09"
   EffectDiscription_ENG: "[On Play] Trigger \uFF1CDraw 2\uFF1E. (Draw 2 cards from
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT1-041
   MaxCountInDeck: 4

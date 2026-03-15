@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX9_069_P1
   m_EditorClassIdentifier: 
   CardIndex: 6965
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - DM
   CardSpriteName: EX9-069_P1
+  PrintID: EX9-069_P1
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] You may place 1 card from your

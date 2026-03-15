@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_014
   m_EditorClassIdentifier: 
   CardIndex: 3454
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 8
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Aquatic
   CardSpriteName: EX6-014
+  PrintID: EX6-014
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] [When Digivolving] You may play 1 level 3 blue
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX6-014
   MaxCountInDeck: 4

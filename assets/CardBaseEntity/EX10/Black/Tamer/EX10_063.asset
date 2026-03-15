@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_063
   m_EditorClassIdentifier: 
   CardIndex: 7245
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - LIBERATOR
   CardSpriteName: EX10-063
+  PrintID: EX10-063
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] By returning this Tamer to the

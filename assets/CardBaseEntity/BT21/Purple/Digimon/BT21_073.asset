@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_073
   m_EditorClassIdentifier: 
   CardIndex: 5390
+  LegacyCardIndices: 
   cardColors: 0600000005000000
   PlayCost: 8
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   Type_ENG:
   - Mind Control
   CardSpriteName: BT21-073
+  PrintID: BT21-073
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[App Fusion] [Sociamon] & [Gossipmon]: Cost 0\n\n\uFF1CBlocker\uFF1E

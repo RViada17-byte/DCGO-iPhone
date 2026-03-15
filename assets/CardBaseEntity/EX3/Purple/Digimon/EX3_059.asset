@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX3_059
   m_EditorClassIdentifier: 
   CardIndex: 2246
+  LegacyCardIndices: 
   cardColors: 0600000003000000
   PlayCost: 5
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Dinosaur
   CardSpriteName: EX3-059
+  PrintID: EX3-059
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX3-059
   MaxCountInDeck: 4

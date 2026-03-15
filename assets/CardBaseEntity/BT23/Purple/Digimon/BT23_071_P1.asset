@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_071_P1
   m_EditorClassIdentifier: 
   CardIndex: 7409
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 14
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Ghost
   - LIBERATOR
   CardSpriteName: BT23-071_P1
+  PrintID: BT23-071_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] While you have [Violet Inboots], [Phantomon]:

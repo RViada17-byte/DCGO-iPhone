@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_080
   m_EditorClassIdentifier: 
   CardIndex: 7089
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 6
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - CS
   CardSpriteName: BT22-080
+  PrintID: BT22-080
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Eater (Species Form)]: Cost 2 \n\n[When Digivolving]

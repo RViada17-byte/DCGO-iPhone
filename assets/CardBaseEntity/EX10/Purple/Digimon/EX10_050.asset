@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_050
   m_EditorClassIdentifier: 
   CardIndex: 7224
+  LegacyCardIndices: 
   cardColors: 0600000005000000
   PlayCost: 7
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Wizard
   - Bagra Army
   CardSpriteName: EX10-050
+  PrintID: EX10-050
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Wizard]\_trait: Cost 3 \n\n[On Play]

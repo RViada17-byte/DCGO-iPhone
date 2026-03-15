@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_059
   m_EditorClassIdentifier: 
   CardIndex: 3608
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 12
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Unidentified
   CardSpriteName: BT17-059
+  PrintID: BT17-059
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[When Digivolving] By placing 1 [Doomsday Clock] from your
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-059
   MaxCountInDeck: 4

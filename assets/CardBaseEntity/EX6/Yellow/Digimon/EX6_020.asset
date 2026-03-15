@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_020
   m_EditorClassIdentifier: 
   CardIndex: 3462
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 4
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Holy Beast
   CardSpriteName: EX6-020
+  PrintID: EX6-020
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] Reveal the top 3 cards of
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX6-020
   MaxCountInDeck: 4

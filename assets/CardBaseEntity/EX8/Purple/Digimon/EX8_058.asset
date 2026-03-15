@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_058
   m_EditorClassIdentifier: 
   CardIndex: 4159
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Mollusk
   - DS
   CardSpriteName: EX8-058
+  PrintID: EX8-058
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.3 w/[DS]\_trait: Cost 2 \n\n[On Deletion]
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-058
   MaxCountInDeck: 4

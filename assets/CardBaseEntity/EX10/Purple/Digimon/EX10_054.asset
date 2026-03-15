@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_054
   m_EditorClassIdentifier: 
   CardIndex: 7231
+  LegacyCardIndices: 
   cardColors: 0600000003000000
   PlayCost: 12
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Dark Animal
   CardSpriteName: EX10-054
+  PrintID: EX10-054
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Trash] [Main] By deleting 1 of your level 5 Digimon with

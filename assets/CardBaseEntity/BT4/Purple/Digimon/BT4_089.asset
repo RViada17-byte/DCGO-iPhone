@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT4_089
   m_EditorClassIdentifier: 
   CardIndex: 884
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 13
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Shaman
   CardSpriteName: BT4-089
+  PrintID: BT4-089
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u226A2\u30C9\u30ED\u30FC\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u304B\u3089\u30AB\u30FC\u30C9\u30922\u679A\u5F15\u304F\uFF09\u3002\u305D\u306E\u5F8C\u3001\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u7D2B\u306E\u4F7F\u7528\u30B3\u30B9\u30C86\u4EE5\u4E0B\u306E\u30AA\u30D7\u30B7\u30E7\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
   EffectDiscription_ENG: "[When Digivolving] Trigger \uFF1CDraw 2\uFF1E. (Draw 2
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT4-089
   MaxCountInDeck: 4

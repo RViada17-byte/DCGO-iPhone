@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX1_010
   m_EditorClassIdentifier: 
   CardIndex: 1279
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 12
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Holy Beast
   CardSpriteName: EX1-010
+  PrintID: EX1-010
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u226A\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u30A2\u30BF\u30C3\u30AF+1\u226B\uFF08\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30C1\u30A7\u30C3\u30AF\u3059\u308B\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u306E\u679A\u6570+1\uFF09\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\u30D7\u30EC\u30A4\u30E4\u30FC\u306B\u30A2\u30BF\u30C3\u30AF\u3057\u305F\u3068\u304D\u3001\u226A2\u30C9\u30ED\u30FC\u226B(\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u304B\u3089\u30AB\u30FC\u30C9\u30922\u679A\u5F15\u304F)\u3002"
   EffectDiscription_ENG: "\uFF1CSecurity Attack +1\uFF1E (This Digimon checks 1 additional
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX1-010
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_018
   m_EditorClassIdentifier: 
   CardIndex: 3982
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 3
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Tropical Fish
   - Aquatic
   CardSpriteName: BT19-018
+  PrintID: BT19-018
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CEvade\uFF1E \n[Rule] Trait: Has the [Aquatic] type."
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-018
   MaxCountInDeck: 4

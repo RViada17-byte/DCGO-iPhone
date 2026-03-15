@@ -716,7 +716,7 @@ public class TurnStateMachine : MonoBehaviourPunCallbacks
 
         try
         {
-            greedyAction = GManager.instance.GreedyShadowBrain.DecideBreeding(snapshot);
+            greedyAction = GManager.instance.GreedyShadowBrain.DecideBreeding(snapshot, gameContext, gameContext != null ? gameContext.TurnPlayer : null);
         }
         catch (Exception exception)
         {

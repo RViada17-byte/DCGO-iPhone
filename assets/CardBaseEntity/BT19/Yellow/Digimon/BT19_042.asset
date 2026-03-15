@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_042
   m_EditorClassIdentifier: 
   CardIndex: 3997
+  LegacyCardIndices: 
   cardColors: 0200000000000000
   PlayCost: 12
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - X Antibody
   - Royal Knight
   CardSpriteName: BT19-042
+  PrintID: BT19-042
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Dynasmon]: Cost 1 \n\n\uFF1CRaid\uFF1E.\n\uFF1CBlocker\uFF1E
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-042
   MaxCountInDeck: 4

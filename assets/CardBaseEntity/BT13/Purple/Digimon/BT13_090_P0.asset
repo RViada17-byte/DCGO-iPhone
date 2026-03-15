@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT13_090_P0
   m_EditorClassIdentifier: 
   CardIndex: 4610
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 12
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Holy Warrior
   - Royal Knight
   CardSpriteName: BT13-090_P0
+  PrintID: BT13-090_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] You may return 1 card with
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT13-090
   MaxCountInDeck: 4

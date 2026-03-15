@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_038
   m_EditorClassIdentifier: 
   CardIndex: 3748
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 3
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Rock
   - NSp
   CardSpriteName: EX7-038
+  PrintID: EX7-038
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.2 w/[NSP]\_trait: Cost 0 \n\n\uFF1CBlocker\uFF1E."
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-038
   MaxCountInDeck: 4

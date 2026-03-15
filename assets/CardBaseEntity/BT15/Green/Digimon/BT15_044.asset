@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_044
   m_EditorClassIdentifier: 
   CardIndex: 3173
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Vegetation
   CardSpriteName: BT15-044
+  PrintID: BT15-044
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Deletion] 1 of your opponent''s Digimon can''t unsuspend
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-044
   MaxCountInDeck: 4

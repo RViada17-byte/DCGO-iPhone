@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT13_020_P3
   m_EditorClassIdentifier: 
   CardIndex: 4572
+  LegacyCardIndices: 
   cardColors: 0000000002000000
   PlayCost: 15
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Light Dragon
   CardSpriteName: BT13-020_P3
+  PrintID: BT13-020_P3
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[When Digivolving] You may play 1 [Marcus Damon] from your
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 15000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT13-020
   MaxCountInDeck: 4

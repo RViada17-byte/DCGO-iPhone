@@ -152,6 +152,8 @@ namespace DCGO.CardEntities
             cardEntity.rarity = card.rarity.Equals("-") ? Rarity.None : (Rarity)Enum.Parse(typeof(Rarity), card.rarity);
             cardEntity.OverflowMemory = GetOverflowMemory(card.aceEffect);
             cardEntity.CardID = card.id;
+            cardEntity.PrintID = CardPrintCatalog.SuggestPrintId(cardEntity);
+            cardEntity.IsCanonicalPrint = CardPrintCatalog.IsLikelyCanonicalPrint(cardEntity);
             cardEntity.MaxCountInDeck = GetMaxCount(card.restrictions.japanese, card.rule);
 
             cardEntity.LinkDP = dpParse(card.linkDP);
@@ -209,6 +211,13 @@ namespace DCGO.CardEntities
                     CEntity_Base asset = (CEntity_Base)AssetDatabase.LoadAssetAtPath(filePath, typeof(CEntity_Base));
 
                     entity.CardIndex = asset.CardIndex;
+                    entity.PrintID = !string.IsNullOrWhiteSpace(asset.PrintID)
+                        ? CardPrintCatalog.NormalizeStoredPrintId(asset.PrintID)
+                        : CardPrintCatalog.SuggestPrintId(entity);
+                    entity.IsCanonicalPrint = asset.IsCanonicalPrint || entity.IsCanonicalPrint;
+                    entity.LegacyCardIndices = asset.LegacyCardIndices != null
+                        ? new List<int>(asset.LegacyCardIndices)
+                        : new List<int>();
 
                     EditorUtility.CopySerialized(entity, asset);
                     AssetDatabase.SaveAssets();
@@ -218,6 +227,8 @@ namespace DCGO.CardEntities
             else
             {
                 entity.CardIndex = GetCardIndex(entity);
+                entity.PrintID = CardPrintCatalog.SuggestPrintId(entity);
+                entity.IsCanonicalPrint = entity.IsCanonicalPrint || CardPrintCatalog.IsLikelyCanonicalPrint(entity);
                 AssetDatabase.CreateAsset(entity, filePath);
                 Debug.Log($"{entity.name}: Scriptable Object Created");
             }

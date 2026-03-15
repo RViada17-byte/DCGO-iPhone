@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_037
   m_EditorClassIdentifier: 
   CardIndex: 5348
+  LegacyCardIndices: 
   cardColors: 0100000003000000
   PlayCost: 6
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Beast
   CardSpriteName: BT21-037
+  PrintID: BT21-037
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Veemon]: Cost 2 \n\n\uFF1CPiercing\uFF1E.\n\uFF1CArmor
@@ -51,6 +54,5 @@ MonoBehaviour:
   LinkDP: 0
   LinkEffect: '-'
   LinkRequirement: '-'
-  LinkCost: 0
   CardID: BT21-037
   MaxCountInDeck: 4

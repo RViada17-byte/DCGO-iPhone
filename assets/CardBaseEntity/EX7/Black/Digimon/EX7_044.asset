@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_044
   m_EditorClassIdentifier: 
   CardIndex: 3759
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 7
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Cyborg
   CardSpriteName: EX7-044
+  PrintID: EX7-044
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.4 w/[Three Musketeers]\_in its text: Cost
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-044
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_025
   m_EditorClassIdentifier: 
   CardIndex: 3873
+  LegacyCardIndices: 
   cardColors: 0100000000000000
   PlayCost: 6
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Beast
   - Ice-Snow
   CardSpriteName: BT18-025
+  PrintID: BT18-025
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Tommy Himi]: Cost 3 [Digivolve][Kumamon]: Cost
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-025
   MaxCountInDeck: 4

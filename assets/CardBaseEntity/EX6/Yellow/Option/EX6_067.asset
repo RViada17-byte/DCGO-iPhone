@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_067
   m_EditorClassIdentifier: 
   CardIndex: 3533
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: EX6-067
+  PrintID: EX6-067
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] Unsuspend 1 of your Digimon with the [Angel]/[Archangel]/[Three
@@ -43,5 +46,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX6-067
   MaxCountInDeck: 4

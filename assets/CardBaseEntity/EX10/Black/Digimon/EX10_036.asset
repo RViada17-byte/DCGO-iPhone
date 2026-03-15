@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_036
   m_EditorClassIdentifier: 
   CardIndex: 7198
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 14
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - LIBERATOR
   - Mineral
   CardSpriteName: EX10-036
+  PrintID: EX10-036
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] While you have [Close], [Proganomon]: Cost

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_004_P1
   m_EditorClassIdentifier: 
   CardIndex: 3684
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: -1
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - Mini Bird
   - LIBERATOR
   CardSpriteName: EX7-004_P1
+  PrintID: EX7-004_P1
+  IsCanonicalPrint: 0
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '-'

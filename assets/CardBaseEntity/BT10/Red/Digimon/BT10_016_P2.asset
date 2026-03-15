@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_016_P2
   m_EditorClassIdentifier: 
   CardIndex: 4300
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 12
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - Royal Knight
   - X Antibody
   CardSpriteName: BT10-016_P2
+  PrintID: BT10-016_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Jesmon]: Cost 0 \n\n\uFF1CPiercing\uFF1E \n[When
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-016
   MaxCountInDeck: 4

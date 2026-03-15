@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_090
   m_EditorClassIdentifier: 
   CardIndex: 3231
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   - "-\r"
   Type_ENG: []
   CardSpriteName: BT15-090
+  PrintID: BT15-090
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Main] Return 1 of your opponent''s level 4 or lower Digimon
@@ -42,5 +45,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-090
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_025
   m_EditorClassIdentifier: 
   CardIndex: 7817
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 5
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Beast
   CardSpriteName: BT11-025
+  PrintID: BT11-025
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[When Attacking] [Once Per Turn] If your opponent has 8

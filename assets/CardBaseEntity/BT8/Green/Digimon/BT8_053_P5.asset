@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT8_053_P5
   m_EditorClassIdentifier: 
   CardIndex: 6800
+  LegacyCardIndices: 
   cardColors: 0300000001000000
   PlayCost: 5
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Beast
   CardSpriteName: BT8-053_P5
+  PrintID: BT8-053_P5
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Veemon]: Cost 2 \n\n\uFF1CArmor Purge\uFF1E

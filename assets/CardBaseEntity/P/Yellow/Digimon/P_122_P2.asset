@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_122_P2
   m_EditorClassIdentifier: 
   CardIndex: 10428
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Mammal
   CardSpriteName: P-122_P2
+  PrintID: P-122_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] Search your security stack. You may add 1 yellow
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-122
   MaxCountInDeck: 4

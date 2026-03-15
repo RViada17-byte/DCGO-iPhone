@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_201_P1
   m_EditorClassIdentifier: 
   CardIndex: 7473
+  LegacyCardIndices: 
   cardColors: 0300000006000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Dark Animal
   CardSpriteName: P-201_P1
+  PrintID: P-201_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Kapurimon]: Cost 0 \n\n[On Play] [On Deletion]

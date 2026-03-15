@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_061
   m_EditorClassIdentifier: 
   CardIndex: 3611
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Demon
   CardSpriteName: BT17-061
+  PrintID: BT17-061
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] By deleting 1 of your other Digimon, delete 1
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-061
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_019
   m_EditorClassIdentifier: 
   CardIndex: 6044
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Undead
   CardSpriteName: P-019
+  PrintID: P-019
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-019
   MaxCountInDeck: 4

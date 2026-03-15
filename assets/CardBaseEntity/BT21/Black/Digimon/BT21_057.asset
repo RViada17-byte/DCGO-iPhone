@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_057
   m_EditorClassIdentifier: 
   CardIndex: 5372
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Dinosaur
   - ADVENTURE
   CardSpriteName: BT21-057
+  PrintID: BT21-057
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.3 w/[Agumon]\_in name or w/[ADVENTURE]\_trait:
@@ -50,6 +53,5 @@ MonoBehaviour:
   LinkDP: 0
   LinkEffect: '-'
   LinkRequirement: '-'
-  LinkCost: 0
   CardID: BT21-057
   MaxCountInDeck: 4

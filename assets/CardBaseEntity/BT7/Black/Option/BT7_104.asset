@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT7_104
   m_EditorClassIdentifier: 
   CardIndex: 1539
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 2
   EvoCosts: []
@@ -26,6 +27,8 @@ MonoBehaviour:
   Type_JPN: []
   Type_ENG: []
   CardSpriteName: BT7-104
+  PrintID: BT7-104
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u7279\u5FB4\u306B\u300CX\u6297\u4F53\u300D\u3092\u6301\u3064\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u3092\u9078\u3076\u3002\u305D\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u6301\u3064\u9032\u5316\u51431\u679A\u3054\u3068\u306B\u3001\u226A1\u30C9\u30ED\u30FC\u226B\uFF08\u81EA\u5206\u306E\u30C7\u30C3\u30AD\u304B\u3089\u30AB\u30FC\u30C9\u30921\u679A\u5F15\u304F\uFF09\u3002"
   EffectDiscription_ENG: "[Main] Choose 1 of your Digimon with [X-Antibody] in its

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_045
   m_EditorClassIdentifier: 
   CardIndex: 3896
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Vegetation
   CardSpriteName: BT18-045
+  PrintID: BT18-045
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[All Turns] While this Digimon is suspended, all of your
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-045
   MaxCountInDeck: 4

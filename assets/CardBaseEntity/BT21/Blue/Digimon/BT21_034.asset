@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_034
   m_EditorClassIdentifier: 
   CardIndex: 5345
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Ancient Bird
   - WG
   CardSpriteName: BT21-034
+  PrintID: BT21-034
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.3 w/[WG]\_trait: Cost 2 \n\n[All Turns]
@@ -48,6 +51,5 @@ MonoBehaviour:
   LinkDP: 0
   LinkEffect: '-'
   LinkRequirement: '-'
-  LinkCost: 0
   CardID: BT21-034
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_081
   m_EditorClassIdentifier: 
   CardIndex: 3950
+  LegacyCardIndices: 
   cardColors: 0600000002000000
   PlayCost: 8
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Warrior
   CardSpriteName: BT18-081
+  PrintID: BT18-081
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Purple/Yellow Lv.4 w/[Hybrid]\_trait: Cost 3
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-081
   MaxCountInDeck: 4

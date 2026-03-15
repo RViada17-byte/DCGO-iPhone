@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX11_074_P1
   m_EditorClassIdentifier: 
   CardIndex: 7803
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 14
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - Vortex Warriors
   - LIBERATOR
   CardSpriteName: EX11-074_P1
+  PrintID: EX11-074_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] While you have [Shoto Kazama], [GrandGalemon]:

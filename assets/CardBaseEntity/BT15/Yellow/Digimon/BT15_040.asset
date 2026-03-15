@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_040
   m_EditorClassIdentifier: 
   CardIndex: 3168
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 8
   EvoCosts:
@@ -40,6 +41,8 @@ MonoBehaviour:
   - Puppet
   - X Antibody
   CardSpriteName: BT15-040
+  PrintID: BT15-040
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[When Digivolving] If a card with [Monzaemon] in its name
@@ -55,5 +58,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-040
   MaxCountInDeck: 4

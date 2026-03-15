@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT12_073_P1
   m_EditorClassIdentifier: 
   CardIndex: 4524
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Evil
   - X Antibody
   CardSpriteName: BT12-073_P1
+  PrintID: BT12-073_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Impmon]: Cost 0 \n\n[On Play] [When Digivolving]
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT12-073
   MaxCountInDeck: 4

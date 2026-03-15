@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST16_06_P0
   m_EditorClassIdentifier: 
   CardIndex: 4949
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 4
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Ghost
   CardSpriteName: ST16-06_P0
+  PrintID: ST16-06_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CBlocker\uFF1E."
@@ -43,5 +46,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST16-06
   MaxCountInDeck: 4

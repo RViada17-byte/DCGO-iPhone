@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT13_095_P0
   m_EditorClassIdentifier: 
   CardIndex: 4614
+  LegacyCardIndices: 
   cardColors: 0000000002000000
   PlayCost: 5
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Tamer
   CardSpriteName: BT13-095_P0
+  PrintID: BT13-095_P0
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Turn] If you have 2 memory or less, set
@@ -43,5 +46,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT13-095
   MaxCountInDeck: 4

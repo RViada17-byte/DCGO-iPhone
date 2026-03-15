@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_041
   m_EditorClassIdentifier: 
   CardIndex: 3587
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 8
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Light Dragon
   CardSpriteName: BT17-041
+  PrintID: BT17-041
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][ShineGreymon]: Cost 4 \n\n[Hand] [Counter]
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 15000
   rarity: 3
   OverflowMemory: 5
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-041
   MaxCountInDeck: 4

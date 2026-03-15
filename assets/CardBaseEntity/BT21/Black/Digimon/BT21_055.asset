@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_055
   m_EditorClassIdentifier: 
   CardIndex: 5369
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 3
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - LIBERATOR
   - Mineral
   CardSpriteName: BT21-055
+  PrintID: BT21-055
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Your Turn] When this Digimon would digivolve into a card

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_029
   m_EditorClassIdentifier: 
   CardIndex: 3154
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Aquatic
   CardSpriteName: BT15-029
+  PrintID: BT15-029
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] [When Digivolving] By placing 1 of your other
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-029
   MaxCountInDeck: 4

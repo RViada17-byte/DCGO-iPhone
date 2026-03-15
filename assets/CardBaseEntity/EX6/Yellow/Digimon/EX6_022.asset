@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_022
   m_EditorClassIdentifier: 
   CardIndex: 3464
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Archangel
   CardSpriteName: EX6-022
+  PrintID: EX6-022
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CBarrier\uFF1E \n[On Play] [When Digivolving] If you
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX6-022
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_062_P1
   m_EditorClassIdentifier: 
   CardIndex: 3526
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 16
   EvoCosts:
@@ -41,6 +42,8 @@ MonoBehaviour:
   Type_ENG:
   - Unique
   CardSpriteName: EX6-062_P1
+  PrintID: EX6-062_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CPartition (Yellow/Black Lv.6 + Green/Purple Lv.6)\uFF1E
@@ -61,5 +64,8 @@ MonoBehaviour:
   DP: 16000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX6-062
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_096_P0
   m_EditorClassIdentifier: 
   CardIndex: 4828
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 3
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   Type_ENG:
   - DigiPolice
   CardSpriteName: BT16-096_P0
+  PrintID: BT16-096_P0
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] Reveal the top 3 cards of your deck. Add 1 card
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-096
   MaxCountInDeck: 4

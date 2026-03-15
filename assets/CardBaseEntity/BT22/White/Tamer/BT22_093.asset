@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_093
   m_EditorClassIdentifier: 
   CardIndex: 7112
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - CS
   CardSpriteName: BT22-093
+  PrintID: BT22-093
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] If your opponent has a Digimon,

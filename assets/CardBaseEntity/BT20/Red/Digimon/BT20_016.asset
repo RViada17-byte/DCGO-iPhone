@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_016
   m_EditorClassIdentifier: 
   CardIndex: 5095
+  LegacyCardIndices: 
   cardColors: 0000000006000000
   PlayCost: 8
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Dragonkin
   CardSpriteName: BT20-016
+  PrintID: BT20-016
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] For the turn, 1 of your Digimon
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-016
   MaxCountInDeck: 4

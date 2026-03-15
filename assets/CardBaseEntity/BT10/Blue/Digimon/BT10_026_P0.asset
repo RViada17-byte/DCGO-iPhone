@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_026_P0
   m_EditorClassIdentifier: 
   CardIndex: 4307
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 9
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Enhancement
   - Blue Flare
   CardSpriteName: BT10-026_P0
+  PrintID: BT10-026_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CArmor Purge\uFF1E\n[On Play] [When Digivolving] You
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 10000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-026
   MaxCountInDeck: 4

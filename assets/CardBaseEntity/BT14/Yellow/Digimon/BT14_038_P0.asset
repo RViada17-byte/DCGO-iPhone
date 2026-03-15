@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT14_038_P0
   m_EditorClassIdentifier: 
   CardIndex: 4654
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 7
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Puppet
   CardSpriteName: BT14-038_P0
+  PrintID: BT14-038_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.4 w/[Sukamon]\_in its name: Cost 3 \n\n[Security]
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT14-038
   MaxCountInDeck: 4

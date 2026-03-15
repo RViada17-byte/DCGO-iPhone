@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_123
   m_EditorClassIdentifier: 
   CardIndex: 6169
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 3
   EvoCosts:
@@ -53,6 +54,8 @@ MonoBehaviour:
   Type_ENG:
   - Ancient Fairy
   CardSpriteName: P-123
+  PrintID: P-123
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u80B2\u6210\u30A8\u30EA\u30A2\u304B\u3089\u30D0\u30C8\u30EB\u30A8\u30EA\u30A2\u306B\u79FB\u52D5\u3057\u305F\u3068\u304D\u3001\u81EA\u5206\u306E\u80B2\u6210\u30A8\u30EA\u30A2\u306B\u5B75\u5316\u3067\u304D\u308B\u3002\u305D\u306E\u5F8C\u3001\u30E1\u30E2\u30EA\u30FC+1\u3002"
   EffectDiscription_ENG: '[Your Turn] [Once Per Turn] When one of your Digimon moves
@@ -66,5 +69,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-123
   MaxCountInDeck: 4

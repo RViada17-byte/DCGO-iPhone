@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_034
   m_EditorClassIdentifier: 
   CardIndex: 6066
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Evil
   CardSpriteName: P-034
+  PrintID: P-034
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-034
   MaxCountInDeck: 4

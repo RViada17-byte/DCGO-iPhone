@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_068
   m_EditorClassIdentifier: 
   CardIndex: 3928
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 6
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Wizard
   CardSpriteName: BT18-068
+  PrintID: BT18-068
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CBlocker\uFF1E \n[On Play] [When Digivolving] Reveal
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-068
   MaxCountInDeck: 4

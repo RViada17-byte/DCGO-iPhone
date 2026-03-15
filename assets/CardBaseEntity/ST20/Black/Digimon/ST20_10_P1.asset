@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST20_10_P1
   m_EditorClassIdentifier: 
   CardIndex: 5273
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 3
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - ADVENTURE
   - Hero
   CardSpriteName: ST20-10_P1
+  PrintID: ST20-10_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.2 w/[ADVENTURE]/[Hero]\_trait: Cost 0 \n\n[Your
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST20-10
   MaxCountInDeck: 4

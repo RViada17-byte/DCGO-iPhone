@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_083_P1
   m_EditorClassIdentifier: 
   CardIndex: 3946
+  LegacyCardIndices: 
   cardColors: 0600000005000000
   PlayCost: 7
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Holy Warrior
   - Royal Knight
   CardSpriteName: BT18-083_P1
+  PrintID: BT18-083_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Hand] [Counter] \uFF1CBlast Digivolve\uFF1E \n[When Digivolving]
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 4
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-083
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_069
   m_EditorClassIdentifier: 
   CardIndex: 3202
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Flame
   CardSpriteName: BT15-069
+  PrintID: BT15-069
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Deletion] If your opponent has 1 or less memory,  (Draw
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-069
   MaxCountInDeck: 4

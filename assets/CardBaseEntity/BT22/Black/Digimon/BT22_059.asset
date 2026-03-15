@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_059
   m_EditorClassIdentifier: 
   CardIndex: 7065
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 7
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Unidentified
   - CS
   CardSpriteName: BT22-059
+  PrintID: BT22-059
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.4 w/[CS]\_trait: Cost 3 \n\n[On Play] [When

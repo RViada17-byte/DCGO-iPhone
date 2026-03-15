@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_095
   m_EditorClassIdentifier: 
   CardIndex: 5174
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 3
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - X Antibody
   - Chronicle
   CardSpriteName: BT20-095
+  PrintID: BT20-095
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] Reveal the top 3 cards of your deck. Add 1 [Chronicle]\_trait
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-095
   MaxCountInDeck: 4

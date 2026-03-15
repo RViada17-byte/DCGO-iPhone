@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT13_093_P1
   m_EditorClassIdentifier: 
   CardIndex: 4612
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 4
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - Puppet
   - X Antibody
   CardSpriteName: BT13-093_P1
+  PrintID: BT13-093_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] \uFF1CDraw 1\uFF1E \n[On Deletion] Place 1 Digimon
@@ -43,5 +46,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT13-093
   MaxCountInDeck: 4

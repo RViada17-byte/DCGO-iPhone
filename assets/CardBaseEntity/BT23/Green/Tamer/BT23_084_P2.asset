@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_084_P2
   m_EditorClassIdentifier: 
   CardIndex: 7430
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 4
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - Hudie
   - CS
   CardSpriteName: BT23-084_P2
+  PrintID: BT23-084_P2
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Security] Play this card without paying the cost.\n[Start

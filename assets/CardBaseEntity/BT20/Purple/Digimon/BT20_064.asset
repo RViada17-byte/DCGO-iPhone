@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_064
   m_EditorClassIdentifier: 
   CardIndex: 5143
+  LegacyCardIndices: 
   cardColors: 0600000000000000
   PlayCost: 3
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   - SoC
   - SEEKERS
   CardSpriteName: BT20-064
+  PrintID: BT20-064
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Bowmon]/Lv.2 w/[SEEKERS]\_trait: Cost 0 \n\n[On
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-064
   MaxCountInDeck: 4

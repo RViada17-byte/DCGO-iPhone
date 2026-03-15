@@ -173,7 +173,7 @@
       "kind": "boosterPack",
       "title": "Booster Pack New Evolution [BT-1]",
       "setId": "BT1",
-      "price": 250,
+      "price": 100,
       "repeatable": true,
       "prereqStoryNodeIds": [],
       "packRules": {
@@ -187,7 +187,7 @@
       "kind": "boosterPack",
       "title": "Booster Pack Ultimate Power [BT-2]",
       "setId": "BT2",
-      "price": 250,
+      "price": 100,
       "repeatable": true,
       "prereqStoryNodeIds": [],
       "packRules": {
@@ -201,7 +201,7 @@
       "kind": "boosterPack",
       "title": "Booster Pack Union Impact [BT-3]",
       "setId": "BT3",
-      "price": 250,
+      "price": 100,
       "repeatable": true,
       "prereqStoryNodeIds": [],
       "packRules": {
@@ -215,7 +215,7 @@
       "kind": "boosterPack",
       "title": "Booster Pack Great Legend [BT-4]",
       "setId": "BT4",
-      "price": 250,
+      "price": 100,
       "repeatable": true,
       "prereqStoryNodeIds": ["story.act1.adventure.03_joe"],
       "packRules": {
@@ -229,7 +229,7 @@
       "kind": "boosterPack",
       "title": "Booster Pack Battle of Omni [BT-5]",
       "setId": "BT5",
-      "price": 250,
+      "price": 100,
       "repeatable": true,
       "prereqStoryNodeIds": ["story.act1.adventure.06_kari"],
       "packRules": {
@@ -243,7 +243,7 @@
       "kind": "boosterPack",
       "title": "Booster Pack Double Diamond [BT-6]",
       "setId": "BT6",
-      "price": 250,
+      "price": 100,
       "repeatable": true,
       "prereqStoryNodeIds": ["story.act1.adventure.08_tai"],
       "packRules": {
@@ -257,7 +257,7 @@
       "kind": "boosterPack",
       "title": "Booster Pack Classic Collection [EX-1]",
       "setId": "EX1",
-      "price": 250,
+      "price": 100,
       "repeatable": true,
       "prereqStoryNodeIds": ["story.act1.frontier.03_tommy"],
       "packRules": {
@@ -271,7 +271,7 @@
       "kind": "boosterPack",
       "title": "Booster Pack Next Adventure [BT-7]",
       "setId": "BT7",
-      "price": 250,
+      "price": 100,
       "repeatable": true,
       "prereqStoryNodeIds": ["story.act1.frontier.06_takuya"],
       "packRules": {
@@ -313,7 +313,7 @@
       "kind": "boosterPack",
       "title": "Booster Pack New Awakening [BT-8]",
       "setId": "BT8",
-      "price": 250,
+      "price": 100,
       "repeatable": true,
       "prereqStoryNodeIds": ["story.act1.adventure02.03_cody"],
       "packRules": {
@@ -327,7 +327,7 @@
       "kind": "boosterPack",
       "title": "Booster Pack X Record [BT-9]",
       "setId": "BT9",
-      "price": 250,
+      "price": 100,
       "repeatable": true,
       "prereqStoryNodeIds": ["story.act1.adventure02.05_tk"],
       "packRules": {
@@ -341,7 +341,7 @@
       "kind": "boosterPack",
       "title": "Booster Pack Xros Encounter [BT-10]",
       "setId": "BT10",
-      "price": 250,
+      "price": 100,
       "repeatable": true,
       "prereqStoryNodeIds": ["story.act1.adventure02.07_ken"],
       "packRules": {
@@ -383,7 +383,7 @@
       "kind": "boosterPack",
       "title": "Booster Pack Digital Hazard [EX-2]",
       "setId": "EX2",
-      "price": 250,
+      "price": 100,
       "repeatable": true,
       "prereqStoryNodeIds": ["story.act1.tamers.02_rika"],
       "packRules": {
@@ -397,7 +397,7 @@
       "kind": "boosterPack",
       "title": "Booster Pack Draconic Roar [EX-3]",
       "setId": "EX3",
-      "price": 250,
+      "price": 100,
       "repeatable": true,
       "prereqStoryNodeIds": ["story.act1.tamers.05_marcus"],
       "packRules": {
@@ -411,7 +411,7 @@
       "kind": "boosterPack",
       "title": "Booster Pack Dimensional Phase [BT-11]",
       "setId": "BT11",
-      "price": 250,
+      "price": 100,
       "repeatable": true,
       "prereqStoryNodeIds": ["story.act1.tamers.07_takato"],
       "packRules": {
@@ -425,7 +425,7 @@
       "kind": "boosterPack",
       "title": "Booster Pack Across Time [BT-12]",
       "setId": "BT12",
-      "price": 250,
+      "price": 100,
       "repeatable": true,
       "prereqStoryNodeIds": ["story.act1.tamers.07_takato"],
       "packRules": {
@@ -439,7 +439,7 @@
       "kind": "boosterPack",
       "title": "Booster Pack Alternative Being [EX-4]",
       "setId": "EX4",
-      "price": 250,
+      "price": 100,
       "repeatable": true,
       "prereqStoryNodeIds": ["story.act1.tamers.07_takato"],
       "packRules": {
@@ -491,11 +491,319 @@
       }
     },
     {
+      "id": "bt14-pack",
+      "kind": "boosterPack",
+      "title": "Booster Pack [BT-14]",
+      "setId": "BT14",
+      "price": 100,
+      "repeatable": true,
+      "prereqStoryNodeIds": ["story.act1.tamers.07_takato"],
+      "packRules": {
+        "cardsPerPack": 12,
+        "guaranteedNewCards": 5,
+        "randomCards": 7
+      }
+    },
+    {
+      "id": "st15-set",
+      "kind": "boosterPack",
+      "title": "Starter Set [ST-15]",
+      "setId": "ST15",
+      "price": 500,
+      "repeatable": false,
+      "prereqStoryNodeIds": ["story.act1.tamers.07_takato"],
+      "packRules": {
+        "cardsPerPack": 33,
+        "guaranteedNewCards": 33,
+        "randomCards": 0
+      }
+    },
+    {
+      "id": "st16-set",
+      "kind": "boosterPack",
+      "title": "Starter Set [ST-16]",
+      "setId": "ST16",
+      "price": 500,
+      "repeatable": false,
+      "prereqStoryNodeIds": ["story.act1.tamers.07_takato"],
+      "packRules": {
+        "cardsPerPack": 33,
+        "guaranteedNewCards": 33,
+        "randomCards": 0
+      }
+    },
+    {
+      "id": "ex5-pack",
+      "kind": "boosterPack",
+      "title": "Booster Pack [EX-5]",
+      "setId": "EX5",
+      "price": 100,
+      "repeatable": true,
+      "prereqStoryNodeIds": ["story.act2.adventure.03"],
+      "packRules": {
+        "cardsPerPack": 12,
+        "guaranteedNewCards": 5,
+        "randomCards": 7
+      }
+    },
+    {
+      "id": "bt15-pack",
+      "kind": "boosterPack",
+      "title": "Booster Pack [BT-15]",
+      "setId": "BT15",
+      "price": 100,
+      "repeatable": true,
+      "prereqStoryNodeIds": ["story.act2.adventure.03"],
+      "packRules": {
+        "cardsPerPack": 12,
+        "guaranteedNewCards": 5,
+        "randomCards": 7
+      }
+    },
+    {
+      "id": "bt16-pack",
+      "kind": "boosterPack",
+      "title": "Booster Pack [BT-16]",
+      "setId": "BT16",
+      "price": 100,
+      "repeatable": true,
+      "prereqStoryNodeIds": ["story.act2.adventure02.03"],
+      "packRules": {
+        "cardsPerPack": 12,
+        "guaranteedNewCards": 5,
+        "randomCards": 7
+      }
+    },
+    {
+      "id": "st17-set",
+      "kind": "boosterPack",
+      "title": "Starter Set [ST-17]",
+      "setId": "ST17",
+      "price": 500,
+      "repeatable": false,
+      "prereqStoryNodeIds": ["story.act2.adventure02.03"],
+      "packRules": {
+        "cardsPerPack": 32,
+        "guaranteedNewCards": 32,
+        "randomCards": 0
+      }
+    },
+    {
+      "id": "ex6-pack",
+      "kind": "boosterPack",
+      "title": "Booster Pack [EX-6]",
+      "setId": "EX6",
+      "price": 100,
+      "repeatable": true,
+      "prereqStoryNodeIds": ["story.act2.adventure02.03"],
+      "packRules": {
+        "cardsPerPack": 12,
+        "guaranteedNewCards": 5,
+        "randomCards": 7
+      }
+    },
+    {
+      "id": "bt17-pack",
+      "kind": "boosterPack",
+      "title": "Booster Pack [BT-17]",
+      "setId": "BT17",
+      "price": 100,
+      "repeatable": true,
+      "prereqStoryNodeIds": ["story.act2.frontier.03"],
+      "packRules": {
+        "cardsPerPack": 12,
+        "guaranteedNewCards": 5,
+        "randomCards": 7
+      }
+    },
+    {
+      "id": "bt18-pack",
+      "kind": "boosterPack",
+      "title": "Booster Pack [BT-18]",
+      "setId": "BT18",
+      "price": 100,
+      "repeatable": true,
+      "prereqStoryNodeIds": ["story.act2.tamers.03"],
+      "packRules": {
+        "cardsPerPack": 12,
+        "guaranteedNewCards": 5,
+        "randomCards": 7
+      }
+    },
+    {
+      "id": "bt19-pack",
+      "kind": "boosterPack",
+      "title": "Booster Pack [BT-19]",
+      "setId": "BT19",
+      "price": 100,
+      "repeatable": true,
+      "prereqStoryNodeIds": ["story.act2.tamers.03"],
+      "packRules": {
+        "cardsPerPack": 12,
+        "guaranteedNewCards": 5,
+        "randomCards": 7
+      }
+    },
+    {
+      "id": "st18-set",
+      "kind": "boosterPack",
+      "title": "Starter Set [ST-18]",
+      "setId": "ST18",
+      "price": 500,
+      "repeatable": false,
+      "prereqStoryNodeIds": ["story.act2.tamers.03"],
+      "packRules": {
+        "cardsPerPack": 15,
+        "guaranteedNewCards": 15,
+        "randomCards": 0
+      }
+    },
+    {
+      "id": "st19-set",
+      "kind": "boosterPack",
+      "title": "Starter Set [ST-19]",
+      "setId": "ST19",
+      "price": 500,
+      "repeatable": false,
+      "prereqStoryNodeIds": ["story.act2.tamers.03"],
+      "packRules": {
+        "cardsPerPack": 15,
+        "guaranteedNewCards": 15,
+        "randomCards": 0
+      }
+    },
+    {
+      "id": "ex7-pack",
+      "kind": "boosterPack",
+      "title": "Booster Pack [EX-7]",
+      "setId": "EX7",
+      "price": 100,
+      "repeatable": true,
+      "prereqStoryNodeIds": ["story.act2.tamers.03"],
+      "packRules": {
+        "cardsPerPack": 12,
+        "guaranteedNewCards": 5,
+        "randomCards": 7
+      }
+    },
+    {
+      "id": "ex8-pack",
+      "kind": "boosterPack",
+      "title": "Booster Pack [EX-8]",
+      "setId": "EX8",
+      "price": 100,
+      "repeatable": true,
+      "prereqStoryNodeIds": ["story.act2.liberator.02"],
+      "packRules": {
+        "cardsPerPack": 12,
+        "guaranteedNewCards": 5,
+        "randomCards": 7
+      }
+    },
+    {
+      "id": "bt20-pack",
+      "kind": "boosterPack",
+      "title": "Booster Pack [BT-20]",
+      "setId": "BT20",
+      "price": 100,
+      "repeatable": true,
+      "prereqStoryNodeIds": ["story.act2.liberator.02"],
+      "packRules": {
+        "cardsPerPack": 12,
+        "guaranteedNewCards": 5,
+        "randomCards": 7
+      }
+    },
+    {
+      "id": "st20-set",
+      "kind": "boosterPack",
+      "title": "Starter Set [ST-20]",
+      "setId": "ST20",
+      "price": 500,
+      "repeatable": false,
+      "prereqStoryNodeIds": ["story.act2.liberator.04"],
+      "packRules": {
+        "cardsPerPack": 16,
+        "guaranteedNewCards": 16,
+        "randomCards": 0
+      }
+    },
+    {
+      "id": "st21-set",
+      "kind": "boosterPack",
+      "title": "Starter Set [ST-21]",
+      "setId": "ST21",
+      "price": 500,
+      "repeatable": false,
+      "prereqStoryNodeIds": ["story.act2.liberator.04"],
+      "packRules": {
+        "cardsPerPack": 16,
+        "guaranteedNewCards": 16,
+        "randomCards": 0
+      }
+    },
+    {
+      "id": "bt21-pack",
+      "kind": "boosterPack",
+      "title": "Booster Pack [BT-21]",
+      "setId": "BT21",
+      "price": 100,
+      "repeatable": true,
+      "prereqStoryNodeIds": ["story.act2.liberator.06"],
+      "packRules": {
+        "cardsPerPack": 12,
+        "guaranteedNewCards": 5,
+        "randomCards": 7
+      }
+    },
+    {
+      "id": "ex9-pack",
+      "kind": "boosterPack",
+      "title": "Booster Pack [EX-9]",
+      "setId": "EX9",
+      "price": 100,
+      "repeatable": true,
+      "prereqStoryNodeIds": ["story.act2.liberator.06"],
+      "packRules": {
+        "cardsPerPack": 12,
+        "guaranteedNewCards": 5,
+        "randomCards": 7
+      }
+    },
+    {
+      "id": "ex10-pack",
+      "kind": "boosterPack",
+      "title": "Booster Pack [EX-10]",
+      "setId": "EX10",
+      "price": 100,
+      "repeatable": true,
+      "prereqStoryNodeIds": ["story.act2.liberator.final"],
+      "packRules": {
+        "cardsPerPack": 12,
+        "guaranteedNewCards": 5,
+        "randomCards": 7
+      }
+    },
+    {
+      "id": "lm-pack",
+      "kind": "boosterPack",
+      "title": "Limited Card Pack [LM]",
+      "setId": "LM",
+      "price": 300,
+      "repeatable": true,
+      "prereqStoryNodeIds": [],
+      "packRules": {
+        "cardsPerPack": 12,
+        "guaranteedNewCards": 5,
+        "randomCards": 7
+      }
+    },
+    {
       "id": "promo-pack",
       "kind": "boosterPack",
       "title": "Promo Pack [P]",
       "setId": "P",
-      "price": 1000,
+      "price": 300,
       "repeatable": true,
       "prereqStoryNodeIds": [],
       "packRules": {

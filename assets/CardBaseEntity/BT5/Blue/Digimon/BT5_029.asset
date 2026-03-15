@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT5_029
   m_EditorClassIdentifier: 
   CardIndex: 976
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 8
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Beastkin
   CardSpriteName: BT5-029
+  PrintID: BT5-029
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u306B\u540D\u79F0\u306B\u300C\u30EF\u30FC\u30AC\u30EB\u30EB\u30E2\u30F3\u300D\u3092\u542B\u3080\u30C7\u30B8\u30E2\u30F3\u30AB\u30FC\u30C9\u304C\u3042\u308B\u9593\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u226A\u30B8\u30E3\u30DF\u30F3\u30B0\u226B\uFF08\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u30C7\u30B8\u30E2\u30F3\u3068\u306E\u30D0\u30C8\u30EB\u3067\u306F\u6D88\u6EC5\u3057\u306A\u3044\uFF09\u3092\u5F97\u308B\u3002"
   EffectDiscription_ENG: "[Your Turn] While a Digimon card with [WereGarurumon] in

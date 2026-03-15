@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_016
   m_EditorClassIdentifier: 
   CardIndex: 7536
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 7
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Dragonkin
   - LIBERATOR
   CardSpriteName: BT24-016
+  PrintID: BT24-016
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Hand] [Main] If you have [Owen Dreadnought], by placing

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_052
   m_EditorClassIdentifier: 
   CardIndex: 7228
+  LegacyCardIndices: 
   cardColors: 0600000002000000
   PlayCost: 13
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Demon Lord
   - Seven Great Demon Lords
   CardSpriteName: EX10-052
+  PrintID: EX10-052
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Lucemon]: Cost 5 \n\n[When Digivolving] [When

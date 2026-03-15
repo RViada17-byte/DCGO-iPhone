@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_029_P0
   m_EditorClassIdentifier: 
   CardIndex: 4392
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 8
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Holy Dragon
   CardSpriteName: BT11-029_P0
+  PrintID: BT11-029_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Main] [Once Per Turn] By suspending this Digimon, reveal
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-029
   MaxCountInDeck: 4

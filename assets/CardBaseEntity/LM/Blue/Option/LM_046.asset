@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: LM_046
   m_EditorClassIdentifier: 
   CardIndex: 7462
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - '-'
   CardSpriteName: LM-046
+  PrintID: LM-046
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "Purple also meets this card's color requirements.\n[Main]

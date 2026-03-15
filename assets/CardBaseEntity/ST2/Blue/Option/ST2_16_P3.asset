@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST2_16_P3
   m_EditorClassIdentifier: 
   CardIndex: 4975
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 7
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: ST2-16_P3
+  PrintID: ST2-16_P3
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Main] Return one of your opponent''s Digimon to the hand.'
@@ -40,5 +43,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST2-16
   MaxCountInDeck: 4

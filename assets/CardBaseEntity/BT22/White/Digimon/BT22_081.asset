@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_081
   m_EditorClassIdentifier: 
   CardIndex: 7091
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 6
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - CS
   CardSpriteName: BT22-081
+  PrintID: BT22-081
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Yuuko Kamishiro]: Cost 3 \n\n\uFF1CRaid\uFF1E

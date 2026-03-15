@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_066_P1
   m_EditorClassIdentifier: 
   CardIndex: 4331
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 8
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Dark Knight
   - Twilight
   CardSpriteName: BT10-066_P1
+  PrintID: BT10-066_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] \uFF1CDe-Digivolve1\uFF1E 1 of your opponent's
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-066
   MaxCountInDeck: 4

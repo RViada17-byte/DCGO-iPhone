@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_057
   m_EditorClassIdentifier: 
   CardIndex: 7588
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   Type_ENG:
   - Doctor
   CardSpriteName: BT24-057
+  PrintID: BT24-057
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Security] At the end of the battle, play this card without

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT14_054_P0
   m_EditorClassIdentifier: 
   CardIndex: 4669
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 12
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Ancient Animal
   CardSpriteName: BT14-054_P0
+  PrintID: BT14-054_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CPiercing\uFF1E \n[When Digivolving] By unsuspending
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT14-054
   MaxCountInDeck: 4

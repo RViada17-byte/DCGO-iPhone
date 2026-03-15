@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX11_047
   m_EditorClassIdentifier: 
   CardIndex: 7754
+  LegacyCardIndices: 
   cardColors: 0600000000000000
   PlayCost: 3
   EvoCosts:
@@ -36,12 +37,14 @@ MonoBehaviour:
   - Evil
   - LIBERATOR
   CardSpriteName: EX11-047
+  PrintID: EX11-047
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Digivolve] [Yaamon]: Cost 0
 
-    [Start of Your Main
-    Phase] Trash 1 card in your hand. Then, gain 1 memory.'
+    [Start of Your Main Phase]
+    Trash 1 card in your hand. Then, gain 1 memory.'
   InheritedEffectDiscription_JPN: 
   InheritedEffectDiscription_ENG: '[Your Turn] This Digimon gets +2000 DP.'
   SecurityEffectDiscription_JPN: 

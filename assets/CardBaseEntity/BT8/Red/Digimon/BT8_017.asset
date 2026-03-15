@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT8_017
   m_EditorClassIdentifier: 
   CardIndex: 1579
+  LegacyCardIndices: 
   cardColors: 0000000005000000
   PlayCost: 10
   EvoCosts:
@@ -40,6 +41,8 @@ MonoBehaviour:
   - Cyborg
   - X Antibody
   CardSpriteName: BT8-017
+  PrintID: BT8-017
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 13000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT8-017
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT2_016
   m_EditorClassIdentifier: 
   CardIndex: 384
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Rock Dragon
   CardSpriteName: BT2-016
+  PrintID: BT2-016
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT2-016
   MaxCountInDeck: 4

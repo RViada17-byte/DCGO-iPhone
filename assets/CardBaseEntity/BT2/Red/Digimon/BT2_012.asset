@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT2_012
   m_EditorClassIdentifier: 
   CardIndex: 377
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 4
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Giant Bird
   CardSpriteName: BT2-012
+  PrintID: BT2-012
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u30A2\u30BF\u30C3\u30AF\u6642\u3011\u30D7\u30EC\u30A4\u30E4\u30FC\u306B\u30A2\u30BF\u30C3\u30AF\u3057\u305F\u3068\u304D\u3001\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306EDP\u3092\uFF0B4000\u3059\u308B\u3002"
   EffectDiscription_ENG: '[When Attacking] When this Digimon attacks a player, it
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 3000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT2-012
   MaxCountInDeck: 4

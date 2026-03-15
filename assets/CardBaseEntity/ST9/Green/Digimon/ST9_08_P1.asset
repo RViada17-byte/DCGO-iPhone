@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST9_08_P1
   m_EditorClassIdentifier: 
   CardIndex: 5001
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Larva
   CardSpriteName: ST9-08_P1
+  PrintID: ST9-08_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '-'

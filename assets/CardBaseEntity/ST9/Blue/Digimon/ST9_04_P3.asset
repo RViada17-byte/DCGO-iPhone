@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST9_04_P3
   m_EditorClassIdentifier: 
   CardIndex: 1737
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 4
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Mythical Dragon
   CardSpriteName: ST9-04_P3
+  PrintID: ST9-04_P3
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: "\u624B\u672D\u306E\u3053\u306E\u30AB\u30FC\u30C9\u3092\u767B\u5834\u3055\u305B\u308B\u3068\u304D\u3001\u7DD1\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u3044\u308B\u306A\u3089\u3001\u652F\u6255\u3046\u767B\u5834\u30B3\u30B9\u30C8\u3092-1\u3059\u308B\u3002"
   EffectDiscription_ENG: When you would play this card from your hand, if you have
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST9-04
   MaxCountInDeck: 4

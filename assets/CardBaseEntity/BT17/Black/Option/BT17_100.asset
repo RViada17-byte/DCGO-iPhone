@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_100
   m_EditorClassIdentifier: 
   CardIndex: 3669
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: BT17-100
+  PrintID: BT17-100
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Security] Add this card to the hand.
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-100
   MaxCountInDeck: 4

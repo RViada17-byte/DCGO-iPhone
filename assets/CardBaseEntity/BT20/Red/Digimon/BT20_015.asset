@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_015
   m_EditorClassIdentifier: 
   CardIndex: 5094
+  LegacyCardIndices: 
   cardColors: 0000000005000000
   PlayCost: 7
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - X Antibody
   - Chronicle
   CardSpriteName: BT20-015
+  PrintID: BT20-015
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Ginryumon]/Lv.4 w/[Chronicle]\_trait: Cost
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-015
   MaxCountInDeck: 4

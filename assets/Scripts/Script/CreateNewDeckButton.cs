@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -18,7 +19,11 @@ public class CreateNewDeckButton : MonoBehaviour
     #region Creating a new deck
     public void CreateNewDeck()
     {
-        DeckData deckData = new DeckData(DeckData.GetDeckCode("NewDeck", new List<CEntity_Base>(), new List<CEntity_Base>(), null));
+        DeckData deckData = new DeckData(string.Empty, Guid.NewGuid().ToString("N"))
+        {
+            DeckName = "NewDeck",
+        };
+        deckData.SetDeckCardsFromResolvedCards(new List<CEntity_Base>(), new List<CEntity_Base>(), null);
 
         ContinuousController.instance.DeckDatas.Insert(0, deckData);
 
@@ -79,7 +84,9 @@ public class CreateNewDeckButton : MonoBehaviour
             }
         }
 
-        DeckData deckData = (new DeckData(DeckData.GetDeckCode("", deckCards, digitamaDeckCards, null))).ModifiedDeckData();
+        DeckData deckData = new DeckData(string.Empty, Guid.NewGuid().ToString("N"));
+        deckData.SetDeckCardsFromResolvedCards(deckCards, digitamaDeckCards, null);
+        deckData = deckData.ModifiedDeckData();
 
         if (deckData.DeckName == "新しいデッキ" || deckData.DeckName == "NewDeck")
         {

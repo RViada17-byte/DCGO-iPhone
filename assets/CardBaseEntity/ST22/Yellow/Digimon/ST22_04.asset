@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST22_04
   m_EditorClassIdentifier: 
   CardIndex: 7495
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 7
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Wizard
   CardSpriteName: ST22-04
+  PrintID: ST22-04
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] Until your opponent's turn

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_018
   m_EditorClassIdentifier: 
   CardIndex: 7164
+  LegacyCardIndices: 
   cardColors: 0300000006000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Wizard
   CardSpriteName: EX10-018
+  PrintID: EX10-018
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Psychemon]: Cost 5\n[Digivolve] Lv.4 w/\uFF1CSave\uFF1E\_in

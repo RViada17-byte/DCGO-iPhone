@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_055
   m_EditorClassIdentifier: 
   CardIndex: 3372
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 4
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Puppet
   CardSpriteName: BT16-055
+  PrintID: BT16-055
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Digivolve] [Pulsemon]: Cost 2[On Play] [When Digivolving]
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-055
   MaxCountInDeck: 4

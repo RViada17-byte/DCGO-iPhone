@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_096
   m_EditorClassIdentifier: 
   CardIndex: 3237
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   - "-\r"
   Type_ENG: []
   CardSpriteName: BT15-096
+  PrintID: BT15-096
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] Reveal the top 5 cards of your deck. Among them,
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-096
   MaxCountInDeck: 4

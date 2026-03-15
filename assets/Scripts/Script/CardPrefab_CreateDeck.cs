@@ -645,11 +645,6 @@ public class CardPrefab_CreateDeck : MonoBehaviour
 
     public void OnClick()
     {
-        if (IsLocked)
-        {
-            return;
-        }
-
         OnClickAction?.Invoke();
     }
 

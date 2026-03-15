@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST22_10
   m_EditorClassIdentifier: 
   CardIndex: 7501
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 6
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - "Onmy\u014Djutsu"
   CardSpriteName: ST22-10
+  PrintID: ST22-10
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "When effects trash this card from the security stack, activate

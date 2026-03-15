@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX9_054
   m_EditorClassIdentifier: 
   CardIndex: 6938
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 7
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Undead
   CardSpriteName: EX9-054
+  PrintID: EX9-054
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] \uFF1CDe-Digivolve 1\uFF1E

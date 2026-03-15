@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_078_P1
   m_EditorClassIdentifier: 
   CardIndex: 7612
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 13
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - X Antibody
   - Seven Great Demon Lords
   CardSpriteName: BT24-078_P1
+  PrintID: BT24-078_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Creepymon]: Cost 2 \n\n[Trash] [Your Turn]

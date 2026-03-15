@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_052
   m_EditorClassIdentifier: 
   CardIndex: 7582
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Unidentified
   - X Antibody
   CardSpriteName: BT24-052
+  PrintID: BT24-052
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Keramon]: Cost 0 \n\n[When Moving] [When Digivolving]

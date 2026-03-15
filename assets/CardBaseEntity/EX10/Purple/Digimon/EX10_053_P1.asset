@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_053_P1
   m_EditorClassIdentifier: 
   CardIndex: 7314
+  LegacyCardIndices: 
   cardColors: 0600000000000000
   PlayCost: 10
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Evil Dragon
   CardSpriteName: EX10-053_P1
+  PrintID: EX10-053_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Gammamon]\_in name: Cost 5 \n\n\uFF1CRush\uFF1E

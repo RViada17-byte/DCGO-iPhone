@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_050
   m_EditorClassIdentifier: 
   CardIndex: 7579
+  LegacyCardIndices: 
   cardColors: 0300000001000000
   PlayCost: 7
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Iliad
   - TS
   CardSpriteName: BT24-050
+  PrintID: BT24-050
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Garurumon]\_in name or w/[TS]\_trait:

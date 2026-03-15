@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_036
   m_EditorClassIdentifier: 
   CardIndex: 7562
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   Type_ENG:
   - Medical
   CardSpriteName: BT24-036
+  PrintID: BT24-036
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Security] At the end of the battle, play this card without

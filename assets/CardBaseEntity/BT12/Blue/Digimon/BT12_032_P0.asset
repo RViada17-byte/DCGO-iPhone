@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT12_032_P0
   m_EditorClassIdentifier: 
   CardIndex: 4491
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 13
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Ancient Aquabeast
   - Ten Warriors
   CardSpriteName: BT12-032_P0
+  PrintID: BT12-032_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[When Digivolving] You may play 1 blue Digimon card with
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 13000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT12-032
   MaxCountInDeck: 4

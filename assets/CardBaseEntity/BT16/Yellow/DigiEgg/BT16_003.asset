@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_003
   m_EditorClassIdentifier: 
   CardIndex: 3304
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: -1
   EvoCosts: []
@@ -31,6 +32,8 @@ MonoBehaviour:
   Type_ENG:
   - Amphibian
   CardSpriteName: BT16-003
+  PrintID: BT16-003
+  IsCanonicalPrint: 1
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 

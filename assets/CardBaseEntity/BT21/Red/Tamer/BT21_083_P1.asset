@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_083_P1
   m_EditorClassIdentifier: 
   CardIndex: 5404
+  LegacyCardIndices: 
   cardColors: 0000000002000000
   PlayCost: 4
   EvoCosts: []
@@ -31,6 +32,8 @@ MonoBehaviour:
   - Xros Heart
   - Hero
   CardSpriteName: BT21-083_P1
+  PrintID: BT21-083_P1
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] By placing 1 Digimon card with
@@ -49,6 +52,5 @@ MonoBehaviour:
   LinkDP: 0
   LinkEffect: '-'
   LinkRequirement: '-'
-  LinkCost: 0
   CardID: BT21-083
   MaxCountInDeck: 4

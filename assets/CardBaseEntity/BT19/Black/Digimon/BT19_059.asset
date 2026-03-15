@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_059
   m_EditorClassIdentifier: 
   CardIndex: 4001
+  LegacyCardIndices: 
   cardColors: 0500000006000000
   PlayCost: 4
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Dark Animal
   - Twilight
   CardSpriteName: BT19-059
+  PrintID: BT19-059
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CRetaliation\uFF1E \n[On Deletion] \uFF1CSave\uFF1E."
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-059
   MaxCountInDeck: 4

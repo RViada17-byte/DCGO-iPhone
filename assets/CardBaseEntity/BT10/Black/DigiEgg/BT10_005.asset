@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_005
   m_EditorClassIdentifier: 
   CardIndex: 2037
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: -1
   EvoCosts: []
@@ -34,6 +35,8 @@ MonoBehaviour:
   - Twilight
   - Xros Heart
   CardSpriteName: BT10-005
+  PrintID: BT10-005
+  IsCanonicalPrint: 1
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 

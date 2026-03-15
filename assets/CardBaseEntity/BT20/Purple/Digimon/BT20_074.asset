@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_074
   m_EditorClassIdentifier: 
   CardIndex: 5153
+  LegacyCardIndices: 
   cardColors: 0600000000000000
   PlayCost: 8
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Mutant
   CardSpriteName: BT20-074
+  PrintID: BT20-074
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] You may return 1 Digimon card
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-074
   MaxCountInDeck: 4

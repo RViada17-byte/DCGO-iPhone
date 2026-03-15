@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_075
   m_EditorClassIdentifier: 
   CardIndex: 3208
+  LegacyCardIndices: 
   cardColors: 0600000000000000
   PlayCost: 5
   EvoCosts:
@@ -42,6 +43,8 @@ MonoBehaviour:
   - X Antibody
   - SoC
   CardSpriteName: BT15-075
+  PrintID: BT15-075
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[When Digivolving] [When Attacking] By trashing 1 card
@@ -57,5 +60,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-075
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX5_041_P1
   m_EditorClassIdentifier: 
   CardIndex: 4228
+  LegacyCardIndices: 
   cardColors: 0300000006000000
   PlayCost: 7
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Holy Beast
   - Four Sovereigns
   CardSpriteName: EX5-041_P1
+  PrintID: EX5-041_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.5 w/[Deva]\_trait: Cost 3 \n\n[Hand] [Counter]
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 2
   OverflowMemory: 4
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX5-041
   MaxCountInDeck: 4

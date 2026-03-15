@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_021_P0
   m_EditorClassIdentifier: 
   CardIndex: 4305
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 5
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Machine
   - Blue Flare
   CardSpriteName: BT10-021_P0
+  PrintID: BT10-021_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] If you have a [Kiriha Aonuma] in play, you may
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-021
   MaxCountInDeck: 4

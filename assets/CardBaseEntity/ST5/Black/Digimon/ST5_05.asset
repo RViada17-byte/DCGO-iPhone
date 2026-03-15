@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST5_05
   m_EditorClassIdentifier: 
   CardIndex: 325
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 4
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Cyborg
   - D-Brigade
   CardSpriteName: ST5-05
+  PrintID: ST5-05
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST5-05
   MaxCountInDeck: 4

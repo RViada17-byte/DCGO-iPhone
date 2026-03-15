@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT12_072_P1
   m_EditorClassIdentifier: 
   CardIndex: 4523
+  LegacyCardIndices: 
   cardColors: 0500000000000000
   PlayCost: 13
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Machine
   - X Antibody
   CardSpriteName: BT12-072_P1
+  PrintID: BT12-072_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Machinedramon]/[Chaosdramon]: Cost 2 \n\n[Start
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 13000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT12-072
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_050
   m_EditorClassIdentifier: 
   CardIndex: 3770
+  LegacyCardIndices: 
   cardColors: 0600000000000000
   PlayCost: 3
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Evil
   - LIBERATOR
   CardSpriteName: EX7-050
+  PrintID: EX7-050
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Yaamon]: Cost 0 \n\n[Your Turn] When this Digimon
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-050
   MaxCountInDeck: 4

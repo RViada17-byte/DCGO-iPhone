@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX11_025_P1
   m_EditorClassIdentifier: 
   CardIndex: 7708
+  LegacyCardIndices: 
   cardColors: 0300000005000000
   PlayCost: 3
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   - Royal Base
   - LIBERATOR
   CardSpriteName: EX11-025_P1
+  PrintID: EX11-025_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.2 w/[Royal Base]\_trait: Cost 0 \n\n[Security]

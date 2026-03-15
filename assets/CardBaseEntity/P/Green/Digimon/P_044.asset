@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_044
   m_EditorClassIdentifier: 
   CardIndex: 6085
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 11
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Insectoid
   CardSpriteName: P-044
+  PrintID: P-044
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u304B\u3001DP5000\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F32\u4F53\u3092\u30EC\u30B9\u30C8\u3055\u305B\u308B\u3002"
   EffectDiscription_ENG: '[When Digivolving] Suspend 1 of your opponent''s Digimon,
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-044
   MaxCountInDeck: 4

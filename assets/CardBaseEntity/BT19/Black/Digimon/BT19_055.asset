@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_055
   m_EditorClassIdentifier: 
   CardIndex: 4002
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 3
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - Twilight
   - Xros Heart
   CardSpriteName: BT19-055
+  PrintID: BT19-055
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Deletion] Reveal the top 3 cards of your deck. Among
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-055
   MaxCountInDeck: 4

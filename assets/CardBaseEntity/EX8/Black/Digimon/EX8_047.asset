@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_047
   m_EditorClassIdentifier: 
   CardIndex: 4140
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 3
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - LIBERATOR
   - Mineral
   CardSpriteName: EX8-047
+  PrintID: EX8-047
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] Reveal the top 3 cards of your deck. Add 1 card
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-047
   MaxCountInDeck: 4

@@ -344,6 +344,9 @@ public class CsvLoader_CardEntity : Editor
                     cardEntity.CardID = customCardID;
                 }
 
+                cardEntity.PrintID = CardPrintCatalog.SuggestPrintId(cardEntity);
+                cardEntity.IsCanonicalPrint = CardPrintCatalog.IsLikelyCanonicalPrint(cardEntity);
+
                 // アセットとして保存
                 var asset = (CEntity_Base)AssetDatabase.LoadAssetAtPath(filePath, typeof(CEntity_Base));
 
@@ -355,6 +358,13 @@ public class CsvLoader_CardEntity : Editor
                 else
                 {
                     // 保存先のパスにファイルがあれば上書き
+                    cardEntity.PrintID = !string.IsNullOrWhiteSpace(asset.PrintID)
+                        ? CardPrintCatalog.NormalizeStoredPrintId(asset.PrintID)
+                        : CardPrintCatalog.SuggestPrintId(cardEntity);
+                    cardEntity.IsCanonicalPrint = asset.IsCanonicalPrint || cardEntity.IsCanonicalPrint;
+                    cardEntity.LegacyCardIndices = asset.LegacyCardIndices != null
+                        ? new List<int>(asset.LegacyCardIndices)
+                        : new List<int>();
                     EditorUtility.CopySerialized(cardEntity, asset);
                     AssetDatabase.SaveAssets();
                 }

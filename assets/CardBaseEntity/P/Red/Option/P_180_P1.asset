@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_180_P1
   m_EditorClassIdentifier: 
   CardIndex: 5304
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 6
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Three Musketeers
   CardSpriteName: P-180_P1
+  PrintID: P-180_P1
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "When effects trash this card from digivolution cards, delete
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 0
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-180
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT8_010
   m_EditorClassIdentifier: 
   CardIndex: 1568
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 4
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Giant Bird
   CardSpriteName: BT8-010
+  PrintID: BT8-010
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u624B\u672D\u306E\u3053\u306E\u30AB\u30FC\u30C9\u3092\u767B\u5834\u3055\u305B\u308B\u3068\u304D\u3001\u9EC4\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u3044\u308B\u306A\u3089\u3001\u652F\u6255\u3046\u767B\u5834\u30B3\u30B9\u30C8-1\u3002"
   EffectDiscription_ENG: When you would play this card from your hand, reduce its
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT8-010
   MaxCountInDeck: 4

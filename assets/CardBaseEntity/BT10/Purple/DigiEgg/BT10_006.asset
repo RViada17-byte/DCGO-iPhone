@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_006
   m_EditorClassIdentifier: 
   CardIndex: 2038
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: -1
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   Type_ENG:
   - Lesser
   CardSpriteName: BT10-006
+  PrintID: BT10-006
+  IsCanonicalPrint: 1
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 

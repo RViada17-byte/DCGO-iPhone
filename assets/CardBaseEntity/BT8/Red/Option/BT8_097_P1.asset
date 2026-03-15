@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT8_097_P1
   m_EditorClassIdentifier: 
   CardIndex: 6806
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 6
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: BT8-097_P1
+  PrintID: BT8-097_P1
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 'Reduce the memory cost of this card in your hand by 1 for

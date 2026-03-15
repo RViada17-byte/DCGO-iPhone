@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_065
   m_EditorClassIdentifier: 
   CardIndex: 3615
+  LegacyCardIndices: 
   cardColors: 0600000005000000
   PlayCost: 6
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - X Antibody
   - SoC
   CardSpriteName: BT17-065
+  PrintID: BT17-065
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Dorugamon]: Cost 0 \n\n[Trash] [All Turns]
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-065
   MaxCountInDeck: 4

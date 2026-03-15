@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT4_061
   m_EditorClassIdentifier: 
   CardIndex: 842
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 12
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Beastkin
   - Boss
   CardSpriteName: BT4-061
+  PrintID: BT4-061
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u6D88\u6EC5\u6642\u3011\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F32\u4F53\u307E\u3067\u3092\u30EC\u30B9\u30C8\u3055\u305B\u308B\u3002"
   EffectDiscription_ENG: '[On Deletion] Suspend up to 2 of your opponent''s Digimon.'
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT4-061
   MaxCountInDeck: 4

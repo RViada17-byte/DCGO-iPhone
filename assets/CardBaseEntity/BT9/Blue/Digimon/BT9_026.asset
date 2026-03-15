@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT9_026
   m_EditorClassIdentifier: 
   CardIndex: 1812
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 6
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Aquatic
   CardSpriteName: BT9-026
+  PrintID: BT9-026
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u226A\u901F\u653B\u226B\uFF08\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u767B\u5834\u3057\u305F\u30BF\u30FC\u30F3\u3067\u3082\u30A2\u30BF\u30C3\u30AF\u3067\u304D\u308B\uFF09"
   EffectDiscription_ENG: "\uFF1CRush\uFF1E (This Digimon can attack the turn it comes
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT9-026
   MaxCountInDeck: 4

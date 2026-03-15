@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_060_P1
   m_EditorClassIdentifier: 
   CardIndex: 3610
+  LegacyCardIndices: 
   cardColors: 0500000004000000
   PlayCost: 16
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Unidentified
   CardSpriteName: BT17-060_P1
+  PrintID: BT17-060_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "When you would play this card from the hand, by placing
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 15000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-060
   MaxCountInDeck: 4

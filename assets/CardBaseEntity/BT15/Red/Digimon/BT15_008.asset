@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_008
   m_EditorClassIdentifier: 
   CardIndex: 3128
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Avian
   CardSpriteName: BT15-008
+  PrintID: BT15-008
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Your Turn] [Once Per Turn] When one of your red Digimon
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-008
   MaxCountInDeck: 4

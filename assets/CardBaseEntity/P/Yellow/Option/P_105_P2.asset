@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_105_P2
   m_EditorClassIdentifier: 
   CardIndex: 10325
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 2
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: P-105_P2
+  PrintID: P-105_P2
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] Reveal the top 2 cards of your deck. Add 1 yellow
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 0
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-105
   MaxCountInDeck: 4

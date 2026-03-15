@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT14_087
   m_EditorClassIdentifier: 
   CardIndex: 3021
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts: []
@@ -28,6 +29,8 @@ MonoBehaviour:
   Type_ENG:
   - SoC
   CardSpriteName: BT14-087
+  PrintID: BT14-087
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30E1\u30A4\u30F3\u30D5\u30A7\u30A4\u30BA\u958B\u59CB\u6642\u3011\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u3044\u308B\u306A\u3089\u3001\u30E1\u30E2\u30EA\u30FC+1\u3002\u3010\u30E1\u30A4\u30F3\u3011\u7279\u5FB4\u306B\u300C\u9B54\u7363\u578B\u300D/\u300CSoC\u300D\u3092\u6301\u3064\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306B\u226A\u30DE\u30A4\u30F3\u30C9\u30EA\u30F3\u30AF\u226B\uFF08\u3053\u306E\u30C6\u30A4\u30DE\u30FC\u3092\u3001\u9032\u5316\u5143\u306B\u30C6\u30A4\u30DE\u30FC\u30AB\u30FC\u30C9\u304C\u7121\u3044\u305D\u306E\u30C7\u30B8\u30E2\u30F3\u306E\u9032\u5316\u5143\u306E\u4E0B\u306B\u7F6E\u304F\uFF09\u3002"
   EffectDiscription_ENG: "[Start of Your Main Phase] If your opponent has a Digimon,

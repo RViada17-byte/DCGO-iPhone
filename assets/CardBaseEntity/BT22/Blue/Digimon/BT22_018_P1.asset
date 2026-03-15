@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_018_P1
   m_EditorClassIdentifier: 
   CardIndex: 7011
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 3
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - LIBERATOR
   - Aquatic
   CardSpriteName: BT22-018_P1
+  PrintID: BT22-018_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] By placing this Digimon as the bottom digivolution

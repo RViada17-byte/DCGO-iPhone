@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_024
   m_EditorClassIdentifier: 
   CardIndex: 3984
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 7
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - LIBERATOR
   - Aquatic
   CardSpriteName: BT19-024
+  PrintID: BT19-024
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CDecode (Blue Lv.4)\uFF1E(When this Digimon would
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-024
   MaxCountInDeck: 4

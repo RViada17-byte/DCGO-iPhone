@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT13_018_P0
   m_EditorClassIdentifier: 
   CardIndex: 4567
+  LegacyCardIndices: 
   cardColors: 0000000002000000
   PlayCost: 12
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Light Dragon
   CardSpriteName: BT13-018_P0
+  PrintID: BT13-018_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.5 w/[RizeGreymon]\_in its name: Cost 3 \n\n[Start
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT13-018
   MaxCountInDeck: 4

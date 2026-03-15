@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_099
   m_EditorClassIdentifier: 
   CardIndex: 4025
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Wicked God
   CardSpriteName: BT19-099
+  PrintID: BT19-099
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] You may play 1 Digimon with the [Composite]\_trait
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-099
   MaxCountInDeck: 4

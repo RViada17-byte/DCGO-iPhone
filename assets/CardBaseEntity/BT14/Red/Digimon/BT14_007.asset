@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT14_007
   m_EditorClassIdentifier: 
   CardIndex: 2924
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Reptile
   CardSpriteName: BT14-007
+  PrintID: BT14-007
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u300C\u30B3\u30ED\u30E2\u30F3\u300D:\u30B3\u30B9\u30C80\u3010\u81EA\u5206\u306E\u30E1\u30A4\u30F3\u30D5\u30A7\u30A4\u30BA\u958B\u59CB\u6642\u3011\u540D\u79F0\u306B\u300C\u516B\u795E\u592A\u4E00\u300D\u3092\u542B\u3080\u81EA\u5206\u306E\u30C6\u30A4\u30DE\u30FC\u304C\u3044\u308B\u306A\u3089\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u624B\u672D\u306E\u300C\u30B0\u30EC\u30A4\u30E2\u30F3\u300D\u306B\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u9032\u5316\u3067\u304D\u308B\u3002"
   EffectDiscription_ENG: '[Digivolve][Koromon]: Cost 0[Start of Your Main Phase]
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT14-007
   MaxCountInDeck: 4

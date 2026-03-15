@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_045
   m_EditorClassIdentifier: 
   CardIndex: 5356
+  LegacyCardIndices: 
   cardColors: 0200000000000000
   PlayCost: 12
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Light Dragon
   - Hero
   CardSpriteName: BT21-045
+  PrintID: BT21-045
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.5 w/[RizeGreymon]\_in name or w/[Hero]\_trait:
@@ -54,6 +57,5 @@ MonoBehaviour:
   LinkDP: 0
   LinkEffect: '-'
   LinkRequirement: '-'
-  LinkCost: 0
   CardID: BT21-045
   MaxCountInDeck: 4

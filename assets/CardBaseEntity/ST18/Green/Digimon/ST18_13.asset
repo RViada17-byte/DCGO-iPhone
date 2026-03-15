@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST18_13
   m_EditorClassIdentifier: 
   CardIndex: 3830
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 12
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Giant Bird
   CardSpriteName: ST18-13
+  PrintID: ST18-13
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CFortitude\uFF1E (When this Digimon with digivolution
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST18-13
   MaxCountInDeck: 4

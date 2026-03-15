@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT5_068
   m_EditorClassIdentifier: 
   CardIndex: 1028
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 8
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Cyborg
   CardSpriteName: BT5-068
+  PrintID: BT5-068
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u226A\u518D\u8D77\u52D5\u226B\uFF08\u76F8\u624B\u306E\u30A2\u30AF\u30C6\u30A3\u30D6\u30D5\u30A7\u30A4\u30BA\u306B\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u3059\u308B\uFF09"
   EffectDiscription_ENG: "\uFF1CReboot\uFF1E (Unsuspend this Digimon during your
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT5-068
   MaxCountInDeck: 4

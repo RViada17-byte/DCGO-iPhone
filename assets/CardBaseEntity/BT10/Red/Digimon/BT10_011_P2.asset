@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_011_P2
   m_EditorClassIdentifier: 
   CardIndex: 4294
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 8
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Sky Dragon
   CardSpriteName: BT10-011_P2
+  PrintID: BT10-011_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.4 w/[Gammamon]\_in its name: Cost 3 \n\n[Your
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-011
   MaxCountInDeck: 4

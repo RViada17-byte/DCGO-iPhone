@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_064_P1
   m_EditorClassIdentifier: 
   CardIndex: 3197
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 7
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Cyborg
   - SoC
   CardSpriteName: BT15-064_P1
+  PrintID: BT15-064_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] [When Digivolving] Reveal the top 3 cards of
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-064
   MaxCountInDeck: 4

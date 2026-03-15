@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_019
   m_EditorClassIdentifier: 
   CardIndex: 7540
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   - TS
   - Aquatic
   CardSpriteName: BT24-019
+  PrintID: BT24-019
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.2 w/[TS]\_trait: Cost 0 \n\n[Your Turn]

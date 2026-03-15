@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_040_P0
   m_EditorClassIdentifier: 
   CardIndex: 4312
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 12
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Beastkin
   CardSpriteName: BT10-040_P0
+  PrintID: BT10-040_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[When Digivolving] If you have 2 or fewer security cards,
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-040
   MaxCountInDeck: 4

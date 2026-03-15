@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_014
   m_EditorClassIdentifier: 
   CardIndex: 3701
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 13
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Earth Dragon
   CardSpriteName: EX7-014
+  PrintID: EX7-014
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Attacking] Delete 1 of your opponent's
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 13000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-014
   MaxCountInDeck: 4

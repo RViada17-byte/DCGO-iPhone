@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT8_108_P2
   m_EditorClassIdentifier: 
   CardIndex: 6808
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: BT8-108_P2
+  PrintID: BT8-108_P2
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] Trash the top 2 cards of your deck and \uFF1CDraw

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_041
   m_EditorClassIdentifier: 
   CardIndex: 3996
+  LegacyCardIndices: 
   cardColors: 0200000000000000
   PlayCost: 11
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Holy Warrior
   - Royal Knight
   CardSpriteName: BT19-041
+  PrintID: BT19-041
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] By trashing the top card of
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-041
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_098
   m_EditorClassIdentifier: 
   CardIndex: 7122
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - LIBERATOR
   CardSpriteName: BT22-098
+  PrintID: BT22-098
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] You may play 1 [Shoemon] or [Arisa Kinosaki] from

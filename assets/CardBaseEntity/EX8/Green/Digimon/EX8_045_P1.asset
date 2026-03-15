@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_045_P1
   m_EditorClassIdentifier: 
   CardIndex: 4137
+  LegacyCardIndices: 
   cardColors: 0300000006000000
   PlayCost: 12
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Dark Animal
   - NSo
   CardSpriteName: EX8-045_P1
+  PrintID: EX8-045_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[When Digivolving] Suspend 1 of your opponent's Digimon
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-045
   MaxCountInDeck: 4

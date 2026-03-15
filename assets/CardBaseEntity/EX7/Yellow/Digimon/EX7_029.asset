@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_029
   m_EditorClassIdentifier: 
   CardIndex: 3729
+  LegacyCardIndices: 
   cardColors: 0200000003000000
   PlayCost: 7
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Ancient Animal
   - NSp
   CardSpriteName: EX7-029
+  PrintID: EX7-029
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.5 w/[NSp]\_trait or Lv.5 w/[Leomon]\_in its
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 4
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-029
   MaxCountInDeck: 4

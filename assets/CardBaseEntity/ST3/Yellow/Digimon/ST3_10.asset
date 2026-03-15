@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST3_10
   m_EditorClassIdentifier: 
   CardIndex: 95
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 10
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Holy Dragon
   - Four Great Dragons
   CardSpriteName: ST3-10
+  PrintID: ST3-10
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST3-10
   MaxCountInDeck: 4

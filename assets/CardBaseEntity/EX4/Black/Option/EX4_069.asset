@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX4_069
   m_EditorClassIdentifier: 
   CardIndex: 2634
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 6
   EvoCosts: []
@@ -26,6 +27,8 @@ MonoBehaviour:
   Type_JPN: []
   Type_ENG: []
   CardSpriteName: EX4-069
+  PrintID: EX4-069
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u6700\u3082\u767B\u5834\u30B3\u30B9\u30C8\u306E\u9AD8\u3044\u304A\u4E92\u3044\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u305A\u3064\u3092\u9078\u3076\u3002\u9078\u3070\u306A\u304B\u3063\u305F\u30C7\u30B8\u30E2\u30F3\u5168\u3066\u3092\u6D88\u6EC5\u3055\u305B\u308B\u3002"
   EffectDiscription_ENG: '[Main] Choose 1 of each player''s Digimon with the highest

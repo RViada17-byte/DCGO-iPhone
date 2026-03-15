@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX9_065
   m_EditorClassIdentifier: 
   CardIndex: 6956
+  LegacyCardIndices: 
   cardColors: 0600000003000000
   PlayCost: 7
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - DM
   - Ver.4
   CardSpriteName: EX9-065
+  PrintID: EX9-065
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.5 w/[DM]\_trait: Cost 3 \n\n[Hand] [Counter]

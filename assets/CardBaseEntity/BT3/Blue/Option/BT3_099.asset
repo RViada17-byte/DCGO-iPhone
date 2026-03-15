@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT3_099
   m_EditorClassIdentifier: 
   CardIndex: 740
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 2
   EvoCosts: []
@@ -26,6 +27,8 @@ MonoBehaviour:
   Type_JPN: []
   Type_ENG: []
   CardSpriteName: BT3-099
+  PrintID: BT3-099
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: "\u3010\u30E1\u30A4\u30F3\u3011\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u304A\u4E92\u3044\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u30D0\u30C8\u30EB\u3067\u6D88\u6EC5\u3057\u306A\u3044\u3002"
   EffectDiscription_ENG: '[Main] Neither player''s Digimon can be deleted in battle

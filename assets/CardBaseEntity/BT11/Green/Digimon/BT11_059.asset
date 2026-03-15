@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_059
   m_EditorClassIdentifier: 
   CardIndex: 2333
+  LegacyCardIndices: 
   cardColors: 0300000005000000
   PlayCost: 13
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Cyborg
   CardSpriteName: BT11-059
+  PrintID: BT11-059
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u3053\u306E\u30AB\u30FC\u30C9\u306B\u9032\u5316\u3059\u308B\u3068\u304D\u3001\u7DD1\u304B\u9ED2\u306E\u81EA\u5206\u306E\u30C6\u30A4\u30DE\u30FC1\u4F53\u3054\u3068\u306B\u652F\u6255\u3046\u9032\u5316\u30B3\u30B9\u30C8-1\u3002\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011[\u30BF\u30FC\u30F3\u306B1\u56DE]\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u30D0\u30C8\u30EB\u3067\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u6D88\u6EC5\u3055\u305B\u305F\u3068\u304D\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u3059\u308B\u3002"
   EffectDiscription_ENG: When one of your Digimon would digivolve into this card,
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 13000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-059
   MaxCountInDeck: 4

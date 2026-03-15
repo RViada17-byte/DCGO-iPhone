@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: LM_002
   m_EditorClassIdentifier: 
   CardIndex: 3248
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Mollusk
   CardSpriteName: LM-002
+  PrintID: LM-002
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Start of Your Main Phase] If you have 7 or fewer cards
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: LM-002
   MaxCountInDeck: 4

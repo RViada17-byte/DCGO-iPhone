@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_102
   m_EditorClassIdentifier: 
   CardIndex: 7128
+  LegacyCardIndices: 
   cardColors: 0600000001000000
   PlayCost: 4
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - Night Claw
   - CS
   CardSpriteName: BT22-102
+  PrintID: BT22-102
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] If your opponent has a Digimon,

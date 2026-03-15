@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_078_P0
   m_EditorClassIdentifier: 
   CardIndex: 4337
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 6
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Dragonkin
   CardSpriteName: BT10-078_P0
+  PrintID: BT10-078_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Gammamon]: Cost 2 \n\n[All Turns]While this
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-078
   MaxCountInDeck: 4

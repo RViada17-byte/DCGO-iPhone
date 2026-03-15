@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_018_P0
   m_EditorClassIdentifier: 
   CardIndex: 4721
+  LegacyCardIndices: 
   cardColors: 0000000005000000
   PlayCost: 12
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Cyborg
   CardSpriteName: BT15-018_P0
+  PrintID: BT15-018_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[End of Your Turn] [Once Per Turn] If your opponent has
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-018
   MaxCountInDeck: 4

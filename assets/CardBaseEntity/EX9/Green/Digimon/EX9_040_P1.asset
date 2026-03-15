@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX9_040_P1
   m_EditorClassIdentifier: 
   CardIndex: 6913
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 5
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Dinosaur
   - WG
   CardSpriteName: EX9-040_P1
+  PrintID: EX9-040_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.3 w/[WG]\_trait: Cost 2 \n\n\uFF1CBlocker\uFF1E

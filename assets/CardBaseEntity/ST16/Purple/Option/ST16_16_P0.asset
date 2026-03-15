@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST16_16_P0
   m_EditorClassIdentifier: 
   CardIndex: 4959
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: ST16-16_P0
+  PrintID: ST16-16_P0
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Main] Delete 1 of your opponent''s level 5 or lower Digimon.'
@@ -40,5 +43,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST16-16
   MaxCountInDeck: 4

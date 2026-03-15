@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_173
   m_EditorClassIdentifier: 
   CardIndex: 5186
+  LegacyCardIndices: 
   cardColors: 0300000005000000
   PlayCost: 13
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Cyborg
   CardSpriteName: P-173
+  PrintID: P-173
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.5 w/[Tyrannomon]\_in name: Cost 4 \n\n\uFF1CCollision\uFF1E.\n\uFF1CPiercing\uFF1E.\n\uFF1CBlocker\uFF1E
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 13000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-173
   MaxCountInDeck: 4

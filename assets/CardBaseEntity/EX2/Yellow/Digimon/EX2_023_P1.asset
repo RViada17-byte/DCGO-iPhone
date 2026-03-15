@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX2_023_P1
   m_EditorClassIdentifier: 
   CardIndex: 1954
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 8
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Wizard
   CardSpriteName: EX2-023_P1
+  PrintID: EX2-023_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u300C\u7267\u91CE\u7559\u59EB\u300D1\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002"
   EffectDiscription_ENG: '[When Digivolving] You may play 1 [Rika Nonaka] from your
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX2-023
   MaxCountInDeck: 4

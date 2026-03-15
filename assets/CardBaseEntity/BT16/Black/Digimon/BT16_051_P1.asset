@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_051_P1
   m_EditorClassIdentifier: 
   CardIndex: 3368
+  LegacyCardIndices: 
   cardColors: 0500000006000000
   PlayCost: 3
   EvoCosts:
@@ -42,6 +43,8 @@ MonoBehaviour:
   - X Antibody
   - SoC
   CardSpriteName: BT16-051_P1
+  PrintID: BT16-051_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Digivolve] [Dorimon]: Cost 0[Start of Your Main Phase]
@@ -56,5 +59,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-051
   MaxCountInDeck: 4

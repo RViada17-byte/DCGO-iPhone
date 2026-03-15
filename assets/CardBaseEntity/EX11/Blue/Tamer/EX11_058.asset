@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX11_058
   m_EditorClassIdentifier: 
   CardIndex: 7774
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - LIBERATOR
   CardSpriteName: EX11-058
+  PrintID: EX11-058
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] By placing 1 level 5 or lower

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_101_P1
   m_EditorClassIdentifier: 
   CardIndex: 4358
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 8
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: BT10-101_P1
+  PrintID: BT10-101_P1
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 'While you have a [Pulsemon] or a Digimon with [Pulsemon]
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-101
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST20_13
   m_EditorClassIdentifier: 
   CardIndex: 5276
+  LegacyCardIndices: 
   cardColors: 0500000003000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - ADVENTURE
   CardSpriteName: ST20-13
+  PrintID: ST20-13
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Your Turn] When any Digimon cards with the [ADVENTURE]\_trait
@@ -43,5 +46,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST20-13
   MaxCountInDeck: 4

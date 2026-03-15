@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_027_P2
   m_EditorClassIdentifier: 
   CardIndex: 3340
+  LegacyCardIndices: 
   cardColors: 0100000003000000
   PlayCost: 8
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Ancient Dragonkin
   CardSpriteName: BT16-027_P2
+  PrintID: BT16-027_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Digivolve] [Imperialdramon: Dragon Mode]: Cost 2[Hand]
@@ -55,5 +58,8 @@ MonoBehaviour:
   DP: 13000
   rarity: 2
   OverflowMemory: 4
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-027
   MaxCountInDeck: 4

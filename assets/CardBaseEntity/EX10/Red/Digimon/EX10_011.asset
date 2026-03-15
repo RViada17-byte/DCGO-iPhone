@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_011
   m_EditorClassIdentifier: 
   CardIndex: 7152
+  LegacyCardIndices: 
   cardColors: 000000000600000001000000
   PlayCost: 14
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Demon Lord
   CardSpriteName: EX10-011
+  PrintID: EX10-011
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.5 w/[Myotismon]\_in name: Cost 5 \n\n[Trash]

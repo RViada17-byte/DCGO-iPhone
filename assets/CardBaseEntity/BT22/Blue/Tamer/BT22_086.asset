@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_086
   m_EditorClassIdentifier: 
   CardIndex: 7100
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - LIBERATOR
   CardSpriteName: BT22-086
+  PrintID: BT22-086
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] By returning this Tamer to the

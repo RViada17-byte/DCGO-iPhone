@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT14_017
   m_EditorClassIdentifier: 
   CardIndex: 2936
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 11
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Dinosaur
   - X Antibody
   CardSpriteName: BT14-017
+  PrintID: BT14-017
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u226A\u9032\u6483\u226B\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\u30E1\u30E2\u30EA\u30FC\u304C\u76F8\u624B\u5074\u306E1\u4EE5\u4E0A\u306E\u9593\u3001DP6000\u4EE5\u4E0B\u306E\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u767B\u5834\u3067\u304D\u305A\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092DP+4000\u3002"
   EffectDiscription_ENG: "[When Digivolving] \uFF1CBlitz\uFF1E [All Turns] While
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT14-017
   MaxCountInDeck: 4

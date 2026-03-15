@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST17_10
   m_EditorClassIdentifier: 
   CardIndex: 3283
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - '-'
   CardSpriteName: ST17-10
+  PrintID: ST17-10
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] If your opponent has a Digimon,

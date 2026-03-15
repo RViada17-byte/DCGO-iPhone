@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX11_031
   m_EditorClassIdentifier: 
   CardIndex: 7720
+  LegacyCardIndices: 
   cardColors: 0300000005000000
   PlayCost: 8
   EvoCosts:
@@ -39,6 +40,8 @@ MonoBehaviour:
   - LIBERATOR
   - Insectoid
   CardSpriteName: EX11-031
+  PrintID: EX11-031
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Royal Base]\_trait: Cost 3 \n\n[Security]

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_063
   m_EditorClassIdentifier: 
   CardIndex: 3613
+  LegacyCardIndices: 
   cardColors: 0600000002000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Angel
   CardSpriteName: BT17-063
+  PrintID: BT17-063
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][HippoGryphonmon]: Cost 1 \n\n\uFF1CRetaliation\uFF1E
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-063
   MaxCountInDeck: 4

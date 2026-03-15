@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_031_P0
   m_EditorClassIdentifier: 
   CardIndex: 4791
+  LegacyCardIndices: 
   cardColors: 0200000006000000
   PlayCost: 4
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Holy Beast
   CardSpriteName: BT16-031_P0
+  PrintID: BT16-031_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Salamon]: Cost 2 \n\n\uFF1CBarrier\uFF1E \n[On
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-031
   MaxCountInDeck: 4

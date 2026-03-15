@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_109_P2
   m_EditorClassIdentifier: 
   CardIndex: 10405
+  LegacyCardIndices: 
   cardColors: 0100000003000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Ancient Dragon
   CardSpriteName: P-109_P2
+  PrintID: P-109_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Paildramon]/[Dinobeemon]: Cost 3 \n\n[Hand]
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 5
   OverflowMemory: 4
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-109
   MaxCountInDeck: 4

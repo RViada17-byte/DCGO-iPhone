@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT12_081_P0
   m_EditorClassIdentifier: 
   CardIndex: 4529
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 7
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Wizard
   CardSpriteName: BT12-081_P0
+  PrintID: BT12-081_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Psychemon]: Cost 5 [Digivolve]yellow, green,
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT12-081
   MaxCountInDeck: 4

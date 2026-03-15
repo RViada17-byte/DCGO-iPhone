@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_038
   m_EditorClassIdentifier: 
   CardIndex: 5032
+  LegacyCardIndices: 
   cardColors: 0200000003000000
   PlayCost: 7
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Beastkin
   - Xros Heart
   CardSpriteName: BT19-038
+  PrintID: BT19-038
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.4 w/[Xros Heart]\_trait: Cost 3 \n\nThis
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-038
   MaxCountInDeck: 4

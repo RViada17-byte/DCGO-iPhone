@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX4_033_P2
   m_EditorClassIdentifier: 
   CardIndex: 3297
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Beast
   CardSpriteName: EX4-033_P2
+  PrintID: EX4-033_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "The name of  this card/Digimon is also treated as [Terriermon].

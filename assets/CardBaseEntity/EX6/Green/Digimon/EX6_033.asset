@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_033
   m_EditorClassIdentifier: 
   CardIndex: 3483
+  LegacyCardIndices: 
   cardColors: 0300000002000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Beastkin
   CardSpriteName: EX6-033
+  PrintID: EX6-033
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Lopmon]/[Terriermon]: Cost 2 \n\n[On Play]
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX6-033
   MaxCountInDeck: 4

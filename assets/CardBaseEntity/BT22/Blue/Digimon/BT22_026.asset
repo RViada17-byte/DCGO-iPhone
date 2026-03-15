@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_026
   m_EditorClassIdentifier: 
   CardIndex: 7021
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 12
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Cyborg
   - CS
   CardSpriteName: BT22-026
+  PrintID: BT22-026
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.5 w/[Garurumon]\_in name or w/[CS]\_trait:

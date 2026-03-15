@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT4_031_P0
   m_EditorClassIdentifier: 
   CardIndex: 6779
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 7
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Composite
   CardSpriteName: BT4-031_P0-Errata
+  PrintID: BT4-031_P0-ERRATA
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] You may return 1 of your other Digimon to its

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX11_050
   m_EditorClassIdentifier: 
   CardIndex: 7760
+  LegacyCardIndices: 
   cardColors: 0600000000000000
   PlayCost: 7
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - LIBERATOR
   - Dark Dragon
   CardSpriteName: EX11-050
+  PrintID: EX11-050
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Dark Dragon]/[Evil Dragon]\_trait:

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST16_10
   m_EditorClassIdentifier: 
   CardIndex: 2855
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Ancient Animal
   CardSpriteName: ST16-10
+  PrintID: ST16-10
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u226A\u30D6\u30ED\u30C3\u30AB\u30FC\u226B\uFF08\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u30D6\u30ED\u30C3\u30AF\u30BF\u30A4\u30DF\u30F3\u30B0\u3067\u30D6\u30ED\u30C3\u30AF\u3067\u304D\u308B\uFF09"
   EffectDiscription_ENG: "\uFF1CBlocker\uFF1E (At blocker timing, by suspending this
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST16-10
   MaxCountInDeck: 4

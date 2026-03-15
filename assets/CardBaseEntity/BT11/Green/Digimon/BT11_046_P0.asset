@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_046_P0
   m_EditorClassIdentifier: 
   CardIndex: 4406
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Reptile
   CardSpriteName: BT11-046_P0
+  PrintID: BT11-046_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] Reveal the top 4 cards of your deck. Add 1 Tamer
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-046
   MaxCountInDeck: 4

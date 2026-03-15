@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_022_P1
   m_EditorClassIdentifier: 
   CardIndex: 4847
+  LegacyCardIndices: 
   cardColors: 0100000002000000
   PlayCost: 6
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Warrior
   CardSpriteName: BT17-022_P1
+  PrintID: BT17-022_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Koji Minamoto]: Cost 2 [Digivolve][KendoGarurumon]:
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-022
   MaxCountInDeck: 4

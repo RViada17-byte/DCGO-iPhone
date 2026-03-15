@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT13_075_P3
   m_EditorClassIdentifier: 
   CardIndex: 4600
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 12
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - Royal Knight
   - X Antibody
   CardSpriteName: BT13-075_P3
+  PrintID: BT13-075_P3
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] By placing 1 Digimon card
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT13-075
   MaxCountInDeck: 4

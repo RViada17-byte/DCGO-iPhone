@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX9_018_P1
   m_EditorClassIdentifier: 
   CardIndex: 6868
+  LegacyCardIndices: 
   cardColors: 0100000005000000
   PlayCost: 7
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - DM
   - Ver.2
   CardSpriteName: EX9-018_P1
+  PrintID: EX9-018_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Mamemon]: Cost 1\n[Digivolve] Lv.4 w/[DM]\_trait:

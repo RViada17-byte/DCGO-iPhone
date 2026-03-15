@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_009
   m_EditorClassIdentifier: 
   CardIndex: 7147
+  LegacyCardIndices: 
   cardColors: 0000000006000000
   PlayCost: 12
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Seven Great Demon Lords
   - Fallen Angel
   CardSpriteName: EX10-009
+  PrintID: EX10-009
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[When Digivolving] [On Deletion] Delete all of your opponent''s

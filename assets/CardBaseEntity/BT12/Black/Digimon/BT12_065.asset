@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT12_065
   m_EditorClassIdentifier: 
   CardIndex: 2480
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 6
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Mutant
   CardSpriteName: BT12-065
+  PrintID: BT12-065
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u9032\u5316:\u300C\u30E1\u30EB\u30AD\u30E5\u30FC\u30EC\u30E2\u30F3\u300D\u304B\u30891\u624B\u672D\u306E\u3053\u306E\u30AB\u30FC\u30C9\u306F\u3001\u9ED2\u306E\u81EA\u5206\u306E\u30C6\u30A4\u30DE\u30FC\u3092\u9ED2\u306ELv.3\u306E\u30C7\u30B8\u30E2\u30F3\u3068\u3057\u3066\u6271\u3044\u9032\u5316\u3067\u304D\u308B\u3002\u3010\u9032\u5316\u6642\u3011\u6B21\u306E\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u307E\u3067\u3001\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306B\u300C\u3010\u81EA\u5206\u306E\u30E1\u30A4\u30F3\u30D5\u30A7\u30A4\u30BA\u958B\u59CB\u6642\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3067\u30A2\u30BF\u30C3\u30AF\u3059\u308B\u3002\u300D\u306E\u52B9\u679C\u3092\u4E0E\u3048\u308B\u3002"
   EffectDiscription_ENG: 'Digivolve: 1 from [Mercurymon] You may digivolve this card
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT12-065
   MaxCountInDeck: 4

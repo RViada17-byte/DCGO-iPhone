@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_051
   m_EditorClassIdentifier: 
   CardIndex: 3504
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 7
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Fallen Angel
   CardSpriteName: EX6-051
+  PrintID: EX6-051
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] [When Digivolving] If your opponent has 5 or
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX6-051
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_092
   m_EditorClassIdentifier: 
   CardIndex: 3958
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - LIBERATOR
   CardSpriteName: BT18-092
+  PrintID: BT18-092
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] By trashing 1 [Vemmon] in your
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-092
   MaxCountInDeck: 4

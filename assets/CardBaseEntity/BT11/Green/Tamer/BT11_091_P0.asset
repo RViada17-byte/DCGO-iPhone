@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_091_P0
   m_EditorClassIdentifier: 
   CardIndex: 4435
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Tamer
   CardSpriteName: BT11-091_P0
+  PrintID: BT11-091_P0
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Your Turn] All of your Digimon get +1000 DP.
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-091
   MaxCountInDeck: 4

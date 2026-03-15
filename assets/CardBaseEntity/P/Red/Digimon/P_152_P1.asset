@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_152_P1
   m_EditorClassIdentifier: 
   CardIndex: 10451
+  LegacyCardIndices: 
   cardColors: 0000000002000000
   PlayCost: 5
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Enhancement
   - Xros Heart
   CardSpriteName: P-152_P1
+  PrintID: P-152_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Play cost 4 or less [Shoutmon]/[Dorulumon]:
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-152
   MaxCountInDeck: 4

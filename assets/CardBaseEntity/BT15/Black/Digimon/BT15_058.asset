@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_058
   m_EditorClassIdentifier: 
   CardIndex: 3190
+  LegacyCardIndices: 
   cardColors: 0500000003000000
   PlayCost: 4
   EvoCosts:
@@ -42,6 +43,8 @@ MonoBehaviour:
   - X Antibody
   - DigiPolice
   CardSpriteName: BT15-058
+  PrintID: BT15-058
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: ' (At blocker timing, by suspending this Digimon, it becomes
@@ -58,5 +61,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-058
   MaxCountInDeck: 4

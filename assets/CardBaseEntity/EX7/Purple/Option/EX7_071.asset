@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_071
   m_EditorClassIdentifier: 
   CardIndex: 3810
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 6
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Three Musketeers
   CardSpriteName: EX7-071
+  PrintID: EX7-071
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "When an effect trashes this card from your Digimon's digivolution
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-071
   MaxCountInDeck: 4

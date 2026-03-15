@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: RB1_002
   m_EditorClassIdentifier: 
   CardIndex: 2863
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: -1
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   Type_ENG:
   - Lesser
   CardSpriteName: RB1-002
+  PrintID: RB1-002
+  IsCanonicalPrint: 1
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 

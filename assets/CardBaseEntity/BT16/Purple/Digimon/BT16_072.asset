@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_072
   m_EditorClassIdentifier: 
   CardIndex: 3390
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 6
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Dark Animal
   CardSpriteName: BT16-072
+  PrintID: BT16-072
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: <Blocker>[On Play] Reveal the top 5 cards of your deck.
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-072
   MaxCountInDeck: 4

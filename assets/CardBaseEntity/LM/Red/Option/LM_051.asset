@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: LM_051
   m_EditorClassIdentifier: 
   CardIndex: 7812
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - '-'
   CardSpriteName: LM-051
+  PrintID: LM-051
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "Green also meets this card's color requirements.\n[Main]

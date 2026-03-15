@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX5_005
   m_EditorClassIdentifier: 
   CardIndex: 3044
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: -1
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   Type_ENG:
   - Lesser
   CardSpriteName: EX5-005
+  PrintID: EX5-005
+  IsCanonicalPrint: 1
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 

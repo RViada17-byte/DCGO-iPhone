@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX4_023
   m_EditorClassIdentifier: 
   CardIndex: 2571
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Dinosaur
   CardSpriteName: EX4-023
+  PrintID: EX4-023
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u3011\uFF3B\u30BF\u30FC\u30F3\u306B1\u56DE\uFF3D\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F3\u304C\u767B\u5834\u3057\u305F\u3068\u304D\u3001\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u305D\u306E\u30C7\u30B8\u30E2\u30F3\u3068\u540C\u3058Lv.\u306E\u30AB\u30FC\u30C91\u679A\u3092\u30AA\u30FC\u30D7\u30F3\u3059\u308B\u3053\u3068\u3067\u3001\u305D\u306E\u30AB\u30FC\u30C9\u3092\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u306E\u4E0A\u306B\u88CF\u5411\u304D\u3067\u7F6E\u304F\u3002"
   EffectDiscription_ENG: '[Opponent''s Turn][Once Per Turn] When an opponent plays

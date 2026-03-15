@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_067_P1
   m_EditorClassIdentifier: 
   CardIndex: 3803
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 5
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: EX7-067_P1
+  PrintID: EX7-067_P1
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] trash the top 2 digivolution cards of all of your
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 0
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-067
   MaxCountInDeck: 4

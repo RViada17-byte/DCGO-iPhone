@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST16_02_P0
   m_EditorClassIdentifier: 
   CardIndex: 4944
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Mammal
   CardSpriteName: ST16-02_P0
+  PrintID: ST16-02_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] \uFF1CDraw 1\uFF1E. Then, trash 1 card in your
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST16-02
   MaxCountInDeck: 4

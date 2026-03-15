@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX9_005
   m_EditorClassIdentifier: 
   CardIndex: 6839
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: -1
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Unknown
   CardSpriteName: EX9-005
+  PrintID: EX9-005
+  IsCanonicalPrint: 1
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Breeding] [Main] [Once Per Turn] You may play 1 Digimon

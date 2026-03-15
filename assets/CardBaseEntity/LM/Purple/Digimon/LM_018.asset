@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: LM_018
   m_EditorClassIdentifier: 
   CardIndex: 3264
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Dark Animal
   CardSpriteName: LM-018
+  PrintID: LM-018
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] Delete 1 level 4 or lower Digimon. If you did,
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: LM-018
   MaxCountInDeck: 4

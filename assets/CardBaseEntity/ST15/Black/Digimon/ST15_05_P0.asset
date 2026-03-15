@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST15_05_P0
   m_EditorClassIdentifier: 
   CardIndex: 4931
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 4
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Puppet
   CardSpriteName: ST15-05_P0
+  PrintID: ST15-05_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CBlocker\uFF1E \n[Your Turn] When this Digimon attacks
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST15-05
   MaxCountInDeck: 4

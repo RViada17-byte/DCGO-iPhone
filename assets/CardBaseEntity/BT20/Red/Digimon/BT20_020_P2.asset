@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_020_P2
   m_EditorClassIdentifier: 
   CardIndex: 5203
+  LegacyCardIndices: 
   cardColors: 0000000006000000
   PlayCost: 13
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Ancient Dragonkin
   CardSpriteName: BT20-020_P2
+  PrintID: BT20-020_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Imperialdramon: Dragon Mode]: Cost 2 \n\n\uFF1CRaid\uFF1E.\n\uFF1CPiercing\uFF1E
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 13000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-020
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_073
   m_EditorClassIdentifier: 
   CardIndex: 7080
+  LegacyCardIndices: 
   cardColors: 0600000001000000
   PlayCost: 7
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Night Claw
   - CS
   CardSpriteName: BT22-073
+  PrintID: BT22-073
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Night Claw]/[Light Fang]/[CS]\_trait:

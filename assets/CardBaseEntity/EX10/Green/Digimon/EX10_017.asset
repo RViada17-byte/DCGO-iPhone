@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_017
   m_EditorClassIdentifier: 
   CardIndex: 7163
+  LegacyCardIndices: 
   cardColors: 0300000006000000
   PlayCost: 6
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Stealth
   - Leviathan
   CardSpriteName: EX10-017
+  PrintID: EX10-017
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[App Fusion] [Mirrormon] & [Kabemon]\_& [Copipemon]: Cost

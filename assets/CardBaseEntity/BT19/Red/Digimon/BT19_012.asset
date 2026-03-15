@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_012
   m_EditorClassIdentifier: 
   CardIndex: 5015
+  LegacyCardIndices: 
   cardColors: 0000000002000000
   PlayCost: 7
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Dragonkin
   - Xros Heart
   CardSpriteName: BT19-012
+  PrintID: BT19-012
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Shoutmon]: Cost 4\n[Digivolve]Lv.4 w/[Xros
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-012
   MaxCountInDeck: 4

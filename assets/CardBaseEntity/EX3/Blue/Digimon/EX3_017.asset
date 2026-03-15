@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX3_017
   m_EditorClassIdentifier: 
   CardIndex: 2191
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Aquatic
   CardSpriteName: EX3-017
+  PrintID: EX3-017
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u767B\u5834\u6642\u3011\u6B21\u306E\u76F8\u624B\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u307E\u3067\u3001\u9752\u306E\u81EA\u5206\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306F\u226A\u30D6\u30ED\u30C3\u30AB\u30FC\u226B\u3092\u5F97\u308B\u3002\u9032\u5316\u5143\u304B\u3089\u767B\u5834\u3057\u3066\u3044\u305F\u3068\u304D\u3001\u305D\u306E\u30C7\u30B8\u30E2\u30F3\u3092\u30A2\u30AF\u30C6\u30A3\u30D6\u306B\u3059\u308B\u3002"
   EffectDiscription_ENG: "[On Play] 1 of your blue Digimon gains \uFF1CBlocker\uFF1E
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX3-017
   MaxCountInDeck: 4

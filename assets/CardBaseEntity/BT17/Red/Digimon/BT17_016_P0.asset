@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_016_P0
   m_EditorClassIdentifier: 
   CardIndex: 4845
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 11
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Holy Warrior
   - Royal Knight
   CardSpriteName: BT17-016_P0
+  PrintID: BT17-016_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[When Digivolving] [When Attacking] Delete 1 of your opponent's
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-016
   MaxCountInDeck: 4

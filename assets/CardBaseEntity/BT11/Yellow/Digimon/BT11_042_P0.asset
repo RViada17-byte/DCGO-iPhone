@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT11_042_P0
   m_EditorClassIdentifier: 
   CardIndex: 4401
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Archangel
   CardSpriteName: BT11-042_P0
+  PrintID: BT11-042_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[When Digivolving] You may search your security stack,
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT11-042
   MaxCountInDeck: 4

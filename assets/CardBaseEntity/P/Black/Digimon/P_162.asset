@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_162
   m_EditorClassIdentifier: 
   CardIndex: 10434
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Ancient Fish
   - DS
   CardSpriteName: P-162
+  PrintID: P-162
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.3 w/[DS]\_trait: Cost 2 \n\n[On Play] [When
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-162
   MaxCountInDeck: 4

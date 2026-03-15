@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_020
   m_EditorClassIdentifier: 
   CardIndex: 3328
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 5
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Beast
   - Night Claw
   CardSpriteName: BT16-020
+  PrintID: BT16-020
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Digivolve] Lv.3 w/[Night Claw]/[Light Fang] trait: Cost
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-020
   MaxCountInDeck: 4

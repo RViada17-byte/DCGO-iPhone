@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_183
   m_EditorClassIdentifier: 
   CardIndex: 5435
+  LegacyCardIndices: 
   cardColors: 0500000000000000
   PlayCost: 13
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Dragonkin
   - X Antibody
   CardSpriteName: P-183
+  PrintID: P-183
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CReboot\uFF1E.\n\uFF1CBlocker\uFF1E \n[When Digivolving]

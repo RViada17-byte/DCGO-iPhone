@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_014
   m_EditorClassIdentifier: 
   CardIndex: 7005
+  LegacyCardIndices: 
   cardColors: 0000000005000000
   PlayCost: 13
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - X Antibody
   - CS
   CardSpriteName: BT22-014
+  PrintID: BT22-014
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.5 w/[Greymon]\_in name or w/[CS]\_trait:

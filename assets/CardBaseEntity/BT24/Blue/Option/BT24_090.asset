@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_090
   m_EditorClassIdentifier: 
   CardIndex: 7633
+  LegacyCardIndices: 
   cardColors: 0100000002000000
   PlayCost: 3
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - Iliad
   - TS
   CardSpriteName: BT24-090
+  PrintID: BT24-090
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you have no face-up security cards, you can ignore

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_093_P0
   m_EditorClassIdentifier: 
   CardIndex: 4351
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - General
   - Bagra Army
   CardSpriteName: BT10-093_P0
+  PrintID: BT10-093_P0
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[All Turns] [Once Per Turn] When a purple card is placed
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-093
   MaxCountInDeck: 4

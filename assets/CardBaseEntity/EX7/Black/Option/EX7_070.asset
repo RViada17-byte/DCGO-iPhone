@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_070
   m_EditorClassIdentifier: 
   CardIndex: 3808
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 6
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Three Musketeers
   CardSpriteName: EX7-070
+  PrintID: EX7-070
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "When an effect trashes this digivolution card, \uFF1CDe-Digivolve1\uFF1E
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-070
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_058
   m_EditorClassIdentifier: 
   CardIndex: 7064
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   Type_ENG:
   - Dream
   CardSpriteName: BT22-058
+  PrintID: BT22-058
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[All Turns] [Once Per Turn] When this Digimon gets linked,

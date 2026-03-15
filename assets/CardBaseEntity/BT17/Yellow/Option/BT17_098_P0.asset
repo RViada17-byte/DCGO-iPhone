@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_098_P0
   m_EditorClassIdentifier: 
   CardIndex: 4888
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Abadin Electronics
   CardSpriteName: BT17-098_P0
+  PrintID: BT17-098_P0
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] Reveal the top 3 cards of your deck. Add 1 card
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-098
   MaxCountInDeck: 4

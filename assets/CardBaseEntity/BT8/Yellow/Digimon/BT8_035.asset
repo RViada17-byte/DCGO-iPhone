@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT8_035
   m_EditorClassIdentifier: 
   CardIndex: 1601
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Flame
   CardSpriteName: BT8-035
+  PrintID: BT8-035
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT8-035
   MaxCountInDeck: 4

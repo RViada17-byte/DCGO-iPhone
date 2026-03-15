@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT9_049
   m_EditorClassIdentifier: 
   CardIndex: 1837
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 5
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Insectoid
   - X Antibody
   CardSpriteName: BT9-049
+  PrintID: BT9-049
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u9032\u5316\uFF1A\u300C\u30AF\u30EF\u30AC\u30FC\u30E2\u30F3\u300D\u304B\u30890"
   EffectDiscription_ENG: 'Digivolve: 0 from [Kuwagamon]'

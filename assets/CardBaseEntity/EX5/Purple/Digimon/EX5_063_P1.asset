@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX5_063_P1
   m_EditorClassIdentifier: 
   CardIndex: 4235
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 13
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Demon Lord
   - Seven Great Demon Lords
   CardSpriteName: EX5-063_P1
+  PrintID: EX5-063_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CSecurity Attack +1\uFF1E \n[On Play] [When Digivolving]
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 13000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX5-063
   MaxCountInDeck: 4

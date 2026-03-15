@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_083
   m_EditorClassIdentifier: 
   CardIndex: 7426
+  LegacyCardIndices: 
   cardColors: 0300000005000000
   PlayCost: 4
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - Zaxon
   - CS
   CardSpriteName: BT23-083
+  PrintID: BT23-083
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] If you have a Digimon with the

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST17_11
   m_EditorClassIdentifier: 
   CardIndex: 3284
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - '-'
   CardSpriteName: ST17-11
+  PrintID: ST17-11
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] Reveal the top 3 cards of your deck. Add 1 green

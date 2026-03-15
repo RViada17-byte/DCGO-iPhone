@@ -214,46 +214,24 @@ public class DeckData
     #region List of cards included in the deck
     public List<CEntity_Base> DeckCards()
     {
-        List<CEntity_Base> deckCards = new List<CEntity_Base>();
-
-        if (DeckCardIDs != null)
+        if (DeckCardRefs != null && DeckCardRefs.Count > 0)
         {
-            foreach (int DeckCardID in DeckCardIDs)
-            {
-                CEntity_Base cEntity_Base = ContinuousController.instance.getCardEntityByCardID(DeckCardID);
-
-                if (cEntity_Base != null)
-                {
-                    deckCards.Add(cEntity_Base);
-                }
-            }
+            return ResolveDeckCardsFromRefs(DeckCardRefs, ignoreOwnership: false);
         }
 
-        return deckCards;
+        return ResolveDeckCardsFromLegacyIndexes(DeckCardIDs);
     }
     #endregion
 
     #region List of cards included in the Digitama deck
     public List<CEntity_Base> DigitamaDeckCards()
     {
-        List<CEntity_Base> deckCards = new List<CEntity_Base>();
-
-        if (DigitamaDeckCardIDs == null)
+        if (DigitamaDeckCardRefs != null && DigitamaDeckCardRefs.Count > 0)
         {
-            return deckCards;
+            return ResolveDeckCardsFromRefs(DigitamaDeckCardRefs, ignoreOwnership: false);
         }
 
-        foreach (int DeckCardID in DigitamaDeckCardIDs)
-        {
-            CEntity_Base cEntity_Base = ContinuousController.instance.getCardEntityByCardID(DeckCardID);
-
-            if (cEntity_Base != null)
-            {
-                deckCards.Add(cEntity_Base);
-            }
-        }
-
-        return deckCards;
+        return ResolveDeckCardsFromLegacyIndexes(DigitamaDeckCardIDs);
     }
     #endregion
 
@@ -278,11 +256,25 @@ public class DeckData
 
     #region key card
     public int KeyCardId { get; set; } = -1;
+    public CardPrintRef KeyCardRef { get; set; } = new CardPrintRef();
 
     public CEntity_Base KeyCard
     {
         get
         {
+            if (KeyCardRef != null && !KeyCardRef.IsEmpty)
+            {
+                CEntity_Base keyCard = CardPrintCatalog.ResolveDeckSlotWithFallback(
+                    KeyCardRef,
+                    GetOwnedPrintIds(),
+                    ignoreOwnership: false);
+
+                if (keyCard != null)
+                {
+                    return keyCard;
+                }
+            }
+
             if (KeyCardId >= 0)
             {
                 foreach (CEntity_Base Card in ContinuousController.instance.CardList)
@@ -294,7 +286,8 @@ public class DeckData
 
                     if (Card.CardIndex == KeyCardId)
                     {
-                        return Card;
+                        return CardPrintCatalog.ResolveDeckSlotWithFallback(CardPrintRef.FromCard(Card), GetOwnedPrintIds(), ignoreOwnership: false)
+                            ?? Card;
                     }
                 }
             }
@@ -333,6 +326,85 @@ public class DeckData
     #region List of card IDs included in the deck
     public List<int> DeckCardIDs { get; set; } = new List<int>();
     public List<int> DigitamaDeckCardIDs { get; set; } = new List<int>();
+    public List<CardPrintRef> DeckCardRefs { get; set; } = new List<CardPrintRef>();
+    public List<CardPrintRef> DigitamaDeckCardRefs { get; set; } = new List<CardPrintRef>();
+
+    public List<CardPrintRef> GetStoredMainDeckRefs()
+    {
+        if (DeckCardRefs != null && DeckCardRefs.Count > 0)
+        {
+            return CardPrintCatalog.CloneRefs(DeckCardRefs);
+        }
+
+        return ResolveRefsFromLegacyIndexes(DeckCardIDs);
+    }
+
+    public List<CardPrintRef> GetStoredDigitamaDeckRefs()
+    {
+        if (DigitamaDeckCardRefs != null && DigitamaDeckCardRefs.Count > 0)
+        {
+            return CardPrintCatalog.CloneRefs(DigitamaDeckCardRefs);
+        }
+
+        return ResolveRefsFromLegacyIndexes(DigitamaDeckCardIDs);
+    }
+
+    public CardPrintRef GetStoredKeyCardRef()
+    {
+        if (KeyCardRef != null && !KeyCardRef.IsEmpty)
+        {
+            return CardPrintCatalog.CloneRef(KeyCardRef);
+        }
+
+        if (KeyCardId < 0)
+        {
+            return new CardPrintRef();
+        }
+
+        CEntity_Base legacyKeyCard = ContinuousController.instance?.getCardEntityByCardID(KeyCardId);
+        return CardPrintRef.FromCard(legacyKeyCard);
+    }
+
+    public void SetStoredDeckRefs(IEnumerable<CardPrintRef> mainDeckRefs, IEnumerable<CardPrintRef> digitamaDeckRefs, CardPrintRef keyCardRef)
+    {
+        DeckCardRefs = CardPrintCatalog.CloneRefs(mainDeckRefs);
+        DigitamaDeckCardRefs = CardPrintCatalog.CloneRefs(digitamaDeckRefs);
+        KeyCardRef = CardPrintCatalog.CloneRef(keyCardRef);
+        RebuildLegacyCardIndexesFromStoredRefs();
+    }
+
+    public void SetDeckCardsFromResolvedCards(IEnumerable<CEntity_Base> mainDeckCards, IEnumerable<CEntity_Base> digitamaDeckCards, CEntity_Base keyCard)
+    {
+        List<CEntity_Base> resolvedMainDeck = mainDeckCards?.Where(card => card != null).ToList() ?? new List<CEntity_Base>();
+        List<CEntity_Base> resolvedDigitamaDeck = digitamaDeckCards?.Where(card => card != null).ToList() ?? new List<CEntity_Base>();
+
+        DeckCardRefs = CardPrintCatalog.CreatePrintRefs(resolvedMainDeck);
+        DigitamaDeckCardRefs = CardPrintCatalog.CreatePrintRefs(resolvedDigitamaDeck);
+        KeyCardRef = CardPrintRef.FromCard(keyCard);
+        SyncLegacyCardIndexesFromResolvedCards(resolvedMainDeck, resolvedDigitamaDeck, keyCard);
+    }
+
+    public void SyncLegacyCardIndexesFromResolvedCards(IEnumerable<CEntity_Base> mainDeckCards, IEnumerable<CEntity_Base> digitamaDeckCards, CEntity_Base keyCard)
+    {
+        List<CEntity_Base> resolvedMainDeck = mainDeckCards?.Where(card => card != null).ToList() ?? new List<CEntity_Base>();
+        List<CEntity_Base> resolvedDigitamaDeck = digitamaDeckCards?.Where(card => card != null).ToList() ?? new List<CEntity_Base>();
+
+        DeckCardIDs = GetDeckCardCodes(resolvedMainDeck);
+        DigitamaDeckCardIDs = GetDeckCardCodes(resolvedDigitamaDeck);
+        KeyCardId = keyCard != null ? keyCard.CardIndex : -1;
+    }
+
+    public void RebuildLegacyCardIndexesFromStoredRefs()
+    {
+        List<CEntity_Base> resolvedMainDeck = ResolveDeckCardsFromRefs(DeckCardRefs, ignoreOwnership: true);
+        List<CEntity_Base> resolvedDigitamaDeck = ResolveDeckCardsFromRefs(DigitamaDeckCardRefs, ignoreOwnership: true);
+        CardPrintRef storedKeyCardRef = GetStoredKeyCardRef();
+        CEntity_Base resolvedKeyCard = CardPrintCatalog.ResolveDeckSlotWithFallback(storedKeyCardRef, null, true)
+            ?? resolvedMainDeck.FirstOrDefault()
+            ?? resolvedDigitamaDeck.FirstOrDefault();
+
+        SyncLegacyCardIndexesFromResolvedCards(resolvedMainDeck, resolvedDigitamaDeck, resolvedKeyCard);
+    }
 
     #region カードを追加する
     public void AddCard(CEntity_Base cEntity_Base)
@@ -367,51 +439,56 @@ public class DeckData
     #region デッキにカードを追加する
     void AddDeckCard(CEntity_Base cEntity_Base)
     {
-        List<CEntity_Base> _DeckCards = DeckCards();
+        List<CEntity_Base> mainDeckCards = DeckCards();
+        List<CEntity_Base> digitamaDeckCards = DigitamaDeckCards();
+        CEntity_Base keyCard = KeyCard;
 
-        _DeckCards.Add(cEntity_Base);
-        _DeckCards = SortedDeckCardsList(_DeckCards);
+        mainDeckCards.Add(cEntity_Base);
+        mainDeckCards = SortedDeckCardsList(mainDeckCards);
 
-        DeckCardIDs = GetDeckCardCodes(_DeckCards);
+        SetDeckCardsFromResolvedCards(mainDeckCards, digitamaDeckCards, ResolveUpdatedKeyCard(keyCard, mainDeckCards, digitamaDeckCards));
     }
     #endregion
 
     #region デッキからカードを抜く
     void RemoveDeckCard(CEntity_Base cEntity_Base)
     {
-        List<CEntity_Base> _DeckCards = DeckCards();
+        List<CEntity_Base> mainDeckCards = DeckCards();
+        List<CEntity_Base> digitamaDeckCards = DigitamaDeckCards();
+        CEntity_Base keyCard = KeyCard;
 
-        _DeckCards.Remove(cEntity_Base);
+        mainDeckCards.Remove(cEntity_Base);
+        mainDeckCards = SortedDeckCardsList(mainDeckCards);
 
-        _DeckCards = SortedDeckCardsList(_DeckCards);
-
-        DeckCardIDs = GetDeckCardCodes(_DeckCards);
+        SetDeckCardsFromResolvedCards(mainDeckCards, digitamaDeckCards, ResolveUpdatedKeyCard(keyCard, mainDeckCards, digitamaDeckCards));
     }
     #endregion
 
     #region デジタマデッキにカードを追加する
     void AddDigitamaDeckCard(CEntity_Base cEntity_Base)
     {
-        List<CEntity_Base> _DeckCards = DigitamaDeckCards();
+        List<CEntity_Base> mainDeckCards = DeckCards();
+        List<CEntity_Base> digitamaDeckCards = DigitamaDeckCards();
+        CEntity_Base keyCard = KeyCard;
 
-        _DeckCards.Add(cEntity_Base);
+        digitamaDeckCards.Add(cEntity_Base);
+        digitamaDeckCards = SortedDeckCardsList(digitamaDeckCards);
 
-        _DeckCards = SortedDeckCardsList(_DeckCards);
-
-        DigitamaDeckCardIDs = GetDeckCardCodes(_DeckCards);
+        SetDeckCardsFromResolvedCards(mainDeckCards, digitamaDeckCards, ResolveUpdatedKeyCard(keyCard, mainDeckCards, digitamaDeckCards));
     }
     #endregion
 
     #region デジタマデッキからカードを抜く
     void RemoveDigitamaDeckCard(CEntity_Base cEntity_Base)
     {
-        List<CEntity_Base> _DeckCards = DigitamaDeckCards();
+        List<CEntity_Base> mainDeckCards = DeckCards();
+        List<CEntity_Base> digitamaDeckCards = DigitamaDeckCards();
+        CEntity_Base keyCard = KeyCard;
 
-        _DeckCards.Remove(cEntity_Base);
+        digitamaDeckCards.Remove(cEntity_Base);
+        digitamaDeckCards = SortedDeckCardsList(digitamaDeckCards);
 
-        _DeckCards = SortedDeckCardsList(_DeckCards);
-
-        DigitamaDeckCardIDs = GetDeckCardCodes(_DeckCards);
+        SetDeckCardsFromResolvedCards(mainDeckCards, digitamaDeckCards, ResolveUpdatedKeyCard(keyCard, mainDeckCards, digitamaDeckCards));
     }
     #endregion
 
@@ -427,7 +504,101 @@ public class DeckData
 
         return _DeckCardCodes;
     }
+
+    public static List<CardPrintRef> GetDeckCardRefs(List<CEntity_Base> deckCards)
+    {
+        return CardPrintCatalog.CreatePrintRefs(deckCards);
+    }
     #endregion
+
+    List<CEntity_Base> ResolveDeckCardsFromLegacyIndexes(IEnumerable<int> legacyIndexes)
+    {
+        List<CEntity_Base> deckCards = new List<CEntity_Base>();
+        if (legacyIndexes == null)
+        {
+            return deckCards;
+        }
+
+        foreach (int cardIndex in legacyIndexes)
+        {
+            CEntity_Base card = ContinuousController.instance?.getCardEntityByCardID(cardIndex);
+            if (card != null)
+            {
+                CEntity_Base resolvedCard = CardPrintCatalog.ResolveDeckSlotWithFallback(CardPrintRef.FromCard(card), GetOwnedPrintIds(), ignoreOwnership: false)
+                    ?? card;
+                deckCards.Add(resolvedCard);
+            }
+        }
+
+        return deckCards;
+    }
+
+    List<CEntity_Base> ResolveDeckCardsFromRefs(IEnumerable<CardPrintRef> cardRefs, bool ignoreOwnership)
+    {
+        List<CEntity_Base> deckCards = new List<CEntity_Base>();
+        if (cardRefs == null)
+        {
+            return deckCards;
+        }
+
+        ISet<string> ownedPrintIds = ignoreOwnership ? null : GetOwnedPrintIds();
+        foreach (CardPrintRef cardRef in cardRefs)
+        {
+            CEntity_Base card = CardPrintCatalog.ResolveDeckSlotWithFallback(cardRef, ownedPrintIds, ignoreOwnership);
+            if (card != null)
+            {
+                deckCards.Add(card);
+            }
+        }
+
+        return deckCards;
+    }
+
+    List<CardPrintRef> ResolveRefsFromLegacyIndexes(IEnumerable<int> legacyIndexes)
+    {
+        List<CardPrintRef> cardRefs = new List<CardPrintRef>();
+        if (legacyIndexes == null)
+        {
+            return cardRefs;
+        }
+
+        foreach (int cardIndex in legacyIndexes)
+        {
+            CEntity_Base card = ContinuousController.instance?.getCardEntityByCardID(cardIndex);
+            CardPrintRef cardRef = CardPrintRef.FromCard(card);
+            if (!cardRef.IsEmpty)
+            {
+                cardRefs.Add(cardRef);
+            }
+        }
+
+        return cardRefs;
+    }
+
+    ISet<string> GetOwnedPrintIds()
+    {
+        return ProgressionManager.Instance == null
+            ? null
+            : ProgressionManager.Instance.GetOwnedPrintIdSetSnapshot();
+    }
+
+    CEntity_Base ResolveUpdatedKeyCard(CEntity_Base previousKeyCard, IEnumerable<CEntity_Base> mainDeckCards, IEnumerable<CEntity_Base> digitamaDeckCards)
+    {
+        if (previousKeyCard != null)
+        {
+            if (mainDeckCards != null && mainDeckCards.Contains(previousKeyCard))
+            {
+                return previousKeyCard;
+            }
+
+            if (digitamaDeckCards != null && digitamaDeckCards.Contains(previousKeyCard))
+            {
+                return previousKeyCard;
+            }
+        }
+
+        return null;
+    }
 
     #endregion
 
@@ -787,12 +958,20 @@ public class DeckData
             return deckCards;
         }
 
-        DeckData deckData = new DeckData(GetDeckCode(this._deckName, modifiedDeckCards, modifiedDigitamaDeckCards, KeyCard), DeckID);
-
-        if (!deckData.AllDeckCards().Contains(deckData.KeyCard))
+        CEntity_Base keyCard = KeyCard;
+        if (keyCard != null &&
+            !modifiedDeckCards.Contains(keyCard) &&
+            !modifiedDigitamaDeckCards.Contains(keyCard))
         {
-            deckData.KeyCardId = -1;
+            keyCard = null;
         }
+
+        DeckData deckData = new DeckData(string.Empty, DeckID)
+        {
+            DeckName = this._deckName,
+            SortValue = SortValue,
+        };
+        deckData.SetDeckCardsFromResolvedCards(modifiedDeckCards, modifiedDigitamaDeckCards, keyCard);
 
         DeckData deckData1 = DeckBuildingRule.ModifiedDeckData(deckData);
         return deckData1;

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX5_054_P1
   m_EditorClassIdentifier: 
   CardIndex: 4232
+  LegacyCardIndices: 
   cardColors: 0500000002000000
   PlayCost: 12
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Cyborg
   CardSpriteName: EX5-054_P1
+  PrintID: EX5-054_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.5 w/[Etemon]/[Sukamon]\_in its name: Cost
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX5-054
   MaxCountInDeck: 4

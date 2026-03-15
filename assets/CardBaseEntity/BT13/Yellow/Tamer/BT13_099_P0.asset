@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT13_099_P0
   m_EditorClassIdentifier: 
   CardIndex: 4618
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Tamer
   CardSpriteName: BT13-099_P0
+  PrintID: BT13-099_P0
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[All Turns] [Once Per Turn] When your yellow Digimon is
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT13-099
   MaxCountInDeck: 4

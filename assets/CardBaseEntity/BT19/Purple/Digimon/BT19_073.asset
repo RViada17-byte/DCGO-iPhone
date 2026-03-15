@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_073
   m_EditorClassIdentifier: 
   CardIndex: 4013
+  LegacyCardIndices: 
   cardColors: 0600000005000000
   PlayCost: 12
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - X Antibody
   - Royal Knight
   CardSpriteName: BT19-073
+  PrintID: BT19-073
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][LordKnightmon]: Cost 1 \n\n\uFF1CCollision\uFF1E.\n\uFF1CPiercing\uFF1E
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-073
   MaxCountInDeck: 4

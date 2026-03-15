@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST18_15
   m_EditorClassIdentifier: 
   CardIndex: 3832
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 5
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - LIBERATOR
   CardSpriteName: ST18-15
+  PrintID: ST18-15
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Main] Suspend 1 Digimon. If this effect suspended your
@@ -43,5 +46,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST18-15
   MaxCountInDeck: 4

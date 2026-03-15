@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST10_02
   m_EditorClassIdentifier: 
   CardIndex: 1757
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts:
@@ -38,6 +39,8 @@ MonoBehaviour:
   Type_ENG:
   - Mammal
   CardSpriteName: ST10-02
+  PrintID: ST10-02
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST10-02
   MaxCountInDeck: 4

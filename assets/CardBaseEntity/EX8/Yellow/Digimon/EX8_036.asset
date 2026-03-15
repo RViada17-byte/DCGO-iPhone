@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_036
   m_EditorClassIdentifier: 
   CardIndex: 4116
+  LegacyCardIndices: 
   cardColors: 0200000006000000
   PlayCost: 11
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Undead
   - NSo
   CardSpriteName: EX8-036
+  PrintID: EX8-036
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.5 w/[NSo]\_trait: Cost 3 \n\n[When Digivolving]
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-036
   MaxCountInDeck: 4

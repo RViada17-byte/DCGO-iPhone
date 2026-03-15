@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_015
   m_EditorClassIdentifier: 
   CardIndex: 5323
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 5
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Dragonkin
   CardSpriteName: BT21-015
+  PrintID: BT21-015
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Security] At the end of the battle, play this card without

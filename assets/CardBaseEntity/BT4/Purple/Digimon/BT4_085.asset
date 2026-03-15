@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT4_085
   m_EditorClassIdentifier: 
   CardIndex: 876
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Ghost
   CardSpriteName: BT4-085
+  PrintID: BT4-085
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 10000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT4-085
   MaxCountInDeck: 4

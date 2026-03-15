@@ -23,7 +23,7 @@ public class LegacyAIBrain : IAIBrain
             });
     }
 
-    public AIChosenAction DecideBreeding(AISnapshot snapshot)
+    public AIChosenAction DecideBreeding(AISnapshot snapshot, GameContext gameContext = null, Player player = null)
     {
         if (snapshot == null)
         {

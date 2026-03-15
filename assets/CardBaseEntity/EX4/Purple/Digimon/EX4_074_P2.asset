@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX4_074_P2
   m_EditorClassIdentifier: 
   CardIndex: 6826
+  LegacyCardIndices: 
   cardColors: 0600000002000000
   PlayCost: 14
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Light Dragon
   CardSpriteName: EX4-074_P2
+  PrintID: EX4-074_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [ShineGreymon]: Cost 4 \n\n[When Digivolving]

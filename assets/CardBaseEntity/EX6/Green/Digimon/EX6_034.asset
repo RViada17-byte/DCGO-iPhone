@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_034
   m_EditorClassIdentifier: 
   CardIndex: 3484
+  LegacyCardIndices: 
   cardColors: 0300000002000000
   PlayCost: 8
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Holy Beast
   - Deva
   CardSpriteName: EX6-034
+  PrintID: EX6-034
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Turuiemon]/[Wendigomon]: Cost 3 \n\n\uFF1CAlliance\uFF1E
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX6-034
   MaxCountInDeck: 4

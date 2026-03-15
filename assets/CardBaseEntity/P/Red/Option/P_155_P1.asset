@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_155_P1
   m_EditorClassIdentifier: 
   CardIndex: 10457
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 2
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Device
   CardSpriteName: P-155_P1
+  PrintID: P-155_P1
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you don't have [Pawn Device], you may ignore this
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 0
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-155
   MaxCountInDeck: 4

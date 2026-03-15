@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_101_P1
   m_EditorClassIdentifier: 
   CardIndex: 3430
+  LegacyCardIndices: 
   cardColors: 0200000003000000
   PlayCost: 11
   EvoCosts:
@@ -40,6 +41,8 @@ MonoBehaviour:
   - Holy Warrior
   - X Antibody
   CardSpriteName: BT16-101_P1
+  PrintID: BT16-101_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Rapidmon]: Cost 4<Armor Purge> [When Digivolving]
@@ -56,5 +59,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 4
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-101
   MaxCountInDeck: 4

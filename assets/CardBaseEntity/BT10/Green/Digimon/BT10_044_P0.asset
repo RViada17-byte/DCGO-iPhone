@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_044_P0
   m_EditorClassIdentifier: 
   CardIndex: 4317
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 3
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Beast
   CardSpriteName: BT10-044_P0
+  PrintID: BT10-044_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Your Turn] [Once Per Turn] When you play a green Tamer,
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-044
   MaxCountInDeck: 4

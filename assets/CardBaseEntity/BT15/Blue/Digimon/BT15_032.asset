@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_032
   m_EditorClassIdentifier: 
   CardIndex: 3157
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 13
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Plesiosaur
   - X Antibody
   CardSpriteName: BT15-032
+  PrintID: BT15-032
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[When Digivolving] [When Attacking] [Once Per Turn] Return
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 13000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-032
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_053
   m_EditorClassIdentifier: 
   CardIndex: 5367
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 3
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   Type_ENG:
   - Clock
   CardSpriteName: BT21-053
+  PrintID: BT21-053
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.2 w/[Appmon]\_trait: Cost 0 \n\n[On Play]

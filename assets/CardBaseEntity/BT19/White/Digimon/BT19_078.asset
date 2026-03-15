@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_078
   m_EditorClassIdentifier: 
   CardIndex: 5057
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 5
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Espionage Agent
   CardSpriteName: BT19-078
+  PrintID: BT19-078
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] For each digivolution card of 1 of your [Mother
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-078
   MaxCountInDeck: 4

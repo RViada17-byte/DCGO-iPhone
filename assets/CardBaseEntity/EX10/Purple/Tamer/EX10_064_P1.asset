@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_064_P1
   m_EditorClassIdentifier: 
   CardIndex: 7321
+  LegacyCardIndices: 
   cardColors: 0600000005000000
   PlayCost: 4
   EvoCosts: []
@@ -31,6 +32,8 @@ MonoBehaviour:
   - Bagra Army
   - Twilight
   CardSpriteName: EX10-064_P1
+  PrintID: EX10-064_P1
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] By placing 1 [Bagra Army] or

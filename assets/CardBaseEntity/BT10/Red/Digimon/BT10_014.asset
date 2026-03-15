@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT10_014
   m_EditorClassIdentifier: 
   CardIndex: 2048
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 10
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Cyborg
   CardSpriteName: BT10-014
+  PrintID: BT10-014
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u226A\u9032\u6483\u226B\uFF08\u30E1\u30E2\u30EA\u30FC\u304C\u76F8\u624B\u5074\u306E1\u4EE5\u4E0A\u306E\u3068\u304D\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u30A2\u30BF\u30C3\u30AF\u3067\u304D\u308B\uFF09\u3010\u81EA\u5206\u306E\u30BF\u30FC\u30F3\u3011\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u3092DP+2000\u3002"
   EffectDiscription_ENG: "[When Digivolving] \uFF1CBlitz\uFF1E (If your opponent
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT10-014
   MaxCountInDeck: 4

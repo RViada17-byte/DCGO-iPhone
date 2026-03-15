@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_025
   m_EditorClassIdentifier: 
   CardIndex: 3467
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 7
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Monk
   CardSpriteName: EX6-025
+  PrintID: EX6-025
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Attacking] [Once Per Turn] 1 Digimon may
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX6-025
   MaxCountInDeck: 4

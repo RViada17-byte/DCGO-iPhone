@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_035_P1
   m_EditorClassIdentifier: 
   CardIndex: 3486
+  LegacyCardIndices: 
   cardColors: 0300000002000000
   PlayCost: 7
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Cherub
   - Three Great Angels
   CardSpriteName: EX6-035_P1
+  PrintID: EX6-035_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Antylamon]: Cost 3 /Purple [Cherubimon]: Cost
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 4
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX6-035
   MaxCountInDeck: 4

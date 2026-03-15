@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_028
   m_EditorClassIdentifier: 
   CardIndex: 3727
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 7
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Fairy
   - NSp
   CardSpriteName: EX7-028
+  PrintID: EX7-028
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.4 w/[NSp]\_trait: Cost 3 \n\n[On Deletion]
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-028
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_015_P0
   m_EditorClassIdentifier: 
   CardIndex: 4781
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 13
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Holy Beast
   - X Antibody
   CardSpriteName: BT16-015_P0
+  PrintID: BT16-015_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Phoenixmon]: Cost 2 \n\n[When Digivolving]
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 13000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-015
   MaxCountInDeck: 4

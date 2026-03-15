@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT14_020
   m_EditorClassIdentifier: 
   CardIndex: 2939
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Sea Beast
   CardSpriteName: BT14-020
+  PrintID: BT14-020
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u81EA\u5206\u306E\u30E1\u30A4\u30F3\u30D5\u30A7\u30A4\u30BA\u958B\u59CB\u6642\u3011\u76F8\u624B\u306E\u30C7\u30B8\u30E2\u30F31\u4F53\u306E\u9032\u5316\u5143\u3092\u9078\u3093\u30671\u679A\u7834\u68C4\u3059\u308B\u3002\u30BF\u30FC\u30F3\u7D42\u4E86\u307E\u3067\u3001\u3053\u306E\u30C7\u30B8\u30E2\u30F3\u306F\u30D6\u30ED\u30C3\u30AF\u3055\u308C\u306A\u3044\u3002"
   EffectDiscription_ENG: '[Start of Your Main Phase] Trash any 1 digivolution card
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT14-020
   MaxCountInDeck: 4

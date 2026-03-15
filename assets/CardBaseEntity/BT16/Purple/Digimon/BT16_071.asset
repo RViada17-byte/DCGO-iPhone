@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_071
   m_EditorClassIdentifier: 
   CardIndex: 3389
+  LegacyCardIndices: 
   cardColors: 0600000003000000
   PlayCost: 5
   EvoCosts:
@@ -40,6 +41,8 @@ MonoBehaviour:
   - Undead
   - Bagra Army
   CardSpriteName: BT16-071
+  PrintID: BT16-071
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Digivolve] [Liollmon]/[Elecmon]: Cost 2[When Attacking]
@@ -54,5 +57,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-071
   MaxCountInDeck: 4

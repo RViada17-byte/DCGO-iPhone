@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_068_P1
   m_EditorClassIdentifier: 
   CardIndex: 7325
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 5
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - '-'
   CardSpriteName: EX10-068_P1
+  PrintID: EX10-068_P1
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Start of Your Main Phase] For every 2 colors your opponent''s

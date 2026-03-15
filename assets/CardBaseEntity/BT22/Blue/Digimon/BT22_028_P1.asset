@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_028_P1
   m_EditorClassIdentifier: 
   CardIndex: 7024
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 14
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Aquatic
   - LIBERATOR
   CardSpriteName: BT22-028_P1
+  PrintID: BT22-028_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] While you have [Yao Qinglan], [MarineBullmon]:

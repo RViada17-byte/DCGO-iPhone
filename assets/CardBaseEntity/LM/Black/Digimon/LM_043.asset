@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: LM_043
   m_EditorClassIdentifier: 
   CardIndex: 5444
+  LegacyCardIndices: 
   cardColors: 0500000006000000
   PlayCost: 7
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - D-Brigade
   - ACCEL
   CardSpriteName: LM-043
+  PrintID: LM-043
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.5 w/[D-Brigade]/[ACCEL]\_trait: Cost 3 \n\n[Hand]

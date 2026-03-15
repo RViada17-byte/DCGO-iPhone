@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT17_028
   m_EditorClassIdentifier: 
   CardIndex: 3571
+  LegacyCardIndices: 
   cardColors: 0100000002000000
   PlayCost: 12
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Ancient Animal
   - Ten Warriors
   CardSpriteName: BT17-028
+  PrintID: BT17-028
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] Return 1 of your opponent's
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT17-028
   MaxCountInDeck: 4

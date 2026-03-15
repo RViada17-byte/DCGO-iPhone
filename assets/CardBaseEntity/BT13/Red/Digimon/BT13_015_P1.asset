@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT13_015_P1
   m_EditorClassIdentifier: 
   CardIndex: 4563
+  LegacyCardIndices: 
   cardColors: 0000000002000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Cyborg
   CardSpriteName: BT13-015_P1
+  PrintID: BT13-015_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][GeoGreymon]: Cost 3 \n\n[When Digivolving]
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT13-015
   MaxCountInDeck: 4

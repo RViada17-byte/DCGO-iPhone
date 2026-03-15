@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_083
   m_EditorClassIdentifier: 
   CardIndex: 3219
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   - "-\r"
   Type_ENG: []
   CardSpriteName: BT15-083
+  PrintID: BT15-083
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] Reveal the top 3 cards of your deck. Add 1 card
@@ -43,5 +46,8 @@ MonoBehaviour:
   DP: 0
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-083
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_053
   m_EditorClassIdentifier: 
   CardIndex: 7583
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 3
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   Type_ENG:
   - Security
   CardSpriteName: BT24-053
+  PrintID: BT24-053
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.2 w/[Appmon]\_trait: Cost 0 \n\n\uFF1CBlocker\uFF1E "

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_205_P1
   m_EditorClassIdentifier: 
   CardIndex: 7481
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - DM
   CardSpriteName: P-205_P1
+  PrintID: P-205_P1
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you have a Digimon or Tamer with the [DM]\_trait

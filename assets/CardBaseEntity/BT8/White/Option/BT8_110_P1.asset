@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT8_110_P1
   m_EditorClassIdentifier: 
   CardIndex: 6811
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 0
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: BT8-110_P1
+  PrintID: BT8-110_P1
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you have a Digimon with the [Armor Form]\_trait in

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT8_013_P4
   m_EditorClassIdentifier: 
   CardIndex: 6794
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 5
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Dragonkin
   CardSpriteName: BT8-013_P4
+  PrintID: BT8-013_P4
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[When Digivolving] \uFF1CBlitz\uFF1E."

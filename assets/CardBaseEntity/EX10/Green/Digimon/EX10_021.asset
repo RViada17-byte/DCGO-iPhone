@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_021
   m_EditorClassIdentifier: 
   CardIndex: 7169
+  LegacyCardIndices: 
   cardColors: 0300000006000000
   PlayCost: 11
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Demon Lord
   - Seven Great Demon Lords
   CardSpriteName: EX10-021
+  PrintID: EX10-021
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Belphemon: Rage Mode]: Cost 1 \n\n[On Play]

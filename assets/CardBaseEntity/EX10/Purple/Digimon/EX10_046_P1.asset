@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_046_P1
   m_EditorClassIdentifier: 
   CardIndex: 7309
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 5
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Fallen Angel
   CardSpriteName: EX10-046_P1
+  PrintID: EX10-046_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Main Phase] [When Digivolving] If your opponent

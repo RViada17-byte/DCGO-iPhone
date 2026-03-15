@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_070
   m_EditorClassIdentifier: 
   CardIndex: 3932
+  LegacyCardIndices: 
   cardColors: 0500000002000000
   PlayCost: 8
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Insectoid
   CardSpriteName: BT18-070
+  PrintID: BT18-070
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Black/Yellow Lv.4 w/[Hybrid]\_trait: Cost 3
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 8000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-070
   MaxCountInDeck: 4

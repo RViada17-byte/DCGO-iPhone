@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_041
   m_EditorClassIdentifier: 
   CardIndex: 4125
+  LegacyCardIndices: 
   cardColors: 0300000006000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Dinosaur
   CardSpriteName: EX8-041
+  PrintID: EX8-041
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.3 w/[Reptile]\_trait: Cost 2 \n\n[On Play]
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-041
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_063_P1
   m_EditorClassIdentifier: 
   CardIndex: 4172
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 12
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - Seven Great Demon Lords
   - X Antibody
   CardSpriteName: EX8-063_P1
+  PrintID: EX8-063_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Barbamon]: Cost 1 \n\n[When Digivolving] [When
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-063
   MaxCountInDeck: 4

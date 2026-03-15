@@ -40031,7 +40031,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - FILL_SOLID_COLOR
+  - FILL_OUTLINE_COLOR
   - RECTANGLE
   m_InvalidKeywords:
   - _EMISSION
@@ -40148,7 +40148,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.00012207031, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 2500.0002, y: 980}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &989440040
@@ -111792,9 +111792,13 @@ MonoBehaviour:
   CurrencyText: {fileID: 0}
   InfoText: {fileID: 0}
   LastOpenResultsText: {fileID: 0}
-  StructureDeckSection: {fileID: 0}
-  PackSection: {fileID: 0}
+  STSection: {fileID: 0}
+  BTSection: {fileID: 0}
+  EXSection: {fileID: 0}
+  PromoSection: {fileID: 0}
   ProductScrollRect: {fileID: 0}
+  PackOpeningOverlayPrefab: {fileID: 0}
+  PackOpeningPresentationCatalog: {fileID: 0}
 --- !u!1 &9101000000000000020
 GameObject:
   m_ObjectHideFlags: 0

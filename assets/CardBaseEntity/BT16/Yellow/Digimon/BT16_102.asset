@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_102
   m_EditorClassIdentifier: 
   CardIndex: 3431
+  LegacyCardIndices: 
   cardColors: 020000000100000005000000
   PlayCost: 12
   EvoCosts:
@@ -46,6 +47,8 @@ MonoBehaviour:
   - X Antibody
   - Royal Knight
   CardSpriteName: BT16-102
+  PrintID: BT16-102
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Digivolve] 2-color w/[Magnamon] in name: Cost 5<Blocker><Armor
@@ -63,5 +66,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 4
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-102
   MaxCountInDeck: 4

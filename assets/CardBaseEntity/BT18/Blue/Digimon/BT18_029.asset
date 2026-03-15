@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_029
   m_EditorClassIdentifier: 
   CardIndex: 3870
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 12
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Ancient Aquabeast
   - Ten Warriors
   CardSpriteName: BT18-029
+  PrintID: BT18-029
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] Return 1 of your opponent's
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-029
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_019
   m_EditorClassIdentifier: 
   CardIndex: 4083
+  LegacyCardIndices: 
   cardColors: 0100000002000000
   PlayCost: 3
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - LIBERATOR
   - Ice-Snow
   CardSpriteName: EX8-019
+  PrintID: EX8-019
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Hiyarimon]: Cost 0 \n\n[Your Turn] When this
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-019
   MaxCountInDeck: 4

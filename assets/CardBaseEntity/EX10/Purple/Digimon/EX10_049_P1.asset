@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_049_P1
   m_EditorClassIdentifier: 
   CardIndex: 7311
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 8
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Undead
   - Fallen Angel
   CardSpriteName: EX10-049_P1
+  PrintID: EX10-049_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CBlocker\uFF1E \n[When Digivolving] [On Deletion]

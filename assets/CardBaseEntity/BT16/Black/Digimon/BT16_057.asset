@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT16_057
   m_EditorClassIdentifier: 
   CardIndex: 3374
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 4
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Machine
   - DigiPolice
   CardSpriteName: BT16-057
+  PrintID: BT16-057
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: <Blocker><Armor Purge> [On Play] By placing 1 of your other
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT16-057
   MaxCountInDeck: 4

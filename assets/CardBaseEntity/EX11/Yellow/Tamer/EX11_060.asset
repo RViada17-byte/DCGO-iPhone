@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX11_060
   m_EditorClassIdentifier: 
   CardIndex: 7778
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - LIBERATOR
   CardSpriteName: EX11-060
+  PrintID: EX11-060
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Turn] If you have 2 or less memory, set

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST7_09_P2
   m_EditorClassIdentifier: 
   CardIndex: 4994
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 11
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Holy Warrior
   - Royal Knight
   CardSpriteName: ST7-09_P2
+  PrintID: ST7-09_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CSecurity Attack +1\uFF1E \n[When Attacking] Delete
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 11000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST7-09
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_154
   m_EditorClassIdentifier: 
   CardIndex: 10454
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 4
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Cyborg
   CardSpriteName: P-154
+  PrintID: P-154
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[All Turns] When another of your Digimon with [Knightmon]\_in
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 4000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-154
   MaxCountInDeck: 4

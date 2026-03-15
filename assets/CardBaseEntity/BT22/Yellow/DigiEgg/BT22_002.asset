@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT22_002
   m_EditorClassIdentifier: 
   CardIndex: 6990
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: -1
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - Lesser
   - LIBERATOR
   CardSpriteName: BT22-002
+  PrintID: BT22-002
+  IsCanonicalPrint: 1
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '-'

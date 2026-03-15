@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT21_062_P2
   m_EditorClassIdentifier: 
   CardIndex: 5379
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 14
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Unknown
   - LIBERATOR
   CardSpriteName: BT21-062_P2
+  PrintID: BT21-062_P2
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Snatchmon]: Cost 9 \n\n[When Digivolving]
@@ -53,6 +56,5 @@ MonoBehaviour:
   LinkDP: 0
   LinkEffect: '-'
   LinkRequirement: '-'
-  LinkCost: 0
   CardID: BT21-062
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_012_P1
   m_EditorClassIdentifier: 
   CardIndex: 4071
+  LegacyCardIndices: 
   cardColors: 0000000006000000
   PlayCost: 6
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Dark Dragon
   - X Antibody
   CardSpriteName: EX8-012_P1
+  PrintID: EX8-012_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Growlmon]: Cost 0 \n\n[When Digivolving] \uFF1CDraw
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-012
   MaxCountInDeck: 4

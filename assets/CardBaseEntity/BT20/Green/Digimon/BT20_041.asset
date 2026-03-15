@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_041
   m_EditorClassIdentifier: 
   CardIndex: 5120
+  LegacyCardIndices: 
   cardColors: 0300000002000000
   PlayCost: 6
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Mysterious Bird
   - ACCEL
   CardSpriteName: BT20-041
+  PrintID: BT20-041
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.4 w/[ACCEL]\_trait: Cost 3 \n\n[On Play]
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-041
   MaxCountInDeck: 4

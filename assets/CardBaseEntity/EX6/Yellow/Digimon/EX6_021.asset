@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_021
   m_EditorClassIdentifier: 
   CardIndex: 3463
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 7
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Principality
   - Angel
   CardSpriteName: EX6-021
+  PrintID: EX6-021
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] [When Digivolving] By adding the top or bottom
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX6-021
   MaxCountInDeck: 4

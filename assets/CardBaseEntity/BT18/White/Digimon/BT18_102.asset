@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_102
   m_EditorClassIdentifier: 
   CardIndex: 3974
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 9
   EvoCosts:
@@ -51,6 +52,8 @@ MonoBehaviour:
   Type_ENG:
   - Shaman
   CardSpriteName: BT18-102
+  PrintID: BT18-102
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Takuya Kanbara]/[Koji Minamoto] w/10 [Hybrid]\_trait
@@ -69,5 +72,8 @@ MonoBehaviour:
   DP: 16000
   rarity: 4
   OverflowMemory: 5
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-102
   MaxCountInDeck: 4

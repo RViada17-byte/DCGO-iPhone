@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST15_15_P0
   m_EditorClassIdentifier: 
   CardIndex: 4941
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: ST15-15_P0
+  PrintID: ST15-15_P0
+  IsCanonicalPrint: 0
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you have a Tamer with [Tai Kamiya]\_in its name,
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 0
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST15-15
   MaxCountInDeck: 4

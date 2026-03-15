@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_066_P1
   m_EditorClassIdentifier: 
   CardIndex: 7323
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 4
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - '-'
   CardSpriteName: EX10-066_P1
+  PrintID: EX10-066_P1
+  IsCanonicalPrint: 0
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Start of Your Turn] If you have 2 or less memory, set

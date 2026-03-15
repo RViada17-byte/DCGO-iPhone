@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_178_P1
   m_EditorClassIdentifier: 
   CardIndex: 5300
+  LegacyCardIndices: 
   cardColors: 0000000002000000
   PlayCost: 6
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Mythical Beast
   CardSpriteName: P-178_P1
+  PrintID: P-178_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Veemon]: Cost 2 \n\n\uFF1CArmor Purge\uFF1E
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-178
   MaxCountInDeck: 4

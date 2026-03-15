@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: LM_028
   m_EditorClassIdentifier: 
   CardIndex: 4038
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 2
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: LM-028
+  PrintID: LM-028
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] 1 of your blue Digimon may digivolve into a blue
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 0
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: LM-028
   MaxCountInDeck: 4

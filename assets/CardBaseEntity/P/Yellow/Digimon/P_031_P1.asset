@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_031_P1
   m_EditorClassIdentifier: 
   CardIndex: 10349
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 6
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Holy Beast
   CardSpriteName: P-031_P1
+  PrintID: P-031_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Opponent's Turn] While you have a purple Digimon in play,
@@ -45,5 +48,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-031
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX4_055
   m_EditorClassIdentifier: 
   CardIndex: 2612
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Avian
   CardSpriteName: EX4-055
+  PrintID: EX4-055
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: "\u3010\u9032\u5316\u6642\u3011\u81EA\u5206\u306E\u300C\u30A4\u30AF\u30C8\u300D\u304C\u3044\u306A\u3044\u306A\u3089\u3001\u81EA\u5206\u306E\u624B\u672D\u304B\u3089\u3001\u300C\u30A4\u30AF\u30C8\u300D1\u679A\u3092\u30B3\u30B9\u30C8\u3092\u652F\u6255\u308F\u305A\u306B\u767B\u5834\u3067\u304D\u308B\u3002"
   EffectDiscription_ENG: '[When Digivolving] If you don''t have [Keenan Crier] in
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX4-055
   MaxCountInDeck: 4

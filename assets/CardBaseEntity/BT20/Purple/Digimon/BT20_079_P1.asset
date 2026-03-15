@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_079_P1
   m_EditorClassIdentifier: 
   CardIndex: 5233
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 12
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Ghost
   - LIBERATOR
   CardSpriteName: BT20-079_P1
+  PrintID: BT20-079_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CSecurity A. +1\uFF1E.\n\uFF1CExecute\uFF1E \n[On
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-079
   MaxCountInDeck: 4

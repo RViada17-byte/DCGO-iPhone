@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_021
   m_EditorClassIdentifier: 
   CardIndex: 7353
+  LegacyCardIndices: 
   cardColors: 0100000003000000
   PlayCost: 6
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   Type_ENG:
   - Fighting
   CardSpriteName: BT23-021
+  PrintID: BT23-021
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[App Fusion] [Dokamon] & [Perorimon]\_& [Musclemon]: Cost

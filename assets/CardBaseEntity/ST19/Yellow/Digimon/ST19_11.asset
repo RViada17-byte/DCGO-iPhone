@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST19_11
   m_EditorClassIdentifier: 
   CardIndex: 3843
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 7
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Puppet
   - LIBERATOR
   CardSpriteName: ST19-11
+  PrintID: ST19-11
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] [When Digivolving] 1 of your opponent''s Digimon
@@ -49,5 +52,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST19-11
   MaxCountInDeck: 4

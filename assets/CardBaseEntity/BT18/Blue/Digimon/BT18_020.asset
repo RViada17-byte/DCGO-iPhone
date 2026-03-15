@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT18_020
   m_EditorClassIdentifier: 
   CardIndex: 3880
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 2
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Crustacean
   - Aquatic
   CardSpriteName: BT18-020
+  PrintID: BT18-020
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Rule] Trait: Has the [Aquatic] type.'
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 3000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT18-020
   MaxCountInDeck: 4

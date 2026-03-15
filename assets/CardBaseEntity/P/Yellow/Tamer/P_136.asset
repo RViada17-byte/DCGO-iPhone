@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_136
   m_EditorClassIdentifier: 
   CardIndex: 10290
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - LIBERATOR
   CardSpriteName: P-136
+  PrintID: P-136
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] You may play 1 [Shoemon] from your hand without
@@ -42,5 +45,8 @@ MonoBehaviour:
   DP: 0
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-136
   MaxCountInDeck: 4

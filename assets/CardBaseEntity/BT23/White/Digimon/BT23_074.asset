@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT23_074
   m_EditorClassIdentifier: 
   CardIndex: 7412
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 8
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - Hudie
   - CS
   CardSpriteName: BT23-074
+  PrintID: BT23-074
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Erika Mishima]: Cost 3 \n\n\uFF1CAlliance\uFF1E

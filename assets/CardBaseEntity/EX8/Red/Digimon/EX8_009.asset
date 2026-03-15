@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_009
   m_EditorClassIdentifier: 
   CardIndex: 4065
+  LegacyCardIndices: 
   cardColors: 0000000006000000
   PlayCost: 3
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Dark Dragon
   - X Antibody
   CardSpriteName: EX8-009
+  PrintID: EX8-009
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Gigimon]/[Guilmon]: Cost 0 \n\n[On Play] [When
@@ -51,5 +54,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-009
   MaxCountInDeck: 4

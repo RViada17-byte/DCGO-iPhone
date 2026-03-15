@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_054_P0
   m_EditorClassIdentifier: 
   CardIndex: 4739
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 13
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Fairy
   - X Antibody
   CardSpriteName: BT15-054_P0
+  PrintID: BT15-054_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Rosemon]: Cost 1 \n\n[When Digivolving] Suspend
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-054
   MaxCountInDeck: 4

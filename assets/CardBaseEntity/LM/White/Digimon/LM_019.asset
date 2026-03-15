@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: LM_019
   m_EditorClassIdentifier: 
   CardIndex: 3265
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 3
   EvoCosts: []
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Mutant
   CardSpriteName: LM-019
+  PrintID: LM-019
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[On Play] Reveal the top 4 cards of your deck. Add 1 card
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: LM-019
   MaxCountInDeck: 4

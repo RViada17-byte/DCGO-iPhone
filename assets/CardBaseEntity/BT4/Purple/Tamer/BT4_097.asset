@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT4_097
   m_EditorClassIdentifier: 
   CardIndex: 903
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts: []
@@ -26,6 +27,8 @@ MonoBehaviour:
   Type_JPN: []
   Type_ENG: []
   CardSpriteName: BT4-097
+  PrintID: BT4-097
+  IsCanonicalPrint: 1
   cardKind: 1
   EffectDiscription_JPN: "\u3010\u304A\u4E92\u3044\u306E\u30BF\u30FC\u30F3\u3011\u81EA\u5206\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u304C\u6E1B\u3063\u305F\u3068\u304D\u3001\u3053\u306E\u30C6\u30A4\u30DE\u30FC\u3092\u30EC\u30B9\u30C8\u3055\u305B\u308B\u3053\u3068\u3067\u3001\u30E1\u30E2\u30EA\u30FC\u3092+1\u3059\u308B\u3002"
   EffectDiscription_ENG: '[All Turns] When a card is removed from your security stack,

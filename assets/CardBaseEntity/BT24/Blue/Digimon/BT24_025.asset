@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_025
   m_EditorClassIdentifier: 
   CardIndex: 7547
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 4
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   - TS
   - Aquatic
   CardSpriteName: BT24-025
+  PrintID: BT24-025
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Your Turn] When any of your other blue Digimon with the

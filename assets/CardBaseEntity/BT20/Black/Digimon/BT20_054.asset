@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_054
   m_EditorClassIdentifier: 
   CardIndex: 5133
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 7
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Machine
   CardSpriteName: BT20-054
+  PrintID: BT20-054
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CBlocker\uFF1E \n[Opponent's Turn] When this Digimon
@@ -46,5 +49,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-054
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX9_019
   m_EditorClassIdentifier: 
   CardIndex: 6870
+  LegacyCardIndices: 
   cardColors: 0100000005000000
   PlayCost: 8
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Beastkin
   - ADVENTURE
   CardSpriteName: EX9-019
+  PrintID: EX9-019
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [WereGarurumon]: Cost 1\n[Digivolve] Lv.4 w/[Garurumon]\_in

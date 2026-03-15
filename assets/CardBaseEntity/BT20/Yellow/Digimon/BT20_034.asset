@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT20_034
   m_EditorClassIdentifier: 
   CardIndex: 5113
+  LegacyCardIndices: 
   cardColors: 0200000003000000
   PlayCost: 7
   EvoCosts:
@@ -37,6 +38,8 @@ MonoBehaviour:
   - Abadin Electronics
   - SEEKERS
   CardSpriteName: BT20-034
+  PrintID: BT20-034
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] Lv.4 w/[Pulsemon]\_in text or Lv.4 w/[SEEKERS]\_trait:
@@ -52,5 +55,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT20-034
   MaxCountInDeck: 4

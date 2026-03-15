@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT19_077
   m_EditorClassIdentifier: 
   CardIndex: 5056
+  LegacyCardIndices: 
   cardColors: 04000000
   PlayCost: 3
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Unknown
   CardSpriteName: BT19-077
+  PrintID: BT19-077
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[Security] You may play 1 Digimon card with 2000 DP or
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 1000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT19-077
   MaxCountInDeck: 4

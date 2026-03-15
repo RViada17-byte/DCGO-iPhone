@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_143_P1
   m_EditorClassIdentifier: 
   CardIndex: 10298
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 5
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Beast
   CardSpriteName: P-143_P1
+  PrintID: P-143_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '[End of Your Turn] [Once Per Turn] You may place this Digimon
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-143
   MaxCountInDeck: 4

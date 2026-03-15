@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT3_016
   m_EditorClassIdentifier: 
   CardIndex: 612
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 10
   EvoCosts:
@@ -40,6 +41,8 @@ MonoBehaviour:
   - Holy Sword
   - Legend-Arms
   CardSpriteName: BT3-016
+  PrintID: BT3-016
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT3-016
   MaxCountInDeck: 4

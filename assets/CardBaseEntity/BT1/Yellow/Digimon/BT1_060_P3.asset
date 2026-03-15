@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT1_060_P3
   m_EditorClassIdentifier: 
   CardIndex: 4269
+  LegacyCardIndices: 
   cardColors: 02000000
   PlayCost: 7
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Archangel
   CardSpriteName: BT1-060_P3
+  PrintID: BT1-060_P3
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[On Play] \uFF1CRecovery +1 (Deck)\uFF1E."
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 6000
   rarity: 3
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT1-060
   MaxCountInDeck: 4

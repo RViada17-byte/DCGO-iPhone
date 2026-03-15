@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: LM_030
   m_EditorClassIdentifier: 
   CardIndex: 4040
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 2
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Option
   CardSpriteName: LM-030
+  PrintID: LM-030
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] 1 of your green Digimon may digivolve into a green
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 0
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: LM-030
   MaxCountInDeck: 4

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX11_051
   m_EditorClassIdentifier: 
   CardIndex: 7762
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 11
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Ghost
   - LIBERATOR
   CardSpriteName: EX11-051
+  PrintID: EX11-051
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CPiercing\uFF1E \n\uFF1CExecute\uFF1E \n[On Play]

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_061
   m_EditorClassIdentifier: 
   CardIndex: 6103
+  LegacyCardIndices: 
   cardColors: 01000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Data
   CardSpriteName: P-061
+  PrintID: P-061
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 3000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-061
   MaxCountInDeck: 4

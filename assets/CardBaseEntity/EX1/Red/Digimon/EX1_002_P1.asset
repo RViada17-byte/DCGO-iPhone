@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX1_002_P1
   m_EditorClassIdentifier: 
   CardIndex: 1262
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 3
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Bird
   CardSpriteName: EX1-002_P1
+  PrintID: EX1-002_P1
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: 
@@ -47,5 +50,8 @@ MonoBehaviour:
   DP: 2000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX1-002
   MaxCountInDeck: 4

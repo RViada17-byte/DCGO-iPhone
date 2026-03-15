@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST21_01
   m_EditorClassIdentifier: 
   CardIndex: 5279
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: -1
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - Lesser
   - ADVENTURE
   CardSpriteName: ST21-01
+  PrintID: ST21-01
+  IsCanonicalPrint: 1
   cardKind: 3
   EffectDiscription_JPN: 
   EffectDiscription_ENG: '-'

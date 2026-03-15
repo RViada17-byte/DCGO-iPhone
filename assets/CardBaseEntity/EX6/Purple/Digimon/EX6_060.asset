@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX6_060
   m_EditorClassIdentifier: 
   CardIndex: 3518
+  LegacyCardIndices: 
   cardColors: 0600000003000000
   PlayCost: 13
   EvoCosts:
@@ -36,6 +37,8 @@ MonoBehaviour:
   - Demon Lord
   - Seven Great Demon Lords
   CardSpriteName: EX6-060
+  PrintID: EX6-060
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Belphemon: Sleep Mode]: Cost 1 \n\n[On Play]
@@ -53,5 +56,8 @@ MonoBehaviour:
   DP: 13000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX6-060
   MaxCountInDeck: 4

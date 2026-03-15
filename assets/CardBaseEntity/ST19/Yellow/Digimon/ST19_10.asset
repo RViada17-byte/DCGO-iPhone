@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ST19_10
   m_EditorClassIdentifier: 
   CardIndex: 3842
+  LegacyCardIndices: 
   cardColors: 0200000003000000
   PlayCost: 7
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Puppet
   CardSpriteName: ST19-10
+  PrintID: ST19-10
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.4 w/[Tyrannomon]/[Raremon]\_in its name:
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 1
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: ST19-10
   MaxCountInDeck: 4

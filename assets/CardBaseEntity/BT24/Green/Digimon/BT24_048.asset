@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_048
   m_EditorClassIdentifier: 
   CardIndex: 7577
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 6
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Avian
   CardSpriteName: BT24-048
+  PrintID: BT24-048
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CBlocker\uFF1E \n[On Play] [When Digivolving] You

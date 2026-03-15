@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_029
   m_EditorClassIdentifier: 
   CardIndex: 7185
+  LegacyCardIndices: 
   cardColors: 05000000
   PlayCost: 4
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   Type_ENG:
   - Transmission
   CardSpriteName: EX10-029
+  PrintID: EX10-029
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Security] At the end of the battle, play this card without

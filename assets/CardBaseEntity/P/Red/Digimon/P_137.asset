@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_137
   m_EditorClassIdentifier: 
   CardIndex: 10291
+  LegacyCardIndices: 
   cardColors: 0000000001000000
   PlayCost: 5
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Dragonkin
   CardSpriteName: P-137
+  PrintID: P-137
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve][Veemon]: Cost 2 \n\n\uFF1CArmor Purge\uFF1E.\n\uFF1CRaid\uFF1E
@@ -48,5 +51,8 @@ MonoBehaviour:
   DP: 5000
   rarity: 5
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: P-137
   MaxCountInDeck: 4

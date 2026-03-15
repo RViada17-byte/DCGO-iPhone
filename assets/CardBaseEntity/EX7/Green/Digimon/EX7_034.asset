@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX7_034
   m_EditorClassIdentifier: 
   CardIndex: 3740
+  LegacyCardIndices: 
   cardColors: 03000000
   PlayCost: 7
   EvoCosts:
@@ -34,6 +35,8 @@ MonoBehaviour:
   - Vortex Warriors
   - LIBERATOR
   CardSpriteName: EX7-034
+  PrintID: EX7-034
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CVortex\uFF1E (At the end of your turn, this Digimon
@@ -50,5 +53,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX7-034
   MaxCountInDeck: 4

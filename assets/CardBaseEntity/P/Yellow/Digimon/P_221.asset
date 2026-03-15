@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: P_221
   m_EditorClassIdentifier: 
   CardIndex: 7652
+  LegacyCardIndices: 
   cardColors: 0200000006000000
   PlayCost: 15
   EvoCosts:
@@ -35,6 +36,8 @@ MonoBehaviour:
   Type_ENG:
   - Unique
   CardSpriteName: P-221
+  PrintID: P-221
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CSecurity A. +1\uFF1E \n\uFF1CPartition (Yellow Lv.6

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX10_071
   m_EditorClassIdentifier: 
   CardIndex: 7261
+  LegacyCardIndices: 
   cardColors: 0600000002000000
   PlayCost: 2
   EvoCosts: []
@@ -29,6 +30,8 @@ MonoBehaviour:
   Type_ENG:
   - Seven Great Demon Lords
   CardSpriteName: EX10-071
+  PrintID: EX10-071
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "While you have a Digimon with [Lucemon]\_in its name in

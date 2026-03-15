@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_066
   m_EditorClassIdentifier: 
   CardIndex: 7598
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Reptile
   - Evil
   CardSpriteName: BT24-066
+  PrintID: BT24-066
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve] [Gigimon]: Cost 0 \n\n[On Play] Reveal the

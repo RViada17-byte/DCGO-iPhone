@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT15_080_P0
   m_EditorClassIdentifier: 
   CardIndex: 4755
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 12
   EvoCosts:
@@ -32,6 +33,8 @@ MonoBehaviour:
   Type_ENG:
   - Dark Animal
   CardSpriteName: BT15-080_P0
+  PrintID: BT15-080_P0
+  IsCanonicalPrint: 0
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "\uFF1CBlocker\uFF1E \n[On Play] [When Digivolving] [On
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 12000
   rarity: 2
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: BT15-080
   MaxCountInDeck: 4

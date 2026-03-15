@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EX8_013
   m_EditorClassIdentifier: 
   CardIndex: 4072
+  LegacyCardIndices: 
   cardColors: 00000000
   PlayCost: 5
   EvoCosts:
@@ -33,6 +34,8 @@ MonoBehaviour:
   - Flame
   - NSo
   CardSpriteName: EX8-013
+  PrintID: EX8-013
+  IsCanonicalPrint: 1
   cardKind: 0
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Digivolve]Lv.4 w/[NSo]\_trait: Cost 3 "
@@ -44,5 +47,8 @@ MonoBehaviour:
   DP: 7000
   rarity: 0
   OverflowMemory: 0
+  LinkDP: 0
+  LinkEffect: 
+  LinkRequirement: 
   CardID: EX8-013
   MaxCountInDeck: 4

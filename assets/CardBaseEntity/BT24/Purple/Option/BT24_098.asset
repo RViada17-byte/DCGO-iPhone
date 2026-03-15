@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BT24_098
   m_EditorClassIdentifier: 
   CardIndex: 7641
+  LegacyCardIndices: 
   cardColors: 06000000
   PlayCost: 3
   EvoCosts: []
@@ -30,6 +31,8 @@ MonoBehaviour:
   - Titan
   - TS
   CardSpriteName: BT24-098
+  PrintID: BT24-098
+  IsCanonicalPrint: 1
   cardKind: 2
   EffectDiscription_JPN: 
   EffectDiscription_ENG: "[Main] \uFF1CDraw 2\uFF1E and trash 2 cards in your hand.
