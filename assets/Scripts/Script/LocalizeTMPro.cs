@@ -15,99 +15,119 @@ public class LocalizeTMPro : MonoBehaviour
     TextMeshProUGUI _textMeshPro = null;
     Text _text = null;
 
-    int _updateFrame = 50;
-    int _timerCount = 0;
+    bool _hasAppliedLanguage;
+    Language _lastAppliedLanguage;
 
-    void ChangeText()
+    void ChangeText(Language language, bool force = false)
     {
         if (_textMeshPro == null && _text == null)
         {
             return;
         }
 
-        if (ContinuousController.instance != null)
+        if (!force && _hasAppliedLanguage && _lastAppliedLanguage == language)
         {
-            switch (ContinuousController.instance.language)
-            {
-                case Language.ENG:
-                    if (_textMeshPro != null)
-                    {
-                        if (_fontMaterial_ENG != null)
-                        {
-                            _textMeshPro.font = _fontMaterial_ENG;
-                        }
-
-                        if (!string.IsNullOrEmpty(_text_ENG))
-                        {
-                            _textMeshPro.text = _text_ENG;
-                        }
-
-                        if (_fontSize_ENG > 0)
-                        {
-                            _textMeshPro.fontSize = _fontSize_ENG;
-                        }
-                    }
-
-                    else if (_text != null)
-                    {
-                        if (_font_ENG != null)
-                        {
-                            _text.font = _font_ENG;
-                        }
-
-                        if (!string.IsNullOrEmpty(_text_ENG))
-                        {
-                            _text.text = _text_ENG;
-                        }
-
-                        if (_fontSize_ENG > 0)
-                        {
-                            _text.fontSize = _fontSize_ENG;
-                        }
-                    }
-
-                    break;
-
-                case Language.JPN:
-                    if (_textMeshPro != null)
-                    {
-                        if (_fontMaterial_ENG != null)
-                        {
-                            _textMeshPro.font = _fontMaterial_JPN;
-                        }
-
-                        if (!string.IsNullOrEmpty(_text_JPN))
-                        {
-                            _textMeshPro.text = _text_JPN;
-                        }
-
-                        if (_fontSize_JPN > 0)
-                        {
-                            _textMeshPro.fontSize = _fontSize_JPN;
-                        }
-                    }
-
-                    else if (_text != null)
-                    {
-                        if (_font_JPN != null)
-                        {
-                            _text.font = _font_JPN;
-                        }
-
-                        if (!string.IsNullOrEmpty(_text_JPN))
-                        {
-                            _text.text = _text_JPN;
-                        }
-
-                        if (_fontSize_JPN > 0)
-                        {
-                            _text.fontSize = _fontSize_JPN;
-                        }
-                    }
-
-                    break;
-            }
+            return;
         }
+
+        switch (language)
+        {
+            case Language.ENG:
+                if (_textMeshPro != null)
+                {
+                    if (_fontMaterial_ENG != null)
+                    {
+                        _textMeshPro.font = _fontMaterial_ENG;
+                    }
+
+                    if (!string.IsNullOrEmpty(_text_ENG))
+                    {
+                        _textMeshPro.text = _text_ENG;
+                    }
+
+                    if (_fontSize_ENG > 0)
+                    {
+                        _textMeshPro.fontSize = _fontSize_ENG;
+                    }
+                }
+
+                else if (_text != null)
+                {
+                    if (_font_ENG != null)
+                    {
+                        _text.font = _font_ENG;
+                    }
+
+                    if (!string.IsNullOrEmpty(_text_ENG))
+                    {
+                        _text.text = _text_ENG;
+                    }
+
+                    if (_fontSize_ENG > 0)
+                    {
+                        _text.fontSize = _fontSize_ENG;
+                    }
+                }
+
+                break;
+
+            case Language.JPN:
+                if (_textMeshPro != null)
+                {
+                    if (_fontMaterial_JPN != null)
+                    {
+                        _textMeshPro.font = _fontMaterial_JPN;
+                    }
+
+                    if (!string.IsNullOrEmpty(_text_JPN))
+                    {
+                        _textMeshPro.text = _text_JPN;
+                    }
+
+                    if (_fontSize_JPN > 0)
+                    {
+                        _textMeshPro.fontSize = _fontSize_JPN;
+                    }
+                }
+
+                else if (_text != null)
+                {
+                    if (_font_JPN != null)
+                    {
+                        _text.font = _font_JPN;
+                    }
+
+                    if (!string.IsNullOrEmpty(_text_JPN))
+                    {
+                        _text.text = _text_JPN;
+                    }
+
+                    if (_fontSize_JPN > 0)
+                    {
+                        _text.fontSize = _fontSize_JPN;
+                    }
+                }
+
+                break;
+        }
+
+        _hasAppliedLanguage = true;
+        _lastAppliedLanguage = language;
+    }
+
+    void ApplyCurrentLanguage(bool force = false)
+    {
+        if (ContinuousController.instance == null)
+        {
+            return;
+        }
+
+        ChangeText(ContinuousController.instance.language, force);
+    }
+
+    void OnLanguageChanged(Language language)
+    {
+        ChangeText(language);
     }
 
     void Awake()
@@ -118,25 +138,13 @@ public class LocalizeTMPro : MonoBehaviour
 
     private void OnEnable()
     {
-        ChangeText();
+        ContinuousController.OnLanguageChanged += OnLanguageChanged;
+        ApplyCurrentLanguage(true);
     }
 
-    void Update()
+    void OnDisable()
     {
-        #region update per a few frames
-        _timerCount++;
-
-        if (_timerCount < _updateFrame)
-        {
-            return;
-        }
-
-        else
-        {
-            _timerCount = 0;
-        }
-        #endregion
-
-        ChangeText();
+        ContinuousController.OnLanguageChanged -= OnLanguageChanged;
+        _hasAppliedLanguage = false;
     }
 }

@@ -510,10 +510,10 @@ public class TurnStateMachine : MonoBehaviourPunCallbacks
                 if (GManager.instance.IsAI)
                 {
                     AISnapshot snapshot = AISnapshotBuilder.Build(gameContext, player, AIChosenAction.AIDecisionType.Mulligan, TurnCount);
-                    AIChosenAction legacyAction = AILegacyActionAdapter.Normalize(GManager.instance.LegacyAIBrain.DecideMulligan(snapshot));
-                    bool doRedraw = legacyAction.ActionKind == AIChosenAction.AIActionKind.Mulligan;
+                    AIChosenAction chosenAction = DecideMulliganAction(snapshot);
+                    bool doRedraw = chosenAction.ActionKind == AIChosenAction.AIActionKind.Mulligan;
 
-                    TryLogShadowMulligan(snapshot, legacyAction);
+                    TryLogShadowMulligan(snapshot, chosenAction);
                     SetRedraw(doRedraw);
                 }
                 #endregion
@@ -592,6 +592,213 @@ public class TurnStateMachine : MonoBehaviourPunCallbacks
     {
         _isRedraw = isRedraw;
         _endSelect = true;
+    }
+
+    AIChosenAction DecideMulliganAction(AISnapshot snapshot)
+    {
+        IAIBrain primaryBrain = GManager.instance != null ? GManager.instance.PrimaryAIBrain : null;
+        AIChosenAction action = DecideMulligan(primaryBrain, snapshot, "primary");
+        if (IsSupportedMulliganAction(action, primaryBrain, "primary"))
+        {
+            return action;
+        }
+
+        IAIBrain dummyBrain = GetDummyAIBrain();
+        if (dummyBrain != null && dummyBrain != primaryBrain)
+        {
+            action = DecideMulligan(dummyBrain, snapshot, "dummy fallback");
+            if (IsSupportedMulliganAction(action, dummyBrain, "dummy fallback"))
+            {
+                return action;
+            }
+        }
+
+        return AIChosenAction.Create(
+            AIChosenAction.AIDecisionType.Mulligan,
+            AIChosenAction.AIActionKind.KeepHand,
+            "Keep hand");
+    }
+
+    AIChosenAction DecideBreedingAction(AISnapshot snapshot)
+    {
+        IAIBrain primaryBrain = GManager.instance != null ? GManager.instance.PrimaryAIBrain : null;
+        AIChosenAction action = DecideBreeding(primaryBrain, snapshot, "primary");
+        if (IsSupportedBreedingAction(action, primaryBrain, "primary"))
+        {
+            return action;
+        }
+
+        IAIBrain dummyBrain = GetDummyAIBrain();
+        if (dummyBrain != null && dummyBrain != primaryBrain)
+        {
+            action = DecideBreeding(dummyBrain, snapshot, "dummy fallback");
+            if (IsSupportedBreedingAction(action, dummyBrain, "dummy fallback"))
+            {
+                return action;
+            }
+        }
+
+        return AIChosenAction.Create(
+            AIChosenAction.AIDecisionType.Breeding,
+            AIChosenAction.AIActionKind.StayHidden,
+            "Stay hidden in breeding");
+    }
+
+    AIChosenAction DecideMainPhaseAction(AISnapshot snapshot, IReadOnlyList<AIMainPhaseCandidate> candidates)
+    {
+        IAIBrain primaryBrain = GManager.instance != null ? GManager.instance.PrimaryAIBrain : null;
+        AIChosenAction action = DecideMainPhase(primaryBrain, snapshot, candidates, "primary");
+        if (action != null)
+        {
+            return action;
+        }
+
+        IAIBrain legacyBrain = GManager.instance != null ? GManager.instance.LegacyAIBrain : null;
+        if (legacyBrain != null && legacyBrain != primaryBrain)
+        {
+            action = DecideMainPhase(legacyBrain, snapshot, candidates, "legacy fallback");
+            if (action != null)
+            {
+                return action;
+            }
+        }
+
+        return AIChosenAction.Create(
+            AIChosenAction.AIDecisionType.MainPhase,
+            AIChosenAction.AIActionKind.EndTurn,
+            "End Turn");
+    }
+
+    IAIBrain GetDummyAIBrain()
+    {
+        return GManager.instance != null ? GManager.instance.DummyAIBrain : null;
+    }
+
+    bool IsSupportedMulliganAction(AIChosenAction action, IAIBrain brain, string sourceLabel)
+    {
+        if (action == null)
+        {
+            return false;
+        }
+
+        if (action.DecisionType == AIChosenAction.AIDecisionType.Mulligan
+            && (action.ActionKind == AIChosenAction.AIActionKind.KeepHand
+                || action.ActionKind == AIChosenAction.AIActionKind.Mulligan))
+        {
+            return true;
+        }
+
+        string brainName = brain != null ? brain.Name : "unknown";
+        Debug.LogWarning($"Mulligan AI ({sourceLabel}:{brainName}) returned unsupported action: {action.ActionKind}");
+        return false;
+    }
+
+    bool IsSupportedBreedingAction(AIChosenAction action, IAIBrain brain, string sourceLabel)
+    {
+        if (action == null)
+        {
+            return false;
+        }
+
+        if (action.DecisionType == AIChosenAction.AIDecisionType.Breeding
+            && (action.ActionKind == AIChosenAction.AIActionKind.Hatch
+                || action.ActionKind == AIChosenAction.AIActionKind.MoveOut
+                || action.ActionKind == AIChosenAction.AIActionKind.StayHidden))
+        {
+            return true;
+        }
+
+        string brainName = brain != null ? brain.Name : "unknown";
+        Debug.LogWarning($"Breeding AI ({sourceLabel}:{brainName}) returned unsupported action: {action.ActionKind}");
+        return false;
+    }
+
+    bool TryApplyBrainMainPhaseAction(
+        IAIBrain brain,
+        AISnapshot snapshot,
+        IReadOnlyList<AIMainPhaseCandidate> candidates,
+        string sourceLabel,
+        out AIChosenAction action,
+        out string failureReason)
+    {
+        action = DecideMainPhase(brain, snapshot, candidates, sourceLabel);
+        if (action == null)
+        {
+            failureReason = $"{sourceLabel} returned no action";
+            return false;
+        }
+
+        if (action.DecisionType != AIChosenAction.AIDecisionType.MainPhase)
+        {
+            string brainName = brain != null ? brain.Name : "unknown";
+            failureReason = $"{sourceLabel}:{brainName} returned wrong decision type:{action.DecisionType}";
+            return false;
+        }
+
+        string applyFailureReason = "";
+        if (!TryApplyMainPhaseAction(action, out applyFailureReason))
+        {
+            string brainName = brain != null ? brain.Name : "unknown";
+            failureReason = $"{sourceLabel}:{brainName} {applyFailureReason}";
+            return false;
+        }
+
+        failureReason = "";
+        return true;
+    }
+
+    AIChosenAction DecideMulligan(IAIBrain brain, AISnapshot snapshot, string sourceLabel)
+    {
+        if (brain == null)
+        {
+            return null;
+        }
+
+        try
+        {
+            return AILegacyActionAdapter.Normalize(brain.DecideMulligan(snapshot));
+        }
+        catch (Exception exception)
+        {
+            Debug.LogWarning($"Mulligan AI ({sourceLabel}:{brain.Name}) failed: {exception.Message}");
+            return null;
+        }
+    }
+
+    AIChosenAction DecideBreeding(IAIBrain brain, AISnapshot snapshot, string sourceLabel)
+    {
+        if (brain == null)
+        {
+            return null;
+        }
+
+        try
+        {
+            return AILegacyActionAdapter.Normalize(brain.DecideBreeding(snapshot, gameContext, gameContext != null ? gameContext.TurnPlayer : null));
+        }
+        catch (Exception exception)
+        {
+            Debug.LogWarning($"Breeding AI ({sourceLabel}:{brain.Name}) failed: {exception.Message}");
+            return null;
+        }
+    }
+
+    AIChosenAction DecideMainPhase(IAIBrain brain, AISnapshot snapshot, IReadOnlyList<AIMainPhaseCandidate> candidates, string sourceLabel)
+    {
+        if (brain == null)
+        {
+            return null;
+        }
+
+        try
+        {
+            return AILegacyActionAdapter.Normalize(brain.DecideMainPhase(snapshot, candidates));
+        }
+        catch (Exception exception)
+        {
+            Debug.LogWarning($"MainPhase AI ({sourceLabel}:{brain.Name}) failed: {exception.Message}");
+            return null;
+        }
     }
 
     bool ShouldRunAIShadow(AISnapshot snapshot)
@@ -787,6 +994,350 @@ public class TurnStateMachine : MonoBehaviourPunCallbacks
             context.EvaluationElapsedMs,
             AITurnGoal.ValueSetup,
             context.FailureReason));
+    }
+
+    bool TryApplyMainPhaseAction(AIChosenAction action, out string failureReason)
+    {
+        failureReason = "";
+
+        if (action == null)
+        {
+            failureReason = "primary brain returned no main-phase action";
+            return false;
+        }
+
+        if (action.DownstreamResolutionNotControlled)
+        {
+            failureReason = "action requires downstream resolution outside safe AI control";
+            return false;
+        }
+
+        switch (action.ActionKind)
+        {
+            case AIChosenAction.AIActionKind.EndTurn:
+                return true;
+
+            case AIChosenAction.AIActionKind.AttackSecurity:
+            case AIChosenAction.AIActionKind.AttackDigimon:
+                if (!IsValidTurnPlayerPermanentIndex(action.SourcePermanentIndex))
+                {
+                    failureReason = $"invalid attacker index:{action.SourcePermanentIndex}";
+                    return false;
+                }
+
+                if (action.ActionKind == AIChosenAction.AIActionKind.AttackDigimon
+                    && !IsValidNonTurnPlayerPermanentIndex(action.AttackTargetPermanentIndex))
+                {
+                    failureReason = $"invalid defender index:{action.AttackTargetPermanentIndex}";
+                    return false;
+                }
+
+                SetAttackingPermaent(
+                    action.SourcePermanentIndex,
+                    action.ActionKind == AIChosenAction.AIActionKind.AttackDigimon ? action.AttackTargetPermanentIndex : -1);
+                return AttackingPermanent != null;
+
+            case AIChosenAction.AIActionKind.Play:
+            case AIChosenAction.AIActionKind.Digivolve:
+            case AIChosenAction.AIActionKind.Jogress:
+            case AIChosenAction.AIActionKind.Burst:
+            case AIChosenAction.AIActionKind.AppFusion:
+                if (!IsValidActiveCardIndex(action.CardIndex))
+                {
+                    failureReason = $"invalid card index:{action.CardIndex}";
+                    return false;
+                }
+
+                if (!IsValidFrameID(action.TargetFrameID))
+                {
+                    failureReason = $"invalid target frame:{action.TargetFrameID}";
+                    return false;
+                }
+
+                if (!IsValidJogressSelection(action.JogressEvoRootsFrameIDs))
+                {
+                    failureReason = "invalid jogress root frame selection";
+                    return false;
+                }
+
+                if (!IsValidBurstSelection(action.BurstTamerFrameID))
+                {
+                    failureReason = $"invalid burst frame:{action.BurstTamerFrameID}";
+                    return false;
+                }
+
+                if (!IsValidAppFusionSelection(action.AppFusionFrameIDs))
+                {
+                    failureReason = "invalid app fusion selection";
+                    return false;
+                }
+
+                SetPlayCard(
+                    action.CardIndex,
+                    action.TargetFrameID,
+                    action.JogressEvoRootsFrameIDs,
+                    action.BurstTamerFrameID,
+                    action.AppFusionFrameIDs);
+                return PlayCard != null;
+
+            case AIChosenAction.AIActionKind.UseFieldEffect:
+                if (!IsValidTurnPlayerPermanentIndex(action.SourcePermanentIndex) || action.SkillIndex < 0)
+                {
+                    failureReason = $"invalid field effect selection: source={action.SourcePermanentIndex}, skill={action.SkillIndex}";
+                    return false;
+                }
+
+                SetActSkill(action.SourcePermanentIndex, action.SkillIndex);
+                return UseCardEffect != null;
+
+            case AIChosenAction.AIActionKind.UseHandEffect:
+            case AIChosenAction.AIActionKind.UseTrashEffect:
+                if (!IsValidActiveCardIndex(action.CardIndex) || action.SkillIndex < 0)
+                {
+                    failureReason = $"invalid card effect selection: card={action.CardIndex}, skill={action.SkillIndex}";
+                    return false;
+                }
+
+                SetActCardSkill(action.CardIndex, action.SkillIndex);
+                return UseCardEffect != null;
+
+            default:
+                failureReason = $"unsupported action kind:{action.ActionKind}";
+                return false;
+        }
+    }
+
+    bool IsValidTurnPlayerPermanentIndex(int index)
+    {
+        if (gameContext == null || gameContext.TurnPlayer == null)
+        {
+            return false;
+        }
+
+        List<Permanent> permanents = gameContext.TurnPlayer.GetFieldPermanents();
+        return index >= 0 && index < permanents.Count;
+    }
+
+    bool IsValidNonTurnPlayerPermanentIndex(int index)
+    {
+        if (gameContext == null || gameContext.NonTurnPlayer == null)
+        {
+            return false;
+        }
+
+        List<Permanent> permanents = gameContext.NonTurnPlayer.GetFieldPermanents();
+        return index >= 0 && index < permanents.Count;
+    }
+
+    bool IsValidActiveCardIndex(int index)
+    {
+        return gameContext != null
+            && gameContext.ActiveCardList != null
+            && index >= 0
+            && index < gameContext.ActiveCardList.Count;
+    }
+
+    bool IsValidFrameID(int frameID)
+    {
+        if (frameID < 0)
+        {
+            return frameID == -1;
+        }
+
+        return gameContext != null
+            && gameContext.TurnPlayer != null
+            && frameID < gameContext.TurnPlayer.fieldCardFrames.Count;
+    }
+
+    bool IsValidJogressSelection(int[] frameIDs)
+    {
+        if (frameIDs == null || frameIDs.Length == 0)
+        {
+            return true;
+        }
+
+        if (frameIDs.Length != 2)
+        {
+            return false;
+        }
+
+        return IsValidFrameID(frameIDs[0]) && IsValidFrameID(frameIDs[1]);
+    }
+
+    bool IsValidBurstSelection(int frameID)
+    {
+        return frameID == -1 || IsValidFrameID(frameID);
+    }
+
+    bool IsValidAppFusionSelection(int[] frameIDs)
+    {
+        if (frameIDs == null || frameIDs.Length == 0)
+        {
+            return true;
+        }
+
+        if (frameIDs.Length != 2)
+        {
+            return false;
+        }
+
+        return IsValidFrameID(frameIDs[0]) && frameIDs[1] >= 0;
+    }
+
+    void TryApplyLegacyInlineMainPhaseFallback()
+    {
+        if (!RandomUtility.IsSucceedProbability(0.99f))
+        {
+            return;
+        }
+
+        if (gameContext.TurnPlayer.GetFieldPermanents().Count((permanent) => permanent.CanAttack(null)) > 0)
+        {
+            List<Permanent> CanAttackPermenents = new List<Permanent>();
+
+            foreach (Permanent permanent in gameContext.TurnPlayer.GetFieldPermanents())
+            {
+                if (permanent.CanAttack(null))
+                {
+                    CanAttackPermenents.Add(permanent);
+                }
+            }
+
+            if (CanAttackPermenents.Count >= 1)
+            {
+                AttackingPermanent = CanAttackPermenents[UnityEngine.Random.Range(0, CanAttackPermenents.Count)];
+
+                bool isSecurityAttack = true;
+
+                List<Permanent> DefendingPermanentCandidates = new List<Permanent>();
+
+                foreach (Permanent permanent in gameContext.NonTurnPlayer.GetFieldPermanents())
+                {
+                    if (AttackingPermanent.CanAttackTargetDigimon(permanent, null) && AttackingPermanent.DP >= permanent.DP)
+                    {
+                        DefendingPermanentCandidates.Add(permanent);
+                    }
+                }
+
+                if (DefendingPermanentCandidates.Count >= 1)
+                {
+                    if (RandomUtility.IsSucceedProbability(0.5f))
+                    {
+                        isSecurityAttack = false;
+                    }
+                }
+
+                if (gameContext.NonTurnPlayer.SecurityCards.Count <= 1)
+                {
+                    isSecurityAttack = true;
+                }
+
+                if (!isSecurityAttack)
+                {
+                    if (DefendingPermanentCandidates.Count >= 1)
+                    {
+                        DefendingPermanent = DefendingPermanentCandidates[UnityEngine.Random.Range(0, DefendingPermanentCandidates.Count)];
+                    }
+
+                    else
+                    {
+                        AttackingPermanent = null;
+                    }
+                }
+
+                else
+                {
+                    if (!AttackingPermanent.CanAttackTargetDigimon(null, null))
+                    {
+                        AttackingPermanent = null;
+                    }
+                }
+            }
+        }
+
+#if UNITY_EDITOR
+        AttackingPermanent = null;
+#endif
+
+        if (AttackingPermanent != null || !gameContext.TurnPlayer.HandCards.Some((cardSource) => cardSource.CanPlayFromHandDuringMainPhase))
+        {
+            return;
+        }
+
+        List<CardSource> CanPlayCards = new List<CardSource>();
+
+        foreach (CardSource cardSource in gameContext.TurnPlayer.HandCards)
+        {
+            if (cardSource.CanPlayFromHandDuringMainPhase)
+            {
+                CanPlayCards.Add(cardSource);
+            }
+        }
+
+        CanPlayCards = CanPlayCards
+            .OrderBy((value) => Array.IndexOf(DataBase.cardKinds, value.CardKind))
+            .ThenBy((value) => Array.IndexOf(new bool[] { true, false }, value.Owner.fieldCardFrames.Count((frame) => value.CanPlayCardTargetFrame(frame, true, null) && !frame.IsEmptyFrame()) >= 1))
+            .ToList();
+
+        if (CanPlayCards.Count == 0)
+        {
+            return;
+        }
+
+        foreach (CardSource cardSource in CanPlayCards)
+        {
+            if (!RandomUtility.IsSucceedProbability(0.99f))
+            {
+                continue;
+            }
+
+            PlayCard = cardSource;
+
+            if (!PlayCard.IsPermanent)
+            {
+                break;
+            }
+
+            List<int> frameIDCandidates = new List<int>();
+
+            for (int i = 0; i < gameContext.TurnPlayer.fieldCardFrames.Count; i++)
+            {
+                if (!PlayCard.CanPlayCardTargetFrame(gameContext.TurnPlayer.fieldCardFrames[i], true, null))
+                {
+                    continue;
+                }
+
+                int k = i;
+                int count = 4;
+
+                if (gameContext.TurnPlayer.fieldCardFrames[k].IsEmptyFrame())
+                {
+                    if (frameIDCandidates.Count((id) => gameContext.TurnPlayer.fieldCardFrames[id].IsEmptyFrame()) >= 1)
+                    {
+                        continue;
+                    }
+
+                    count = 1;
+                }
+
+                for (int j = 0; j < count; j++)
+                {
+                    frameIDCandidates.Add(k);
+                }
+            }
+
+            if (frameIDCandidates.Count >= 1)
+            {
+                TargetFrameID = frameIDCandidates[UnityEngine.Random.Range(0, frameIDCandidates.Count)];
+
+                if (gameContext.TurnPlayer.fieldCardFrames[TargetFrameID].IsEmptyFrame())
+                {
+                    TargetFrameID = PlayCard.PreferredFrame().FrameID;
+                }
+            }
+
+            break;
+        }
     }
 
     AIChosenAction BuildActualMainPhaseActionFromLiveState()
@@ -1062,10 +1613,10 @@ public class TurnStateMachine : MonoBehaviourPunCallbacks
                 if (GManager.instance.IsAI)
                 {
                     AISnapshot snapshot = AISnapshotBuilder.Build(gameContext, gameContext.TurnPlayer, AIChosenAction.AIDecisionType.Breeding, TurnCount);
-                    AIChosenAction legacyAction = AILegacyActionAdapter.Normalize(GManager.instance.LegacyAIBrain.DecideBreeding(snapshot));
-                    bool doAction = legacyAction.ActionKind == AIChosenAction.AIActionKind.Hatch || legacyAction.ActionKind == AIChosenAction.AIActionKind.MoveOut;
+                    AIChosenAction chosenAction = DecideBreedingAction(snapshot);
+                    bool doAction = chosenAction.ActionKind == AIChosenAction.AIActionKind.Hatch || chosenAction.ActionKind == AIChosenAction.AIActionKind.MoveOut;
 
-                    TryLogShadowBreeding(snapshot, legacyAction);
+                    TryLogShadowBreeding(snapshot, chosenAction);
                     SetBreedingPhase(doAction);
                 }
                 #endregion
@@ -1277,163 +1828,51 @@ public class TurnStateMachine : MonoBehaviourPunCallbacks
                 if (GManager.instance.IsAI && !gameContext.TurnPlayer.isYou)
                 {
                     AIShadowDecisionContext shadowDecision = BuildMainPhaseShadowDecision(gameContext.TurnPlayer);
+                    AISnapshot snapshot = AISnapshotBuilder.Build(gameContext, gameContext.TurnPlayer, AIChosenAction.AIDecisionType.MainPhase, TurnCount);
+                    List<AIMainPhaseCandidate> candidates = AIMainPhaseCandidateBuilder.Build(gameContext, gameContext.TurnPlayer);
+                    AIChosenAction appliedAction = null;
+                    string applyFailureReason = "";
+                    IAIBrain primaryBrain = GManager.instance.PrimaryAIBrain;
+                    bool appliedBrainAction = TryApplyBrainMainPhaseAction(
+                        primaryBrain,
+                        snapshot,
+                        candidates,
+                        "primary",
+                        out appliedAction,
+                        out applyFailureReason);
 
-                    if (RandomUtility.IsSucceedProbability(0.99f))
+                    if (!appliedBrainAction)
                     {
-                        if (gameContext.TurnPlayer.GetFieldPermanents().Count((permanent) => permanent.CanAttack(null)) > 0)
+                        if (!string.IsNullOrEmpty(applyFailureReason))
                         {
-                            #region アタック
-                            List<Permanent> CanAttackPermenents = new List<Permanent>();
-
-                            foreach (Permanent permanent in gameContext.TurnPlayer.GetFieldPermanents())
-                            {
-                                if (permanent.CanAttack(null))
-                                {
-                                    CanAttackPermenents.Add(permanent);
-                                }
-                            }
-
-                            if (CanAttackPermenents.Count >= 1)
-                            {
-                                AttackingPermanent = CanAttackPermenents[UnityEngine.Random.Range(0, CanAttackPermenents.Count)];
-
-                                bool isSecurityAttack = true;
-
-                                List<Permanent> DefendingPermanentCandidates = new List<Permanent>();
-
-                                foreach (Permanent permanent in gameContext.NonTurnPlayer.GetFieldPermanents())
-                                {
-                                    if (AttackingPermanent.CanAttackTargetDigimon(permanent, null) && AttackingPermanent.DP >= permanent.DP)
-                                    {
-                                        DefendingPermanentCandidates.Add(permanent);
-                                    }
-                                }
-
-                                if (DefendingPermanentCandidates.Count >= 1)
-                                {
-                                    if (RandomUtility.IsSucceedProbability(0.5f))
-                                    {
-                                        isSecurityAttack = false;
-                                    }
-                                }
-
-                                if (gameContext.NonTurnPlayer.SecurityCards.Count <= 1)
-                                {
-                                    isSecurityAttack = true;
-                                }
-
-                                if (!isSecurityAttack)
-                                {
-                                    if (DefendingPermanentCandidates.Count >= 1)
-                                    {
-                                        DefendingPermanent = DefendingPermanentCandidates[UnityEngine.Random.Range(0, DefendingPermanentCandidates.Count)];
-                                    }
-
-                                    else
-                                    {
-                                        AttackingPermanent = null;
-                                    }
-                                }
-
-                                else
-                                {
-                                    if (!AttackingPermanent.CanAttackTargetDigimon(null, null))
-                                    {
-                                        AttackingPermanent = null;
-                                    }
-                                }
-                            }
-                            #endregion
+                            Debug.LogWarning($"MainPhase AI primary fallback: {applyFailureReason}");
                         }
 
-#if UNITY_EDITOR
-                        AttackingPermanent = null;
-#endif
-
-                        if (AttackingPermanent == null)
+                        IAIBrain dummyBrain = GetDummyAIBrain();
+                        if (dummyBrain != null && dummyBrain != primaryBrain)
                         {
-                            if (gameContext.TurnPlayer.HandCards.Some((cardSource) => cardSource.CanPlayFromHandDuringMainPhase))
+                            string dummyFailureReason = "";
+                            appliedBrainAction = TryApplyBrainMainPhaseAction(
+                                dummyBrain,
+                                snapshot,
+                                candidates,
+                                "dummy fallback",
+                                out appliedAction,
+                                out dummyFailureReason);
+
+                            if (!appliedBrainAction && !string.IsNullOrEmpty(dummyFailureReason))
                             {
-                                #region カードをプレイ
-                                List<CardSource> CanPlayCards = new List<CardSource>();
-
-                                foreach (CardSource cardSource in gameContext.TurnPlayer.HandCards)
-                                {
-                                    if (cardSource.CanPlayFromHandDuringMainPhase)
-                                    {
-                                        CanPlayCards.Add(cardSource);
-                                    }
-                                }
-
-                                CanPlayCards = CanPlayCards
-                                    .OrderBy((value) => Array.IndexOf(DataBase.cardKinds, value.CardKind))
-                                    .ThenBy((value) => Array.IndexOf(new bool[] { true, false }, value.Owner.fieldCardFrames.Count((frame) => value.CanPlayCardTargetFrame(frame, true, null) && !frame.IsEmptyFrame()) >= 1))
-                                    .ToList();
-
-                                if (CanPlayCards.Count > 0)
-                                {
-                                    foreach (CardSource cardSource in CanPlayCards)
-                                    {
-                                        if (RandomUtility.IsSucceedProbability(0.99f))
-                                        {
-                                            PlayCard = cardSource;
-
-                                            if (PlayCard.IsPermanent)
-                                            {
-                                                List<int> frameIDCandidates = new List<int>();
-
-                                                for (int i = 0; i < gameContext.TurnPlayer.fieldCardFrames.Count; i++)
-                                                {
-                                                    if (PlayCard.CanPlayCardTargetFrame(gameContext.TurnPlayer.fieldCardFrames[i], true, null))
-                                                    {
-                                                        int k = i;
-
-                                                        int count = 4;
-
-                                                        if (gameContext.TurnPlayer.fieldCardFrames[k].IsEmptyFrame())
-                                                        {
-                                                            if (frameIDCandidates.Count((id) => gameContext.TurnPlayer.fieldCardFrames[id].IsEmptyFrame()) >= 1)
-                                                            {
-                                                                continue;
-                                                            }
-
-                                                            count = 1;
-                                                        }
-
-                                                        for (int j = 0; j < count; j++)
-                                                        {
-                                                            frameIDCandidates.Add(k);
-                                                        }
-                                                    }
-                                                }
-
-                                                if (frameIDCandidates.Count >= 1)
-                                                {
-                                                    TargetFrameID = frameIDCandidates[UnityEngine.Random.Range(0, frameIDCandidates.Count)];
-
-                                                    if (gameContext.TurnPlayer.fieldCardFrames[TargetFrameID].IsEmptyFrame())
-                                                    {
-                                                        TargetFrameID = PlayCard.PreferredFrame().FrameID;
-                                                    }
-
-                                                    break;
-                                                }
-                                            }
-
-                                            else
-                                            {
-                                                break;
-                                            }
-                                        }
-                                    }
-                                }
-                                #endregion
-
+                                Debug.LogWarning($"MainPhase AI dummy fallback failed, using inline emergency logic: {dummyFailureReason}");
                             }
                         }
                     }
 
-                    if (PlayCard == null && UseCardEffect == null && UseCardEffect == null && AttackingPermanent == null)
+                    if (!appliedBrainAction)
+                    {
+                        TryApplyLegacyInlineMainPhaseFallback();
+                    }
+
+                    if (PlayCard == null && UseCardEffect == null && AttackingPermanent == null)
                     {
                         yield return ContinuousController.instance.StartCoroutine(GManager.instance.autoProcessing.EndTurnProcess());
                     }

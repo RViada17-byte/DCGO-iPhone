@@ -84,6 +84,8 @@ public class Opening : MonoBehaviour
 
     [Header("BGMObject")]
     public BGMObject OpeningBGM;
+    bool _hasAppliedBackgroundParticleState;
+    bool _lastBackgroundParticleState;
     private void Awake()
     {
         StartupPerfTrace.StartBootIfNeeded("Opening.Awake");
@@ -125,13 +127,27 @@ public class Opening : MonoBehaviour
 
         GetRayCast();
 
+        UpdateBackgroundParticles();
+    }
+
+    void UpdateBackgroundParticles()
+    {
         if (ContinuousController.instance != null)
         {
+            bool showBackgroundParticles = ContinuousController.instance.showBackgroundParticle;
+            if (_hasAppliedBackgroundParticleState && _lastBackgroundParticleState == showBackgroundParticles)
+            {
+                return;
+            }
+
+            _hasAppliedBackgroundParticleState = true;
+            _lastBackgroundParticleState = showBackgroundParticles;
+
             foreach (ParticleSystem particleSystem in _backgroundParticles)
             {
-                if (particleSystem != null)
+                if (particleSystem != null && particleSystem.gameObject.activeSelf != showBackgroundParticles)
                 {
-                    particleSystem.gameObject.SetActive(ContinuousController.instance.showBackgroundParticle);
+                    particleSystem.gameObject.SetActive(showBackgroundParticles);
                 }
             }
         }

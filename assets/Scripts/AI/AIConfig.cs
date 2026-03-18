@@ -4,6 +4,9 @@ public class AIConfig
     public AIRolloutMode RolloutMode { get; private set; }
 
     public bool IsShadowEnabled => RolloutMode == AIRolloutMode.ShadowOnly;
+    public bool IsLegacyPrimary => EngineVersion == AIEngineVersion.Legacy;
+    public bool IsGreedyPrimary => EngineVersion == AIEngineVersion.GreedyShadow;
+    public bool IsLegacyShadowComparisonEnabled => IsLegacyPrimary && IsShadowEnabled;
 
     public AIConfig(AIEngineVersion engineVersion, AIRolloutMode rolloutMode)
     {
@@ -15,7 +18,7 @@ public class AIConfig
     {
         if (isAiMatch && isOfflineBotMatch)
         {
-            return new AIConfig(AIEngineVersion.Legacy, AIRolloutMode.ShadowOnly);
+            return new AIConfig(AIEngineVersion.GreedyShadow, AIRolloutMode.Disabled);
         }
 
         return new AIConfig(AIEngineVersion.Legacy, AIRolloutMode.Disabled);

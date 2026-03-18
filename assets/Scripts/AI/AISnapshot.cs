@@ -26,7 +26,7 @@ public class AISnapshot
                     ? "develop"
                     : "neutral";
 
-        return $"phase={PhaseName} mem={Memory} selfSec={Self.SecurityCount} oppSec={Opponent.SecurityCount} hand={Self.HandCount} selfBattle={Self.BattlePermanents.Count} oppBattle={Opponent.BattlePermanents.Count} oppBlockers={Opponent.BattlePermanents.Count(permanent => permanent.HasBlocker)} race={raceMode} secΔ={Race.SecurityDelta} boardΔ={Race.BoardValueDelta} pressΔ={Race.ImmediatePressureDelta} breeding={breeding}";
+        return $"phase={PhaseName} mem={Memory} selfSec={Self.SecurityCount} oppSec={Opponent.SecurityCount} hand={Self.HandCount} selfBattle={Self.BattlePermanents.Count} oppBattle={Opponent.BattlePermanents.Count} oppBlockers={Opponent.BattlePermanents.Count(permanent => permanent.HasBlocker)} race={raceMode} secΔ={Race.SecurityDelta} boardΔ={Race.BoardValueDelta} pressΔ={Race.ImmediatePressureDelta} crack={Race.OpponentVisibleCrackbackScore} suff={Self.DevelopmentSufficiencyScore} breeding={breeding}";
     }
 
     public int SelfThreatCount => Self.ReadyDigimonCount;
@@ -57,6 +57,13 @@ public class AISnapshotPlayerView
     public int ImmediatePressureScore { get; set; } = 0;
     public int CounterPressureScore { get; set; } = 0;
     public int BreedingValueScore { get; set; } = 0;
+    public int VisibleBreedingPressureScore { get; set; } = 0;
+    public bool HasExistingMemorySetter { get; set; } = false;
+    public bool HasOnlineBreedingStack { get; set; } = false;
+    public bool HasEnoughAttackersToPressure { get; set; } = false;
+    public bool HasEnoughBoardToConvert { get; set; } = false;
+    public bool DevelopmentSufficient { get; set; } = false;
+    public int DevelopmentSufficiencyScore { get; set; } = 0;
     public List<AISnapshotCardView> KnownHandCards { get; private set; } = new List<AISnapshotCardView>();
     public List<AISnapshotCardView> KnownTrashCards { get; private set; } = new List<AISnapshotCardView>();
     public List<AISnapshotPermanentView> BattlePermanents { get; private set; } = new List<AISnapshotPermanentView>();
@@ -70,8 +77,13 @@ public class AISnapshotRaceSummary
     public int BoardValueDelta { get; set; } = 0;
     public int ImmediatePressureDelta { get; set; } = 0;
     public int CounterPressureDelta { get; set; } = 0;
+    public int SelfDefensiveBuffer { get; set; } = 0;
+    public int OpponentVisibleBreedingPressure { get; set; } = 0;
+    public int OpponentVisibleNextTurnPressure { get; set; } = 0;
+    public int OpponentVisibleCrackbackScore { get; set; } = 0;
     public bool HasBoardAdvantage { get; set; } = false;
     public bool OpponentCanPunishSlowTurn { get; set; } = false;
+    public bool OpponentHasDangerousCrackback { get; set; } = false;
     public bool SafeToDevelop { get; set; } = false;
     public bool ShouldConvertPressure { get; set; } = false;
     public bool ShouldStabilize { get; set; } = false;
@@ -109,4 +121,5 @@ public class AISnapshotPermanentView
     public int StackCount { get; set; } = 0;
     public int LinkedCount { get; set; } = 0;
     public bool InBreeding { get; set; } = false;
+    public bool LikelyMemorySetter { get; set; } = false;
 }

@@ -215,18 +215,36 @@ public class GManager : MonoBehaviourPun
     public AIConfig AIConfig { get; private set; } = null;
     public IAIBrain LegacyAIBrain { get; private set; } = null;
     public IAIBrain GreedyShadowBrain { get; private set; } = null;
+    public IAIBrain DummyAIBrain => LegacyAIBrain ?? GreedyShadowBrain;
+    public IAIBrain PrimaryAIBrain
+    {
+        get
+        {
+            if (AIConfig != null && AIConfig.IsGreedyPrimary)
+            {
+                return GreedyShadowBrain ?? LegacyAIBrain;
+            }
+
+            return LegacyAIBrain ?? GreedyShadowBrain;
+        }
+    }
 
     public bool IsAIShadowEnabled
     {
         get
         {
-            return AIConfig != null && AIConfig.IsShadowEnabled;
+            return AIConfig != null
+                && AIConfig.IsLegacyShadowComparisonEnabled
+                && LegacyAIBrain != null
+                && GreedyShadowBrain != null;
         }
     }
 
     public int CardIndex { get; set; } = 0;
 
     public bool ActivateShortcuts = false;
+    bool _hasAppliedBackgroundParticleState;
+    bool _lastBackgroundParticleState;
 
     #region Events
 
@@ -282,7 +300,8 @@ public class GManager : MonoBehaviourPun
 
         AIConfig = global::AIConfig.CreateDefault(IsAI, BootstrapConfig.IsOfflineLocal);
         LegacyAIBrain = new LegacyAIBrain();
-        GreedyShadowBrain = AIConfig.IsShadowEnabled ? new GreedyShadowBrain() : null;
+        bool needsGreedyShadowBrain = AIConfig != null && (AIConfig.IsGreedyPrimary || AIConfig.IsShadowEnabled);
+        GreedyShadowBrain = needsGreedyShadowBrain ? new GreedyShadowBrain() : null;
 
         turnStateMachine = gameObject.AddComponent<TurnStateMachine>();
 
@@ -513,16 +532,7 @@ public class GManager : MonoBehaviourPun
 
     void Update()
     {
-        if (ContinuousController.instance != null)
-        {
-            foreach (ParticleSystem particleSystem in _backgroundParticles)
-            {
-                if (particleSystem != null)
-                {
-                    particleSystem.gameObject.SetActive(ContinuousController.instance.showBackgroundParticle);
-                }
-            }
-        }
+        UpdateBackgroundParticles();
 
         if (Input.GetKey(KeyCode.LeftControl) &&
            Input.GetKey(KeyCode.LeftShift) && 
@@ -532,6 +542,31 @@ public class GManager : MonoBehaviourPun
 
 
         AllowAlphaInputs();
+    }
+
+    void UpdateBackgroundParticles()
+    {
+        if (ContinuousController.instance == null)
+        {
+            return;
+        }
+
+        bool showBackgroundParticles = ContinuousController.instance.showBackgroundParticle;
+        if (_hasAppliedBackgroundParticleState && _lastBackgroundParticleState == showBackgroundParticles)
+        {
+            return;
+        }
+
+        _hasAppliedBackgroundParticleState = true;
+        _lastBackgroundParticleState = showBackgroundParticles;
+
+        foreach (ParticleSystem particleSystem in _backgroundParticles)
+        {
+            if (particleSystem != null && particleSystem.gameObject.activeSelf != showBackgroundParticles)
+            {
+                particleSystem.gameObject.SetActive(showBackgroundParticles);
+            }
+        }
     }
 
     void AllowAlphaInputs()

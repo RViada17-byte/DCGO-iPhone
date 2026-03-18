@@ -46,7 +46,7 @@ public class LanguagePanel : OffAnimation
             {
                 void OnToggleChange(Language language)
                 {
-                    ContinuousController.instance.language = language;
+                    ContinuousController.instance.SetLanguage(language);
                     ContinuousController.instance.SaveLanguage();
                 }
 

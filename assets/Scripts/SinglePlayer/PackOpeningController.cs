@@ -1962,9 +1962,11 @@ private void ApplySummaryWidgetTheme()
         }
 
         int rarityScore = GetRarityPriority(entry.Rarity) * 100;
+        int chaseBonus = entry.IsChase ? 300 : 0;
+        int altPrintBonus = entry.IsAltPrint ? 140 : 0;
         int newBonus = entry.IsNew ? 25 : 0;
         int copyPenalty = entry.Count > 1 ? Mathf.Min(8, entry.Count) : 0;
-        return rarityScore + newBonus - copyPenalty - originalIndex;
+        return rarityScore + chaseBonus + altPrintBonus + newBonus - copyPenalty - originalIndex;
     }
 
     private static int GetRarityPriority(Rarity rarity)
@@ -2093,6 +2095,15 @@ private void ApplySummarySelection(int index)
         if (!string.IsNullOrWhiteSpace(entry.CardId))
         {
             statusParts.Add(entry.CardId.Trim());
+        }
+
+        if (entry.IsChase)
+        {
+            statusParts.Add("CHASE");
+        }
+        else if (entry.IsAltPrint)
+        {
+            statusParts.Add("ALT ART");
         }
 
         if (entry.IsNew)

@@ -103,6 +103,8 @@ public class PackOpeningResult
                 SpriteName = ResolveSpriteName(cardResult, cardEntity),
                 Rarity = cardEntity != null ? cardEntity.rarity : Rarity.None,
                 IsNew = cardResult.IsNew,
+                IsChase = cardResult.IsChase,
+                IsAltPrint = IsAlternatePrint(cardResult, cardEntity),
                 Count = Mathf.Max(1, cardResult.Count),
                 CardAsset = cardEntity,
             });
@@ -193,6 +195,23 @@ public class PackOpeningResult
         return string.Empty;
     }
 
+    private static bool IsAlternatePrint(ShopPurchaseCardResult cardResult, CEntity_Base cardEntity)
+    {
+        if (cardEntity != null)
+        {
+            return !cardEntity.IsCanonicalPrint;
+        }
+
+        string normalizedCardId = CardPrintCatalog.NormalizeLookupCode(cardResult?.CardId);
+        string normalizedPrintId = CardPrintCatalog.NormalizeLookupCode(cardResult?.PrintId);
+        if (string.IsNullOrEmpty(normalizedCardId) || string.IsNullOrEmpty(normalizedPrintId))
+        {
+            return false;
+        }
+
+        return !string.Equals(normalizedCardId, normalizedPrintId, StringComparison.OrdinalIgnoreCase);
+    }
+
     [Serializable]
     public class CardEntry
     {
@@ -202,11 +221,13 @@ public class PackOpeningResult
         public string SpriteName;
         public Rarity Rarity = Rarity.None;
         public bool IsNew;
+        public bool IsChase;
+        public bool IsAltPrint;
         public int Count = 1;
         [NonSerialized] public CEntity_Base CardAsset;
         [NonSerialized] private Task<Sprite> _spriteTask;
 
-        public bool IsRare => PackPresentationTheme.IsBurstRarityStatic(Rarity);
+        public bool IsRare => IsChase || IsAltPrint || PackPresentationTheme.IsBurstRarityStatic(Rarity);
 
         public Task<Sprite> LoadSpriteAsync()
         {

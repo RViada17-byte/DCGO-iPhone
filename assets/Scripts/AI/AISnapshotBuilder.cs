@@ -129,6 +129,7 @@ public static class AISnapshotBuilder
             StackCount = permanent.StackCards.Count,
             LinkedCount = permanent.LinkedCards.Count,
             InBreeding = inBreeding,
+            LikelyMemorySetter = IsLikelyMemorySetter(permanent.TopCard),
         };
     }
 
@@ -150,6 +151,11 @@ public static class AISnapshotBuilder
             {
                 view.BattleTamerCount += 1;
                 view.BoardValueScore += 3;
+
+                if (permanent.LikelyMemorySetter)
+                {
+                    view.HasExistingMemorySetter = true;
+                }
             }
 
             if (!permanent.IsDigimon)
@@ -209,7 +215,15 @@ public static class AISnapshotBuilder
                 + level
                 + Min(permanent.StackCount, 4)
                 + Min(Max(permanent.DP, 0) / 4000, 3);
+            view.VisibleBreedingPressureScore += EvaluateVisibleBreedingPressure(permanent);
+
+            if (permanent.CanMove && IsOnlineBreedingStack(permanent))
+            {
+                view.HasOnlineBreedingStack = true;
+            }
         }
+
+        FinalizeDevelopmentSufficiency(view);
     }
 
     static void ResetBoardSummary(AISnapshotPlayerView view)
@@ -232,6 +246,13 @@ public static class AISnapshotBuilder
         view.ImmediatePressureScore = 0;
         view.CounterPressureScore = 0;
         view.BreedingValueScore = 0;
+        view.VisibleBreedingPressureScore = 0;
+        view.HasExistingMemorySetter = false;
+        view.HasOnlineBreedingStack = false;
+        view.HasEnoughAttackersToPressure = false;
+        view.HasEnoughBoardToConvert = false;
+        view.DevelopmentSufficient = false;
+        view.DevelopmentSufficiencyScore = 0;
     }
 
     static AISnapshotRaceSummary BuildRaceSummary(AISnapshot snapshot)
@@ -251,14 +272,27 @@ public static class AISnapshotBuilder
         race.HasBoardAdvantage = race.BoardValueDelta >= 4 || (race.BoardValueDelta >= 0 && race.BoardDigimonDelta > 0);
 
         int selfDefensiveBuffer = snapshot.Self.SecurityCount + snapshot.Self.BlockerCount + snapshot.Self.LargeThreatCount;
+        race.SelfDefensiveBuffer = selfDefensiveBuffer;
+        race.OpponentVisibleBreedingPressure = snapshot.Opponent.VisibleBreedingPressureScore;
+        race.OpponentVisibleNextTurnPressure = snapshot.Opponent.CounterPressureScore + race.OpponentVisibleBreedingPressure;
+        race.OpponentVisibleCrackbackScore =
+            race.OpponentVisibleNextTurnPressure
+            + Min(snapshot.Opponent.BlockerCount, 2)
+            + Min(snapshot.Opponent.PremiumThreatCount, 1);
+        race.OpponentHasDangerousCrackback =
+            race.OpponentVisibleCrackbackScore >= selfDefensiveBuffer
+            || (snapshot.Self.SecurityCount <= 3 && race.OpponentVisibleNextTurnPressure >= snapshot.Self.SecurityCount + snapshot.Self.BlockerCount)
+            || (snapshot.Self.SecurityCount <= 2 && race.OpponentVisibleNextTurnPressure >= 2);
         race.OpponentCanPunishSlowTurn =
-            snapshot.Opponent.CounterPressureScore >= selfDefensiveBuffer
+            race.OpponentHasDangerousCrackback
+            || snapshot.Opponent.CounterPressureScore >= selfDefensiveBuffer
             || (race.SecurityDelta < 0 && race.CounterPressureDelta < 0 && race.BoardValueDelta <= -2);
 
         race.ShouldStabilize =
             (snapshot.Self.SecurityCount <= 2 && snapshot.Opponent.CounterPressureScore >= selfDefensiveBuffer)
             || (snapshot.Self.SecurityCount <= 3 && race.BoardValueDelta <= -4 && race.CounterPressureDelta < 0)
-            || (race.SecurityDelta <= -2 && snapshot.Opponent.CounterPressureScore > snapshot.Self.CounterPressureScore + snapshot.Self.BlockerCount);
+            || (race.SecurityDelta <= -2 && snapshot.Opponent.CounterPressureScore > snapshot.Self.CounterPressureScore + snapshot.Self.BlockerCount)
+            || (race.OpponentHasDangerousCrackback && snapshot.Self.SecurityCount <= 3 && race.OpponentVisibleNextTurnPressure > snapshot.Self.CounterPressureScore + snapshot.Self.BlockerCount);
 
         race.ShouldConvertPressure =
             !race.ShouldStabilize
@@ -303,6 +337,125 @@ public static class AISnapshotBuilder
         }
 
         return score;
+    }
+
+    static int EvaluateVisibleBreedingPressure(AISnapshotPermanentView permanent)
+    {
+        if (permanent == null || !permanent.IsDigimon)
+        {
+            return 0;
+        }
+
+        int level = NormalizeLevel(permanent.Level);
+        int score = 0;
+
+        if (level >= 3 || permanent.StackCount >= 2)
+        {
+            score += 1;
+        }
+
+        if (level >= 5 || permanent.StackCount >= 3 || permanent.DP >= 7000)
+        {
+            score += 1;
+        }
+
+        if (level >= 6 || permanent.StackCount >= 4 || permanent.DP >= 10000)
+        {
+            score += 1;
+        }
+
+        if (permanent.CanMove)
+        {
+            score += 1;
+        }
+
+        return score;
+    }
+
+    static void FinalizeDevelopmentSufficiency(AISnapshotPlayerView view)
+    {
+        if (view == null)
+        {
+            return;
+        }
+
+        view.HasEnoughAttackersToPressure =
+            view.ReadyDigimonCount >= 2
+            || (view.ReadyDigimonCount >= 1 && (view.ImmediatePressureScore >= 2 || view.PremiumThreatCount > 0));
+
+        view.HasEnoughBoardToConvert =
+            (view.BattleDigimonCount >= 2 && (view.ImmediatePressureScore >= 2 || view.BoardValueScore >= 12))
+            || (view.ReadyDigimonCount >= 1 && view.PremiumThreatCount > 0 && view.BoardValueScore >= 10);
+
+        int sufficiencyScore = 0;
+        if (view.HasExistingMemorySetter)
+        {
+            sufficiencyScore += 1;
+        }
+
+        if (view.HasOnlineBreedingStack)
+        {
+            sufficiencyScore += 1;
+        }
+
+        if (view.HasEnoughAttackersToPressure)
+        {
+            sufficiencyScore += 1;
+        }
+
+        if (view.HasEnoughBoardToConvert)
+        {
+            sufficiencyScore += 1;
+        }
+
+        if (view.BattleTamerCount > 0)
+        {
+            sufficiencyScore += 1;
+        }
+
+        view.DevelopmentSufficiencyScore = sufficiencyScore;
+        view.DevelopmentSufficient =
+            sufficiencyScore >= 3
+            || (view.HasExistingMemorySetter && (view.HasEnoughAttackersToPressure || view.HasOnlineBreedingStack))
+            || (view.HasEnoughBoardToConvert && view.HasEnoughAttackersToPressure);
+    }
+
+    static bool IsOnlineBreedingStack(AISnapshotPermanentView permanent)
+    {
+        if (permanent == null || !permanent.IsDigimon)
+        {
+            return false;
+        }
+
+        return permanent.Level >= 5
+            || permanent.StackCount >= 3
+            || permanent.DP >= 7000;
+    }
+
+    static bool IsLikelyMemorySetter(CardSource card)
+    {
+        if (card == null || !card.IsTamer)
+        {
+            return false;
+        }
+
+        bool hasOnPlayEffect = card.HasOnPlayEffect;
+        bool hasStartTurnEffect = HasLightweightEffect(card, EffectTiming.OnStartTurn);
+        bool hasStartMainPhaseEffect = HasLightweightEffect(card, EffectTiming.OnStartMainPhase);
+        bool lowCostTamer = card.BasePlayCostFromEntity <= 4;
+
+        return lowCostTamer
+            && !hasOnPlayEffect
+            && !card.CanDeclareSkill
+            && (hasStartTurnEffect || hasStartMainPhaseEffect);
+    }
+
+    static bool HasLightweightEffect(CardSource card, EffectTiming timing)
+    {
+        return card != null
+            && card.EffectList(timing).Any(cardEffect => cardEffect != null
+                && !cardEffect.IsInheritedEffect
+                && !cardEffect.IsSecurityEffect);
     }
 
     static int EvaluateImmediatePressure(int level, int dp, int stackCount)

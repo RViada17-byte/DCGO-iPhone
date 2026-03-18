@@ -15,7 +15,13 @@ public class StreamingAssetsUtility
 
     public static async Task<byte[]> ReadFile(string path)
     {
-        using (FileStream fileStream = new FileStream(path, FileMode.Open, FileAccess.Read))
+        using (FileStream fileStream = new FileStream(
+                   path,
+                   FileMode.Open,
+                   FileAccess.Read,
+                   FileShare.Read,
+                   4096,
+                   FileOptions.Asynchronous | FileOptions.SequentialScan))
         {
             var resultBytes = new byte[fileStream.Length];
             await fileStream.ReadAsync(resultBytes, 0, (int)fileStream.Length);
@@ -26,7 +32,7 @@ public class StreamingAssetsUtility
     public static Texture2D BinaryToTexture(byte[] bytes)
     {
         Texture2D texture = new Texture2D(1, 1, TextureFormat.RGBA32, false);
-        if (!texture.LoadImage(bytes))
+        if (!texture.LoadImage(bytes, true))
         {
             UnityEngine.Object.Destroy(texture);
             return null;

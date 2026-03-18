@@ -5,6 +5,15 @@ using UnityEngine;
 
 public static class AIMainPhaseCandidateBuilder
 {
+    struct SemanticSignals
+    {
+        public bool HasRemoval;
+        public bool HasDrawFilter;
+        public bool HasTempo;
+        public bool HasProtection;
+        public bool HasFloodgate;
+    }
+
     public static List<AIMainPhaseCandidate> Build(GameContext gameContext, Player player)
     {
         List<AIMainPhaseCandidate> candidates = new List<AIMainPhaseCandidate>();
@@ -257,6 +266,7 @@ public static class AIMainPhaseCandidateBuilder
                 SourceDP = permanent.DP,
                 SourceStackCount = permanent.StackCards.Count,
                 ProjectedMemory = gameContext.Memory,
+                EffectIntent = DetermineEffectIntent(permanent.TopCard, effect),
                 DownstreamResolutionNotControlled = true,
             });
         }
@@ -285,6 +295,7 @@ public static class AIMainPhaseCandidateBuilder
                     MemoryCost = optionCost,
                     ProjectedMemory = player.ExpectedMemory(optionCost),
                     PlayIntent = DeterminePlayIntent(card),
+                    EffectIntent = DetermineEffectIntent(card, null),
                     DownstreamResolutionNotControlled = true,
                 });
             }
@@ -535,6 +546,7 @@ public static class AIMainPhaseCandidateBuilder
                     SourceLevel = card.HasLevel ? card.Level : 0,
                     MemoryCost = cost,
                     ProjectedMemory = card.Owner != null ? card.Owner.ExpectedMemory(cost) : gameContext.Memory,
+                    EffectIntent = DetermineEffectIntent(card, effect),
                     DownstreamResolutionNotControlled = true,
                 });
             }
@@ -744,6 +756,7 @@ public static class AIMainPhaseCandidateBuilder
             return AIPlayIntent.Unknown;
         }
 
+        SemanticSignals signals = CollectCardSemanticSignals(card);
         bool hasOnPlayEffect = card.HasOnPlayEffect;
         bool hasWhenDigivolvingEffect = card.HasWhenDigivolvingEffect;
         bool hasInheritedEffect = card.HasInheritedEffect;
@@ -772,9 +785,29 @@ public static class AIMainPhaseCandidateBuilder
 
         if (card.IsOption)
         {
-            if (playCost >= 5 || card.OverflowMemory > 0 || hasOptionUseEffect)
+            if (signals.HasRemoval || playCost >= 6 || card.OverflowMemory > 0)
             {
                 return AIPlayIntent.RemovalOption;
+            }
+
+            if (signals.HasProtection)
+            {
+                return AIPlayIntent.ProtectionOption;
+            }
+
+            if (signals.HasDrawFilter)
+            {
+                return AIPlayIntent.DrawFilterOption;
+            }
+
+            if (signals.HasFloodgate)
+            {
+                return AIPlayIntent.Floodgate;
+            }
+
+            if (signals.HasTempo || hasOptionUseEffect)
+            {
+                return AIPlayIntent.TempoOption;
             }
 
             return AIPlayIntent.TempoOption;
@@ -802,12 +835,18 @@ public static class AIMainPhaseCandidateBuilder
                 return AIPlayIntent.Finisher;
             }
 
-            if (lowCostPassiveDigimon)
+            if (signals.HasFloodgate || lowCostPassiveDigimon)
             {
                 return AIPlayIntent.Floodgate;
             }
 
-            if (cheapDigimon || hasOnPlayEffect || hasInheritedEffect || hasWhenDigivolvingEffect)
+            if (cheapDigimon
+                || hasOnPlayEffect
+                || hasInheritedEffect
+                || hasWhenDigivolvingEffect
+                || signals.HasTempo
+                || signals.HasProtection
+                || signals.HasDrawFilter)
             {
                 return AIPlayIntent.BodyDevelopment;
             }
@@ -816,6 +855,202 @@ public static class AIMainPhaseCandidateBuilder
         }
 
         return AIPlayIntent.Unknown;
+    }
+
+    static AIEffectIntent DetermineEffectIntent(CardSource sourceCard, ICardEffect effect)
+    {
+        SemanticSignals signals = new SemanticSignals();
+        ApplyEffectSemantics(ref signals, effect);
+
+        if (!signals.HasRemoval
+            && !signals.HasDrawFilter
+            && !signals.HasTempo
+            && !signals.HasProtection
+            && !signals.HasFloodgate)
+        {
+            signals = CollectCardSemanticSignals(sourceCard);
+        }
+
+        if (signals.HasRemoval)
+        {
+            return AIEffectIntent.Removal;
+        }
+
+        if (signals.HasProtection)
+        {
+            return AIEffectIntent.Protection;
+        }
+
+        if (signals.HasDrawFilter)
+        {
+            return AIEffectIntent.DrawFilter;
+        }
+
+        if (signals.HasFloodgate)
+        {
+            return AIEffectIntent.Floodgate;
+        }
+
+        if (signals.HasTempo)
+        {
+            return AIEffectIntent.Tempo;
+        }
+
+        return sourceCard != null ? AIEffectIntent.Utility : AIEffectIntent.Unknown;
+    }
+
+    static SemanticSignals CollectCardSemanticSignals(CardSource card)
+    {
+        SemanticSignals signals = new SemanticSignals();
+        if (card == null)
+        {
+            return signals;
+        }
+
+        ApplyEffectSemantics(ref signals, card.EffectList(EffectTiming.OnDeclaration));
+        ApplyEffectSemantics(ref signals, card.EffectList(EffectTiming.OnUseOption));
+        ApplyEffectSemantics(ref signals, card.EffectList(EffectTiming.OptionSkill));
+        ApplyEffectSemantics(ref signals, card.EffectList(EffectTiming.OnEnterFieldAnyone));
+        ApplyEffectSemantics(ref signals, card.EffectList(EffectTiming.OnStartTurn));
+        ApplyEffectSemantics(ref signals, card.EffectList(EffectTiming.OnStartMainPhase));
+        ApplyEffectSemantics(ref signals, card.EffectList(EffectTiming.None));
+        return signals;
+    }
+
+    static void ApplyEffectSemantics(ref SemanticSignals signals, IEnumerable<ICardEffect> effects)
+    {
+        if (effects == null)
+        {
+            return;
+        }
+
+        foreach (ICardEffect effect in effects)
+        {
+            ApplyEffectSemantics(ref signals, effect);
+        }
+    }
+
+    static void ApplyEffectSemantics(ref SemanticSignals signals, ICardEffect effect)
+    {
+        if (effect == null || effect.IsInheritedEffect || effect.IsSecurityEffect)
+        {
+            return;
+        }
+
+        string semanticText = BuildSemanticText(effect);
+
+        if (effect is ICannotAddMemoryEffect
+            || effect is ICanNotPlayCardEffect
+            || effect is ICanNotDigivolveEffect
+            || effect is ICanNotMoveEffect
+            || effect is ICanNotPutFieldEffect
+            || effect is ICannotReduceCostEffect
+            || effect is ICannotIgnoreDigivolutionConditionEffect
+            || effect is ICannotAddSecurityEffect
+            || semanticText.Contains("cannotaddmemory")
+            || semanticText.Contains("cannotplay")
+            || semanticText.Contains("cannotdigivolve")
+            || semanticText.Contains("cannotmove")
+            || semanticText.Contains("cannotputfield")
+            || semanticText.Contains("cannotreducecost")
+            || semanticText.Contains("cannotaddsecurity"))
+        {
+            signals.HasFloodgate = true;
+        }
+
+        if (effect is ICanNotBeDestroyedEffect
+            || effect is ICanNotBeDestroyedByBattleEffect
+            || effect is ICanNotBeDestroyedBySkillEffect
+            || effect is ICanNotBeRemovedEffect
+            || effect is IImmuneFromDPMinusEffect
+            || effect is IImmuneFromDeDigivolveEffect
+            || effect is IImmuneFromStackTrashingEffect
+            || effect is ICanNotAffectedEffect
+            || semanticText.Contains("evade")
+            || semanticText.Contains("barrier")
+            || semanticText.Contains("immune")
+            || semanticText.Contains("cannotbedestroyed")
+            || semanticText.Contains("cannotberemoved")
+            || semanticText.Contains("cannotaffected"))
+        {
+            signals.HasProtection = true;
+        }
+
+        if (effect is IChangeDPDeleteEffectMaxDPEffect
+            || (effect is IChangeDPEffect changeDPEffect && changeDPEffect.IsMinusDP())
+            || effect is ICannotReturnToHandEffect
+            || effect is ICannotReturnToLibraryEffect
+            || semanticText.Contains("delete")
+            || semanticText.Contains("dedigivolve")
+            || semanticText.Contains("returntohand")
+            || semanticText.Contains("returntolibrary")
+            || semanticText.Contains("bounce"))
+        {
+            signals.HasRemoval = true;
+        }
+
+        if (effect is IRushEffect
+            || effect is IRebootEffect
+            || effect is IBlockerEffect
+            || effect is ICanNotUnsuspendEffect
+            || effect is ICanNotSuspendEffect
+            || effect is ICanNotAttackTargetDefendingPermanentEffect
+            || effect is ICannotBlockEffect
+            || effect is IChangeSAttackEffect
+            || (effect is IChangeDPEffect dpEffect && !dpEffect.IsMinusDP())
+            || semanticText.Contains("rush")
+            || semanticText.Contains("blitz")
+            || semanticText.Contains("blocker")
+            || semanticText.Contains("reboot")
+            || semanticText.Contains("suspend")
+            || semanticText.Contains("unsuspend")
+            || semanticText.Contains("cannotblock")
+            || semanticText.Contains("cannotattack")
+            || semanticText.Contains("changesattack"))
+        {
+            signals.HasTempo = true;
+        }
+
+        if (semanticText.Contains("draw")
+            || semanticText.Contains("search")
+            || semanticText.Contains("reveal")
+            || semanticText.Contains("addhand")
+            || semanticText.Contains("librarytop")
+            || semanticText.Contains("librarybottom")
+            || semanticText.Contains("decktop")
+            || semanticText.Contains("deckbottom")
+            || semanticText.Contains("look"))
+        {
+            signals.HasDrawFilter = true;
+        }
+    }
+
+    static string BuildSemanticText(ICardEffect effect)
+    {
+        if (effect == null)
+        {
+            return "";
+        }
+
+        string raw = string.Concat(
+            effect.GetType().Name ?? "",
+            "|",
+            effect.EffectName ?? "",
+            "|",
+            effect.HashString ?? "");
+
+        char[] buffer = new char[raw.Length];
+        int count = 0;
+        for (int i = 0; i < raw.Length; i++)
+        {
+            char c = raw[i];
+            if (char.IsLetterOrDigit(c))
+            {
+                buffer[count++] = char.ToLowerInvariant(c);
+            }
+        }
+
+        return count > 0 ? new string(buffer, 0, count) : "";
     }
 
     static bool HasLightweightEffect(CardSource card, EffectTiming timing)

@@ -4,8 +4,10 @@ public enum AIPlayIntent
     BodyDevelopment,
     MemorySetter,
     UtilityTamer,
+    DrawFilterOption,
     TempoOption,
     RemovalOption,
+    ProtectionOption,
     Floodgate,
     Finisher,
 }

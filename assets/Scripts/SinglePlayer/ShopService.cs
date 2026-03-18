@@ -10,6 +10,7 @@ public class ShopPurchaseCardResult
     public string CardName;
     public int Count = 1;
     public bool IsNew;
+    public bool IsChase;
 }
 
 public class ShopPurchaseResult
@@ -26,6 +27,7 @@ public class PackPullResult
 {
     public CEntity_Base Card;
     public bool WasNew;
+    public bool IsChase;
 }
 
 public static class ShopService
@@ -239,7 +241,7 @@ public static class ShopService
                 ownedPullCount++;
             }
 
-            ShopPurchaseCardResult cardResult = BuildCardResult(pull.Card, 1, pull.WasNew);
+            ShopPurchaseCardResult cardResult = BuildCardResult(pull.Card, 1, pull.WasNew, pull.IsChase);
             result.CardResults.Add(cardResult);
             result.Lines.Add(BuildHistoryCardLine(cardResult));
         }
@@ -683,7 +685,7 @@ public static class ShopService
             string.Equals(deckData.DeckID, deckId, StringComparison.OrdinalIgnoreCase));
     }
 
-    private static ShopPurchaseCardResult BuildCardResult(CEntity_Base card, int count, bool isNew)
+    private static ShopPurchaseCardResult BuildCardResult(CEntity_Base card, int count, bool isNew, bool isChase = false)
     {
         return new ShopPurchaseCardResult
         {
@@ -692,6 +694,7 @@ public static class ShopService
             CardName = GetCardDisplayName(card),
             Count = Mathf.Max(0, count),
             IsNew = isNew,
+            IsChase = isChase,
         };
     }
 
@@ -703,8 +706,27 @@ public static class ShopService
         }
 
         string prefix = cardResult.IsNew ? "NEW" : "OWNED";
+        if (cardResult.IsChase)
+        {
+            prefix += " CHASE";
+        }
+
         string countLabel = cardResult.Count > 1 ? $"{cardResult.Count}x " : string.Empty;
-        return $"{prefix}: {countLabel}{cardResult.CardId}, {cardResult.CardName}";
+        return $"{prefix}: {countLabel}{FormatCardResultCode(cardResult)}, {cardResult.CardName}";
+    }
+
+    private static string FormatCardResultCode(ShopPurchaseCardResult cardResult)
+    {
+        string cardId = cardResult?.CardId ?? string.Empty;
+        string normalizedCardId = CardPrintCatalog.NormalizeLookupCode(cardId);
+        string normalizedPrintId = CardPrintCatalog.NormalizeLookupCode(cardResult?.PrintId);
+        if (string.IsNullOrEmpty(normalizedPrintId) ||
+            string.Equals(normalizedCardId, normalizedPrintId, StringComparison.OrdinalIgnoreCase))
+        {
+            return cardId;
+        }
+
+        return $"{cardId} ({cardResult.PrintId})";
     }
 
     private static string BuildUnlockSummary(List<CEntity_Base> newlyUnlockedCards, int ownedOrDuplicateCount)
@@ -726,7 +748,11 @@ public static class ShopService
                 continue;
             }
 
-            names.Add($"{card.CardID}: {GetCardDisplayName(card)}");
+            string displayCode = CardPrintCatalog.NormalizeLookupCode(card.EffectivePrintID) ==
+                                 CardPrintCatalog.NormalizeLookupCode(card.CardID)
+                ? card.CardID
+                : $"{card.CardID} ({card.EffectivePrintID})";
+            names.Add($"{displayCode}: {GetCardDisplayName(card)}");
         }
 
         if (newlyUnlockedCards.Count > shownCount)

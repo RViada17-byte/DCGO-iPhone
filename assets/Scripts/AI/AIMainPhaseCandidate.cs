@@ -28,6 +28,7 @@ public class AIMainPhaseCandidate
     public int ProjectedMemory { get; set; } = 0;
     public int ImmediateSecurityPressure { get; set; } = 0;
     public AIPlayIntent PlayIntent { get; set; } = AIPlayIntent.Unknown;
+    public AIEffectIntent EffectIntent { get; set; } = AIEffectIntent.Unknown;
     public AIAttackIntent AttackIntent { get; set; } = AIAttackIntent.None;
     public AIAttackerValueTier AttackerValueTier { get; set; } = AIAttackerValueTier.Low;
     public bool LikelySafeAttack { get; set; } = false;

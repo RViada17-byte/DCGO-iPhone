@@ -121,6 +121,7 @@ public static class PackService
             {
                 Card = card,
                 WasNew = wasNew,
+                IsChase = false,
             });
         }
 
@@ -204,6 +205,7 @@ public static class PackService
             {
                 Card = card,
                 WasNew = wasNew,
+                IsChase = index == StructuredBoosterBaseSlotsPerPack && IsStructuredBoosterChaseCard(card),
             });
         }
 
@@ -420,6 +422,17 @@ public static class PackService
     }
 
     private static List<CEntity_Base> GetStructuredBoosterAltPrintPool(string setId, ISet<string> excludedCardIds)
+    {
+        List<CEntity_Base> preferredPool = BuildStructuredBoosterAltPrintPool(setId, excludedCardIds);
+        if (preferredPool.Count > 0 || excludedCardIds == null || excludedCardIds.Count == 0)
+        {
+            return preferredPool;
+        }
+
+        return BuildStructuredBoosterAltPrintPool(setId, excludedCardIds: null);
+    }
+
+    private static List<CEntity_Base> BuildStructuredBoosterAltPrintPool(string setId, ISet<string> excludedCardIds)
     {
         List<CEntity_Base> altPrints = new List<CEntity_Base>();
         CEntity_Base[] cardList = ContinuousController.instance?.CardList;

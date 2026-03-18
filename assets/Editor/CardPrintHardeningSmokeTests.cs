@@ -234,9 +234,7 @@ public static class CardPrintHardeningSmokeTests
 
             List<PackPullResult> pulls = PackService.OpenPack("BT1");
             AssertTrue(pulls.Count > 0, "PackService should still open packs.");
-            AssertTrue(
-                pulls.All(pull => pull.Card == CardPrintCatalog.GetCanonicalPrint(pull.Card.CardID)),
-                "PackService should still return canonical-only prints in V1.");
+            AssertTrue(pulls.All(pull => pull?.Card != null), "PackService should only return non-null pull cards.");
 
             string rewardCardId = pulls[0].Card.CardID;
             ProgressionManager.Instance.UnlockCanonicalPrint(rewardCardId, saveImmediately: false);
@@ -250,7 +248,7 @@ public static class CardPrintHardeningSmokeTests
                 AssertFalse(ProgressionManager.Instance.OwnsPrint(siblingAlt.EffectivePrintID), "Canonical reward unlock must not unlock sibling alt prints.");
             }
 
-            _results.Add("PASS 8: pack/reward flow remains canonical-only.");
+            _results.Add("PASS 8: pack rewards preserve canonical unlock isolation even when packs contain alternate prints.");
         }
 
         void TestSwappingPrintsKeepsGameplayIdentity()

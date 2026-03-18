@@ -7,17 +7,44 @@ public class SoundObject : MonoBehaviour
 {
     [HideInInspector] public bool isStartPlay;
     public AudioSource _audio { get; set; }
+    float _lastAppliedVolume = float.NaN;
+
+    AudioSource GetAudioSource()
+    {
+        if (_audio == null)
+        {
+            _audio = GetComponent<AudioSource>();
+        }
+
+        return _audio;
+    }
+
+    void ApplyVolumeIfNeeded()
+    {
+        AudioSource audioSource = GetAudioSource();
+        if (audioSource == null || ContinuousController.instance == null)
+        {
+            return;
+        }
+
+        float targetVolume = ContinuousController.instance.SEVolume * 0.5f * 0.8f;
+        if (Mathf.Approximately(_lastAppliedVolume, targetVolume))
+        {
+            return;
+        }
+
+        audioSource.volume = targetVolume;
+        _lastAppliedVolume = targetVolume;
+    }
 
     public void PlaySE(AudioClip clip)
     {
-        _audio = GetComponent<AudioSource>();
+        _audio = GetAudioSource();
 
         _audio.clip = clip;
 
-        if (ContinuousController.instance != null)
-        {
-            ContinuousController.instance.ChangeSEVolume(_audio);
-        }
+        _lastAppliedVolume = float.NaN;
+        ApplyVolumeIfNeeded();
 
         _audio.Play();
         isStartPlay = true;
@@ -27,10 +54,10 @@ public class SoundObject : MonoBehaviour
     {
         if (ContinuousController.instance != null)
         {
-            ContinuousController.instance.ChangeSEVolume(_audio);
+            ApplyVolumeIfNeeded();
         }
 
-        if (!_audio.isPlaying && isStartPlay)
+        if (_audio != null && !_audio.isPlaying && isStartPlay)
         {
             Destroy(this.gameObject);
         }

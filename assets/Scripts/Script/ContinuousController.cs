@@ -1673,8 +1673,15 @@ public class ContinuousController : MonoBehaviour
     #endregion
 
     #region Language
+    public static Action<Language> OnLanguageChanged;
     [HideInInspector] public Language language = Language.ENG;
     string _languageKey = "Language";
+
+    public void SetLanguage(Language language)
+    {
+        this.language = language;
+        OnLanguageChanged?.Invoke(language);
+    }
 
     public void SaveLanguage()
     {
@@ -1682,7 +1689,7 @@ public class ContinuousController : MonoBehaviour
     }
     public void LoadLanguage()
     {
-        language = (Language)Enum.Parse(typeof(Language), GameSaveManager.GetControllerData(this).Language);
+        SetLanguage((Language)Enum.Parse(typeof(Language), GameSaveManager.GetControllerData(this).Language));
     }
 
     public void SaveCanonicalState(string reason = null)
